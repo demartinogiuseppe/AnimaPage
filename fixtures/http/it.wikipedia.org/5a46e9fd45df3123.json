@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=funzione+f%28x%29&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T17:59:35.423Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 1862,
+     "ns": 0,
+     "title": "Funzione (matematica)",
+     "index": 2,
+     "extract": "Una funzione in matematica è una relazione tra due insiemi, chiamati dominio e codominio della funzione, che associa a ogni elemento del dominio uno e un solo elemento del codominio. In altre parole, una funzione è una relazione univoca e totale. Se si richiede solo l’univocità, cioè si ammette che alcuni elementi del dominio non abbiano un corrispondente, si parla di funzione parziale.\nSe il dominio e il codominio della funzione f sono rispettivamente indicati con X e Y, la relazione si indica con f:X→Y e l’elemento che f associa a x∈X si indica con f(x) (si pronuncia \"effe di x\").",
+     "pageprops": {
+      "wikibase_item": "Q11348"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:18Z",
+     "lastrevid": 152873999,
+     "length": 24585,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_(matematica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_(matematica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_(matematica)"
+    },
+    {
+     "pageid": 76562,
+     "ns": 0,
+     "title": "Funzione iniettiva",
+     "index": 3,
+     "extract": "In matematica, una funzione iniettiva (detta anche funzione ingettiva oppure iniezione) è una funzione che associa, a elementi distinti del dominio, elementi distinti del codominio.\nIn altre parole: una funzione da un insieme X a un insieme Y è iniettiva se ogni elemento di Y non può essere ottenuto in più modi diversi partendo dagli elementi di X.",
+     "pageprops": {
+      "wikibase_item": "Q182003"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:25Z",
+     "lastrevid": 151399498,
+     "length": 11478,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_iniettiva",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_iniettiva&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_iniettiva"
+    },
+    {
+     "pageid": 115121,
+     "ns": 0,
+     "title": "Funzione esponenziale",
+     "index": 1,
+     "extract": "In matematica, si definisce funzione esponenziale ogni funzione del tipo y=ax, dove a è un numero reale positivo fissato e diverso da 1, e la variabile indipendente x è reale e compare come esponente (da qui il nome).\n\nSe a>1, la funzione esponenziale è strettamente crescente. In particolare si dà il nome di \"funzione esponenziale naturale\" (o, sinteticamente, di \"esponenziale\") alla particolare funzione esponenziale y=ex (e=2,7182…, numero di Nepero).\n\nNel seguito della presente voce si farà riferimento, tranne quando altrimenti specificato, alla funzione esponenziale con base e, peraltro rappresentata con la notazione exp⁡(x) quando è difficoltoso scrivere la variabile come un esponente. \nL'importanza della  base e per la funzione esponenziale è motivata dal fatto che la sua derivata è la funzione esponenziale stessa (y' = y) e di conseguenza questo vale anche per ogni derivata successiva. A questo proposito e da un altro punto di vista, la relazione y' = y rappresenta l'equazione differenziale che definisce la funzione esponenziale y=ex. \nRiveste una grande importanza in moltissimi ambiti della matematica, come la trigonometria, lo studio delle equazioni differenziali, la teoria degli sviluppi di Taylor, lo studio delle trasformate integrali. Può essere definita, oltre che sui numeri reali, anche sui numeri complessi o anche su oggetti più complicati, come ad esempio le matrici quadrate oppure operatori. È inoltre la funzione inversa della funzione logaritmo (la funzione esponenziale naturale è l'inversa della funzione logaritmo naturale, ossia quella con base e).\n\n",
+     "pageprops": {
+      "wikibase_item": "Q47306354"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:28Z",
+     "lastrevid": 152346875,
+     "length": 24818,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_esponenziale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_esponenziale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_esponenziale"
+    },
+    {
+     "pageid": 2059793,
+     "ns": 0,
+     "title": "Funzione continua",
+     "index": 4,
+     "extract": "In matematica, una funzione continua è una funzione che, intuitivamente, fa corrispondere a elementi sufficientemente vicini del dominio elementi arbitrariamente vicini del codominio.\nEsistono diverse definizioni di continuità, corrispondenti ai contesti matematici in cui vengono utilizzate: la continuità di una funzione è uno dei concetti di base della topologia e dell'analisi matematica. La continuità di una funzione può essere definita anche in modo locale: in questo caso si parla di continuità in un punto del dominio. Una funzione continua è, per definizione, continua in ogni punto del proprio dominio. Una funzione che non è continua è detta discontinua, e i punti del dominio in cui non è continua sono detti punti di discontinuità.\nPer esempio, la funzione h(t) che descrive l'altezza di un uomo rispetto alla sua età può essere vista come una funzione continua: in periodi brevi l'uomo cresce di poco. Al contrario, la funzione g(t) che rappresenta la quantità di denaro presente in un conto corrente nel tempo è una funzione discontinua, poiché prelievi e depositi le fanno fare salti da un valore all'altro.",
+     "pageprops": {
+      "wikibase_item": "Q170058"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:32Z",
+     "lastrevid": 145752904,
+     "length": 29396,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_continua",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_continua&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_continua"
+    }
+   ]
+  }
+ }
+}

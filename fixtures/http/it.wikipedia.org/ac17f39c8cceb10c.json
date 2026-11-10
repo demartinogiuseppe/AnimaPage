@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Morfologia&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T03:06:39.683Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 84286,
+     "ns": 0,
+     "title": "Morfologia (linguistica)",
+     "index": 3,
+     "extract": "La morfologia (dal greco, morphé \"forma\" e lògos \"discorso\") è la parte della grammatica o della linguistica che ha per oggetto lo studio della struttura grammaticale delle parole e che ne stabilisce la classificazione e l'appartenenza a determinate categorie come il nome, il pronome, il verbo, l'aggettivo e le forme della flessione, come la coniugazione per i verbi e la declinazione per i nomi distinguendosi dalla fonologia, dalla sintassi e dal lessico. Inoltre indaga i meccanismi secondo i quali le unità portatrici di significati semplici si organizzano in significati più complessi: le parole.\nNella grammatica tradizionale, la morfologia è intesa come lo studio dei meccanismi di formazione delle parole, come la flessione e la derivazione. Nella linguistica moderna essa studia la struttura della parola e descrive le varie forme che le parole assumono a seconda delle categorie di numero, di genere, di modo, di tempo, di persona.\nUn nuovo approccio alla morfologia deriva da una corrente del generativismo di matrice chomskiana, chiamata morfologia distribuita. Questo approccio teorico dimostra come la creazione delle parole non risieda nella componente lessicale della lingua, ma invece segua le stesse regole sintattiche che sono alla base della formazione delle frasi.",
+     "pageprops": {
+      "wikibase_item": "Q38311"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:25Z",
+     "lastrevid": 147560351,
+     "length": 12398,
+     "fullurl": "https://it.wikipedia.org/wiki/Morfologia_(linguistica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Morfologia_(linguistica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Morfologia_(linguistica)"
+    },
+    {
+     "pageid": 115720,
+     "ns": 0,
+     "title": "Morfologia",
+     "index": 1,
+     "extract": "Morfologia – branca della linguistica che studia la forma e la formazione delle parole\nMorfologia – branca della biologia che studia l'aspetto esteriore degli organismi viventi\nMorfologia matematica – teoria e tecnica per l'analisi e il processo di strutture geometriche\nMorfologia – branca della scienza dei materiali\nMorfologia urbana – studio della formazione, della nascita e delle trasformazioni delle agglomerazioni urbane\nMorfologia terrestre – branca della geografia relativa allo studio scientifico delle forme del suolo",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q178224"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:28Z",
+     "lastrevid": 152291010,
+     "length": 794,
+     "fullurl": "https://it.wikipedia.org/wiki/Morfologia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Morfologia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Morfologia"
+    },
+    {
+     "pageid": 1181084,
+     "ns": 0,
+     "title": "Morfologia (biologia)",
+     "index": 2,
+     "extract": "La morfologia è una branca della biologia che studia l'aspetto esteriore di un organismo vivente con le sue relazioni e confronti.\nSi distingue dall'anatomia, che studia la struttura interna degli organismi viventi, e dalla fisiologia, che studia il funzionamento dei tessuti, degli organi e degli apparati, tuttavia si collega ad esse integrando la conoscenza degli organismi viventi. In ambiti particolari la morfologia può avere collegamenti anche con l'etologia e la genetica.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q183252"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:36Z",
+     "lastrevid": 149019159,
+     "length": 5018,
+     "fullurl": "https://it.wikipedia.org/wiki/Morfologia_(biologia)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Morfologia_(biologia)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Morfologia_(biologia)"
+    },
+    {
+     "pageid": 1340936,
+     "ns": 0,
+     "title": "Morfologia urbana",
+     "index": 4,
+     "extract": "Lo studio della morfologia urbana si occupa dell'indagine delle agglomerazioni urbane, della loro formazione e della loro trasformazione, ossia delle linee fondamentali dello sviluppo del tessuto urbano. \nLa morfologia urbana cerca di comprendere la struttura soggiacente a aree metropolitane, città, paesi e villaggi, esaminando gli schemi degli elementi che la compongono, come parte del processo del loro sviluppo. \nLa morfologia urbana è quindi lo studio degli elementi regolari del tessuto urbano, soggiacenti al caos apparente da cui si possono astrarre. Questo approccio sfida la percezione comune degli ambienti caotici o imprevisti, organici, attraverso la comprensione delle strutture e dei processi soggiacenti all'urbanizzazione.\nI concetti base della morfologia sono stati espressi per la prima volta negli scritti di Goethe (1790), anche se il termine come tale compare per la prima volta nelle bioscienze. Oggi è sempre più utilizzato in geografia, geologia, filologia e altri. Negli studi anglosassoni della geografia, la morfologia urbana è vista come un particolare campo di studio, in cui sono stati pionieri gli statunitensi Lewis Mumford, James Vance e Sam Bass Warner, e l'inglese Peter Hall.",
+     "pageprops": {
+      "wikibase_item": "Q1385705"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:46Z",
+     "lastrevid": 150470157,
+     "length": 3010,
+     "fullurl": "https://it.wikipedia.org/wiki/Morfologia_urbana",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Morfologia_urbana&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Morfologia_urbana"
+    }
+   ]
+  }
+ }
+}

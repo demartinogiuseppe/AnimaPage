@@ -1,0 +1,506 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=indicative+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:01:33.788Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 45712505,
+     "ns": 6,
+     "title": "File:IND 8 Av Line 34 to 42 Sts vc.ogv",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 14614637,
+       "width": 640,
+       "height": 362,
+       "duration": 71.65678004535147,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/IND_8_Av_Line_34_to_42_Sts_vc.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:IND_8_Av_Line_34_to_42_Sts_vc.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45712505",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "IND 8 Av Line 34 to 42 Sts vc",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "42nd Street – Port Authority Bus Terminal (IND Eighth Avenue Line)|34th Street – Penn Station (IND Eighth Avenue Line)|Views from New York City Subway cars|Files from external sources with reviewed licenses|Videos of the New York City Subway|Videos of 2011 from the United States",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "NYC Subway",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/eschipul/\">https://www.flickr.com/photos/eschipul/</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 2.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 77481831,
+     "ns": 6,
+     "title": "File:IND 8 Av Line West 4 to Spring Sts vc.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 39601121,
+       "width": 640,
+       "height": 480,
+       "duration": 95.374,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/IND_8_Av_Line_West_4_to_Spring_Sts_vc.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:IND_8_Av_Line_West_4_to_Spring_Sts_vc.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77481831",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "IND 8 Av Line West 4 to Spring Sts vc",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Spring Street (IND Eighth Avenue Line)|Views from New York City Subway cars|Uploaded with video2commons|Videos of the New York City Subway|Videos of 2012 from the United States|Flickr videos reviewed by trusted users|Videos from train cabins|West Fourth Street upper level",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Subway: C train going between W4th + Spring Streets",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.flickr.com/photos/apasciuto/\">[1]</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 87270428,
+     "ns": 6,
+     "title": "File:Plaque indicative circulation devanture de l'UAC au Benin.webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 8958807,
+       "width": 1920,
+       "height": 1080,
+       "duration": 19.027,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Plaque_indicative_circulation_devanture_de_l%27UAC_au_Benin.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Plaque_indicative_circulation_devanture_de_l%27UAC_au_Benin.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=87270428",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Plaque indicative circulation devanture de l'UAC au Benin",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Université d'Abomey-Calavi|Images from Wiki Loves Africa 2020|Self-published work|Road signs in Benin|Videos from Benin|Images from Wiki Loves Africa 2020 to check|Uploaded via Campaign:wlafrica|Maintenance for Wiki Loves Africa 2020|Videos from Wiki Loves Africa 2020|Images from Wiki Loves Africa 2020 in Benin",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Plaque indicative circulation devanture de l'UAC au Bénin",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Adoscam\" title=\"User:Adoscam\">Adoscam</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 112224072,
+     "ns": 6,
+     "title": "File:IND Culver Line - passing under the elevated.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 739132,
+       "width": 1280,
+       "height": 720,
+       "duration": 387010.876,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/IND_Culver_Line_-_passing_under_the_elevated.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:IND_Culver_Line_-_passing_under_the_elevated.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=112224072",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "IND Culver Line - passing under the elevated",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "IND Culver Line|Belt Parkway|Self-published work|Videos of the New York City Subway",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "IND Culver Line - passing under the elevated via Belt Parkway",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:GK_tramrunner_RU\" title=\"User:GK tramrunner RU\">GK tramrunner RU</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 144955205,
+     "ns": 6,
+     "title": "File:Engelberth 20210521 ind-mkn.ogg",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3567326,
+       "width": 1920,
+       "height": 1080,
+       "duration": 89.87733333333334,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Engelberth_20210521_ind-mkn.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Engelberth_20210521_ind-mkn.ogg",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=144955205",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Engelberth 20210521 ind-mkn",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos donated by Wikitongues|Unsorted Wikitongues videos",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Engelberth speaking Kupang Malay and Indonesian",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Wikitongues",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 151337888,
+     "ns": 6,
+     "title": "File:Grin til Gavn 2019 - Mikkel Klint Thorius - Melder sig ikke ind i politik..webm",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 38364713,
+       "width": 1920,
+       "height": 1080,
+       "duration": 120.589,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Grin_til_Gavn_2019_-_Mikkel_Klint_Thorius_-_Melder_sig_ikke_ind_i_politik..webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grin_til_Gavn_2019_-_Mikkel_Klint_Thorius_-_Melder_sig_ikke_ind_i_politik..webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151337888",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Grin til Gavn 2019 - Mikkel Klint Thorius - Melder sig ikke ind i politik.",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos from YouTube|License review needed (video)|Uploaded with video2commons",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Altid politisk skarpe Mikkel Klint Thorius var vistnok ikke på talerstolen ved arbejdernes kampdag 1. maj. Han har selvfølgelig også forsvoret nogensinde at melde sig ind i politik – her ved Grin til Gavn i 2019. Det ville ellers uden tvivl løfte stemningen! 🚀\n<p>Husk, at billetsalget til Grin til Gavn 2023 er i gang, og de hurtige får 15% early bird rabat på billetten.\n</p>\nLink til billetter i bio 🔗",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@grintilgavn\">Grin til Gavn</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 156828660,
+     "ns": 6,
+     "title": "File:EU signing of the Regional Indicative programme on development aid for Eastern and Southern Africa.webm",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 182237379,
+       "width": 852,
+       "height": 480,
+       "duration": 1147.592,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/EU_signing_of_the_Regional_Indicative_programme_on_development_aid_for_Eastern_and_Southern_Africa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:EU_signing_of_the_Regional_Indicative_programme_on_development_aid_for_Eastern_and_Southern_Africa.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156828660",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "EU signing of the Regional Indicative programme on development aid for Eastern and Southern Africa",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "2015 events in Brussels|Uploaded with video2commons|Media from the European Commission|Admin reviewed EC-Audiovisual Center videos",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "On 4 June 2015, Neven Mimica, Member of the EC in charge of International Cooperation and Development, took part to the signature of a Regional Indicative Programme with five other signatories: Common Market for Eastern and Southern Africa (COMESA), East African Community (EAC), Intergovernmental Authority on Development (IGAD), the Indian Ocean Commission (IOC), and Southern African Development Community (SADC). This Regional Indicative Programme charts how the parties intend to cooperate 2015-2020.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "European Union",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 169782423,
+     "ns": 6,
+     "title": "File:Atmospheric Methane Tagged by Source for Science on a Sphere (SVS5554 - ind 6-30-2025a 2048p30).webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 74172677,
+       "width": 4096,
+       "height": 2048,
+       "duration": 97.333,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Atmospheric_Methane_Tagged_by_Source_for_Science_on_a_Sphere_%28SVS5554_-_ind_6-30-2025a_2048p30%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Atmospheric_Methane_Tagged_by_Source_for_Science_on_a_Sphere_(SVS5554_-_ind_6-30-2025a_2048p30).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=169782423",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Atmospheric Methane Tagged by Source for Science on a Sphere (SVS5554 - ind 6-30-2025a 2048p30)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "PD NASA|Atmospheric methane|Science On a Sphere|Uploaded with video2commons|NASA videos in 2025|Video display resolution 4096 x 2048|NASA SVS files uploaded by OptimusPrimeBot",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Atmospheric Methane Tagged by Source for Science on a Sphere",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "NASA's Scientific Visualization Studio - SSAI/AJ Christensen, NASA/GSFC/Mark SubbaRao, USRA/Helen-Nicole Kostis, NASA/GSFC/Greg Shirah, ADNET Systems, Inc./Laurence Schuler, ADNET Systems, Inc./Ian Jones, NASA/GSFC/Lesley Ott, University of Maryland, College Park/Sourish Basu",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 175522317,
+     "ns": 6,
+     "title": "File:The Different Sources of Atmospheric Methane (SVS5424 - TaggedCH4 4-2-2025b ch4 americas sphere ind).webm",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 29913342,
+       "width": 2160,
+       "height": 2160,
+       "duration": 97.333,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Different_Sources_of_Atmospheric_Methane_%28SVS5424_-_TaggedCH4_4-2-2025b_ch4_americas_sphere_ind%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Different_Sources_of_Atmospheric_Methane_(SVS5424_-_TaggedCH4_4-2-2025b_ch4_americas_sphere_ind).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175522317",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The Different Sources of Atmospheric Methane (SVS5424 - TaggedCH4 4-2-2025b ch4 americas sphere ind)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "PD NASA|Atmospheric methane|Uploaded with video2commons|NASA videos in 2025|Video display resolution 2160 x 2160|NASA SVS files uploaded by OptimusPrimeBot",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The Different Sources of Atmospheric Methane",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "NASA's Scientific Visualization Studio - SSAI/AJ Christensen, NASA/GSFC/Mark SubbaRao, USRA/Helen-Nicole Kostis, NASA/GSFC/Greg Shirah, NASA/GSFC/Lesley Ott, University of Maryland, College Park/Sourish Basu, ADNET Systems, Inc./Laurence Schuler, ADNET Systems, Inc./Ian Jones",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 175564992,
+     "ns": 6,
+     "title": "File:The Different Sources of Atmospheric Methane (SVS5424 - TaggedCH4 5-6-2025a ch4 fivesources sphere emea ind).webm",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 48711158,
+       "width": 2160,
+       "height": 2160,
+       "duration": 97.333,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/The_Different_Sources_of_Atmospheric_Methane_%28SVS5424_-_TaggedCH4_5-6-2025a_ch4_fivesources_sphere_emea_ind%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Different_Sources_of_Atmospheric_Methane_(SVS5424_-_TaggedCH4_5-6-2025a_ch4_fivesources_sphere_emea_ind).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175564992",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The Different Sources of Atmospheric Methane (SVS5424 - TaggedCH4 5-6-2025a ch4 fivesources sphere emea ind)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "PD NASA|Atmospheric methane|Uploaded with video2commons|NASA videos in 2025|Video display resolution 2160 x 2160|NASA SVS files uploaded by OptimusPrimeBot",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The Different Sources of Atmospheric Methane",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "NASA's Scientific Visualization Studio - SSAI/AJ Christensen, NASA/GSFC/Mark SubbaRao, USRA/Helen-Nicole Kostis, NASA/GSFC/Greg Shirah, NASA/GSFC/Lesley Ott, University of Maryland, College Park/Sourish Basu, ADNET Systems, Inc./Laurence Schuler, ADNET Systems, Inc./Ian Jones",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

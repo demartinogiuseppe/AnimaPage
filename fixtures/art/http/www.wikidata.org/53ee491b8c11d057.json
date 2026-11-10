@@ -1,0 +1,416 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q762%7CQ244952%7CQ175166%7CQ1514256%7CQ302%7CQ51633%7CQ43982%7CQ44047%7CQ43399%7CQ81018%7CQ33923%7CQ44015%7CQ43669%7CQ43999%7CQ43675%7CQ43600%7CQ43945%7CQ12871%7CQ14748%7CQ536168%7CQ57216%7CQ7802%7CQ81727%7CQ32489%7CQ35473%7CQ5%7CQ282%7CQ2100893%7CQ201714&props=labels&languages=it%7Cen",
+ "fetchedAt": "2026-11-04T11:23:58.853Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q762": {
+    "type": "item",
+    "id": "Q762",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Leonardo da Vinci"
+     },
+     "it": {
+      "language": "it",
+      "value": "Leonardo da Vinci"
+     }
+    }
+   },
+   "Q244952": {
+    "type": "item",
+    "id": "Q244952",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Santa Maria delle Grazie"
+     },
+     "it": {
+      "language": "it",
+      "value": "chiesa di Santa Maria delle Grazie"
+     }
+    }
+   },
+   "Q175166": {
+    "type": "item",
+    "id": "Q175166",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "tempera"
+     },
+     "en": {
+      "language": "en",
+      "value": "tempera"
+     }
+    }
+   },
+   "Q1514256": {
+    "type": "item",
+    "id": "Q1514256",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "gesso"
+     },
+     "it": {
+      "language": "it",
+      "value": "Gesso"
+     }
+    }
+   },
+   "Q302": {
+    "type": "item",
+    "id": "Q302",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Jesus Christ"
+     },
+     "it": {
+      "language": "it",
+      "value": "Gesù"
+     }
+    }
+   },
+   "Q51633": {
+    "type": "item",
+    "id": "Q51633",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Last Supper"
+     },
+     "it": {
+      "language": "it",
+      "value": "Ultima cena"
+     }
+    }
+   },
+   "Q43982": {
+    "type": "item",
+    "id": "Q43982",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Bartolomeo"
+     },
+     "en": {
+      "language": "en",
+      "value": "Bartholomew the Apostle"
+     }
+    }
+   },
+   "Q44047": {
+    "type": "item",
+    "id": "Q44047",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Giacomo d'Alfeo"
+     },
+     "en": {
+      "language": "en",
+      "value": "James, son of Alphaeus"
+     }
+    }
+   },
+   "Q43399": {
+    "type": "item",
+    "id": "Q43399",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Andrea"
+     },
+     "en": {
+      "language": "en",
+      "value": "Andrew the Apostle"
+     }
+    }
+   },
+   "Q81018": {
+    "type": "item",
+    "id": "Q81018",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Giuda Iscariota"
+     },
+     "en": {
+      "language": "en",
+      "value": "Judas Iscariot"
+     }
+    }
+   },
+   "Q33923": {
+    "type": "item",
+    "id": "Q33923",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Pietro"
+     },
+     "en": {
+      "language": "en",
+      "value": "Saint Peter"
+     }
+    }
+   },
+   "Q44015": {
+    "type": "item",
+    "id": "Q44015",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "John the Apostle"
+     },
+     "it": {
+      "language": "it",
+      "value": "Giovanni"
+     }
+    }
+   },
+   "Q43669": {
+    "type": "item",
+    "id": "Q43669",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Tommaso"
+     },
+     "en": {
+      "language": "en",
+      "value": "Thomas the Apostle"
+     }
+    }
+   },
+   "Q43999": {
+    "type": "item",
+    "id": "Q43999",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Giacomo il Maggiore"
+     },
+     "en": {
+      "language": "en",
+      "value": "Saint James the Elder"
+     }
+    }
+   },
+   "Q43675": {
+    "type": "item",
+    "id": "Q43675",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Filippo"
+     },
+     "en": {
+      "language": "en",
+      "value": "Philip the Apostle"
+     }
+    }
+   },
+   "Q43600": {
+    "type": "item",
+    "id": "Q43600",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Matteo"
+     },
+     "en": {
+      "language": "en",
+      "value": "Matthew the Apostle"
+     }
+    }
+   },
+   "Q43945": {
+    "type": "item",
+    "id": "Q43945",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Giuda Taddeo"
+     },
+     "en": {
+      "language": "en",
+      "value": "Jude the Apostle"
+     }
+    }
+   },
+   "Q12871": {
+    "type": "item",
+    "id": "Q12871",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Simon the Zealot"
+     },
+     "it": {
+      "language": "it",
+      "value": "Simone il Cananeo"
+     }
+    }
+   },
+   "Q14748": {
+    "type": "item",
+    "id": "Q14748",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "table"
+     },
+     "it": {
+      "language": "it",
+      "value": "tavolo"
+     }
+    }
+   },
+   "Q536168": {
+    "type": "item",
+    "id": "Q536168",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "tablecloth"
+     },
+     "it": {
+      "language": "it",
+      "value": "tovaglia"
+     }
+    }
+   },
+   "Q57216": {
+    "type": "item",
+    "id": "Q57216",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "plate"
+     },
+     "it": {
+      "language": "it",
+      "value": "piatto"
+     }
+    }
+   },
+   "Q7802": {
+    "type": "item",
+    "id": "Q7802",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "pane"
+     },
+     "en": {
+      "language": "en",
+      "value": "bread"
+     }
+    }
+   },
+   "Q81727": {
+    "type": "item",
+    "id": "Q81727",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "cup"
+     },
+     "it": {
+      "language": "it",
+      "value": "tazza"
+     }
+    }
+   },
+   "Q32489": {
+    "type": "item",
+    "id": "Q32489",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "coltello"
+     },
+     "en": {
+      "language": "en",
+      "value": "knife"
+     }
+    }
+   },
+   "Q35473": {
+    "type": "item",
+    "id": "Q35473",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "finestra"
+     },
+     "en": {
+      "language": "en",
+      "value": "window"
+     }
+    }
+   },
+   "Q5": {
+    "type": "item",
+    "id": "Q5",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "human"
+     },
+     "it": {
+      "language": "it",
+      "value": "umano"
+     }
+    }
+   },
+   "Q282": {
+    "type": "item",
+    "id": "Q282",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "wine"
+     },
+     "it": {
+      "language": "it",
+      "value": "vino"
+     }
+    }
+   },
+   "Q2100893": {
+    "type": "item",
+    "id": "Q2100893",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "coppa"
+     },
+     "en": {
+      "language": "en",
+      "value": "cup with stem"
+     }
+    }
+   },
+   "Q201714": {
+    "type": "item",
+    "id": "Q201714",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "tunica"
+     },
+     "en": {
+      "language": "en",
+      "value": "tunic"
+     }
+    }
+   }
+  },
+  "success": 1
+ }
+}

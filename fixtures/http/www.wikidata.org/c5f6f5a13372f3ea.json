@@ -1,0 +1,262 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q682111%7CQ687580%7CQ3706648%7CQ12547192%7CQ127785260%7CQ630649%7CQ465800%7CQ442485%7CQ1240211%7CQ5606846%7CQ193168%7CQ3502541%7CQ138605257%7CQ1475560%7CQ623742%7CQ1101896%7CQ1234617&props=labels%7Cclaims&languages=it%7Cen",
+ "fetchedAt": "2026-11-03T16:00:45.587Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q682111": {
+    "id": "Q682111",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "indicative"
+     },
+     "it": {
+      "language": "it",
+      "value": "indicativo"
+     }
+    },
+    "claims": {}
+   },
+   "Q687580": {
+    "id": "Q687580",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Italian grammar"
+     },
+     "it": {
+      "language": "it",
+      "value": "grammatica italiana"
+     }
+    },
+    "claims": {}
+   },
+   "Q3706648": {
+    "id": "Q3706648",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Dialetto spezzino"
+     },
+     "en": {
+      "language": "en",
+      "value": "Spezia dialect"
+     }
+    },
+    "claims": {}
+   },
+   "Q12547192": {
+    "id": "Q12547192",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "imperfect"
+     },
+     "it": {
+      "language": "it",
+      "value": "imperfetto dell'indicativo"
+     }
+    },
+    "claims": {}
+   },
+   "Q127785260": {
+    "id": "Q127785260",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Verbo (lingua italiana)"
+     }
+    },
+    "claims": {}
+   },
+   "Q630649": {
+    "id": "Q630649",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "meter"
+     },
+     "it": {
+      "language": "it",
+      "value": "metro"
+     }
+    },
+    "claims": {}
+   },
+   "Q465800": {
+    "id": "Q465800",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "verbo ausiliare"
+     },
+     "en": {
+      "language": "en",
+      "value": "auxiliary verb"
+     }
+    },
+    "claims": {}
+   },
+   "Q442485": {
+    "id": "Q442485",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "passato remoto"
+     },
+     "en": {
+      "language": "en",
+      "value": "preterite"
+     }
+    },
+    "claims": {}
+   },
+   "Q1240211": {
+    "id": "Q1240211",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "passato prossimo"
+     },
+     "en": {
+      "language": "en",
+      "value": "present perfect"
+     }
+    },
+    "claims": {}
+   },
+   "Q5606846": {
+    "id": "Q5606846",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Sonia"
+     },
+     "it": {
+      "language": "it",
+      "value": "Sonia"
+     }
+    },
+    "claims": {}
+   },
+   "Q193168": {
+    "id": "Q193168",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "presente"
+     },
+     "en": {
+      "language": "en",
+      "value": "present"
+     }
+    },
+    "claims": {}
+   },
+   "Q3502541": {
+    "id": "Q3502541",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "congiuntivo imperfetto"
+     },
+     "en": {
+      "language": "en",
+      "value": "imperfect subjunctive"
+     }
+    },
+    "claims": {}
+   },
+   "Q138605257": {
+    "id": "Q138605257",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Perfetto imperfetto"
+     },
+     "en": {
+      "language": "en",
+      "value": "Perfetto imperfetto"
+     }
+    },
+    "claims": {
+     "P577": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+2026-03-06T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q1475560": {
+    "id": "Q1475560",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "futuro semplice"
+     },
+     "en": {
+      "language": "en",
+      "value": "simple future"
+     }
+    },
+    "claims": {}
+   },
+   "Q623742": {
+    "id": "Q623742",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "trapassato prossimo"
+     },
+     "en": {
+      "language": "en",
+      "value": "pluperfect"
+     }
+    },
+    "claims": {}
+   },
+   "Q1101896": {
+    "id": "Q1101896",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "trapassato remoto"
+     },
+     "en": {
+      "language": "en",
+      "value": "past anterior"
+     }
+    },
+    "claims": {}
+   },
+   "Q1234617": {
+    "id": "Q1234617",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "futuro anteriore"
+     },
+     "en": {
+      "language": "en",
+      "value": "future perfect"
+     }
+    },
+    "claims": {}
+   }
+  }
+ }
+}

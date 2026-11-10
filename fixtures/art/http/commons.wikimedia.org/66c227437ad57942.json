@@ -1,0 +1,69 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3ASandro+Botticelli+-+La+Primavera+-+Google+Art+Project.jpg&prop=imageinfo&iiprop=url%7Csize%7Cmime%7Cextmetadata&iiurlwidth=2048&iiextmetadatafilter=LicenseShortName%7CLicense%7CCopyrighted%7CArtist%7CUsageTerms%7CAttributionRequired",
+ "fetchedAt": "2026-11-04T11:36:24.626Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 13521644,
+     "ns": 6,
+     "title": "File:Sandro Botticelli - La Primavera - Google Art Project.jpg",
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 16064265,
+       "width": 5084,
+       "height": 3377,
+       "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/3840px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "thumbwidth": 2048,
+       "thumbheight": 1360,
+       "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/3840px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2048,
+        "height": 1360
+       },
+       "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13521644",
+       "extmetadata": {
+        "Artist": {
+         "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sandro_Botticelli\" class=\"extiw\" title=\"w:en:Sandro Botticelli\"><span title=\"Italian painter (1445–1510)\">Sandro Botticelli</span></a></bdi>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "UsageTerms": {
+         "value": "Public domain",
+         "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+         "value": "false",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Copyrighted": {
+         "value": "False",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "License": {
+         "value": "pd",
+         "source": "commons-templates",
+         "hidden": ""
+        }
+       },
+       "mime": "image/jpeg"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

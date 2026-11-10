@@ -1,0 +1,151 @@
+{
+  "version": "0.1",
+  "engine": "card",
+  "title": "Il complemento oggetto",
+  "page": { "subject": "Grammatica", "topic": "Analisi logica", "language": "it" },
+  "kind": "mixed",
+  "music": {"track":"music-calm","volume":0.6},
+  "chapters": [
+    {
+      "id": "definizione",
+      "title": "Che cos'è il complemento oggetto",
+      "chip": "Che cos'è",
+      "kind": "mixed",
+      "duration": 30,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il complemento oggetto è la persona o la cosa su cui ricade direttamente l'azione del verbo.",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 5,
+          "text": "Di norma lo regge un verbo transitivo attivo.",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 10,
+          "text": "Per trovarlo, dopo il verbo chiediti: chi? Che cosa?",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 15,
+          "text": "Nella frase «Ho acquistato una maglietta», che cosa ho acquistato? Una maglietta: è il complemento oggetto.",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 22,
+          "text": "Attenzione: anche il soggetto risponde a «chi? che cosa?». Per non confonderli, trova prima il verbo e il suo soggetto.",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [
+        {
+          "text": "Nell'analisi logica tradizionale i complementi sono di due tipi: il complemento oggetto e i complementi indiretti.",
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "text": "Il complemento oggetto completa il significato del predicato: senza di esso, in «Ho acquistato una maglietta», la frase resterebbe a metà.",
+          "sourceIds": ["wiki-complemento-oggetto"]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quale frase c'è un complemento oggetto?",
+          "options": ["Luca corre nel parco.", "Luca legge un libro.", "Luca va a scuola."],
+          "answer": 1,
+          "explain": "«Un libro» risponde alla domanda «che cosa legge?»: è il complemento oggetto del verbo transitivo «leggere»."
+        },
+        {
+          "type": "choice",
+          "q": "A quali domande risponde il complemento oggetto?",
+          "options": ["Dove? Quando?", "Chi? Che cosa?", "Con chi? Con che cosa?"],
+          "answer": 1,
+          "explain": "Il complemento oggetto risponde alle domande «chi?» e «che cosa?», poste dopo il verbo."
+        }
+      ]
+    },
+    {
+      "id": "casi-particolari",
+      "title": "Partitivo e interno",
+      "chip": "Casi particolari",
+      "kind": "mixed",
+      "duration": 26,
+      "narration": [
+        {
+          "at": 0,
+          "text": "A volte il complemento oggetto è introdotto da un articolo partitivo, come «del», «della» o «delle».",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 6,
+          "text": "In «Gli ospiti hanno portato delle bibite», «delle bibite» vuol dire «alcune bibite»: è un complemento oggetto partitivo.",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 13,
+          "text": "C'è poi il complemento oggetto interno, che ha una parentela di origine con il verbo.",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        },
+        {
+          "at": 19,
+          "text": "Lo trovi in espressioni come «vivere una vita» o «sognare un sogno».",
+          "highlight": [],
+          "sourceIds": ["wiki-complemento-oggetto"]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [
+        {
+          "text": "Il partitivo indica una quantità non precisata: per questo «delle bibite» si può sostituire con «alcune bibite».",
+          "sourceIds": ["wiki-complemento-oggetto"]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che tipo di complemento oggetto è «dei biscotti» in «Ho mangiato dei biscotti»?",
+          "options": ["Partitivo", "Interno", "Non è un complemento oggetto"],
+          "answer": 0,
+          "explain": "«Dei biscotti» è introdotto da un articolo partitivo e vuol dire «alcuni biscotti»: è un complemento oggetto partitivo."
+        },
+        {
+          "type": "choice",
+          "q": "In quale espressione c'è un complemento oggetto interno?",
+          "options": ["Mangiare una mela", "Sognare un sogno", "Andare al mare"],
+          "answer": 1,
+          "explain": "«Sogno» ha la stessa origine del verbo «sognare»: è un complemento oggetto interno."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-complemento-oggetto",
+      "kind": "wikipedia",
+      "title": "Complemento oggetto",
+      "url": "https://it.wikipedia.org/wiki/Complemento_oggetto",
+      "publisher": "Wikipedia in italiano",
+      "accessed": "2026-11-03",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Lezione d'esempio scritta a mano per provare il player: non viene da una pagina fotografata.",
+    "Testi basati sulla voce «Complemento oggetto» di Wikipedia in italiano (licenza CC BY-SA)."
+  ],
+  "engineData": {}
+}

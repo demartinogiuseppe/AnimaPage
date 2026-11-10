@@ -1,0 +1,1153 @@
+{
+  "version": "0.1",
+  "engine": "facade",
+  "title": "Palazzo Rucellai: la facciata di Alberti",
+  "page": {
+    "subject": "Arte e immagine",
+    "topic": "Palazzo Rucellai a Firenze, ordini sovrapposti, prospettiva e sezione",
+    "language": "it"
+  },
+  "kind": "art",
+  "music": {
+    "track": "music-history",
+    "volume": 0.35
+  },
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Arte, facciate degli edifici (scena di riferimento del teatro delle facciate)"
+    },
+    {
+      "id": "w-rucellai",
+      "kind": "wikipedia",
+      "title": "Palazzo Rucellai",
+      "url": "https://it.wikipedia.org/wiki/Palazzo_Rucellai",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-alberti",
+      "kind": "wikipedia",
+      "title": "Leon Battista Alberti",
+      "url": "https://it.wikipedia.org/wiki/Leon_Battista_Alberti",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Facciata semplificata e disegnata solo con linee: sette campate uguali, due portali semplici e le stesse bifore ad arco tondo ai due piani alti; il numero e la larghezza delle campate dell'edificio vero sono diversi.",
+    "Gli ordini sono quelli indicati dalle fonti (tuscanico, composito, corinzio), ma i capitelli sono quelli del catalogo del motore, non una copia di quelli dell'edificio.",
+    "Non sono disegnati lo zoccolo con i sedili, le iscrizioni e i dettagli delle cornici."
+  ],
+  "engineData": {
+    "buildings": [
+      {
+        "id": "palazzo",
+        "name": "Palazzo Rucellai",
+        "style": "renaissance",
+        "base": {
+          "height": 0.6
+        },
+        "depth": 14,
+        "floors": [
+          {
+            "id": "f0",
+            "height": 6.2,
+            "wall": "rusticated",
+            "course": 0.6,
+            "top": "string-course",
+            "members": {
+              "type": "pilaster",
+              "order": "tuscan",
+              "width": 0.6
+            },
+            "bays": [
+              {
+                "id": "a0",
+                "width": 4,
+                "cell": {
+                  "el": "portal",
+                  "w": 2.0,
+                  "h": 4.0
+                }
+              },
+              {
+                "id": "a1",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 1.3,
+                  "h": 1.9,
+                  "sill": 2.4
+                }
+              },
+              {
+                "id": "a2",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 1.3,
+                  "h": 1.9,
+                  "sill": 2.4
+                }
+              },
+              {
+                "id": "a3",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 1.3,
+                  "h": 1.9,
+                  "sill": 2.4
+                }
+              },
+              {
+                "id": "a4",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 1.3,
+                  "h": 1.9,
+                  "sill": 2.4
+                }
+              },
+              {
+                "id": "a5",
+                "width": 4,
+                "cell": {
+                  "el": "portal",
+                  "w": 2.0,
+                  "h": 4.0
+                }
+              },
+              {
+                "id": "a6",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 1.3,
+                  "h": 1.9,
+                  "sill": 2.4
+                }
+              }
+            ]
+          },
+          {
+            "id": "f1",
+            "height": 6.0,
+            "top": "string-course",
+            "members": {
+              "type": "pilaster",
+              "order": "composite",
+              "width": 0.6
+            },
+            "bays": [
+              {
+                "id": "b0",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "b1",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "b2",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "b3",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "b4",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "b5",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "b6",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 3.2,
+                  "sill": 1.3,
+                  "top": "round",
+                  "mullion": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "f2",
+            "height": 5.0,
+            "top": "entablature",
+            "cornice": "modillions",
+            "members": {
+              "type": "pilaster",
+              "order": "corinthian",
+              "width": 0.6
+            },
+            "bays": [
+              {
+                "id": "c0",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "c1",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "c2",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "c3",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "c4",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "c5",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              },
+              {
+                "id": "c6",
+                "width": 4,
+                "cell": {
+                  "el": "window",
+                  "w": 2.0,
+                  "h": 2.7,
+                  "sill": 1.1,
+                  "top": "round",
+                  "mullion": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "disegno",
+        "building": "palazzo",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          }
+        ],
+        "acts": [
+          {
+            "do": "draw",
+            "target": "base",
+            "at": 12,
+            "dur": 3
+          },
+          {
+            "do": "draw",
+            "target": "f0",
+            "at": 15,
+            "dur": 6
+          },
+          {
+            "do": "draw",
+            "target": "f1",
+            "at": 22,
+            "dur": 6
+          },
+          {
+            "do": "draw",
+            "target": "f2",
+            "at": 29,
+            "dur": 6
+          }
+        ]
+      },
+      {
+        "chapter": "ordini",
+        "building": "palazzo",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          }
+        ],
+        "acts": [
+          {
+            "do": "highlight",
+            "target": "f0.members",
+            "at": 11,
+            "until": 17
+          },
+          {
+            "do": "highlight",
+            "target": "f1.members",
+            "at": 17,
+            "until": 23
+          },
+          {
+            "do": "highlight",
+            "target": "f2.members",
+            "at": 23,
+            "until": 30
+          }
+        ]
+      },
+      {
+        "chapter": "strada",
+        "building": "palazzo",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          },
+          {
+            "at": 6,
+            "view": "prospettiva"
+          }
+        ],
+        "acts": [
+          {
+            "do": "eye",
+            "at": 26,
+            "dur": 4,
+            "height": 9,
+            "x": 3
+          }
+        ]
+      },
+      {
+        "chapter": "sezione",
+        "building": "palazzo",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          },
+          {
+            "at": 8,
+            "view": "sezione"
+          }
+        ],
+        "acts": [
+          {
+            "do": "cut",
+            "bay": "b3",
+            "at": 8,
+            "dur": 3
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "disegno",
+      "title": "La facciata disegnata",
+      "chip": "Disegno",
+      "kind": "art",
+      "duration": 44,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Questo è Palazzo Rucellai, a Firenze. Lo vediamo di fronte, disegnato solo con linee.",
+          "highlight": [],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "La facciata è di Leon Battista Alberti, e i lavori furono diretti da Bernardo Rossellino, nel Quattrocento.",
+          "highlight": [],
+          "sourceIds": [
+            "w-rucellai",
+            "w-alberti"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Lo disegniamo piano dopo piano, come farebbe un architetto. Prima il basamento.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 16,
+          "text": "Al piano terra il muro è fatto di blocchi squadrati e lisci. Si chiama bugnato.",
+          "highlight": [
+            "p-bugnato"
+          ],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 23,
+          "text": "Al primo piano le finestre sono bifore: due luci sotto un solo arco.",
+          "highlight": [
+            "p-bifora"
+          ],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 30,
+          "text": "Il secondo piano ripete lo schema, ma è un po' più basso. In cima c'è il cornicione.",
+          "highlight": [
+            "p-cornicione"
+          ],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 38,
+          "text": "Una fascia orizzontale separa un piano dal successivo.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-bugnato",
+          "name": "Bugnato",
+          "info": "Blocchi di pietra squadrati e lisci, a file orizzontali.",
+          "kind": "object",
+          "anchor": {
+            "entity": "floor",
+            "part": "f0"
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              16,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "p-bifora",
+          "name": "Bifora",
+          "info": "Una finestra con due luci sotto un solo arco.",
+          "kind": "object",
+          "anchor": {
+            "entity": "bay",
+            "part": "b2"
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              23,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "p-cornicione",
+          "name": "Cornicione",
+          "info": "La grande cornice che chiude la facciata in alto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "floor",
+            "part": "f2",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              30,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "p-portale",
+          "name": "Portale",
+          "info": "Un ingresso a forma di rettangolo, con architrave dritto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "bay",
+            "part": "a0"
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              16,
+              44
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il palazzo fu voluto da Giovanni Rucellai, un ricco mercante fiorentino.",
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "text": "Alberti scrisse anche un trattato sull'architettura, il «De re aedificatoria».",
+          "sourceIds": [
+            "w-alberti"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come si chiama il muro di blocchi squadrati del piano terra?",
+          "options": [
+            "Bugnato",
+            "Intonaco",
+            "Mosaico"
+          ],
+          "answer": 0,
+          "explain": "Il bugnato: blocchi di pietra squadrati, a file orizzontali."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la finestra a due luci.",
+          "answerPins": [
+            "p-bifora"
+          ],
+          "explain": "La bifora ha due luci sotto un solo arco."
+        }
+      ],
+      "book": {
+        "heading": "Palazzo Rucellai",
+        "formula": "tre piani, tre ordini",
+        "lines": [
+          "Firenze, Quattrocento.",
+          "Progetto di Leon Battista Alberti.",
+          "Piano terra a bugnato liscio.",
+          "Finestre bifore ai piani alti."
+        ],
+        "sourceIds": [
+          "w-rucellai",
+          "w-alberti"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.25
+          },
+          {
+            "at": 12,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          },
+          {
+            "at": 16,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 23,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 30,
+            "sound": "pop",
+            "volume": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ordini",
+      "title": "I tre ordini",
+      "chip": "Ordini",
+      "kind": "art",
+      "duration": 40,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Guarda le lesene: sono pilastri piatti, appoggiati al muro.",
+          "highlight": [
+            "p-les0"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 6,
+          "text": "Su ogni piano le lesene seguono un ordine diverso, uno sopra l'altro, ispirandosi all'architettura romana antica.",
+          "highlight": [],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "In basso c'è l'ordine tuscanico, il più semplice.",
+          "highlight": [
+            "p-les0"
+          ],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Al primo piano c'è l'ordine composito.",
+          "highlight": [
+            "p-les1"
+          ],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Al secondo piano c'è l'ordine corinzio.",
+          "highlight": [
+            "p-les2"
+          ],
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        },
+        {
+          "at": 31,
+          "text": "È un'idea che viene dai monumenti dell'antica Roma. Alberti li studiava con attenzione.",
+          "highlight": [],
+          "sourceIds": [
+            "w-alberti"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-les0",
+          "name": "Lesene del piano terra",
+          "info": "Ordine tuscanico.",
+          "kind": "object",
+          "anchor": {
+            "entity": "member",
+            "part": "f0"
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              0,
+              18
+            ]
+          ]
+        },
+        {
+          "id": "p-les1",
+          "name": "Lesene del primo piano",
+          "info": "Ordine composito.",
+          "kind": "object",
+          "anchor": {
+            "entity": "member",
+            "part": "f1"
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              0,
+              40
+            ]
+          ]
+        },
+        {
+          "id": "p-les2",
+          "name": "Lesene del secondo piano",
+          "info": "Ordine corinzio.",
+          "kind": "object",
+          "anchor": {
+            "entity": "member",
+            "part": "f2"
+          },
+          "sourceIds": [
+            "w-rucellai"
+          ],
+          "visible": [
+            [
+              0,
+              40
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Ogni piano ha un ordine diverso, uno sopra l'altro, come nell'architettura romana antica.",
+          "sourceIds": [
+            "w-rucellai"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cos'è una lesena?",
+          "options": [
+            "Un pilastro piatto appoggiato al muro",
+            "Una finestra a due luci",
+            "Un tipo di tetto"
+          ],
+          "answer": 0,
+          "explain": "La lesena sembra una colonna, ma è piatta e fa parte del muro."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca le lesene del secondo piano.",
+          "answerPins": [
+            "p-les2"
+          ],
+          "explain": "Al secondo piano le lesene sono di ordine corinzio."
+        }
+      ],
+      "book": {
+        "heading": "Gli ordini",
+        "formula": "un ordine per piano",
+        "lines": [
+          "Una lesena è un pilastro piatto.",
+          "Ogni piano ha il suo ordine.",
+          "In basso tuscanico, poi composito, poi corinzio."
+        ],
+        "sourceIds": [
+          "w-rucellai"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 12,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 18,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 24,
+            "sound": "pop",
+            "volume": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "strada",
+      "title": "Visto dalla strada",
+      "chip": "Prospettiva",
+      "kind": "art",
+      "duration": 56,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora guardiamo il palazzo come lo vedrebbe una persona che passa in strada.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 6,
+          "text": "Alberti ha scritto anche di prospettiva, le regole per disegnare lo spazio su un foglio.",
+          "highlight": [],
+          "sourceIds": [
+            "w-alberti"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Le linee che vanno in profondità si incontrano in un punto: il punto di fuga.",
+          "highlight": [
+            "p-fuga"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 20,
+          "text": "Sta sull'orizzonte, all'altezza degli occhi.",
+          "highlight": [
+            "p-orizzonte"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 26,
+          "text": "Adesso l'occhio sale.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 32,
+          "text": "Prevedi: se guardi da più in alto, dove va il punto di fuga?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 40,
+          "text": "Prova tu: muovi l'occhio con i cursori e guarda l'orizzonte.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-fuga",
+          "name": "Punto di fuga",
+          "info": "Qui si incontrano le linee che vanno in profondità.",
+          "kind": "data",
+          "anchor": {
+            "entity": "vanishing-point"
+          },
+          "sourceIds": [],
+          "visible": [
+            [
+              13,
+              56
+            ]
+          ]
+        },
+        {
+          "id": "p-orizzonte",
+          "name": "Orizzonte",
+          "info": "La linea all'altezza degli occhi.",
+          "kind": "data",
+          "anchor": {
+            "entity": "horizon",
+            "offset": [
+              -6,
+              0,
+              0
+            ]
+          },
+          "sourceIds": [],
+          "visible": [
+            [
+              20,
+              56
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Alberti spiegò le regole della prospettiva nel suo trattato sulla pittura.",
+          "sourceIds": [
+            "w-alberti"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Dove sta il punto di fuga?",
+          "options": [
+            "All'altezza degli occhi, sull'orizzonte",
+            "Sempre in basso",
+            "Sulla cima del tetto"
+          ],
+          "answer": 0,
+          "explain": "Il punto di fuga sta sull'orizzonte, all'altezza degli occhi di chi guarda."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il punto di fuga.",
+          "answerPins": [
+            "p-fuga"
+          ],
+          "explain": "Lì si incontrano le linee in profondità."
+        }
+      ],
+      "book": {
+        "heading": "La prospettiva",
+        "formula": "punto di fuga = altezza degli occhi",
+        "lines": [
+          "Le linee in profondità si incontrano.",
+          "Il punto d'incontro è il punto di fuga.",
+          "Sta sull'orizzonte, all'altezza degli occhi."
+        ],
+        "sourceIds": [
+          "w-alberti"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 6.5,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          },
+          {
+            "at": 26,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          },
+          {
+            "at": 50,
+            "sound": "chime",
+            "volume": 0.3
+          }
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se guardi il palazzo da più in alto, dove va il punto di fuga?",
+          "options": [
+            "Sale con l'occhio",
+            "Resta dov'è",
+            "Scende"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Muovi l'occhio: alza e abbassa l'altezza, spostalo di lato. Dove finisce il punto di fuga?",
+          "params": [
+            "eye-height",
+            "eye-x"
+          ]
+        },
+        "prove": {
+          "text": "Il punto di fuga sta sempre sull'orizzonte, all'altezza dell'occhio: se l'occhio sale, sale anche lui.",
+          "sourceIds": [
+            "w-alberti"
+          ]
+        },
+        "stamp": "Occhio da architetto"
+      }
+    },
+    {
+      "id": "sezione",
+      "title": "Dentro il muro",
+      "chip": "Sezione",
+      "kind": "art",
+      "duration": 36,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Un'ultima vista: la sezione. Immagina di tagliare il palazzo in verticale, come una torta.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 8,
+          "text": "Il taglio passa nel mezzo di una finestra del primo piano.",
+          "highlight": [
+            "p-taglio"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 15,
+          "text": "Le parti tagliate sono in grigio: i muri e i pavimenti dei piani.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 22,
+          "text": "Così un architetto vede com'è fatto un edificio anche dentro.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-taglio",
+          "name": "Taglio",
+          "info": "Il piano di taglio passa per la finestra del primo piano.",
+          "kind": "object",
+          "anchor": {
+            "entity": "bay",
+            "part": "b3"
+          },
+          "sourceIds": [],
+          "visible": [
+            [
+              8,
+              36
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La sezione è uno dei disegni con cui gli architetti progettano un edificio, insieme a pianta e prospetto.",
+          "sourceIds": []
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa mostra una sezione?",
+          "options": [
+            "L'edificio tagliato, visto dentro",
+            "L'edificio visto dall'alto",
+            "L'edificio da lontano"
+          ],
+          "answer": 0,
+          "explain": "La sezione taglia l'edificio e ne mostra l'interno."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la finestra tagliata.",
+          "answerPins": [
+            "p-taglio"
+          ],
+          "explain": "Il taglio passa proprio per quella finestra."
+        }
+      ],
+      "book": {
+        "heading": "La sezione",
+        "formula": "il taglio verticale",
+        "lines": [
+          "Si immagina di tagliare l'edificio.",
+          "Le parti tagliate sono in grigio.",
+          "Si vede anche l'interno."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 8,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          }
+        ]
+      }
+    }
+  ]
+}

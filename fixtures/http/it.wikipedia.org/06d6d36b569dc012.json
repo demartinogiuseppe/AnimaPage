@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=variabile+indipendente+x&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T17:59:35.004Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 4430,
+     "ns": 0,
+     "title": "Distribuzione normale",
+     "index": 4,
+     "extract": "La distribuzione normale (o  distribuzione di Gauss dal nome del matematico tedesco Carl Friedrich Gauss, o distribuzione a Campana di Gauss, talvolta semplificato in gaussiana), nella teoria della probabilità, è una distribuzione di probabilità continua spesso usata in probabilità e statistica come approssimazione per variabili casuali a valori reali che tendono a concentrarsi attorno a un singolo valor medio. \nIl grafico della funzione di densità di probabilità associata è simmetrico e ha una forma a campana, nota come \"curva a campana\", \"curva normale\", \"curva gaussiana\" o \"curva degli errori\".\nIl nome di questa distribuzione risale ai matematici e statisti dell'Ottocento che usavano la parola \"normale\" per indicare la norma, la consuetudine (significato statistico del termine norma). Pertanto, un insieme di dati sarà detto normale se la sua rappresentazione grafica segue la curva normale.",
+     "pageprops": {
+      "wikibase_item": "Q133871"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:18Z",
+     "lastrevid": 152897058,
+     "length": 18753,
+     "fullurl": "https://it.wikipedia.org/wiki/Distribuzione_normale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Distribuzione_normale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Distribuzione_normale"
+    },
+    {
+     "pageid": 115121,
+     "ns": 0,
+     "title": "Funzione esponenziale",
+     "index": 2,
+     "extract": "In matematica, si definisce funzione esponenziale ogni funzione del tipo y=ax, dove a è un numero reale positivo fissato e diverso da 1, e la variabile indipendente x è reale e compare come esponente (da qui il nome).\n\nSe a>1, la funzione esponenziale è strettamente crescente. In particolare si dà il nome di \"funzione esponenziale naturale\" (o, sinteticamente, di \"esponenziale\") alla particolare funzione esponenziale y=ex (e=2,7182…, numero di Nepero).\n\nNel seguito della presente voce si farà riferimento, tranne quando altrimenti specificato, alla funzione esponenziale con base e, peraltro rappresentata con la notazione exp⁡(x) quando è difficoltoso scrivere la variabile come un esponente. \nL'importanza della  base e per la funzione esponenziale è motivata dal fatto che la sua derivata è la funzione esponenziale stessa (y' = y) e di conseguenza questo vale anche per ogni derivata successiva. A questo proposito e da un altro punto di vista, la relazione y' = y rappresenta l'equazione differenziale che definisce la funzione esponenziale y=ex. \nRiveste una grande importanza in moltissimi ambiti della matematica, come la trigonometria, lo studio delle equazioni differenziali, la teoria degli sviluppi di Taylor, lo studio delle trasformate integrali. Può essere definita, oltre che sui numeri reali, anche sui numeri complessi o anche su oggetti più complicati, come ad esempio le matrici quadrate oppure operatori. È inoltre la funzione inversa della funzione logaritmo (la funzione esponenziale naturale è l'inversa della funzione logaritmo naturale, ossia quella con base e).\n\n",
+     "pageprops": {
+      "wikibase_item": "Q47306354"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:28Z",
+     "lastrevid": 152346875,
+     "length": 24818,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_esponenziale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_esponenziale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_esponenziale"
+    },
+    {
+     "pageid": 208778,
+     "ns": 0,
+     "title": "Differenziale (matematica)",
+     "index": 3,
+     "extract": "In matematica, in particolare nel calcolo infinitesimale, il differenziale di una funzione quantifica la variazione infinitesimale della funzione rispetto ad una variabile indipendente. Per una funzione y=f(x) di una sola variabile x, per esempio, il differenziale dy di f è definito dalla 1-forma:\n\ndy(x,dx)=f′(x)dx,\ndove f′ denota la derivata di f rispetto a x, ovvero il limite del rapporto incrementale Δf/Δx per Δx indefinitamente piccolo, e dx l'incremento della variabile indipendente.\nSe si considera una funzione f:U→ℝ derivabile, con U aperto in ℝ, essa può essere approssimata in un intorno di un qualsiasi punto x0 del dominio mediante la funzione\n\nl(x)=f′(x0)(x−x0)+f(x0)\nil cui grafico è la retta tangente al grafico di f in (x0,f(x0)). La funzione l è un'applicazione affine da ℝ in sé, cioè un'applicazione lineare sulla distanza da x0 composta con una traslazione (l'aggiunta del termine +f(x0)). Il differenziale è allora la parte lineare di l.\nLe derivate direzionali di una funzione indicano di quanto varia la funzione al primo ordine lungo un determinato vettore, mentre il differenziale è l'applicazione lineare che associa a quel vettore la variazione al primo ordine. Si tratta pertanto di un oggetto utile per avere informazioni locali sulla funzione di partenza, ad esempio mostra se è localmente invertibile.",
+     "pageprops": {
+      "wikibase_item": "Q750432"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:41Z",
+     "lastrevid": 139216379,
+     "length": 19293,
+     "fullurl": "https://it.wikipedia.org/wiki/Differenziale_(matematica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Differenziale_(matematica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Differenziale_(matematica)"
+    },
+    {
+     "pageid": 1855883,
+     "ns": 0,
+     "title": "Variabili dipendenti e indipendenti",
+     "index": 1,
+     "extract": "In matematica e in statistica, una variabile può essere definita dipendente o indipendente, a seconda della relazione esistente tra essa e altre variabili.",
+     "pageprops": {
+      "wikibase_item": "Q320723"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:19Z",
+     "lastrevid": 116565738,
+     "length": 3467,
+     "fullurl": "https://it.wikipedia.org/wiki/Variabili_dipendenti_e_indipendenti",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Variabili_dipendenti_e_indipendenti&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Variabili_dipendenti_e_indipendenti"
+    }
+   ]
+  }
+ }
+}

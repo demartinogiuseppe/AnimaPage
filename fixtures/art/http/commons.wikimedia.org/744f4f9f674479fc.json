@@ -1,0 +1,76 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3ALeonardo+da+Vinci+%281452-1519%29+-+The+Last+Supper+%281495-1498%29.jpg&prop=imageinfo&iiprop=url%7Csize%7Cmime%7Cextmetadata&iiurlwidth=960&iiextmetadatafilter=LicenseShortName%7CLicense%7CCopyrighted%7CArtist%7CUsageTerms%7CAttributionRequired",
+ "fetchedAt": "2026-11-04T11:23:59.095Z",
+ "status": 200,
+ "body": {
+  "continue": {
+   "iistart": "2015-04-02T07:57:21Z",
+   "continue": "||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 24759,
+     "ns": 6,
+     "title": "File:Leonardo da Vinci (1452-1519) - The Last Supper (1495-1498).jpg",
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 23766563,
+       "width": 5076,
+       "height": 2645,
+       "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/960px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "thumbwidth": 960,
+       "thumbheight": 500,
+       "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/1920px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+       },
+       "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/960px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 960,
+        "height": 500,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/1920px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+       },
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24759",
+       "extmetadata": {
+        "Artist": {
+         "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "UsageTerms": {
+         "value": "Public domain",
+         "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+         "value": "false",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Copyrighted": {
+         "value": "False",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "License": {
+         "value": "pd",
+         "source": "commons-templates",
+         "hidden": ""
+        }
+       },
+       "mime": "image/jpeg"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

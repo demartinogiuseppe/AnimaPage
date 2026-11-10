@@ -1,0 +1,34 @@
+{
+  "name": "animapage",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "pnpm typecheck && vitest run",
+    "test:watch": "vitest",
+    "dev:web": "pnpm --filter @pv/web dev",
+    "dev:phone": "tsx apps/web/scripts/phone.ts",
+    "icons:web": "tsx apps/web/scripts/icons.ts",
+    "publish:copy": "tsx tools/publish/make-clean-copy.ts",
+    "export:e2e": "tsx apps/web/scripts/export-e2e.ts",
+    "dev:server": "pnpm --filter @pv/server dev",
+    "sounds:fetch": "tsx tools/sounds/fetch.ts",
+    "sounds:process": "tsx tools/sounds/process.ts",
+    "sounds:listen": "tsx tools/sounds/listen.ts",
+    "sounds:accept": "tsx tools/sounds/accept.ts",
+    "sounds:synth": "tsx tools/sounds/synth-candidates.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "fast-png": "^8.0.0",
+    "happy-dom": "^21.0.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

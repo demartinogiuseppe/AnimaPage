@@ -1,0 +1,2266 @@
+{
+  "version": "0.1",
+  "engine": "diorama",
+  "title": "La torta volante",
+  "page": {
+    "subject": "Italiano",
+    "topic": "Il testo narrativo: la struttura del racconto («La torta volante», racconto originale)",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "music": {
+    "track": "music-playful",
+    "volume": 0.6
+  },
+  "engineData": {
+    "stage": {
+      "size": [
+        26,
+        22
+      ],
+      "ground": {
+        "type": "grass",
+        "color": "#8cc56a"
+      },
+      "hour": 11
+    },
+    "items": [
+      {
+        "id": "vialetto",
+        "model": {
+          "shape": "patch",
+          "size": [
+            1.6,
+            7.5
+          ],
+          "color": "#d8c79a"
+        },
+        "pos": [
+          -7,
+          0.006,
+          2.2
+        ]
+      },
+      {
+        "id": "vialetto-2",
+        "model": {
+          "shape": "patch",
+          "size": [
+            8.4,
+            1.6
+          ],
+          "color": "#d8c79a"
+        },
+        "pos": [
+          -3,
+          0.006,
+          5.2
+        ]
+      },
+      {
+        "id": "casa",
+        "model": "house-b",
+        "pos": [
+          -7,
+          0,
+          -6
+        ]
+      },
+      {
+        "id": "tavolo",
+        "model": "table",
+        "pos": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "sedia-1",
+        "model": "chair-cushion",
+        "pos": [
+          1.2,
+          0,
+          0.9
+        ],
+        "rot": 180
+      },
+      {
+        "id": "sedia-2",
+        "model": "chair-cushion",
+        "pos": [
+          2.8,
+          0,
+          0.9
+        ],
+        "rot": 180
+      },
+      {
+        "id": "sedia-3",
+        "model": "chair-cushion",
+        "pos": [
+          2,
+          0,
+          -0.9
+        ]
+      },
+      {
+        "id": "torta",
+        "model": "cake",
+        "pos": [
+          2,
+          0.75,
+          0
+        ],
+        "scale": 1.4
+      },
+      {
+        "id": "regalo",
+        "model": {
+          "shape": "box",
+          "size": [
+            0.3,
+            0.22,
+            0.3
+          ],
+          "color": "#d23b5a"
+        },
+        "pos": [
+          1.3,
+          0.75,
+          -0.1
+        ]
+      },
+      {
+        "id": "fiocco",
+        "model": {
+          "shape": "box",
+          "size": [
+            0.32,
+            0.04,
+            0.06
+          ],
+          "color": "#f4d35e"
+        },
+        "pos": [
+          1.3,
+          0.97,
+          -0.1
+        ]
+      },
+      {
+        "id": "palo-1",
+        "model": {
+          "shape": "box",
+          "size": [
+            0.12,
+            3,
+            0.12
+          ],
+          "color": "#7a5a3a"
+        },
+        "pos": [
+          -0.6,
+          0,
+          -1.6
+        ]
+      },
+      {
+        "id": "palo-2",
+        "model": {
+          "shape": "box",
+          "size": [
+            0.12,
+            3,
+            0.12
+          ],
+          "color": "#7a5a3a"
+        },
+        "pos": [
+          4.6,
+          0,
+          -1.6
+        ]
+      },
+      {
+        "id": "filo",
+        "model": {
+          "shape": "wire",
+          "from": "palo-1.top",
+          "to": "palo-2.top",
+          "sag": 0.45,
+          "color": "#333333"
+        },
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "luce-1",
+        "model": {
+          "shape": "bulb",
+          "radius": 0.12,
+          "color": "#ffd98a"
+        },
+        "pos": [
+          0.4,
+          2.62,
+          -1.6
+        ],
+        "power": false,
+        "light": {
+          "color": "#ffd9a0",
+          "intensity": 0.9,
+          "distance": 6
+        }
+      },
+      {
+        "id": "luce-2",
+        "model": {
+          "shape": "bulb",
+          "radius": 0.12,
+          "color": "#ffd98a"
+        },
+        "pos": [
+          2,
+          2.55,
+          -1.6
+        ],
+        "power": false,
+        "light": {
+          "color": "#ffd9a0",
+          "intensity": 0.9,
+          "distance": 6
+        }
+      },
+      {
+        "id": "luce-3",
+        "model": {
+          "shape": "bulb",
+          "radius": 0.12,
+          "color": "#ffd98a"
+        },
+        "pos": [
+          3.6,
+          2.62,
+          -1.6
+        ],
+        "power": false,
+        "light": {
+          "color": "#ffd9a0",
+          "intensity": 0.9,
+          "distance": 6
+        }
+      },
+      {
+        "id": "cartello",
+        "model": {
+          "shape": "text",
+          "text": "AUGURI NONNO!",
+          "color": "#d23b2a",
+          "height": 0.32,
+          "plate": "#fff6e0"
+        },
+        "pos": [
+          2,
+          1.55,
+          -1.7
+        ],
+        "hidden": true
+      },
+      {
+        "id": "lucia",
+        "model": "girl",
+        "pos": [
+          1,
+          0,
+          1.4
+        ],
+        "rot": -20
+      },
+      {
+        "id": "mamma",
+        "model": "woman-b",
+        "pos": [
+          -5.6,
+          0,
+          -1
+        ],
+        "rot": 30
+      },
+      {
+        "id": "nonno",
+        "model": "man-b",
+        "pos": [
+          3.6,
+          0,
+          1.4
+        ],
+        "rot": -90,
+        "hidden": true
+      },
+      {
+        "id": "pepe",
+        "model": "dog",
+        "pos": [
+          3.6,
+          0,
+          2.2
+        ],
+        "rot": -60
+      },
+      {
+        "id": "coniglio",
+        "model": "bunny",
+        "pos": [
+          7,
+          0,
+          -3
+        ],
+        "rot": -90,
+        "hidden": true
+      },
+      {
+        "id": "cornetto",
+        "model": "croissant",
+        "pos": [
+          3.3,
+          0.02,
+          2.4
+        ],
+        "hidden": true,
+        "scale": 2
+      },
+      {
+        "id": "cespuglio-1",
+        "model": "bush",
+        "pos": [
+          7.4,
+          0,
+          -3.6
+        ]
+      },
+      {
+        "id": "cespuglio-2",
+        "model": "bush",
+        "pos": [
+          -2.4,
+          0,
+          -5.2
+        ]
+      },
+      {
+        "id": "cespuglio-3",
+        "model": "bush",
+        "pos": [
+          9.5,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "fiori-1",
+        "model": "flower-red",
+        "pos": [
+          -5.6,
+          0,
+          -2.3
+        ]
+      },
+      {
+        "id": "fiori-2",
+        "model": "flower-yellow",
+        "pos": [
+          -8.4,
+          0,
+          -2.3
+        ]
+      },
+      {
+        "id": "fiori-3",
+        "model": "flower-red",
+        "pos": [
+          6.4,
+          0,
+          -2.8
+        ]
+      },
+      {
+        "id": "albero-1",
+        "model": "tree-oak",
+        "pos": [
+          -11,
+          0,
+          4
+        ]
+      },
+      {
+        "id": "albero-2",
+        "model": "tree",
+        "pos": [
+          8.5,
+          0,
+          -7.5
+        ]
+      },
+      {
+        "id": "albero-3",
+        "model": "tree-pine",
+        "pos": [
+          -1.5,
+          0,
+          -8.5
+        ]
+      },
+      {
+        "id": "panca",
+        "model": "bench",
+        "pos": [
+          -3.5,
+          0,
+          2.6
+        ],
+        "scale": 2.4
+      },
+      {
+        "id": "staccionata-1",
+        "model": "fence-wood",
+        "pos": [
+          11,
+          0,
+          0.8
+        ],
+        "rot": 90
+      },
+      {
+        "id": "staccionata-2",
+        "model": "fence-wood",
+        "pos": [
+          11,
+          0,
+          -2.1
+        ],
+        "rot": 90
+      },
+      {
+        "id": "cancello",
+        "model": "fence-gate",
+        "pos": [
+          11,
+          0,
+          3.9
+        ],
+        "rot": 90
+      },
+      {
+        "id": "staccionata-3",
+        "model": "fence-wood",
+        "pos": [
+          11,
+          0,
+          7
+        ],
+        "rot": 90
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "mattina",
+        "hour": 10,
+        "actions": [
+          {
+            "do": "place",
+            "target": "lucia",
+            "at": 0,
+            "pos": [
+              -7,
+              0,
+              -1.2
+            ],
+            "rot": 0
+          },
+          {
+            "do": "place",
+            "target": "pepe",
+            "at": 0,
+            "pos": [
+              -8.2,
+              0,
+              -0.8
+            ],
+            "rot": 0
+          },
+          {
+            "do": "attach",
+            "target": "torta",
+            "from": 0,
+            "to": 20.700000000000003,
+            "parent": "lucia",
+            "part": "front",
+            "offset": [
+              0,
+              0.02,
+              0.2
+            ]
+          },
+          {
+            "do": "move",
+            "target": "lucia",
+            "from": 10.1,
+            "to": 19.900000000000002,
+            "path": [
+              [
+                -7,
+                0,
+                5.2
+              ],
+              [
+                -1,
+                0,
+                5.2
+              ],
+              [
+                1.2,
+                0,
+                1.1
+              ]
+            ],
+            "anim": "walk",
+            "ease": "linear"
+          },
+          {
+            "do": "move",
+            "target": "pepe",
+            "from": 15.2,
+            "to": 20.5,
+            "path": [
+              [
+                -8,
+                0,
+                4.5
+              ],
+              [
+                -1.5,
+                0,
+                6
+              ],
+              [
+                0.4,
+                0,
+                2.2
+              ]
+            ],
+            "anim": "walk",
+            "ease": "linear"
+          },
+          {
+            "do": "turn",
+            "target": "lucia",
+            "from": 19.900000000000002,
+            "to": 20.400000000000002,
+            "by": 150
+          },
+          {
+            "do": "place",
+            "target": "torta",
+            "at": 20.700000000000003,
+            "pos": [
+              2,
+              0.75,
+              0
+            ]
+          },
+          {
+            "do": "anim",
+            "target": "lucia",
+            "from": 20.5,
+            "to": 21.700000000000003,
+            "clip": "interact-right",
+            "loop": false
+          },
+          {
+            "do": "anim",
+            "target": "pepe",
+            "from": 21.1,
+            "to": 25.2,
+            "clip": "gesture-negative",
+            "loop": false
+          },
+          {
+            "do": "anim",
+            "target": "mamma",
+            "from": 24.2,
+            "clip": "emote-yes"
+          }
+        ]
+      },
+      {
+        "chapter": "guaio",
+        "hour": 11.5,
+        "actions": [
+          {
+            "do": "move",
+            "target": "lucia",
+            "from": 0.3,
+            "to": 3.6,
+            "path": [
+              [
+                -1,
+                0,
+                5.2
+              ],
+              [
+                -7,
+                0,
+                5.2
+              ],
+              [
+                -7,
+                0,
+                -1.6
+              ]
+            ],
+            "anim": "sprint",
+            "ease": "linear"
+          },
+          {
+            "do": "hide",
+            "target": "lucia",
+            "at": 3.6,
+            "style": "fade",
+            "dur": 0.3
+          },
+          {
+            "do": "show",
+            "target": "coniglio",
+            "at": 3.6,
+            "style": "pop",
+            "dur": 0.4
+          },
+          {
+            "do": "move",
+            "target": "coniglio",
+            "from": 8.1,
+            "to": 22.4,
+            "path": [
+              [
+                5.5,
+                0,
+                2.5
+              ],
+              [
+                4,
+                0,
+                3.5
+              ],
+              [
+                6,
+                0,
+                0
+              ],
+              [
+                7.4,
+                0,
+                -3
+              ]
+            ],
+            "anim": "run",
+            "ease": "linear"
+          },
+          {
+            "do": "move",
+            "target": "pepe",
+            "from": 8.4,
+            "to": 13.9,
+            "path": [
+              [
+                5.2,
+                0,
+                2.6
+              ],
+              [
+                3.6,
+                0,
+                -1.2
+              ],
+              [
+                2.6,
+                0,
+                -0.6
+              ]
+            ],
+            "anim": "run",
+            "ease": "linear"
+          },
+          {
+            "do": "shake",
+            "target": [
+              "tavolo",
+              "regalo",
+              "fiocco"
+            ],
+            "from": 13.9,
+            "to": 15.200000000000001,
+            "amount": 0.05
+          },
+          {
+            "do": "move",
+            "target": "torta",
+            "from": 17.8,
+            "to": 21.4,
+            "path": [
+              [
+                2.75,
+                0.75,
+                0.32
+              ]
+            ],
+            "ease": "inOutQuad"
+          },
+          {
+            "do": "shake",
+            "target": "torta",
+            "from": 21.4,
+            "to": 28,
+            "amount": 0.015
+          },
+          {
+            "do": "hide",
+            "target": "coniglio",
+            "at": 22.599999999999998,
+            "style": "fade",
+            "dur": 0.4
+          },
+          {
+            "do": "move",
+            "target": "pepe",
+            "from": 14.4,
+            "to": 22.9,
+            "path": [
+              [
+                6,
+                0,
+                -1
+              ],
+              [
+                7,
+                0,
+                -2.4
+              ]
+            ],
+            "anim": "run",
+            "ease": "linear"
+          }
+        ]
+      },
+      {
+        "chapter": "volo",
+        "hour": 12,
+        "actions": [
+          {
+            "do": "place",
+            "target": "torta",
+            "at": 0,
+            "pos": [
+              2.75,
+              0.75,
+              0.32
+            ]
+          },
+          {
+            "do": "place",
+            "target": "lucia",
+            "at": 0,
+            "pos": [
+              -7,
+              0,
+              -1.6
+            ],
+            "rot": 0
+          },
+          {
+            "do": "hide",
+            "target": "lucia",
+            "at": 0,
+            "style": "instant",
+            "dur": 0
+          },
+          {
+            "do": "place",
+            "target": "pepe",
+            "at": 0,
+            "pos": [
+              7,
+              0,
+              -2.4
+            ],
+            "rot": -120
+          },
+          {
+            "do": "show",
+            "target": "nonno",
+            "at": 0,
+            "style": "instant",
+            "dur": 0
+          },
+          {
+            "do": "place",
+            "target": "nonno",
+            "at": 0,
+            "pos": [
+              12,
+              0,
+              3.9
+            ],
+            "rot": -90
+          },
+          {
+            "do": "shake",
+            "target": "torta",
+            "from": 0,
+            "to": 7.300000000000001,
+            "amount": 0.015
+          },
+          {
+            "do": "move",
+            "target": "nonno",
+            "from": 0.6,
+            "to": 7.1,
+            "path": [
+              [
+                3.6,
+                0,
+                1.4
+              ]
+            ],
+            "anim": "walk",
+            "ease": "linear"
+          },
+          {
+            "do": "move",
+            "target": "torta",
+            "from": 7.5,
+            "to": 9.9,
+            "path": [
+              [
+                3.35,
+                0.95,
+                1.4
+              ]
+            ],
+            "arc": 0.5,
+            "ease": "inQuad"
+          },
+          {
+            "do": "attach",
+            "target": "torta",
+            "from": 9.9,
+            "parent": "nonno",
+            "part": "front",
+            "offset": [
+              0,
+              0.05,
+              0.22
+            ]
+          },
+          {
+            "do": "anim",
+            "target": "nonno",
+            "from": 9.5,
+            "clip": "holding-both"
+          },
+          {
+            "do": "show",
+            "target": "lucia",
+            "at": 15,
+            "style": "fade",
+            "dur": 0.3
+          },
+          {
+            "do": "move",
+            "target": "lucia",
+            "from": 15,
+            "to": 19.7,
+            "path": [
+              [
+                -7,
+                0,
+                5.2
+              ],
+              [
+                -1,
+                0,
+                5.2
+              ],
+              [
+                1.6,
+                0,
+                2.2
+              ]
+            ],
+            "anim": "sprint",
+            "ease": "linear"
+          },
+          {
+            "do": "anim",
+            "target": "lucia",
+            "from": 19.9,
+            "clip": "emote-yes"
+          },
+          {
+            "do": "move",
+            "target": "pepe",
+            "from": 15,
+            "to": 20.7,
+            "path": [
+              [
+                4.4,
+                0,
+                2.6
+              ]
+            ],
+            "anim": "walk"
+          }
+        ]
+      },
+      {
+        "chapter": "sera",
+        "hour": [
+          {
+            "at": 0,
+            "value": 18.6
+          },
+          {
+            "at": 25.4,
+            "value": 20.2
+          }
+        ],
+        "actions": [
+          {
+            "do": "show",
+            "target": "nonno",
+            "at": 0,
+            "style": "instant",
+            "dur": 0
+          },
+          {
+            "do": "place",
+            "target": "nonno",
+            "at": 0,
+            "pos": [
+              2,
+              0,
+              -0.9
+            ],
+            "rot": 0
+          },
+          {
+            "do": "anim",
+            "target": "nonno",
+            "from": 0,
+            "clip": "sit"
+          },
+          {
+            "do": "place",
+            "target": "mamma",
+            "at": 0,
+            "pos": [
+              1.2,
+              0,
+              0.9
+            ],
+            "rot": 180
+          },
+          {
+            "do": "anim",
+            "target": "mamma",
+            "from": 0,
+            "clip": "sit"
+          },
+          {
+            "do": "place",
+            "target": "lucia",
+            "at": 0,
+            "pos": [
+              2.8,
+              0,
+              0.9
+            ],
+            "rot": 180
+          },
+          {
+            "do": "anim",
+            "target": "lucia",
+            "from": 0,
+            "clip": "sit"
+          },
+          {
+            "do": "place",
+            "target": "pepe",
+            "at": 0,
+            "pos": [
+              4.2,
+              0,
+              2.2
+            ],
+            "rot": -60
+          },
+          {
+            "do": "power",
+            "target": [
+              "luce-1",
+              "luce-2",
+              "luce-3"
+            ],
+            "at": 4.4,
+            "on": true,
+            "dur": 0.6
+          },
+          {
+            "do": "show",
+            "target": "cartello",
+            "at": 4.8,
+            "style": "pop",
+            "dur": 0.5
+          },
+          {
+            "do": "show",
+            "target": "cornetto",
+            "at": 9.200000000000001,
+            "style": "pop",
+            "dur": 0.4
+          },
+          {
+            "do": "anim",
+            "target": "pepe",
+            "from": 9.5,
+            "clip": "eat"
+          },
+          {
+            "do": "anim",
+            "target": "nonno",
+            "from": 13.2,
+            "to": 18.5,
+            "clip": "emote-yes",
+            "loop": false
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "mattina",
+      "title": "Una sorpresa per il nonno",
+      "chip": "L'inizio",
+      "book": {
+        "heading": "Situazione iniziale",
+        "formula": "chi? · dove? · quando?",
+        "lines": [
+          "Chi: Lucia, la mamma, il cane Pepe.",
+          "Dove: il giardino di casa.",
+          "Quando: un sabato mattina, il giorno del compleanno del nonno."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Pepe segue la torta annusando. Che cosa farà secondo te?",
+          "options": [
+            "Si addormenta al sole",
+            "Combina un guaio",
+            "Va a chiamare il nonno"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda Pepe mentre Lucia porta la torta: dove tiene il naso?"
+        },
+        "prove": {
+          "text": "Pepe non perde d'occhio la torta: nel prossimo capitolo combinerà un bel guaio.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Lettore attento"
+      },
+      "kind": "mixed",
+      "duration": 30.6,
+      "narration": [
+        {
+          "at": 0,
+          "text": "È sabato mattina e oggi il nonno Bruno compie settant'anni.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 4.6,
+          "text": "Lucia ha preparato con la mamma una torta alle fragole: è una sorpresa.",
+          "highlight": [
+            "lucia",
+            "mamma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 10.1,
+          "text": "La porta con cura fino al tavolo in giardino, un passo alla volta.",
+          "highlight": [
+            "lucia",
+            "torta"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 15.2,
+          "text": "Pepe, il cane di casa, la segue annusando l'aria.",
+          "highlight": [
+            "pepe"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19.1,
+          "text": "«Tu non la tocchi, intesi?» gli dice Lucia, e la posa sul tavolo.",
+          "highlight": [
+            "lucia",
+            "pepe"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24.2,
+          "text": "Tutto è pronto. Manca solo il nonno, che arriverà a mezzogiorno.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              -2,
+              1.2,
+              0
+            ]
+          },
+          "distance": 17,
+          "azimuth": 10,
+          "elevation": 18
+        },
+        {
+          "at": 10.1,
+          "target": {
+            "entity": "item",
+            "part": "lucia"
+          },
+          "distance": 8,
+          "azimuth": 20,
+          "elevation": 14
+        },
+        {
+          "at": 19.1,
+          "target": {
+            "entity": "item",
+            "part": "tavolo"
+          },
+          "distance": 6,
+          "azimuth": -15,
+          "elevation": 18
+        }
+      ],
+      "pins": [
+        {
+          "id": "lucia",
+          "name": "Lucia",
+          "sub": "la protagonista",
+          "info": "Ha dieci anni e vuole fare una sorpresa al nonno.",
+          "kind": "person",
+          "marker": "#c0392b",
+          "anchor": {
+            "entity": "item",
+            "part": "lucia.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "mamma",
+          "name": "La mamma",
+          "info": "Ha aiutato Lucia a preparare la torta.",
+          "kind": "person",
+          "marker": "#7d3c98",
+          "anchor": {
+            "entity": "item",
+            "part": "mamma.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "pepe",
+          "name": "Pepe",
+          "info": "Il cane di casa: curioso e goloso.",
+          "kind": "person",
+          "anchor": {
+            "entity": "item",
+            "part": "pepe.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "torta",
+          "name": "La torta",
+          "info": "Una torta alle fragole fatta in casa.",
+          "kind": "object",
+          "anchor": {
+            "entity": "item",
+            "part": "torta.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "visible": [
+            [
+              4.6,
+              30.6
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "All'inizio di un racconto si presentano i personaggi, il luogo e il tempo: è la situazione iniziale.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "text": "Il racconto è un testo narrativo breve, con pochi personaggi e una sola vicenda.",
+          "sourceIds": [
+            "wp-racconto"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Chi è la protagonista del racconto?",
+          "options": [
+            "La mamma",
+            "Lucia",
+            "Il nonno"
+          ],
+          "answer": 1,
+          "explain": "È Lucia: la storia segue lei e la sua sorpresa per il nonno."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il personaggio che potrebbe combinare un guaio.",
+          "answerPins": [
+            "pepe"
+          ],
+          "explain": "È Pepe, il cane goloso che segue la torta."
+        }
+      ],
+      "status": [
+        {
+          "from": 0,
+          "to": 30.6,
+          "text": "Sabato mattina"
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "forest",
+            "volume": 0.35
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.4,
+            "sound": "door-creak",
+            "volume": 0.35
+          },
+          {
+            "at": 15.6,
+            "sound": "dog-bark",
+            "volume": 0.35
+          },
+          {
+            "at": 21.700000000000003,
+            "sound": "wood-hit",
+            "volume": 0.3
+          },
+          {
+            "at": 24.2,
+            "sound": "chime",
+            "volume": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "guaio",
+      "title": "Pepe e il coniglio",
+      "chip": "Il guaio",
+      "book": {
+        "heading": "Rottura dell'equilibrio",
+        "lines": [
+          "Lucia si allontana un momento.",
+          "Un coniglio fa scattare Pepe.",
+          "Il tavolo trema: la torta finisce in bilico."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Che cosa fa partire il guaio?",
+          "options": [
+            "Un coniglio che salta fuori",
+            "Un temporale improvviso",
+            "Il nonno che arriva in anticipo"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Segui Pepe mentre corre: quando tocca il tavolo, guarda la torta."
+        },
+        "prove": {
+          "text": "Pepe insegue il coniglio, urta il tavolo e la torta scivola fino al bordo.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Cacciatore di colpi di scena"
+      },
+      "kind": "mixed",
+      "duration": 28,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Lucia corre in casa a prendere le candeline.",
+          "highlight": [
+            "lucia"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.6,
+          "text": "Proprio allora, da un cespuglio, salta fuori un coniglio.",
+          "highlight": [
+            "coniglio"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8.1,
+          "text": "Pepe lo vede e parte di corsa: abbaia, gira intorno al tavolo, salta.",
+          "highlight": [
+            "pepe"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13.4,
+          "text": "Con la coda urta una gamba del tavolo, che trema tutto.",
+          "highlight": [
+            "pepe"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 17.8,
+          "text": "La torta scivola piano piano fino al bordo…",
+          "highlight": [
+            "torta"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 21.4,
+          "text": "…e resta lì, in bilico, mentre il coniglio sparisce tra i cespugli.",
+          "highlight": [
+            "torta",
+            "coniglio"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "item",
+            "part": "tavolo"
+          },
+          "distance": 10,
+          "azimuth": 0,
+          "elevation": 16
+        },
+        {
+          "at": 3.6,
+          "target": {
+            "entity": "item",
+            "part": "coniglio"
+          },
+          "distance": 5,
+          "azimuth": -30,
+          "elevation": 14
+        },
+        {
+          "at": 8.1,
+          "target": {
+            "pos": [
+              3,
+              0.6,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 15,
+          "elevation": 20
+        },
+        {
+          "at": 17.8,
+          "target": {
+            "entity": "item",
+            "part": "torta"
+          },
+          "distance": 3.2,
+          "azimuth": 30,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "lucia",
+          "name": "Lucia",
+          "info": "Va in casa a prendere le candeline.",
+          "kind": "person",
+          "marker": "#c0392b",
+          "anchor": {
+            "entity": "item",
+            "part": "lucia.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "visible": [
+            [
+              0,
+              3.6
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "coniglio",
+          "name": "Il coniglio",
+          "info": "Esce dal cespuglio e fa scattare Pepe.",
+          "kind": "person",
+          "anchor": {
+            "entity": "item",
+            "part": "coniglio.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "visible": [
+            [
+              3.6,
+              28
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "pepe",
+          "name": "Pepe",
+          "info": "Corre dietro al coniglio e urta il tavolo.",
+          "kind": "person",
+          "anchor": {
+            "entity": "item",
+            "part": "pepe.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "torta",
+          "name": "La torta",
+          "info": "Scivola fino al bordo del tavolo e resta in bilico.",
+          "kind": "object",
+          "anchor": {
+            "entity": "item",
+            "part": "torta.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Quando un fatto improvviso cambia la situazione iniziale si parla di rottura dell'equilibrio.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "text": "Da qui la storia si fa più tesa: il lettore si chiede come andrà a finire.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Perché Pepe urta il tavolo?",
+          "options": [
+            "Vuole mangiare la torta",
+            "Sta inseguendo il coniglio",
+            "Lucia lo ha chiamato"
+          ],
+          "answer": 1,
+          "explain": "Pepe corre dietro al coniglio e, girando intorno al tavolo, lo urta con la coda."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'oggetto che adesso è in pericolo.",
+          "answerPins": [
+            "torta"
+          ],
+          "explain": "La torta è in bilico sul bordo del tavolo."
+        }
+      ],
+      "status": [
+        {
+          "from": 0,
+          "to": 28,
+          "text": "Poco prima di mezzogiorno"
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "forest",
+            "volume": 0.35
+          }
+        ],
+        "cues": [
+          {
+            "at": 3.6,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 8.4,
+            "sound": "dog-bark",
+            "volume": 0.5
+          },
+          {
+            "at": 9.7,
+            "sound": "dog-bark",
+            "volume": 0.45
+          },
+          {
+            "at": 13.9,
+            "sound": "wood-hit",
+            "volume": 0.55
+          },
+          {
+            "at": 21.4,
+            "sound": "whistle",
+            "volume": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "volo",
+      "title": "La torta vola",
+      "chip": "Al volo!",
+      "book": {
+        "heading": "Spannung e scioglimento",
+        "formula": "massima tensione → soluzione",
+        "lines": [
+          "La torta cade: è il momento di massima tensione.",
+          "Il nonno la prende al volo.",
+          "Il guaio si risolve in una risata."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "La torta sta cadendo. Che cosa succede?",
+          "options": [
+            "Si schiaccia sul prato",
+            "La mangia Pepe",
+            "Il nonno la prende al volo"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Guarda le mani del nonno quando la torta cade."
+        },
+        "prove": {
+          "text": "Il nonno, appena arrivato, prende la torta al volo: il guaio finisce bene.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Esperto di finali"
+      },
+      "kind": "mixed",
+      "duration": 25.3,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Proprio in quel momento il cancello si apre: è il nonno Bruno, in anticipo.",
+          "highlight": [
+            "nonno"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5.7,
+          "text": "Fa due passi verso il tavolo e la torta… cade!",
+          "highlight": [
+            "torta"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 9.5,
+          "text": "Il nonno allunga le mani e la prende al volo, senza perdere una fragola.",
+          "highlight": [
+            "nonno",
+            "torta"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 15,
+          "text": "Lucia esce di corsa con le candeline e resta a bocca aperta.",
+          "highlight": [
+            "lucia"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19.7,
+          "text": "«Che sorpresa» ride il nonno, «una torta che vola!»",
+          "highlight": [
+            "nonno"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "item",
+            "part": "cancello"
+          },
+          "distance": 8,
+          "azimuth": -40,
+          "elevation": 14
+        },
+        {
+          "at": 5.7,
+          "target": {
+            "pos": [
+              3,
+              0.9,
+              0.8
+            ]
+          },
+          "distance": 4.5,
+          "azimuth": 20,
+          "elevation": 10
+        },
+        {
+          "at": 15,
+          "target": {
+            "pos": [
+              0,
+              1,
+              0.5
+            ]
+          },
+          "distance": 8.5,
+          "azimuth": 5,
+          "elevation": 14
+        }
+      ],
+      "pins": [
+        {
+          "id": "nonno",
+          "name": "Il nonno Bruno",
+          "sub": "70 anni",
+          "info": "Arriva in anticipo, proprio al momento giusto.",
+          "kind": "person",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "item",
+            "part": "nonno.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "torta",
+          "name": "La torta",
+          "info": "Cade dal tavolo… ma non tocca terra.",
+          "kind": "object",
+          "anchor": {
+            "entity": "item",
+            "part": "torta.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "lucia",
+          "name": "Lucia",
+          "info": "Torna con le candeline e non crede ai suoi occhi.",
+          "kind": "person",
+          "marker": "#c0392b",
+          "anchor": {
+            "entity": "item",
+            "part": "lucia.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "visible": [
+            [
+              15,
+              25.3
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il momento di massima tensione di un racconto si chiama Spannung, una parola tedesca che significa proprio «tensione».",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "text": "Subito dopo arriva lo scioglimento: il problema si risolve, bene o male.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Qual è il momento di massima tensione del racconto?",
+          "options": [
+            "Quando Lucia porta la torta",
+            "Quando la torta cade dal tavolo",
+            "Quando si accendono le luci"
+          ],
+          "answer": 1,
+          "explain": "Quando la torta cade non sappiamo se si salverà: è la Spannung."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il personaggio che risolve il guaio.",
+          "answerPins": [
+            "nonno"
+          ],
+          "explain": "È il nonno Bruno, che prende la torta al volo."
+        }
+      ],
+      "status": [
+        {
+          "from": 0,
+          "to": 25.3,
+          "text": "Mezzogiorno"
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "forest",
+            "volume": 0.35
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.3,
+            "sound": "door-creak",
+            "volume": 0.45
+          },
+          {
+            "at": 7.5,
+            "sound": "whoosh",
+            "volume": 0.5
+          },
+          {
+            "at": 9.9,
+            "sound": "pop",
+            "volume": 0.5
+          },
+          {
+            "at": 15.3,
+            "sound": "footsteps",
+            "volume": 0.4
+          },
+          {
+            "at": 20.2,
+            "sound": "applause",
+            "volume": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "sera",
+      "title": "La festa",
+      "chip": "La fine",
+      "book": {
+        "heading": "Conclusione",
+        "lines": [
+          "La festa si fa la sera, tutti insieme.",
+          "Anche Pepe viene perdonato.",
+          "Il messaggio: le sorprese non vanno sempre come previsto."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Come finisce la storia?",
+          "options": [
+            "Con una festa",
+            "Con una lite",
+            "Con Pepe chiuso fuori"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Guarda il tavolo al tramonto: chi c'è e che cosa si accende?"
+        },
+        "prove": {
+          "text": "La sera si fa festa tutti insieme, con le lucine, il cartello e un cornetto anche per Pepe.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Narratore in erba"
+      },
+      "kind": "mixed",
+      "duration": 25.4,
+      "narration": [
+        {
+          "at": 0,
+          "text": "La sera tutta la famiglia si siede intorno al tavolo.",
+          "highlight": [
+            "mamma",
+            "lucia",
+            "nonno"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 4.2,
+          "text": "Si accendono le lucine e compare un cartello: auguri nonno!",
+          "highlight": [
+            "cartello"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8.9,
+          "text": "Anche Pepe ha il suo premio: un cornetto tutto per sé.",
+          "highlight": [
+            "pepe"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13.2,
+          "text": "Il nonno dice che è stato il compleanno più divertente della sua vita.",
+          "highlight": [
+            "nonno"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 18.5,
+          "text": "A volte le sorprese più belle sono quelle che non vanno come previsto.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              2,
+              1,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 0,
+          "elevation": 16
+        },
+        {
+          "at": 4.2,
+          "target": {
+            "entity": "item",
+            "part": "cartello"
+          },
+          "distance": 5,
+          "azimuth": 0,
+          "elevation": 8
+        },
+        {
+          "at": 8.9,
+          "target": {
+            "entity": "item",
+            "part": "pepe"
+          },
+          "distance": 3.5,
+          "azimuth": 25,
+          "elevation": 18
+        },
+        {
+          "at": 13.2,
+          "target": {
+            "pos": [
+              2,
+              1,
+              0
+            ]
+          },
+          "distance": 10,
+          "azimuth": -10,
+          "elevation": 14
+        }
+      ],
+      "pins": [
+        {
+          "id": "mamma",
+          "name": "La mamma",
+          "info": "Si siede a tavola con tutta la famiglia.",
+          "kind": "person",
+          "marker": "#7d3c98",
+          "anchor": {
+            "entity": "item",
+            "part": "mamma.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "lucia",
+          "name": "Lucia",
+          "info": "La sua sorpresa è riuscita, anche se in modo diverso dal previsto.",
+          "kind": "person",
+          "marker": "#c0392b",
+          "anchor": {
+            "entity": "item",
+            "part": "lucia.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "nonno",
+          "name": "Il nonno Bruno",
+          "info": "Festeggia il suo compleanno più divertente.",
+          "kind": "person",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "item",
+            "part": "nonno.head",
+            "offset": [
+              0,
+              0.45,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "cartello",
+          "name": "Il cartello",
+          "info": "Auguri nonno!",
+          "kind": "object",
+          "anchor": {
+            "entity": "item",
+            "part": "cartello.top",
+            "offset": [
+              0,
+              0.25,
+              0
+            ]
+          },
+          "visible": [
+            [
+              4.2,
+              25.4
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "pepe",
+          "name": "Pepe",
+          "info": "Riceve un cornetto: tutto è perdonato.",
+          "kind": "person",
+          "anchor": {
+            "entity": "item",
+            "part": "pepe.top",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La conclusione mostra la nuova situazione dopo la vicenda: spesso è diversa da quella iniziale.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "text": "Molti racconti lasciano un messaggio, detto apertamente o da capire tra le righe.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Qual è il messaggio del racconto?",
+          "options": [
+            "I cani vanno tenuti chiusi in casa",
+            "Le sorprese più belle a volte non vanno come previsto",
+            "Le torte vanno comprate in pasticceria"
+          ],
+          "answer": 1,
+          "explain": "Il guaio di Pepe ha reso il compleanno ancora più speciale."
+        },
+        {
+          "type": "choice",
+          "q": "In che ordine avvengono i fatti?",
+          "options": [
+            "Festa, torta che cade, coniglio",
+            "Coniglio, torta in bilico, torta presa al volo, festa",
+            "Torta presa al volo, coniglio, festa"
+          ],
+          "answer": 1,
+          "explain": "Prima il coniglio fa scattare Pepe, poi la torta resta in bilico, cade e il nonno la prende; alla fine c'è la festa."
+        }
+      ],
+      "status": [
+        {
+          "from": 0,
+          "to": 25.4,
+          "text": "Sera"
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "night",
+            "volume": 0.35
+          }
+        ],
+        "cues": [
+          {
+            "at": 4.4,
+            "sound": "switch",
+            "volume": 0.4
+          },
+          {
+            "at": 4.8,
+            "sound": "sparkle",
+            "volume": 0.4
+          },
+          {
+            "at": 9.4,
+            "sound": "dog-bark",
+            "volume": 0.3
+          },
+          {
+            "at": 18.5,
+            "sound": "applause",
+            "volume": 0.35
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "«La torta volante», racconto originale scritto per AnimaPage (lezione di esempio)"
+    },
+    {
+      "id": "wp-racconto",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Racconto",
+      "url": "https://it.wikipedia.org/wiki/Racconto",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Racconto originale scritto per AnimaPage: personaggi e fatti sono inventati.",
+    "Ricostruzione animata e giocosa: il giardino e i personaggi sono disegnati con modelli semplici."
+  ]
+}

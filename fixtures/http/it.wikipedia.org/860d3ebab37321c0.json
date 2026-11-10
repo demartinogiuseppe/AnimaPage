@@ -1,0 +1,250 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=Campania%7CNapoli%7CMonte+Cervati%7CVesuvio%7CLazio%7CSele%7CArcipelago+Campano%7CMar+Tirreno%7CAppennino+Campano%7CCostiera+Amalfitana%7CMolise%7CPuglia",
+ "fetchedAt": "2026-11-04T15:05:18.699Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "redirects": [
+    {
+     "from": "Costiera Amalfitana",
+     "to": "Costiera amalfitana"
+    },
+    {
+     "from": "Appennino Campano",
+     "to": "Appennino campano"
+    }
+   ],
+   "pages": [
+    {
+     "pageid": 2712,
+     "ns": 0,
+     "title": "Mar Tirreno",
+     "extract": "Il mar Tirreno è la porzione del mar Mediterraneo occidentale che si estende a occidente della penisola italiana fino alle coste della Corsica e della Sardegna e al canale di Sardegna. Può essere suddiviso in alto e basso Tirreno o anche in Tirreno settentrionale, centrale e meridionale.",
+     "pageprops": {
+      "wikibase_item": "Q38882"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T22:39:24Z",
+     "lastrevid": 153154670,
+     "length": 20458,
+     "fullurl": "https://it.wikipedia.org/wiki/Mar_Tirreno",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Mar_Tirreno&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Mar_Tirreno"
+    },
+    {
+     "pageid": 2744,
+     "ns": 0,
+     "title": "Molise",
+     "extract": "Il Molise (AFI: /moˈlize/) è una regione italiana a statuto ordinario dell'Italia meridionale di 284 883 abitanti, con capoluogo Campobasso.\nNata nel 1963 per distaccamento della provincia di Campobasso dalla regione Abruzzi e Molise, confina con l'Abruzzo e il Mare Adriatico a nord, con il Lazio a ovest, la Campania a sud e la Puglia a est; le province sono Campobasso e Isernia, quest'ultima istituita nel 1970 per distaccamento di 52 comuni dalla provincia di Campobasso. Il termine \"Molise\" proviene dai primi feudatari del Contado, che avevano il cognome \"De Molisio\", mentre altri sostengono che derivi dal comune di Molise.\nL'attuale territorio molisano, abitato anticamente dai Frentani e dalla tribù sannitica dei Pentri, fu in gran parte ricompreso nella regione romana Regio IV Samnium. In epoca longobarda, allorquando il territorio fu assoggettato al Ducato di Benevento, comincia a definirsi il primo nucleo di quello che diventerà in seguito il Contado di Molise, un territorio che solo nel 1806 troverà una certa autonomia rispetto alla confinante Terra di Lavoro e alla Capitanata da cui ha dipeso per secoli. L'entità amministrativa contemporanea, ben diversa dal Contado originario che escludeva ampie zone e ne includeva altre, trae le proprie origini nella suddivisione del Regno delle Due Sicilie realizzata durante la dominazione napoleonica.",
+     "pageprops": {
+      "wikibase_item": "Q1443"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T17:50:25Z",
+     "lastrevid": 153044966,
+     "length": 128516,
+     "fullurl": "https://it.wikipedia.org/wiki/Molise",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Molise&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Molise"
+    },
+    {
+     "pageid": 2986,
+     "ns": 0,
+     "title": "Napoli",
+     "extract": "Napoli (AFI: /ˈnapoli/ ; Napule in napoletano, pronuncia [ˈnɑːpələ]) è un comune italiano di 902 705 abitanti, capoluogo dell'omonima città metropolitana e della Campania. È il centro di una delle più popolose aree metropolitane dell'Unione europea e il terzo comune d'Italia per popolazione.\nNapoli nasce come Partenope, fondata dai Cumani su Pizzofalcone a fine VIII secolo a.C. su base archeologica, sebbene sporadici reperti suggeriscano una datazione più antica. Alla fine del VI secolo a.C. Partenope si evolse in Neapolis, divenendo uno dei centri più famosi della Magna Grecia e il principale tramite della grecità nella nascente cultura romana.\nCon la conquista romana, Napoli mantenne la cultura greca e l'autonomia, diventando alleata nel Tirreno; dal I secolo d.C. ospitò i Sebastà, giochi pari a quelli di Olimpia, e divenne meta privilegiata per l'élite romana e diversi imperatori.\nDopo l'invasione longobarda del VI secolo, Napoli rimase bizantina come capitale del Ducato di Napoli, che in seguito divenne indipendente sotto un duca ereditario. Dal 1266 fu capitale del Regno di Sicilia, poi dal 1282 del Regno di Napoli e, in seguito, del Regno delle Due Sicilie fino all'Unità d'Italia.\nNapoli è una delle più antiche città d'Europa, con circa tremila anni di storia attestata archeologicamente e un ruolo centrale nello sviluppo culturale del Mediterraneo. Sede della Federico II, la più antica università statale e laica al mondo, è stata protagonista dell'Umanesimo e dell'Illuminismo e punto di riferimento per la musica classica e l'opera grazie alla scuola musicale napoletana, dando tra l'altro origine all'opera buffa.\nLa città è stata cruciale per l'evoluzione di correnti artistiche come il Barocco, ed è alla base della canzone e del teatro napoletano, oltre a una tradizione culinaria con\nicone globali, come la pizza napoletana, riconosciuta dall'UNESCO.\nNel 1995 l'UNESCO ha dichiarato patrimonio mondiale il centro storico di Napoli, riconoscendolo come impronta delle culture europee e mediterranee, un sito unico e di valore universale senza eguali. Nel 1997 ha incluso il Somma-Vesuvio tra le Riserve della biosfera, comprendendo l'area est di Napoli e i comuni vesuviani.\nIn città, in quanto spesso definita come «capitale del Mediterraneo» e per la sua centralità geografica, ha inoltre sede l'Assemblea parlamentare del Mediterraneo.",
+     "pageprops": {
+      "wikibase_item": "Q2634"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T12:38:05Z",
+     "lastrevid": 153175442,
+     "length": 262146,
+     "fullurl": "https://it.wikipedia.org/wiki/Napoli",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Napoli&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Napoli"
+    },
+    {
+     "pageid": 4442,
+     "ns": 0,
+     "title": "Vesuvio",
+     "extract": "Il Vesuvio è uno stratovulcano situato in Italia, in posizione dominante rispetto al golfo di Napoli, in Campania. La sua forma attuale è il risultato della fusione con un vulcano più antico, il Monte Somma: il cono vulcanico si è sviluppato all'interno della caldera formatasi dal crollo della parte superiore del Somma a causa di potenti eruzioni esplosive, tra cui spicca quella del 79 d.C.\nÈ uno dei due vulcani attivi dell'Europa continentale (più precisamente è definito quiescente, risalendo l'ultima eruzione a 82 anni fa) nonché uno dei più studiati e pericolosi al mondo a causa dell'elevata popolazione delle zone circostanti e delle sue caratteristiche esplosive. L'area vesuviana presenta infatti un'alta densità di popolazione e il numero dei residenti potenzialmente in pericolo si aggira intorno a 700000.",
+     "pageprops": {
+      "wikibase_item": "Q524"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-01T22:07:43Z",
+     "lastrevid": 152337710,
+     "length": 45709,
+     "fullurl": "https://it.wikipedia.org/wiki/Vesuvio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Vesuvio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Vesuvio"
+    },
+    {
+     "pageid": 124280,
+     "ns": 0,
+     "title": "Costiera amalfitana",
+     "extract": "La Costiera amalfitana (o Costa d'Amalfi) è un tratto di costa tirrenica della provincia di Salerno in Campania. Situata ad est della penisola sorrentina, si affaccia sul golfo di Salerno e si estende da Positano a Vietri sul Mare (confinante con Salerno).\nRiconosciuta come Patrimonio dell'umanità dell'UNESCO nel 1997, la costiera è rinomata in tutto il mondo per la sua bellezza naturalistica. Prende il nome dalla città di Amalfi, suo nucleo geografico e storico.",
+     "pageprops": {
+      "wikibase_item": "Q212214"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:29Z",
+     "lastrevid": 148836927,
+     "length": 11554,
+     "fullurl": "https://it.wikipedia.org/wiki/Costiera_amalfitana",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Costiera_amalfitana&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Costiera_amalfitana"
+    },
+    {
+     "pageid": 217864,
+     "ns": 0,
+     "title": "Sele",
+     "extract": "Il Sele è un importante fiume della Campania lungo 64 km, il secondo della regione e del Mezzogiorno d'Italia per volume medio d'acque dopo il Volturno, tributario del Mar Tirreno. Il corso del fiume è tutelato dalla Riserva naturale Foce Sele - Tanagro.",
+     "pageprops": {
+      "wikibase_item": "Q937958"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:41Z",
+     "lastrevid": 152612392,
+     "length": 15755,
+     "fullurl": "https://it.wikipedia.org/wiki/Sele",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sele&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sele"
+    },
+    {
+     "pageid": 785290,
+     "ns": 0,
+     "title": "Arcipelago Campano",
+     "extract": "L'Arcipelago Campano (anche detto Napoletano o Partenopeo) è un arcipelago formato da un gruppo di cinque isole situate ai margini del golfo di Napoli, nel Mar Tirreno.\nFino al 1934 tra le Isole Campane (o Napoletane) si includevano anche le isole Ponziane (che prima dell'istituzione della provincia di Latina si trovavano in Campania, in provincia di Napoli); oggi per riferirsi al complesso delle isole Partenopee e a quelle Pontine si utilizza talvolta la forma \"arcipelago pontino-campano\".",
+     "pageprops": {
+      "wikibase_item": "Q768102"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:18Z",
+     "lastrevid": 149213608,
+     "length": 6829,
+     "fullurl": "https://it.wikipedia.org/wiki/Arcipelago_Campano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Arcipelago_Campano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Arcipelago_Campano"
+    },
+    {
+     "pageid": 1512148,
+     "ns": 0,
+     "title": "Campania",
+     "extract": "La Campania (AFI: /kamˈpanja/) è una regione dell'Italia meridionale, con capoluogo Napoli. Istituita come regione a statuto ordinario nel 1948, è divenuta operativa nel 1970 con l'elezione dei primi organi regionali.\nCon 5 561 912 abitanti è la regione più popolosa del Mezzogiorno e la terza d'Italia per popolazione, dopo Lombardia e Lazio; è inoltre la seconda regione italiana per densità abitativa, preceduta soltanto dalla Lombardia.\nSituata tra il mar Tirreno e l'Appennino meridionale, ha una superficie di 13670,95 km² e confina con Lazio, Molise, Puglia e Basilicata. Comprende la città metropolitana di Napoli e le province di Avellino, Benevento, Caserta e Salerno.\nLe prime testimonianze della presenza umana in Campania risalgono al paleolitico e al neolitico. Nell'antichità il territorio fu abitato dagli Osci e dai Sanniti e interessato dalla colonizzazione greca, che diede origine a importanti centri della Magna Grecia. Dopo le guerre sannitiche entrò progressivamente nell'orbita di Roma, che in epoca imperiale ne valorizzò la fertilità con la denominazione di Campania felix. Dopo la crisi dell'Impero romano d'Occidente il territorio fu diviso tra domini longobardi e bizantini; nel medioevo entrò nell'ambito del regno di Sicilia e successivamente del regno di Napoli, di cui Napoli fu capitale. In epoca contemporanea la regione è stata coinvolta nelle dinamiche della questione meridionale.",
+     "pageprops": {
+      "wikibase_item": "Q1438"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T21:55:26Z",
+     "lastrevid": 153043738,
+     "length": 243975,
+     "fullurl": "https://it.wikipedia.org/wiki/Campania",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Campania&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Campania"
+    },
+    {
+     "pageid": 1522694,
+     "ns": 0,
+     "title": "Monte Cervati",
+     "extract": "Il Monte Cervati  è un monte dell'Appennino lucano di 1899 m s.l.m. situato in provincia di Salerno.\nÈ la maggiore vetta del Cilento, nonché una fra le più elevate della Campania per altitudine, superata soltanto dalla Punta Giulia (1917 m s.l.m.) de La Gallinola, localizzata nel massiccio del Matese presso il confine con il Molise, oltre che da La Gallinola stessa (1923 m s.l.m.) che, però, è in condivisione con il Molise.",
+     "pageprops": {
+      "wikibase_item": "Q1139820"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:56Z",
+     "lastrevid": 148661788,
+     "length": 3255,
+     "fullurl": "https://it.wikipedia.org/wiki/Monte_Cervati",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Monte_Cervati&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Monte_Cervati"
+    },
+    {
+     "pageid": 1824537,
+     "ns": 0,
+     "title": "Lazio",
+     "extract": "Il Lazio è una regione a statuto ordinario dell'Italia centrale di 5 709 402 abitanti, istituita nel 1948 e resa operativa nel 1970. Ha come capoluogo la città di Roma.\nÈ la seconda regione italiana per popolazione (dopo la Lombardia), mentre figura al nono posto per estensione territoriale. Confina a nord-ovest con la Toscana, a nord con l'Umbria, a nord-est con le Marche e l'Abruzzo e a sud-est con il Molise e la Campania. A sud-ovest invece è bagnato dal mar Tirreno. Al suo interno è presente la piccola enclave della Città del Vaticano. Nella remota antichità il Lazio (Latium) comprendeva soltanto una parte limitata dell'attuale regione, compresa tra il corso inferiore del Tevere, il mar Tirreno, le paludi pontine e i monti Sabini.",
+     "pageprops": {
+      "wikibase_item": "Q1282"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T11:33:23Z",
+     "lastrevid": 153204900,
+     "length": 131088,
+     "fullurl": "https://it.wikipedia.org/wiki/Lazio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Lazio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Lazio"
+    },
+    {
+     "pageid": 2649829,
+     "ns": 0,
+     "title": "Appennino campano",
+     "extract": "L'Appennino campano è un settore dell'Appennino meridionale che si estende dalla sella di Vinchiaturo (553 m), ove si connette all'Appennino sannita, fino alla sella di Conza (697 m), ove entra in congiunzione con l'Appennino lucano. Spostati verso ovest, tra l'Appennino campano e il mar Tirreno, vi sono inoltre i rilievi dell'antiappennino campano, mentre sul lato orientale, verso l'Adriatico, si ergono i monti della Daunia. Dall'Appennino campano nascono tra gli altri i fiumi Tammaro, Ufita, Calore, Sabato e Isclero, tutti affluenti o subaffluenti del Volturno, cui contribuiscono per più della metà del bacino.",
+     "pageprops": {
+      "wikibase_item": "Q3620872"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:04Z",
+     "lastrevid": 146732749,
+     "length": 7777,
+     "fullurl": "https://it.wikipedia.org/wiki/Appennino_campano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Appennino_campano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Appennino_campano"
+    },
+    {
+     "pageid": 2823664,
+     "ns": 0,
+     "title": "Puglia",
+     "extract": "La Puglia (AFI: /ˈpuʎʎa/) è una regione italiana a statuto ordinario dell'Italia meridionale, di 3 857 254 abitanti, istituita nel 1948 e resa operativa nel 1970. Ha come capoluogo la città di Bari.\nConfina a nord-ovest con il Molise e a ovest con la Campania e la Basilicata, mentre è bagnata a est e a nord dal mare Adriatico e a sud dal mar Ionio. Comprende la città metropolitana di Bari (capoluogo) e le province di Foggia, Barletta-Andria-Trani, Taranto, Brindisi e Lecce. La Puglia è la regione più orientale d'Italia: la località più a est è Punta Palascìa (Otranto), distante 72 km da Capo Linguetta, la punta più settentrionale della Penisola di Karaburun, in Albania, 80 km dall'isola greca di Fanò.",
+     "pageprops": {
+      "wikibase_item": "Q1447"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T02:29:23Z",
+     "lastrevid": 153050186,
+     "length": 172878,
+     "fullurl": "https://it.wikipedia.org/wiki/Puglia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Puglia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Puglia"
+    }
+   ]
+  }
+ }
+}

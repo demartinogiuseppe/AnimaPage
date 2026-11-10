@@ -1,0 +1,1371 @@
+{
+  "version": "0.1",
+  "title": "Le carrucole",
+  "page": {
+    "subject": "tecnologia",
+    "topic": "Le carrucole",
+    "bookPage": "112",
+    "language": "it"
+  },
+  "kind": "science",
+  "chapters": [
+    {
+      "id": "fissa",
+      "title": "La carrucola fissa",
+      "chip": "Fissa",
+      "kind": "science",
+      "duration": 34,
+      "narration": [
+        {
+          "at": 0,
+          "text": "La carrucola è una ruota con una scanalatura sul bordo, dove scorre una fune.",
+          "highlight": [
+            "p-ruota-f"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Gira intorno a un perno fissato a un sostegno e aiuta a sollevare pesi.",
+          "highlight": [
+            "p-ruota-f"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Nella carrucola fissa il perno resta fermo: tiri la fune in basso e il peso sale.",
+          "highlight": [
+            "p-forza-f",
+            "p-peso-f"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "La forza necessaria è uguale al peso: F uguale P.",
+          "speech": "La forza necessaria è uguale al peso: effe uguale pi.",
+          "highlight": [
+            "p-formula-f"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Non risparmi forza, ma tirare verso il basso è più comodo.",
+          "highlight": [
+            "p-forza-f"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "ruota-f"
+          },
+          "distance": 7,
+          "azimuth": 15,
+          "elevation": 12
+        },
+        {
+          "at": 11,
+          "target": {
+            "pos": [
+              -3.5,
+              3.5,
+              0
+            ]
+          },
+          "distance": 10,
+          "azimuth": 15,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-ruota-f",
+          "name": "Carrucola fissa",
+          "info": "Ruota scanalata con il perno fermo, attaccata alla trave.",
+          "kind": "object",
+          "anchor": {
+            "entity": "ruota-f",
+            "offset": [
+              0,
+              0.9,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-peso-f",
+          "name": "Peso P",
+          "info": "Il carico da sollevare.",
+          "kind": "object",
+          "anchor": {
+            "entity": "peso-f",
+            "offset": [
+              0,
+              0.7,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-forza-f",
+          "name": "Forza F",
+          "info": "Si tira la fune verso il basso.",
+          "kind": "object",
+          "anchor": {
+            "entity": "forza-f"
+          },
+          "visible": [
+            [
+              12,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-formula-f",
+          "name": "F = P",
+          "info": "La forza è uguale al peso.",
+          "kind": "note",
+          "anchor": {
+            "entity": "etichetta-f"
+          },
+          "visible": [
+            [
+              18,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La carrucola è una macchina semplice: non crea energia, ma rende più comodo il lavoro cambiando la direzione della forza.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quale carrucola cambia solo la direzione della forza?",
+          "options": [
+            "La carrucola mobile",
+            "La carrucola fissa",
+            "Il paranco"
+          ],
+          "answer": 1,
+          "explain": "Con la carrucola fissa F = P: la forza non cambia, cambia solo la direzione in cui tiri."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la freccia che indica dove tiri.",
+          "answerPins": [
+            "p-forza-f"
+          ],
+          "explain": "Con la carrucola fissa si tira verso il basso."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 12,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          },
+          {
+            "at": 18,
+            "sound": "chime",
+            "volume": 0.5
+          }
+        ]
+      },
+      "book": {
+        "heading": "Carrucola fissa",
+        "formula": "F = P",
+        "lines": [
+          "Ruota scanalata con fune e perno.",
+          "Il perno resta fermo.",
+          "Non risparmia forza, cambia direzione."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Con una carrucola fissa, quanta forza serve rispetto al peso?",
+          "options": [
+            "Metà del peso",
+            "Più del peso",
+            "Uguale al peso"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Guarda: la maniglia scende quanto il peso sale. Prova a cambiare la velocità.",
+          "params": [
+            "k"
+          ]
+        },
+        "prove": {
+          "text": "La fune passa sulla ruota e un solo tratto regge il peso: la forza è uguale al peso, cambia solo la direzione.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Domatore di funi"
+      }
+    },
+    {
+      "id": "mobile",
+      "title": "La carrucola mobile",
+      "chip": "Mobile",
+      "kind": "science",
+      "duration": 38,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Nella carrucola mobile la ruota è appesa alla fune e sale insieme al peso.",
+          "highlight": [
+            "p-ruota-m"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Il peso è sostenuto da due tratti di fune, uno per lato.",
+          "highlight": [
+            "p-tratti"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Così basta una forza pari a metà del peso: F uguale P diviso 2.",
+          "speech": "Così basta una forza pari a metà del peso: effe uguale pi diviso due.",
+          "highlight": [
+            "p-formula-m"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "Ma c'è un prezzo: bisogna tirare il doppio della fune.",
+          "highlight": [
+            "p-maniglia-m"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 25,
+          "text": "Per alzare il peso di 1 metro si tirano 2 metri di fune.",
+          "speech": "Per alzare il peso di un metro si tirano due metri di fune.",
+          "highlight": [
+            "p-maniglia-m",
+            "p-ruota-m"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              3,
+              3.5,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 15,
+          "elevation": 12
+        },
+        {
+          "at": 19,
+          "target": {
+            "pos": [
+              3,
+              4,
+              0
+            ]
+          },
+          "distance": 8,
+          "azimuth": 25,
+          "elevation": 10
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-ruota-m",
+          "name": "Carrucola mobile",
+          "info": "È appesa alla fune e sale con il peso.",
+          "kind": "object",
+          "anchor": {
+            "entity": "ruota-m",
+            "offset": [
+              0,
+              0.9,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-tratti",
+          "name": "Due tratti di fune",
+          "info": "Ognuno regge metà del peso.",
+          "kind": "object",
+          "anchor": {
+            "entity": "fune-m-a"
+          },
+          "visible": [
+            [
+              7,
+              38
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-formula-m",
+          "name": "F = P : 2",
+          "info": "La forza è metà del peso.",
+          "kind": "note",
+          "anchor": {
+            "entity": "etichetta-m"
+          },
+          "visible": [
+            [
+              13,
+              38
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-maniglia-m",
+          "name": "Punto di tiro",
+          "info": "Si tira verso l'alto: la mano fa il doppio della strada del peso.",
+          "kind": "object",
+          "anchor": {
+            "entity": "maniglia-m",
+            "offset": [
+              0.3,
+              0,
+              0
+            ]
+          },
+          "visible": [
+            [
+              20,
+              38
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il libro scrive «un sacco di 40 kg»: il kg misura la massa. Più precisamente, la forza è metà del peso del sacco, cioè quanto serve per reggere 20 kg.",
+          "sourceIds": [
+            "page",
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Con una carrucola mobile, quanta forza serve per sollevare un sacco di 40 kg?",
+          "options": [
+            "Quanto serve per 20 kg",
+            "Quanto serve per 40 kg",
+            "Quanto serve per 80 kg"
+          ],
+          "answer": 0,
+          "explain": "F = P : 2, quindi metà di 40 kg: 20 kg."
+        },
+        {
+          "type": "choice",
+          "q": "Per alzare il peso di 1 metro, quanta fune tiri?",
+          "options": [
+            "1 metro",
+            "Mezzo metro",
+            "2 metri"
+          ],
+          "answer": 2,
+          "explain": "Con la carrucola mobile si tira il doppio della fune: 2 metri."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 13,
+            "sound": "chime",
+            "volume": 0.5
+          },
+          {
+            "at": 19,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          }
+        ]
+      },
+      "book": {
+        "heading": "Carrucola mobile",
+        "formula": "F = P : 2",
+        "lines": [
+          "La ruota sale con il peso.",
+          "Due tratti di fune reggono il peso.",
+          "1 m di salita = 2 m di fune."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Per alzare il peso di 1 metro con la carrucola mobile, quanta fune tiri?",
+          "options": [
+            "1 metro",
+            "2 metri",
+            "Mezzo metro"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda la maniglia rossa: sale il doppio della ruota. Cambia la velocità e controlla.",
+          "params": [
+            "k"
+          ]
+        },
+        "prove": {
+          "text": "Il peso è retto da due tratti di fune: ognuno porta metà del peso, ma per alzarlo di 1 metro entrambi i tratti si accorciano, quindi tiri 2 metri.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Risparmiatore di forza"
+      }
+    },
+    {
+      "id": "paranco",
+      "title": "Il paranco",
+      "chip": "Paranco",
+      "kind": "science",
+      "duration": 30,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il paranco unisce carrucole fisse e carrucole mobili.",
+          "highlight": [
+            "p-paranco-f"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Le carrucole mobili salgono con il carico e dividono la forza.",
+          "highlight": [
+            "p-paranco-m"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Con 2 carrucole mobili la forza necessaria è un quarto del peso.",
+          "speech": "Con due carrucole mobili la forza necessaria è un quarto del peso.",
+          "highlight": [
+            "p-formula-p"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "Per questo il paranco si usa nelle gru e sui velieri.",
+          "highlight": [
+            "p-usi"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              4,
+              0
+            ]
+          },
+          "distance": 10,
+          "azimuth": 15,
+          "elevation": 12
+        },
+        {
+          "at": 12,
+          "target": {
+            "pos": [
+              0,
+              4.5,
+              0
+            ]
+          },
+          "distance": 8,
+          "azimuth": 25,
+          "elevation": 10
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-paranco-f",
+          "name": "Carrucola fissa",
+          "info": "Appesa alla trave, cambia la direzione.",
+          "kind": "object",
+          "anchor": {
+            "entity": "paranco-f",
+            "offset": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-paranco-m",
+          "name": "Carrucole mobili",
+          "info": "Salgono con il carico e dividono la forza.",
+          "kind": "object",
+          "anchor": {
+            "entity": "paranco-m",
+            "offset": [
+              0.8,
+              0,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-formula-p",
+          "name": "F = P : 4",
+          "info": "Con 2 carrucole mobili basta un quarto del peso.",
+          "kind": "note",
+          "anchor": {
+            "entity": "etichetta-p"
+          },
+          "visible": [
+            [
+              12,
+              30
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-usi",
+          "name": "Gru e velieri",
+          "info": "Usano il paranco per sollevare carichi e vele.",
+          "kind": "note",
+          "anchor": {
+            "pos": [
+              3,
+              6,
+              0
+            ]
+          },
+          "visible": [
+            [
+              19,
+              30
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Anche nel paranco vale lo scambio: meno forza significa tirare più fune.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa unisce il paranco?",
+          "options": [
+            "Solo carrucole fisse",
+            "Carrucole fisse e mobili",
+            "Solo carrucole mobili"
+          ],
+          "answer": 1,
+          "explain": "Il libro definisce il paranco come l'unione di carrucole fisse e mobili."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          },
+          {
+            "sound": "sea",
+            "volume": 0.2,
+            "window": [
+              19,
+              30
+            ]
+          }
+        ],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 12,
+            "sound": "sparkle",
+            "volume": 0.5
+          },
+          {
+            "at": 19,
+            "sound": "seagull",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "Il paranco",
+        "formula": "2 carrucole mobili: F = P : 4",
+        "lines": [
+          "Carrucole fisse e mobili insieme.",
+          "Più carrucole mobili, meno forza.",
+          "Usato da gru e velieri."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Con 2 carrucole mobili, quanta forza serve?",
+          "options": [
+            "Metà del peso",
+            "Un quarto del peso",
+            "Il doppio del peso"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Muovi la velocità e guarda il carico salire lentamente con il paranco.",
+          "params": [
+            "k"
+          ]
+        },
+        "prove": {
+          "text": "Ogni carrucola mobile dimezza la forza: due carrucole mobili la riducono a un quarto del peso.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Capitano del paranco"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Pagina del libro, p. 112: Le carrucole"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli svolti nella lezione a partire dalle formule dei grafici"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Ricostruzione schematica: proporzioni, funi e movimenti non sono in scala.",
+    "Il paranco è disegnato in modo semplificato: il percorso reale della fune è più complesso.",
+    "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro."
+  ],
+  "music": {
+    "track": "music-curious",
+    "volume": 0.5
+  },
+  "voices": [
+    {
+      "id": "narratore",
+      "name": "Narratore",
+      "prefer": "any",
+      "lang": "it-IT"
+    }
+  ],
+  "style": "color",
+  "engine": "workshop",
+  "engineData": {
+    "background": "#eef3f8",
+    "params": [
+      {
+        "id": "k",
+        "label": "Velocità di tiro",
+        "min": 0.5,
+        "max": 2,
+        "step": 0.1,
+        "value": 1
+      }
+    ],
+    "parts": [
+      {
+        "id": "pavimento",
+        "shape": "box",
+        "pos": [
+          0,
+          -0.1,
+          0
+        ],
+        "color": "#c9b48f",
+        "size": [
+          12,
+          0.2,
+          6
+        ]
+      },
+      {
+        "id": "trave",
+        "shape": "box",
+        "pos": [
+          0,
+          7.2,
+          0
+        ],
+        "color": "#7a5434",
+        "size": [
+          11,
+          0.4,
+          1
+        ]
+      },
+      {
+        "id": "supporto-f",
+        "shape": "box",
+        "pos": [
+          -3.5,
+          6.7,
+          0
+        ],
+        "color": "#5b4636",
+        "size": [
+          0.15,
+          0.8,
+          0.15
+        ]
+      },
+      {
+        "id": "ruota-f",
+        "shape": "wheel",
+        "pos": [
+          -3.5,
+          6.2,
+          0
+        ],
+        "color": "#c48c4a",
+        "key": true,
+        "radius": 0.7,
+        "height": 0.25,
+        "spokes": 4
+      },
+      {
+        "id": "peso-f",
+        "shape": "box",
+        "pos": [
+          -4.2,
+          1,
+          0
+        ],
+        "color": "#8e9aa8",
+        "key": true,
+        "size": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "maniglia-f",
+        "shape": "sphere",
+        "pos": [
+          -2.8,
+          3,
+          0
+        ],
+        "color": "#c0392b",
+        "radius": 0.15
+      },
+      {
+        "id": "fune-f-peso",
+        "shape": "line",
+        "color": "#3a2a1a",
+        "path": [
+          [
+            -4.2,
+            6.2,
+            0
+          ],
+          [
+            -4.2,
+            1.5,
+            0
+          ]
+        ],
+        "follow": "peso-f"
+      },
+      {
+        "id": "fune-f-tiro",
+        "shape": "line",
+        "color": "#3a2a1a",
+        "path": [
+          [
+            -2.8,
+            6.2,
+            0
+          ],
+          [
+            -2.8,
+            3,
+            0
+          ]
+        ],
+        "follow": "maniglia-f"
+      },
+      {
+        "id": "forza-f",
+        "shape": "arrow",
+        "color": "#c0392b",
+        "key": true,
+        "path": [
+          [
+            -2.4,
+            3,
+            0
+          ],
+          [
+            -2.4,
+            1.6,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "etichetta-f",
+        "shape": "text",
+        "pos": [
+          -1.6,
+          2.3,
+          0.3
+        ],
+        "key": true,
+        "height": 0.4,
+        "text": "F = P"
+      },
+      {
+        "id": "ruota-m",
+        "shape": "wheel",
+        "pos": [
+          3,
+          2.5,
+          0
+        ],
+        "color": "#c48c4a",
+        "key": true,
+        "radius": 0.8,
+        "height": 0.25,
+        "spokes": 4
+      },
+      {
+        "id": "peso-m",
+        "shape": "box",
+        "parent": "ruota-m",
+        "pos": [
+          0,
+          -1.4,
+          0
+        ],
+        "color": "#8e9aa8",
+        "key": true,
+        "size": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "attacco-sx",
+        "shape": "sphere",
+        "parent": "ruota-m",
+        "pos": [
+          -0.8,
+          0,
+          0
+        ],
+        "color": "#3a2a1a",
+        "radius": 0.06
+      },
+      {
+        "id": "attacco-dx",
+        "shape": "sphere",
+        "parent": "ruota-m",
+        "pos": [
+          0.8,
+          0,
+          0
+        ],
+        "color": "#3a2a1a",
+        "radius": 0.06
+      },
+      {
+        "id": "maniglia-m",
+        "shape": "sphere",
+        "pos": [
+          3.8,
+          4.2,
+          0
+        ],
+        "color": "#c0392b",
+        "radius": 0.15
+      },
+      {
+        "id": "fune-m-a",
+        "shape": "line",
+        "color": "#3a2a1a",
+        "path": [
+          [
+            2.2,
+            7,
+            0
+          ],
+          [
+            2.2,
+            2.5,
+            0
+          ]
+        ],
+        "follow": "attacco-sx"
+      },
+      {
+        "id": "fune-m-b",
+        "shape": "line",
+        "color": "#3a2a1a",
+        "path": [
+          [
+            3.8,
+            4.2,
+            0
+          ],
+          [
+            3.8,
+            2.5,
+            0
+          ]
+        ],
+        "follow": "attacco-dx"
+      },
+      {
+        "id": "forza-m",
+        "shape": "arrow",
+        "color": "#c0392b",
+        "key": true,
+        "path": [
+          [
+            4.3,
+            4.2,
+            0
+          ],
+          [
+            4.3,
+            5.4,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "etichetta-m",
+        "shape": "text",
+        "pos": [
+          5,
+          3.4,
+          0.3
+        ],
+        "key": true,
+        "height": 0.4,
+        "text": "F = P : 2"
+      },
+      {
+        "id": "paranco-f",
+        "shape": "wheel",
+        "pos": [
+          0,
+          6.3,
+          0
+        ],
+        "color": "#c48c4a",
+        "key": true,
+        "radius": 0.6,
+        "height": 0.25,
+        "spokes": 4
+      },
+      {
+        "id": "paranco-m",
+        "shape": "wheel",
+        "pos": [
+          0,
+          3,
+          0
+        ],
+        "color": "#d9a55e",
+        "key": true,
+        "radius": 0.6,
+        "height": 0.25,
+        "spokes": 4
+      },
+      {
+        "id": "peso-p",
+        "shape": "box",
+        "parent": "paranco-m",
+        "pos": [
+          0,
+          -1.5,
+          0
+        ],
+        "color": "#8e9aa8",
+        "size": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      {
+        "id": "funi-p",
+        "shape": "line",
+        "color": "#3a2a1a",
+        "path": [
+          [
+            -0.6,
+            6.3,
+            0
+          ],
+          [
+            -0.6,
+            3,
+            0
+          ]
+        ],
+        "follow": "paranco-m"
+      },
+      {
+        "id": "funi-p2",
+        "shape": "line",
+        "color": "#3a2a1a",
+        "path": [
+          [
+            0.6,
+            6.3,
+            0
+          ],
+          [
+            0.6,
+            3,
+            0
+          ]
+        ],
+        "follow": "paranco-m"
+      },
+      {
+        "id": "etichetta-p",
+        "shape": "text",
+        "pos": [
+          0,
+          5,
+          0.5
+        ],
+        "key": true,
+        "height": 0.4,
+        "text": "2 mobili: F = P : 4"
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "fissa",
+        "items": [
+          {
+            "id": "pavimento"
+          },
+          {
+            "id": "trave"
+          },
+          {
+            "id": "supporto-f"
+          },
+          {
+            "id": "ruota-f",
+            "glow": [
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          {
+            "id": "peso-f"
+          },
+          {
+            "id": "maniglia-f"
+          },
+          {
+            "id": "fune-f-peso"
+          },
+          {
+            "id": "fune-f-tiro"
+          },
+          {
+            "id": "forza-f",
+            "at": 12,
+            "glow": [
+              [
+                12,
+                20
+              ]
+            ]
+          },
+          {
+            "id": "etichetta-f",
+            "at": 18
+          }
+        ],
+        "tracks": [
+          {
+            "part": "peso-f",
+            "prop": "y",
+            "expr": "1 + 2*min(1, max(0, (t - 10)*k/8))"
+          },
+          {
+            "part": "maniglia-f",
+            "prop": "y",
+            "expr": "3 - 2*min(1, max(0, (t - 10)*k/8))"
+          },
+          {
+            "part": "ruota-f",
+            "prop": "spin",
+            "expr": "0.3*k*max(0, min(1, (t - 10)*5))*max(0, min(1, (18/k + 10 - t)*5))"
+          }
+        ]
+      },
+      {
+        "chapter": "mobile",
+        "items": [
+          {
+            "id": "pavimento"
+          },
+          {
+            "id": "trave"
+          },
+          {
+            "id": "ruota-m",
+            "glow": [
+              [
+                0,
+                7
+              ]
+            ]
+          },
+          {
+            "id": "attacco-sx"
+          },
+          {
+            "id": "attacco-dx"
+          },
+          {
+            "id": "maniglia-m"
+          },
+          {
+            "id": "fune-m-a",
+            "glow": [
+              [
+                7,
+                13
+              ]
+            ]
+          },
+          {
+            "id": "fune-m-b",
+            "glow": [
+              [
+                7,
+                13
+              ]
+            ]
+          },
+          {
+            "id": "forza-m",
+            "at": 13
+          },
+          {
+            "id": "etichetta-m",
+            "at": 13
+          }
+        ],
+        "tracks": [
+          {
+            "part": "ruota-m",
+            "prop": "y",
+            "expr": "2.5 + min(1, max(0, (t - 19)*k/8))"
+          },
+          {
+            "part": "maniglia-m",
+            "prop": "y",
+            "expr": "4.2 + 2*min(1, max(0, (t - 19)*k/8))"
+          }
+        ]
+      },
+      {
+        "chapter": "paranco",
+        "items": [
+          {
+            "id": "pavimento"
+          },
+          {
+            "id": "trave"
+          },
+          {
+            "id": "paranco-f",
+            "glow": [
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          {
+            "id": "paranco-m",
+            "glow": [
+              [
+                6,
+                12
+              ]
+            ]
+          },
+          {
+            "id": "funi-p"
+          },
+          {
+            "id": "funi-p2"
+          },
+          {
+            "id": "etichetta-p",
+            "at": 12
+          }
+        ],
+        "tracks": [
+          {
+            "part": "paranco-m",
+            "prop": "y",
+            "expr": "3 + 0.6*min(1, max(0, (t - 8)*k/8))"
+          }
+        ]
+      }
+    ]
+  },
+  "audience": "teen"
+}

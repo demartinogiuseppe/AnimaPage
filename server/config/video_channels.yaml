@@ -1,0 +1,110 @@
+# Video allow-lists and child-safety filters (brief §4.5). Proposed by Claude Code in M3,
+# approved by the user on 2026-11-03. Applied before the LLM relevance/safety judgement.
+
+youtube:
+  # APPROVATA DALL'UTENTE IL 2026-11-03. Italian educational channels (plus ESA), each checked on
+  # 2026-11-03 by opening https://www.youtube.com/@<handle> and reading the channel id from the
+  # canonical URL. Listed channels are preferred (score bonus and flagged to the judge); with
+  # allowlist_only: true only these channels are accepted.
+  allowlist_only: false
+  channels:
+    - { name: "Geopop", handle: "@Geopop", id: "UCx7EWheHmjCW3vX8K2d09vg" }
+    - { name: "RaiCultura", handle: "@RaiCultura", id: "UCDLYMJX6al0okaalt5yAEFA" }
+    - { name: "TreccaniChannel", handle: "@Treccani", id: "UCQOFBEYamc2DaxJsY_G4XTQ" }
+    - { name: "Focus", handle: "@Focusit", id: "UCcAff8iLU7m4FXeyta_fIbQ" }
+    - { name: "Zanichelli editore", handle: "@ZanichelliEditore", id: "UCbFv_gbFN9UvNHJJjGavF6g" }
+    - { name: "GiuntiScuola", handle: "@GiuntiScuola", id: "UCJdHdPgZh4QLAbbNgPdG_wA" }
+    - { name: "Museo Nazionale Scienza e Tecnologia", handle: "@MuseoScienza", id: "UCIuyeL8sblxI9d_7FqH27LQ" }
+    - { name: "INGVvulcani", handle: "@INGVvulcani", id: "UC3GnD1b5hO8a-ag0yKr_uqw" }
+    - { name: "INGVterremoti", handle: "@INGVterremoti", id: "UCWcylY2YDfioFmDAULj3vgA" }
+    - { name: "INGV Ambiente", handle: "@INGVAmbiente", id: "UCyY5oP3fMDivqzq3sFFSGnA" }
+    - { name: "European Space Agency, ESA", handle: "@europeanspaceagency", id: "UCIBaDdAbGlFDeS33shmlD0A" }
+
+commons:
+  # Licence allow-list: LicenseShortName must start with one of these (case-insensitive).
+  # Commons only hosts free licences; NC/ND are not accepted there anyway.
+  licenses:
+    - "CC0"
+    - "Public domain"
+    - "PD"
+    - "CC BY"
+    - "CC BY-SA"
+  # Categories/publishers that make a file more likely educational (score bonus only).
+  preferred_categories:
+    - "NASA"
+    - "ESA"
+    - "National Archives"
+    - "Educational"
+    - "Documentary"
+    - "Animations"
+    - "Science"
+    - "Nature"
+    - "Volcano"
+    - "Geography"
+    - "History"
+    - "Anatomy"
+    - "Media of the day"
+    - "Quality videos"
+    - "Featured videos"
+
+# Any match in title, description or categories excludes the video (word start, up to 3
+# extra letters: "kill" also blocks "killing"). Lowercase, accents ignored.
+blocked_terms:
+  - sex
+  - sexual
+  - sexy
+  - nude
+  - nudity
+  - naked
+  - porn
+  - pornography
+  - erotic
+  - nsfw
+  - fetish
+  - lingerie
+  - gore
+  - blood
+  - bloody
+  - corpse
+  - dead body
+  - killing
+  - kill
+  - murder
+  - execution
+  - beheading
+  - torture
+  - suicide
+  - massacre
+  - shooting
+  - war crime
+  - terrorism
+  - terrorist
+  - drug
+  - cocaine
+  - surgery
+  - surgical
+  - autopsy
+  - dissection
+  - horror
+  - sesso
+  - sessuale
+  - nudo
+  - nuda
+  - nudita
+  - porno
+  - erotico
+  - cadavere
+  - sangue
+  - uccisione
+  - omicidio
+  - esecuzione
+  - decapitazione
+  - tortura
+  - suicidio
+  - strage
+  - massacro
+  - droga
+  - violenza
+  - chirurgia
+  - autopsia
+  - dissezione

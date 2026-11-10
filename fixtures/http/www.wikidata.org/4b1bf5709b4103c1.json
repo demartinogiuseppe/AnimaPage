@@ -1,0 +1,332 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q3355930%7CQ1668091%7CQ146%7CQ3778296%7CQ410568%7CQ208467%7CQ410959%7CQ170304%7CQ7364%7CQ169342%7CQ1074%7CQ173318%7CQ168291%7CQ212743%7CQ505531%7CQ317857%7CQ189155%7CQ212344%7CQ48228%7CQ160108%7CQ180436%7CQ2633526&props=labels%7Cclaims&languages=it%7Cen",
+ "fetchedAt": "2026-11-03T16:05:46.724Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q3355930": {
+    "id": "Q3355930",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "sensory organ"
+     },
+     "it": {
+      "language": "it",
+      "value": "organo sensoriale"
+     }
+    },
+    "claims": {}
+   },
+   "Q1668091": {
+    "id": "Q1668091",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "interoception"
+     },
+     "it": {
+      "language": "it",
+      "value": "Enterocezione"
+     }
+    },
+    "claims": {}
+   },
+   "Q146": {
+    "id": "Q146",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "gatto domestico"
+     },
+     "en": {
+      "language": "en",
+      "value": "cat"
+     }
+    },
+    "claims": {
+     "P580": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "-8000-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 6,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q3778296": {
+    "id": "Q3778296",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Guardare Ascoltare Sentire"
+     }
+    },
+    "claims": {}
+   },
+   "Q410568": {
+    "id": "Q410568",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "adrenergic receptor"
+     },
+     "it": {
+      "language": "it",
+      "value": "Recettore adrenergico"
+     }
+    },
+    "claims": {}
+   },
+   "Q208467": {
+    "id": "Q208467",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "recettore"
+     },
+     "en": {
+      "language": "en",
+      "value": "signaling receptor"
+     }
+    },
+    "claims": {}
+   },
+   "Q410959": {
+    "id": "Q410959",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "muscarinic acetylcholine receptor family"
+     },
+     "it": {
+      "language": "it",
+      "value": "Recettore muscarinico"
+     }
+    },
+    "claims": {}
+   },
+   "Q170304": {
+    "id": "Q170304",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "dopamina"
+     },
+     "en": {
+      "language": "en",
+      "value": "dopamine"
+     }
+    },
+    "claims": {}
+   },
+   "Q7364": {
+    "id": "Q7364",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "eye"
+     },
+     "it": {
+      "language": "it",
+      "value": "occhio"
+     }
+    },
+    "claims": {}
+   },
+   "Q169342": {
+    "id": "Q169342",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "retina"
+     },
+     "en": {
+      "language": "en",
+      "value": "retina"
+     }
+    },
+    "claims": {}
+   },
+   "Q1074": {
+    "id": "Q1074",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "skin"
+     },
+     "it": {
+      "language": "it",
+      "value": "pelle"
+     }
+    },
+    "claims": {}
+   },
+   "Q173318": {
+    "id": "Q173318",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "pupilla"
+     },
+     "en": {
+      "language": "en",
+      "value": "pupil"
+     }
+    },
+    "claims": {}
+   },
+   "Q168291": {
+    "id": "Q168291",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "cornea"
+     },
+     "en": {
+      "language": "en",
+      "value": "cornea"
+     }
+    },
+    "claims": {}
+   },
+   "Q212743": {
+    "id": "Q212743",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "epidermide"
+     },
+     "en": {
+      "language": "en",
+      "value": "epidermis"
+     }
+    },
+    "claims": {}
+   },
+   "Q505531": {
+    "id": "Q505531",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "derma"
+     },
+     "en": {
+      "language": "en",
+      "value": "dermis"
+     }
+    },
+    "claims": {}
+   },
+   "Q317857": {
+    "id": "Q317857",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "coclea"
+     },
+     "en": {
+      "language": "en",
+      "value": "cochlea"
+     }
+    },
+    "claims": {}
+   },
+   "Q189155": {
+    "id": "Q189155",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "vite di Archimede"
+     },
+     "en": {
+      "language": "en",
+      "value": "Archimedes' screw"
+     }
+    },
+    "claims": {}
+   },
+   "Q212344": {
+    "id": "Q212344",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "orecchio interno"
+     },
+     "en": {
+      "language": "en",
+      "value": "inner ear"
+     }
+    },
+    "claims": {}
+   },
+   "Q48228": {
+    "id": "Q48228",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "palpebra"
+     },
+     "en": {
+      "language": "en",
+      "value": "eyelid"
+     }
+    },
+    "claims": {}
+   },
+   "Q160108": {
+    "id": "Q160108",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "ciglia"
+     },
+     "en": {
+      "language": "en",
+      "value": "eyelashes"
+     }
+    },
+    "claims": {}
+   },
+   "Q180436": {
+    "id": "Q180436",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "ciglia"
+     },
+     "en": {
+      "language": "en",
+      "value": "cilium"
+     }
+    },
+    "claims": {}
+   },
+   "Q2633526": {
+    "id": "Q2633526",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "false eyelashes"
+     },
+     "it": {
+      "language": "it",
+      "value": "extension delle ciglia"
+     }
+    },
+    "claims": {}
+   }
+  }
+ }
+}

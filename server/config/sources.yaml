@@ -1,0 +1,42 @@
+facts:
+  - wikipedia_it
+  - wikidata
+allowed_domains: []        # proposed in M3, approved by the user (none yet: Wikipedia + Wikidata only)
+
+enrich:
+  max_lookups: 12          # page entities looked up on it.wikipedia per page
+  max_searches: 4          # full-text searches per page (the rest must match a title exactly)
+  max_facts: 40
+  cache_ttl_days: 30       # server/.cache/http
+  judge_model: sonnet      # Claude Code CLI alias for the article/video judgement (docs/models.md)
+
+http:
+  # No contact information on purpose (no personal data is sent). Set PAGINAVIVA_HTTP_CONTACT
+  # (a URL or a dedicated e-mail chosen by the user) to be appended and to use the higher tier.
+  user_agent: "animapage/0.1 (private educational prototype)"
+  # Wikimedia rate limits (mediawiki.org/wiki/Wikimedia_APIs/Rate_limits, 2026-11-03):
+  # 10/min identified by IP only, 200/min with a compliant User-Agent.
+  requests_per_minute: 9
+  requests_per_minute_with_contact: 150
+
+videos:
+  max_videos: 3
+  max_duration_minutes: 10
+  min_duration_seconds: 10
+  min_relevance: 0.6       # judge score 0..1
+  max_candidates: 8        # sent to the judge after the heuristic pre-filter
+  wikimedia_commons: true
+  commons:
+    max_queries: 2
+    results_per_query: 10
+  youtube:
+    # auto = on only when YOUTUBE_API_KEY is set in server/.env (runs without a key are unaffected);
+    # false = always off. YouTube Data API v3, docs/m3/youtube.md.
+    enabled: auto
+    safe_search: strict    # fixed in code, not configurable
+    region_code: IT
+    relevance_language: it
+    max_queries: 1         # search.list has its own bucket: 100 calls/day by default
+    max_results: 10
+    max_duration_minutes: 10   # the global videos.max_duration_minutes applies to every provider
+    prefer_channels_file: video_channels.yaml

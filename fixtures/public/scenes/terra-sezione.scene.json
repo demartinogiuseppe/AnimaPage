@@ -1,0 +1,337 @@
+{
+  "version": "0.1",
+  "engine": "earth",
+  "title": "La Terra in sezione",
+  "page": { "subject": "Scienze della Terra", "topic": "Struttura interna della Terra, placche e terremoti", "language": "it" },
+  "kind": "science",
+  "style": "color",
+  "music": { "track": "music-curious", "volume": 0.35 },
+  "sources": [
+    { "id": "page", "kind": "page", "title": "Scienze della Terra, «La Terra in sezione» (scena di riferimento)" },
+    { "id": "calc", "kind": "computed", "title": "Calcoli del motore earth (spostamento = velocità × tempo; ampiezza ×10 per grado di magnitudo)" },
+    { "id": "w-raggio", "kind": "wikipedia", "title": "Raggio terrestre", "url": "https://it.wikipedia.org/wiki/Raggio_terrestre", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-struttura", "kind": "wikipedia", "title": "Struttura interna della Terra", "url": "https://it.wikipedia.org/wiki/Struttura_interna_della_Terra", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-mantello", "kind": "wikipedia", "title": "Mantello terrestre", "url": "https://it.wikipedia.org/wiki/Mantello_terrestre", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-nucleo", "kind": "wikipedia", "title": "Nucleo terrestre", "url": "https://it.wikipedia.org/wiki/Nucleo_terrestre", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-nucleo-est", "kind": "wikipedia", "title": "Nucleo esterno", "url": "https://it.wikipedia.org/wiki/Nucleo_esterno", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-nucleo-int", "kind": "wikipedia", "title": "Nucleo interno", "url": "https://it.wikipedia.org/wiki/Nucleo_interno", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-gradiente", "kind": "wikipedia", "title": "Gradiente geotermico", "url": "https://it.wikipedia.org/wiki/Gradiente_geotermico", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-gutenberg", "kind": "wikipedia", "title": "Discontinuità di Gutenberg", "url": "https://it.wikipedia.org/wiki/Discontinuit%C3%A0_di_Gutenberg", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-tettonica", "kind": "wikipedia", "title": "Tettonica delle placche", "url": "https://it.wikipedia.org/wiki/Tettonica_delle_placche", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-subduzione", "kind": "wikipedia", "title": "Subduzione", "url": "https://it.wikipedia.org/wiki/Subduzione", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-nazca", "kind": "wikipedia", "title": "Placca di Nazca", "url": "https://it.wikipedia.org/wiki/Placca_di_Nazca", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-stratovulcano", "kind": "wikipedia", "title": "Stratovulcano", "url": "https://it.wikipedia.org/wiki/Stratovulcano", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-terremoto", "kind": "wikipedia", "title": "Terremoto", "url": "https://it.wikipedia.org/wiki/Terremoto", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-onde", "kind": "wikipedia", "title": "Onde sismiche", "url": "https://it.wikipedia.org/wiki/Onda_sismica", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-richter", "kind": "wikipedia", "title": "Scala Richter", "url": "https://it.wikipedia.org/wiki/Scala_Richter", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Disegni schematici: la crosta e i rilievi sono ingranditi, le distanze non sono in scala.",
+    "Profondità e temperature sono valori medi o stime: libri diversi possono riportare numeri un po' diversi.",
+    "Le onde sismiche e il movimento delle placche sono rallentati o accelerati moltissimo per poterli seguire."
+  ],
+  "chapters": [
+    {
+      "id": "dentro",
+      "title": "Dentro la Terra",
+      "chip": "Dentro",
+      "kind": "science",
+      "duration": 56,
+      "narration": [
+        { "at": 0, "text": "Immagina di tagliare la Terra come una mela e di toglierne uno spicchio.", "highlight": [], "sourceIds": [] },
+        { "at": 6, "text": "Dalla superficie al centro ci sono in media circa 6371 chilometri: è il raggio della Terra.", "speech": "Dalla superficie al centro ci sono in media circa seimilatrecentosettantuno chilometri: è il raggio della Terra.", "highlight": [], "sourceIds": ["w-raggio"] },
+        { "at": 13, "text": "Fuori c'è la crosta, sottile come una buccia: in media circa 35 chilometri, da 5 a 70 a seconda dei luoghi.", "speech": "Fuori c'è la crosta, sottile come una buccia: in media circa trentacinque chilometri, da cinque a settanta a seconda dei luoghi.", "highlight": ["p-crosta"], "sourceIds": ["w-struttura"] },
+        { "at": 20, "text": "Scendendo, la temperatura sale: nella crosta, in media, circa 3 gradi ogni 100 metri.", "speech": "Scendendo, la temperatura sale: nella crosta, in media, circa tre gradi ogni cento metri.", "highlight": ["p-sonda"], "sourceIds": ["w-gradiente"] },
+        { "at": 26, "text": "Sotto c'è il mantello, fino a circa 2890 chilometri: è solido, ma si comporta come un materiale plastico.", "speech": "Sotto c'è il mantello, fino a circa duemilaottocentonovanta chilometri: è solido, ma si comporta come un materiale plastico.", "highlight": ["p-mantello"], "sourceIds": ["w-mantello", "w-struttura"] },
+        { "at": 34, "text": "Poi il nucleo esterno, fatto soprattutto di ferro liquido, fino a circa 5150 chilometri.", "speech": "Poi il nucleo esterno, fatto soprattutto di ferro liquido, fino a circa cinquemilacentocinquanta chilometri.", "highlight": ["p-esterno"], "sourceIds": ["w-nucleo-est", "w-struttura"] },
+        { "at": 41, "text": "Al centro c'è il nucleo interno: è ancora più caldo, tra 5400 e 6000 gradi, ma resta solido per l'enorme pressione.", "speech": "Al centro c'è il nucleo interno: è ancora più caldo, tra cinquemilaquattrocento e seimila gradi, ma resta solido per l'enorme pressione.", "highlight": ["p-interno"], "sourceIds": ["w-nucleo", "w-nucleo-int"] },
+        { "at": 49, "text": "Ora prova tu: muovi la sonda e leggi in che strato sei e quanto fa caldo.", "highlight": ["p-sonda"], "sourceIds": [] }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "globe", "part": "centre" }, "distance": 19, "azimuth": -12, "elevation": 20 },
+        { "at": 12, "target": { "entity": "globe", "part": "surface" }, "distance": 14, "azimuth": 8, "elevation": 22 },
+        { "at": 26, "target": { "entity": "globe", "part": "centre" }, "distance": 16, "azimuth": 0, "elevation": 14 },
+        { "at": 41, "target": { "entity": "globe", "part": "centre" }, "distance": 13, "azimuth": 12, "elevation": 10 },
+        { "at": 49, "target": { "entity": "globe", "part": "centre" }, "distance": 18, "azimuth": 0, "elevation": 18 }
+      ],
+      "pins": [
+        { "id": "p-crosta", "name": "Crosta", "sub": "≈ 35 km", "info": "Lo strato più esterno: in media circa 35 km di spessore, da 5 a 70 km. Qui disegnata più spessa del vero.", "kind": "area", "marker": "#8a6a4a", "anchor": { "entity": "globe", "part": "crosta" }, "sourceIds": ["w-struttura"] },
+        { "id": "p-mantello", "name": "Mantello", "sub": "fino a ≈ 2890 km", "info": "Roccia solida ma plastica. In alto 500–900 °C, alla base oltre 4000 °C e circa 140 GPa di pressione.", "kind": "area", "marker": "#d9773e", "anchor": { "entity": "globe", "part": "mantello" }, "sourceIds": ["w-mantello"] },
+        { "id": "p-esterno", "name": "Nucleo esterno", "sub": "liquido", "info": "Ferro e solfuro di ferro allo stato fluido, fino a circa 5150 km di profondità.", "kind": "area", "marker": "#f2b233", "anchor": { "entity": "globe", "part": "nucleo-esterno" }, "sourceIds": ["w-nucleo-est", "w-struttura"] },
+        { "id": "p-interno", "name": "Nucleo interno", "sub": "solido", "info": "Una sfera di lega di ferro e nichel di circa 1220 km di raggio, con una pressione di 330–360 GPa.", "kind": "area", "marker": "#ffe27a", "anchor": { "entity": "globe", "part": "nucleo-interno" }, "sourceIds": ["w-nucleo-int"] },
+        { "id": "p-sonda", "name": "La sonda", "info": "Scende nella Terra e legge lo strato, la temperatura e la pressione alla profondità in cui si trova.", "kind": "object", "anchor": { "entity": "globe", "part": "probe", "offset": [0, 0.4, 0] }, "sourceIds": [] }
+      ],
+      "deep": [
+        { "text": "Il nucleo interno fu scoperto nel 1936 dalla sismologa Inge Lehmann, studiando come rimbalzano le onde dei terremoti.", "sourceIds": ["w-nucleo-int"] },
+        { "text": "Nessuno ha mai scavato fino al mantello: quello che sappiamo dell'interno della Terra viene soprattutto dalle onde sismiche.", "sourceIds": ["w-struttura"] }
+      ],
+      "quiz": [
+        { "type": "choice", "q": "Quale strato della Terra è liquido?", "options": ["La crosta", "Il mantello", "Il nucleo esterno", "Il nucleo interno"], "answer": 2, "explain": "Il nucleo esterno è ferro fuso; il nucleo interno, anche se più caldo, resta solido per l'enorme pressione." },
+        { "type": "pick", "q": "Tocca lo strato più profondo e più caldo.", "answerPins": ["p-interno"], "explain": "Il nucleo interno sta al centro della Terra ed è la parte più calda." }
+      ],
+      "sounds": {
+        "ambience": [{ "sound": "rumble", "volume": 0.22 }],
+        "cues": [
+          { "at": 0, "sound": "whoosh-soft", "volume": 0.6 },
+          { "at": 13, "sound": "chime", "volume": 0.5 },
+          { "at": 26, "sound": "chime", "volume": 0.5 },
+          { "at": 34, "sound": "chime", "volume": 0.5 },
+          { "at": 41, "sound": "chime", "volume": 0.5 }
+        ]
+      },
+      "book": {
+        "heading": "Gli strati della Terra",
+        "formula": "crosta → mantello → nucleo esterno → nucleo interno",
+        "lines": [
+          "Crosta: in media circa 35 km di spessore.",
+          "Mantello: solido ma plastico, fino a circa 2890 km.",
+          "Nucleo esterno: ferro liquido, fino a circa 5150 km.",
+          "Nucleo interno: solido; al centro circa 6000 °C."
+        ],
+        "sourceIds": ["w-struttura", "w-mantello"]
+      },
+      "activity": {
+        "predict": {
+          "q": "Più scendi verso il centro della Terra, che cosa succede alla temperatura?",
+          "options": ["Diminuisce: sottoterra fa sempre più fresco", "Aumenta, fino a migliaia di gradi", "Resta uguale a quella della superficie"],
+          "answer": 1
+        },
+        "test": { "prompt": "Muovi la sonda: a che profondità la roccia lascia il posto al ferro liquido?", "params": ["prof"] },
+        "prove": {
+          "text": "La temperatura cresce con la profondità: oltre 4000 °C alla base del mantello e circa 6000 °C al centro. Il nucleo esterno è liquido; quello interno, ancora più caldo, resta solido perché la pressione arriva a 330–360 GPa.",
+          "sourceIds": ["w-mantello", "w-struttura", "w-nucleo-int"]
+        },
+        "stamp": "Esploratore del centro della Terra"
+      }
+    },
+    {
+      "id": "placche",
+      "title": "Le placche si muovono",
+      "chip": "Placche",
+      "kind": "science",
+      "duration": 58,
+      "narration": [
+        { "at": 0, "text": "La superficie della Terra è divisa in placche che galleggiano sull'astenosfera, solida ma plastica, come zattere.", "highlight": ["p-asteno"], "sourceIds": ["w-tettonica"] },
+        { "at": 7, "text": "Prima di guardare, prevedi: che cosa succede quando una placca oceanica incontra una placca continentale?", "highlight": ["p-oceanica", "p-continentale"], "sourceIds": [] },
+        { "at": 11, "text": "La placca oceanica è più densa e scivola sotto quella continentale: è la subduzione.", "highlight": ["p-slab"], "sourceIds": ["w-subduzione"] },
+        { "at": 17, "text": "Dove la placca si piega si apre una fossa oceanica, una depressione stretta e profonda alcuni chilometri.", "highlight": ["p-fossa"], "sourceIds": ["w-subduzione"] },
+        { "at": 23, "text": "Le placche si muovono di pochi centimetri all'anno: la placca di Nazca, nel Pacifico, in media di 7,55 centimetri.", "speech": "Le placche si muovono di pochi centimetri all'anno: la placca di Nazca, nel Pacifico, in media di sette virgola cinquantacinque centimetri.", "highlight": ["p-conto"], "sourceIds": ["w-nazca"] },
+        { "at": 30, "text": "Intorno ai 100–110 chilometri di profondità la roccia sopra la placca fonde: nasce il magma.", "speech": "Intorno ai cento, centodieci chilometri di profondità la roccia sopra la placca fonde: nasce il magma.", "highlight": ["p-magma"], "sourceIds": ["w-subduzione"] },
+        { "at": 37, "text": "Il magma risale e forma vulcani: così sono nate le Ande, una catena di monti e di vulcani.", "highlight": ["p-vulcano"], "sourceIds": ["w-subduzione"] },
+        { "at": 43, "text": "Questo è uno stratovulcano: il suo magma è denso e viscoso, e le eruzioni sono esplosive.", "highlight": ["p-vulcano"], "sourceIds": ["w-stratovulcano"] },
+        { "at": 48, "text": "A 7,55 centimetri all'anno, in 20 milioni di anni il fondale percorre circa 1510 chilometri.", "speech": "A sette virgola cinquantacinque centimetri all'anno, in venti milioni di anni il fondale percorre circa millecinquecentodieci chilometri.", "highlight": ["p-conto"], "sourceIds": ["w-nazca", "calc"] },
+        { "at": 53, "text": "Ora prova tu: cambia la velocità e il tempo, e guarda quanta placca sparisce sotto il continente.", "highlight": [], "sourceIds": [] }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "block", "part": "surface" }, "distance": 23, "azimuth": -8, "elevation": 20 },
+        { "at": 11, "target": { "entity": "block", "part": "trench" }, "distance": 14, "azimuth": -12, "elevation": 12 },
+        { "at": 23, "target": { "entity": "block", "part": "surface" }, "distance": 21, "azimuth": 14, "elevation": 24 },
+        { "at": 30, "target": { "entity": "block", "part": "chamber" }, "distance": 12, "azimuth": 6, "elevation": 6 },
+        { "at": 43, "target": { "entity": "block", "part": "volcano" }, "distance": 15, "azimuth": 12, "elevation": 14 },
+        { "at": 53, "target": { "entity": "block", "part": "surface" }, "distance": 23, "azimuth": 0, "elevation": 18 }
+      ],
+      "pins": [
+        { "id": "p-oceanica", "name": "Placca oceanica", "info": "Litosfera oceanica: è abbastanza densa da affondare nel mantello.", "kind": "area", "marker": "#59656e", "anchor": { "entity": "block", "part": "plate-left" }, "sourceIds": ["w-subduzione"] },
+        { "id": "p-continentale", "name": "Placca continentale", "info": "Litosfera continentale: più leggera, non sprofonda e resta in superficie.", "kind": "area", "marker": "#b9875a", "anchor": { "entity": "block", "part": "plate-right" }, "sourceIds": ["w-subduzione"] },
+        { "id": "p-fossa", "name": "Fossa oceanica", "info": "Una depressione stretta e allungata, profonda alcuni chilometri, dove la placca comincia a scendere.", "kind": "place", "anchor": { "entity": "block", "part": "trench" }, "sourceIds": ["w-subduzione"] },
+        { "id": "p-slab", "name": "Placca in subduzione", "info": "La litosfera oceanica continua a scendere nel mantello.", "kind": "area", "anchor": { "entity": "block", "part": "slab" }, "sourceIds": ["w-subduzione"] },
+        { "id": "p-asteno", "name": "Astenosfera", "info": "Parte del mantello solida ma dal comportamento plastico: le placche ci galleggiano sopra come zattere.", "kind": "area", "marker": "#d9773e", "anchor": { "entity": "block", "part": "asthenosphere" }, "sourceIds": ["w-tettonica"] },
+        { "id": "p-magma", "name": "Camera magmatica", "info": "Il magma nato sopra la placca che scende si raccoglie qui prima di salire verso il vulcano.", "kind": "object", "marker": "#e2401c", "anchor": { "entity": "block", "part": "chamber" }, "sourceIds": ["w-subduzione"] },
+        { "id": "p-vulcano", "name": "Stratovulcano", "info": "Un cono fatto di strati di lava solidificata, ceneri e pomice; il magma viscoso dà eruzioni esplosive.", "kind": "peak", "anchor": { "entity": "block", "part": "volcano" }, "sourceIds": ["w-stratovulcano"] },
+        { "id": "p-conto", "name": "Il contachilometri", "info": "Spostamento = velocità × tempo: centimetri all'anno per milioni di anni diventano centinaia di chilometri.", "kind": "data", "anchor": { "entity": "block", "part": "readout" }, "sourceIds": ["calc"] }
+      ],
+      "deep": [
+        { "text": "Lungo l'asse delle dorsali oceaniche esce magma basaltico che forma nuova crosta oceanica: circa 25 chilometri cubi all'anno.", "sourceIds": ["w-tettonica"] },
+        { "text": "Quando si scontrano due continenti nessuno dei due sprofonda e si alzano grandi catene: l'Himalaya è nato dalla spinta del subcontinente indiano contro l'Eurasia.", "sourceIds": ["w-tettonica", "w-subduzione"] }
+      ],
+      "quiz": [
+        { "type": "choice", "q": "Perché è la placca oceanica a scendere sotto quella continentale?", "options": ["Perché è più densa", "Perché è più calda", "Perché è più veloce"], "answer": 0, "explain": "La litosfera oceanica è densa quanto o più del mantello sotto di lei; quella continentale è troppo leggera per sprofondare." },
+        { "type": "pick", "q": "Tocca il punto dove la placca oceanica comincia a scendere.", "answerPins": ["p-fossa"], "explain": "È la fossa oceanica: lì la placca si piega e scende nel mantello." }
+      ],
+      "sounds": {
+        "ambience": [
+          { "sound": "sea", "volume": 0.22, "window": [0, 30] },
+          { "sound": "rumble", "volume": 0.3, "window": [28, 58] }
+        ],
+        "cues": [
+          { "at": 0, "sound": "whoosh-soft", "volume": 0.6 },
+          { "at": 17, "sound": "chime", "volume": 0.5 },
+          { "at": 43.5, "sound": "eruption", "volume": 0.8 }
+        ]
+      },
+      "book": {
+        "heading": "Il margine convergente",
+        "formula": "spostamento = velocità × tempo",
+        "lines": [
+          "La placca oceanica, più densa, scende sotto quella continentale.",
+          "Dove scende si formano una fossa e una catena di vulcani.",
+          "Verso i 100–110 km di profondità nasce il magma."
+        ],
+        "sourceIds": ["w-subduzione"]
+      },
+      "activity": {
+        "predict": {
+          "q": "Una placca oceanica e una continentale si scontrano. Che cosa succede?",
+          "options": ["Si fermano e restano piatte", "L'oceanica, più densa, scende sotto la continentale", "La continentale scende sotto l'oceanica"],
+          "answer": 1
+        },
+        "test": { "prompt": "Muovi velocità e tempo: quanta placca oceanica scompare sotto il continente?", "params": ["vel", "ma"] },
+        "prove": {
+          "text": "La litosfera oceanica è abbastanza densa da affondare nel mantello, quella continentale no. Verso i 100–110 km di profondità nasce il magma che risale ai vulcani. Spostamento = velocità × tempo: 7,55 cm all'anno per 20 milioni di anni fanno circa 1510 km.",
+          "sourceIds": ["w-subduzione", "w-nazca", "calc"]
+        },
+        "stamp": "Guardiano delle placche"
+      }
+    },
+    {
+      "id": "terremoto",
+      "title": "Il terremoto",
+      "chip": "Terremoto",
+      "kind": "science",
+      "duration": 62,
+      "narration": [
+        { "at": 0, "text": "Le rocce della crosta si spezzano lungo fratture chiamate faglie, dove le masse di roccia si muovono l'una rispetto all'altra.", "highlight": ["p-faglia"], "sourceIds": ["w-terremoto"] },
+        { "at": 7, "text": "Il punto in profondità da cui parte il terremoto si chiama ipocentro.", "highlight": ["p-ipo"], "sourceIds": ["w-terremoto"] },
+        { "at": 12, "text": "Il punto della superficie proprio sopra l'ipocentro è l'epicentro.", "highlight": ["p-epi"], "sourceIds": ["w-terremoto"] },
+        { "at": 17, "text": "Le prime onde ad arrivare sono le P; poi le S, più lente: circa il 60–70% della velocità delle P.", "speech": "Le prime onde ad arrivare sono le P; poi le S, più lente: circa il sessanta, settanta per cento della velocità delle P.", "highlight": ["p-ipo"], "sourceIds": ["w-terremoto"] },
+        { "at": 24, "text": "La magnitudo è il logaritmo in base dieci dell'ampiezza: un grado in più vuol dire onde dieci volte più ampie.", "highlight": ["p-conto3"], "sourceIds": ["w-richter", "calc"] },
+        { "at": 30, "text": "Ora seguiamo un terremoto mentre attraversa tutta la Terra.", "highlight": [], "sourceIds": [] },
+        { "at": 34, "text": "Le onde S sono trasversali e non si propagano nei fluidi: si fermano al nucleo esterno, che è liquido.", "highlight": ["p-esterno3", "p-onde-s"], "sourceIds": ["w-onde", "w-gutenberg"] },
+        { "at": 41, "text": "Così, da circa 103 gradi dall'epicentro in poi, le onde S non arrivano: è la loro zona d'ombra.", "speech": "Così, da circa centotré gradi dall'epicentro in poi, le onde S non arrivano: è la loro zona d'ombra.", "highlight": ["p-ombra-s"], "sourceIds": ["w-terremoto"] },
+        { "at": 47, "text": "Anche le onde P, deviate dal nucleo, lasciano una zona d'ombra: tra circa 103 e 150 gradi.", "speech": "Anche le onde P, deviate dal nucleo, lasciano una zona d'ombra: tra circa centotré e centocinquanta gradi.", "highlight": ["p-ombra-p", "p-onde-p"], "sourceIds": ["w-terremoto"] },
+        { "at": 54, "text": "Ora prova tu: cambia la magnitudo e guarda come tremano le case.", "highlight": [], "sourceIds": [] }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "block", "part": "surface" }, "distance": 20, "azimuth": -12, "elevation": 22 },
+        { "at": 7, "target": { "entity": "block", "part": "hypocentre" }, "distance": 12, "azimuth": 0, "elevation": 6 },
+        { "at": 12, "target": { "entity": "block", "part": "epicentre" }, "distance": 12, "azimuth": 18, "elevation": 30 },
+        { "at": 17, "target": { "entity": "block", "part": "surface" }, "distance": 19, "azimuth": 0, "elevation": 16 },
+        { "at": 29, "target": { "entity": "globe", "part": "centre" }, "distance": 17, "azimuth": 0, "elevation": 6 },
+        { "at": 54, "target": { "entity": "block", "part": "surface" }, "distance": 18, "azimuth": 0, "elevation": 24 }
+      ],
+      "pins": [
+        { "id": "p-faglia", "name": "Faglia", "info": "Una frattura della crosta lungo cui le masse di roccia si spostano l'una rispetto all'altra.", "kind": "place", "anchor": { "entity": "block", "part": "fault" }, "sourceIds": ["w-terremoto"] },
+        { "id": "p-ipo", "name": "Ipocentro", "info": "Il punto in profondità da cui parte il terremoto.", "kind": "event", "marker": "#ff3b1f", "anchor": { "entity": "block", "part": "hypocentre" }, "sourceIds": ["w-terremoto"] },
+        { "id": "p-epi", "name": "Epicentro", "info": "La proiezione verticale dell'ipocentro sulla superficie: qui il terremoto si sente di più.", "kind": "event", "marker": "#ff3b1f", "anchor": { "entity": "block", "part": "epicentre", "offset": [0, 0.3, 0] }, "sourceIds": ["w-terremoto"] },
+        { "id": "p-conto3", "name": "Magnitudo", "info": "Ogni grado in più: ampiezza dieci volte maggiore ed energia circa 31,6 volte maggiore.", "kind": "data", "anchor": { "entity": "block", "part": "readout" }, "sourceIds": ["w-richter", "calc"] },
+        { "id": "p-onde-p", "name": "Onde P", "sub": "le più veloci", "info": "Onde longitudinali di compressione: attraversano anche il nucleo liquido, ma vengono deviate.", "kind": "data", "marker": "#2f6fd6", "anchor": { "entity": "globe", "part": "P" }, "visible": [[30, 62]], "sourceIds": ["w-onde", "w-terremoto"] },
+        { "id": "p-onde-s", "name": "Onde S", "sub": "più lente", "info": "Onde trasversali: non si propagano nei fluidi, perciò non attraversano il nucleo esterno.", "kind": "data", "marker": "#8a3fd1", "anchor": { "entity": "globe", "part": "S" }, "visible": [[30, 62]], "sourceIds": ["w-onde"] },
+        { "id": "p-esterno3", "name": "Nucleo esterno", "sub": "liquido", "info": "Sotto la discontinuità di Gutenberg, a circa 2900 km, le onde S non si propagano più.", "kind": "area", "marker": "#f2b233", "anchor": { "entity": "globe", "part": "nucleo-esterno" }, "sourceIds": ["w-gutenberg"] },
+        { "id": "p-ombra-s", "name": "Zona d'ombra delle onde S", "sub": "da ≈ 103°", "info": "Da circa 103° dall'epicentro le onde S non arrivano: le ferma il nucleo liquido.", "kind": "area", "marker": "#8a3fd1", "anchor": { "entity": "globe", "part": "s-shadow" }, "visible": [[30, 62]], "sourceIds": ["w-terremoto"] },
+        { "id": "p-ombra-p", "name": "Zona d'ombra delle onde P", "sub": "≈ 103°–150°", "info": "Le onde P deviate dal nucleo non arrivano tra circa 103° e 150° dall'epicentro.", "kind": "area", "marker": "#d63a3a", "anchor": { "entity": "globe", "part": "shadow" }, "visible": [[30, 62]], "sourceIds": ["w-terremoto"] }
+      ],
+      "deep": [
+        { "text": "La discontinuità di Gutenberg, a circa 2900 km di profondità, fu individuata nel 1914: lì le onde P rallentano bruscamente da oltre 13 a circa 8 km/s.", "sourceIds": ["w-gutenberg"] },
+        { "text": "La scala delle magnitudo fu proposta da Charles Francis Richter nel 1935, insieme a Beno Gutenberg.", "sourceIds": ["w-richter"] }
+      ],
+      "quiz": [
+        { "type": "choice", "q": "Perché le onde S non attraversano il nucleo esterno?", "options": ["Perché il nucleo esterno è liquido", "Perché il nucleo esterno è freddo", "Perché il nucleo esterno è di roccia"], "answer": 0, "explain": "Le onde S sono trasversali e non si propagano nei fluidi: il nucleo esterno liquido le ferma." },
+        { "type": "pick", "q": "Tocca il punto della superficie sopra il punto in cui parte il terremoto.", "answerPins": ["p-epi"], "explain": "È l'epicentro, la proiezione verticale dell'ipocentro sulla superficie." }
+      ],
+      "sounds": {
+        "ambience": [{ "sound": "rumble", "volume": 0.2 }],
+        "cues": [
+          { "at": 8, "sound": "whoosh", "volume": 0.6 },
+          { "at": 10, "sound": "glass-break", "volume": 0.35 },
+          { "at": 20, "sound": "whoosh", "volume": 0.6 },
+          { "at": 30, "sound": "whoosh-soft", "volume": 0.6 },
+          { "at": 41, "sound": "chime", "volume": 0.5 },
+          { "at": 44, "sound": "whoosh-soft", "volume": 0.6 },
+          { "at": 47, "sound": "chime", "volume": 0.5 }
+        ]
+      },
+      "book": {
+        "heading": "Il terremoto",
+        "formula": "+1 di magnitudo = ampiezza × 10",
+        "lines": [
+          "L'ipocentro è il punto in profondità da cui parte il terremoto.",
+          "L'epicentro è il punto della superficie sopra l'ipocentro.",
+          "Le onde P arrivano per prime; le onde S non attraversano i liquidi."
+        ],
+        "sourceIds": ["w-terremoto", "w-richter"]
+      },
+      "activity": {
+        "predict": {
+          "q": "C'è un forte terremoto. Le onde S arrivano anche dalla parte opposta della Terra?",
+          "options": ["Sì, attraversano tutto il pianeta", "No: il nucleo esterno liquido le ferma", "Sì, e arrivano prima delle onde P"],
+          "answer": 1
+        },
+        "test": { "prompt": "Cambia la magnitudo: di quante volte cresce l'ampiezza delle onde per ogni grado in più?", "params": ["mag"] },
+        "prove": {
+          "text": "Le onde S sono trasversali e non si propagano nei fluidi: il nucleo esterno liquido le ferma e da circa 103° dall'epicentro c'è la loro zona d'ombra. La magnitudo è il logaritmo in base dieci dell'ampiezza: ogni grado in più, ampiezza ×10 ed energia circa ×31,6.",
+          "sourceIds": ["w-onde", "w-terremoto", "w-richter"]
+        },
+        "stamp": "Cacciatore di onde sismiche"
+      }
+    }
+  ],
+  "engineData": {
+    "globe": {
+      "radius": 6371,
+      "layers": [
+        { "id": "crosta", "name": "Crosta", "top": 0, "bottom": 35, "color": "#8a6a4a", "state": "solid" },
+        { "id": "mantello", "name": "Mantello", "top": 35, "bottom": 2890, "color": "#d9773e", "state": "plastic", "temp": [900, 4000] },
+        { "id": "nucleo-esterno", "name": "Nucleo esterno", "top": 2890, "bottom": 5150, "color": "#f2b233", "state": "liquid", "temp": [4000, 5400], "pressure": [140, 330] },
+        { "id": "nucleo-interno", "name": "Nucleo interno", "top": 5150, "bottom": 6371, "color": "#ffe27a", "state": "solid", "temp": [5400, 6000], "pressure": [330, 360] }
+      ],
+      "shadow": { "pFrom": 103, "pTo": 150, "sFrom": 103 }
+    },
+    "chapters": [
+      {
+        "chapter": "dentro",
+        "globe": {
+          "cut": 90,
+          "probe": [
+            { "at": 10, "value": 0 },
+            { "at": 17, "value": 35 },
+            { "at": 25, "value": 200 },
+            { "at": 32, "value": 2800 },
+            { "at": 36, "value": 3600 },
+            { "at": 40, "value": 5100 },
+            { "at": 43, "value": 5700 },
+            { "at": 47, "value": 6371 }
+          ],
+          "glow": [
+            { "layer": "crosta", "window": [13, 25] },
+            { "layer": "mantello", "window": [26, 33] },
+            { "layer": "nucleo-esterno", "window": [34, 40] },
+            { "layer": "nucleo-interno", "window": [41, 48] }
+          ]
+        },
+        "params": [{ "id": "prof", "var": "depth", "label": "Profondità (km)", "min": 0, "max": 6371, "step": 10 }]
+      },
+      {
+        "chapter": "placche",
+        "block": {
+          "boundary": "subduction",
+          "width": 1000,
+          "motion": { "speed": 7.55, "time": [{ "at": 8, "value": 0 }, { "at": 50, "value": 20 }] },
+          "volcano": { "kind": "strato", "style": "explosive", "eruptions": [[43.5, 52]] },
+          "glow": [
+            { "part": "slab", "window": [11, 17] },
+            { "part": "chamber", "window": [30, 37] },
+            { "part": "asthenosphere", "window": [0, 6] }
+          ]
+        },
+        "params": [
+          { "id": "vel", "var": "speed", "label": "Velocità (cm/anno)", "min": 1, "max": 10, "step": 0.05 },
+          { "id": "ma", "var": "time", "label": "Tempo (milioni di anni)", "min": 0, "max": 40, "step": 1 }
+        ]
+      },
+      {
+        "chapter": "terremoto",
+        "block": {
+          "boundary": "none",
+          "relief": "hills",
+          "fault": { "u": 0.1, "kind": "normal", "depth": 0.4, "quakes": [8, 20], "magnitude": 5, "compare": 3 }
+        },
+        "globe": {
+          "cut": 180,
+          "quake": { "at": [30, 44], "travel": 8, "rays": 9 }
+        },
+        "params": [{ "id": "mag", "var": "magnitude", "label": "Magnitudo", "min": 3, "max": 8, "step": 0.1 }]
+      }
+    ]
+  }
+}

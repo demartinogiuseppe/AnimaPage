@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=dominio&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T17:59:34.650Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 10763,
+     "ns": 0,
+     "title": "Pubblico dominio",
+     "index": 2,
+     "extract": "L'espressione pubblico dominio indica in generale il complesso e la globalità delle opere (e in particolare delle informazioni) che, decorso il termine della protezione legale, possono essere liberamente utilizzate, senza chiedere autorizzazioni né corrispondere alcun compenso.",
+     "pageprops": {
+      "wikibase_item": "Q19652"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:19Z",
+     "lastrevid": 152828157,
+     "length": 39612,
+     "fullurl": "https://it.wikipedia.org/wiki/Pubblico_dominio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Pubblico_dominio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Pubblico_dominio"
+    },
+    {
+     "pageid": 111435,
+     "ns": 0,
+     "title": "Dominio",
+     "index": 1,
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q13589709"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:27Z",
+     "lastrevid": 144201321,
+     "length": 1485,
+     "fullurl": "https://it.wikipedia.org/wiki/Dominio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Dominio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Dominio"
+    },
+    {
+     "pageid": 271241,
+     "ns": 0,
+     "title": "Dominio (biologia)",
+     "index": 3,
+     "extract": "Il dominio è una categoria tassonomica che rappresenta il livello più alto della classificazione scientifica. Viene denominato, in particolare nella letteratura scientifica in lingua inglese, anche superregno, superimpero o impero. La sua introduzione, relativamente recente, si basa sulla teoria filogenetica, ovvero sulle differenze genetiche esistenti fra le diverse specie, basate sull'evoluzione temporale degli esseri viventi. Ogni dominio racchiude al proprio interno, come ogni altro taxon, le forme di vita più simili in termini di informazione genetica.\nLa teoria di Carl Woese, Otto Kandler e Mark Wheelis, risalente al 1990, prevede l'esistenza di tre dominî: gli Archaea, i Bacteria e gli Eukaryota. La teoria di Thomas Cavalier-Smith, del 2003, rivisitata nel 2010, ne prevede due: Prokaryota ed Eukaryota. Nel 2015, Michael Andrew Ruggiero et al. confermarono sostanzialmente la visione di Cavalier-Smith dei due domini: Prokaryota, con i due regni Archea e Bacteria, ed Eukaryota, con i sei regni Animalia, Plantae, Fungi, Protista, Chromista e Protozoa. C'è comunque da tener presente che le teorie su questo argomento sono in veloce evoluzione, sulla base dell'approccio biomolecolare alla sistematica reso possibile dall'introduzione di nuove tecniche di sequenziamento genico e dal progressivo abbattimento del relativo costo.\nI sequenziamenti ex novo di un intero organismo, ad esempio per un mammifero, solo pochi anni fa avrebbero previsto un impegno scientifico e organizzativo planetario, mentre sono ormai fattibili in una singola struttura, seppure molto ben attrezzata. Il sequenziamento prima di microorganismi, e poi di metazoi via via più complessi si sono succeduti nel tempo fino ad adottare tecniche come il sequenziamento ad elevato parallelismo che hanno permesso di abbattere tempi e costi, facendo diventare la biologia molecolare una tecnica possibile ed estendibile a organismi complessi anche in linee di ricerche come la tassonomia, tradizionalmente con finanziamenti minori rispetto ad altri campi scientifici come il biomedico.",
+     "pageprops": {
+      "wikibase_item": "Q146481"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T07:15:19Z",
+     "lastrevid": 153143719,
+     "length": 10885,
+     "fullurl": "https://it.wikipedia.org/wiki/Dominio_(biologia)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Dominio_(biologia)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Dominio_(biologia)"
+    },
+    {
+     "pageid": 1239859,
+     "ns": 0,
+     "title": "Dominio pelagico",
+     "index": 4,
+     "extract": "In ecologia marina il dominio pelagico è, insieme al dominio bentonico, una delle due suddivisioni dell'ambiente marino.\nIn base alla distanza dalla costa, è stato diviso in due province:\n\nprovincia neritica: zona di mare o di oceano che si estende dalla costa fino al termine della piattaforma continentale. Si estende fino a 200 m di profondità e riceve quasi tutta la luce solare irradiata sugli oceani. La zona è abitata da un largo numero di specie microscopiche, in particolare fitoplancton, protozoi, dinoflagellati e altri; e detta anche zona sublitorale;\nprovincia oceanica: la zona di mare o di oceano che si estende oltre la piattaforma continentale e che è quindi distante dalla costa e in cui sono presenti acque profonde.\nIl nome deriva dal greco antico πέλαγος pèlagos, ossia \"mare aperto\".",
+     "pageprops": {
+      "wikibase_item": "Q191468"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:40Z",
+     "lastrevid": 146853046,
+     "length": 4321,
+     "fullurl": "https://it.wikipedia.org/wiki/Dominio_pelagico",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Dominio_pelagico&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Dominio_pelagico"
+    }
+   ]
+  }
+ }
+}

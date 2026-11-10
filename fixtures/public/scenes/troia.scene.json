@@ -1,0 +1,2691 @@
+{
+  "version": "0.1",
+  "engine": "battle",
+  "title": "I Micenei",
+  "page": {
+    "subject": "Storia",
+    "topic": "Le civiltà dell'Egeo: i Micenei e la guerra di Troia",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "music": {"track":"music-history","volume":0.7},
+  "chapters": [
+    {
+      "id": "micenei",
+      "title": "Un popolo di guerrieri",
+      "chip": "Chi erano",
+      "book": {"heading":"I Micenei","formula":"1750–1050 a.C.","lines":["Popolo di guerrieri della Grecia nell'età del bronzo.","Il nome viene da Micene, protetta da mura di massi enormi.","Elmo di zanne di cinghiale, armatura di bronzo, scudo a otto."],"sourceIds":["wp-micenea","wp-fort","wp-elmo","wp-dendra"]},
+      "activity": {"predict":{"q":"Con che cosa era coperto l'elmo di un guerriero miceneo?","options":["Piume d'aquila","Zanne di cinghiale","Lamine d'oro"],"answer":1},"test":{"prompt":"Guarda il guerriero: tocca le etichette dell'elmo e dello scudo."},"prove":{"text":"L'elmo miceneo era coperto di zanne di cinghiale; sul corpo il guerriero portava un'armatura di bronzo.","sourceIds":["wp-elmo","wp-dendra"]},"stamp":"Guerriero miceneo"},
+      "kind": "history",
+      "dates": "1750–1050 a.C. circa",
+      "duration": 30,
+      "sounds": {"ambience":[{"sound":"wind","volume":0.3},{"sound":"horses","volume":0.5,"window":[25.5,30]}],"cues":[{"at":11.2,"sound":"whoosh","volume":0.5},{"at":15.2,"sound":"metal-clank","volume":0.45},{"at":21.2,"sound":"shield-hit","volume":0.6}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "I Micenei vissero in Grecia negli ultimi secoli dell'età del bronzo, più o meno tra il 1750 e il 1050 a.C.",
+          "speech": "I Micenei vissero in Grecia negli ultimi secoli dell'età del bronzo, più o meno tra il 1750 e il 1050 avanti Cristo.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-micenea"
+          ]
+        },
+        {
+          "at": 5.5,
+          "text": "Il loro nome viene da Micene, la città più potente, protetta da mura fatte di massi enormi.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-micenea",
+            "wp-fort"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Erano un popolo di guerrieri: guarda come si armava un soldato miceneo.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 15,
+          "text": "In testa portava un elmo coperto di zanne di cinghiale e sul corpo un'armatura di bronzo.",
+          "highlight": [
+            "elmo",
+            "armatura"
+          ],
+          "sourceIds": [
+            "wp-elmo",
+            "wp-dendra"
+          ]
+        },
+        {
+          "at": 21,
+          "text": "Si proteggeva con un grande scudo di pelle a forma di otto e combatteva con la lancia.",
+          "highlight": [
+            "scudo",
+            "lancia"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 26,
+          "text": "I capi andavano in battaglia su carri a due ruote trainati da cavalli.",
+          "highlight": [
+            "carro"
+          ],
+          "sourceIds": [
+            "wp-micenea"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [-4.2, 0.85, 11.8]
+          },
+          "distance": 5.33,
+          "azimuth": 22.62,
+          "elevation": 12.47
+        }
+      ],
+      "pins": [
+        {
+          "id": "elmo",
+          "name": "Elmo a zanne di cinghiale",
+          "info": "Placchette ricavate da zanne di cinghiale, fissate su una base di pelle. Omero lo descrive nell'Iliade.",
+          "kind": "object",
+          "anchor": {
+            "entity": "displayWarrior",
+            "part": "helmet"
+          },
+          "sourceIds": [
+            "wp-elmo"
+          ]
+        },
+        {
+          "id": "armatura",
+          "name": "Armatura di bronzo",
+          "info": "Armatura a lamine di bronzo, simile a quella trovata a Dendra. Proteggeva il guerriero dal collo alle ginocchia.",
+          "kind": "object",
+          "anchor": {
+            "entity": "displayWarrior",
+            "part": "cuirass"
+          },
+          "sourceIds": [
+            "wp-dendra"
+          ]
+        },
+        {
+          "id": "scudo",
+          "name": "Scudo a otto",
+          "info": "Grande scudo di pelle di bue tesa su un telaio di legno. Copriva quasi tutto il corpo.",
+          "kind": "object",
+          "anchor": {
+            "entity": "displayWarrior",
+            "part": "shield"
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "lancia",
+          "name": "Lancia",
+          "info": "Lunga lancia con la punta di bronzo: era l'arma principale del guerriero.",
+          "kind": "object",
+          "anchor": {
+            "entity": "displayWarrior",
+            "part": "spear"
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "carro",
+          "name": "Carro da guerra",
+          "info": "Carro leggero a due ruote trainato da due cavalli. Portava un guerriero e un auriga che guidava.",
+          "kind": "object",
+          "anchor": {
+            "entity": "displayChariot",
+            "offset": [0, 1.05, 0]
+          },
+          "sourceIds": []
+        }
+      ],
+      "deep": [
+        {
+          "text": "Le mura di Micene sono dette «ciclopiche»: i Greci vissuti dopo pensavano che solo i giganti Ciclopi potessero spostare massi così grandi.",
+          "sourceIds": [
+            "wp-fort"
+          ]
+        },
+        {
+          "text": "All'ingresso di Micene c'è la Porta dei Leoni, costruita intorno al 1250 a.C.",
+          "sourceIds": [
+            "wp-leoni"
+          ]
+        },
+        {
+          "text": "Gli elmi a zanne di cinghiale si usarono nel mondo miceneo per molti secoli. Forse li portavano i capi, come segno di prestigio.",
+          "sourceIds": [
+            "wp-elmo"
+          ]
+        },
+        {
+          "text": "A Dendra, in Grecia, nel 1960 è stata trovata un'armatura micenea completa, fatta di quindici lamine di bronzo. Risale alla fine del XV secolo a.C.",
+          "sourceIds": [
+            "wp-dendra"
+          ]
+        },
+        {
+          "text": "I Micenei scrivevano su tavolette d'argilla con la Lineare B, una forma antichissima di greco. Su alcune tavolette sono disegnate delle armature.",
+          "sourceIds": [
+            "wp-linb",
+            "wp-dendra"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quale età vissero i Micenei?",
+          "options": [
+            "Età della pietra",
+            "Età del bronzo",
+            "Età del ferro"
+          ],
+          "answer": 1,
+          "explain": "Usavano il bronzo, una lega di rame e stagno."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca lo scudo a forma di otto.",
+          "answerPins": [
+            "scudo"
+          ],
+          "explain": "Lo scudo a otto era di pelle di bue su un telaio di legno."
+        },
+        {
+          "type": "choice",
+          "q": "Di che cosa era coperto l'elmo miceneo?",
+          "options": [
+            "Piume d'aquila",
+            "Zanne di cinghiale",
+            "Scaglie di pesce"
+          ],
+          "answer": 1,
+          "explain": "File di placchette ricavate da zanne di cinghiale."
+        }
+      ]
+    },
+    {
+      "id": "sbarco",
+      "title": "Mille navi verso Troia",
+      "chip": "Lo sbarco",
+      "book": {"heading":"Mille navi verso Troia","formula":"Achei → Troia","lines":["Omero chiama Achei i Micenei.","Troia era una città ricca sulla costa dell'attuale Turchia.","Secondo il mito, la guerra iniziò con il rapimento di Elena."],"sourceIds":["wp-micenea","wp-troia","wp-guerra"]},
+      "activity": {"predict":{"q":"Secondo il mito, perché gli Achei attaccarono Troia?","options":["Per il rapimento di Elena","Per l'oro di Troia","Per un terremoto"],"answer":0},"test":{"prompt":"Guarda le navi attraversare il mare e sbarcare sulla spiaggia."},"prove":{"text":"Secondo il mito, la guerra nacque dal rapimento di Elena, moglie di Menelao re di Sparta, da parte del principe troiano Paride. È un racconto, non un fatto provato.","sourceIds":["wp-guerra"]},"stamp":"Navigatore acheo"},
+      "kind": "myth",
+      "dates": "XIII–XII secolo a.C., secondo la tradizione",
+      "duration": 27,
+      "sounds": {"ambience":[{"sound":"sea","volume":0.7},{"sound":"wind","volume":0.3},{"sound":"marching","volume":0.5,"window":[11,16]}],"cues":[{"at":1,"sound":"war-horn","volume":0.45},{"at":7.5,"sound":"seagull","volume":0.4},{"at":21.5,"sound":"wood-hit","volume":0.5},{"at":22.4,"sound":"wood-hit","volume":0.45}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Secondo un antico racconto, i Micenei, che Omero chiama Achei, partirono con più di mille navi per attaccare Troia.",
+          "highlight": [
+            "navi"
+          ],
+          "sourceIds": [
+            "wp-micenea",
+            "wp-guerra"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Troia era una città ricca sulla costa dell'attuale Turchia, vicino allo stretto dei Dardanelli.",
+          "highlight": [
+            "troia"
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Il motivo della guerra, secondo il mito, fu il rapimento di Elena, moglie del re di Sparta Menelao, da parte del principe troiano Paride.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-guerra"
+          ]
+        },
+        {
+          "at": 21,
+          "text": "Le navi arrivarono sulla spiaggia e i guerrieri costruirono un accampamento.",
+          "highlight": [
+            "campo"
+          ],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [-16, 0, 0]
+          },
+          "distance": 26.98,
+          "azimuth": 28.61,
+          "elevation": 21.75
+        },
+        {
+          "at": 11,
+          "target": {
+            "pos": [-8, 0, 0]
+          },
+          "distance": 16.34,
+          "azimuth": 28.3,
+          "elevation": 25.37
+        }
+      ],
+      "pins": [
+        {
+          "id": "navi",
+          "name": "Navi achee",
+          "info": "Navi lunghe e strette, a remi e con una vela quadrata. Omero le chiama «nere navi».",
+          "kind": "group",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "ships",
+            "index": 6,
+            "offset": [0, 1.9, 0]
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "troia",
+          "name": "Troia",
+          "info": "Città fortificata su una collina vicino al mare, nell'attuale Turchia. I resti si trovano sulla collina di Hissarlik.",
+          "kind": "city",
+          "marker": "#b3342a",
+          "anchor": {
+            "pos": [13.3, 2.9, 0]
+          },
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "egeo",
+          "name": "Mar Egeo",
+          "info": "Il mare tra la Grecia e la Turchia, che i Micenei attraversavano con le loro navi.",
+          "kind": "sea",
+          "anchor": {
+            "pos": [-22, 0, -4]
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "campo",
+          "name": "Accampamento acheo",
+          "info": "Gli Achei si accamparono sulla spiaggia, vicino alle navi.",
+          "kind": "place",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "pos": [-8.6, 0.8, -7]
+          },
+          "visible": [
+            [19, 27]
+          ],
+          "sourceIds": []
+        }
+      ],
+      "deep": [
+        {
+          "text": "Iliade e Odissea sono attribuite a Omero, che si ritiene sia vissuto nell'VIII secolo a.C.: secoli dopo i fatti che raccontano.",
+          "sourceIds": [
+            "wp-iliade"
+          ]
+        },
+        {
+          "text": "Nel «Catalogo delle navi», nel secondo libro dell'Iliade, sono elencate 1.178 navi, con circa 50 rematori ciascuna.",
+          "sourceIds": [
+            "wp-guerra"
+          ]
+        },
+        {
+          "text": "Secondo la tradizione la guerra si sarebbe combattuta intorno al 1250 a.C., oppure tra il 1194 e il 1184 a.C.",
+          "sourceIds": [
+            "wp-guerra"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come chiama Omero i Micenei?",
+          "options": [
+            "Achei",
+            "Troiani",
+            "Fenici"
+          ],
+          "answer": 0,
+          "explain": "Nei poemi li chiama Achei, Danai o Argivi."
+        },
+        {
+          "type": "choice",
+          "q": "Secondo il mito, perché scoppiò la guerra?",
+          "options": [
+            "Per il rapimento di Elena",
+            "Per una lite sul grano",
+            "Per un terremoto"
+          ],
+          "answer": 0,
+          "explain": "Paride rapì Elena, moglie di Menelao."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la città di Troia.",
+          "answerPins": [
+            "troia"
+          ],
+          "explain": "Troia è la città sulla collina."
+        }
+      ]
+    },
+    {
+      "id": "assedio",
+      "title": "Dieci anni sotto le mura",
+      "chip": "L'assedio",
+      "book": {"heading":"Dieci anni sotto le mura","lines":["Agamennone, re di Micene, guidava l'esercito acheo.","Troia era protetta da mura altissime.","Secondo la leggenda, l'assedio durò dieci anni."],"sourceIds":["wp-agam","wp-troia","wp-guerra"]},
+      "activity": {"predict":{"q":"Perché gli Achei non riuscivano a entrare a Troia?","options":["Le mura erano altissime","Troia era su un'isola","Avevano finito le armi"],"answer":0},"test":{"prompt":"Guarda le mura e gli arcieri troiani che tirano dall'alto."},"prove":{"text":"Troia era protetta da mura altissime e i Troiani lanciavano frecce dall'alto: per questo, secondo la leggenda, l'assedio durò dieci anni.","sourceIds":["wp-troia","wp-guerra"]},"stamp":"Difensore delle mura"},
+      "kind": "myth",
+      "dates": "dieci anni, secondo il mito",
+      "duration": 24,
+      "sounds": {"ambience":[{"sound":"sea","volume":0.25},{"sound":"marching","volume":0.5,"window":[0,6]},{"sound":"battle","volume":0.35,"window":[17,24]}],"cues":[{"at":4.5,"sound":"arrows","volume":0.6},{"at":7.5,"sound":"arrows","volume":0.6},{"at":10.5,"sound":"arrows","volume":0.6},{"at":13.6,"sound":"arrows","volume":0.6},{"at":16.8,"sound":"arrows","volume":0.6},{"at":20,"sound":"arrows","volume":0.6}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il re di Micene, Agamennone, guidava l'esercito acheo.",
+          "highlight": [
+            "achei"
+          ],
+          "sourceIds": [
+            "wp-agam"
+          ]
+        },
+        {
+          "at": 4.5,
+          "text": "Troia però era protetta da mura altissime, e i Troiani lanciavano frecce dall'alto.",
+          "highlight": [
+            "mura"
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Gli Achei non riuscivano a entrare: secondo la leggenda, l'assedio durò dieci anni.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-guerra"
+          ]
+        },
+        {
+          "at": 17,
+          "text": "Intorno alla città si combatteva spesso, nella pianura attraversata dal fiume Scamandro.",
+          "highlight": [
+            "scamandro"
+          ],
+          "sourceIds": [
+            "wp-scam"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [5, 0.8, 0]
+          },
+          "distance": 22.67,
+          "azimuth": -32.91,
+          "elevation": 26.74
+        },
+        {
+          "at": 8,
+          "target": {
+            "pos": [8, 1.5, -1]
+          },
+          "distance": 15.11,
+          "azimuth": -33.69,
+          "elevation": 17.33
+        }
+      ],
+      "pins": [
+        {
+          "id": "troia",
+          "name": "Troia",
+          "info": "Città fortificata su una collina vicino al mare, nell'attuale Turchia. I resti si trovano sulla collina di Hissarlik.",
+          "kind": "city",
+          "marker": "#b3342a",
+          "anchor": {
+            "pos": [13.3, 2.9, 0]
+          },
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "campo",
+          "name": "Accampamento acheo",
+          "info": "Gli Achei si accamparono sulla spiaggia, vicino alle navi.",
+          "kind": "place",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "pos": [-8.6, 0.8, -7]
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "mura",
+          "name": "Mura di Troia",
+          "info": "Mura di pietra con torri, alte e spesse. Dall'alto i Troiani lanciavano frecce.",
+          "kind": "place",
+          "anchor": {
+            "pos": [9.711, 2.5, 2.77]
+          },
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "achei",
+          "name": "Achei",
+          "info": "L'esercito acheo: guerrieri venuti da molte città della Grecia, guidati da Agamennone.",
+          "kind": "group",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "achaeans",
+            "index": 12,
+            "offset": [0, 0.65, 0]
+          },
+          "sourceIds": [
+            "wp-agam"
+          ]
+        },
+        {
+          "id": "scamandro",
+          "name": "Scamandro",
+          "info": "Il fiume della pianura di Troia. Nell'Iliade si combatte spesso sulle sue rive.",
+          "kind": "river",
+          "anchor": {
+            "pos": [2, 0.05, -10.1]
+          },
+          "sourceIds": [
+            "wp-scam"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Agamennone era il fratello di Menelao, il marito di Elena.",
+          "sourceIds": [
+            "wp-agam"
+          ]
+        },
+        {
+          "text": "Le mura di Troia VI, la città più forte, erano alte in media 6 metri e spesse 5, con torri e porte.",
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "text": "Omero chiama gli Achei anche Danai o Argivi.",
+          "sourceIds": [
+            "wp-achei"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quanto durò l'assedio, secondo la leggenda?",
+          "options": [
+            "Un anno",
+            "Dieci anni",
+            "Cento anni"
+          ],
+          "answer": 1,
+          "explain": "Dieci anni."
+        },
+        {
+          "type": "choice",
+          "q": "Chi guidava l'esercito acheo?",
+          "options": [
+            "Agamennone",
+            "Ettore",
+            "Paride"
+          ],
+          "answer": 0,
+          "explain": "Agamennone, re di Micene."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il fiume della pianura di Troia.",
+          "answerPins": [
+            "scamandro"
+          ],
+          "explain": "È lo Scamandro."
+        }
+      ],
+      "status": [
+        {
+          "from": 6,
+          "to": 22,
+          "text": "Anno {n} di assedio",
+          "counter": {
+            "from": 1,
+            "to": 10
+          }
+        },
+        {
+          "from": 22,
+          "to": 24,
+          "text": "Anno 10 di assedio"
+        }
+      ]
+    },
+    {
+      "id": "scontro",
+      "title": "Battaglia nella pianura",
+      "chip": "La battaglia",
+      "book": {"heading":"Battaglia nella pianura","lines":["I Troiani escono dalle Porte Scee e si schierano.","I carri portano i capi in prima linea, poi si combatte a piedi.","Nell'Iliade Achille sconfigge Ettore in duello."],"sourceIds":["wp-ettore","wp-iliade"]},
+      "activity": {"predict":{"q":"Chi resta fuori dalle mura ad aspettare Achille?","options":["Ettore","Paride","Agamennone"],"answer":0},"test":{"prompt":"Segui la battaglia: chi resta fuori quando i Troiani si ritirano?"},"prove":{"text":"Nell'Iliade solo Ettore, il principe di Troia, resta fuori dalle mura: Achille lo insegue per tre volte intorno alla città e poi lo sconfigge in duello.","sourceIds":["wp-ettore","wp-iliade"]},"stamp":"Eroe dell'Iliade"},
+      "kind": "myth",
+      "dates": "ultimo anno di guerra, secondo l'Iliade",
+      "duration": 39,
+      "sounds": {"ambience":[{"sound":"wind","volume":0.25},{"sound":"marching","volume":0.5,"window":[4,10]},{"sound":"horses","volume":0.6,"window":[8.5,15.5]},{"sound":"battle","volume":0.7,"window":[14,20.5]},{"sound":"marching","volume":0.4,"window":[20,23]}],"cues":[{"at":4,"sound":"war-horn","volume":0.6},{"at":14,"sound":"battle-clash","volume":0.9},{"at":15.5,"sound":"sword-clash","volume":0.6},{"at":16.2,"sound":"shield-hit","volume":0.5},{"at":17,"sound":"sword-clash","volume":0.55},{"at":18.6,"sound":"sword-clash","volume":0.6},{"at":33.6,"sound":"sword-clash","volume":0.7},{"at":34.2,"sound":"shield-hit","volume":0.6}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco come poteva svolgersi una battaglia nella pianura di Troia.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 4,
+          "text": "I Troiani escono dalle Porte Scee e si schierano davanti alla città.",
+          "highlight": [
+            "porte",
+            "troiani"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 9,
+          "text": "I carri da guerra portano i capi in prima linea; poi gli eroi scendono e combattono a piedi.",
+          "highlight": [
+            "carro"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 15,
+          "text": "Le file dei fanti si scontrano con lance e scudi.",
+          "highlight": [
+            "achei",
+            "troiani"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 20,
+          "text": "Alla fine i Troiani si ritirano dentro le mura.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-ettore"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Solo Ettore, il principe di Troia, resta fuori ad aspettare Achille, il più forte degli Achei.",
+          "highlight": [
+            "ettore",
+            "achille"
+          ],
+          "sourceIds": [
+            "wp-ettore",
+            "wp-guerra"
+          ]
+        },
+        {
+          "at": 30,
+          "text": "Nell'Iliade Achille insegue Ettore per tre volte intorno alle mura, poi lo sconfigge in duello.",
+          "highlight": [
+            "ettore",
+            "achille"
+          ],
+          "sourceIds": [
+            "wp-ettore",
+            "wp-iliade"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [2, 0.3, 0]
+          },
+          "distance": 18.12,
+          "azimuth": -21.8,
+          "elevation": 26.91
+        },
+        {
+          "at": 20,
+          "target": {
+            "pos": [10, 0.5, 0]
+          },
+          "distance": 24.46,
+          "azimuth": -25.35,
+          "elevation": 30.73
+        },
+        {
+          "at": 34,
+          "target": {
+            "pos": [6, 0.5, 0]
+          },
+          "distance": 6.68,
+          "azimuth": -31.61,
+          "elevation": 23.86
+        }
+      ],
+      "pins": [
+        {
+          "id": "troia",
+          "name": "Troia",
+          "info": "Città fortificata su una collina vicino al mare, nell'attuale Turchia. I resti si trovano sulla collina di Hissarlik.",
+          "kind": "city",
+          "marker": "#b3342a",
+          "anchor": {
+            "pos": [13.3, 2.9, 0]
+          },
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "porte",
+          "name": "Porte Scee",
+          "info": "La porta principale di Troia nei poemi di Omero.",
+          "kind": "place",
+          "anchor": {
+            "entity": "troia",
+            "part": "gate",
+            "offset": [0, 0.25, 0]
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "carro",
+          "name": "Carro da guerra",
+          "info": "Carro leggero a due ruote trainato da due cavalli. Portava un guerriero e un auriga che guidava.",
+          "kind": "object",
+          "anchor": {
+            "entity": "chariotsA",
+            "index": 0,
+            "offset": [0, 0.75, 0]
+          },
+          "visible": [
+            [8, 17]
+          ],
+          "sourceIds": []
+        },
+        {
+          "id": "achei",
+          "name": "Achei",
+          "info": "L'esercito acheo: guerrieri venuti da molte città della Grecia, guidati da Agamennone.",
+          "kind": "group",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "achaeans",
+            "index": 12,
+            "offset": [0, 0.65, 0]
+          },
+          "sourceIds": [
+            "wp-agam"
+          ]
+        },
+        {
+          "id": "troiani",
+          "name": "Troiani",
+          "info": "L'esercito troiano con i suoi alleati, guidato da Ettore.",
+          "kind": "group",
+          "marker": "#b3342a",
+          "anchor": {
+            "entity": "trojans",
+            "index": 13,
+            "offset": [0, 0.65, 0]
+          },
+          "visible": [
+            [5, 21]
+          ],
+          "sourceIds": [
+            "wp-iliade"
+          ]
+        },
+        {
+          "id": "ettore",
+          "name": "Ettore",
+          "info": "Figlio del re Priamo e il più forte dei Troiani. Difendeva la sua città e la sua famiglia.",
+          "kind": "person",
+          "marker": "#b3342a",
+          "anchor": {
+            "entity": "hector",
+            "part": "head",
+            "offset": [0, 0.3, 0]
+          },
+          "visible": [
+            [20, 39]
+          ],
+          "sourceIds": [
+            "wp-ettore"
+          ]
+        },
+        {
+          "id": "achille",
+          "name": "Achille",
+          "info": "Il più forte degli Achei. Secondo il mito era invulnerabile, tranne che nel tallone.",
+          "kind": "person",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "achilles",
+            "part": "head",
+            "offset": [0, 0.3, 0]
+          },
+          "visible": [
+            [22, 39]
+          ],
+          "sourceIds": [
+            "wp-achille"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Nell'Iliade i carri servono soprattutto a portare l'eroe sul campo: lui scende e combatte a piedi, mentre l'auriga aspetta.",
+          "sourceIds": []
+        },
+        {
+          "text": "Achille era arrabbiato con Agamennone, che gli aveva tolto la schiava Briseide, e per molto tempo rifiutò di combattere. Tornò in battaglia dopo la morte dell'amico Patroclo, ucciso da Ettore.",
+          "sourceIds": [
+            "wp-iliade"
+          ]
+        },
+        {
+          "text": "L'Iliade racconta solo 51 giorni dell'ultimo anno di guerra e finisce con il funerale di Ettore.",
+          "sourceIds": [
+            "wp-iliade"
+          ]
+        },
+        {
+          "text": "Questa simulazione è una ricostruzione: non sappiamo come fosse schierato davvero un esercito miceneo.",
+          "sourceIds": []
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "A che cosa servivano i carri, nei racconti di Omero?",
+          "options": [
+            "A portare i capi in prima linea",
+            "A trasportare il cibo",
+            "A sfondare le mura"
+          ],
+          "answer": 0,
+          "explain": "Portavano gli eroi sul campo di battaglia."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il principe di Troia che affronta Achille.",
+          "answerPins": [
+            "ettore"
+          ],
+          "explain": "È Ettore, figlio del re Priamo."
+        },
+        {
+          "type": "choice",
+          "q": "Come si chiama il poema di Omero sulla guerra di Troia?",
+          "options": [
+            "Iliade",
+            "Eneide",
+            "Divina Commedia"
+          ],
+          "answer": 0,
+          "explain": "L'Iliade, da Ilio, l'altro nome di Troia."
+        }
+      ],
+      "status": [
+        {
+          "from": 26,
+          "to": 34,
+          "text": "Giro {n} di 3 intorno alle mura",
+          "counter": {
+            "from": 1,
+            "to": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cavallo",
+      "title": "L'inganno del cavallo",
+      "chip": "Il cavallo",
+      "book": {"heading":"L'inganno del cavallo","lines":["L'idea di Ulisse: un enorme cavallo di legno, vuoto.","I Troiani lo portano in città come dono degli dei.","Di notte i guerrieri escono e aprono le porte."],"sourceIds":["wp-cavallo"]},
+      "activity": {"predict":{"q":"Dove si racconta per intero la storia del cavallo di Troia?","options":["Nell'Iliade di Omero","Nell'Eneide di Virgilio","In un libro di storia di oggi"],"answer":1},"test":{"prompt":"Guarda il cavallo entrare in città e che cosa succede di notte."},"prove":{"text":"L'episodio non è nell'Iliade: l'Odissea lo nomina appena e il poeta latino Virgilio lo racconta per intero nell'Eneide, molto più tardi.","sourceIds":["wp-cavallo"]},"stamp":"Astuto come Ulisse"},
+      "kind": "myth",
+      "dates": "fine della guerra, secondo il mito",
+      "duration": 41,
+      "sounds": {"ambience":[{"sound":"sea","volume":0.4,"window":[0,20]},{"sound":"crowd","volume":0.35,"window":[14,19]},{"sound":"night","volume":0.5,"window":[19.5,29]},{"sound":"marching","volume":0.4,"window":[26,31]},{"sound":"fire","volume":0.85,"window":[28.5,41]},{"sound":"crowd","volume":0.3,"window":[29.5,36]}],"cues":[{"at":1.5,"sound":"wood-hit","volume":0.5},{"at":2.6,"sound":"wood-hit","volume":0.45},{"at":3.8,"sound":"wood-hit","volume":0.5},{"at":15,"sound":"door-creak","volume":0.5},{"at":23.2,"sound":"door-creak","volume":0.55},{"at":23.6,"sound":"footsteps","volume":0.5}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Dopo dieci anni di assedio, Ulisse ebbe un'idea: costruire un enorme cavallo di legno, vuoto all'interno.",
+          "highlight": [
+            "cavallo"
+          ],
+          "sourceIds": [
+            "wp-cavallo"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Alcuni guerrieri si nascosero dentro, mentre le navi fingevano di partire e si nascondevano dietro l'isola di Tenedo.",
+          "highlight": [
+            "tenedo",
+            "navi"
+          ],
+          "sourceIds": [
+            "wp-cavallo"
+          ]
+        },
+        {
+          "at": 14,
+          "text": "I Troiani pensarono a un dono degli dei e trascinarono il cavallo dentro la città.",
+          "highlight": [
+            "cavallo"
+          ],
+          "sourceIds": [
+            "wp-cavallo"
+          ]
+        },
+        {
+          "at": 23,
+          "text": "Di notte i guerrieri uscirono dal cavallo e aprirono le porte.",
+          "highlight": [
+            "porte"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 28,
+          "text": "L'esercito acheo, tornato in silenzio, entrò a Troia e la città fu incendiata.",
+          "highlight": [
+            "troia"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 35,
+          "text": "Questo episodio non è nell'Iliade: l'Odissea lo nomina appena, e molto più tardi il poeta latino Virgilio lo racconta per intero nell'Eneide.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-cavallo"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [-7, 1, 0]
+          },
+          "distance": 11.28,
+          "azimuth": 31.43,
+          "elevation": 20.77
+        },
+        {
+          "at": 8,
+          "target": {
+            "pos": [-28, 0, 12]
+          },
+          "distance": 27,
+          "azimuth": 45,
+          "elevation": 19.47
+        },
+        {
+          "at": 15,
+          "target": {
+            "pos": [0, 0.5, 0]
+          },
+          "distance": 17.47,
+          "azimuth": -31.61,
+          "elevation": 29.11
+        },
+        {
+          "at": 22,
+          "target": {
+            "pos": [10.5, 1.8, 0]
+          },
+          "distance": 12.33,
+          "azimuth": -37.87,
+          "elevation": 22.4
+        },
+        {
+          "at": 27,
+          "target": {
+            "pos": [4, 0.8, 0]
+          },
+          "distance": 20.99,
+          "azimuth": -32.01,
+          "elevation": 25.99
+        },
+        {
+          "at": 33,
+          "target": {
+            "pos": [12, 1.5, 0]
+          },
+          "distance": 18.77,
+          "azimuth": -35.54,
+          "elevation": 23.55
+        }
+      ],
+      "pins": [
+        {
+          "id": "cavallo",
+          "name": "Cavallo di legno",
+          "info": "Il cavallo di legno ideato da Ulisse, con i guerrieri nascosti nella pancia.",
+          "kind": "object",
+          "anchor": {
+            "entity": "horse",
+            "part": "top",
+            "offset": [0, 0.2, 0]
+          },
+          "visible": [
+            [2, 41]
+          ],
+          "sourceIds": [
+            "wp-cavallo"
+          ]
+        },
+        {
+          "id": "navi",
+          "name": "Navi achee",
+          "info": "Navi lunghe e strette, a remi e con una vela quadrata. Omero le chiama «nere navi».",
+          "kind": "group",
+          "marker": "#2c5fa6",
+          "anchor": {
+            "entity": "ships",
+            "index": 6,
+            "offset": [0, 1.9, 0]
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "tenedo",
+          "name": "Tenedo",
+          "info": "Piccola isola davanti alla costa di Troia. Secondo il mito le navi achee si nascosero dietro di essa.",
+          "kind": "island",
+          "anchor": {
+            "entity": "tenedos",
+            "offset": [0, 0.2, 0]
+          },
+          "sourceIds": [
+            "wp-tenedo",
+            "wp-cavallo"
+          ]
+        },
+        {
+          "id": "porte",
+          "name": "Porte Scee",
+          "info": "La porta principale di Troia nei poemi di Omero.",
+          "kind": "place",
+          "anchor": {
+            "entity": "troia",
+            "part": "gate",
+            "offset": [0, 0.25, 0]
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "troia",
+          "name": "Troia",
+          "info": "Città fortificata su una collina vicino al mare, nell'attuale Turchia. I resti si trovano sulla collina di Hissarlik.",
+          "kind": "city",
+          "marker": "#b3342a",
+          "anchor": {
+            "pos": [13.3, 2.9, 0]
+          },
+          "sourceIds": [
+            "wp-troia"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Nell'Eneide il sacerdote Laocoonte avverte i Troiani: «Temo i Danai, anche quando portano doni».",
+          "sourceIds": [
+            "wp-cavallo"
+          ]
+        },
+        {
+          "text": "Cassandra, principessa di Troia, prediceva il futuro, ma nessuno le credeva.",
+          "sourceIds": [
+            "wp-cassandra"
+          ]
+        },
+        {
+          "text": "Ancora oggi «cavallo di Troia» indica un inganno nascosto. In informatica un «trojan» è un programma dannoso che si nasconde dentro uno che sembra innocuo.",
+          "sourceIds": [
+            "wp-trojan"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Chi ebbe l'idea del cavallo di legno?",
+          "options": [
+            "Achille",
+            "Ulisse",
+            "Agamennone"
+          ],
+          "answer": 1,
+          "explain": "Ulisse, famoso per la sua astuzia."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'isola dietro cui si nascosero le navi.",
+          "answerPins": [
+            "tenedo"
+          ],
+          "explain": "È l'isola di Tenedo."
+        },
+        {
+          "type": "choice",
+          "q": "In quale poema di Omero si parla del cavallo?",
+          "options": [
+            "Nell'Iliade",
+            "Nell'Odissea",
+            "In nessuno dei due"
+          ],
+          "answer": 1,
+          "explain": "Nell'Odissea, dove è solo nominato. L'Iliade finisce prima."
+        }
+      ],
+      "status": [
+        {
+          "from": 20.5,
+          "to": 41,
+          "text": "Notte"
+        }
+      ]
+    },
+    {
+      "id": "storia",
+      "title": "Che cosa hanno trovato gli archeologi",
+      "chip": "Mito o storia?",
+      "book": {"heading":"Che cosa dicono gli scavi","formula":"Troia VIIa ≈ 1200 a.C.","lines":["Nel 1871 Schliemann inizia a scavare la collina di Hissarlik.","Sotto terra ci sono nove città, una sopra l'altra.","Dietro la leggenda forse c'è il ricordo di guerre vere."],"sourceIds":["wp-troia","wp-achei"]},
+      "activity": {"predict":{"q":"Quante città sono state trovate sotto la collina di Hissarlik?","options":["Una sola","Tre","Nove"],"answer":2},"test":{"prompt":"Guarda gli strati della collina, dal più antico al più recente."},"prove":{"text":"Sotto terra c'erano nove città, costruite una sopra l'altra; lo strato Troia VIIa fu distrutto da un incendio intorno al 1200 a.C.","sourceIds":["wp-troia"]},"stamp":"Archeologo di Troia"},
+      "kind": "history",
+      "dates": "dal 1871 a oggi",
+      "duration": 34,
+      "sounds": {"ambience":[{"sound":"wind","volume":0.3}],"cues":[{"at":4.2,"sound":"page-turn","volume":0.6},{"at":11.5,"sound":"pop","volume":0.35},{"at":12.1,"sound":"pop","volume":0.35},{"at":12.7,"sound":"pop","volume":0.35},{"at":13.3,"sound":"pop","volume":0.35},{"at":13.9,"sound":"pop","volume":0.35},{"at":14.5,"sound":"pop","volume":0.35},{"at":15.1,"sound":"pop","volume":0.35},{"at":15.7,"sound":"pop","volume":0.35},{"at":16.3,"sound":"pop","volume":0.35},{"at":18.1,"sound":"sparkle","volume":0.5}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ma la guerra di Troia è davvero avvenuta?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 4,
+          "text": "Nel 1871 l'archeologo tedesco Heinrich Schliemann iniziò a scavare una collina in Turchia, chiamata Hissarlik, e trovò i resti di Troia.",
+          "highlight": [
+            "hisarlik"
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Sotto terra c'erano nove città, costruite una sopra l'altra: dall'età del bronzo fino all'epoca romana.",
+          "highlight": [
+            "l1",
+            "l9"
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Uno degli strati, chiamato Troia VIIa, fu distrutto da un incendio intorno al 1200 a.C., più o meno all'epoca del mito.",
+          "speech": "Uno degli strati, chiamato Troia sette A, fu distrutto da un incendio intorno al 1200 avanti Cristo, più o meno all'epoca del mito.",
+          "highlight": [
+            "l7"
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "at": 26,
+          "text": "Gli storici pensano che dietro la leggenda ci sia forse il ricordo di guerre vere, ma molti dettagli sono stati inventati dai poeti.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-achei",
+            "wp-troia"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [13, 1.6, 0]
+          },
+          "distance": 16.17,
+          "azimuth": -45,
+          "elevation": 15.79
+        },
+        {
+          "at": 11,
+          "target": {
+            "pos": [12, 2.7, 0]
+          },
+          "distance": 10.26,
+          "azimuth": -50.19,
+          "elevation": 8.4
+        }
+      ],
+      "pins": [
+        {
+          "id": "hisarlik",
+          "name": "Collina di Hissarlik",
+          "info": "La collina in Turchia dove si trovano i resti di Troia.",
+          "kind": "peak",
+          "anchor": {
+            "pos": [7.4, 1.1, 0]
+          },
+          "visible": [
+            [0, 12]
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "l1",
+          "name": "Troia I",
+          "sub": "circa 2900 a.C.",
+          "info": "La cittadella più antica, con mura di pietra: fu costruita a partire dal 2920 a.C. circa.",
+          "kind": "data",
+          "anchor": {
+            "entity": "strata",
+            "index": 0
+          },
+          "visible": [
+            [11.5, 34]
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "l6",
+          "name": "Troia VI",
+          "sub": "mura potenti",
+          "info": "Una città ricca con mura potenti, distrutta forse da un terremoto intorno al 1300 a.C.",
+          "kind": "data",
+          "anchor": {
+            "entity": "strata",
+            "index": 5
+          },
+          "visible": [
+            [15, 34]
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "l7",
+          "name": "Troia VIIa",
+          "sub": "circa 1200 a.C.",
+          "info": "Distrutta da un incendio intorno al 1200 a.C.: è la candidata principale per la Troia del mito.",
+          "kind": "data",
+          "anchor": {
+            "entity": "strata",
+            "index": 6
+          },
+          "visible": [
+            [15.6, 34]
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "id": "l9",
+          "name": "Troia IX",
+          "sub": "età romana",
+          "info": "Ilio di età romana, costruita sulla cima spianata della collina, sopra tutte le altre.",
+          "kind": "data",
+          "anchor": {
+            "entity": "strata",
+            "index": 8,
+            "offset": [0.2, 0, 0]
+          },
+          "visible": [
+            [16.8, 34]
+          ],
+          "sourceIds": [
+            "wp-troia"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Nel secondo strato Schliemann trovò un grande tesoro e pensò che fosse il «tesoro di Priamo», ma era molto più antico della Troia di Omero.",
+          "sourceIds": [
+            "wp-troia"
+          ]
+        },
+        {
+          "text": "A Micene Schliemann trovò una maschera d'oro che chiamò «maschera di Agamennone». In realtà è del 1550–1500 a.C., molto prima dell'epoca della guerra.",
+          "sourceIds": [
+            "wp-maschera"
+          ]
+        },
+        {
+          "text": "Documenti degli Ittiti parlano di una città chiamata Wilusa e di un paese chiamato Ahhiyawa: forse sono Ilio, cioè Troia, e gli Achei.",
+          "sourceIds": [
+            "wp-wilusa",
+            "wp-achei"
+          ]
+        },
+        {
+          "text": "Tra il 1206 e il 1150 a.C. circa crollarono i regni micenei e altri grandi regni del Mediterraneo orientale: nessun palazzo miceneo sopravvisse.",
+          "sourceIds": [
+            "wp-collasso"
+          ]
+        },
+        {
+          "text": "Il sito di Troia è patrimonio dell'umanità UNESCO dal 1998.",
+          "sourceIds": [
+            "wp-troia"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Chi scoprì i resti di Troia?",
+          "options": [
+            "Heinrich Schliemann",
+            "Omero",
+            "Virgilio"
+          ],
+          "answer": 0,
+          "explain": "Schliemann, con gli scavi iniziati nel 1871."
+        },
+        {
+          "type": "choice",
+          "q": "Come sono disposte le città trovate a Hissarlik?",
+          "options": [
+            "Una accanto all'altra",
+            "Una sopra l'altra",
+            "Sott'acqua"
+          ],
+          "answer": 1,
+          "explain": "Ogni nuova città fu costruita sopra i resti della precedente."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca lo strato distrutto all'epoca della guerra di Troia.",
+          "answerPins": [
+            "l7"
+          ],
+          "explain": "È Troia VIIa, distrutta da un incendio intorno al 1200 a.C."
+        }
+      ],
+      "status": [
+        {
+          "from": 12,
+          "to": 34,
+          "text": "Strati di Troia, dal più antico (in basso)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wp-troia",
+      "kind": "wikipedia",
+      "title": "Troia",
+      "url": "https://it.wikipedia.org/wiki/Troia",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q22647",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-guerra",
+      "kind": "wikipedia",
+      "title": "Guerra di Troia",
+      "url": "https://it.wikipedia.org/wiki/Guerra_di_Troia",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q42937",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-micenea",
+      "kind": "wikipedia",
+      "title": "Civiltà micenea",
+      "url": "https://it.wikipedia.org/wiki/Civilt%C3%A0_micenea",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q181264",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-fort",
+      "kind": "wikipedia",
+      "title": "Fortificazioni di Micene",
+      "url": "https://it.wikipedia.org/wiki/Fortificazioni_di_Micene",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q48331950",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-leoni",
+      "kind": "wikipedia",
+      "title": "Porta dei Leoni (Micene)",
+      "url": "https://it.wikipedia.org/wiki/Porta_dei_Leoni_(Micene)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q1450403",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-dendra",
+      "kind": "wikipedia",
+      "title": "Panoplia di Dendra",
+      "url": "https://it.wikipedia.org/wiki/Panoplia_di_Dendra",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q1186913",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-elmo",
+      "kind": "wikipedia",
+      "title": "Elmo a zanne di cinghiale",
+      "url": "https://it.wikipedia.org/wiki/Elmo_a_zanne_di_cinghiale",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q1243176",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-linb",
+      "kind": "wikipedia",
+      "title": "Lineare B",
+      "url": "https://it.wikipedia.org/wiki/Lineare_B",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q190102",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-iliade",
+      "kind": "wikipedia",
+      "title": "Iliade",
+      "url": "https://it.wikipedia.org/wiki/Iliade",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q8275",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-achei",
+      "kind": "wikipedia",
+      "title": "Achei",
+      "url": "https://it.wikipedia.org/wiki/Achei",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q191962",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-agam",
+      "kind": "wikipedia",
+      "title": "Agamennone",
+      "url": "https://it.wikipedia.org/wiki/Agamennone",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q128176",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-scam",
+      "kind": "wikipedia",
+      "title": "Scamandro",
+      "url": "https://it.wikipedia.org/wiki/Scamandro",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q19309185",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-ettore",
+      "kind": "wikipedia",
+      "title": "Ettore (mitologia)",
+      "url": "https://it.wikipedia.org/wiki/Ettore_(mitologia)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q159666",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-achille",
+      "kind": "wikipedia",
+      "title": "Achille",
+      "url": "https://it.wikipedia.org/wiki/Achille",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q41746",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-cavallo",
+      "kind": "wikipedia",
+      "title": "Cavallo di Troia",
+      "url": "https://it.wikipedia.org/wiki/Cavallo_di_Troia",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q50193",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-tenedo",
+      "kind": "wikipedia",
+      "title": "Distretto di Tenedo",
+      "url": "https://it.wikipedia.org/wiki/Distretto_di_Tenedo",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q10259759",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-cassandra",
+      "kind": "wikipedia",
+      "title": "Cassandra (mitologia)",
+      "url": "https://it.wikipedia.org/wiki/Cassandra_(mitologia)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q170779",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-trojan",
+      "kind": "wikipedia",
+      "title": "Trojan (informatica)",
+      "url": "https://it.wikipedia.org/wiki/Trojan_(informatica)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q14639",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-maschera",
+      "kind": "wikipedia",
+      "title": "Maschera di Agamennone",
+      "url": "https://it.wikipedia.org/wiki/Maschera_di_Agamennone",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q1126741",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-wilusa",
+      "kind": "wikipedia",
+      "title": "Wilusa",
+      "url": "https://it.wikipedia.org/wiki/Wilusa",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q337767",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-collasso",
+      "kind": "wikipedia",
+      "title": "Collasso dell'Età del Bronzo",
+      "url": "https://it.wikipedia.org/wiki/Collasso_dell%27Et%C3%A0_del_Bronzo",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "wikidataId": "Q1059758",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Ricostruzione didattica semplificata: luoghi, distanze, numero dei soldati e movimenti non sono in scala e servono solo a spiegare.",
+    "Le scene sulla guerra di Troia seguono il racconto dei poemi (Iliade, Odissea, Eneide) e sono segnate come «Mito»: non sappiamo come si svolsero davvero le battaglie. Le parti segnate «Storia» si basano sui reperti archeologici."
+  ],
+  "engineData": {
+    "world": {
+      "extent": {
+        "x": [-40, 30],
+        "z": [-25, 25]
+      },
+      "areas": [
+        {
+          "id": "plain",
+          "center": [26.5, 0],
+          "size": [72, 110],
+          "color": "#b8a46c"
+        },
+        {
+          "id": "beach",
+          "center": [-8.3, 0],
+          "size": [3.4, 110],
+          "color": "#e2d3a2"
+        },
+        {
+          "id": "aegean",
+          "center": [-50, 0],
+          "size": [80, 110],
+          "water": true,
+          "color": "#2d6f9c",
+          "nightColor": "#15324a"
+        }
+      ],
+      "hills": [
+        {
+          "id": "hissarlik",
+          "center": [13, 0],
+          "topRadius": 4.6,
+          "footRadius": 6.6,
+          "height": 1.4,
+          "color": "#a8945f"
+        }
+      ],
+      "mountains": [
+        {
+          "id": "ida1",
+          "center": [42, -14],
+          "radius": 10,
+          "height": 7,
+          "color": "#9a9473"
+        },
+        {
+          "id": "ida2",
+          "center": [50, 6],
+          "radius": 13,
+          "height": 9,
+          "color": "#9a9473"
+        },
+        {
+          "id": "ida3",
+          "center": [38, 22],
+          "radius": 8,
+          "height": 5,
+          "color": "#9a9473"
+        }
+      ],
+      "islands": [
+        {
+          "id": "tenedos",
+          "center": [-37, 18.5],
+          "radius": 5,
+          "height": 2.1,
+          "color": "#8f8a5a"
+        }
+      ],
+      "rivers": [
+        {
+          "id": "scamander",
+          "points": [
+            [26, -17],
+            [16, -11.5],
+            [6, -9.6],
+            [-2, -10.6],
+            [-9.6, -12.5]
+          ],
+          "halfWidth": 0.45,
+          "color": "#3d7fb3"
+        }
+      ],
+      "sky": {
+        "day": "#cfdde6",
+        "night": "#0b1426",
+        "fog": [45, 115]
+      }
+    },
+    "sides": [
+      {
+        "id": "achaeans",
+        "name": "Achei",
+        "color": "#2c5fa6",
+        "helmetColor": "#efe6cf",
+        "shieldColor": "#d9c7a3"
+      },
+      {
+        "id": "trojans",
+        "name": "Troiani",
+        "color": "#b3342a",
+        "helmetColor": "#b98a3e",
+        "shieldColor": "#7d2b22"
+      }
+    ],
+    "cities": [
+      {
+        "id": "troia",
+        "center": [13, 0],
+        "wall": {
+          "radius": 4.3,
+          "height": 0.95,
+          "thickness": 0.36,
+          "segments": 24,
+          "color": "#d3c19a"
+        },
+        "towers": {
+          "every": 3,
+          "size": [0.62, 1.4],
+          "color": "#c2ad83"
+        },
+        "gate": {
+          "angle": 180,
+          "color": "#6b4a2b",
+          "open": [
+            {
+              "chapter": "scontro",
+              "keys": [
+                {
+                  "at": 3.5,
+                  "value": 0
+                },
+                {
+                  "at": 4.5,
+                  "value": 1
+                },
+                {
+                  "at": 12,
+                  "value": 1
+                },
+                {
+                  "at": 13,
+                  "value": 0
+                },
+                {
+                  "at": 19.5,
+                  "value": 0
+                },
+                {
+                  "at": 20.5,
+                  "value": 1
+                },
+                {
+                  "at": 23.5,
+                  "value": 1
+                },
+                {
+                  "at": 24.5,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "chapter": "cavallo",
+              "keys": [
+                {
+                  "at": 13.5,
+                  "value": 0
+                },
+                {
+                  "at": 14.5,
+                  "value": 1
+                },
+                {
+                  "at": 22.3,
+                  "value": 1
+                },
+                {
+                  "at": 23,
+                  "value": 0
+                },
+                {
+                  "at": 24.6,
+                  "value": 0
+                },
+                {
+                  "at": 25.6,
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "houses": {
+          "count": 46,
+          "innerRadius": 0.9,
+          "outerRadius": 3.5,
+          "seed": 0,
+          "colors": [
+            "#e7dcc6",
+            "#d9c8a8",
+            "#efe7d8"
+          ]
+        },
+        "palace": {
+          "offset": [0.3, 0],
+          "size": [1.6, 0.8, 1.2],
+          "color": "#e9dfcc",
+          "roofColor": "#9b4a22"
+        }
+      }
+    ],
+    "places": {
+      "gateOut": [6.4, 0]
+    },
+    "formations": {
+      "camp": {
+        "type": "grid",
+        "perRow": 15,
+        "spacing": [0.62, 0.42],
+        "facing": 90,
+        "rowShift": 0.3
+      },
+      "line": {
+        "type": "grid",
+        "perRow": 25,
+        "spacing": [0.55, 0.55],
+        "facing": 90
+      },
+      "lineT": {
+        "type": "grid",
+        "perRow": 24,
+        "spacing": [0.55, 0.55],
+        "facing": -90
+      },
+      "column": {
+        "type": "grid",
+        "perRow": 25,
+        "spacing": [0.3, 0.5],
+        "facing": 90
+      },
+      "walls": {
+        "type": "arc",
+        "city": "troia",
+        "from": 108.4,
+        "to": 251.6
+      },
+      "beach": {
+        "type": "grid",
+        "perRow": 12,
+        "spacing": [1.55, 1],
+        "facing": 90
+      },
+      "fleetFar": {
+        "type": "grid",
+        "perRow": 12,
+        "spacing": [2.2, 1],
+        "facing": 90,
+        "jitter": [2.8, 0.4]
+      },
+      "fleetHidden": {
+        "type": "grid",
+        "perRow": 4,
+        "spacing": [1, 2.3],
+        "facing": 90,
+        "jitter": [0.4, 0.3]
+      },
+      "huts": {
+        "type": "grid",
+        "perRow": 1,
+        "spacing": [0, 1.45],
+        "facing": 180,
+        "rowShift": 0.5
+      },
+      "pair15": {
+        "type": "grid",
+        "perRow": 2,
+        "spacing": [15.2, 1],
+        "facing": 90
+      },
+      "pair14": {
+        "type": "grid",
+        "perRow": 2,
+        "spacing": [13.7, 1],
+        "facing": 90
+      },
+      "pairGate": {
+        "type": "grid",
+        "perRow": 2,
+        "spacing": [1.6, 1],
+        "facing": -90
+      },
+      "pair17": {
+        "type": "grid",
+        "perRow": 2,
+        "spacing": [16.8, 1],
+        "facing": -90
+      },
+      "pair10": {
+        "type": "grid",
+        "perRow": 2,
+        "spacing": [10.1, 1],
+        "facing": -90
+      },
+      "inHorse": {
+        "type": "grid",
+        "perRow": 5,
+        "spacing": [0.25, 1],
+        "facing": 0
+      },
+      "raiders": {
+        "type": "grid",
+        "perRow": 5,
+        "spacing": [0.25, 0.3],
+        "facing": -90
+      },
+      "pullers": {
+        "type": "grid",
+        "perRow": 6,
+        "spacing": [0.32, 0.32],
+        "facing": 90
+      }
+    },
+    "armies": [
+      {
+        "id": "achaeans",
+        "side": "achaeans",
+        "count": 150,
+        "phases": [
+          {
+            "chapters": [
+              "micenei"
+            ],
+            "start": {
+              "formation": "camp",
+              "at": [-4.22, 0]
+            }
+          },
+          {
+            "chapters": [
+              "sbarco"
+            ],
+            "start": {
+              "vehicle": "ships"
+            },
+            "moves": [
+              {
+                "from": 11,
+                "to": 14.2,
+                "stagger": {
+                  "spread": 4,
+                  "mod": 25
+                },
+                "target": {
+                  "formation": "camp",
+                  "at": [-4.22, 0]
+                }
+              }
+            ]
+          },
+          {
+            "chapters": [
+              "assedio"
+            ],
+            "start": {
+              "formation": "camp",
+              "at": [-4.22, 0]
+            },
+            "moves": [
+              {
+                "from": 0,
+                "to": 5.5,
+                "stagger": {
+                  "spread": 1.5,
+                  "mod": 25
+                },
+                "target": {
+                  "formation": "line",
+                  "at": [3, 0]
+                }
+              }
+            ]
+          },
+          {
+            "chapters": [
+              "scontro"
+            ],
+            "start": {
+              "formation": "line",
+              "at": [-3, 0]
+            },
+            "moves": [
+              {
+                "from": 10,
+                "to": 14,
+                "target": {
+                  "formation": "line",
+                  "at": [0.75, 0]
+                }
+              },
+              {
+                "from": 20,
+                "to": 24,
+                "target": {
+                  "formation": "line",
+                  "at": [3.6, 0]
+                }
+              }
+            ],
+            "melee": {
+              "from": 14,
+              "to": 20,
+              "members": [0, 50],
+              "amplitude": 0.1
+            },
+            "casualties": {
+              "from": 15.5,
+              "to": 19.5,
+              "members": [0, 50],
+              "fraction": 0.18,
+              "seed": 3
+            }
+          },
+          {
+            "chapters": [
+              "cavallo"
+            ],
+            "members": [0, 10],
+            "start": {
+              "follow": "horse",
+              "formation": "inHorse",
+              "at": [0, 0.5]
+            },
+            "visible": [
+              [23, 41]
+            ],
+            "moves": [
+              {
+                "from": 23,
+                "to": 25,
+                "target": {
+                  "formation": "raiders",
+                  "at": [9.3, 0]
+                }
+              }
+            ]
+          },
+          {
+            "chapters": [
+              "cavallo"
+            ],
+            "members": [10, 150],
+            "start": {
+              "formation": "camp",
+              "at": [-4.22, 0]
+            },
+            "moves": [
+              {
+                "from": 6,
+                "to": 8.6,
+                "target": {
+                  "vehicle": "ships"
+                }
+              },
+              {
+                "from": 26,
+                "to": 29.5,
+                "stagger": {
+                  "spread": 1.5,
+                  "mod": 25
+                },
+                "target": {
+                  "formation": "column",
+                  "at": "gateOut"
+                }
+              },
+              {
+                "from": 31,
+                "to": 32.2,
+                "stagger": {
+                  "spread": 2.5
+                },
+                "target": {
+                  "place": "troia.gate"
+                },
+                "vanish": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trojans",
+        "side": "trojans",
+        "count": 120,
+        "phases": [
+          {
+            "chapters": [
+              "micenei",
+              "sbarco",
+              "assedio"
+            ],
+            "start": {
+              "formation": "walls"
+            }
+          },
+          {
+            "chapters": [
+              "scontro"
+            ],
+            "start": {
+              "place": "troia.gate"
+            },
+            "moves": [
+              {
+                "from": 4,
+                "to": 5.6,
+                "stagger": {
+                  "spread": 4.5
+                },
+                "target": {
+                  "formation": "lineT",
+                  "at": [4.6, 0]
+                },
+                "appear": true
+              },
+              {
+                "from": 10,
+                "to": 14,
+                "target": {
+                  "formation": "lineT",
+                  "at": [1.25, 0]
+                }
+              },
+              {
+                "from": 20,
+                "to": 22.5,
+                "stagger": {
+                  "spread": 1.5,
+                  "mod": 24
+                },
+                "target": {
+                  "place": "troia.gate"
+                },
+                "vanish": true
+              }
+            ],
+            "melee": {
+              "from": 14,
+              "to": 20,
+              "members": [0, 48],
+              "amplitude": 0.1
+            },
+            "casualties": {
+              "from": 15.5,
+              "to": 19.5,
+              "members": [0, 48],
+              "fraction": 0.18,
+              "seed": 5
+            }
+          },
+          {
+            "chapters": [
+              "cavallo"
+            ],
+            "members": [0, 30],
+            "start": {
+              "formation": "walls"
+            },
+            "hideInside": "troia",
+            "moves": [
+              {
+                "from": 14,
+                "to": 14.05,
+                "target": {
+                  "place": "troia.gate"
+                }
+              },
+              {
+                "from": 14.05,
+                "to": 16.5,
+                "target": {
+                  "follow": "horse",
+                  "formation": "pullers",
+                  "at": [2.98, 0]
+                }
+              }
+            ]
+          },
+          {
+            "chapters": [
+              "cavallo"
+            ],
+            "members": [30, 120],
+            "start": {
+              "formation": "walls"
+            },
+            "visible": [
+              [0, 20.5]
+            ]
+          }
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "ships",
+        "type": "ship",
+        "side": "achaeans",
+        "count": 12,
+        "phases": [
+          {
+            "chapters": [
+              "micenei",
+              "assedio",
+              "scontro"
+            ],
+            "start": {
+              "formation": "beach",
+              "at": [-11, 0]
+            }
+          },
+          {
+            "chapters": [
+              "sbarco"
+            ],
+            "start": {
+              "formation": "fleetFar",
+              "at": [-35.4, -2]
+            },
+            "moves": [
+              {
+                "from": 0,
+                "to": 10,
+                "target": {
+                  "formation": "beach",
+                  "at": [-11, 0]
+                }
+              }
+            ]
+          },
+          {
+            "chapters": [
+              "cavallo"
+            ],
+            "start": {
+              "formation": "beach",
+              "at": [-11, 0]
+            },
+            "moves": [
+              {
+                "from": 9,
+                "to": 14,
+                "target": {
+                  "formation": "fleetHidden",
+                  "at": [-41, 18.5]
+                }
+              },
+              {
+                "from": 21,
+                "to": 26,
+                "target": {
+                  "formation": "beach",
+                  "at": [-11, 0]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chariotsA",
+        "type": "chariot",
+        "side": "achaeans",
+        "count": 2,
+        "scale": 0.72,
+        "horseColor": "#e7dfd2",
+        "phases": [
+          {
+            "chapters": [
+              "scontro"
+            ],
+            "start": {
+              "formation": "pair15",
+              "at": [-6, 0]
+            },
+            "moves": [
+              {
+                "from": 9,
+                "to": 12.5,
+                "target": {
+                  "formation": "pair15",
+                  "at": [0.4, 0]
+                }
+              },
+              {
+                "from": 12.5,
+                "to": 15.5,
+                "target": {
+                  "formation": "pair14",
+                  "at": [-5.5, 0]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chariotsT",
+        "type": "chariot",
+        "side": "trojans",
+        "count": 2,
+        "scale": 0.72,
+        "horseColor": "#6b4a33",
+        "phases": [
+          {
+            "chapters": [
+              "scontro"
+            ],
+            "start": {
+              "formation": "pairGate",
+              "at": "gateOut"
+            },
+            "visible": [
+              [8.2, 39]
+            ],
+            "moves": [
+              {
+                "from": 9,
+                "to": 12.5,
+                "target": {
+                  "formation": "pair17",
+                  "at": [2.2, 0]
+                }
+              },
+              {
+                "from": 12.5,
+                "to": 15.5,
+                "target": {
+                  "formation": "pair10",
+                  "at": [6.2, 0]
+                },
+                "face": -90
+              },
+              {
+                "from": 19,
+                "to": 20.5,
+                "target": {
+                  "place": "troia.gate"
+                },
+                "vanish": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "displayChariot",
+        "type": "chariot",
+        "count": 1,
+        "scale": 1.15,
+        "color": "#b3542a",
+        "horseColor": "#d8d0c4",
+        "phases": [
+          {
+            "chapters": [
+              "micenei"
+            ],
+            "start": {
+              "point": [-3.2, 11.4]
+            },
+            "face": 111.6
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "id": "displayWarrior",
+        "name": "Guerriero miceneo",
+        "side": "achaeans",
+        "model": "warrior",
+        "tunic": "#2c5fa6",
+        "crest": "#c0392b",
+        "scale": 1.45,
+        "phases": [
+          {
+            "chapters": [
+              "micenei"
+            ],
+            "start": {
+              "point": [-5.15, 0.16, 12.1]
+            },
+            "face": 0,
+            "spin": {
+              "amplitude": 40.1,
+              "speed": 0.35
+            }
+          }
+        ]
+      },
+      {
+        "id": "hector",
+        "name": "Ettore",
+        "side": "trojans",
+        "model": "warrior",
+        "tunic": "#b3342a",
+        "crest": "#f1c232",
+        "scale": 0.7,
+        "phases": [
+          {
+            "chapters": [
+              "scontro"
+            ],
+            "start": {
+              "point": [6.2, 0.3]
+            },
+            "face": -90,
+            "visible": [
+              [20, 39]
+            ],
+            "moves": [
+              {
+                "from": 26,
+                "to": 26.32,
+                "target": {
+                  "orbit": {
+                    "center": "troia.center",
+                    "radius": 7.4,
+                    "startAngle": 180,
+                    "lead": 21.8,
+                    "turns": 3,
+                    "from": 26,
+                    "to": 34
+                  }
+                }
+              },
+              {
+                "from": 34,
+                "to": 34.4,
+                "target": {
+                  "point": [6.1, 0.35]
+                },
+                "face": -90
+              }
+            ],
+            "melee": {
+              "from": 34,
+              "to": 39,
+              "amplitude": 0.06
+            },
+            "casualties": {
+              "from": 37,
+              "to": 37,
+              "fraction": 1,
+              "seed": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "achilles",
+        "name": "Achille",
+        "side": "achaeans",
+        "model": "warrior",
+        "tunic": "#2c5fa6",
+        "crest": "#f1c232",
+        "scale": 0.7,
+        "phases": [
+          {
+            "chapters": [
+              "scontro"
+            ],
+            "start": {
+              "point": [3.6, 0]
+            },
+            "face": 90,
+            "visible": [
+              [22, 39]
+            ],
+            "moves": [
+              {
+                "from": 22,
+                "to": 26,
+                "target": {
+                  "point": [5.2, 0]
+                },
+                "face": 90
+              },
+              {
+                "from": 26,
+                "to": 26.32,
+                "target": {
+                  "orbit": {
+                    "center": "troia.center",
+                    "radius": 7.4,
+                    "startAngle": 180,
+                    "turns": 3,
+                    "from": 26,
+                    "to": 34
+                  }
+                }
+              },
+              {
+                "from": 34,
+                "to": 34.4,
+                "target": {
+                  "point": [5.45, 0.35]
+                },
+                "face": 90
+              }
+            ],
+            "melee": {
+              "from": 34,
+              "to": 39,
+              "amplitude": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "props": [
+      {
+        "id": "huts",
+        "model": "hut",
+        "count": 16,
+        "phases": [
+          {
+            "start": {
+              "formation": "huts",
+              "at": [-9.2, -11]
+            }
+          }
+        ]
+      },
+      {
+        "id": "podium",
+        "model": "podium",
+        "phases": [
+          {
+            "chapters": [
+              "micenei"
+            ],
+            "start": {
+              "point": [-4.8, 12]
+            }
+          }
+        ]
+      },
+      {
+        "id": "horse",
+        "model": "woodenHorse",
+        "phases": [
+          {
+            "chapters": [
+              "cavallo"
+            ],
+            "start": {
+              "path": {
+                "points": [
+                  [-7, 0],
+                  [6.4, 0],
+                  [8.7, 0],
+                  [11.4, 0]
+                ],
+                "from": 16.5,
+                "to": 22.2
+              }
+            },
+            "visible": [
+              [1, 41]
+            ],
+            "grow": [1, 5.5]
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "type": "arrows",
+        "chapter": "assedio",
+        "visible": [
+          [4, 24]
+        ],
+        "army": "trojans",
+        "count": 70,
+        "target": {
+          "center": [2.5, 0],
+          "size": [1.8, 12]
+        },
+        "period": [2.2, 3.2],
+        "arc": 2.4,
+        "seed": 30
+      },
+      {
+        "type": "fire",
+        "chapter": "cavallo",
+        "center": "troia.center",
+        "radius": 3.6,
+        "height": 2.2,
+        "particles": 420,
+        "intensity": [
+          {
+            "at": 29,
+            "value": 0
+          },
+          {
+            "at": 33,
+            "value": 1,
+            "ease": "linear"
+          }
+        ],
+        "seed": 21
+      },
+      {
+        "type": "cityFade",
+        "chapter": "storia",
+        "city": "troia",
+        "ramp": [8, 11.5]
+      },
+      {
+        "type": "strata",
+        "id": "strata",
+        "chapter": "storia",
+        "center": "troia.center",
+        "radius": 4.2,
+        "layerHeight": 0.3,
+        "layers": [
+          {
+            "id": "t1",
+            "label": "Troia I",
+            "color": "#7d5b3a"
+          },
+          {
+            "id": "t2",
+            "label": "Troia II",
+            "color": "#8d6a45"
+          },
+          {
+            "id": "t3",
+            "label": "Troia III",
+            "color": "#9c7a51"
+          },
+          {
+            "id": "t4",
+            "label": "Troia IV",
+            "color": "#7a6650"
+          },
+          {
+            "id": "t5",
+            "label": "Troia V",
+            "color": "#a8865a"
+          },
+          {
+            "id": "t6",
+            "label": "Troia VI",
+            "color": "#b39a6e"
+          },
+          {
+            "id": "t7",
+            "label": "Troia VII",
+            "color": "#c4572e"
+          },
+          {
+            "id": "t8",
+            "label": "Troia VIII",
+            "color": "#8f7b5f"
+          },
+          {
+            "id": "t9",
+            "label": "Troia IX",
+            "color": "#cbb68c"
+          }
+        ],
+        "grow": {
+          "from": 11.5,
+          "step": 0.6,
+          "duration": 0.6
+        },
+        "glow": {
+          "layer": "t7",
+          "from": 18
+        }
+      }
+    ],
+    "night": [
+      {
+        "chapter": "cavallo",
+        "keys": [
+          {
+            "at": 18,
+            "value": 0
+          },
+          {
+            "at": 21.5,
+            "value": 1,
+            "ease": "linear"
+          }
+        ]
+      }
+    ]
+  }
+}

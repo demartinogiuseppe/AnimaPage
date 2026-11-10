@@ -1,0 +1,90 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q5593%7CQ460889%7CQ296955%7CQ12321255%7CQ10859%7CQ170351&props=labels&languages=it%7Cen",
+ "fetchedAt": "2026-11-04T11:24:00.049Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q5593": {
+    "type": "item",
+    "id": "Q5593",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Pablo Picasso"
+     }
+    }
+   },
+   "Q460889": {
+    "type": "item",
+    "id": "Q460889",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Museo Nacional Centro de Arte Reina Sofía"
+     },
+     "en": {
+      "language": "en",
+      "value": "Museo Nacional Centro de Arte Reina Sofía"
+     }
+    }
+   },
+   "Q296955": {
+    "type": "item",
+    "id": "Q296955",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "oil paint"
+     },
+     "it": {
+      "language": "it",
+      "value": "colore a olio"
+     }
+    }
+   },
+   "Q12321255": {
+    "type": "item",
+    "id": "Q12321255",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "canvas"
+     },
+     "it": {
+      "language": "it",
+      "value": "tela"
+     }
+    }
+   },
+   "Q10859": {
+    "type": "item",
+    "id": "Q10859",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Spanish Civil War"
+     },
+     "it": {
+      "language": "it",
+      "value": "guerra civile spagnola"
+     }
+    }
+   },
+   "Q170351": {
+    "type": "item",
+    "id": "Q170351",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "bombardamento di Guernica"
+     },
+     "en": {
+      "language": "en",
+      "value": "Bombing of Guernica"
+     }
+    }
+   }
+  },
+  "success": 1
+ }
+}

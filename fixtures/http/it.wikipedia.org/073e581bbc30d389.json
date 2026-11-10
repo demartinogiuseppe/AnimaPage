@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=modo+indicativo&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:00:44.447Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 537353,
+     "ns": 0,
+     "title": "Dialetto spezzino",
+     "index": 3,
+     "extract": "Il dialetto spezzino (nome nativo dialèto spezin /speˈziŋ/) è la varietà ligure parlata nella zona urbana della Spezia. Presso alcune frazioni del territorio comunale, come Marola, Cadimare sono parlate varietà proprie: il marolino e il cadamoto, tuttavia le differenze tra le parlate sono minimamente percettibili (a tali varianti sono assimilabili anche i dialetti di Fezzano e delle Grazie; diverso discorso per il dialetto di Portovenere di matrice decisamente più genovese). Nella zona di Pitelli, Pagliari, San Bartolomeo e Muggiano, invece, si registra un dialetto di tipo arcolano (Arcola). Inoltre nei quartieri più orientali (Favaro, La Pieve, Limone, Melara) si nota un'influenza nella parlata da parte dei dialetti limitrofi. Nella zona del Termo e delle Pianazze invece si parla prevalentemente una variante di tipo arcolano.\nI borghi di Biassa e Campiglia hanno un dialetto proprio con caratteristiche abbastanza diverse dallo spezzino urbano.\n\nPur distinguendosi sia dal genovese che dai dialetti della limitrofa Lunigiana, ha comunque importanti punti di contatto con entrambi. Particolare per la sua cantilena, e per una propria fonologia, che risente dell'influenza toscana ed emiliana. Numerose sono le varianti fonetiche, essenzialmente riconducibili alle zone geografiche distinte del territorio: il dialetto risente fortemente delle influenze genovesi sulla riviera e nella parte alta della Val di Vara, a Sarzana e alla Spezia digrada nel tipo lunigianese, e si caratterizza per tratti comuni condivisi soprattutto con l'emiliano, mentre è intriso di toscanismi nella bassa Val di Magra.\nUn recente studio dell'Accademia Lunigianese di Scienze Giovanni Capellini ha evidenziato la matrice quasi esclusivamente lunigianese del dialetto spezzino.\nSono numerose le parole di origine straniera: soprattutto dal francese, dallo spagnolo, dal portoghese.",
+     "pageprops": {
+      "wikibase_item": "Q3706648"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:03Z",
+     "lastrevid": 151811588,
+     "length": 76313,
+     "fullurl": "https://it.wikipedia.org/wiki/Dialetto_spezzino",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Dialetto_spezzino&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Dialetto_spezzino"
+    },
+    {
+     "pageid": 725168,
+     "ns": 0,
+     "title": "Indicativo imperfetto",
+     "index": 4,
+     "extract": "L'imperfetto dell'indicativo è la forma verbale delle lingue romanze che si adatta principalmente ad indicare situazioni ed abitudini considerate in un momento passato. È quindi la forma più adatta, all'interno del passato, per le descrizioni o per l'enunciazione di eventi ripetuti.",
+     "pageprops": {
+      "wikibase_item": "Q12547192"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:32Z",
+     "lastrevid": 151805220,
+     "length": 25095,
+     "fullurl": "https://it.wikipedia.org/wiki/Indicativo_imperfetto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Indicativo_imperfetto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Indicativo_imperfetto"
+    },
+    {
+     "pageid": 727953,
+     "ns": 0,
+     "title": "Indicativo",
+     "index": 1,
+     "extract": "L'indicativo, noto anche come «modo della realtà», costituisce la modalità verbale principale di numerose lingue. La sua funzione è quella di esprimere un evento o una situazione considerati obiettivi e non condizionati da incertezze; rappresenta in genere la forma basilare e non marcata, in netta contrapposizione agli altri modi, che risultano invece caratterizzati da marche specifiche.",
+     "pageprops": {
+      "wikibase_item": "Q682111"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 151826171,
+     "length": 7442,
+     "fullurl": "https://it.wikipedia.org/wiki/Indicativo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Indicativo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Indicativo"
+    },
+    {
+     "pageid": 2152122,
+     "ns": 0,
+     "title": "Grammatica italiana",
+     "index": 2,
+     "extract": "La grammatica italiana presenta numerose analogie con quelle spagnola, francese, portoghese, catalana e romena, con le quali condivide la comune appartenenza alla famiglia delle lingue romanze.",
+     "pageprops": {
+      "wikibase_item": "Q687580"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T23:34:17Z",
+     "lastrevid": 151424663,
+     "length": 44540,
+     "fullurl": "https://it.wikipedia.org/wiki/Grammatica_italiana",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Grammatica_italiana&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Grammatica_italiana"
+    }
+   ]
+  }
+ }
+}

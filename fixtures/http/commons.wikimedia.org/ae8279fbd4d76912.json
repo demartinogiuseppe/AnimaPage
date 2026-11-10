@@ -1,0 +1,8 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=Verbo+%28lingua+italiana%29+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:01:34.405Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true
+ }
+}

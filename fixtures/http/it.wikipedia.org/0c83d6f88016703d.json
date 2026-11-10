@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Invasione+dell%27Italia+settentrionale+da+parte+degli+Unni&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-04T11:35:26.104Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 27482,
+     "ns": 0,
+     "title": "Aquileia",
+     "index": 4,
+     "extract": "Aquileia (AFI: /akwiˈlɛja/; in friulano Aquilee, nella variante locale Aquilea) è un comune italiano di 3 097 abitanti dell'ex provincia di Udine, in Friuli-Venezia Giulia. Durante l'antichità classica fu una grande città con una popolazione stimata vicina ai 100 000 abitanti nel II secolo d.C. Colonia romana fondata nel 181 a.C., fu capitale della X regione augustea e metropoli della chiesa cristiana. Nella tarda antichità la città fu la prima della penisola italiana ad essere saccheggiata da Attila, Re degli Unni.\nInsieme a Ravenna e Brescia è il più importante sito archeologico dell'Italia settentrionale e con Cividale del Friuli e Udine è stata una delle capitali storiche del Friuli, il cui vessillo deriva proprio dallo stemma di Aquileia.",
+     "pageprops": {
+      "wikibase_item": "Q53216"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T15:29:32Z",
+     "lastrevid": 151910772,
+     "length": 43724,
+     "fullurl": "https://it.wikipedia.org/wiki/Aquileia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Aquileia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Aquileia"
+    },
+    {
+     "pageid": 84010,
+     "ns": 0,
+     "title": "Attila",
+     "index": 3,
+     "extract": "Attila (395 circa – Pannonia, 453 circa) è stato un re unno dal 434 fino alla sua morte. Viene considerato come uno dei sovrani più potenti del mondo e della storia tardoantica.\nDall'Europa governò un vastissimo dominio che si estendeva dall'Europa centrale al Mar Caspio, e dal Danubio al Mar Baltico, unificando - per la prima e unica volta nella storia - la maggior parte dei popoli barbarici dell'Eurasia settentrionale (dai Germani orientali agli Slavi agli Ugro-finni). Durante il suo regno divenne il più irriducibile nemico dell'Impero romano (sia per la Pars Occidentalis che per la Pars Orientalis): invase due volte i Balcani, cinse d'assedio Costantinopoli, marciò attraverso la Francia spingendosi fino ad Aurelianum (Orleans), scacciò da Ravenna l'imperatore Valentiniano III (452).\nSoprannominato flagellum Dei (\"flagello di Dio\") per la sua ferocia, si diceva che dove fosse passato non sarebbe più cresciuta l'erba. Il suo nome, altresì, significa in gotico \"piccolo padre\". Gli studi storici moderni vedono in lui più un predone che un distruttore insensato. Si racconta che fosse superstizioso, facesse affidamento sulle profezie e si facesse influenzare nelle decisioni in campo militare da indovini e sciamani. Alcune leggende, mai sostenute da elementi concreti, raccontano di sue pratiche cannibalistiche e che avesse mangiato i propri figli Erp ed Eitil, che sua moglie gli servì dopo averli arrostiti nel miele (cosa altamente improbabile considerando che l'ambasciatore e storico Prisco di Panion descrive Attila come un padre affettuoso). Alcuni raccontano che avrebbe avuto numerose mogli e più di cento figli; questa affermazione però viene riferita anche ai sovrani mongoli Gengis Khan e Kublai Khan, causando confusione.\nNonostante il suo impero si fosse disgregato alla sua morte, è diventato una figura leggendaria nella storia europea, che lo ricorda in modo diverso a seconda della zona: guerriero feroce, avido e crudele nell'area al tempo sotto Roma; condottiero impavido e coraggioso nei paesi che facevano parte del suo impero. Attila appare spesso nelle letterature sia germaniche sia scandinave; alcuni racconti lo celebrano come un grande e nobile re ed è il personaggio principale di diverse saghe dell'Europa settentrionale e orientale.",
+     "pageprops": {
+      "wikibase_item": "Q36724"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T21:28:39Z",
+     "lastrevid": 152917491,
+     "length": 66385,
+     "fullurl": "https://it.wikipedia.org/wiki/Attila",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Attila&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Attila"
+    },
+    {
+     "pageid": 1586322,
+     "ns": 0,
+     "title": "Invasioni barbariche del V secolo",
+     "index": 1,
+     "extract": "Invasioni barbariche è l’espressione con la quale è generalmente indicata in Italia la fase delle irruzioni e migrazioni delle popolazioni cosiddette \"barbariche\" (germaniche, slave, sarmatiche e di altri popoli di origine asiatica) all'interno dei confini dell'Impero romano d'Occidente, nel V secolo. Il fenomeno, a volte indicato anche con il termine tedesco Völkerwanderung (‘migrazioni di popoli’), si conclude sostanzialmente con la formazione dei regni romano-germanici, che segna la fine definitiva della tarda antichità e l'entrata dell'Europa nel Medioevo.",
+     "pageprops": {
+      "wikibase_item": "Q106997429"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:00Z",
+     "lastrevid": 150664182,
+     "length": 158859,
+     "fullurl": "https://it.wikipedia.org/wiki/Invasioni_barbariche_del_V_secolo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Invasioni_barbariche_del_V_secolo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Invasioni_barbariche_del_V_secolo"
+    },
+    {
+     "pageid": 1586509,
+     "ns": 0,
+     "title": "Invasioni barbariche",
+     "index": 2,
+     "extract": "Le invasioni barbariche (dal 164 al 476) costituirono un periodo ininterrotto di scorrerie all'interno dei confini dell'Impero romano fino alla caduta della sua parte occidentale. Il fenomeno, a volte indicato anche con il termine tedesco Völkerwanderung (\"migrazioni di popoli\"), si conclude sostanzialmente con la formazione dei Regni latino-germanici (o \"romano-barbarici\") dalla disgregazione dell'Impero romano d'Occidente, la fine definitiva del cosiddetto \"mondo classico\" (o evo antico) e l'entrata dell'Europa nell'alto Medioevo, avvenimenti tradizionalmente collocati nel periodo della tarda antichità.\nInizialmente si trattava di scorrerie per fini di saccheggio e bottino da genti armate, appartenenti alle popolazioni che gravitavano lungo le frontiere settentrionali (Pitti, Caledoni e Sassoni in Britannia). \nA partire dalla seconda metà del IV secolo, gli spostamenti delle tribù germaniche di Frisi, Sassoni, Franchi, Alemanni, Burgundi, Marcomanni, Quadi, Lugi, Vandali, Iutungi, Gepidi e Goti, le tribù daciche dei Carpi, quelle sarmatiche di Iazigi, Roxolani ed Alani, oltre a Bastarni, Sciti, Borani, Eruli ed Unni (lungo i fiumi Reno-Danubio ed il Mar Nero), si trasformarono da semplici scorrerie in vere e proprie migrazioni di intere popolazioni, che da nomadi divennero stanziali, una volta conquistata un'area nel territorio dell'impero.",
+     "pageprops": {
+      "wikibase_item": "Q131192"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T09:38:09Z",
+     "lastrevid": 149178374,
+     "length": 22904,
+     "fullurl": "https://it.wikipedia.org/wiki/Invasioni_barbariche",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Invasioni_barbariche&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Invasioni_barbariche"
+    }
+   ]
+  }
+ }
+}

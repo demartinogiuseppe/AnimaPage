@@ -1,0 +1,1131 @@
+{
+  "key": "d5b98a5360c790b846b046fb8f17a3b0d0b86c351d674d8c9a2201651c22bdc7",
+  "label": "gen_music_note-pentagramma",
+  "recordedAt": "2026-11-06T09:17:31.121Z",
+  "provider": "claude-cli",
+  "request": {
+    "systemSha256": "fad147fab4611e129a22457b0ad3bf37577a13b752cef07b008618985c414051",
+    "promptSha256": "401e78363acabb37f8a5eef888e5913323b5498794bef49c2890e1f5ee086678",
+    "schemaSha256": "ec76dbc15d51ac49a12dd8ba6fced2f1359fde1de5a8bc1db4eaea4d4edcc126",
+    "imageSha256": []
+  },
+  "response": {
+    "data": {
+      "version": "0.1",
+      "engine": "music",
+      "title": "Le note sul pentagramma",
+      "page": {
+        "subject": "Musica",
+        "topic": "Le note sul pentagramma",
+        "language": "it",
+        "bookPage": "18"
+      },
+      "kind": "science",
+      "style": "color",
+      "music": {
+        "track": "music-playful",
+        "volume": 0.5
+      },
+      "engineData": {
+        "chapters": [
+          {
+            "chapter": "pentagramma",
+            "clef": "treble",
+            "time": [
+              4,
+              4
+            ],
+            "tempo": 60,
+            "start": 12,
+            "names": "it",
+            "instruments": [
+              "piano"
+            ],
+            "notes": [
+              {
+                "pitch": "E4",
+                "beats": 1
+              },
+              {
+                "pitch": "G4",
+                "beats": 1
+              },
+              {
+                "pitch": "B4",
+                "beats": 1
+              },
+              {
+                "pitch": "D5",
+                "beats": 1
+              },
+              {
+                "pitch": "F5",
+                "beats": 1
+              },
+              {
+                "pitch": "rest",
+                "beats": 3
+              },
+              {
+                "pitch": "F4",
+                "beats": 1
+              },
+              {
+                "pitch": "A4",
+                "beats": 1
+              },
+              {
+                "pitch": "C5",
+                "beats": 1
+              },
+              {
+                "pitch": "E5",
+                "beats": 1
+              }
+            ],
+            "show": [
+              {
+                "item": "names"
+              }
+            ]
+          },
+          {
+            "chapter": "scala",
+            "clef": "treble",
+            "time": [
+              4,
+              4
+            ],
+            "tempo": 60,
+            "start": 12,
+            "names": "both",
+            "instruments": [
+              "piano"
+            ],
+            "notes": [
+              {
+                "pitch": "C4",
+                "beats": 1
+              },
+              {
+                "pitch": "D4",
+                "beats": 1
+              },
+              {
+                "pitch": "E4",
+                "beats": 1
+              },
+              {
+                "pitch": "F4",
+                "beats": 1
+              },
+              {
+                "pitch": "G4",
+                "beats": 1
+              },
+              {
+                "pitch": "A4",
+                "beats": 1
+              },
+              {
+                "pitch": "B4",
+                "beats": 1
+              },
+              {
+                "pitch": "C5",
+                "beats": 1
+              }
+            ],
+            "params": [
+              {
+                "id": "bpm-scala",
+                "kind": "tempo",
+                "label": "Tempo (bpm)",
+                "min": 40,
+                "max": 160
+              }
+            ],
+            "show": [
+              {
+                "item": "names"
+              },
+              {
+                "item": "keyboard"
+              }
+            ]
+          },
+          {
+            "chapter": "acuto-grave",
+            "clef": "treble",
+            "time": [
+              4,
+              4
+            ],
+            "tempo": 60,
+            "start": 12,
+            "names": "it",
+            "instruments": [
+              "piano",
+              "flute"
+            ],
+            "notes": [
+              {
+                "pitch": "C5",
+                "beats": 2
+              },
+              {
+                "pitch": "C4",
+                "beats": 2
+              },
+              {
+                "pitch": "rest",
+                "beats": 4
+              },
+              {
+                "pitch": "C5",
+                "beats": 1
+              },
+              {
+                "pitch": "B4",
+                "beats": 1
+              },
+              {
+                "pitch": "A4",
+                "beats": 1
+              },
+              {
+                "pitch": "G4",
+                "beats": 1
+              },
+              {
+                "pitch": "F4",
+                "beats": 1
+              },
+              {
+                "pitch": "E4",
+                "beats": 1
+              },
+              {
+                "pitch": "D4",
+                "beats": 1
+              },
+              {
+                "pitch": "C4",
+                "beats": 1
+              }
+            ],
+            "params": [
+              {
+                "id": "tr-acuto",
+                "kind": "transpose",
+                "label": "Trasposizione (semitoni)",
+                "min": 0,
+                "max": 7,
+                "step": 1
+              }
+            ],
+            "show": [
+              {
+                "item": "names"
+              },
+              {
+                "item": "keyboard"
+              }
+            ]
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "pentagramma",
+          "title": "Linee e spazi",
+          "chip": "Pentagramma",
+          "kind": "science",
+          "duration": 31,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Il pentagramma è formato da cinque linee e quattro spazi.",
+              "highlight": [
+                "p-linee",
+                "p-spazi"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 4.5,
+              "text": "Linee e spazi si contano dal basso verso l'alto.",
+              "highlight": [
+                "p-linea1"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 8.5,
+              "text": "All'inizio c'è la chiave di violino: dice che sulla seconda linea c'è il sol.",
+              "highlight": [
+                "p-chiave",
+                "p-sol"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 14.5,
+              "text": "Ascolta le note sulle linee, dal basso: mi, sol, si, re, fa.",
+              "highlight": [
+                "p-linee"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 20,
+              "text": "Ora gli spazi, dal basso: fa, la, do, mi.",
+              "highlight": [
+                "p-spazi"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 24.5,
+              "text": "Ogni nota ha il suo posto fisso: stesso posto, stesso suono.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "pos": [
+                  0,
+                  3.9,
+                  0
+                ]
+              },
+              "distance": 17,
+              "azimuth": 0,
+              "elevation": 10
+            },
+            {
+              "at": 8,
+              "target": {
+                "pos": [
+                  -4,
+                  4.2,
+                  0
+                ]
+              },
+              "distance": 14,
+              "azimuth": -8,
+              "elevation": 8
+            },
+            {
+              "at": 14,
+              "target": {
+                "pos": [
+                  0,
+                  3.9,
+                  0
+                ]
+              },
+              "distance": 17,
+              "azimuth": 4,
+              "elevation": 10
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-linee",
+              "name": "Cinque linee",
+              "info": "Il pentagramma ha cinque linee, contate dal basso.",
+              "kind": "note",
+              "anchor": {
+                "entity": "staff",
+                "part": "line-5"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-spazi",
+              "name": "Quattro spazi",
+              "info": "Fra le linee ci sono quattro spazi, contati dal basso.",
+              "kind": "note",
+              "anchor": {
+                "entity": "staff",
+                "part": "space-4"
+              },
+              "visible": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  19,
+                  31
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-linea1",
+              "name": "Prima linea",
+              "info": "La linea più in basso: qui si scrive il mi.",
+              "kind": "note",
+              "anchor": {
+                "entity": "staff",
+                "part": "line-1"
+              },
+              "visible": [
+                [
+                  4,
+                  14
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-chiave",
+              "name": "Chiave di violino",
+              "info": "Si scrive all'inizio del pentagramma e fissa il sol sulla seconda linea.",
+              "kind": "object",
+              "anchor": {
+                "entity": "staff",
+                "part": "clef"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-sol",
+              "name": "Sol",
+              "sub": "seconda linea",
+              "info": "La chiave di violino indica che sulla seconda linea c'è il sol.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 1,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "La chiave di violino si chiama anche chiave di sol: il suo ricciolo si avvolge proprio attorno alla seconda linea, quella del sol.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Quali note si trovano negli spazi, dal basso?",
+              "options": [
+                "Mi, sol, si, re",
+                "Fa, la, do, mi",
+                "Do, re, mi, fa"
+              ],
+              "answer": 1,
+              "explain": "Negli spazi, dal basso, ci sono fa, la, do, mi; mi, sol, si, re, fa stanno sulle linee."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca il segno che dice dove si trova il sol.",
+              "answerPins": [
+                "p-chiave"
+              ],
+              "explain": "La chiave di violino fissa il sol sulla seconda linea."
+            }
+          ],
+          "sounds": {
+            "ambience": [],
+            "cues": [
+              {
+                "at": 0,
+                "sound": "page-turn",
+                "volume": 0.4
+              },
+              {
+                "at": 8.5,
+                "sound": "chime",
+                "volume": 0.4
+              }
+            ]
+          },
+          "book": {
+            "heading": "Il pentagramma",
+            "formula": "5 linee + 4 spazi",
+            "lines": [
+              "Si contano dal basso verso l'alto.",
+              "Chiave di violino: sol sulla seconda linea.",
+              "Linee: mi, sol, si, re, fa.",
+              "Spazi: fa, la, do, mi."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Con la chiave di violino, quale nota sta sulla seconda linea dal basso?",
+              "options": [
+                "Mi",
+                "Si",
+                "Sol"
+              ],
+              "answer": 2
+            },
+            "test": {
+              "prompt": "Guarda le note salire: quelle sulle linee sono tagliate in mezzo, quelle negli spazi stanno fra due linee."
+            },
+            "prove": {
+              "text": "La chiave di violino è scritta proprio per fissare il sol sulla seconda linea; da lì si trovano tutte le altre note, una per ogni linea o spazio.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Esploratore del pentagramma"
+          }
+        },
+        {
+          "id": "scala",
+          "title": "La scala di do",
+          "chip": "Scala",
+          "kind": "science",
+          "duration": 32,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Le note sono sette: do, re, mi, fa, sol, la, si.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 5,
+              "text": "Il do centrale si scrive sotto il pentagramma, su un taglio addizionale.",
+              "highlight": [
+                "p-do-centrale"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 10.5,
+              "text": "Un taglio addizionale è una piccola linea in più, fuori dal pentagramma.",
+              "highlight": [
+                "p-taglio"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 16,
+              "text": "Ascolta la scala di do: salendo, ogni nota diventa più acuta.",
+              "highlight": [
+                "p-mi"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 21,
+              "text": "Dopo il si ricomincia il do, ma più acuto: il do acuto.",
+              "highlight": [
+                "p-do-acuto"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 26.5,
+              "text": "Guarda la tastiera: ogni nota preme il suo tasto.",
+              "highlight": [
+                "p-tasto"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "pos": [
+                  0,
+                  3.9,
+                  0
+                ]
+              },
+              "distance": 17,
+              "azimuth": 0,
+              "elevation": 10
+            },
+            {
+              "at": 5,
+              "target": {
+                "pos": [
+                  -4,
+                  3.4,
+                  0
+                ]
+              },
+              "distance": 13,
+              "azimuth": -6,
+              "elevation": 8
+            },
+            {
+              "at": 15,
+              "target": {
+                "pos": [
+                  0,
+                  2.6,
+                  0.8
+                ]
+              },
+              "distance": 17,
+              "azimuth": 0,
+              "elevation": 24
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-do-centrale",
+              "name": "Do centrale",
+              "info": "Si scrive sotto il pentagramma, su un taglio addizionale.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 0,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-taglio",
+              "name": "Taglio addizionale",
+              "info": "Una piccola linea aggiunta per scrivere note fuori dal pentagramma.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 0,
+                "offset": [
+                  0.6,
+                  -0.2,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  10,
+                  16
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-mi",
+              "name": "Mi",
+              "sub": "prima linea",
+              "info": "Il mi è sulla prima linea dal basso.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 2,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  15,
+                  32
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-do-acuto",
+              "name": "Do acuto",
+              "sub": "terzo spazio",
+              "info": "Il do che chiude la scala, nel terzo spazio.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 7,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  20,
+                  32
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-tasto",
+              "name": "Tasto del do",
+              "info": "Sulla tastiera il do centrale ha il suo tasto.",
+              "kind": "object",
+              "anchor": {
+                "entity": "key",
+                "part": "C4"
+              },
+              "visible": [
+                [
+                  26,
+                  32
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Dopo il si i nomi ricominciano: la scala di do va dal do centrale al do acuto, con otto note ma solo sette nomi.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Dove scrivi il do centrale per iniziare la scala di do?",
+              "options": [
+                "Sotto il pentagramma, su un taglio addizionale",
+                "Sulla prima linea",
+                "Nel primo spazio"
+              ],
+              "answer": 0,
+              "explain": "Il do centrale sta sotto il pentagramma, su un taglio addizionale; la prima linea è il mi."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca la nota che chiude la scala.",
+              "answerPins": [
+                "p-do-acuto"
+              ],
+              "explain": "La scala va dal do centrale al do acuto."
+            }
+          ],
+          "sounds": {
+            "ambience": [],
+            "cues": [
+              {
+                "at": 0,
+                "sound": "page-turn",
+                "volume": 0.4
+              },
+              {
+                "at": 5,
+                "sound": "pop",
+                "volume": 0.4
+              }
+            ]
+          },
+          "book": {
+            "heading": "Sette note",
+            "formula": "do re mi fa sol la si do",
+            "lines": [
+              "Le note sono sette.",
+              "Do centrale: sotto, su un taglio addizionale.",
+              "La scala sale fino al do acuto."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Il do centrale è più in basso del mi. Dove si scriverà?",
+              "options": [
+                "Sulla prima linea",
+                "Sotto il pentagramma, su una lineetta in più",
+                "Nel quarto spazio"
+              ],
+              "answer": 1
+            },
+            "test": {
+              "prompt": "Prova tu: muovi il tempo e guarda la scala salire più veloce o più lenta, sul pentagramma e sulla tastiera.",
+              "params": [
+                "bpm-scala"
+              ]
+            },
+            "prove": {
+              "text": "Sotto il mi della prima linea c'è ancora il re, sotto la linea; per il do serve una linea in più: il taglio addizionale.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Scalatore di note"
+          }
+        },
+        {
+          "id": "acuto-grave",
+          "title": "Acuto e grave",
+          "chip": "Altezza",
+          "kind": "science",
+          "duration": 33,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Più una nota è scritta in alto, più il suono è acuto.",
+              "highlight": [
+                "p-alto"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 5,
+              "text": "Più è scritta in basso, più il suono è grave.",
+              "highlight": [
+                "p-basso"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 9.5,
+              "text": "Acuto vuol dire sottile, come un fischio; grave vuol dire profondo.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 14.5,
+              "text": "Senti il do acuto e poi il do centrale: stesso nome, altezza diversa.",
+              "highlight": [
+                "p-alto",
+                "p-basso"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 20,
+              "text": "Ora la scala scende: le note calano sul pentagramma e il suono diventa grave.",
+              "highlight": [
+                "p-discesa"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 26,
+              "text": "Alla fine si arriva di nuovo al do centrale, il più grave della scala.",
+              "highlight": [
+                "p-fine"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "pos": [
+                  0,
+                  3.9,
+                  0
+                ]
+              },
+              "distance": 17,
+              "azimuth": 0,
+              "elevation": 10
+            },
+            {
+              "at": 12,
+              "target": {
+                "pos": [
+                  0,
+                  2.6,
+                  0.8
+                ]
+              },
+              "distance": 17,
+              "azimuth": -5,
+              "elevation": 24
+            },
+            {
+              "at": 20,
+              "target": {
+                "pos": [
+                  0,
+                  3.9,
+                  0
+                ]
+              },
+              "distance": 18,
+              "azimuth": 5,
+              "elevation": 12
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-alto",
+              "name": "Do acuto",
+              "sub": "in alto",
+              "info": "Scritto in alto: suono acuto.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 0,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  0,
+                  19
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-basso",
+              "name": "Do centrale",
+              "sub": "in basso",
+              "info": "Scritto in basso, su un taglio addizionale: suono grave.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 1,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  4,
+                  19
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-discesa",
+              "name": "Scala discendente",
+              "info": "Le note scendono una dopo l'altra: il suono si fa sempre più grave.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 3,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  19,
+                  33
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-fine",
+              "name": "Do centrale",
+              "sub": "la più grave",
+              "info": "La nota più bassa della scala è anche la più grave.",
+              "kind": "note",
+              "anchor": {
+                "entity": "note",
+                "index": 10,
+                "offset": [
+                  0,
+                  0.7,
+                  0
+                ]
+              },
+              "visible": [
+                [
+                  25,
+                  33
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "La posizione sul pentagramma è come un grafico dell'altezza: in alto i suoni acuti, in basso quelli gravi.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Fra il sol della seconda linea e il fa della quinta linea, quale suona più grave?",
+              "options": [
+                "Il fa della quinta linea",
+                "Suonano uguali",
+                "Il sol della seconda linea"
+              ],
+              "answer": 2,
+              "explain": "Il sol è scritto più in basso, quindi il suo suono è più grave."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca la nota più acuta del primo ascolto.",
+              "answerPins": [
+                "p-alto"
+              ],
+              "explain": "Il do acuto è scritto più in alto, quindi suona più acuto."
+            }
+          ],
+          "sounds": {
+            "ambience": [],
+            "cues": [
+              {
+                "at": 0,
+                "sound": "page-turn",
+                "volume": 0.4
+              },
+              {
+                "at": 26,
+                "sound": "chime",
+                "volume": 0.4
+              }
+            ]
+          },
+          "book": {
+            "heading": "Acuto e grave",
+            "formula": "più in alto → più acuto",
+            "lines": [
+              "In alto sul pentagramma: suono acuto.",
+              "In basso: suono grave.",
+              "Il do centrale è il più grave della scala."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Una nota scende dal terzo spazio a sotto il pentagramma. Il suono…",
+              "options": [
+                "diventa più acuto",
+                "diventa più grave",
+                "resta uguale"
+              ],
+              "answer": 1
+            },
+            "test": {
+              "prompt": "Prova tu: sposta la trasposizione e ascolta: tutta la melodia sale e diventa più acuta.",
+              "params": [
+                "tr-acuto"
+              ]
+            },
+            "prove": {
+              "text": "Sul pentagramma l'altezza della nota scritta corrisponde all'altezza del suono: più in basso vuol dire più grave.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Orecchio d'oro"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "id": "page",
+          "kind": "page",
+          "title": "Pagina del libro, p. 18: Le note sul pentagramma"
+        }
+      ],
+      "videos": [],
+      "disclaimers": [
+        "Gli strumenti sono modelli semplificati e i loro suoni sono sintetizzati.",
+        "Notazione semplificata: pentagramma e note sono ricostruiti per l'animazione, non in scala."
+      ]
+    },
+    "usage": {
+      "inputTokens": 2,
+      "outputTokens": 8208,
+      "cacheCreationInputTokens": 18394,
+      "cacheReadInputTokens": 0,
+      "costUsdEstimate": 0.31132000000000004
+    },
+    "durationMs": 68589,
+    "model": "claude-opus-5-5"
+  }
+}

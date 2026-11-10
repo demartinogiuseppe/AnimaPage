@@ -1,0 +1,506 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=Germanic+people+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:03:47.068Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 20982920,
+     "ns": 6,
+     "title": "File:Proof of God.ogv",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 48022245,
+       "width": 320,
+       "height": 240,
+       "duration": 586.96,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Proof_of_God.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Proof_of_God.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20982920",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Proof of God",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Religion and science|Christian mysticism|Religious experience|Germanic mysticism|God in monotheistic religions|Self-published work|Video display resolution 320 x 240|Debates about religion",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The basis of the term God is the experience of the enlightened. The proof of God must start with this point. God is a mystery that can be seen and understand only by enlightenment. By Nils Horn, German mystic.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nobody60\" title=\"User:Nobody60\">Nobody60</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 25024049,
+     "ns": 6,
+     "title": "File:Rope Twisting.webmsd.webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 4215553,
+       "width": 640,
+       "height": 480,
+       "duration": 39.478,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Rope_Twisting.webmsd.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rope_Twisting.webmsd.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25024049",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Rope Twisting.webmsd",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "GFDL|WebM videos|Jute|License migration redundant|Self-published work|Video display resolution 640 x 480|Videos of 2013|Twisting",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "twisting one strand of jute yarns and one rayon yarn, using an electric drill",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:BenjaminWand&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:BenjaminWand (page does not exist)\">BenjaminWand</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 91115177,
+     "ns": 6,
+     "title": "File:Woran glaubten die Germanen (CC BY-SA 4.0).webm",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 12043673,
+       "width": 1280,
+       "height": 720,
+       "duration": 54.728,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Woran_glaubten_die_Germanen_%28CC_BY-SA_4.0%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Woran_glaubten_die_Germanen_(CC_BY-SA_4.0).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91115177",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Woran glaubten die Germanen (CC BY-SA 4.0)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "History of religion|Files from external sources with reviewed licenses|Germanic religion|Videos by Terra X with German subtitle file|Files with closed captioning in English|Videos of 2020|Uploaded with video2commons|Videos by Terra X|Videos by Terra X with German subtitle file checked|Videos by Terra X with English subtitle file unchecked|Videos of religion|Files with closed captioning in German|Videos uploaded by PantheraLeo1359531|Videos of ancient history|User:PantheraLeo1359531/WLB|Videos by Terra X in German",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Die Germanen hatten eine Vielzahl von Gottheiten. In der Frühzeit verehrten sie die so genannten Pfahlgötter. Einfache Holzidole, geschnitzt aus langen Astgabeln. Daneben gab es aber auch Götter mit berühmten Namen.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ZDF/Terra X/Gruppe 5/ Sabine Bier, Sahar Eslah, Cristina Trebbi/Martin Christ, Marc Riemer, Joachim C. Seck/ Claudia Spoden, Ramin Sabeti/Faber Courtial, Jörg Courtial/Gruppe 5 FX, xkopp creative",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 91118731,
+     "ns": 6,
+     "title": "File:Wie die Germanen gewohnt haben (CC BY-SA 4.0).webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 21206982,
+       "width": 1280,
+       "height": 720,
+       "duration": 65.687,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Wie_die_Germanen_gewohnt_haben_%28CC_BY-SA_4.0%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wie_die_Germanen_gewohnt_haben_(CC_BY-SA_4.0).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91118731",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Wie die Germanen gewohnt haben (CC BY-SA 4.0)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Longhouses|Germanic peoples|History of Europe|Files from external sources with reviewed licenses|Videos by Terra X with German subtitle file|Files with closed captioning in English|Videos of 2020|Uploaded with video2commons|Videos by Terra X|Videos by Terra X with German subtitle file checked|Videos by Terra X with English subtitle file unchecked|Videos by Terra X with Dutch subtitle file|Files with closed captioning in German|Videos uploaded by PantheraLeo1359531|Files with closed captioning in Dutch|Videos of residential buildings|Videos of ancient history|User:PantheraLeo1359531/WLB|Videos by Terra X in German",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Wie siedelten und wohnten die Germanen? Im 1. Jahrhundert vor Christus siedelten in ganz Europa nur etwa zweieinhalb Millionen Germanen. Kein Dorf hatte mehr als 200 Bewohner.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ZDF/Terra X/Gruppe 5/ Sabine Bier, Sahar Eslah, Cristina Trebbi/Martin Christ, Marc Riemer, Joachim C. Seck/ Claudia Spoden, Ramin Sabeti/Faber Courtial, Jörg Courtial/Gruppe 5 FX, xkopp creative",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 93550911,
+     "ns": 6,
+     "title": "File:Germanische Führungseliten.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 54833143,
+       "width": 1920,
+       "height": 1080,
+       "duration": 43.058,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Germanische_F%C3%BChrungseliten.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Germanische_F%C3%BChrungseliten.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93550911",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Germanische Führungseliten",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Germanic peoples|Videos by Terra X with German subtitle file unchecked|Videos by Terra X|Video display resolution 1920 x 1080|Files with closed captioning in German|User:PantheraLeo1359531/WLB|Videos by Terra X in German",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The Germanic ruling elite consisted only of men. They achieved their reputation primarily through bravery in battle, through rich harvests, or through belonging to a noble clan.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ZDF/Terra X/Gruppe 5/ Sabine Bier, Sahar Eslah, Cristina Trebbi/Martin Christ, Marc Riemer, Joachim C. Seck/ Claudia Spoden, Ramin Sabeti/Faber Courtial, Jörg Courtial/Gruppe 5 FX, xkopp creative",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 94860443,
+     "ns": 6,
+     "title": "File:Segeltuchfabrik Blancke. Jute- und Leinenweberei mit Dampfantrieb.webm",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 527231271,
+       "width": 1920,
+       "height": 1080,
+       "duration": 2090.021,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Segeltuchfabrik_Blancke._Jute-_und_Leinenweberei_mit_Dampfantrieb.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Segeltuchfabrik_Blancke._Jute-_und_Leinenweberei_mit_Dampfantrieb.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94860443",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Segeltuchfabrik Blancke. Jute- und Leinenweberei mit Dampfantrieb",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos of 1981 from Germany|Media from YouTube|WebM videos|LVR-Institut für Landeskunde und Regionalgeschichte|Videos from YouTube|Linen weaving mills|License reviewed by YouTubeReviewBot|Videos in German|Heinsberg (Ort)|Gabriel Simons",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Segeltuchfabrik Blancke. Jute- und Leinenweberei mit Dampfantrieb\n<p>Heinsberg 1981 – 35 min\nAufnahme: Gabriel Simons; Schnitt: Gabriele Harzheim, Ayten Fadel; Kommentar: Gabriele Harzheim\n</p>\nDie Jute- und Segeltuchweberei Blancke repräsentierte (kurz vor ihrer Stilllegung 1981) als eine der ältesten Textilfabriken am Ort das ehemals bedeutende Textilgewerbe des Niederrheins mit einer zum Teil aus der Jahrhundertwende stammenden Technologie. Herzstück der Firma ist die Dampfmaschine. Sie dient dem Antrieb der Webereimaschinen und liefert die Heizenergie für die Fabrikräume und über einen Generator elektrischen Strom. In der Näherei und Weberei werden Leinen – und Jutegarn zu Sackstoffen, Segeltuch und grober Leinwand verarbeitet.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Gabriel Simons /  LVR-Institut für Landeskunde und Regionalgeschichte",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 94984809,
+     "ns": 6,
+     "title": "File:Die Ausbreitung der Ur-Germanen.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 63527798,
+       "width": 1920,
+       "height": 1080,
+       "duration": 49.458,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Die_Ausbreitung_der_Ur-Germanen.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Die_Ausbreitung_der_Ur-Germanen.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94984809",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Die Ausbreitung der Ur-Germanen",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos of 2020 from Germany|Jastorf culture|Germanic peoples|Archaeological cultures in Denmark|Archaeological cultures in Germany|Archaeological cultures in Poland|Przeworsk culture|Archaeology of Northern Europe|Videos by Terra X with German subtitle file unchecked|Videos of 2020|Videos by Terra X|Video display resolution 1920 x 1080|Files with closed captioning in German|East Germanic peoples|Germanic Iron Age Poland|Archaeological cultures of Central Europe|Germanic Iron Age Denmark|User:PantheraLeo1359531/WLB|Videos by Terra X in German",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The ancestors of the Germanic peoples probably lived in Eurasia. Around 1000 BC A part of them reached the settlement area between the Baltic Sea and the Alps and spread over the centuries to the Danube, the Vistula and Scandinavia.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ZDF/Terra X/Gruppe 5/ Sabine Bier, Sahar Eslah, Cristina Trebbi/Martin Christ, Marc Riemer, Joachim C. Seck/ Claudia Spoden, Ramin Sabeti/Faber Courtial, Jörg Courtial/Gruppe 5 FX, xkopp creative",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 94985080,
+     "ns": 6,
+     "title": "File:Die Germanen aus der Sicht von Tacitus und Caesar.webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 62703800,
+       "width": 1920,
+       "height": 1080,
+       "duration": 54.386,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Die_Germanen_aus_der_Sicht_von_Tacitus_und_Caesar.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Die_Germanen_aus_der_Sicht_von_Tacitus_und_Caesar.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94985080",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Die Germanen aus der Sicht von Tacitus und Caesar",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos of 2020 from Germany|Germanic peoples|Publius Cornelius Tacitus|Videos by Terra X with German subtitle file unchecked|Videos of 2020|Videos by Terra X|Video display resolution 1920 x 1080|Files with closed captioning in German|User:PantheraLeo1359531/WLB|Videos by Terra X in German",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The Roman historian Tacitus claimed to know what makes the Teutons tick. They are stubborn - sometimes in a bad way. For Caesar they were the purest chaos and thus the absolute contrast to his Roman soldiers.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ZDF/Terra X/Gruppe 5/ Sabine Bier, Sahar Eslah, Cristina Trebbi/Martin Christ, Marc Riemer, Joachim C. Seck/ Claudia Spoden, Ramin Sabeti/Faber Courtial, Jörg Courtial/Gruppe 5 FX, xkopp creative",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 96020659,
+     "ns": 6,
+     "title": "File:Dmitry Bubrikh and Germanic substrate hypothesis 1926 part 1 by Vittorio Springfield Tomelleri 2020.webm",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 37797710,
+       "width": 1920,
+       "height": 1080,
+       "duration": 565.032,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Dmitry_Bubrikh_and_Germanic_substrate_hypothesis_1926_part_1_by_Vittorio_Springfield_Tomelleri_2020.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dmitry_Bubrikh_and_Germanic_substrate_hypothesis_1926_part_1_by_Vittorio_Springfield_Tomelleri_2020.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96020659",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Dmitry Bubrikh and Germanic substrate hypothesis 1926 part 1 by Vittorio Springfield Tomelleri 2020",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|PD-self|Photos by Andrew Krizhanovsky|Uploaded with video2commons|Bubrikh readings 2020",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Vittorio Springfield Tomelleri (University of Macerata) \n<p>presents the report \n\"Dmitry Bubrikh and the Germanic substrate hypothesis: article \"On the linguistic traces of the Finnish Teutons-Chudi\" (1926) and its unpublished variants\" part 1 (in Russian). \n</p><p>The article written in 1926 contains the linguistic arguments of Dmitry Bubrikh against the <a href=\"https://en.wikipedia.org/wiki/Aryan_race\" class=\"extiw\" title=\"w:Aryan race\">Aryan purity</a> of the Germans. Bubrich in his work refers:\n</p>\n<ol><li>on <a href=\"https://en.wikipedia.org/wiki/Sigmund_Feist\" class=\"extiw\" title=\"w:Sigmund Feist\">Sigmund Feist</a>, who put forward the <a href=\"https://en.wikipedia.org/wiki/Germanic_substrate_hypothesis\" class=\"extiw\" title=\"w:Germanic substrate hypothesis\">Germanic substrate hypothesis</a>;</li>\n<li>on a 1924 paper by Professor <a href=\"https://en.wikipedia.org/wiki/Fyodor_Braun\" class=\"extiw\" title=\"w:Fyodor Braun\">Fyodor Braun</a> on the primitive population of Europe and the origins of the Germans;</li>\n<li>on a work by <a href=\"https://en.wikipedia.org/wiki/Nikolai_Marr\" class=\"extiw\" title=\"w:Nikolai Marr\">Nikolai Marr</a> on the presence of Caucasian elements in Germanic speech.</li></ol>\nThe conference \"Bubrikh readings: a documented vernacular\", 2020. <a href=\"https://en.wikipedia.org/wiki/Petrozavodsk\" class=\"extiw\" title=\"w:Petrozavodsk\">Petrozavodsk</a>.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<bdi><div class=\"description en\" dir=\"ltr\" lang=\"en\"><span class=\"language en\" title=\"inglese\"><b>English: </b></span> <a href=\"//commons.wikimedia.org/wiki/User:AKA_MBG\" title=\"User:AKA MBG\">Andrew Krizhanovsky</a></div>\n<div class=\"description ru\" dir=\"ltr\" lang=\"ru\"><span class=\"language ru\" title=\"russo\"><b>Русский: </b></span> <a href=\"https://ru.wikipedia.org/wiki/User:AKA_MBG\" class=\"extiw\" title=\"ru:User:AKA MBG\">Андрей Крижановский</a></div></bdi>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 96023334,
+     "ns": 6,
+     "title": "File:Dmitry Bubrikh and Germanic substrate hypothesis 1926 part 2 by Germina Gordienko 2020.webm",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 18983514,
+       "width": 1360,
+       "height": 770,
+       "duration": 572.008,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Dmitry_Bubrikh_and_Germanic_substrate_hypothesis_1926_part_2_by_Germina_Gordienko_2020.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dmitry_Bubrikh_and_Germanic_substrate_hypothesis_1926_part_2_by_Germina_Gordienko_2020.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96023334",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Dmitry Bubrikh and Germanic substrate hypothesis 1926 part 2 by Germina Gordienko 2020",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|PD-self|Photos by Andrew Krizhanovsky|Uploaded with video2commons|Bubrikh readings 2020",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Germina Gordienko (Saint Petersburg State University) presents the report \n<p>\"Dmitry Bubrikh and the Germanic substrate hypothesis: article \"On the linguistic traces of the Finnish Teutons-Chudi\" (1926) and its unpublished variants\" part 2 (in Russian). \n</p><p>Germina Gordienko describes the history of writing and publication of six versions of the manuscript.\n</p>\nThe conference \"Bubrikh readings: a documented vernacular\", 2020. <a href=\"https://en.wikipedia.org/wiki/Petrozavodsk\" class=\"extiw\" title=\"w:Petrozavodsk\">Petrozavodsk</a>.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<bdi><div class=\"description en\" dir=\"ltr\" lang=\"en\"><span class=\"language en\" title=\"inglese\"><b>English: </b></span> <a href=\"//commons.wikimedia.org/wiki/User:AKA_MBG\" title=\"User:AKA MBG\">Andrew Krizhanovsky</a></div>\n<div class=\"description ru\" dir=\"ltr\" lang=\"ru\"><span class=\"language ru\" title=\"russo\"><b>Русский: </b></span> <a href=\"https://ru.wikipedia.org/wiki/User:AKA_MBG\" class=\"extiw\" title=\"ru:User:AKA MBG\">Андрей Крижановский</a></div></bdi>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,330 @@
+{
+  "checked": "2026-11-10",
+  "note": "CC0 only. Licence text copied from the source pages on the date above. Sizes are Content-Length from HEAD requests (nothing downloaded).",
+  "sources": [
+    {
+      "id": "bigsoundbank",
+      "name": "BigSoundBank (LaSonotheque)",
+      "author": "Joseph Sardin",
+      "licence": "CC0 1.0",
+      "licenceUrl": "https://bigsoundbank.com/licenses.php",
+      "licenceText": "Licence page, 'This is': \"Creative Commons CC0 1.0 Universal\" / \"Public Domain Dedication\"; each sound page: \"License: CC0 (public domain): Free and royalty-free\"",
+      "files": [
+        {
+          "id": "bsb-266",
+          "group": "waves",
+          "title": "Sea: Waves",
+          "page": "https://bigsoundbank.com/sea-waves-s0266.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/266.ogg",
+          "bytes": 1567417
+        },
+        {
+          "id": "bsb-265",
+          "group": "waves",
+          "title": "Beach: Small Waves",
+          "page": "https://bigsoundbank.com/beach-small-waves-s0265.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/265.ogg",
+          "bytes": 1772423
+        },
+        {
+          "id": "bsb-2573",
+          "group": "seagull-call",
+          "title": "Gulls on the Harbor",
+          "page": "https://bigsoundbank.com/gulls-on-the-harbor-s2573.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2573.ogg",
+          "bytes": 1634211
+        },
+        {
+          "id": "bsb-700",
+          "group": "boat-creak",
+          "title": "Boat - Cabin",
+          "page": "https://bigsoundbank.com/boat-cabin-s0700.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/700.ogg",
+          "bytes": 596848
+        },
+        {
+          "id": "bsb-539",
+          "group": "boat-creak",
+          "title": "Creaking barn door",
+          "page": "https://bigsoundbank.com/creaking-barn-door-s0539.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/539.ogg",
+          "bytes": 758404
+        },
+        {
+          "id": "bsb-3205",
+          "group": "boat-creak",
+          "title": "Creaking Door #2",
+          "page": "https://bigsoundbank.com/creaking-door-2-s3205.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/3205.ogg",
+          "bytes": 32079
+        },
+        {
+          "id": "bsb-1519",
+          "group": "splash",
+          "title": "Splash, Big #1",
+          "page": "https://bigsoundbank.com/splash-big-1-s1519.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1519.ogg",
+          "bytes": 116955
+        },
+        {
+          "id": "bsb-1529",
+          "group": "splash",
+          "title": "Splash, Small #1",
+          "page": "https://bigsoundbank.com/splash-small-1-s1529.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1529.ogg",
+          "bytes": 97295
+        },
+        {
+          "id": "bsb-1530",
+          "group": "splash",
+          "title": "Splash, small #2",
+          "page": "https://bigsoundbank.com/splash-small-2-s1530.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1530.ogg",
+          "bytes": 93439
+        },
+        {
+          "id": "bsb-3016",
+          "group": "train-chug",
+          "title": "Steam locomotive #1",
+          "page": "https://bigsoundbank.com/steam-locomotive-1-s3016.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/3016.ogg",
+          "bytes": 935357
+        },
+        {
+          "id": "bsb-3310",
+          "group": "train-chug",
+          "title": "Steam engine, foley #1",
+          "page": "https://bigsoundbank.com/steam-engine-foley-1-s3310.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/3310.ogg",
+          "bytes": 131960
+        },
+        {
+          "id": "bsb-3021",
+          "group": "train-chug",
+          "title": "Locomotive a vapeur, starting",
+          "page": "https://bigsoundbank.com/locomotive-a-vapeur-starting-s3021.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/3021.ogg",
+          "bytes": 595708
+        },
+        {
+          "id": "bsb-899",
+          "group": "train-bell",
+          "title": "Bell of a level crossing",
+          "page": "https://bigsoundbank.com/bell-of-a-level-crossing-s0899.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/899.ogg",
+          "bytes": 80296
+        },
+        {
+          "id": "bsb-275",
+          "group": "train-bell",
+          "title": "Bell Bike #2",
+          "page": "https://bigsoundbank.com/bell-bike-2-s0275.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/275.ogg",
+          "bytes": 35304
+        },
+        {
+          "id": "bsb-2115",
+          "group": "train-bell",
+          "title": "Bell #3",
+          "page": "https://bigsoundbank.com/bell-3-s2115.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2115.ogg",
+          "bytes": 75117
+        },
+        {
+          "id": "bsb-1890",
+          "group": "cat-meow",
+          "title": "Meow Cat #2",
+          "page": "https://bigsoundbank.com/meow-cat-2-s1890.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1890.ogg",
+          "bytes": 76022
+        },
+        {
+          "id": "bsb-1889",
+          "group": "cat-meow",
+          "title": "Meow cat #1",
+          "page": "https://bigsoundbank.com/meow-cat-1-s1889.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1889.ogg",
+          "bytes": 87428
+        },
+        {
+          "id": "bsb-494",
+          "group": "cat-meow",
+          "title": "Little Meow of a Cat #1",
+          "page": "https://bigsoundbank.com/little-meow-of-a-cat-s0494.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/494.ogg",
+          "bytes": 17819
+        },
+        {
+          "id": "bsb-1472",
+          "group": "cat-meow",
+          "title": "Little meow of a cat #2",
+          "page": "https://bigsoundbank.com/little-meow-of-a-cat-2-s1472.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1472.ogg",
+          "bytes": 38124
+        },
+        {
+          "id": "bsb-430",
+          "group": "chick-peep",
+          "title": "Chick 1 (Stuffings)",
+          "page": "https://bigsoundbank.com/chick-1-stuffings-s0430.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/430.ogg",
+          "bytes": 526552
+        },
+        {
+          "id": "bsb-431",
+          "group": "chick-peep",
+          "title": "Chick 2 (Stuffings)",
+          "page": "https://bigsoundbank.com/chick-2-stuffings-s0431.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/431.ogg",
+          "bytes": 486894
+        },
+        {
+          "id": "bsb-2954",
+          "group": "dog-woof",
+          "title": "Barking Dog #2",
+          "page": "https://bigsoundbank.com/barking-dog-2-s2954.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2954.ogg",
+          "bytes": 141703
+        },
+        {
+          "id": "bsb-112",
+          "group": "dog-woof",
+          "title": "Barking Dog Inside",
+          "page": "https://bigsoundbank.com/barking-dog-inside-s0112.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/112.ogg",
+          "bytes": 249631
+        },
+        {
+          "id": "bsb-2383",
+          "group": "cow-moo",
+          "title": "Cow moos #3",
+          "page": "https://bigsoundbank.com/cow-moos-3-s2383.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2383.ogg",
+          "bytes": 30024
+        },
+        {
+          "id": "bsb-2382",
+          "group": "cow-moo",
+          "title": "Cow moos #2",
+          "page": "https://bigsoundbank.com/cow-moos-2-s2382.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2382.ogg",
+          "bytes": 26877
+        },
+        {
+          "id": "bsb-546",
+          "group": "cow-moo",
+          "title": "Cow Moos #1",
+          "page": "https://bigsoundbank.com/cow-moos-s0546.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/546.ogg",
+          "bytes": 441095
+        },
+        {
+          "id": "bsb-97",
+          "group": "birds",
+          "title": "Countryside",
+          "page": "https://bigsoundbank.com/countryside-s0097.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/97.ogg",
+          "bytes": 3164674
+        },
+        {
+          "id": "bsb-2277",
+          "group": "boing",
+          "title": "Boing cartoon #1",
+          "page": "https://bigsoundbank.com/boing-cartoon-1-s2277.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2277.ogg",
+          "bytes": 64085
+        },
+        {
+          "id": "bsb-2278",
+          "group": "boing",
+          "title": "Boing Cartoon #2",
+          "page": "https://bigsoundbank.com/boing-cartoon-2-s2278.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2278.ogg",
+          "bytes": 58059
+        },
+        {
+          "id": "bsb-2279",
+          "group": "boing",
+          "title": "Boing cartoon #3",
+          "page": "https://bigsoundbank.com/boing-cartoon-3-s2279.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2279.ogg",
+          "bytes": 64941
+        },
+        {
+          "id": "bsb-2284",
+          "group": "boing",
+          "title": "Boing Cartoon #8",
+          "page": "https://bigsoundbank.com/boing-cartoon-8-s2284.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/2284.ogg",
+          "bytes": 37097
+        },
+        {
+          "id": "bsb-1074",
+          "group": "pop",
+          "title": "Bubbles Burst",
+          "page": "https://bigsoundbank.com/bubbles-burst-s1074.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/1074.ogg",
+          "bytes": 161944
+        },
+        {
+          "id": "bsb-211",
+          "group": "pop",
+          "title": "Champagne Cork #1",
+          "page": "https://bigsoundbank.com/champagne-cork-s0211.html",
+          "url": "https://bigsoundbank.com/UPLOAD/ogg/211.ogg",
+          "bytes": 63917
+        }
+      ]
+    },
+    {
+      "id": "oga-steam-whistle",
+      "name": "Steam whistle (OpenGameArt)",
+      "author": "bart",
+      "licence": "CC0",
+      "licenceUrl": "https://opengameart.org/content/steam-whistle",
+      "licenceText": "Page field \"License(s): CC0\"",
+      "files": [
+        {
+          "id": "oga-steam-whistle-1",
+          "group": "train-whistle",
+          "title": "Steam whistle (1)",
+          "page": "https://opengameart.org/content/steam-whistle",
+          "url": "https://opengameart.org/sites/default/files/steam_whistle.wav",
+          "bytes": 409436
+        },
+        {
+          "id": "oga-steam-whistle-2",
+          "group": "train-whistle",
+          "title": "Steam whistle (2)",
+          "page": "https://opengameart.org/content/steam-whistle",
+          "url": "https://opengameart.org/sites/default/files/steamwhistle_0.wav",
+          "bytes": 372482
+        }
+      ]
+    },
+    {
+      "id": "oga-slide-pop",
+      "name": "A Slide Pop Sound (OpenGameArt)",
+      "author": "EZduzziteh",
+      "licence": "CC0",
+      "licenceUrl": "https://opengameart.org/content/a-slide-pop-sound",
+      "licenceText": "Page field \"License(s): CC0\"",
+      "files": [
+        {
+          "id": "oga-slide-pop",
+          "group": "pop",
+          "title": "A Slide Pop Sound",
+          "page": "https://opengameart.org/content/a-slide-pop-sound",
+          "url": "https://opengameart.org/sites/default/files/slidepop_0.mp3",
+          "bytes": 12155
+        }
+      ]
+    }
+  ],
+  "uncovered": {
+    "whale-spout": "no CC0 whale/spout sound found at the checked sources",
+    "slide-whistle": "no CC0 slide whistle found (Morphonaut pack is a paid itch.io download, not fetched)",
+    "wind-soft": "BigSoundBank wind files are long or whistling; left for a later round",
+    "other-themes": "groups of the themes nature, home, music, people, magic, weather (except as above) are not sourced yet"
+  }
+}

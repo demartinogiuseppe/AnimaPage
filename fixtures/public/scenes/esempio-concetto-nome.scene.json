@@ -1,0 +1,1685 @@
+{
+  "version": "0.1",
+  "engine": "concept",
+  "title": "Il nome",
+  "page": {
+    "subject": "Grammatica",
+    "topic": "Il nome: comune e proprio, concreto e astratto, genere e numero",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "music": {
+    "track": "music-playful",
+    "volume": 0.55
+  },
+  "engineData": {
+    "board": {
+      "width": 22,
+      "depth": 10
+    },
+    "roles": [
+      {
+        "id": "nome",
+        "name": "nome",
+        "color": "#15897f"
+      },
+      {
+        "id": "comune",
+        "name": "nome comune",
+        "color": "#2f6fd6"
+      },
+      {
+        "id": "proprio",
+        "name": "nome proprio",
+        "color": "#e06a1b"
+      },
+      {
+        "id": "concreto",
+        "name": "nome concreto",
+        "color": "#2a9447"
+      },
+      {
+        "id": "astratto",
+        "name": "nome astratto",
+        "color": "#8a4fd0"
+      },
+      {
+        "id": "maschile",
+        "name": "maschile",
+        "color": "#2f6fd6"
+      },
+      {
+        "id": "femminile",
+        "name": "femminile",
+        "color": "#c23f78"
+      },
+      {
+        "id": "info",
+        "name": "parola",
+        "color": "#5a6c82"
+      },
+      {
+        "id": "op",
+        "name": "segno",
+        "color": "#8d99a6"
+      }
+    ],
+    "rows": [
+      {
+        "id": "r-mucchio",
+        "origin": [
+          0,
+          4.4,
+          0
+        ],
+        "gap": 0.3,
+        "tray": true,
+        "label": "parole da sistemare"
+      },
+      {
+        "id": "r-comuni",
+        "origin": [
+          0,
+          2.2,
+          0
+        ],
+        "gap": 0.25,
+        "tray": true,
+        "label": "nomi comuni",
+        "role": "comune"
+      },
+      {
+        "id": "r-propri",
+        "origin": [
+          0,
+          0.6,
+          0
+        ],
+        "gap": 0.25,
+        "tray": true,
+        "label": "nomi propri",
+        "role": "proprio"
+      },
+      {
+        "id": "r-concreti",
+        "origin": [
+          0,
+          2.2,
+          0
+        ],
+        "gap": 0.25,
+        "tray": true,
+        "label": "nomi concreti",
+        "role": "concreto"
+      },
+      {
+        "id": "r-astratti",
+        "origin": [
+          0,
+          0.6,
+          0
+        ],
+        "gap": 0.25,
+        "tray": true,
+        "label": "nomi astratti",
+        "role": "astratto"
+      },
+      {
+        "id": "r-singolare",
+        "origin": [
+          0,
+          3,
+          0
+        ],
+        "gap": 1.2,
+        "tray": true,
+        "label": "singolare"
+      },
+      {
+        "id": "r-plurale",
+        "origin": [
+          0,
+          1.2,
+          0
+        ],
+        "gap": 1.2,
+        "tray": true,
+        "label": "plurale"
+      }
+    ],
+    "axes": [],
+    "tiles": [
+      {
+        "id": "titolo",
+        "text": "il nome",
+        "sub": "persone, animali, cose, luoghi, idee",
+        "role": "nome",
+        "size": "l",
+        "place": {
+          "pos": [
+            0,
+            6,
+            -0.6
+          ]
+        }
+      },
+      {
+        "id": "citta",
+        "text": "città",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 0
+        }
+      },
+      {
+        "id": "roma",
+        "text": "Roma",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 1
+        }
+      },
+      {
+        "id": "cane",
+        "text": "cane",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 2
+        }
+      },
+      {
+        "id": "fido",
+        "text": "Fido",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 3
+        }
+      },
+      {
+        "id": "fiume",
+        "text": "fiume",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 4
+        }
+      },
+      {
+        "id": "tevere",
+        "text": "Tevere",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 5
+        }
+      },
+      {
+        "id": "ragazza",
+        "text": "ragazza",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 6
+        }
+      },
+      {
+        "id": "giulia",
+        "text": "Giulia",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 7
+        }
+      },
+      {
+        "id": "titolo-2",
+        "text": "concreto o astratto?",
+        "sub": "lo percepisco con i sensi?",
+        "role": "nome",
+        "size": "l",
+        "place": {
+          "pos": [
+            0,
+            6,
+            -0.6
+          ]
+        }
+      },
+      {
+        "id": "tavolo",
+        "text": "tavolo",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 0
+        }
+      },
+      {
+        "id": "amicizia",
+        "text": "amicizia",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 1
+        }
+      },
+      {
+        "id": "profumo",
+        "text": "profumo",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 2
+        }
+      },
+      {
+        "id": "coraggio",
+        "text": "coraggio",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 3
+        }
+      },
+      {
+        "id": "musica",
+        "text": "musica",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 4
+        }
+      },
+      {
+        "id": "paura",
+        "text": "paura",
+        "role": "info",
+        "place": {
+          "row": "r-mucchio",
+          "index": 5
+        }
+      },
+      {
+        "id": "titolo-3",
+        "text": "genere e numero",
+        "sub": "maschile o femminile · singolare o plurale",
+        "role": "nome",
+        "size": "l",
+        "place": {
+          "pos": [
+            0,
+            5.4,
+            -0.6
+          ]
+        }
+      },
+      {
+        "id": "gatto",
+        "text": "gatto",
+        "sub": "maschile",
+        "role": "maschile",
+        "place": {
+          "row": "r-singolare",
+          "index": 0
+        }
+      },
+      {
+        "id": "gatta",
+        "text": "gatta",
+        "sub": "femminile",
+        "role": "femminile",
+        "place": {
+          "row": "r-singolare",
+          "index": 1
+        }
+      },
+      {
+        "id": "gatti",
+        "text": "gatti",
+        "sub": "maschile",
+        "role": "maschile",
+        "place": {
+          "row": "r-plurale",
+          "index": 0
+        }
+      },
+      {
+        "id": "gatte",
+        "text": "gatte",
+        "sub": "femminile",
+        "role": "femminile",
+        "place": {
+          "row": "r-plurale",
+          "index": 1
+        }
+      },
+      {
+        "id": "libro",
+        "text": "il libro",
+        "role": "maschile",
+        "place": {
+          "pos": [
+            -6.5,
+            0,
+            2.2
+          ]
+        }
+      },
+      {
+        "id": "freccia-num",
+        "text": "→",
+        "role": "op",
+        "size": "s",
+        "place": {
+          "pos": [
+            -4.6,
+            0,
+            2.2
+          ]
+        }
+      },
+      {
+        "id": "libri",
+        "text": "i libri",
+        "role": "maschile",
+        "place": {
+          "pos": [
+            -2.7,
+            0,
+            2.2
+          ]
+        }
+      },
+      {
+        "id": "la-citta",
+        "text": "la città",
+        "role": "femminile",
+        "place": {
+          "pos": [
+            3,
+            0,
+            2.2
+          ]
+        }
+      },
+      {
+        "id": "freccia-inv",
+        "text": "→",
+        "role": "op",
+        "size": "s",
+        "place": {
+          "pos": [
+            4.8,
+            0,
+            2.2
+          ]
+        }
+      },
+      {
+        "id": "le-citta",
+        "text": "le città",
+        "sub": "invariabile",
+        "role": "femminile",
+        "place": {
+          "pos": [
+            6.7,
+            0,
+            2.2
+          ]
+        }
+      }
+    ],
+    "shapes": [],
+    "links": [
+      {
+        "id": "l-quale",
+        "from": "citta",
+        "to": "roma",
+        "label": "quale città?",
+        "role": "proprio",
+        "bend": 1.1
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "comune-proprio",
+        "actions": [
+          {
+            "at": 0,
+            "do": "appear",
+            "ids": [
+              "titolo"
+            ]
+          },
+          {
+            "at": 6.1,
+            "do": "appear",
+            "ids": [
+              "citta",
+              "roma",
+              "cane",
+              "fido",
+              "fiume",
+              "tevere",
+              "ragazza",
+              "giulia"
+            ],
+            "style": "drop",
+            "stagger": 0.15
+          },
+          {
+            "at": 10.4,
+            "do": "move",
+            "id": "citta",
+            "to": {
+              "row": "r-comuni",
+              "index": 0
+            },
+            "style": "hop"
+          },
+          {
+            "at": 10.9,
+            "do": "move",
+            "id": "cane",
+            "to": {
+              "row": "r-comuni",
+              "index": 1
+            },
+            "style": "hop"
+          },
+          {
+            "at": 11.4,
+            "do": "move",
+            "id": "fiume",
+            "to": {
+              "row": "r-comuni",
+              "index": 2
+            },
+            "style": "hop"
+          },
+          {
+            "at": 11.9,
+            "do": "move",
+            "id": "ragazza",
+            "to": {
+              "row": "r-comuni",
+              "index": 3
+            },
+            "style": "hop"
+          },
+          {
+            "at": 12.6,
+            "do": "color",
+            "ids": [
+              "citta",
+              "cane",
+              "fiume",
+              "ragazza"
+            ],
+            "role": "comune"
+          },
+          {
+            "at": 15.6,
+            "do": "move",
+            "id": "roma",
+            "to": {
+              "row": "r-propri",
+              "index": 0
+            },
+            "style": "hop"
+          },
+          {
+            "at": 16.1,
+            "do": "move",
+            "id": "fido",
+            "to": {
+              "row": "r-propri",
+              "index": 1
+            },
+            "style": "hop"
+          },
+          {
+            "at": 16.6,
+            "do": "move",
+            "id": "tevere",
+            "to": {
+              "row": "r-propri",
+              "index": 2
+            },
+            "style": "hop"
+          },
+          {
+            "at": 17.1,
+            "do": "move",
+            "id": "giulia",
+            "to": {
+              "row": "r-propri",
+              "index": 3
+            },
+            "style": "hop"
+          },
+          {
+            "at": 17.8,
+            "do": "color",
+            "ids": [
+              "roma",
+              "fido",
+              "tevere",
+              "giulia"
+            ],
+            "role": "proprio"
+          },
+          {
+            "at": 21.3,
+            "do": "appear",
+            "ids": [
+              "l-quale"
+            ]
+          },
+          {
+            "at": 21.3,
+            "do": "highlight",
+            "ids": [
+              "citta",
+              "roma"
+            ],
+            "dur": 3
+          },
+          {
+            "at": 27.1,
+            "do": "highlight",
+            "ids": [
+              "roma",
+              "fido",
+              "tevere",
+              "giulia"
+            ],
+            "dur": 4
+          },
+          {
+            "at": 27.5,
+            "do": "bounce",
+            "ids": [
+              "roma",
+              "fido",
+              "tevere",
+              "giulia"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "concreto-astratto",
+        "carryOver": false,
+        "actions": [
+          {
+            "at": 0,
+            "do": "appear",
+            "ids": [
+              "titolo-2"
+            ]
+          },
+          {
+            "at": 0.8,
+            "do": "appear",
+            "ids": [
+              "tavolo",
+              "amicizia",
+              "profumo",
+              "coraggio",
+              "musica",
+              "paura"
+            ],
+            "style": "drop",
+            "stagger": 0.15
+          },
+          {
+            "at": 5.9,
+            "do": "move",
+            "id": "tavolo",
+            "to": {
+              "row": "r-concreti",
+              "index": 0
+            },
+            "style": "hop"
+          },
+          {
+            "at": 10.3,
+            "do": "move",
+            "id": "profumo",
+            "to": {
+              "row": "r-concreti",
+              "index": 1
+            },
+            "style": "hop"
+          },
+          {
+            "at": 11.5,
+            "do": "move",
+            "id": "musica",
+            "to": {
+              "row": "r-concreti",
+              "index": 2
+            },
+            "style": "hop"
+          },
+          {
+            "at": 12.3,
+            "do": "color",
+            "ids": [
+              "tavolo",
+              "profumo",
+              "musica"
+            ],
+            "role": "concreto"
+          },
+          {
+            "at": 17.1,
+            "do": "highlight",
+            "ids": [
+              "amicizia",
+              "coraggio",
+              "paura"
+            ],
+            "dur": 3
+          },
+          {
+            "at": 22.3,
+            "do": "move",
+            "id": "amicizia",
+            "to": {
+              "row": "r-astratti",
+              "index": 0
+            },
+            "style": "hop"
+          },
+          {
+            "at": 22.8,
+            "do": "move",
+            "id": "coraggio",
+            "to": {
+              "row": "r-astratti",
+              "index": 1
+            },
+            "style": "hop"
+          },
+          {
+            "at": 23.3,
+            "do": "move",
+            "id": "paura",
+            "to": {
+              "row": "r-astratti",
+              "index": 2
+            },
+            "style": "hop"
+          },
+          {
+            "at": 24.1,
+            "do": "color",
+            "ids": [
+              "amicizia",
+              "coraggio",
+              "paura"
+            ],
+            "role": "astratto"
+          }
+        ]
+      },
+      {
+        "chapter": "genere-numero",
+        "carryOver": false,
+        "actions": [
+          {
+            "at": 0,
+            "do": "appear",
+            "ids": [
+              "titolo-3"
+            ]
+          },
+          {
+            "at": 0.6,
+            "do": "appear",
+            "ids": [
+              "gatto"
+            ]
+          },
+          {
+            "at": 4.1,
+            "do": "appear",
+            "ids": [
+              "gatta"
+            ],
+            "style": "pop"
+          },
+          {
+            "at": 4.1,
+            "do": "highlight",
+            "ids": [
+              "gatto",
+              "gatta"
+            ],
+            "dur": 2.5
+          },
+          {
+            "at": 13.4,
+            "do": "appear",
+            "ids": [
+              "gatti",
+              "gatte"
+            ],
+            "style": "drop",
+            "stagger": 0.4
+          },
+          {
+            "at": 14.4,
+            "do": "highlight",
+            "ids": [
+              "gatti",
+              "gatte"
+            ],
+            "dur": 2.5
+          },
+          {
+            "at": 16.8,
+            "do": "appear",
+            "ids": [
+              "libro"
+            ]
+          },
+          {
+            "at": 17.6,
+            "do": "appear",
+            "ids": [
+              "freccia-num",
+              "libri"
+            ],
+            "stagger": 0.4
+          },
+          {
+            "at": 21.8,
+            "do": "appear",
+            "ids": [
+              "la-citta"
+            ]
+          },
+          {
+            "at": 22.6,
+            "do": "appear",
+            "ids": [
+              "freccia-inv",
+              "le-citta"
+            ],
+            "stagger": 0.4
+          },
+          {
+            "at": 23.8,
+            "do": "highlight",
+            "ids": [
+              "la-citta",
+              "le-citta"
+            ],
+            "dur": 3
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "comune-proprio",
+      "title": "Nomi comuni e nomi propri",
+      "chip": "Comuni e propri",
+      "book": {
+        "heading": "Il nome",
+        "formula": "nome comune → nome proprio (con la maiuscola)",
+        "lines": [
+          "Indica persone, animali, cose, luoghi, idee.",
+          "Comune: indica in modo generico (città).",
+          "Proprio: indica proprio quello (Roma) e vuole la maiuscola."
+        ],
+        "sourceIds": [
+          "page",
+          "w-sostantivo"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "«Tevere» è un nome comune o un nome proprio?",
+          "options": [
+            "Comune",
+            "Proprio"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda dove vanno a finire le parole che cominciano con la lettera maiuscola."
+        },
+        "prove": {
+          "text": "«Tevere» indica un fiume preciso: è un nome proprio e si scrive con la maiuscola.",
+          "sourceIds": [
+            "page",
+            "w-nome-proprio"
+          ]
+        },
+        "stamp": "Ordinatore di nomi"
+      },
+      "kind": "mixed",
+      "duration": 34,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il nome è la parte del discorso che indica persone, animali, cose, luoghi e idee.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 6.1,
+          "text": "Ecco un mucchio di nomi da mettere in ordine.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 9.8,
+          "text": "Alcuni sono generici: città, cane, fiume, ragazza. Sono nomi comuni.",
+          "highlight": [
+            "p-comune"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 15,
+          "text": "Altri indicano proprio quella persona, quell'animale, quel luogo: sono nomi propri.",
+          "highlight": [
+            "p-proprio"
+          ],
+          "sourceIds": [
+            "page",
+            "w-nome-proprio"
+          ]
+        },
+        {
+          "at": 21.3,
+          "text": "Roma è una città, Fido è un cane, il Tevere è un fiume, Giulia è una ragazza.",
+          "highlight": [
+            "p-roma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 27.1,
+          "text": "Hai notato? I nomi propri si scrivono sempre con la lettera maiuscola.",
+          "highlight": [
+            "p-maiuscola"
+          ],
+          "sourceIds": [
+            "page",
+            "w-nome-proprio"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "tile",
+            "part": "titolo",
+            "offset": [
+              0,
+              -0.5,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 6.1,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              0
+            ]
+          },
+          "distance": 15,
+          "azimuth": 0,
+          "elevation": 14
+        },
+        {
+          "at": 21.3,
+          "target": {
+            "pos": [
+              0,
+              1.6,
+              0
+            ]
+          },
+          "distance": 12,
+          "azimuth": 8,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-comune",
+          "name": "nome comune",
+          "info": "Indica una persona, un animale o una cosa in modo generico.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "citta"
+          },
+          "visible": [
+            [
+              9.8,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "id": "p-proprio",
+          "name": "nome proprio",
+          "info": "Indica una persona, un animale o un luogo precisi, con il loro nome.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "giulia"
+          },
+          "visible": [
+            [
+              15,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "w-nome-proprio"
+          ]
+        },
+        {
+          "id": "p-roma",
+          "name": "Roma",
+          "info": "Nome proprio di città: risponde alla domanda «quale città?».",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "roma"
+          },
+          "visible": [
+            [
+              21.3,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-maiuscola",
+          "name": "la maiuscola",
+          "info": "Tutti i nomi propri cominciano con la lettera maiuscola.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "tevere"
+          },
+          "visible": [
+            [
+              27.1,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "w-nome-proprio"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il nome si chiama anche sostantivo.",
+          "sourceIds": [
+            "w-sostantivo"
+          ]
+        },
+        {
+          "text": "Sono nomi propri anche quelli di nazioni, monti, mari, vie e piazze: Italia, Monte Bianco, via Garibaldi.",
+          "sourceIds": [
+            "w-nome-proprio"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quale di queste parole è un nome proprio?",
+          "options": [
+            "montagna",
+            "Alpi",
+            "lago"
+          ],
+          "answer": 1,
+          "explain": "«Alpi» indica una catena di montagne precisa e si scrive con la maiuscola."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il nome proprio di una persona.",
+          "answerPins": [
+            "p-proprio"
+          ],
+          "explain": "È «Giulia»: il nome di una persona precisa, con la maiuscola."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "page-turn",
+            "volume": 0.5
+          },
+          {
+            "at": 6.1,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 9.8,
+            "sound": "click",
+            "volume": 0.4
+          },
+          {
+            "at": 15,
+            "sound": "click",
+            "volume": 0.4
+          },
+          {
+            "at": 27.1,
+            "sound": "chime",
+            "volume": 0.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "concreto-astratto",
+      "title": "Nomi concreti e nomi astratti",
+      "chip": "Concreti e astratti",
+      "book": {
+        "heading": "Concreti e astratti",
+        "formula": "sensi sì → concreto · sensi no → astratto",
+        "lines": [
+          "Concreto: si percepisce con i sensi (tavolo, profumo).",
+          "Astratto: indica idee e sentimenti (amicizia, paura)."
+        ],
+        "sourceIds": [
+          "page",
+          "w-sostantivo"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "«Profumo» è un nome concreto o astratto?",
+          "options": [
+            "Concreto",
+            "Astratto"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Prima di vedere dove va ogni parola, chiediti: la posso vedere, toccare, sentire, annusare o assaggiare?"
+        },
+        "prove": {
+          "text": "Il profumo si percepisce con l'olfatto: anche se non si tocca, è un nome concreto.",
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        "stamp": "Detective dei sensi"
+      },
+      "kind": "mixed",
+      "duration": 27.5,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Un'altra domanda: posso percepire con i sensi quello che il nome indica?",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5.5,
+          "text": "Un tavolo lo vedo e lo tocco: tavolo è un nome concreto.",
+          "highlight": [
+            "p-concreto"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 9.9,
+          "text": "Anche profumo e musica sono concreti: il profumo si sente con il naso, la musica con le orecchie.",
+          "highlight": [
+            "p-profumo"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 17.1,
+          "text": "Amicizia, coraggio e paura invece non si toccano e non si vedono.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 22.1,
+          "text": "Indicano sentimenti e idee: sono nomi astratti.",
+          "highlight": [
+            "p-astratto"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "tile",
+            "part": "titolo-2",
+            "offset": [
+              0,
+              -0.5,
+              0
+            ]
+          },
+          "distance": 10,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 5.5,
+          "target": {
+            "pos": [
+              0,
+              3,
+              0
+            ]
+          },
+          "distance": 15,
+          "azimuth": 0,
+          "elevation": 14
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-concreto",
+          "name": "nome concreto",
+          "info": "Indica qualcosa che si può percepire con i sensi.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "tavolo"
+          },
+          "visible": [
+            [
+              5.5,
+              27.5
+            ]
+          ],
+          "sourceIds": [
+            "w-sostantivo"
+          ]
+        },
+        {
+          "id": "p-profumo",
+          "name": "profumo",
+          "info": "Non si tocca, ma si sente con il naso: è concreto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "profumo"
+          },
+          "visible": [
+            [
+              9.9,
+              27.5
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-astratto",
+          "name": "nome astratto",
+          "info": "Indica un sentimento, un'idea, una qualità.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "amicizia"
+          },
+          "visible": [
+            [
+              22.1,
+              27.5
+            ]
+          ],
+          "sourceIds": [
+            "w-sostantivo"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Un trucco: se una parola indica qualcosa che si può provare o pensare ma non percepire con i cinque sensi, è un nome astratto.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quale di questi nomi è astratto?",
+          "options": [
+            "sedia",
+            "gioia",
+            "pioggia"
+          ],
+          "answer": 1,
+          "explain": "La gioia è un sentimento: non si vede e non si tocca."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il nome concreto che si percepisce con l'olfatto.",
+          "answerPins": [
+            "p-profumo"
+          ],
+          "explain": "È «profumo»: si sente con il naso."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "page-turn",
+            "volume": 0.5
+          },
+          {
+            "at": 5.5,
+            "sound": "wood-hit",
+            "volume": 0.35
+          },
+          {
+            "at": 9.9,
+            "sound": "instr-flute",
+            "volume": 0.35,
+            "pitch": "G5",
+            "duration": 0.6
+          },
+          {
+            "at": 22.1,
+            "sound": "sparkle",
+            "volume": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "genere-numero",
+      "title": "Genere e numero",
+      "chip": "Genere e numero",
+      "book": {
+        "heading": "Genere e numero",
+        "formula": "gatto → gatta → gatti → gatte",
+        "lines": [
+          "Genere: maschile o femminile.",
+          "Numero: singolare o plurale.",
+          "Invariabili: non cambiano al plurale (la città, le città)."
+        ],
+        "sourceIds": [
+          "page",
+          "w-sostantivo"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Qual è il plurale di «la città»?",
+          "options": [
+            "le cittè",
+            "le città",
+            "le cittadi"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Confronta le due file: che cosa cambia tra singolare e plurale?"
+        },
+        "prove": {
+          "text": "«Città» non cambia al plurale: è un nome invariabile. Cambia solo l'articolo: la città, le città.",
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        "stamp": "Maestro dei nomi"
+      },
+      "kind": "mixed",
+      "duration": 29.2,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ogni nome ha anche un genere: maschile o femminile.",
+          "highlight": [
+            "p-maschile",
+            "p-femminile"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 4.1,
+          "text": "Gatto è maschile, gatta è femminile.",
+          "highlight": [
+            "p-maschile",
+            "p-femminile"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 7.4,
+          "text": "E ha un numero: singolare se indica una sola cosa, plurale se ne indica di più.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 13.4,
+          "text": "Gatto diventa gatti, gatta diventa gatte.",
+          "highlight": [
+            "p-plurale"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 16.8,
+          "text": "Di solito al plurale cambia la vocale finale: il libro, i libri.",
+          "highlight": [
+            "p-libri"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        },
+        {
+          "at": 21.8,
+          "text": "Alcuni nomi però non cambiano mai: la città, le città. Si chiamano invariabili.",
+          "highlight": [
+            "p-invariabile"
+          ],
+          "sourceIds": [
+            "page",
+            "w-sostantivo"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              2.8,
+              0
+            ]
+          },
+          "distance": 12,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 16.8,
+          "target": {
+            "pos": [
+              0,
+              0.6,
+              2.2
+            ]
+          },
+          "distance": 13,
+          "azimuth": 0,
+          "elevation": 18
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-maschile",
+          "name": "maschile",
+          "info": "Gatto è un nome di genere maschile.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "gatto"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-femminile",
+          "name": "femminile",
+          "info": "Gatta è un nome di genere femminile.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "gatta"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-plurale",
+          "name": "plurale",
+          "info": "Al plurale cambia la vocale finale: gatti, gatte.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "gatte"
+          },
+          "visible": [
+            [
+              13.4,
+              29.2
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-libri",
+          "name": "i libri",
+          "info": "Plurale di «il libro»: la o finale diventa i.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "libri"
+          },
+          "visible": [
+            [
+              16.8,
+              29.2
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-invariabile",
+          "name": "nome invariabile",
+          "info": "Resta uguale al singolare e al plurale: cambia solo l'articolo.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tile",
+            "part": "le-citta"
+          },
+          "visible": [
+            [
+              21.8,
+              29.2
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Sono invariabili, per esempio, molti nomi che finiscono con una vocale accentata (la virtù, le virtù) o con una consonante (il bar, i bar).",
+          "sourceIds": [
+            "w-sostantivo"
+          ]
+        },
+        {
+          "text": "L'articolo aiuta a capire genere e numero quando il nome non cambia.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Qual è il femminile plurale di «gatto»?",
+          "options": [
+            "gatti",
+            "gatta",
+            "gatte"
+          ],
+          "answer": 2,
+          "explain": "Gatto (maschile singolare) → gatta (femminile singolare) → gatte (femminile plurale)."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il nome invariabile.",
+          "answerPins": [
+            "p-invariabile"
+          ],
+          "explain": "«Le città»: il nome resta uguale, cambia solo l'articolo."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "page-turn",
+            "volume": 0.5
+          },
+          {
+            "at": 4.1,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 13.4,
+            "sound": "pop",
+            "volume": 0.4
+          },
+          {
+            "at": 21.8,
+            "sound": "chime",
+            "volume": 0.45
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Grammatica, «Il nome» (lezione di esempio originale, scritta per AnimaPage)"
+    },
+    {
+      "id": "w-sostantivo",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Sostantivo",
+      "url": "https://it.wikipedia.org/wiki/Sostantivo",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-nome-proprio",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Nome proprio",
+      "url": "https://it.wikipedia.org/wiki/Nome_proprio",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Lezione di esempio scritta per AnimaPage: non viene da una pagina di un libro.",
+    "Gli esempi sono scelti per chiarezza: la grammatica completa ha anche molti casi particolari."
+  ]
+}

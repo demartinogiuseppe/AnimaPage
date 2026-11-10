@@ -1,0 +1,506 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=Roman+Empire+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-04T11:35:42.140Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 15948922,
+     "ns": 6,
+     "title": "File:Roman Empire map.ogv",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 207450,
+       "width": 800,
+       "height": 760,
+       "duration": 39,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Roman_Empire_map.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Roman_Empire_map.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15948922",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Roman Empire map",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "GFDL|Maps of ancient Rome|License migration redundant|Self-published work|Language-neutral maps|Map Lab-fr|Ogv videos|Files created by User:Sémhur|Maps by User:Sémhur|Animated maps of ancient Rome|Uploaded with derivativeFX|Files with coordinates missing SDC location of creation|Videos of maps|Video display resolution 800 x 760|Videos of Ancient Rome",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Map showing how the <a href=\"https://en.wikipedia.org/wiki/Roman_Empire\" class=\"extiw\" title=\"en:Roman Empire\">Roman Empire</a> grew.<br>Years shown: 510BC, 320BC, 300BC, 270BC, 220BC, 190BC, 140BC, 70BC, 40BC, 20AD, 70AD, 140AD, 230AD, 300AD, 360AD, 405AD, 420AD, 450AD, 480AD, 530AD, 560AD, 600AD, 630AD, 650AD, 740AD, 867AD, 1025AD, 1095AD, 1170AD, 1200AD, 1204AD, 1280AD, 1360AD, 1400AD, 1430AD, 1453AD",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Roman_Empire_map.gif\" title=\"File:Roman Empire map.gif\">Roman_Empire_map.gif</a>: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Roke&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Roke (page does not exist)\">Roke</a></li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:S%C3%A9mhur\" title=\"User:Sémhur\">Sémhur</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:S%C3%A9mhur\" title=\"User talk:Sémhur\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 112915473,
+     "ns": 6,
+     "title": "File:Ausdehnung des römischen Reiches.webm",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 22548867,
+       "width": 1920,
+       "height": 1080,
+       "duration": 25.053,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Ausdehnung_des_r%C3%B6mischen_Reiches.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ausdehnung_des_r%C3%B6mischen_Reiches.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=112915473",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Ausdehnung des römischen Reiches",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos of 2021 from Germany|Roman Empire|Maps of the Roman Empire|Videos by Terra X with German subtitle file unchecked|Videos by Terra X|Video display resolution 1920 x 1080|Files with closed captioning in German|User:PantheraLeo1359531/WLB|Videos by Terra X in German",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "In its heyday from the first to the third century, the Roman Empire extended over the entire Mediterranean region to Britain.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ZDF/Terra X/ Gruppe5/Sabine Klauser/Sebastian Martinez/Jochen Schmidt",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 113839368,
+     "ns": 6,
+     "title": "File:Age of Empires IV Gamescom 2021 Trailer.webm",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 291637751,
+       "width": 3840,
+       "height": 2160,
+       "duration": 93.446,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Age_of_Empires_IV_Gamescom_2021_Trailer.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Age_of_Empires_IV_Gamescom_2021_Trailer.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=113839368",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Age of Empires IV Gamescom 2021 Trailer",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Age of Empires IV|Media from YouTube|License review needed (video)|Uploaded with video2commons|Videos by Age of Empires|Videos uploaded by PantheraLeo1359531",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "As part of gamescom Opening Night Live, we gave a first look at the remaining launch civilizations and campaigns; The Rus, The Holy Roman Empire and The Rise of Moscow campaign.\n<p>At launch, players will get to build and expand Moscow over time. The Rus’ skills in hunting, trade and construction combined with a battle-ready cavalry will see them become more powerful as they expand to new frontiers through the Ages. We showcase two unique units, the Streltsy and Warrior Monks (wololo!). The Streltsy’s combination of axe and gunpowder partnered with the conversion capabilities of Warrior Monks will make a Rus army a force to be reckoned with.\n</p><p>The Holy Roman Empire’s civilization is shaped by a powerful infantry army and early access to religious units. Seen in today’s trailer, their Prelate unit supports and heals, inspiring nearby armies to grant benefits.  The two-handed sword of the Landsknecht will be an asset to any battle. \n</p><p>Learn more at <a rel=\"nofollow\" class=\"external free\" href=\"https://www.ageofempires.com/games/age-of-empires-iv/\">https://www.ageofempires.com/games/age-of-empires-iv/</a>\n</p>\n<hr>\n<p>Stay connected with Age of Empires!\n</p><p>Discord: <a rel=\"nofollow\" class=\"external free\" href=\"https://discord.gg/ageofempires\">https://discord.gg/ageofempires</a>\nFacebook: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.facebook.com/ageofempires\">https://www.facebook.com/ageofempires</a>\nInstagram: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.instagram.com/ageofempiresgame/\">https://www.instagram.com/ageofempiresgame/</a>\n</p>\nTwitter: <a rel=\"nofollow\" class=\"external free\" href=\"https://twitter.com/ageofempires\">https://twitter.com/ageofempires</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/officialageofempires\">Age of Empires</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 113891136,
+     "ns": 6,
+     "title": "File:Age of Empires IV The Holy Roman Empire.webm",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 535019132,
+       "width": 3840,
+       "height": 2160,
+       "duration": 169.281,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Age_of_Empires_IV_The_Holy_Roman_Empire.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Age_of_Empires_IV_The_Holy_Roman_Empire.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=113891136",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Age of Empires IV The Holy Roman Empire",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Age of Empires IV|Media from YouTube|Files from external sources with reviewed licenses|Uploaded with video2commons|Videos by Age of Empires|Videos uploaded by PantheraLeo1359531",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The Holy Roman Empire in Age of Empires IV specializes in rugged infantry and unique religious units, giving players an early lead with raw strength and a focused economy. Bonuses and the religious Prelates strengthen units and buildings, and the fearsome Landskneckt make the Holy Roman Empire a sturdy and resourceful civ. With impenetrable cities and methodically battling opponents, anyone can take full advantage of everything this civilization has to offer. \n<p>Discord: <a rel=\"nofollow\" class=\"external free\" href=\"https://discord.gg/ageofempires\">https://discord.gg/ageofempires</a>\nFacebook: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.facebook.com/ageofempires\">https://www.facebook.com/ageofempires</a>\nInstagram: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.instagram.com/ageofempiresgame/\">https://www.instagram.com/ageofempiresgame/</a>\n</p>\nTwitter: <a rel=\"nofollow\" class=\"external free\" href=\"https://twitter.com/ageofempires\">https://twitter.com/ageofempires</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/officialageofempires\">Age of Empires</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 114362980,
+     "ns": 6,
+     "title": "File:Age of Empires IV- Multiplayer Match.webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 912557441,
+       "width": 1920,
+       "height": 1080,
+       "duration": 2633.841,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Age_of_Empires_IV-_Multiplayer_Match.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Age_of_Empires_IV-_Multiplayer_Match.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114362980",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Age of Empires IV- Multiplayer Match",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Age of Empires IV|Media from YouTube|Files from external sources with reviewed licenses|Uploaded with video2commons|Videos by Age of Empires|Videos uploaded by PantheraLeo1359531",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Join two members of the Age of Empires IV dev team as they battle for victory playing as the Rus and the Holy Roman Empire. With commentary from Relic Entertainment's Zak and Eric, watch masterful gameplay coupled with insightful casting to showcase the game ahead of launch. Who will emerge as victor?\n<p>Originally aired as part of Red Bull's Wololo V tournament.\n</p><p>Age of Empires IV available for pre-order now through Microsoft Store and Steam, or play day one on Xbox Game Pass for PC on October 28th!\n</p><p>Stay connected with Age of Empires!\n</p><p>Discord: <a rel=\"nofollow\" class=\"external free\" href=\"https://discord.gg/ageofempires\">https://discord.gg/ageofempires</a>\nFacebook: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.facebook.com/ageofempires\">https://www.facebook.com/ageofempires</a>\nInstagram: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.instagram.com/ageofempiresgame/\">https://www.instagram.com/ageofempiresgame/</a>\n</p>\nTwitter: <a rel=\"nofollow\" class=\"external free\" href=\"https://twitter.com/ageofempires\">https://twitter.com/ageofempires</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/officialageofempires\">Age of Empires</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 153330817,
+     "ns": 6,
+     "title": "File:What are the preserved buildings in the Roman Empire.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 1592718964,
+       "width": 3840,
+       "height": 2160,
+       "duration": 760.3480000000001,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/What_are_the_preserved_buildings_in_the_Roman_Empire.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:What_are_the_preserved_buildings_in_the_Roman_Empire.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153330817",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "What are the preserved buildings in the Roman Empire",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Roman Empire|License review needed (video)|Uploaded with video2commons|Videos in English|Videos of ancient architecture|Videos of Ancient Rome|Videos uploaded by Prototyperspective",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Explore 14 of the best-preserved ancient Roman buildings, from the Pantheon and Colosseum in Rome to iconic sites across the Empire, including Tunisia, Egypt, Jordan, and more. Join us for original footage from the travels of@DariusArya! \n<p>0:00 Introduction\n0:27 Colosseum (Rome)\n1:15 Pantheon (Campus Martius)\n2:10 Frigidarium of the Baths of Diocletian (Viminal Hill)\n2:28 Markets of Trajan (Roman imperial fora area; Quirinal Hill)\n3:11 Curia Iulia (Roman Forum)\n3:42 Temple of Hercules (Forum Boarium)\n4:10 Amphitheater of El Djem (Tunisia)\n5:08 Kiosk of Trajan in Philae (Egypt)\n6:02 Castrum Qasr Bshr (Jordan)\n7:31 Baalbek Temple of Bacchus (Lebanon)\n8:25 Hagia Sophia (Istanbul- Turkey)\n9:17 Odeon of Herodes Atticus (Athens- Greece)\n9:54 Villa of Diocletian (Split-Croatia)\n11:40 Imperial audience hall (Trier- Germany)\n</p>\n<ul><li>More Ancient Rome Live:*</li></ul>\n<p>Website - <a rel=\"nofollow\" class=\"external free\" href=\"https://ancientromelive.org/\">https://ancientromelive.org/</a> \nTravel Experiences - <a rel=\"nofollow\" class=\"external free\" href=\"https://ancientromelive.org/courses\">https://ancientromelive.org/courses</a>\nOnline Course: <a rel=\"nofollow\" class=\"external free\" href=\"https://tinyurl\">https://tinyurl</a> dot com/arl-online-course \n</p><p><br>\n</p>\n<ul><li>Related videos:*</li></ul>\n<p>Largo Argentina Reopens: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.youtube.com/watch?v=myhEAOw1Pq4\">https://www.youtube.com/watch?v=myhEAOw1Pq4</a>\n</p><p>Roman Aqueducts: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.youtube.com/watch?v=xGM1rsnbpE4\">https://www.youtube.com/watch?v=xGM1rsnbpE4</a>\n</p>\n<ul><li>Connect with us:*</li></ul>\n<p>Facebook - <a rel=\"nofollow\" class=\"external free\" href=\"https://facebook.com/ancientromelive/\">https://facebook.com/ancientromelive/</a> \nInstagram - <a rel=\"nofollow\" class=\"external free\" href=\"https://instagram.com/ancientromelive/\">https://instagram.com/ancientromelive/</a>\nTwitter - <a rel=\"nofollow\" class=\"external free\" href=\"https://twitter.com/ancientromelive/\">https://twitter.com/ancientromelive/</a> \n</p><p><br>\n__________\n</p><p><br>  \n</p>\n<ol><li>ancientromelive #romanempire #romanengineering #romanarchitecture #romeexploration</li>\n<li>ancientrome #rome #egypt #turkey  #germany #mediterranean #monument</li></ol>\n<p>__________\n</p><p><br>\n</p><p>This video and our YouTube channel contains dialogue, music, and images that are the property of The American Institute for Roman Culture. You are authorized to share the video link and channel and embed this video in your website or others provided you link back to our channel. \n</p>\nAncient Rome Live is a project by The American Institute for Roman Culture, a registered 501(C)3 US non-profit organization (EIN 22-3885181). Find out more about The American Institute for Roman Culture here: <a rel=\"nofollow\" class=\"external free\" href=\"https://romanculture.org/\">https://romanculture.org/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@AncientRomeLive\">Ancient Rome Live</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 153330824,
+     "ns": 6,
+     "title": "File:How did Roman Aqueducts work.webm",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 1513171356,
+       "width": 3840,
+       "height": 2160,
+       "duration": 857.168,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/How_did_Roman_Aqueducts_work.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:How_did_Roman_Aqueducts_work.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153330824",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "How did Roman Aqueducts work",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Water supply infrastructure|Aqueducts (water supply)|Files from external sources with reviewed licenses|Explanatory videos|Videos from YouTube|Media of the day|Uploaded with video2commons|Videos in English|Videos of ancient architecture|Videos of water management|Videos of Ancient Rome|Videos uploaded by Prototyperspective",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Everything you've wanted to know about Roman aqueducts.   How they functioned.  What they were used for in Roman cities.   Exclusive access into aqueducts channels in Rome and throughout the Empire.  \n<p>0:00 Introduction<br>\n0:36 Initial water sources for Rome<br>\n0:53 Aqua Appia<br>\n1:08 Gravity flow system<br>\n2:11 11 Aqueducts of Rome<br>\n2:32 Ancient literary sources: Vitruvius and Frontinus<br>\n2:57 Water sources for aqueducts<br>\n3:24 Establishing the slope of the aqueduct channel<br>\n4:01 Equipment used in surveying<br>\n5:00 The water channel: specus<br>\n6:00 Porta Maggiore<br>\n6:53 Castellum aquae <br>\n8:00 Lead pipes<br>\n8:28 Water flow rates: quinaria<br>\n9:26 Spring water deposited calcium inside the water channels<br>\n10:32 What were aqueducts used for?<br>\n12:47 Famous imperial aqueducts in the Empire\n</p><p>__________\n</p><p>This video and our YouTube channel contains dialogue, music, and images that are the property of The American Institute for Roman Culture. You are authorized to share the video link and channel and embed this video in your website or others provided you link back to our channel. \n</p>\nAncient Rome Live is a project by The American Institute for Roman Culture, a registered 501(C)3 US non-profit organization (EIN 22-3885181)./",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@AncientRomeLive\">Ancient Rome Live</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 162601973,
+     "ns": 6,
+     "title": "File:Territorial Evolution of the Dacian tribes and kingdoms (Author Portasa Cristian) (Platform HistoAtlas and Wikipedia).webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 9277705,
+       "width": 1920,
+       "height": 1080,
+       "duration": 387.314,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Territorial_Evolution_of_the_Dacian_tribes_and_kingdoms_%28Author_Portasa_Cristian%29_%28Platform_HistoAtlas_and_Wikipedia%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Territorial_Evolution_of_the_Dacian_tribes_and_kingdoms_(Author_Portasa_Cristian)_(Platform_HistoAtlas_and_Wikipedia).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162601973",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Territorial Evolution of the Dacian tribes and kingdoms (Author Portasa Cristian) (Platform HistoAtlas and Wikipedia)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|Maps of Dacian tribes|Maps of Dacia under Burebista",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Territorial Evolution of all Dacians.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Portasa_Cristian\" title=\"User:Portasa Cristian\">Portasa Cristian</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 175887072,
+     "ns": 6,
+     "title": "File:Territorial evolution of the Dacian kingdom from Burebista to Decebalus (Remake).webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 9887557,
+       "width": 1920,
+       "height": 1078,
+       "duration": 89.003,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Territorial_evolution_of_the_Dacian_kingdom_from_Burebista_to_Decebalus_%28Remake%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Territorial_evolution_of_the_Dacian_kingdom_from_Burebista_to_Decebalus_(Remake).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175887072",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Territorial evolution of the Dacian kingdom from Burebista to Decebalus (Remake)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "CC-Zero|Self-published work|Maps of Dacia under Burebista|Maps of Dacia under Decebalus",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Dacia, from Burebista to Decebalus, emerged as a strong, unified kingdom under Burebista, later fragmented after his death, then reunited under Decebalus, who fortified it and resisted Rome until his defeat by Trajan in 106 CE.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Portasa_Cristian\" title=\"User:Portasa Cristian\">Portasa Cristian</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 201537173,
+     "ns": 6,
+     "title": "File:Ollie Bye's The Holy Roman Empire Every Year.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 420792595,
+       "width": 2361,
+       "height": 2156,
+       "duration": 856.321,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ollie_Bye%27s_The_Holy_Roman_Empire_Every_Year.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ollie_Bye%27s_The_Holy_Roman_Empire_Every_Year.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=201537173",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Ollie Bye's The Holy Roman Empire Every Year",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Copyrighted free use|PD shape|PD text|PD-shape missing SDC copyright status|PD-text missing SDC copyright status|Ollie Bye's The Holy Roman Empire Every Year",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The History of the Holy Roman Empire, from the crowning of Charlemagne in 800 through to its demise in 1806, and beyond up to German unification in 1871.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Ollie Bye",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

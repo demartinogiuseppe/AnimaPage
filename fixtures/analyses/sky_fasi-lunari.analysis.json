@@ -1,0 +1,141 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "literary": {
+      "isLiterary": false
+    },
+    "exercises": [
+      "In quale fase la Luna non si vede? Perché?",
+      "Disegna la Luna al primo quarto e all'ultimo quarto."
+    ],
+    "illustrations": [
+      {
+        "kind": "diagram",
+        "description": "La Terra al centro, la Luna in otto posizioni sulla sua orbita, il Sole a sinistra; accanto, come appare la Luna dalla Terra.",
+        "labels": [
+          "luna nuova",
+          "primo quarto",
+          "luna piena",
+          "ultimo quarto",
+          "Sole"
+        ]
+      }
+    ],
+    "language": "it",
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        52
+      ]
+    },
+    "subject": "scienze",
+    "topic": "Le fasi lunari",
+    "gradeLevel": "scuola primaria, classe 5",
+    "contentType": "explanation",
+    "summary": "La pagina spiega che la Luna non ha luce propria e riflette la luce del Sole. Mentre gira intorno alla Terra, ne vediamo illuminata una parte diversa: sono le fasi lunari, luna nuova, primo quarto, luna piena e ultimo quarto. Il ciclo completo dura circa 29 giorni e mezzo.",
+    "concepts": [
+      "la Luna riflette la luce del Sole",
+      "rivoluzione della Luna intorno alla Terra",
+      "fasi lunari",
+      "luna crescente e calante",
+      "mese lunare"
+    ],
+    "entities": [
+      {
+        "name": "Luna",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "Terra",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "Sole",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "luna nuova",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "primo quarto",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "luna piena",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "ultimo quarto",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "ciclo lunare",
+        "type": "quantity",
+        "value": "circa 29 giorni e mezzo",
+        "onPage": true
+      },
+      {
+        "name": "rivoluzione della Luna",
+        "type": "quantity",
+        "value": "circa 27 giorni",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "La Luna non ha luce propria: riflette la luce del Sole.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "La Luna gira intorno alla Terra: è il moto di rivoluzione, che dura circa 27 giorni.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Metà della Luna è sempre illuminata dal Sole, ma dalla Terra ne vediamo una parte diversa a seconda della sua posizione.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Con la luna nuova la Luna è tra la Terra e il Sole e non la vediamo.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Al primo quarto vediamo illuminata la metà destra: la Luna è crescente.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Con la luna piena la Terra è tra il Sole e la Luna e vediamo tutto il disco illuminato.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "All'ultimo quarto vediamo illuminata la metà sinistra: la Luna è calante.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Il ciclo delle fasi, dal novilunio al novilunio, dura circa 29 giorni e mezzo.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "suggestedEngine": "sky",
+    "engineReason": "Le fasi dipendono dalle posizioni di Sole, Terra e Luna: si capiscono meglio guardando il sistema in movimento nel cielo."
+  }
+}

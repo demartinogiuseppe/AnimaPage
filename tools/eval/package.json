@@ -1,0 +1,13 @@
+{
+  "name": "@pv/eval",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@pv/server": "workspace:*"
+  },
+  "scripts": {
+    "eval": "tsx src/index.ts"
+  }
+}

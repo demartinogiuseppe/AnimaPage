@@ -1,0 +1,51 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=Stefano+Benni%7CBar+Sport",
+ "fetchedAt": "2026-11-03T16:01:39.330Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 3802,
+     "ns": 0,
+     "title": "Stefano Benni",
+     "extract": "Stefano Benni (Bologna, 12 agosto 1947 – Bologna, 9 settembre 2025) è stato uno scrittore, umorista, giornalista, sceneggiatore, autore televisivo, poeta e drammaturgo italiano.\nEra soprannominato \"Lupo\", nome che gli derivava dalla sua infanzia trascorsa nella campagna di Monzuno. Il nome ricompare più volte nell'opera di Benni, come il professor \"Stephen Lupus\" di Stranalandia, o \"Luca Lupetto\" di Comici spaventati guerrieri e \"Lupetto\" protagonista di Saltatempo.\nI suoi libri sono stati tradotti in più di 30 lingue.",
+     "pageprops": {
+      "wikibase_item": "Q561116"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T16:00:23Z",
+     "lastrevid": 152998433,
+     "length": 26036,
+     "fullurl": "https://it.wikipedia.org/wiki/Stefano_Benni",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Stefano_Benni&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Stefano_Benni"
+    },
+    {
+     "pageid": 4805612,
+     "ns": 0,
+     "title": "Bar Sport",
+     "extract": "Bar Sport – libro di Stefano Benni, pubblicato nel 1976\nBar Sport – film del 2011 tratto dall'omonimo libro\nBar Sport – storico programma radiofonico di Radio Popolare\nBar Sport Duemila – libro di Stefano Benni, pubblicato nel 2016",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q16265542"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:19:55Z",
+     "lastrevid": 98762008,
+     "length": 395,
+     "fullurl": "https://it.wikipedia.org/wiki/Bar_Sport",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Bar_Sport&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Bar_Sport"
+    }
+   ]
+  }
+ }
+}

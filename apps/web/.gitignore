@@ -1,0 +1,2 @@
+# Local CA and server certificate for `pnpm dev:phone` (private keys: never commit)
+.cert/

@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=cantieri+navali&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T02:33:03.667Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 237280,
+     "ns": 0,
+     "title": "Fincantieri",
+     "index": 1,
+     "extract": "Fincantieri S.p.A. è un'azienda pubblica italiana operante nel settore della cantieristica navale, nel quale è uno dei gruppi più importanti al mondo e il più importante d'Europa, disponendo di 18 stabilimenti su scala mondiale e di oltre 24 000 dipendenti.\nDi proprietà dell'IRI fin dalla sua fondazione, è oggi partecipata al 64,21% da CDP Equity S.p.a., finanziaria di Cassa Depositi e Prestiti (società controllata del Ministero dell'Economia e delle Finanze). La società è quotata alla Borsa Italiana nell'indice FTSE Italia Mid Cap.\nFa parte di SEA Europe, l'associazione dei costruttori navali europei, mentre in Italia è tra i soci fondatori di Assonave, l'Associazione dei cantieri navali pubblici, che si affianca all'Ancanap, l'Associazione dei cantieri navali privati.",
+     "pageprops": {
+      "wikibase_item": "Q1327429"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-05T00:27:12Z",
+     "lastrevid": 152649900,
+     "length": 146614,
+     "fullurl": "https://it.wikipedia.org/wiki/Fincantieri",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Fincantieri&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Fincantieri"
+    },
+    {
+     "pageid": 1626816,
+     "ns": 0,
+     "title": "Cantiere navale di Monfalcone",
+     "index": 3,
+     "extract": "Il cantiere navale di Monfalcone, la cui attuale denominazione ufficiale è Fincantieri - Cantiere Navale di Monfalcone, è un cantiere navale con sede in Monfalcone nel quartiere di Panzano.\nLo stabilimento, attualmente, è il più grande di Fincantieri ed è impegnato nella costruzione di navi da crociera ad elevato tonnellaggio.",
+     "pageprops": {
+      "wikibase_item": "Q3655754"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:03Z",
+     "lastrevid": 152916428,
+     "length": 35672,
+     "fullurl": "https://it.wikipedia.org/wiki/Cantiere_navale_di_Monfalcone",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Cantiere_navale_di_Monfalcone&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Cantiere_navale_di_Monfalcone"
+    },
+    {
+     "pageid": 1673860,
+     "ns": 0,
+     "title": "Cantiere navale",
+     "index": 2,
+     "extract": "Il cantiere navale è un tipo di cantiere, precisamente uno stabilimento dove si costruiscono, si riparano o si demoliscono navi.\nQuello dove si riparano si chiama anche arsenale, ed è dotato in genere anche di bacino di carenaggio; quello dove si producono e riparano piccole imbarcazioni è detto anche squero, dal nome del piano inclinato ove si tirano in secca le imbarcazioni.\nLa struttura impiantistica, la dimensione e la configurazione degli stabilimenti varia a seconda della tipologia dell'attività che vi viene svolta e della grandezza delle imbarcazioni che vengono trattate.",
+     "pageprops": {
+      "wikibase_item": "Q190928"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:05Z",
+     "lastrevid": 152861978,
+     "length": 4481,
+     "fullurl": "https://it.wikipedia.org/wiki/Cantiere_navale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Cantiere_navale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Cantiere_navale"
+    },
+    {
+     "pageid": 2525186,
+     "ns": 0,
+     "title": "Rodriquez Cantieri Navali",
+     "index": 4,
+     "extract": "La Rodriquez Cantieri Navali è stata una società per azioni che produceva aliscafi, traghetti, imbarcazioni per la difesa, yacht e barche da diporto, che il 31 dicembre 2012 è stata fusa per incorporazione nella società Intermarine S.p.A., controllata dalla famiglia Colaninno attraverso la IMMSI.",
+     "pageprops": {
+      "wikibase_item": "Q3655764"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:57Z",
+     "lastrevid": 152255425,
+     "length": 12375,
+     "fullurl": "https://it.wikipedia.org/wiki/Rodriquez_Cantieri_Navali",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Rodriquez_Cantieri_Navali&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Rodriquez_Cantieri_Navali"
+    }
+   ]
+  }
+ }
+}

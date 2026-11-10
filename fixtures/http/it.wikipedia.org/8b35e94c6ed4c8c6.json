@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Devastazione+dell%27Italia+settentrionale+da+parte+degli+Unni&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:03:34.340Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 84010,
+     "ns": 0,
+     "title": "Attila",
+     "index": 1,
+     "extract": "Attila (395 circa – Pannonia, 453 circa) è stato un re unno dal 434 fino alla sua morte. Viene considerato come uno dei sovrani più potenti del mondo e della storia tardoantica.\nDall'Europa governò un vastissimo dominio che si estendeva dall'Europa centrale al Mar Caspio, e dal Danubio al Mar Baltico, unificando - per la prima e unica volta nella storia - la maggior parte dei popoli barbarici dell'Eurasia settentrionale (dai Germani orientali agli Slavi agli Ugro-finni). Durante il suo regno divenne il più irriducibile nemico dell'Impero romano (sia per la Pars Occidentalis che per la Pars Orientalis): invase due volte i Balcani, cinse d'assedio Costantinopoli, marciò attraverso la Francia spingendosi fino ad Aurelianum (Orleans), scacciò da Ravenna l'imperatore Valentiniano III (452).\nSoprannominato flagellum Dei (\"flagello di Dio\") per la sua ferocia, si diceva che dove fosse passato non sarebbe più cresciuta l'erba. Il suo nome, altresì, significa in gotico \"piccolo padre\". Gli studi storici moderni vedono in lui più un predone che un distruttore insensato. Si racconta che fosse superstizioso, facesse affidamento sulle profezie e si facesse influenzare nelle decisioni in campo militare da indovini e sciamani. Alcune leggende, mai sostenute da elementi concreti, raccontano di sue pratiche cannibalistiche e che avesse mangiato i propri figli Erp ed Eitil, che sua moglie gli servì dopo averli arrostiti nel miele (cosa altamente improbabile considerando che l'ambasciatore e storico Prisco di Panion descrive Attila come un padre affettuoso). Alcuni raccontano che avrebbe avuto numerose mogli e più di cento figli; questa affermazione però viene riferita anche ai sovrani mongoli Gengis Khan e Kublai Khan, causando confusione.\nNonostante il suo impero si fosse disgregato alla sua morte, è diventato una figura leggendaria nella storia europea, che lo ricorda in modo diverso a seconda della zona: guerriero feroce, avido e crudele nell'area al tempo sotto Roma; condottiero impavido e coraggioso nei paesi che facevano parte del suo impero. Attila appare spesso nelle letterature sia germaniche sia scandinave; alcuni racconti lo celebrano come un grande e nobile re ed è il personaggio principale di diverse saghe dell'Europa settentrionale e orientale.",
+     "pageprops": {
+      "wikibase_item": "Q36724"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T16:00:24Z",
+     "lastrevid": 152917491,
+     "length": 66385,
+     "fullurl": "https://it.wikipedia.org/wiki/Attila",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Attila&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Attila"
+    },
+    {
+     "pageid": 675696,
+     "ns": 0,
+     "title": "Unni",
+     "index": 2,
+     "extract": "Gli Unni erano un popolo guerriero nomade, proveniente dalla Siberia meridionale, che giunse in Europa nel IV secolo. Sono particolarmente conosciuti per le incursioni compiute a metà del V secolo contro l'impero romano d'Occidente. Tra il 447 e il 454, sotto Attila, formarono un impero nomade che fu il più vasto del suo tempo, con una superficie di 4,0 milioni di km² all'apice.",
+     "pageprops": {
+      "wikibase_item": "Q45813"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-01T17:18:49Z",
+     "lastrevid": 152711573,
+     "length": 86356,
+     "fullurl": "https://it.wikipedia.org/wiki/Unni",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Unni&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Unni"
+    },
+    {
+     "pageid": 702159,
+     "ns": 0,
+     "title": "Impero romano",
+     "index": 4,
+     "extract": "L'Impero romano fu lo Stato romano consolidatosi nell'area euro-mediterranea tra il I secolo a.C. e il XV secolo; in questa voce si tratta il periodo che va dalla sua fondazione, generalmente indicata con il 27 a.C. (primo anno del principato di Augusto), al 395, quando, dopo la morte di Teodosio I, l'Impero fu suddiviso dal punto di vista amministrativo ma non politico in una pars occidentalis e in una pars orientalis. L'Impero romano d'Occidente si fa terminare per convenzione nel 476, anno in cui Odoacre depone l'ultimo imperatore, Romolo Augusto, mentre l'Impero romano d'Oriente (indicato talvolta come Impero bizantino nella sua fase medievale) si protrasse fino alla conquista di Costantinopoli da parte degli Ottomani, nel 1453.\nNella sua massima espansione, l'Impero si estendeva, in tutto o in parte, sui territori degli odierni Stati di: Portogallo, Spagna, Andorra, Francia, Monaco, Belgio, Paesi Bassi (regioni meridionali), Regno Unito (Inghilterra, Galles, parte della Scozia), Lussemburgo, Germania (regioni meridionali e occidentali), Svizzera, Austria, Liechtenstein, Slovacchia (piccola parte), Ungheria, Italia, Vaticano, San Marino, Malta, Slovenia, Croazia, Bosnia ed Erzegovina, Serbia, Montenegro, Kosovo, Albania, Macedonia del Nord, Grecia, Bulgaria, Romania, Moldavia, Ucraina (parte costiera sud-occidentale con Isola dei Serpenti e Podolia), Turchia, Russia, Cipro, Siria, Libano, Iraq, Armenia, Georgia, Iran, Azerbaigian, Israele, Giordania, Palestina, Egitto, Sudan (piccola parte e per limitato periodo di tempo), Libia, Tunisia, Algeria, Marocco e Arabia Saudita (piccola parte). In totale, 52 dei 196 Stati riconosciuti nel mondo, più 3 parzialmente riconosciuti, più di ogni altro impero del mondo antico. Si espandeva su tre diversi continenti: Europa, Africa e Asia.\nNel 117 sotto Traiano ricopriva un'area di 5,0 milioni di km2, conteggiando anche gli Stati vassalli e i regni clienti. L'esatta misura della superficie governata da questo potente impero in realtà non è certa, a causa della mancanza di dati precisi, di dispute territoriali e della presenza di stati clienti il cui rapporto nei confronti di Roma non è sempre chiaro.\nPur non essendo il più vasto Stato dell’antichità, spettando tali primati all'impero achemenide, cinese e Xiongnu, quello di Roma è considerato il più grande per gestione e qualità del territorio, organizzazione socio-politica, e per l'importante eredità lasciata nella storia dell'umanità. In tutti i territori sui quali estesero i propri confini i Romani costruirono città, strade, ponti, acquedotti, fortificazioni, esportando ovunque il loro modello di civiltà e al contempo assimilando le popolazioni e civiltà assoggettate, in un processo così profondo che per secoli ancora dopo la fine dell'impero queste genti continuarono a definirsi romane. La civiltà nata sulle rive del Tevere, cresciuta e diffusasi in epoca repubblicana e infine sviluppatasi pienamente in età imperiale, è essenziale componente della civiltà occidentale.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q2277"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T00:25:51Z",
+     "lastrevid": 152745657,
+     "length": 110436,
+     "fullurl": "https://it.wikipedia.org/wiki/Impero_romano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Impero_romano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Impero_romano"
+    },
+    {
+     "pageid": 1434548,
+     "ns": 0,
+     "title": "Storia d'Italia",
+     "index": 3,
+     "extract": "La storia d'Italia è l'insieme degli eventi susseguitisi nel corso del tempo nell'area geografica italiana; la presenza in Italia di Roma, capitale del paese e già centro della civiltà romana e della Chiesa cattolica, ha reso la sua storia pilastro fondante della cultura occidentale, latina, europea e mediterranea. La sua eredità storico-culturale si riflette nell'elevato numero di patrimoni dell'umanità presenti nel paese.\nLuogo di incontro di culture arcaiche come quelle etrusca, latina e sabina, nonché di insediamenti celti, colonie greche e puniche, l'Italia antica fu federata dalla Repubblica romana e divenne il centro dell'Impero romano. Una prima sistemazione amministrativa le fu data da Cesare Augusto (27 a.C.-14 d.C.). Divenne poi terra a maggioranza cristiana, abbandonando l'antico politeismo, tra la promulgazione dell'editto di Milano (313), che garantiva la libertà di culto, e quella dell'editto di Tessalonica (380), che impose di seguire la religione del vescovo di Roma.\nDopo la caduta dell'Impero romano d'Occidente (476), l'Italia venne invasa dagli Ostrogoti di Teodorico (492), poi dai Bizantini di Giustiniano (535), e dai Longobardi di Alboino (568). A ciò si accompagnò il processo di divisione politica: l'Italia meridionale fu contesa tra Longobardi, Bizantini e Saraceni, quella centrale si consolidò come Stato Pontificio, e quella settentrionale venne inglobata da Carlo Magno nel Sacro Romano Impero con l'incoronazione di quest'ultimo da parte di Papa Leone III nell'anno 800. Con l'indebolimento dell'autorità imperiale, fu favorita l'ascesa di autonomi Comuni nell'Italia centro-settentrionale. Le repubbliche marinare di Genova e Venezia acquistarono un grande peso nel corso delle crociate, provocando una rivoluzione commerciale e mercantile in tutta Italia. Contestualmente, il Mezzogiorno veniva unificato nel regno di Sicilia dai Normanni. Per intrecci dinastici, corona di Sicilia e diadema imperiale pervennero entrambi a Federico II di Svevia, il quale fu a capo di un impero che si espanse nei paesi baltici e in Terra Santa, ma che si disgregò dopo la morte.\nDopo la crisi del Trecento, la penisola conobbe una nuova epoca di prosperità economica e culturale tra XV e XVI secolo, periodo noto come Rinascimento, in cui furono particolarmente attivi artisti, scienziati, ed esploratori italiani. Successivamente, l'Italia fu il centro della controriforma, del barocco e del neoclassicismo. Durate tutta l'età moderna l'Italia rimase divisa in diversi stati e fu teatro di numerosi conflitti tra cui le guerre d'Italia del XVI secolo e le guerre di successione del XVIII secolo. Dopo la parentesi napoleonica, gli italiani lottarono per la loro indipendenza ed unificazione in una serie di guerre sotto la guida del Regno di Sardegna sabaudo, occupando il nord, sottoposto direttamente o indirettamente agli Asburgo d'Austria, e le Due Sicilie, governate dai Borbone di Napoli. Roma, nel mezzo della guerra franco-prussiana (1870-1871), fu fatta capitale a conclusione del Risorgimento.\nL'Italia unita divenne uno Stato liberale sul fronte economico-politico, mentre in politica estera entrò nella Triplice alleanza, creando un proprio spazio coloniale in Libia e Corno d'Africa. La volontà di riscattare le terre irredente portò l'Italia a partecipare alla prima guerra mondiale passando al fianco della Triplice intesa e contribuendo alla vittoria sugli imperi centrali. La società italiana, colpita dalla propaganda nazionalista della \"vittoria mutilata\", aderì gradualmente al fascismo di Benito Mussolini e dei suoi seguaci, saliti al potere nell'ottobre del 1922. L'avvicinamento alla Germania nazista e la formazione dell'asse Roma-Berlino del 1936 saranno determinanti nella scelta italiana di entrare nel 1940 nella seconda guerra mondiale contro gli Alleati. A seguito dell'armistizio diramato l'8 settembre 1943 e dell'occupazione tedesca di gran parte della penisola, il Regno d'Italia e la resistenza italiana combatteranno a fianco degli Alleati nella guerra di liberazione italiana dal nazifascismo. Nel giugno del 1946 ebbe termine la forma di Stato monarchica con l'istituzione dell'attuale repubblica a seguito di un referendum. In seguito alla ricostruzione, vi fu un periodo storico di ripresa economica, industriale e politica, portandola ad essere tra le nazioni fondanti del G6 (poi G7, G8 e nuovamente G7) nel 1975 e del G20 nel 1999. L'Italia è stata inoltre tra i sei Paesi fondatori dell'Unione europea.",
+     "pageprops": {
+      "wikibase_item": "Q7791"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-01T12:00:16Z",
+     "lastrevid": 152955851,
+     "length": 296849,
+     "fullurl": "https://it.wikipedia.org/wiki/Storia_d%27Italia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Storia_d%27Italia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Storia_d%27Italia"
+    }
+   ]
+  }
+ }
+}

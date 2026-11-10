@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=nervi+acustici&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T03:08:28.419Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 57555,
+     "ns": 0,
+     "title": "Nervi cranici",
+     "index": 1,
+     "extract": "I nervi cranici o nervi encefalici sono un gruppo di fasci nervosi che originano direttamente dall'encefalo, più precisamente dal tronco encefalico. Fanno parte del sistema nervoso periferico.\nNell'essere umano adulto fisiologicamente sono presenti 12 paia di nervi cranici (24 nervi in totale) ed i residui dei nervi terminali, strutture che usualmente regrediscono durante lo sviluppo embrionale e nei primi anni di vita. I nervi cranici sono convenzionalmente numerati secondo la Terminologia Anatomica con i numeri romani (I-XII) ad eccezione del nervo terminale che è numerato con la numerazione araba come nervo cranico 0. Considerando la loro origine, essi sono numerati in senso cranio-caudale, ovvero dall'alto verso il basso se il soggetto si trova in posizione anatomica.\nI nervi cranici si distinguono dai nervi spinali che invece originano dal midollo spinale. Analogamente ai nervi spinali essi sono rivestiti da meningi (dura madre, aracnoide, pia madre) ed emergono da fori delimitati da ossa e strutture connettivali (fori intervertebrali nei nervi spinali; fori dalla terminologia eterogenea nel caso del cranio).",
+     "pageprops": {
+      "wikibase_item": "Q180454"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:23Z",
+     "lastrevid": 152801553,
+     "length": 51221,
+     "fullurl": "https://it.wikipedia.org/wiki/Nervi_cranici",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Nervi_cranici&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Nervi_cranici"
+    },
+    {
+     "pageid": 514123,
+     "ns": 0,
+     "title": "Nervo trigemino",
+     "index": 2,
+     "extract": "Il nervo trigemino è il V paio di nervi cranici.\nÈ un nervo misto (sensitivo e motorio) somatico costituito prevalentemente da fibre sensitive somatiche e da un piccolo contingente di fibre motorie. Queste due componenti emergono direttamente dal nevrasse come due radici distinte: la radice sensitiva, più voluminosa, laterale rispetto a quella motrice ed appiattita in senso anteroposteriore, mette capo al ganglio semilunare del Gasser; la radice motrice, più piccola, mediale rispetto a quella sensitiva, passa al di sotto del ganglio medesimo e si unisce alla terza branca trigeminale.\n\nLa componente sensitiva consta di tre nuclei: Nucleo della radice discendente del N. Trigemino (colonnina di sostanza grigia che origina al livello del bulbo e  giunge fino ai primi segmenti cervicali del midollo spinale), Nucleo Sensitivo (o principale) del N. Trigemino posto al livello del ponte, Nucleo Mesencefalico del N. Trigemino. Il primo porterà una sensibilità Tattile Protopatica, Dolorifica e Termica del collo e della testa; il secondo, porterà una sensibilità Epicritica del collo e della testa; il terzo una sensibilità propriocettiva dei muscoli masticatori. Tutti dunque raccolgono stimoli riguardanti la sensibilità esterocettiva e propriocettiva della testa, faccia, meningi, denti e lingua, ventre anteriore del muscolo digastrico, il muscolo tensore del velo palatino e tensore dell'ugola e il muscolo miloioideo.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q189763"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:02Z",
+     "lastrevid": 147377530,
+     "length": 20450,
+     "fullurl": "https://it.wikipedia.org/wiki/Nervo_trigemino",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Nervo_trigemino&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Nervo_trigemino"
+    },
+    {
+     "pageid": 514145,
+     "ns": 0,
+     "title": "Nervo facciale",
+     "index": 4,
+     "extract": "Il nervo faciale (o facciale), costituisce il VII paio di nervi cranici e comprende due distinti nervi: il faciale propriamente detto e l'intermedio. Assieme ai nervi trigemino (V paio), glossofaringeo (IX paio) e vago (X paio) rappresenta uno dei quattro nervi cranici misti, cioè composti sia da fibre sensitive (afferenti) che da fibre motrici (efferenti).\nLa descrizione anatomica classica prevede la distinzione del nervo faciale in due nervi, in base al tipo di fibre nervose che contengono:\n\nIl nervo faciale propriamente detto contiene fibre motrici somatiche per l'innervazione dei muscoli mimici e degli altri muscoli derivati del secondo arco branchiale e fibre parasimpatiche pregangliari visceroeffettrici per le ghiandole lacrimali e per le ghiandole della mucosa del naso e del palato.\nIl nervo intermedio (del Wrisberg) comprende fibre sensitive somatiche e viscerali, che hanno una origine comune nel ganglio genicolato e si portano rispettivamente a una ristretta area del padiglione auricolare e ai 2/3 anteriori della lingua, e fibre parasimpatiche pregangliari visceroeffettrici per le ghiandole salivari sottomandibolare e sottolinguale. Viene considerato un nervo a sé stante.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q242160"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:02Z",
+     "lastrevid": 148851797,
+     "length": 21200,
+     "fullurl": "https://it.wikipedia.org/wiki/Nervo_facciale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Nervo_facciale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Nervo_facciale"
+    },
+    {
+     "pageid": 514470,
+     "ns": 0,
+     "title": "Nervo vago",
+     "index": 3,
+     "extract": "Il nervo vago (chiamato anche nervo pneumogastrico o nervo X del cranio, dove X sta per decimo) è la decima delle dodici paia di nervi cranici (o encefalici) che partono dal tronco encefalico (composto da midollo allungato, ponte e mesencefalo). Il nervo vago parte dal midollo allungato e si porta, attraverso il foro giugulare, verso il basso nel torace e nell'addome. I 2 nervi vaghi destro e sinistro sono tra i più importanti del corpo nonché i più lunghi ed i più ramificati tra i nervi cranici.\nIl suo nome deriva dalla parola latina vagus, che significa letteralmente \"vagabondo\", probabilmente in riferimento al suo lungo e intricato percorso nel corpo umano.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q190140"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T16:38:11Z",
+     "lastrevid": 153195770,
+     "length": 12134,
+     "fullurl": "https://it.wikipedia.org/wiki/Nervo_vago",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Nervo_vago&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Nervo_vago"
+    }
+   ]
+  }
+ }
+}

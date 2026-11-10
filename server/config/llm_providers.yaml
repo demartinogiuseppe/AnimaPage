@@ -1,0 +1,103 @@
+# AI models the app may use, chosen per pipeline phase in "Impostazioni → Modello AI" (decision D20).
+#
+# The browser only ever sends an `id` and one of its `models`; the server checks both against this
+# list, so no URL or model string from the browser is ever used. Keys never go here: `apiKeyEnv` is
+# the NAME of a variable in server/.env (git-ignored), read only by the server.
+#
+# Fields:
+#   id          short name (letters, digits, - _), shown nowhere but stored on the device
+#   label       Italian name shown in the app
+#   kind        claude-cli | gemini-cli | openai (any OpenAI-compatible chat completions endpoint)
+#   baseUrl     openai only: the endpoint up to /v1 (…/chat/completions is added)
+#   apiKeyEnv   openai only, optional: env var holding the key (local servers need none)
+#   models      the models offered; the first one is the entry's default
+#   vision      true if the models accept images (needed for "Lettura della foto" and "Controllo visivo")
+#   jsonSchema  true if the endpoint enforces a JSON Schema (response_format json_schema); false =
+#               JSON mode, the schema goes in the prompt and the answer is validated and repaired once
+#
+# Local servers (Ollama, LM Studio) show as "non raggiungibile" in the app while they are not running,
+# and each model as "non scaricato" until it is pulled. See docs/dev-setup.md, "Altri modelli AI".
+
+providers:
+  # Claude Code CLI with the Claude subscription (D3): the default for every phase.
+  - id: claude
+    label: Claude (abbonamento)
+    kind: claude-cli
+    models: [opus, sonnet, haiku]
+    vision: true
+    jsonSchema: true
+
+  # Gemini CLI with the user's Google account. Aliases from the CLI 0.63.0 source: auto, pro, flash, flash-lite.
+  - id: gemini
+    label: Gemini (account Google)
+    kind: gemini-cli
+    models: [auto, pro, flash]
+    vision: true
+    jsonSchema: false
+
+  # Ollama, OpenAI-compatible endpoint. Small vision models that fit in 8 GB of VRAM
+  # (ollama.com/library, 2026-11-05: gemma3:4b 3.4 GB, qwen2.5vl:3b 3.2 GB).
+  - id: ollama
+    label: Ollama (sul PC)
+    kind: openai
+    baseUrl: http://localhost:11434/v1
+    models: [gemma3:4b, qwen2.5vl:3b]
+    vision: true
+    jsonSchema: true
+
+  # LM Studio, OpenAI-compatible server (default port 1234). Model ids as in lmstudio.ai/models.
+  - id: lmstudio
+    label: LM Studio (sul PC)
+    kind: openai
+    baseUrl: http://localhost:1234/v1
+    models: [google/gemma-3-4b]
+    vision: true
+    jsonSchema: true
+
+  # Paid or free-tier APIs: uncomment, put the key in server/.env under the apiKeyEnv name, restart
+  # the server. Check model names in each provider's documentation before enabling.
+  #
+  # - id: gemini-api
+  #   label: Gemini (chiave API)
+  #   kind: openai
+  #   baseUrl: https://generativelanguage.googleapis.com/v1beta/openai
+  #   apiKeyEnv: GEMINI_API_KEY
+  #   models: [gemini-2.5-flash]
+  #   vision: true
+  #   jsonSchema: true
+  #
+  # - id: openai
+  #   label: OpenAI
+  #   kind: openai
+  #   baseUrl: https://api.openai.com/v1
+  #   apiKeyEnv: OPENAI_API_KEY
+  #   models: [gpt-4.1-mini]
+  #   vision: true
+  #   jsonSchema: true
+  #
+  # - id: openrouter
+  #   label: OpenRouter
+  #   kind: openai
+  #   baseUrl: https://openrouter.ai/api/v1
+  #   apiKeyEnv: OPENROUTER_API_KEY
+  #   models: [google/gemini-2.5-flash]
+  #   vision: true
+  #   jsonSchema: true
+  #
+  # - id: mistral
+  #   label: Mistral
+  #   kind: openai
+  #   baseUrl: https://api.mistral.ai/v1
+  #   apiKeyEnv: MISTRAL_API_KEY
+  #   models: [mistral-small-latest]
+  #   vision: true
+  #   jsonSchema: true
+  #
+  # - id: groq
+  #   label: Groq
+  #   kind: openai
+  #   baseUrl: https://api.groq.com/openai/v1
+  #   apiKeyEnv: GROQ_API_KEY
+  #   models: [meta-llama/llama-4-scout-17b-16e-instruct]
+  #   vision: true
+  #   jsonSchema: false

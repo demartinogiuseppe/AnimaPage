@@ -1,0 +1,122 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "language": "it",
+    "literary": {
+      "isLiterary": false
+    },
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        212
+      ]
+    },
+    "subject": "matematica",
+    "topic": "Il volume del cilindro e del cono",
+    "gradeLevel": "scuola secondaria di primo grado, classe 3",
+    "contentType": "explanation",
+    "summary": "La pagina spiega come si calcola il volume del cilindro, area di base per altezza, e del cono, che è un terzo del volume del cilindro con la stessa base e la stessa altezza. Un esempio usa un cilindro e un cono con raggio 3 cm e altezza 10 cm. Si usa π ≈ 3,14.",
+    "concepts": [
+      "volume del cilindro",
+      "volume del cono",
+      "area di base",
+      "relazione tra cono e cilindro",
+      "π"
+    ],
+    "entities": [
+      {
+        "name": "cilindro",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "cono",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "raggio",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "altezza",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "π",
+        "type": "quantity",
+        "value": "3,14",
+        "onPage": true
+      },
+      {
+        "name": "esempio",
+        "type": "quantity",
+        "value": "r = 3 cm, h = 10 cm",
+        "onPage": true
+      },
+      {
+        "name": "volume del cilindro dell'esempio",
+        "type": "quantity",
+        "value": "282,6 cm³",
+        "onPage": true
+      },
+      {
+        "name": "volume del cono dell'esempio",
+        "type": "quantity",
+        "value": "94,2 cm³",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "Il volume del cilindro è uguale all'area di base per l'altezza: V = π · r² · h.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Il volume del cono è un terzo del volume del cilindro con la stessa base e la stessa altezza: V = (π · r² · h) : 3.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Esempio: un cilindro con r = 3 cm e h = 10 cm ha volume 3,14 · 9 · 10 = 282,6 cm³.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Il cono con la stessa base e la stessa altezza ha volume 282,6 : 3 = 94,2 cm³.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Servono tre coni pieni d'acqua per riempire il cilindro con la stessa base e la stessa altezza.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "exercises": [
+      "Calcola il volume di un cilindro con raggio 2 cm e altezza 5 cm (usa π ≈ 3,14).",
+      "Un cono ha lo stesso raggio e la stessa altezza del cilindro dell'esercizio 1: quanto vale il suo volume?"
+    ],
+    "illustrations": [
+      {
+        "kind": "diagram",
+        "description": "Un cilindro e un cono con la stessa base e la stessa altezza, con r e h indicati; tre coni versano acqua nel cilindro.",
+        "labels": [
+          "r",
+          "h",
+          "V = π r² h",
+          "V = π r² h : 3"
+        ]
+      }
+    ],
+    "suggestedEngine": "solid",
+    "engineReason": "Sono figure solide: si capiscono meglio in 3D, riempiendo il cilindro con i coni."
+  }
+}

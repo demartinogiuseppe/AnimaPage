@@ -1,0 +1,300 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=sensi%7Cocchi%7Crecettori%7Cpelle%7Cretina%7Cepidermide%7Cpupilla%7Cderma%7Ccoclea%7Ccornea%7Cnervi+ottici%7Cnervi+acustici",
+ "fetchedAt": "2026-11-05T03:07:43.144Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "normalized": [
+    {
+     "fromencoded": false,
+     "from": "sensi",
+     "to": "Sensi"
+    },
+    {
+     "fromencoded": false,
+     "from": "occhi",
+     "to": "Occhi"
+    },
+    {
+     "fromencoded": false,
+     "from": "recettori",
+     "to": "Recettori"
+    },
+    {
+     "fromencoded": false,
+     "from": "pelle",
+     "to": "Pelle"
+    },
+    {
+     "fromencoded": false,
+     "from": "retina",
+     "to": "Retina"
+    },
+    {
+     "fromencoded": false,
+     "from": "epidermide",
+     "to": "Epidermide"
+    },
+    {
+     "fromencoded": false,
+     "from": "pupilla",
+     "to": "Pupilla"
+    },
+    {
+     "fromencoded": false,
+     "from": "derma",
+     "to": "Derma"
+    },
+    {
+     "fromencoded": false,
+     "from": "coclea",
+     "to": "Coclea"
+    },
+    {
+     "fromencoded": false,
+     "from": "cornea",
+     "to": "Cornea"
+    },
+    {
+     "fromencoded": false,
+     "from": "nervi ottici",
+     "to": "Nervi ottici"
+    },
+    {
+     "fromencoded": false,
+     "from": "nervi acustici",
+     "to": "Nervi acustici"
+    }
+   ],
+   "redirects": [
+    {
+     "from": "Nervi ottici",
+     "to": "Nervo ottico"
+    },
+    {
+     "from": "Occhi",
+     "to": "Occhio"
+    }
+   ],
+   "pages": [
+    {
+     "ns": 0,
+     "title": "Nervi acustici",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Nervi_acustici",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Nervi_acustici&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Nervi_acustici"
+    },
+    {
+     "ns": 0,
+     "title": "Recettori",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Recettori",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Recettori&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Recettori"
+    },
+    {
+     "pageid": 53892,
+     "ns": 0,
+     "title": "Pupilla",
+     "extract": "La pupilla (dal latino pupilla, propr. dim. di pupa \"bambola, bambina\"; per la piccola immagine che vi si vede riflessa) in anatomia è il foro di diametro variabile situato al centro dell'iride oculare e da esso regolato, che determina la quantità di luce permessa all'interno del bulbo e dunque sulla retina. Le sue dimensioni vengono regolate automaticamente, in base all'intensità luminosa ambientale, dall'apparato di muscoli che dipendono del sistema neurovegetativo: quindi, in un ambiente buio, i muscoli dilatano la pupilla (midriasi) per ricevere maggior quantità di luce, mentre al contrario, in ambienti fortemente illuminati i muscoli tenderanno a restringela (miosi).  \n\nIl funzionamento è esattamente come avviene in un obiettivo fotografico, quando viene aperto o chiuso il diaframma (più o meno automaticamente). E se nell'occhio umano, questo movimento è abbastanza visibile, negli animali notturni e nei predatori è particolarmente accentuato. \nLa pupilla, in ottica è riferita alla porzione (in genere circolare) del fascio di luce (supposto proveniente da una sorgente posta a distanza infinita) che può attraversare un sistema ottico (pupilla di entrata), che negli obiettivi semplici coincide con la lente frontale (quasi mai in quelli complessi), oppure con il foro del diaframma; tuttavia, è spesso più importante la pupilla di uscita, che in teoria è l’immagine della pupilla di entrata, prodotta dal sistema ottico, ma è quella che ne determina la luminosità (soprattutto nei sistemi complessi reali).",
+     "pageprops": {
+      "wikibase_item": "Q173318"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:23Z",
+     "lastrevid": 147774457,
+     "length": 10304,
+     "fullurl": "https://it.wikipedia.org/wiki/Pupilla",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Pupilla&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Pupilla"
+    },
+    {
+     "pageid": 252804,
+     "ns": 0,
+     "title": "Pelle",
+     "extract": "La cute o pelle è il rivestimento più esterno del corpo di un vertebrato. Nei mammiferi e in particolare nell'essere umano, è l'organo più esteso dell'apparato tegumentario (la sua superficie è di circa 2 m²) e protegge i tessuti sottostanti (muscoli, ossa, organi interni). La pelle è costituita da una serie di tessuti di origine ectodermica e mesodermica, che può avere varia colorazione, struttura fisiologica e organica, andando incontro anche a processi d'invecchiamento più o meno visibili. \nIn corrispondenza degli orifizi, la cute continua con le rispettive mucose formando uno strato senza interruzioni. Nell'essere umano, la pelle è più spessa nel maschio che nella femmina e lo spessore può variare da 0,5 a 2 mm fino ad arrivare a 4 mm nelle regioni della nuca, del palmo delle mani e nella pianta del piede. È dotata di una grande distensibilità e resistenza dal momento che una striscia di 3 mm per 100 mm può sopportare fino a 10 kg, allungandosi del 50% circa.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q1074"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:44Z",
+     "lastrevid": 151436430,
+     "length": 21918,
+     "fullurl": "https://it.wikipedia.org/wiki/Pelle",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Pelle&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Pelle"
+    },
+    {
+     "pageid": 312278,
+     "ns": 0,
+     "title": "Retina",
+     "extract": "La rètina è la membrana del bulbo oculare interno, adibita alla suddivisione in punti immagine, alla valutazione della luminosità e alla discriminazione dei colori delle immagini refratte dall'ottica dell'occhio (cornea, umor acqueo, cristallino e umor vitreo). Formata dalle cellule recettori, coni e bastoncelli, è responsabile della trasformazione da energia luminosa in potenziale elettrico (impulsi neurali) incanalato tramite il nervo ottico a quella parte del cervello predisposta alla visione (o percezione visiva). \nSecondo alcuni studiosi, la retina è parte stessa del cervello, e non un organo esterno.",
+     "pageprops": {
+      "wikibase_item": "Q169342"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:48Z",
+     "lastrevid": 146486431,
+     "length": 28187,
+     "fullurl": "https://it.wikipedia.org/wiki/Retina",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Retina&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Retina"
+    },
+    {
+     "pageid": 364294,
+     "ns": 0,
+     "title": "Epidermide",
+     "extract": "L'epidermide (dal greco antico ἐπιδερμίς?, epidermìs, a sua volta da ἐπί, epì, \"sopra\" e δέρμα, dèrma, \"pelle\") è il più esterno dei due strati (insieme al derma) che compongono la pelle. Istologicamente è classificato come epitelio pavimentoso pluristratificato corneificato o cheratinizzato, essendo formato da cinque strati di cellule.  \nL'epidermide si rinnova completamente attraverso un processo di proliferazione e differenziazione che porta continuamente nuove cellule generate nello strato più profondo a migrare e trasformarsi attraversando gli strati sovrastanti fino ad essere disperse per desquamazione. Essendo completamente epiteliale non è vascolarizzata e il suo nutrimento dipende dalla diffusione di metaboliti ed ossigeno dallo strato più superficiale del derma. Presenta uno spessore che varia dai 50 μm a 1,5 mm, massimo nel palmo delle mani o nella pianta dei piedi, numerosi annessi cutanei e terminazioni nervose.\nL'elasticità e la plasticità dell'epidermide sono molto sensibili alle variazioni metaboliche o a brevi immobilizzazioni che la portano a diventare più atrofica, secca e a desquamarsi più facilmente.",
+     "pageprops": {
+      "wikibase_item": "Q212743"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:53Z",
+     "lastrevid": 150953448,
+     "length": 20592,
+     "fullurl": "https://it.wikipedia.org/wiki/Epidermide",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Epidermide&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Epidermide"
+    },
+    {
+     "pageid": 476861,
+     "ns": 0,
+     "title": "Nervo ottico",
+     "extract": "Il nervo ottico è il nervo che trasmette le informazioni visive dalla retina al cervello. Il medico e filosofo greco Alcmeone di Crotone scoprì per primo il nervo ottico, sebbene non descrisse le sue funzioni.",
+     "pageprops": {
+      "wikibase_item": "Q186029"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:59Z",
+     "lastrevid": 140273578,
+     "length": 6069,
+     "fullurl": "https://it.wikipedia.org/wiki/Nervo_ottico",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Nervo_ottico&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Nervo_ottico"
+    },
+    {
+     "pageid": 529788,
+     "ns": 0,
+     "title": "Coclea",
+     "extract": "Coclea – Elemento dell'orecchio interno\nCoclea – Sistema per il sollevamento di liquidi\nCoclea – Sistema per il sollevamento di polveri e granuli",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3681974"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:15Z",
+     "lastrevid": 87572376,
+     "length": 322,
+     "fullurl": "https://it.wikipedia.org/wiki/Coclea",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Coclea&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Coclea"
+    },
+    {
+     "pageid": 537089,
+     "ns": 0,
+     "title": "Sensi",
+     "extract": "Organi di senso",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q2271314"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:16Z",
+     "lastrevid": 127553276,
+     "length": 737,
+     "fullurl": "https://it.wikipedia.org/wiki/Sensi",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sensi&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sensi"
+    },
+    {
+     "pageid": 694677,
+     "ns": 0,
+     "title": "Occhio",
+     "extract": "L'occhio, o bulbo oculare, è l'organo di senso semi-esterno dell'apparato visivo, con il compito principale di ricavare informazioni sull'ambiente circostante attraverso la luce.\nL'occhio umano (e degli organismi superiori) raccoglie la luce che gli proviene dall'ambiente, sotto forma di una immagine ottica, regolandone l'intensità luminosa attraverso un diaframma (l'iride) e focalizzandola sulla retina, attraverso un sistema regolabile di lenti (cristallino), per poi trasformarla in una serie di segnali elettrici che confluiscono al cervello, attraverso il nervo ottico, per l'elaborazione e l'interpretazione.\nL'occhio di Homo sapiens è un rilevatore molto sensibile, che in condizioni di tenebra assoluta può rilevare ancora una quantità di energia luminosa (nello spettro visibile) equivalente a soli 5 fotoni.\nLa condizione ottica ideale di un occhio che non presenta anomalie di rifrazione (ametropie) è detta emmetropia.\nOltre alla funzione di vedere cogliendo informazioni attraverso la percezione visiva, gli occhi hanno anche funzioni di comunicare tramite la comunicazione non verbale, guardare ossia muovere lo sguardo con intenzionalità, sentire sensazioni estetiche positive o negative , pensare aiutando o inibendo col loro movimento processi di pensiero.",
+     "pageprops": {
+      "wikibase_item": "Q7364"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:13Z",
+     "lastrevid": 151468723,
+     "length": 50843,
+     "fullurl": "https://it.wikipedia.org/wiki/Occhio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Occhio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Occhio"
+    },
+    {
+     "pageid": 1157366,
+     "ns": 0,
+     "title": "Derma",
+     "extract": "Il derma (dal greco antico δέρμα?, dèrma, \"pelle\") è lo strato della cute posto sotto l'epidermide, costituito da un tessuto connettivo propriamente detto denso fibroso, riccamente vascolarizzato e innervato. Si connette all'epidermide tramite la giunzione dermoepidermica che garantisce, con l'elevato numero di filamenti di ancoraggio, un legame sicuro fra i due strati. Il derma, inoltre, dona alla cute le caratteristiche di consistenza e resistenza, grazie alle abbondanti fibre di collagene, e costituisce uno strato molto elastico, che resiste anche a forti trazioni, ma non al taglio. A differenza dell'epidermide, è vascolarizzato. Infine, il derma avvolge i follicoli piliferi.  \nSono presenti nel derma dei cromatofori, che possono essere attivati o meno, a seconda delle necessità dell'animale. In alcuni animali, tra cui le tartarughe, il derma produce delle componenti mineralizzate, delle proteine che contengono componenti inorganici e che sono necessarie per la formazione di carapaci e corazze.",
+     "pageprops": {
+      "wikibase_item": "Q505531"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:35Z",
+     "lastrevid": 146411205,
+     "length": 5732,
+     "fullurl": "https://it.wikipedia.org/wiki/Derma",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Derma&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Derma"
+    },
+    {
+     "pageid": 2372663,
+     "ns": 0,
+     "title": "Cornea",
+     "extract": "La cornea (pronuncia: /ˈkɔrnea/) è una membrana trasparente convessa anteriormente che costituisce la porzione anteriore della tonaca fibrosa del bulbo oculare e rappresenta la lente più potente dell'apparato visivo. Assieme al cristallino forma il diottro oculare.\nHa uno spessore \"normale\" al centro di poco superiore a mezzo millimetro (520-540 µm) e, vista anteriormente ha una forma leggermente ellittica con il diametro maggiore orizzontale lungo 11,7 mm contro i 10,6 mm del diametro minore e un diametro variabile dal limbo dov'è più spessa (0,67 mm) alla porzione centrale e più anteriore, la più sottile (0,52 mm).\nNel complesso forma il 7% della superficie dell'occhio esterno.",
+     "pageprops": {
+      "wikibase_item": "Q168291"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:49Z",
+     "lastrevid": 139225380,
+     "length": 14283,
+     "fullurl": "https://it.wikipedia.org/wiki/Cornea",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Cornea&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Cornea"
+    }
+   ]
+  }
+ }
+}

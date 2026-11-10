@@ -1,0 +1,502 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=eye+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-05T03:08:39.917Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 37033091,
+     "ns": 6,
+     "title": "File:Whats-on-TV-Detecting-age-related-neurodegenerative-eye-disease-using-eye-movement-scanpaths-Video1.ogv",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 7276091,
+       "width": 900,
+       "height": 600,
+       "duration": 80.04,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Whats-on-TV-Detecting-age-related-neurodegenerative-eye-disease-using-eye-movement-scanpaths-Video1.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Whats-on-TV-Detecting-age-related-neurodegenerative-eye-disease-using-eye-movement-scanpaths-Video1.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37033091",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Whats-on-TV-Detecting-age-related-neurodegenerative-eye-disease-using-eye-movement-scanpaths-Video1",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media lacking a description|Eye tracking|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Video display resolution 900 x 600|Videos from open-access scholarly articles|Media from Frontiers in Aging Neuroscience|Diagnosis procedures|Eye movement in humans",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "Artist": {
+         "value": "Crabb D, Smith N, Zhu H",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 37958915,
+     "ns": 6,
+     "title": "File:Smooth pursuit eye movements.webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 2125024,
+       "width": 768,
+       "height": 576,
+       "duration": 10.591000000000001,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Smooth_pursuit_eye_movements.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Smooth_pursuit_eye_movements.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37958915",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Smooth pursuit eye movements",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "WebM videos|Eye tracking|Self-published work|Video display resolution 768 x 576|Videos of vision|Ocular vision|Ocular system|Smooth pursuit|Eye movement in humans",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The video shows a recording of a participant performing a horizontal smooth pursuit task (5degree amplitude, 0,5Hz). The video was recorded using an infrared video-camera at the Pupils lab for Neuroscience, Tuebingen, Germany.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:InkassoSchroeder&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:InkassoSchroeder (page does not exist)\">InkassoSchroeder</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 63295817,
+     "ns": 6,
+     "title": "File:How to use an Emergency Eye wash.ogv",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3841213,
+       "width": 1280,
+       "height": 720,
+       "duration": 5.874648526077097,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/How_to_use_an_Emergency_Eye_wash.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:How_to_use_an_Emergency_Eye_wash.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63295817",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "How to use an Emergency Eye wash",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Emergency eye wash stations|Self-published work",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "How to use Emergency Eye wash.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Korn966&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Korn966 (page does not exist)\">Korn966</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 84161739,
+     "ns": 6,
+     "title": "File:Chennai - bird's-eye view.ogv",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 10410654,
+       "width": 1920,
+       "height": 1080,
+       "duration": 14.41340782122905,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chennai_-_bird%27s-eye_view.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chennai_-_bird%27s-eye_view.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=84161739",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Chennai - bird's-eye view",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Videos from India|Views from Chennai Lighthouse|Self-published work|Chennai in the 21st century|Files with coordinates missing SDC location of creation",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Bird's-eye view of Chennai city from Chennai Lighthouse near Marina Beach",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:SlowPhoton\" title=\"User:SlowPhoton\">SlowPhoton</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 98460208,
+     "ns": 6,
+     "title": "File:London eye timelapse.webm",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 66236526,
+       "width": 1920,
+       "height": 1080,
+       "duration": 59.921,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/London_eye_timelapse.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:London_eye_timelapse.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98460208",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "London eye timelapse",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Views from the London Eye|Uploaded with video2commons|License reviewed by YouTubeReviewBot|London Eye in 2019",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Subscreva o meu canal para receber mais novidades <a rel=\"nofollow\" class=\"external free\" href=\"http://www.vascomarques.net/youtubeSiga\">http://www.vascomarques.net/youtubeSiga</a> Vasco Marques no Facebook: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.fb.com/vascomarques.netSiga-\">https://www.fb.com/vascomarques.netSiga-</a>...",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/channel/UCs2uvz6J5tzyiJN0IA3CCXQ\">Vasco Marques</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 133270942,
+     "ns": 6,
+     "title": "File:Human lens focusing from side & back views.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 49256,
+       "width": 960,
+       "height": 540,
+       "duration": 119871.276,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Human_lens_focusing_from_side_%26_back_views.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Human_lens_focusing_from_side_%26_back_views.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133270942",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Human lens focusing from side & back views",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Homo sapiens|Eyes|Lenses|Self-published work",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Traced from images of an approximately 20 year old male human focusing on a near object and far object. Animation done using Blender for Artists.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tgru001\" title=\"User:Tgru001\">WTM Gruijters</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 133923552,
+     "ns": 6,
+     "title": "File:Eye lens focus 10m to 26mm.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 123584,
+       "width": 960,
+       "height": 540,
+       "duration": 84912.866,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Eye_lens_focus_10m_to_26mm.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Eye_lens_focus_10m_to_26mm.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133923552",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Eye lens focus 10m to 26mm",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Eyes|Lenses|Sight|Self-published work",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "As the attention moves from 10m focus to 26mm focus distant objects become out of focus and near objects come into focus. The lens changes shape within the eye to produce this change in focus.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tgru001\" title=\"User:Tgru001\">WTM Gruijters</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 149201659,
+     "ns": 6,
+     "title": "File:Myokymia.webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 1145804,
+       "width": 1080,
+       "height": 1080,
+       "duration": 5.2330000000000005,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Myokymia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Myokymia.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149201659",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Myokymia",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Eyes|Eyelids|Self-published work",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Lower eyelid twitching from myokymia",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bernzrdo\" title=\"User:Bernzrdo\">Bernzrdo</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 182849028,
+     "ns": 6,
+     "title": "File:NGC 6543- The Cat's Eye Nebula Redux (2008-catseye).webm",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 2186480,
+       "width": 360,
+       "height": 240,
+       "duration": 84.374,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/NGC_6543-_The_Cat%27s_Eye_Nebula_Redux_%282008-catseye%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:NGC_6543-_The_Cat%27s_Eye_Nebula_Redux_(2008-catseye).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182849028",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "NGC 6543- The Cat's Eye Nebula Redux (2008-catseye)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Cat's Eye Nebula|PD NASA|Uploaded with video2commons|NASA videos in 2008|ACIS images|Chandra files uploaded by OptimusPrimeBot|Composite images by Chandra and Hubble",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This composite of data from NASA's Chandra X-ray Observatory and Hubble Space Telescope is a new look for NGC 6543, better known as the Cat's Eye nebula. This famous object is a so-called planetary nebula that represents a phase of stellar evolution that the Sun should experience several billion years from now. When a star like the Sun begins to run out of fuel, it becomes what is known as a red giant. In this phase, a star sheds some of its outer layers, eventually leaving behind a hot core that collapses to form a dense white dwarf star. A fast wind emanating from the hot core rams into the ejected atmosphere, pushes it outward, and creates the graceful filamentary structures seen with optical telescopes. Chandra's X-ray data (colored in blue) of NGC 6543 shows that its central star is surrounded by a cloud of multi-million-degree gas. By comparing where the X-rays lie in relation to the structures seen in optical light by Hubble (red and purple), astronomers were able to deduce that the chemical abundances in the region of hot gas were like those in the wind from the central star and different from the outer cooler material. In the case of the Cat's Eye, material shed by the star is flying away at a speed of about 4 million miles per hour. The star itself is expected to collapse to become a white dwarf star in a few million years.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "X-ray: NASA/CXC/SAO; Optical: NASA/STScI",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 201326624,
+     "ns": 6,
+     "title": "File:Myopia and Eye Development.webm",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3556508,
+       "width": 1920,
+       "height": 1080,
+       "duration": 78.888,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Myopia_and_Eye_Development.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Myopia_and_Eye_Development.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=201326624",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Myopia and Eye Development",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Myopia|National Institutes of Health images|Videos from YouTube|License review needed (video)|PD US NIH|Videos of 2023|CC-PD-Mark|Uploaded with video2commons|Videos of diseases and disorders of the eye and adnexa|National Institutes of Health videos|Videos with English subtitles|Videos in English|PD-USGov missing SDC copyright status|Videos of vision",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Myopia development in children. Learn more about myopia at <a rel=\"nofollow\" class=\"external free\" href=\"https://nei.nih.gov/myopia\">https://nei.nih.gov/myopia</a>\nAs part of the federal government’s National Institutes of Health (NIH), the National Eye Institute’s mission is to \"eliminate vision loss and improve quality of life through vision research.\"",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@neinih\">National Eye Institute, NIH</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "Public domain",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

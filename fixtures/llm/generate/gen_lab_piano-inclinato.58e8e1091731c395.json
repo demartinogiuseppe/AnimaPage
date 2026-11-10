@@ -1,0 +1,986 @@
+{
+  "key": "58e8e1091731c39590a8ca96859de55cc37e2f6f3c73dc76cb593d8b64f16126",
+  "label": "gen_lab_piano-inclinato",
+  "recordedAt": "2026-11-06T09:14:41.975Z",
+  "provider": "claude-cli",
+  "request": {
+    "systemSha256": "fad147fab4611e129a22457b0ad3bf37577a13b752cef07b008618985c414051",
+    "promptSha256": "5d6c1adfea040e6f5a08a41714f57b2aa88a1f8f80ee5857a8ee2f9801778546",
+    "schemaSha256": "2731c10d7d3dcc8e445d30aa682baa16683dff58f38f37ef35187a42ef10c8ae",
+    "imageSha256": []
+  },
+  "response": {
+    "data": {
+      "version": "0.1",
+      "engine": "lab",
+      "title": "Il piano inclinato",
+      "page": {
+        "subject": "Fisica",
+        "topic": "Il piano inclinato",
+        "language": "it",
+        "bookPage": "118"
+      },
+      "kind": "science",
+      "style": "color",
+      "music": {
+        "track": "music-curious",
+        "volume": 0.5
+      },
+      "engineData": {
+        "chapters": [
+          {
+            "chapter": "macchina-semplice",
+            "setup": {
+              "kind": "ramp",
+              "angle": 14.5,
+              "length": 4,
+              "mass": 10.2,
+              "friction": 0,
+              "track": "ramp"
+            },
+            "params": [
+              {
+                "id": "lung",
+                "var": "length",
+                "label": "Lunghezza del piano (m)",
+                "min": 1,
+                "max": 8,
+                "step": 0.5
+              },
+              {
+                "id": "massa1",
+                "var": "mass",
+                "label": "Massa della cassa (kg)",
+                "min": 1,
+                "max": 20,
+                "step": 0.5
+              }
+            ],
+            "runs": [
+              {
+                "at": 8,
+                "speed": 0.5
+              },
+              {
+                "at": 24,
+                "speed": 0.5
+              }
+            ],
+            "show": [
+              {
+                "item": "forces",
+                "at": 12
+              },
+              {
+                "item": "ruler"
+              },
+              {
+                "item": "board",
+                "at": 18
+              },
+              {
+                "item": "timer"
+              }
+            ]
+          },
+          {
+            "chapter": "inclinazione",
+            "setup": {
+              "kind": "ramp",
+              "angle": 30,
+              "length": 4,
+              "mass": 10.2,
+              "friction": 0,
+              "track": "ramp"
+            },
+            "params": [
+              {
+                "id": "angolo",
+                "var": "angle",
+                "label": "Inclinazione (°)",
+                "min": 5,
+                "max": 60,
+                "step": 1
+              }
+            ],
+            "runs": [
+              {
+                "at": 8,
+                "speed": 0.5
+              },
+              {
+                "at": 22,
+                "speed": 0.5
+              }
+            ],
+            "show": [
+              {
+                "item": "forces"
+              },
+              {
+                "item": "board",
+                "at": 12
+              },
+              {
+                "item": "strobe",
+                "at": 22
+              }
+            ]
+          },
+          {
+            "chapter": "attrito",
+            "setup": {
+              "kind": "ramp",
+              "angle": 14.5,
+              "length": 4,
+              "mass": 10.2,
+              "friction": 0.2,
+              "track": "ramp"
+            },
+            "params": [
+              {
+                "id": "mu",
+                "var": "friction",
+                "label": "Attrito (μ)",
+                "min": 0,
+                "max": 0.5,
+                "step": 0.02
+              },
+              {
+                "id": "angolo3",
+                "var": "angle",
+                "label": "Inclinazione (°)",
+                "min": 5,
+                "max": 40,
+                "step": 1
+              }
+            ],
+            "runs": [
+              {
+                "at": 8,
+                "speed": 0.5
+              },
+              {
+                "at": 24,
+                "speed": 0.5
+              }
+            ],
+            "show": [
+              {
+                "item": "forces"
+              },
+              {
+                "item": "energy",
+                "at": 12
+              },
+              {
+                "item": "board",
+                "at": 18
+              }
+            ]
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "macchina-semplice",
+          "title": "Una rampa per sollevare",
+          "chip": "Rampa",
+          "kind": "science",
+          "duration": 36,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Il piano inclinato è una macchina semplice: una superficie piana inclinata rispetto all'orizzontale.",
+              "highlight": [
+                "p-piano"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 6.5,
+              "text": "Una macchina semplice è un attrezzo che ci aiuta a usare meno forza.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 11,
+              "text": "Sulla cassa agisce il peso P, la forza con cui la Terra la tira verso il basso.",
+              "highlight": [
+                "p-cassa"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 17.5,
+              "text": "Senza attrito vale la proporzione F : P = h : l, cioè forza sta a peso come altezza sta a lunghezza.",
+              "speech": "Senza attrito vale la proporzione effe sta a pi come acca sta a elle, cioè forza sta a peso come altezza sta a lunghezza.",
+              "highlight": [
+                "p-alto",
+                "p-piano"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 25,
+              "text": "Con un peso di 100 N, altezza 1 m e piano lungo 4 m, servono solo 25 N.",
+              "speech": "Con un peso di cento newton, altezza un metro e piano lungo quattro metri, servono solo venticinque newton.",
+              "highlight": [
+                "p-board"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 31,
+              "text": "Si risparmia forza, ma la strada è più lunga.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "pos": [
+                  0,
+                  3,
+                  0
+                ]
+              },
+              "distance": 19,
+              "azimuth": 0,
+              "elevation": 12
+            },
+            {
+              "at": 10,
+              "target": {
+                "entity": "part",
+                "part": "slope"
+              },
+              "distance": 11,
+              "azimuth": -8,
+              "elevation": 10
+            },
+            {
+              "at": 24,
+              "target": {
+                "entity": "gauge",
+                "part": "board"
+              },
+              "distance": 9,
+              "azimuth": 0,
+              "elevation": 5
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-piano",
+              "name": "Piano inclinato",
+              "sub": "l = 4 m",
+              "info": "La lunghezza l del piano: qui 4 m, come nell'esempio del libro.",
+              "kind": "object",
+              "anchor": {
+                "entity": "part",
+                "part": "slope"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-alto",
+              "name": "Altezza",
+              "sub": "h = 1 m",
+              "info": "La cima del piano sta 1 m sopra il banco.",
+              "kind": "data",
+              "anchor": {
+                "entity": "part",
+                "part": "top"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-cassa",
+              "name": "Cassa",
+              "sub": "P = 100 N",
+              "info": "Una cassa di circa 10,2 kg pesa circa 100 N.",
+              "kind": "object",
+              "anchor": {
+                "entity": "body",
+                "offset": [
+                  0,
+                  0.5,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page",
+                "calc"
+              ]
+            },
+            {
+              "id": "p-board",
+              "name": "La lavagna",
+              "info": "Mostra le forze e le misure dell'esperimento.",
+              "kind": "note",
+              "anchor": {
+                "entity": "gauge",
+                "part": "board"
+              },
+              "sourceIds": [
+                "calc"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Per avere h = 1 m su un piano lungo 4 m, la simulazione inclina la rampa di circa 14,5°.",
+              "sourceIds": [
+                "page",
+                "calc"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Un carrello pesa 200 N e sale a 1 m su una rampa lunga 5 m, senza attrito. Quale forza serve?",
+              "options": [
+                "200 N",
+                "40 N",
+                "1000 N"
+              ],
+              "answer": 1,
+              "explain": "F : P = h : l, quindi F = 200 N · 1 m / 5 m = 40 N."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca la lunghezza l del piano.",
+              "answerPins": [
+                "p-piano"
+              ],
+              "explain": "La lunghezza l è la strada percorsa lungo la rampa."
+            }
+          ],
+          "book": {
+            "heading": "Il piano inclinato",
+            "formula": "F : P = h : l",
+            "lines": [
+              "È una macchina semplice.",
+              "Serve una forza minore del peso.",
+              "P = 100 N, h = 1 m, l = 4 m → F = 25 N"
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Una cassa pesa 100 N. Spingendola su una rampa lunga 4 m fino a 1 m di altezza, quanta forza serve senza attrito?",
+              "options": [
+                "100 N, come il peso",
+                "25 N",
+                "400 N"
+              ],
+              "answer": 1
+            },
+            "test": {
+              "prompt": "Allunga il piano e cambia la massa: guarda come cambiano le frecce delle forze.",
+              "params": [
+                "lung",
+                "massa1"
+              ]
+            },
+            "prove": {
+              "text": "Per la proporzione F : P = h : l, la forza è il peso ridotto nel rapporto h/l: 100 N per 1/4 dà 25 N.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Re della rampa"
+          },
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "room",
+                "volume": 0.3
+              }
+            ],
+            "cues": [
+              {
+                "at": 8,
+                "sound": "click",
+                "volume": 0.5
+              },
+              {
+                "at": 11.6,
+                "sound": "wood-hit",
+                "volume": 0.6
+              },
+              {
+                "at": 25,
+                "sound": "chime",
+                "volume": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "id": "inclinazione",
+          "title": "Più ripido, più forza",
+          "chip": "Pendenza",
+          "kind": "science",
+          "duration": 34,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Ora alziamo la rampa: la stessa cassa sta su un piano più inclinato.",
+              "highlight": [
+                "p-piano2"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 5.5,
+              "text": "Prima di guardare, prevedi: serve più o meno forza per spingerla su?",
+              "highlight": [],
+              "sourceIds": []
+            },
+            {
+              "at": 11,
+              "text": "La freccia lungo il piano diventa più lunga: più il piano è inclinato, più forza serve.",
+              "highlight": [
+                "p-cassa2"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 18,
+              "text": "Con la stessa lunghezza, la cima è più alta: cresce h, quindi cresce F.",
+              "highlight": [
+                "p-cima2"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 24,
+              "text": "Guarda la scia: sul piano ripido la cassa scivola giù più in fretta.",
+              "highlight": [
+                "p-fondo2"
+              ],
+              "sourceIds": [
+                "calc"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "pos": [
+                  0,
+                  3,
+                  0
+                ]
+              },
+              "distance": 19,
+              "azimuth": 5,
+              "elevation": 12
+            },
+            {
+              "at": 10,
+              "target": {
+                "entity": "part",
+                "part": "slope"
+              },
+              "distance": 11,
+              "azimuth": -10,
+              "elevation": 10
+            },
+            {
+              "at": 22,
+              "target": {
+                "entity": "part",
+                "part": "bottom"
+              },
+              "distance": 12,
+              "azimuth": -5,
+              "elevation": 12
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-piano2",
+              "name": "Piano ripido",
+              "info": "Stessa lunghezza, inclinazione maggiore.",
+              "kind": "object",
+              "anchor": {
+                "entity": "part",
+                "part": "slope"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-cima2",
+              "name": "Cima più alta",
+              "info": "Con un piano più inclinato l'altezza h cresce.",
+              "kind": "data",
+              "anchor": {
+                "entity": "part",
+                "part": "top"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-cassa2",
+              "name": "Cassa",
+              "info": "La forza lungo il piano è maggiore che sulla rampa dolce.",
+              "kind": "object",
+              "anchor": {
+                "entity": "body",
+                "offset": [
+                  0,
+                  0.5,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-fondo2",
+              "name": "Base",
+              "info": "Qui la cassa arriva in fondo alla rampa.",
+              "kind": "place",
+              "anchor": {
+                "entity": "part",
+                "part": "bottom"
+              },
+              "sourceIds": [
+                "calc"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Nella vita di tutti i giorni le rampe per le carrozzine sono lunghe e poco ripide proprio per richiedere poca forza.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Due rampe portano alla stessa altezza. Quale richiede meno forza?",
+              "options": [
+                "La più corta e ripida",
+                "Richiedono la stessa forza",
+                "La più lunga e dolce"
+              ],
+              "answer": 2,
+              "explain": "Con h uguale, una l maggiore rende F più piccola: F : P = h : l."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca il punto che si alza quando la rampa diventa più ripida.",
+              "answerPins": [
+                "p-cima2"
+              ],
+              "explain": "Con la stessa lunghezza, più inclinazione vuol dire una cima più alta."
+            }
+          ],
+          "book": {
+            "heading": "L'inclinazione conta",
+            "lines": [
+              "Più il piano è inclinato, più forza serve.",
+              "Si risparmia forza, ma si allunga la strada."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Se la rampa diventa più ripida, la forza per spingere la cassa...",
+              "options": [
+                "aumenta",
+                "diminuisce",
+                "resta uguale"
+              ],
+              "answer": 0
+            },
+            "test": {
+              "prompt": "Prova tu: muovi l'inclinazione e guarda la freccia della forza lungo il piano.",
+              "params": [
+                "angolo"
+              ]
+            },
+            "prove": {
+              "text": "Se l resta uguale e il piano si alza, h cresce: nella proporzione F : P = h : l anche F deve crescere.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Domatore di pendenze"
+          },
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "room",
+                "volume": 0.3
+              }
+            ],
+            "cues": [
+              {
+                "at": 8,
+                "sound": "click",
+                "volume": 0.5
+              },
+              {
+                "at": 10.6,
+                "sound": "wood-hit",
+                "volume": 0.6
+              },
+              {
+                "at": 22,
+                "sound": "click",
+                "volume": 0.5
+              },
+              {
+                "at": 24.6,
+                "sound": "wood-hit",
+                "volume": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "attrito",
+          "title": "Il freno dell'attrito",
+          "chip": "Attrito",
+          "kind": "science",
+          "duration": 36,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Finora la rampa era liscia. Adesso tra cassa e piano c'è attrito.",
+              "highlight": [
+                "p-piano3"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 5.5,
+              "text": "L'attrito è la forza che frena un corpo che striscia su una superficie.",
+              "highlight": [
+                "p-cassa3"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 11,
+              "text": "Guarda: la cassa scende più piano, perché l'attrito la frena.",
+              "highlight": [
+                "p-cassa3"
+              ],
+              "sourceIds": [
+                "calc"
+              ]
+            },
+            {
+              "at": 16,
+              "text": "Nelle provette parte dell'energia diventa calore, in rosso.",
+              "highlight": [
+                "p-q"
+              ],
+              "sourceIds": [
+                "calc"
+              ]
+            },
+            {
+              "at": 21,
+              "text": "Per spingere la cassa in salita, l'attrito fa aumentare la forza necessaria.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 27,
+              "text": "Così servono un po' più dei 25 N calcolati senza attrito.",
+              "speech": "Così servono un po' più dei venticinque newton calcolati senza attrito.",
+              "highlight": [
+                "p-board3"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "pos": [
+                  0,
+                  3,
+                  0
+                ]
+              },
+              "distance": 19,
+              "azimuth": -5,
+              "elevation": 12
+            },
+            {
+              "at": 8,
+              "target": {
+                "entity": "part",
+                "part": "slope"
+              },
+              "distance": 11,
+              "azimuth": -8,
+              "elevation": 10
+            },
+            {
+              "at": 15,
+              "target": {
+                "entity": "gauge",
+                "part": "energy"
+              },
+              "distance": 9,
+              "azimuth": 0,
+              "elevation": 6
+            },
+            {
+              "at": 26,
+              "target": {
+                "entity": "gauge",
+                "part": "board"
+              },
+              "distance": 9,
+              "azimuth": 0,
+              "elevation": 5
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-piano3",
+              "name": "Piano ruvido",
+              "sub": "μ = 0,2",
+              "info": "Il coefficiente di attrito μ dice quanto la superficie frena.",
+              "kind": "object",
+              "anchor": {
+                "entity": "part",
+                "part": "slope"
+              },
+              "sourceIds": [
+                "calc"
+              ]
+            },
+            {
+              "id": "p-cassa3",
+              "name": "Cassa frenata",
+              "info": "L'attrito agisce contro il movimento della cassa.",
+              "kind": "object",
+              "anchor": {
+                "entity": "body",
+                "offset": [
+                  0,
+                  0.5,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-q",
+              "name": "Calore",
+              "info": "L'energia frenata dall'attrito diventa calore.",
+              "kind": "data",
+              "anchor": {
+                "entity": "gauge",
+                "part": "Q"
+              },
+              "sourceIds": [
+                "calc"
+              ]
+            },
+            {
+              "id": "p-board3",
+              "name": "La lavagna",
+              "info": "Mostra le forze, compreso l'attrito.",
+              "kind": "note",
+              "anchor": {
+                "entity": "gauge",
+                "part": "board"
+              },
+              "sourceIds": [
+                "calc"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Se l'attrito è grande abbastanza rispetto all'inclinazione, la cassa non parte nemmeno: prova ad alzare μ con il cursore.",
+              "sourceIds": [
+                "calc"
+              ]
+            },
+            {
+              "text": "Il libro collega il piano inclinato al lavoro: con meno forza ma una strada più lunga, senza attrito il lavoro per salire resta lo stesso.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Che effetto ha l'attrito sulla forza per spingere la cassa in salita?",
+              "options": [
+                "La diminuisce",
+                "La aumenta",
+                "Non cambia nulla"
+              ],
+              "answer": 1,
+              "explain": "Il libro spiega che l'attrito tra corpo e piano fa aumentare la forza necessaria."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca la provetta dell'energia prodotta dall'attrito.",
+              "answerPins": [
+                "p-q"
+              ],
+              "explain": "L'attrito trasforma parte dell'energia in calore."
+            }
+          ],
+          "book": {
+            "heading": "L'attrito",
+            "lines": [
+              "L'attrito frena il corpo sul piano.",
+              "Fa aumentare la forza necessaria.",
+              "Parte dell'energia diventa calore."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Con l'attrito, per spingere su la cassa da 100 N servono...",
+              "options": [
+                "meno di 25 N",
+                "esattamente 25 N",
+                "più di 25 N"
+              ],
+              "answer": 2
+            },
+            "test": {
+              "prompt": "Prova tu: aumenta μ e abbassa l'inclinazione finché la cassa non parte più.",
+              "params": [
+                "mu",
+                "angolo3"
+              ]
+            },
+            "prove": {
+              "text": "I 25 N valgono solo senza attrito; l'attrito si oppone al movimento, quindi chi spinge deve vincere anche lui.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Cacciatore di attriti"
+          },
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "room",
+                "volume": 0.3
+              }
+            ],
+            "cues": [
+              {
+                "at": 8,
+                "sound": "click",
+                "volume": 0.5
+              },
+              {
+                "at": 12.5,
+                "sound": "wood-hit",
+                "volume": 0.6
+              },
+              {
+                "at": 16,
+                "sound": "pop",
+                "volume": 0.4
+              },
+              {
+                "at": 27,
+                "sound": "chime",
+                "volume": 0.5
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "id": "page",
+          "kind": "page",
+          "title": "Pagina del libro, p. 118: Il piano inclinato"
+        },
+        {
+          "id": "calc",
+          "kind": "computed",
+          "title": "Calcoli svolti nella lezione a partire dalle formule dei grafici"
+        }
+      ],
+      "videos": [],
+      "disclaimers": [
+        "Esperimenti simulati: la resistenza dell'aria è trascurata e g vale 9,81 m/s².",
+        "Nella simulazione la cassa scivola giù dalla rampa; la forza per spingerla in salita è spiegata con le frecce e la lavagna.",
+        "Gli apparecchi sono disegnati in scala ridotta per stare sul banco."
+      ]
+    },
+    "usage": {
+      "inputTokens": 4,
+      "outputTokens": 13863,
+      "cacheCreationInputTokens": 29637,
+      "cacheReadInputTokens": 21469,
+      "costUsdEstimate": 0.5186658
+    },
+    "durationMs": 108147,
+    "model": "claude-opus-5-5"
+  }
+}

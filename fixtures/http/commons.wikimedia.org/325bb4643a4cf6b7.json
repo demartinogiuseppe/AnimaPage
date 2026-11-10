@@ -1,0 +1,61 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=fall+of+the+western+Roman+Empire+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:03:47.889Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 68512309,
+     "ns": 6,
+     "title": "File:Hvar,Croatia in Ultra 4K.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 1518937100,
+       "width": 3840,
+       "height": 2160,
+       "duration": 735.361,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Hvar%2CCroatia_in_Ultra_4K.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hvar,Croatia_in_Ultra_4K.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68512309",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Hvar,Croatia in Ultra 4K",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Hvar|Files from external sources with reviewed licenses|Uploaded with video2commons|Videos with music by Chris Zabriskie|Videos from Le Monde en Vidéo",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Version en français plus bas.\n<p>Hvar is a Croatian island of the Adriatic Sea. It is one of the most touristic islands in Croatia. The island is elongated and oriented east-west. It has a length of nearly 68 km and is divided by a chain of hills that follows the southern coast and rises to 628 m.\nThe first inhabitants of Hvar were the Illyrians in the fourth century. They defended themselves valiantly against the Greeks but they eventually invaded the island. The Greeks of Paros then founded the colony of Faros, ancestor of the city of Stari Grad. In 219 BC BC, the Romans conquered it. At the fall of the Western Roman Empire, Hvar became Byzantine. In the seventh and eighth centuries, Slavs settled there. The following centuries were marked by incessant quarrels between Byzantium, Venice and the Hungaro-Croat rulers over the control of Hvar. In 1151 the island offered to the order of St. Benedict, builders of three abbeys and a priory, was taken by the inhabitants of Narenta, who also seized the islands of Lastovo, and Korčula1. In 1331, Venice, the most powerful, annexed the Dalmatian island. The inhabitants of Hvar rose up several times but without success. The following followed the vagaries of history, it was alternately Italian, French, Austrian, Yugoslav and finally Croatian.\n</p><p>Hvar  est une île croate de la mer Adriatique. C'est l'une des îles les plus touristiques de Croatie .L'île est allongée et orientée est-ouest. Elle a une longueur de près de 68 km et elle est partagée par une chaîne de collines qui suit la côte méridionale et culmine à 628 m.\nLes premiers habitants de Hvar furent les Illyriens au ive siècle. Ils se défendirent vaillamment contre les Grecs mais ceux-ci finirent par envahir l'île. Les Grecs de Paros fondèrent alors la colonie de Faros, ancêtre de la ville de Stari Grad. En 219 av. J.-C., les Romains la conquirent. À la chute de l'Empire romain d'Occident, Hvar devint byzantine. Aux viie et viiie siècles, des Slaves s'y installèrent. Les siècles suivants furent marqués par des querelles incessantes entre Byzance, Venise et les souverains hungaro-croates au sujet du contrôle de Hvar. En 1151 l'ile offerte à l'ordre de Saint Benoît, bâtisseurs de trois abbayes et d'un prieuré, fut prise par les habitants de Narenta, qui s'emparèrent également des îles de Lastovo, et de Korčula1. En 1331, c'est Venise, la plus puissante, qui annexa l'île dalmate. Les habitants de Hvar se soulevèrent à plusieurs reprises mais sans succès. La suite suivit les aléas de l'histoire, elle fut tour à tour italienne, française, autrichienne, yougoslave et enfin croate.\n</p><p>Musics:\nCylinder Two par Chris Zabriskie est protégée par une licence Creative Commons Attribution (<a rel=\"nofollow\" class=\"external free\" href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</a>)\nSource : <a rel=\"nofollow\" class=\"external free\" href=\"http://chriszabriskie.com/cylinders/\">http://chriszabriskie.com/cylinders/</a>\nArtiste : <a rel=\"nofollow\" class=\"external free\" href=\"http://chriszabriskie.com/\">http://chriszabriskie.com/</a>\n</p><p>Undercover Vampire Policeman par Chris Zabriskie est protégée par une licence Creative Commons Attribution (<a rel=\"nofollow\" class=\"external free\" href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</a>)\nSource : <a rel=\"nofollow\" class=\"external free\" href=\"http://chriszabriskie.com/uvp/\">http://chriszabriskie.com/uvp/</a>\n</p>\nArtiste : <a rel=\"nofollow\" class=\"external free\" href=\"http://chriszabriskie.com/\">http://chriszabriskie.com/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/allairej1957\">Le Monde en Vidéo</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

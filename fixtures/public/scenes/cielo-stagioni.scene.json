@@ -1,0 +1,368 @@
+{
+  "version": "0.1",
+  "engine": "sky",
+  "title": "Le stagioni e le fasi della Luna",
+  "style": "color",
+  "page": {
+    "subject": "Scienze",
+    "topic": "La Terra nello spazio: rotazione, rivoluzione, stagioni e fasi lunari",
+    "language": "it"
+  },
+  "kind": "science",
+  "music": { "track": "music-mysterious", "volume": 0.5 },
+  "sources": [
+    { "id": "page", "kind": "page", "title": "Scienze, «La Terra nello spazio: le stagioni e le fasi della Luna»" },
+    { "id": "w-terra", "kind": "wikipedia", "title": "Terra", "url": "https://it.wikipedia.org/wiki/Terra", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-stagione", "kind": "wikipedia", "title": "Stagione", "url": "https://it.wikipedia.org/wiki/Stagione", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-solstizio", "kind": "wikipedia", "title": "Solstizio", "url": "https://it.wikipedia.org/wiki/Solstizio", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-equinozio", "kind": "wikipedia", "title": "Equinozio", "url": "https://it.wikipedia.org/wiki/Equinozio", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-cancro", "kind": "wikipedia", "title": "Tropico del Cancro", "url": "https://it.wikipedia.org/wiki/Tropico_del_Cancro", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-capricorno", "kind": "wikipedia", "title": "Tropico del Capricorno", "url": "https://it.wikipedia.org/wiki/Tropico_del_Capricorno", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-fasi", "kind": "wikipedia", "title": "Fasi lunari", "url": "https://it.wikipedia.org/wiki/Fasi_lunari", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-luna", "kind": "wikipedia", "title": "Luna", "url": "https://it.wikipedia.org/wiki/Luna", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-eclissi-lunare", "kind": "wikipedia", "title": "Eclissi lunare", "url": "https://it.wikipedia.org/wiki/Eclissi_lunare", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "w-eclissi-2026", "kind": "wikipedia", "title": "Eclissi solare del 12 agosto 2026", "url": "https://it.wikipedia.org/wiki/Eclissi_solare_del_12_agosto_2026", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-04", "license": "CC BY-SA 4.0" },
+    { "id": "wd-roma", "kind": "wikidata", "title": "Roma (coordinate geografiche)", "url": "https://www.wikidata.org/wiki/Q220", "publisher": "Wikidata", "accessed": "2026-11-04", "wikidataId": "Q220", "license": "CC0 1.0" },
+    { "id": "jpl", "kind": "web", "title": "Approximate Positions of the Planets (elementi kepleriani, 1800-2050)", "url": "https://ssd.jpl.nasa.gov/planets/approx_pos.html", "publisher": "NASA JPL Solar System Dynamics", "accessed": "2026-11-04" },
+    { "id": "calc", "kind": "computed", "title": "Posizioni del Sole e della Luna calcolate dal motore «Cielo» (elementi JPL e serie lunari di Meeus)" }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Dimensioni e distanze non sono in scala: il Sole è molto più grande e molto più lontano di come è disegnato.",
+    "L'inclinazione dell'orbita della Luna è esagerata, perché si veda perché le eclissi sono rare.",
+    "Le posizioni del Sole e della Luna sono calcolate con formule semplificate: le date delle fasi possono differire di qualche ora."
+  ],
+  "engineData": {
+    "stars": { "count": 420, "seed": 11 },
+    "places": [{ "id": "roma", "lat": 41.893, "lon": 12.483, "color": "#ff9f1c", "sourceIds": ["wd-roma"] }],
+    "chapters": [
+      {
+        "chapter": "terra-sole",
+        "view": "earth-sun",
+        "time": [
+          { "at": 0, "date": "2026-03-20T05:00:00Z" },
+          { "at": 22, "date": "2026-03-21T05:00:00Z" },
+          { "at": 26, "date": "2026-03-21T05:00:00Z" },
+          { "at": 54, "date": "2027-03-21T05:00:00Z" }
+        ],
+        "latitudes": false,
+        "highlight": [
+          { "target": "axis", "window": [5, 11] },
+          { "target": "orbit", "window": [27, 40] },
+          { "target": "axis", "window": [42, 50] }
+        ],
+        "params": [{ "id": "ora", "kind": "hour", "label": "Ora del giorno (UTC)" }]
+      },
+      {
+        "chapter": "stagioni",
+        "view": "earth-sun",
+        "time": [
+          { "at": 0, "date": "2026-03-20T12:00:00Z" },
+          { "at": 6, "date": "2026-03-20T12:00:00Z" },
+          { "at": 14, "date": "2026-06-21T12:00:00Z" },
+          { "at": 24, "date": "2026-06-21T12:00:00Z" },
+          { "at": 31, "date": "2026-09-23T12:00:00Z" },
+          { "at": 36, "date": "2026-09-23T12:00:00Z" },
+          { "at": 43, "date": "2026-12-21T12:00:00Z" },
+          { "at": 51, "date": "2026-12-21T12:00:00Z" },
+          { "at": 60, "date": "2027-03-20T12:00:00Z" }
+        ],
+        "rays": true,
+        "highlight": [
+          { "target": "axis", "window": [0, 6] },
+          { "target": "equator", "window": [7, 13] },
+          { "target": "rays", "window": [15, 24] },
+          { "target": "tropics", "window": [15, 24] },
+          { "target": "equator", "window": [31, 36] },
+          { "target": "tropics", "window": [43, 51] }
+        ],
+        "params": [
+          { "id": "giorno", "kind": "day", "label": "Giorno dell'anno" },
+          { "id": "asse", "kind": "tilt", "label": "Inclinazione dell'asse (°)" }
+        ]
+      },
+      {
+        "chapter": "luna",
+        "view": "earth-moon",
+        "time": [
+          { "at": 0, "date": "2026-07-14T10:00:00Z" },
+          { "at": 44, "date": "2026-08-12T17:47:00Z" }
+        ],
+        "shadows": true,
+        "highlight": [
+          { "target": "moon", "window": [0, 5] },
+          { "target": "phase", "window": [6, 14] },
+          { "target": "phase", "window": [22, 26] },
+          { "target": "orbit", "window": [29, 34] },
+          { "target": "phase", "window": [34, 38] },
+          { "target": "shadow", "window": [44, 57] }
+        ],
+        "params": [{ "id": "luna", "kind": "moon", "label": "Posizione della Luna (°)" }]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "terra-sole",
+      "title": "Terra e Sole: rotazione e rivoluzione",
+      "chip": "Rotazione",
+      "kind": "science",
+      "duration": 58,
+      "book": {
+        "heading": "Rotazione e rivoluzione",
+        "formula": "rotazione → dì e notte · rivoluzione → un anno",
+        "lines": [
+          "Rotazione: la Terra gira su se stessa, da ovest verso est.",
+          "Metà Terra è illuminata dal Sole (dì), metà è al buio (notte).",
+          "Rivoluzione: la Terra gira intorno al Sole in circa 365 giorni."
+        ],
+        "sourceIds": ["page", "w-terra"]
+      },
+      "activity": {
+        "predict": {
+          "q": "Perché a Roma, dopo il giorno, arriva la notte?",
+          "options": ["Il Sole gira intorno alla Terra", "La Terra ruota su se stessa", "Il Sole si spegne la sera"],
+          "answer": 1
+        },
+        "test": { "prompt": "Muovi l'ora del giorno e guarda il puntino di Roma passare dalla parte illuminata a quella buia.", "params": ["ora"] },
+        "prove": {
+          "text": "È la Terra che ruota da ovest verso est attorno al suo asse: per questo il Sole e le stelle sorgono a est e tramontano a ovest. Il Sole illumina sempre metà Terra: lì è dì, dall'altra parte è notte.",
+          "sourceIds": ["w-terra"]
+        },
+        "stamp": "Custode del dì e della notte"
+      },
+      "narration": [
+        { "at": 0, "text": "La Terra non sta mai ferma: fa due movimenti insieme, la rotazione e la rivoluzione.", "highlight": ["terra"], "sourceIds": ["page"] },
+        { "at": 5, "text": "Con la rotazione gira su se stessa, da ovest verso est, attorno all'asse che unisce il polo nord al polo sud.", "highlight": ["asse"], "sourceIds": ["w-terra"] },
+        { "at": 12, "text": "Il Sole illumina sempre solo metà della Terra: da quella parte è dì, dall'altra è notte.", "highlight": [], "sourceIds": ["page"] },
+        { "at": 17, "text": "Guarda Roma: la rotazione la porta dalla notte al dì, e poi di nuovo verso la notte.", "highlight": ["roma"], "sourceIds": ["page"] },
+        { "at": 22, "text": "Un giro completo rispetto alle stelle dura 23 ore e 56 minuti.", "highlight": [], "sourceIds": ["w-terra"] },
+        { "at": 27, "text": "Con la rivoluzione, intanto, la Terra viaggia intorno al Sole a circa 30 chilometri al secondo.", "highlight": ["orbita"], "sourceIds": ["w-terra"] },
+        { "at": 34, "text": "Il Sole è lontano in media 150 milioni di chilometri e un giro completo dura poco più di 365 giorni: un anno.", "highlight": ["sole"], "sourceIds": ["w-terra"] },
+        { "at": 42, "text": "Guarda l'asse: mentre la Terra gira intorno al Sole, resta sempre inclinato nella stessa direzione.", "highlight": ["asse"], "sourceIds": ["w-terra"] },
+        { "at": 50, "text": "Nel disegno dimensioni e distanze non sono in scala: il Sole è molto più grande e molto più lontano.", "highlight": [], "sourceIds": ["w-terra"] }
+      ],
+      "status": [
+        { "from": 0, "to": 22, "text": "Rotazione: un giorno" },
+        { "from": 26, "to": 54, "text": "Rivoluzione: un anno" }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "earth" }, "distance": 6.5, "azimuth": 10, "elevation": 14 },
+        { "at": 26, "target": { "pos": [0, 3.4, 0] }, "distance": 25, "azimuth": 0, "elevation": 40 },
+        { "at": 42, "target": { "entity": "earth" }, "distance": 9, "azimuth": 30, "elevation": 14 },
+        { "at": 50, "target": { "pos": [0, 3.4, 0] }, "distance": 25, "azimuth": 0, "elevation": 34 }
+      ],
+      "pins": [
+        { "id": "sole", "name": "Sole", "info": "La stella che illumina e riscalda la Terra.", "kind": "object", "anchor": { "entity": "sun", "offset": [0, 1.7, 0] }, "sourceIds": ["page"] },
+        { "id": "terra", "name": "Terra", "info": "Il nostro pianeta: ruota su se stesso e gira intorno al Sole.", "kind": "object", "anchor": { "entity": "earth", "offset": [0, -1.1, 0] }, "sourceIds": ["page"] },
+        { "id": "asse", "name": "asse terrestre", "info": "La linea immaginaria che unisce il polo nord al polo sud: la Terra gira attorno a essa.", "kind": "object", "anchor": { "entity": "earth", "part": "north" }, "sourceIds": ["w-terra"] },
+        { "id": "roma", "name": "Roma", "info": "Qui ruota insieme alla Terra: guarda quando entra nella parte buia.", "kind": "city", "anchor": { "entity": "place", "part": "roma" }, "visible": [[0, 26]], "sourceIds": ["wd-roma"] },
+        { "id": "orbita", "name": "orbita", "info": "Il percorso della Terra intorno al Sole: un giro è un anno.", "kind": "note", "anchor": { "entity": "orbit", "part": "earth", "index": 90 }, "visible": [[26, 58]], "sourceIds": ["w-terra"] }
+      ],
+      "deep": [
+        { "text": "Per la rotazione il Sole e le stelle sorgono a est e tramontano a ovest, e sembrano muoversi nel cielo di circa 15 gradi ogni ora.", "sourceIds": ["w-terra"] },
+        { "text": "Visti dal polo nord, tutti questi movimenti della Terra si svolgono in senso antiorario.", "sourceIds": ["w-terra"] }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quanto dura una rivoluzione della Terra intorno al Sole?",
+          "options": ["Un giorno", "Un mese", "Poco più di 365 giorni"],
+          "answer": 2,
+          "explain": "La rivoluzione dura un anno, poco più di 365 giorni; la rotazione su se stessa dura circa un giorno."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'asse attorno a cui ruota la Terra.",
+          "answerPins": ["asse"],
+          "explain": "L'asse terrestre unisce il polo nord al polo sud: è inclinato e punta sempre nella stessa direzione."
+        }
+      ],
+      "sounds": {
+        "ambience": [{ "sound": "space", "volume": 0.25 }],
+        "cues": [
+          { "at": 5, "sound": "chime", "volume": 0.35 },
+          { "at": 22, "sound": "tick", "volume": 0.4 },
+          { "at": 26, "sound": "whoosh-soft", "volume": 0.4 },
+          { "at": 42, "sound": "chime", "volume": 0.35 }
+        ]
+      }
+    },
+    {
+      "id": "stagioni",
+      "title": "Le stagioni: l'inclinazione dell'asse",
+      "chip": "Stagioni",
+      "kind": "science",
+      "duration": 64,
+      "book": {
+        "heading": "Perché ci sono le stagioni",
+        "formula": "asse inclinato di circa 23°27′",
+        "lines": [
+          "L'asse terrestre è inclinato e punta sempre nella stessa direzione.",
+          "Durante l'anno i raggi del Sole arrivano più o meno inclinati.",
+          "Solstizi ed equinozi segnano l'inizio delle stagioni."
+        ],
+        "sourceIds": ["page", "w-stagione"]
+      },
+      "activity": {
+        "predict": {
+          "q": "Perché d'estate fa più caldo che d'inverno?",
+          "options": ["La Terra è più vicina al Sole", "I raggi arrivano più dritti e le giornate sono più lunghe", "Il Sole brilla di più"],
+          "answer": 1
+        },
+        "test": { "prompt": "Sposta il giorno dell'anno e guarda dove i raggi arrivano dritti. Poi porta l'asse a 0°: che cosa succede?", "params": ["giorno", "asse"] },
+        "prove": {
+          "text": "Le stagioni dipendono dall'inclinazione dell'asse: d'estate i raggi tendono al perpendicolo e scaldano di più. Non è la distanza: la Terra è più vicina al Sole all'inizio di gennaio, nell'inverno boreale. Con l'asse dritto non ci sarebbero le stagioni.",
+          "sourceIds": ["w-stagione"]
+        },
+        "stamp": "Maestro delle stagioni"
+      },
+      "narration": [
+        { "at": 0, "text": "L'asse della Terra è inclinato di circa 23 gradi e mezzo e resta sempre rivolto nella stessa direzione.", "highlight": ["asse"], "sourceIds": ["w-terra"] },
+        { "at": 7, "text": "Intorno al 21 marzo è l'equinozio di primavera: i raggi arrivano perpendicolari all'equatore e il dì dura quanto la notte.", "highlight": ["equatore"], "sourceIds": ["w-terra", "w-equinozio"] },
+        { "at": 15, "text": "Intorno al 21 giugno è il solstizio d'estate: il polo nord è inclinato verso il Sole e i raggi cadono dritti sul tropico del Cancro.", "highlight": ["cancro", "raggi"], "sourceIds": ["w-terra", "w-cancro"] },
+        { "at": 21, "text": "Nell'emisfero nord è estate: i raggi arrivano più dritti e le giornate sono più lunghe. Nell'emisfero sud, invece, è inverno.", "highlight": [], "sourceIds": ["w-stagione"] },
+        { "at": 31, "text": "Intorno al 23 settembre torna l'equinozio, quello d'autunno.", "highlight": ["equatore"], "sourceIds": ["w-terra"] },
+        { "at": 43, "text": "Intorno al 21 dicembre è il solstizio d'inverno: ora il Sole è allo zenit sul tropico del Capricorno.", "highlight": ["capricorno"], "sourceIds": ["w-terra", "w-capricorno"] },
+        { "at": 51, "text": "Attenzione: all'inizio di gennaio la Terra è più vicina al Sole, eppure da noi è inverno. Conta l'inclinazione, non la distanza.", "highlight": [], "sourceIds": ["w-stagione"] },
+        { "at": 58, "text": "Se l'asse fosse dritto, non ci sarebbero le stagioni: prova tu a raddrizzarlo.", "highlight": ["asse"], "sourceIds": ["w-stagione"] }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "earth" }, "distance": 7.5, "azimuth": 35, "elevation": 12 },
+        { "at": 9, "target": { "pos": [0, 3.4, 0] }, "distance": 25, "azimuth": 0, "elevation": 34 },
+        { "at": 15, "target": { "entity": "earth", "offset": [0, 0, -1.5] }, "distance": 10, "azimuth": 70, "elevation": 28 },
+        { "at": 25, "target": { "pos": [0, 3.4, 0] }, "distance": 25, "azimuth": 0, "elevation": 34 },
+        { "at": 43, "target": { "entity": "earth", "offset": [0, 0, 1.5] }, "distance": 10, "azimuth": 40, "elevation": 28 },
+        { "at": 51, "target": { "pos": [0, 3.4, 0] }, "distance": 25, "azimuth": 0, "elevation": 34 }
+      ],
+      "pins": [
+        { "id": "sole", "name": "Sole", "info": "I suoi raggi arrivano paralleli sulla Terra.", "kind": "object", "anchor": { "entity": "sun", "offset": [0, 1.8, 0] }, "sourceIds": ["page"] },
+        { "id": "asse", "name": "asse terrestre", "info": "Inclinato rispetto alla perpendicolare al piano dell'orbita, punta sempre nello stesso verso.", "kind": "object", "anchor": { "entity": "earth", "part": "north" }, "sourceIds": ["w-stagione"] },
+        { "id": "equatore", "name": "equatore", "info": "Agli equinozi il Sole è allo zenit sull'equatore.", "kind": "note", "anchor": { "entity": "earth", "part": "equator" }, "visible": [[0, 14], [28, 40]], "sourceIds": ["w-equinozio"] },
+        { "id": "cancro", "name": "tropico del Cancro", "info": "Il parallelo più a nord dove il Sole arriva allo zenit, nel solstizio di giugno.", "kind": "note", "anchor": { "entity": "earth", "part": "tropic-n" }, "visible": [[14, 28]], "sourceIds": ["w-cancro"] },
+        { "id": "capricorno", "name": "tropico del Capricorno", "info": "Il parallelo più a sud dove il Sole arriva allo zenit, nel solstizio di dicembre.", "kind": "note", "anchor": { "entity": "earth", "part": "tropic-s" }, "visible": [[40, 52]], "sourceIds": ["w-capricorno"] },
+        { "id": "raggi", "name": "raggi del Sole", "info": "Dove arrivano dritti scaldano di più.", "kind": "note", "anchor": { "entity": "ray", "index": 2 }, "visible": [[14, 26]], "sourceIds": ["w-stagione"] }
+      ],
+      "deep": [
+        { "text": "L'orbita della Terra è un'ellisse poco schiacciata: la Terra è più vicina al Sole (perielio) all'inizio di gennaio e più lontana (afelio) all'inizio di luglio.", "sourceIds": ["w-stagione"] },
+        { "text": "La data del solstizio cambia un po' da un anno all'altro: in giugno può cadere il 20, il 21 o il 22, in dicembre il 21, il 22 o il 23.", "sourceIds": ["w-solstizio"] },
+        { "text": "Nelle regioni polari si distinguono spesso solo due stagioni: quella del sole di mezzanotte e quella della notte polare.", "sourceIds": ["w-stagione"] }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa causa le stagioni?",
+          "options": ["La distanza tra la Terra e il Sole", "L'inclinazione dell'asse terrestre", "La rotazione della Luna"],
+          "answer": 1,
+          "explain": "È l'inclinazione dell'asse: cambia l'inclinazione con cui i raggi del Sole arrivano sulla superficie durante l'anno."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il parallelo dove, a giugno, i raggi del Sole cadono dritti.",
+          "answerPins": ["cancro"],
+          "explain": "È il tropico del Cancro: nel solstizio di giugno il Sole è allo zenit su di lui."
+        }
+      ],
+      "sounds": {
+        "ambience": [{ "sound": "space", "volume": 0.22 }],
+        "cues": [
+          { "at": 7, "sound": "chime", "volume": 0.35 },
+          { "at": 15, "sound": "sparkle", "volume": 0.4 },
+          { "at": 31, "sound": "chime", "volume": 0.35 },
+          { "at": 43, "sound": "sparkle", "volume": 0.4 },
+          { "at": 58, "sound": "pop", "volume": 0.35 }
+        ]
+      }
+    },
+    {
+      "id": "luna",
+      "title": "Le fasi della Luna e un'eclissi",
+      "chip": "Fasi lunari",
+      "kind": "science",
+      "duration": 64,
+      "book": {
+        "heading": "Le fasi lunari",
+        "formula": "nuova → primo quarto → piena → ultimo quarto",
+        "lines": [
+          "La Luna è illuminata dal Sole sempre per metà.",
+          "Da Terra ne vediamo una parte diversa: sono le fasi.",
+          "Un ciclo di fasi dura circa 29 giorni e mezzo."
+        ],
+        "sourceIds": ["page", "w-fasi"]
+      },
+      "activity": {
+        "predict": {
+          "q": "Quando la Luna è dalla parte opposta al Sole, come la vediamo dalla Terra?",
+          "options": ["Tutta buia", "Illuminata a metà", "Tutta illuminata"],
+          "answer": 2
+        },
+        "test": { "prompt": "Muovi la Luna lungo la sua orbita e guarda nella finestrella come la vedresti dalla Terra.", "params": ["luna"] },
+        "prove": {
+          "text": "Con la Luna piena la Terra sta tra il Sole e la Luna, e vediamo tutta la metà illuminata. Con la Luna nuova la Luna sta tra la Terra e il Sole e ci mostra la metà buia.",
+          "sourceIds": ["w-fasi"]
+        },
+        "stamp": "Esploratore della Luna"
+      },
+      "narration": [
+        { "at": 0, "text": "La Luna gira intorno alla Terra e, come la Terra, è illuminata dal Sole sempre per metà.", "highlight": ["luna"], "sourceIds": ["w-fasi"] },
+        { "at": 5, "text": "Da Terra ne vediamo ogni sera una parte diversa: sono le fasi lunari. La finestrella mostra la Luna come la vedi dalla Terra.", "highlight": ["fase"], "sourceIds": ["w-fasi"] },
+        { "at": 11, "text": "Il 21 luglio 2026 era primo quarto: per chi vive nell'emisfero nord, è illuminata la metà di destra.", "highlight": ["fase"], "sourceIds": ["calc", "w-fasi"] },
+        { "at": 22.5, "text": "Il 29 luglio era Luna piena: la Terra sta tra il Sole e la Luna e vediamo tutta la faccia illuminata.", "highlight": ["luna"], "sourceIds": ["calc", "w-fasi"] },
+        { "at": 29, "text": "Perché non c'è un'eclissi a ogni Luna piena? L'orbita della Luna è inclinata di circa 5 gradi e di solito passa sopra o sotto l'ombra della Terra.", "highlight": ["orbita", "ombra-terra"], "sourceIds": ["w-fasi"] },
+        { "at": 34, "text": "Il 6 agosto era ultimo quarto: ora è illuminata la metà di sinistra.", "highlight": ["fase"], "sourceIds": ["calc", "w-fasi"] },
+        { "at": 38.5, "text": "Un ciclo completo di fasi dura in media 29 giorni, 12 ore e 44 minuti: è il mese lunare.", "highlight": [], "sourceIds": ["w-fasi"] },
+        { "at": 44, "text": "Il 12 agosto 2026 la Luna nuova si è allineata con il Sole e la Terra: la sua ombra è caduta sulla Terra.", "highlight": ["ombra-luna"], "sourceIds": ["w-eclissi-2026"] },
+        { "at": 51, "text": "È stata un'eclissi totale di Sole in Islanda e nel nord della Spagna; in Italia la Luna ha coperto più del 90% del Sole.", "highlight": ["ombra-luna"], "sourceIds": ["w-eclissi-2026"] },
+        { "at": 58, "text": "Quando invece è la Luna a entrare nell'ombra della Terra, a Luna piena, c'è un'eclissi di Luna.", "highlight": ["ombra-terra"], "sourceIds": ["w-eclissi-lunare"] }
+      ],
+      "camera": [
+        { "at": 0, "target": { "pos": [-1, 4, 0] }, "distance": 21, "azimuth": 0, "elevation": 50 },
+        { "at": 9, "target": { "pos": [2, 2.5, 1] }, "distance": 24, "azimuth": 0, "elevation": 38 },
+        { "at": 22, "target": { "pos": [-1, 4, 0] }, "distance": 21, "azimuth": 0, "elevation": 45 },
+        { "at": 29, "target": { "pos": [3, 3.4, 0] }, "distance": 15, "azimuth": 0, "elevation": 6 },
+        { "at": 44, "target": { "pos": [-1.5, 3.6, 0] }, "distance": 14, "azimuth": 15, "elevation": 30 },
+        { "at": 51, "target": { "entity": "earth" }, "distance": 6, "azimuth": -50, "elevation": 35 },
+        { "at": 57, "target": { "pos": [-1, 4, 0] }, "distance": 21, "azimuth": 0, "elevation": 35 }
+      ],
+      "pins": [
+        { "id": "sole", "name": "Sole", "info": "Illumina sempre metà della Luna e metà della Terra.", "kind": "object", "anchor": { "entity": "sun", "offset": [0, 2, 0] }, "sourceIds": ["page"] },
+        { "id": "terra", "name": "Terra", "info": "Da qui guardiamo la Luna.", "kind": "object", "anchor": { "entity": "earth", "offset": [0, -0.9, 0] }, "sourceIds": ["page"] },
+        { "id": "luna", "name": "Luna", "info": "Il satellite della Terra: gira su se stessa nello stesso tempo in cui gira intorno alla Terra.", "kind": "object", "anchor": { "entity": "moon", "offset": [0, 0.45, 0] }, "sourceIds": ["w-luna"] },
+        { "id": "fase", "name": "come la vedi dalla Terra", "info": "La Luna vista dalla Terra, in questo momento.", "kind": "note", "anchor": { "entity": "phase" }, "sourceIds": ["page"] },
+        { "id": "orbita", "name": "orbita della Luna", "info": "È inclinata rispetto all'orbita della Terra: nel disegno l'inclinazione è esagerata.", "kind": "note", "anchor": { "entity": "orbit", "part": "moon", "index": 135 }, "visible": [[28, 40]], "sourceIds": ["w-fasi"] },
+        { "id": "ombra-terra", "name": "ombra della Terra", "info": "Un cono d'ombra: se la Luna ci entra, a Luna piena, c'è un'eclissi di Luna.", "kind": "note", "anchor": { "entity": "shadow", "part": "earth" }, "visible": [[28, 64]], "sourceIds": ["w-eclissi-lunare"] },
+        { "id": "ombra-luna", "name": "ombra della Luna", "info": "Dove tocca la Terra, il Sole viene coperto: è un'eclissi di Sole.", "kind": "note", "anchor": { "entity": "shadow", "part": "moon" }, "visible": [[43, 64]], "sourceIds": ["w-eclissi-2026"] }
+      ],
+      "deep": [
+        { "text": "La Luna mostra alla Terra sempre la stessa faccia, perché impiega lo stesso tempo a girare su se stessa e intorno alla Terra.", "sourceIds": ["w-luna"] },
+        { "text": "Nell'emisfero australe è il contrario: la Luna crescente è illuminata a sinistra e quella calante a destra.", "sourceIds": ["w-fasi"] },
+        { "text": "Durante un'eclissi totale di Luna la Luna non sparisce: diventa rossastra, perché un po' di luce del Sole la raggiunge passando attraverso l'atmosfera della Terra.", "sourceIds": ["w-eclissi-lunare"] }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quanto dura in media un ciclo completo delle fasi lunari?",
+          "options": ["Circa 7 giorni", "Circa 29 giorni e mezzo", "Circa 365 giorni"],
+          "answer": 1,
+          "explain": "Il mese lunare, da una Luna nuova alla successiva, dura in media 29 giorni, 12 ore e 44 minuti."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'ombra che provoca un'eclissi di Luna.",
+          "answerPins": ["ombra-terra"],
+          "explain": "È l'ombra della Terra: a Luna piena, se la Luna ci entra, si ha un'eclissi lunare."
+        }
+      ],
+      "sounds": {
+        "ambience": [{ "sound": "space", "volume": 0.25 }],
+        "cues": [
+          { "at": 11, "sound": "chime", "volume": 0.3 },
+          { "at": 22.5, "sound": "chime", "volume": 0.35 },
+          { "at": 34, "sound": "chime", "volume": 0.3 },
+          { "at": 44, "sound": "gong", "volume": 0.35 },
+          { "at": 58, "sound": "sparkle", "volume": 0.35 }
+        ]
+      }
+    }
+  ]
+}

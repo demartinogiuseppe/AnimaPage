@@ -1,0 +1,231 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=Germani%7CRoma%7CRomani%7CFine+dell%27impero+romano+d%27Occidente%7Cbarbari%7CUnni%7CSacco+di+Roma+dei+Visigoti%7CDevastazione+dell%27Italia+settentrionale+da+parte+degli+Unni%7CSacco+di+Roma+dei+Vandali%7Cregni+romano-barbarici%7CVandali%7CVisigoti",
+ "fetchedAt": "2026-11-03T16:02:53.959Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "normalized": [
+    {
+     "fromencoded": false,
+     "from": "barbari",
+     "to": "Barbari"
+    },
+    {
+     "fromencoded": false,
+     "from": "regni romano-barbarici",
+     "to": "Regni romano-barbarici"
+    }
+   ],
+   "redirects": [
+    {
+     "from": "Barbari",
+     "to": "Barbaro"
+    }
+   ],
+   "pages": [
+    {
+     "ns": 0,
+     "title": "Sacco di Roma dei Vandali",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_dei_Vandali",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sacco_di_Roma_dei_Vandali&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_dei_Vandali"
+    },
+    {
+     "ns": 0,
+     "title": "Devastazione dell'Italia settentrionale da parte degli Unni",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Devastazione_dell%27Italia_settentrionale_da_parte_degli_Unni",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Devastazione_dell%27Italia_settentrionale_da_parte_degli_Unni&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Devastazione_dell%27Italia_settentrionale_da_parte_degli_Unni"
+    },
+    {
+     "ns": 0,
+     "title": "Sacco di Roma dei Visigoti",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_dei_Visigoti",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sacco_di_Roma_dei_Visigoti&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_dei_Visigoti"
+    },
+    {
+     "ns": 0,
+     "title": "Fine dell'impero romano d'Occidente",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Fine_dell%27impero_romano_d%27Occidente",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Fine_dell%27impero_romano_d%27Occidente&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Fine_dell%27impero_romano_d%27Occidente"
+    },
+    {
+     "pageid": 38889,
+     "ns": 0,
+     "title": "Romani",
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q196194"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:19Z",
+     "lastrevid": 153001594,
+     "length": 2464,
+     "fullurl": "https://it.wikipedia.org/wiki/Romani",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Romani&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Romani"
+    },
+    {
+     "pageid": 75124,
+     "ns": 0,
+     "title": "Visigoti",
+     "extract": "I Visigoti furono un popolo germanico di origine scandinava, appartenente alla tribù dei Goti. Furono tra quei popoli barbari che, con le loro migrazioni, contribuirono alla crisi e alla caduta dell'Impero romano d'Occidente. Dopo la fine dell'impero i Visigoti giocarono un ruolo molto importante nello scacchiere europeo per altri due secoli e mezzo.\nIl nome Visigoti vuol dire \"Goti nobili\" (Wi si in gotico vuol dire \"degni\" o \"nobili\"); furono comunque anche citati come Goti dell'Ovest (dal tedesco Westgoten), mentre i Goti che si erano stanziati lungo il bacino del Dnepr furono detti Ostrogoti (Goti dell'Est, dal tedesco Ostgoten).",
+     "pageprops": {
+      "wikibase_item": "Q23693"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:25Z",
+     "lastrevid": 152154317,
+     "length": 30023,
+     "fullurl": "https://it.wikipedia.org/wiki/Visigoti",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Visigoti&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Visigoti"
+    },
+    {
+     "pageid": 97161,
+     "ns": 0,
+     "title": "Regni romano-barbarici",
+     "extract": "Il periodo successivo alla deposizione di Romolo Augusto del 476, per convenzione considerata la fine dell'Impero romano d'Occidente, vide l'instaurazione di nuovi regni, detti regni romano-barbarici (oppure romano-germanici o latino-germanici). Essi si erano andati formando nelle ex province romane già a partire dalle invasioni del IV e V secolo. Di fatto autonomi, venivano inquadrati come foederati. Inizialmente anche i nuovi regni successivi alla caduta dell'Impero d'Occidente rimasero spesso formalmente dipendenti dall'Impero romano d'Oriente. I capi barbari erano al contempo reggenti per il monarca di Costantinopoli e sovrani dei loro rispettivi popoli.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q5402094"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:27Z",
+     "lastrevid": 151114571,
+     "length": 49827,
+     "fullurl": "https://it.wikipedia.org/wiki/Regni_romano-barbarici",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Regni_romano-barbarici&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Regni_romano-barbarici"
+    },
+    {
+     "pageid": 221097,
+     "ns": 0,
+     "title": "Barbaro",
+     "extract": "Barbaro (in greco antico βάρβαρος?, bárbaros, passato in latino come barbarus) è la parola onomatopeica con cui gli antichi greci indicavano gli stranieri (letteralmente i \"balbuzienti\"), cioè coloro che non parlavano greco, e quindi non erano di cultura greca.\nIl termine latino barbarus significava invece \"straniero\" ovvero estraneo alla mentalità greco-romana. Questa accezione si diffuse ampiamente nel contesto politico-sociale dei conflitti del III-IV secolo. Nei testi latini il termine “barbarus” è spesso accompagnato da aggettivi come “ferus” (violento) e “iracundus” (iracondo), che definiscono il significato negativo della parola originaria.\nIl concetto, con nomi differenti, è stato usato in diverse culture anche precedenti quella greca.",
+     "pageprops": {
+      "wikibase_item": "Q134313"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:41Z",
+     "lastrevid": 151909064,
+     "length": 9203,
+     "fullurl": "https://it.wikipedia.org/wiki/Barbaro",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Barbaro&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Barbaro"
+    },
+    {
+     "pageid": 306524,
+     "ns": 0,
+     "title": "Vandali",
+     "extract": "I Vandali (Wandili) erano una popolazione germanica orientale come i Burgundi e i Goti. Plinio il Vecchio sosteneva nella sua Naturalis Historia che di questa popolazione facessero parte anche i Burgundi, i Varinni, i Carini e i Gutoni. Dopo una prima presenza nei territori dell'attuale Polonia (tra il bacino dell'Oder e della Vistola), sotto la pressione di altre tribù germaniche, si spostarono più a sud, dove combatterono e sottomisero la popolazione celtica dei Boi. Si stanziarono quindi nei territori dell'attuale Slesia e Boemia, creando una federazione di tribù comprendente Burgundi, Rugi e Silingi, detta dei Lugi (compagni).",
+     "pageprops": {
+      "wikibase_item": "Q42211"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:48Z",
+     "lastrevid": 152812223,
+     "length": 58334,
+     "fullurl": "https://it.wikipedia.org/wiki/Vandali",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Vandali&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Vandali"
+    },
+    {
+     "pageid": 675696,
+     "ns": 0,
+     "title": "Unni",
+     "extract": "Gli Unni erano un popolo guerriero nomade, proveniente dalla Siberia meridionale, che giunse in Europa nel IV secolo. Sono particolarmente conosciuti per le incursioni compiute a metà del V secolo contro l'impero romano d'Occidente. Tra il 447 e il 454, sotto Attila, formarono un impero nomade che fu il più vasto del suo tempo, con una superficie di 4,0 milioni di km² all'apice.",
+     "pageprops": {
+      "wikibase_item": "Q45813"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-01T17:18:49Z",
+     "lastrevid": 152711573,
+     "length": 86356,
+     "fullurl": "https://it.wikipedia.org/wiki/Unni",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Unni&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Unni"
+    },
+    {
+     "pageid": 2224123,
+     "ns": 0,
+     "title": "Germani",
+     "extract": "Il termine Germani (chiamati anche Teutoni o, per sineddoche, Goti) indica un insieme di popoli parlanti lingue germaniche, nati dalla fusione fra gruppi etnici di origine indoeuropea e gruppi etnici autoctoni di origine paleo-mesolitica e neolitica nella loro patria originaria (Scandinavia meridionale, Jutland, odierna Germania settentrionale), che, dopo essersi cristallizzati in un'unica compagine, a partire dai primi secoli del I millennio si diffusero fino a occupare un'ampia area dell'Europa centro-settentrionale, dalla Scandinavia all'alto corso del Danubio e dal Reno alla Vistola. Da qui, a partire soprattutto dal III secolo, numerose tribù germaniche migrarono in molteplici ondate verso ogni direzione, toccando gran parte del continente europeo e arrivando fino in Nordafrica e in Nordamerica.\nDopo il periodo delle migrazioni i popoli germanici attraversarono un nuovo periodo di etnogenesi dal quale emersero alcune nazioni odierne: i popoli scandinavi (Danesi, Faroesi, Islandesi, Norvegesi, Svedesi); i popoli tedeschi (compresi gli Austriaci e gli Svizzeri Alemanni); i popoli franconi (Fiamminghi, Olandesi, Lussemburghesi); e i popoli di matrice anglo-frisone (Frisoni, Inglesi), sebbene il lascito dei Germani sia presente in tutta Europa, anche in nazioni che non parlano lingue germaniche dove vari popoli germanici (Franchi, Burgundi, Goti, Longobardi, Normanni, etc.) si fusero con le popolazioni locali non germaniche, dai paesi del Mediterraneo, alla Francia dove essi assunsero la lingua gallo-romanza locale, alla Russia (Variaghi).\nDall'età moderna furono soprattutto gruppi germanici, almeno in origine, a fondare colonie nell'America del nord (le tredici colonie britanniche) e in altre zone non europee. Da questo periodo in poi elementi culturali originariamente propri di gruppi germanici, quali la lingua inglese e la religione protestante che fu creata in ambito germanico nel XVI secolo, si sono diffusi in tutto il mondo anche tra popolazioni non germaniche.",
+     "pageprops": {
+      "wikibase_item": "Q22633"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-01T06:57:21Z",
+     "lastrevid": 152701556,
+     "length": 143491,
+     "fullurl": "https://it.wikipedia.org/wiki/Germani",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Germani&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Germani"
+    },
+    {
+     "pageid": 2318427,
+     "ns": 0,
+     "title": "Roma",
+     "extract": "Roma (/ˈroma/, ) è un comune italiano di 2 743 357 abitanti, capoluogo dell'omonima città metropolitana e della regione Lazio, nonché capitale della Repubblica Italiana. Il comune di Roma, denominato Roma Capitale, è dotato di un ordinamento amministrativo speciale e disciplinato dalla legge dello Stato.\nÈ il comune più popoloso d'Italia e il terzo dell'Unione europea dopo Berlino e Madrid; con una superficie di 1287,36 km², è il comune più esteso dell'Unione europea e il quinto del continente europeo, preceduto da Istanbul, Mosca, Londra e San Pietroburgo. È inoltre il comune europeo con la maggiore superficie di aree verdi.\nFondata secondo la tradizione il 21 aprile 753 a.C. da Romolo (sebbene scavi recenti presso il Lapis niger indichino la presenza di insediamenti già due secoli prima), nel corso dei suoi tre millenni di storia, è stata la prima metropoli dell'Occidente, cuore pulsante di una delle più importanti civiltà antiche, che influenzò la società, la cultura, la lingua, la letteratura, l'arte, l'architettura, l'urbanistica, l'ingegneria civile, la filosofia, la religione, il diritto e i costumi dei secoli successivi. Fu il luogo di origine della lingua latina, fu capitale dell'antico Stato romano, che estendeva il suo dominio su tutto il bacino del Mediterraneo e gran parte dell'Europa; poi dello Stato Pontificio, sottoposto al potere temporale dei papi; quindi del Regno d'Italia dal 1871 al 1946, poi della Repubblica Italiana. È definita Caput mundi, Città eterna e, per antonomasia, l'Urbe.\nCuore della cristianità cattolica, è l'unica città al mondo ad ospitare al proprio interno un intero Stato, l'enclave della Città del Vaticano, cui si aggiunge la sede del Sovrano Militare Ordine di Malta, persona giuridica di diritto internazionale. Il suo centro storico, delimitato dal perimetro delle Mura aureliane, sovrapposizione di testimonianze di quasi tre millenni, è espressione del patrimonio storico, artistico e culturale del mondo occidentale europeo, tanto che, nel 1980, insieme alle proprietà extraterritoriali della Santa Sede nella città, è stato inserito nella lista dei patrimoni dell'umanità dell'UNESCO, provvedimento esteso nel 1990 ai territori compresi all'interno delle Mura gianicolensi. Nel 2007 il Colosseo, simbolo e monumento più famoso della città, è stato inserito tra le nuove sette meraviglie del mondo.\nLuogo di fondazione della Comunità economica europea e dell'Euratom, ospita anche le sedi di tre organizzazioni delle Nazioni Unite: la FAO, il Fondo internazionale per lo sviluppo agricolo (IFAD) e il Programma alimentare mondiale (PAM). Nel 1960 ha ospitato i Giochi olimpici. Per tutte queste caratteristiche, Roma rientra nel novero delle città globali.",
+     "pageprops": {
+      "wikibase_item": "Q220"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T09:42:40Z",
+     "lastrevid": 153174611,
+     "length": 246890,
+     "fullurl": "https://it.wikipedia.org/wiki/Roma",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Roma&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Roma"
+    }
+   ]
+  }
+ }
+}

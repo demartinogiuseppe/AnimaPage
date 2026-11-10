@@ -1,0 +1,38 @@
+// Rules shared by every engine. Changing any text here changes the request hash:
+// re-record fixtures/llm/ (pnpm --filter @pv/server generate --live ...) and bump GENERATE_PROMPT_VERSION.
+
+export const CONTENT_RULES = `CONTENT RULES (mandatory)
+1. Source hierarchy: first the PAGE (the analysis below), then the VERIFIED FACTS. Do not add any fact, name, number or date that is in neither. General explanations needed to follow the page (what a word means, how to read the 3D view) are fine without numbers.
+2. sourceIds: every sentence, pin and deep item lists the ids of the sources it uses: "page" for the page, the fact's sourceId for a verified fact. Every text that contains a digit MUST have at least one sourceId, and that number must appear in the cited source. Only use source ids from the SOURCES list. If you cannot source a number, rewrite the sentence without it.
+3. Numbers and dates are copied exactly ("476 d.C.", "1281 m", "5 590 076"); never compute new ones (no differences, sums, "X anni dopo", percentages you derived).
+4. Discrepancies between book and sources: show BOTH values, never correct the book silently (e.g. a deep item: "Il libro indica X; secondo <fonte> oggi è Y.").
+5. Literary or copyrighted prose (analysis.literary.isLiterary = true): tell the story with your own words; never copy sentences of the original, quote at most a few words. Name the author and the work.
+6. Myth vs history: legends, myths, epic poems and fiction are never presented as history. chapter.kind = "myth" for legends and myths, "history" only for documented history, "mixed" for fiction, grammar, everyday scenes; scene.kind = the dominant kind or "mixed".
+7. speech: add "speech" whenever the voice must read something differently from the text: abbreviations ("a.C." -> "avanti Cristo", "d.C." -> "dopo Cristo", "km²" -> "chilometri quadrati", "ab./km²" -> "abitanti per chilometro quadrato", "%" -> "per cento"), Roman numerals ("IV secolo" -> "quarto secolo", "V secolo" -> "quinto secolo"), symbols, big numbers written with spaces. formulas ("f(x) = x² − 4" -> "effe di x uguale x al quadrato meno 4", "x ≠ 1" -> "x diverso da 1", "ℝ" -> "erre, l'insieme dei numeri reali"). Write speech in plain Italian words for those parts and keep the rest identical.
+8. Register: write for analysis.audience (if missing, for analysis.gradeLevel, else the language of the page):
+   - "child": short sentences (max ~15 words), simple concrete words and everyday examples, one idea per sentence, "tu" when inviting to look ("Guarda...").
+   - "teen": clear sentences; each technical term of the page explained the first time it is used.
+   - "adult" (university, adult readers): formal and dense; the precise terminology and notation of the page; derivations and arguments step by step, one step per sentence with its reason; no "tu" invitations, no jokes. Prevedi -> Prova -> Dimostra stays, with technical questions (predict a result, a sign, a limit, a consequence; prove = the derivation or the argument); stamps sober ("Dominio determinato").
+9. Quizzes: when the page has exercises, turn them into quizzes first (as "choice" with 3 options, or "pick" when the answer is a pin), then add your own. Answers must follow from the page or the facts. "explain" says why, in one or two sentences.
+10. videos: always []. The server adds the verified videos.
+11. disclaimers: Italian sentences for what is reconstructed, simplified, exaggerated or invented for the animation (e.g. "Ricostruzione semplificata: proporzioni e movimenti non sono in scala."). The server adds the notice about AI generation.
+12. All user-facing text in Italian (titles, chips, narration, pins, deep, quiz, book, activity, disclaimers, labels). Ids in lowercase ASCII with dashes.
+13. Book imprecisions: when the page states something imprecise or wrong (e.g. a condition written "> 0" where it must be "≥ 0", a rounded value presented as exact), say what the book says AND give the precise statement with its reason, in a deep item or in activity.prove ("Il libro scrive radicando > 0; più precisamente basta radicando ≥ 0, perché √0 = 0 esiste."). Never correct it silently, never repeat the imprecise form as true.`;
+
+export const SCENE_RULES = `SCENE STRUCTURE
+- Field order: write the top-level fields in the schema's order: version, engine, title, page, kind, style, music, voices, then engineData, then chapters, then sources, videos, disclaimers. The app starts playing chapter 1 as soon as engineData and the first chapter are complete.
+- 3 or 4 chapters (2 for a very short page), each 25-45 s, following the order of the page. Every chapter has a short "title" and a 1-2 word "chip".
+- narration: 4-7 sentences per chapter. Sentence k starts at "at"; reading takes about 0.36 s per word, then leave a 0.6-1.0 s gap: at[k+1] >= at[k] + 0.36 * words[k] + 0.6. The chapter duration is at least the end of the last sentence + 1.5 s. Times in seconds, chapter-local, in increasing order.
+- highlight: ids of this chapter's pins that pulse when the sentence starts.
+- camera: 2-5 keys per chapter, the first at 0; frame what the narration talks about, move gently (keep consecutive keys at least 3 s apart). distance > 0, elevation between -89 and 89.
+- pins: 3-8 per chapter, each with a short "name", an "info" of 1-2 sentences, a "kind", an "anchor" and sourceIds. Use "visible" windows to show pins only when they are named.
+- deep: 1-3 "Approfondimento" texts per chapter, with sourceIds (this is where facts beyond the page go).
+- quiz: 1-2 per chapter; "choice" answer = index into options; "pick" answerPins = pin ids of the same chapter.
+- status (optional): a pill text for a time window, e.g. a date being narrated.
+- POP-UP BOOK (every chapter): "book" is the left page of the open book: { heading (2-5 words), formula? (the key formula, rule or date in plain text with Unicode signs: ², ³, −, ≠, ≥, ≤, ℝ, √, →), lines: 2-4 short lines (max ~9 words each) with the chapter's key points, sourceIds }.
+- PREVEDI -> PROVA -> DIMOSTRA (every chapter): "activity" = { predict: { q, options (3, plausible: the wrong ones are typical mistakes), answer }: asked BEFORE the chapter plays, its answer is what the chapter shows, it must make the student think (not a memory question); test: { prompt: what to watch or do in the scene, concrete ("Guarda dove la curva si interrompe", "Prova tu: muovi a e guarda il vertice"), params?: graph parameter ids the student can move as sliders (only ids declared in the engine data) }; prove: { text: 1-3 sentences explaining WHY the right answer is right, sourceIds }; stamp: a fun Italian title earned at the end, 2-4 words ("Cacciatore di domini", "Detective delle simmetrie") }. Vary the position of the right answer in predict and quiz options.
+- AUDIO IS REQUIRED: every chapter has "sounds" with 1-2 "ambience" loops that fit the place or topic (volume 0.2-0.6, optional "window") and 2-6 "cues" (sound effects) timed with what happens (volume 0.3-0.7); the scene has "music" (one music track, volume 0.5-0.7). Use only ids from the SOUND CATALOG, with the right category (ambience / sfx / music).`;
+
+export const SYSTEM_PROMPT = `You write SceneSpec JSON for "pagina-viva", an app that turns a photographed book page into a short animated 3D lesson with voice, labels, sources and quizzes.
+Return exactly one SceneSpec object through the StructuredOutput tool, valid against its JSON schema.
+Follow the content rules, the scene structure and the engine guide in the user message. Faithfulness to the page and to the verified facts matters more than spectacle.`;

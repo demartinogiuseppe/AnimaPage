@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Capri&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T02:33:03.115Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 35920,
+     "ns": 0,
+     "title": "Isola di Capri",
+     "index": 2,
+     "extract": "Capri è un'isola nel golfo di Napoli, appartenente all'arcipelago Campano e parte della città metropolitana di Napoli, situata di fronte alla penisola sorrentina. Dal punto di vista amministrativo è suddivisa tra i comuni di Capri e Anacapri.",
+     "pageprops": {
+      "wikibase_item": "Q173292"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:22Z",
+     "lastrevid": 149771751,
+     "length": 9867,
+     "fullurl": "https://it.wikipedia.org/wiki/Isola_di_Capri",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Isola_di_Capri&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Isola_di_Capri"
+    },
+    {
+     "pageid": 50329,
+     "ns": 0,
+     "title": "Capri",
+     "index": 3,
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q858285"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:20Z",
+     "lastrevid": 149772282,
+     "length": 1966,
+     "fullurl": "https://it.wikipedia.org/wiki/Capri",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Capri&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Capri"
+    },
+    {
+     "pageid": 93766,
+     "ns": 0,
+     "title": "Peppino di Capri",
+     "index": 1,
+     "extract": "Peppino di Capri, pseudonimo di Giuseppe Faiella (Capri, 27 luglio 1939 – Capri, 11 luglio 2026), è stato un cantante, pianista e compositore italiano.\nÈ stato il vincitore del Festival della Canzone Napoletana nel 1970 con la canzone Me chiamme ammore e del Festival di Sanremo per due volte, nel 1973 con Un grande amore e niente più e nel 1976 con Non lo faccio più; tra i suoi maggiori successi figurano anche Champagne, Roberta, Nun è peccato, St. Tropez Twist, la versione italiana di Let's Twist Again ed E mo' e mo' (te voglio bene).",
+     "pageprops": {
+      "wikibase_item": "Q982377"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T16:00:24Z",
+     "lastrevid": 152805111,
+     "length": 47002,
+     "fullurl": "https://it.wikipedia.org/wiki/Peppino_di_Capri",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Peppino_di_Capri&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Peppino_di_Capri"
+    },
+    {
+     "pageid": 2804843,
+     "ns": 0,
+     "title": "Capri (serie televisiva)",
+     "index": 4,
+     "extract": "Capri è una serie televisiva italiana, nata da un'idea di Carlo Rossella e prodotta da Rai Fiction in collaborazione con Film Commission Regione Campania per tre stagioni andate in onda in prima visione su Rai Uno dal 2006 al 2010.\nNelle prime due stagioni i protagonisti sono Gabriella Pession, Kaspar Capparoni, Sergio Assisi e Isa Danieli, mentre la terza stagione vede come protagonisti Bianca Guaccero, Gabriele Greco e Lucia Bosè.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q3447614"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T23:09:08Z",
+     "lastrevid": 153142285,
+     "length": 41212,
+     "fullurl": "https://it.wikipedia.org/wiki/Capri_(serie_televisiva)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Capri_(serie_televisiva)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Capri_(serie_televisiva)"
+    }
+   ]
+  }
+ }
+}

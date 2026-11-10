@@ -1,0 +1,276 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=modo+indicativo%7Cpassato+remoto%7Cpassato+prossimo%7Cimperfetto%7CSonia%7Cpresente%7Cfuturo+semplice%7Ctrapassato+prossimo%7Ctrapassato+remoto%7Cfuturo+anteriore%7CMorfologia",
+ "fetchedAt": "2026-11-05T03:06:39.164Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "normalized": [
+    {
+     "fromencoded": false,
+     "from": "modo indicativo",
+     "to": "Modo indicativo"
+    },
+    {
+     "fromencoded": false,
+     "from": "passato remoto",
+     "to": "Passato remoto"
+    },
+    {
+     "fromencoded": false,
+     "from": "passato prossimo",
+     "to": "Passato prossimo"
+    },
+    {
+     "fromencoded": false,
+     "from": "imperfetto",
+     "to": "Imperfetto"
+    },
+    {
+     "fromencoded": false,
+     "from": "presente",
+     "to": "Presente"
+    },
+    {
+     "fromencoded": false,
+     "from": "futuro semplice",
+     "to": "Futuro semplice"
+    },
+    {
+     "fromencoded": false,
+     "from": "trapassato prossimo",
+     "to": "Trapassato prossimo"
+    },
+    {
+     "fromencoded": false,
+     "from": "trapassato remoto",
+     "to": "Trapassato remoto"
+    },
+    {
+     "fromencoded": false,
+     "from": "futuro anteriore",
+     "to": "Futuro anteriore"
+    }
+   ],
+   "redirects": [
+    {
+     "from": "Modo indicativo",
+     "to": "Indicativo"
+    }
+   ],
+   "pages": [
+    {
+     "pageid": 115720,
+     "ns": 0,
+     "title": "Morfologia",
+     "extract": "Morfologia – branca della linguistica che studia la forma e la formazione delle parole\nMorfologia – branca della biologia che studia l'aspetto esteriore degli organismi viventi\nMorfologia matematica – teoria e tecnica per l'analisi e il processo di strutture geometriche\nMorfologia – branca della scienza dei materiali\nMorfologia urbana – studio della formazione, della nascita e delle trasformazioni delle agglomerazioni urbane\nMorfologia terrestre – branca della geografia relativa allo studio scientifico delle forme del suolo",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q178224"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:28Z",
+     "lastrevid": 152291010,
+     "length": 794,
+     "fullurl": "https://it.wikipedia.org/wiki/Morfologia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Morfologia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Morfologia"
+    },
+    {
+     "pageid": 305683,
+     "ns": 0,
+     "title": "Sonia",
+     "extract": "Sonia  è un nome proprio di persona italiano femminile.",
+     "pageprops": {
+      "wikibase_item": "Q5606846"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:48Z",
+     "lastrevid": 144022976,
+     "length": 6458,
+     "fullurl": "https://it.wikipedia.org/wiki/Sonia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sonia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sonia"
+    },
+    {
+     "pageid": 646506,
+     "ns": 0,
+     "title": "Presente",
+     "extract": "Il presente è un punto nella linea temporale dell'osservatore, posto tra il passato e il futuro.",
+     "pageprops": {
+      "wikibase_item": "Q193168"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:10Z",
+     "lastrevid": 150029514,
+     "length": 3592,
+     "fullurl": "https://it.wikipedia.org/wiki/Presente",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Presente&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Presente"
+    },
+    {
+     "pageid": 725190,
+     "ns": 0,
+     "title": "Imperfetto",
+     "extract": "Imperfetto – forma verbale dell'indicativo della lingua italiana\nImperfetto – forma verbale del congiuntivo della lingua italiana\nImperfetto – forma verbale del greco antico\nImperfetto – album di Povia del 2021",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3796811"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:32Z",
+     "lastrevid": 135633714,
+     "length": 375,
+     "fullurl": "https://it.wikipedia.org/wiki/Imperfetto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Imperfetto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Imperfetto"
+    },
+    {
+     "pageid": 727941,
+     "ns": 0,
+     "title": "Passato remoto",
+     "extract": "Il passato remoto (o meno comunemente perfetto semplice) è una forma verbale del modo indicativo.\nNormalmente il passato remoto viene usato per indicare avvenimenti dall'aspetto verbale puntuale anziché duraturo (il che lo distingue dall'imperfetto) e considerati come compiuti in un passato considerato psicologicamente come lontano, povero di rapporti espliciti con il presente (inteso come il momento dell'enunciazione), il che lo distingue dal passato prossimo.",
+     "pageprops": {
+      "wikibase_item": "Q442485"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 151208201,
+     "length": 38243,
+     "fullurl": "https://it.wikipedia.org/wiki/Passato_remoto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Passato_remoto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Passato_remoto"
+    },
+    {
+     "pageid": 727953,
+     "ns": 0,
+     "title": "Indicativo",
+     "extract": "L'indicativo, noto anche come «modo della realtà», costituisce la modalità verbale principale di numerose lingue. La sua funzione è quella di esprimere un evento o una situazione considerati obiettivi e non condizionati da incertezze; rappresenta in genere la forma basilare e non marcata, in netta contrapposizione agli altri modi, che risultano invece caratterizzati da marche specifiche.",
+     "pageprops": {
+      "wikibase_item": "Q682111"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 151826171,
+     "length": 7442,
+     "fullurl": "https://it.wikipedia.org/wiki/Indicativo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Indicativo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Indicativo"
+    },
+    {
+     "pageid": 730230,
+     "ns": 0,
+     "title": "Passato prossimo",
+     "extract": "Il passato prossimo (più raramente perfetto composto) è una forma verbale che indica eventi, esperienze e fatti conclusi, considerati secondo l'aspetto perfettivo (es.: Ieri sono andato alla stazione).\nQuesto significa che mentre l'imperfetto indica una situazione, uno stato o comunque un evento durante il suo svolgimento nel passato, il passato prossimo visualizza l'azione come un evento compiuto.",
+     "pageprops": {
+      "wikibase_item": "Q1240211"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 152982125,
+     "length": 17318,
+     "fullurl": "https://it.wikipedia.org/wiki/Passato_prossimo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Passato_prossimo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Passato_prossimo"
+    },
+    {
+     "pageid": 730363,
+     "ns": 0,
+     "title": "Trapassato prossimo",
+     "extract": "Il trapassato prossimo (più raramente piuccheperfetto) è una forma verbale che indica la compiutezza oppure l'anteriorità temporale di un evento rispetto ad un momento passato: Ieri ho ricevuto quello che avevo chiesto il giorno prima.",
+     "pageprops": {
+      "wikibase_item": "Q623742"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 150830816,
+     "length": 17945,
+     "fullurl": "https://it.wikipedia.org/wiki/Trapassato_prossimo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Trapassato_prossimo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Trapassato_prossimo"
+    },
+    {
+     "pageid": 730399,
+     "ns": 0,
+     "title": "Trapassato remoto",
+     "extract": "Il trapassato remoto è una forma verbale che indica fatti che si sono svolti immediatamente prima di un momento indicato dal passato remoto.\nEsempio: nell'enunciato \n\nDopo che Luisa ebbe sceso le scale, uscì dalla palazzina,\nl'azione indicata dal verbo scendere (coniugata al trapassato remoto) è anteriore a quella di uscire (passato remoto). \nSe alcuni secoli fa compariva anche nella proposizione principale, oggi si usa solo nella secondaria; nello specifico, solo nella temporale. Nel complesso, questa forma verbale ha un certo ruolo, seppur modesto, soprattutto nella lingua scritta di stile particolarmente elevato (es.: testo letterario). È ancora meno diffuso nelle varietà settentrionali italiane.",
+     "pageprops": {
+      "wikibase_item": "Q1101896"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 150610742,
+     "length": 12463,
+     "fullurl": "https://it.wikipedia.org/wiki/Trapassato_remoto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Trapassato_remoto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Trapassato_remoto"
+    },
+    {
+     "pageid": 730419,
+     "ns": 0,
+     "title": "Futuro anteriore",
+     "extract": "Il futuro anteriore o futuro composto, noto in passato anche come futuro prossimo, è una forma verbale che indica eventi, esperienze e fatti considerati come compiuti, ma che si trovano nell'ambito dell'avvenire (domani a quest'ora Marina sarà già andata via) oppure in quello dell'incertezza (Marina non c'è, sarà andata al cinema).",
+     "pageprops": {
+      "wikibase_item": "Q1234617"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 150830837,
+     "length": 12492,
+     "fullurl": "https://it.wikipedia.org/wiki/Futuro_anteriore",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Futuro_anteriore&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Futuro_anteriore"
+    },
+    {
+     "pageid": 731872,
+     "ns": 0,
+     "title": "Futuro semplice",
+     "extract": "Il futuro semplice  è una forma verbale del modo indicativo. Indica situazioni ed eventi presenti e futuri che risultano in qualche modo incerti; il futuro viene spesso preferito al presente per indicare eventi futuri quando l'evento è situato a notevole distanza di tempo nell'avvenire:\n\nDomani andrò a Parigi.\n...solo continuerò, e dormirò, mi sveglierò, camminerò, lavorerò, qualche cosa farò... (Io vivrò (senza te), Lucio Battisti)",
+     "pageprops": {
+      "wikibase_item": "Q1475560"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-06-27T13:47:26Z",
+     "lastrevid": 150645580,
+     "length": 20486,
+     "fullurl": "https://it.wikipedia.org/wiki/Futuro_semplice",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Futuro_semplice&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Futuro_semplice"
+    }
+   ]
+  }
+ }
+}

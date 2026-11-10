@@ -1,0 +1,654 @@
+{
+  "version": "0.1",
+  "engine": "storybook",
+  "title": "La balena e la barca (prova)",
+  "page": {
+    "subject": "Italiano",
+    "topic": "La lettera B",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "chapters": [
+    {
+      "id": "mare",
+      "title": "Nel mare",
+      "chip": "Mare",
+      "kind": "mixed",
+      "duration": 20,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Una grande balena nuota nel mare blu.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Una piccola barca scricchiola sulle onde.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 10,
+          "text": "Che bello, tutti sono arrivati!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "tuffo",
+      "title": "Il tuffo",
+      "chip": "Tuffo",
+      "kind": "mixed",
+      "duration": 20,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Plof! La balena fa uno spruzzo.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Pesce e granchio salutano felici.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "prato",
+      "title": "Il prato",
+      "chip": "Prato",
+      "kind": "mixed",
+      "duration": 15,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il bruco saltella sul prato.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Tocca il bruco con il dito.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "cielo",
+      "title": "Il cielo",
+      "chip": "Cielo",
+      "kind": "mixed",
+      "duration": 15,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il sole brilla sopra le nuvole.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Colora la balena come vuoi.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "treno",
+      "title": "Sui binari",
+      "chip": "Treno",
+      "kind": "mixed",
+      "duration": 20,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il treno rosso fa ciuf ciuf sui binari.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Che bel viaggio, nel prato fiorito!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "amici",
+      "title": "La sfilata",
+      "chip": "Tutti",
+      "kind": "mixed",
+      "duration": 20,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco tutti gli amici in fila.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Salutano con un grande sorriso.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Scena di prova per il teatro delle storie (storia originale)"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Scena di prova: storia originale per bambini."
+  ],
+  "engineData": {
+    "letter": "B",
+    "characters": [
+      {
+        "id": "balena",
+        "model": "whale",
+        "at": [
+          -5.5,
+          -1.8
+        ],
+        "scale": 0.9
+      },
+      {
+        "id": "barca",
+        "model": "sailboat",
+        "at": [
+          -5,
+          2
+        ],
+        "scale": 0.8
+      },
+      {
+        "id": "treno",
+        "model": "train",
+        "at": [
+          -0.5,
+          -1.8
+        ],
+        "scale": 0.5
+      },
+      {
+        "id": "bruco",
+        "model": "caterpillar",
+        "at": [
+          -1.2,
+          2.2
+        ],
+        "scale": 0.7
+      },
+      {
+        "id": "ombrello",
+        "model": "umbrella",
+        "at": [
+          2.5,
+          2
+        ],
+        "scale": 1
+      },
+      {
+        "id": "palla",
+        "model": "ball",
+        "at": [
+          5.5,
+          2.2
+        ],
+        "scale": 1
+      },
+      {
+        "id": "sole",
+        "model": "sun",
+        "at": [
+          3.5,
+          -2
+        ],
+        "scale": 0.6
+      },
+      {
+        "id": "nuvola",
+        "model": "cloud",
+        "at": [
+          6.5,
+          -1.8
+        ],
+        "scale": 0.7
+      },
+      {
+        "id": "pesce",
+        "model": "fish",
+        "at": [
+          1,
+          0
+        ],
+        "scale": 1.5
+      },
+      {
+        "id": "granchio",
+        "model": "crab",
+        "at": [
+          2,
+          0
+        ],
+        "scale": 1.5
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "mare",
+        "place": "sea",
+        "ambience": [
+          "waves"
+        ],
+        "acts": [
+          {
+            "do": "move",
+            "who": "balena",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4.5,
+              0.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "barca",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -1,
+              2.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "bruco",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              0.5,
+              -4.9
+            ]
+          },
+          {
+            "do": "appear",
+            "who": "balena",
+            "at": 1
+          },
+          {
+            "do": "appear",
+            "who": "barca",
+            "at": 6,
+            "sound": false
+          },
+          {
+            "do": "move",
+            "who": "barca",
+            "at": 7,
+            "dur": 6,
+            "to": [
+              3.5,
+              2
+            ],
+            "gait": "rock"
+          },
+          {
+            "do": "react",
+            "who": "balena",
+            "at": 12,
+            "how": "laugh"
+          },
+          {
+            "do": "sound",
+            "group": "whale-spout",
+            "sentence": 0,
+            "word": 2
+          },
+          {
+            "do": "sound",
+            "group": "boat-creak",
+            "sentence": 1,
+            "word": 3
+          }
+        ],
+        "play": {
+          "kind": "letter",
+          "prompt": "Tocca le cose che iniziano con la B.",
+          "targets": [
+            "balena",
+            "barca",
+            "bruco"
+          ],
+          "stamp": "Cercatore di B"
+        }
+      },
+      {
+        "chapter": "tuffo",
+        "place": "sea",
+        "ambience": [
+          "waves"
+        ],
+        "acts": [
+          {
+            "do": "move",
+            "who": "balena",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -5,
+              -0.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "pesce",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              1.5,
+              2
+            ]
+          },
+          {
+            "do": "move",
+            "who": "granchio",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              3.5,
+              0.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "barca",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              6,
+              1.8
+            ]
+          },
+          {
+            "do": "row",
+            "who": [
+              "balena",
+              "pesce",
+              "granchio"
+            ],
+            "at": 1,
+            "every": 2
+          },
+          {
+            "do": "sound",
+            "group": "splash",
+            "sentence": 0,
+            "word": 0
+          },
+          {
+            "do": "move",
+            "who": "pesce",
+            "at": 8,
+            "dur": 4,
+            "to": [
+              -1.5,
+              1.5
+            ],
+            "gait": "swim"
+          },
+          {
+            "do": "ambience",
+            "group": "wind-soft",
+            "at": 5,
+            "until": 15
+          }
+        ],
+        "play": {
+          "kind": "order",
+          "prompt": "Metti in fila dal più grande al più piccolo.",
+          "order": [
+            "balena",
+            "barca",
+            "pesce"
+          ],
+          "stamp": "Maestro delle misure"
+        }
+      },
+      {
+        "chapter": "prato",
+        "place": "meadow",
+        "ambience": [
+          "birds"
+        ],
+        "acts": [
+          {
+            "do": "move",
+            "who": "bruco",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              1
+            ]
+          },
+          {
+            "do": "appear",
+            "who": "bruco",
+            "at": 1
+          },
+          {
+            "do": "move",
+            "who": "bruco",
+            "at": 3,
+            "dur": 5,
+            "to": [
+              2,
+              0
+            ],
+            "gait": "hop"
+          },
+          {
+            "do": "react",
+            "who": "bruco",
+            "at": 9,
+            "how": "jump",
+            "sound": "boing"
+          }
+        ],
+        "play": {
+          "kind": "touch",
+          "prompt": "Tocca il bruco!",
+          "stamp": "Amico del bruco"
+        }
+      },
+      {
+        "chapter": "cielo",
+        "place": "sky",
+        "acts": [
+          {
+            "do": "move",
+            "who": "sole",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              -1.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "nuvola",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              4,
+              -1
+            ]
+          },
+          {
+            "do": "move",
+            "who": "balena",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              0,
+              2
+            ]
+          },
+          {
+            "do": "appear",
+            "who": "sole",
+            "at": 0.5
+          },
+          {
+            "do": "appear",
+            "who": "nuvola",
+            "at": 2
+          },
+          {
+            "do": "sound",
+            "group": "sparkle",
+            "sentence": 0,
+            "word": 2
+          },
+          {
+            "do": "react",
+            "who": "sole",
+            "at": 6,
+            "how": "spin"
+          },
+          {
+            "do": "react",
+            "who": "nuvola",
+            "at": 7,
+            "how": "wobble"
+          }
+        ],
+        "play": {
+          "kind": "color",
+          "prompt": "Scegli un colore per la balena.",
+          "who": "balena",
+          "stamp": "Pittore di balene"
+        }
+      },
+      {
+        "chapter": "treno",
+        "place": "rails",
+        "acts": [
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              0.5
+            ]
+          },
+          {
+            "do": "appear",
+            "who": "treno",
+            "at": 1
+          },
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 2,
+            "dur": 12,
+            "to": [
+              4,
+              0.5
+            ],
+            "gait": "roll"
+          }
+        ]
+      },
+      {
+        "chapter": "amici",
+        "place": "meadow",
+        "acts": [
+          {
+            "do": "row",
+            "who": [
+              "balena",
+              "barca",
+              "treno",
+              "bruco",
+              "ombrello",
+              "palla",
+              "sole",
+              "nuvola"
+            ],
+            "at": 1,
+            "every": 1
+          }
+        ]
+      }
+    ]
+  }
+}

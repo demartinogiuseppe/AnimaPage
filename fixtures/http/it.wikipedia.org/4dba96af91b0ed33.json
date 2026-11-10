@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Saccheggio+di+Roma+dei+Vandali&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-06T09:03:21.621Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 350670,
+     "ns": 0,
+     "title": "Genserico",
+     "index": 3,
+     "extract": "Genserico (o Gaiserico o Gianserico, in vandalico: *Gaisarīx; Balaton, 389 – Cartagine, 25 gennaio 477) è stato re dei Vandali e degli Alani (428-477), prima nella penisola iberica e poi in Africa.\nFu una delle figure chiave dell'ultimo e tumultuoso periodo di vita dell'Impero romano d'Occidente (V secolo). Condusse i Vandali, gli Alani e una parte di Visigoti sbandati dalla penisola iberica al Nordafrica, fondando un regno che in pochi anni trasformò un \"insignificante\" popolo germanico in una delle maggiori potenze mediterranee; nel 455 guidò i Vandali nel Sacco di Roma.",
+     "pageprops": {
+      "wikibase_item": "Q152127"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T15:55:27Z",
+     "lastrevid": 152363537,
+     "length": 18384,
+     "fullurl": "https://it.wikipedia.org/wiki/Genserico",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Genserico&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Genserico"
+    },
+    {
+     "pageid": 693934,
+     "ns": 0,
+     "title": "Sacco di Roma (455)",
+     "index": 1,
+     "extract": "Il sacco di Roma del 2 giugno del 455 fu attuato dai Vandali, allora in guerra con l'imperatore romano Petronio Massimo. Esso è il terzo in ordine cronologico dopo quello del 390 a.C. ad opera dei Galli e quello avvenuto nel 410 ad opera dei Visigoti.",
+     "pageprops": {
+      "wikibase_item": "Q1463832"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:12Z",
+     "lastrevid": 151009021,
+     "length": 11078,
+     "fullurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_(455)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sacco_di_Roma_(455)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_(455)"
+    },
+    {
+     "pageid": 702159,
+     "ns": 0,
+     "title": "Impero romano",
+     "index": 4,
+     "extract": "L'Impero romano fu lo Stato romano consolidatosi nell'area euro-mediterranea tra il I secolo a.C. e il XV secolo; in questa voce si tratta il periodo che va dalla sua fondazione, generalmente indicata con il 27 a.C. (primo anno del principato di Augusto), al 395, quando, dopo la morte di Teodosio I, l'Impero fu suddiviso dal punto di vista amministrativo ma non politico in una pars occidentalis e in una pars orientalis. L'Impero romano d'Occidente si fa terminare per convenzione nel 476, anno in cui Odoacre depone l'ultimo imperatore, Romolo Augusto, mentre l'Impero romano d'Oriente (indicato talvolta come Impero bizantino nella sua fase medievale) si protrasse fino alla conquista di Costantinopoli da parte degli Ottomani, nel 1453.\nNella sua massima espansione, l'Impero si estendeva, in tutto o in parte, sui territori degli odierni Stati di: Portogallo, Spagna, Andorra, Francia, Monaco, Belgio, Paesi Bassi (regioni meridionali), Regno Unito (Inghilterra, Galles, parte della Scozia), Lussemburgo, Germania (regioni meridionali e occidentali), Svizzera, Austria, Liechtenstein, Slovacchia (piccola parte), Ungheria, Italia, Vaticano, San Marino, Malta, Slovenia, Croazia, Bosnia ed Erzegovina, Serbia, Montenegro, Kosovo, Albania, Macedonia del Nord, Grecia, Bulgaria, Romania, Moldavia, Ucraina (parte costiera sud-occidentale con Isola dei Serpenti e Podolia), Turchia, Russia, Cipro, Siria, Libano, Iraq, Armenia, Georgia, Iran, Azerbaigian, Israele, Giordania, Palestina, Egitto, Sudan (piccola parte e per limitato periodo di tempo), Libia, Tunisia, Algeria, Marocco e Arabia Saudita (piccola parte). In totale, 52 dei 196 Stati riconosciuti nel mondo, più 3 parzialmente riconosciuti, più di ogni altro impero del mondo antico. Si espandeva su tre diversi continenti: Europa, Africa e Asia.\nNel 117 sotto Traiano ricopriva un'area di 5,0 milioni di km2, conteggiando anche gli Stati vassalli e i regni clienti. L'esatta misura della superficie governata da questo potente impero in realtà non è certa, a causa della mancanza di dati precisi, di dispute territoriali e della presenza di stati clienti il cui rapporto nei confronti di Roma non è sempre chiaro.\nPur non essendo il più vasto Stato dell’antichità, spettando tali primati all'impero achemenide, cinese e Xiongnu, quello di Roma è considerato il più grande per gestione e qualità del territorio, organizzazione socio-politica, e per l'importante eredità lasciata nella storia dell'umanità. In tutti i territori sui quali estesero i propri confini i Romani costruirono città, strade, ponti, acquedotti, fortificazioni, esportando ovunque il loro modello di civiltà e al contempo assimilando le popolazioni e civiltà assoggettate, in un processo così profondo che per secoli ancora dopo la fine dell'impero queste genti continuarono a definirsi romane. La civiltà nata sulle rive del Tevere, cresciuta e diffusasi in epoca repubblicana e infine sviluppatasi pienamente in età imperiale, è essenziale componente della civiltà occidentale.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q2277"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-05T23:16:25Z",
+     "lastrevid": 153227964,
+     "length": 119005,
+     "fullurl": "https://it.wikipedia.org/wiki/Impero_romano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Impero_romano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Impero_romano"
+    },
+    {
+     "pageid": 2284140,
+     "ns": 0,
+     "title": "Regno dei Vandali",
+     "index": 2,
+     "extract": "Il Regno dei Vandali (in latino Regnum Vandalum) o Regno dei Vandali e degli Alani (in latino Regnum Vandalorum et Alanorum) venne fondato da Genserico, re dei Vandali, nel 429 sulle coste del Nord Africa; dominò nel corso della sua esistenza anche sulla Sicilia, sulla Sardegna, sulla Corsica e sulle Isole Baleari fino a quando nel 534 fu conquistato dall'imperatore bizantino Giustiniano. Originariamente creato dal governo di Roma per consentire l'insediamento nelle province di Numidia e Mauretania delle genti germaniche, acquisì ben presto autorità ed influenza, arrivando a minacciare la stessa Roma.",
+     "pageprops": {
+      "wikibase_item": "Q10416611"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-28T18:33:54Z",
+     "lastrevid": 151358684,
+     "length": 18820,
+     "fullurl": "https://it.wikipedia.org/wiki/Regno_dei_Vandali",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Regno_dei_Vandali&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Regno_dei_Vandali"
+    }
+   ]
+  }
+ }
+}

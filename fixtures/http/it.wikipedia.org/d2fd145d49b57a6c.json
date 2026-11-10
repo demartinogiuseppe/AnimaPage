@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Romani&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T03:08:49.491Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 2353,
+     "ns": 0,
+     "title": "Imperatori romani",
+     "index": 3,
+     "extract": "Questa voce contiene la lista degli imperatori romani che governarono dal 27 a.C. al 476 d.C. Per ciascuno sono riportati: il nome con cui è più comunemente conosciuto; il nome ufficioso; la data di nascita; il periodo temporale del suo regno (durante il quale fu ricevuto il titolo di augusto); la causa della morte (con la data se diversa da quella della fine del regno). Sono citati gli usurpatori (a volte la distinzione è dubbia, e in generale si segue la tradizione storica consolidata), gli imperatori che regnarono insieme, le date di eventuali associazioni al trono con il titolo di cesare.\nGiulio Cesare non ebbe mai il titolo di \"princeps\" o di \"augusto\", a differenza di Ottaviano: tuttavia fu dittatore dal 49 a.C. al 44 a.C., cosa mai successa in precedenza (con l'eccezione di Silla nel periodo 82 a.C.-79 a.C., il dictator poteva rimanere in carica al massimo sei mesi e così era sempre accaduto), ma soprattutto il titolo di \"imperatore\", nel suo significato moderno, corrisponde al titolo di cesare nella storia di Roma, almeno fino all'inizio della tetrarchia. Svetonio infatti, nella sua opera dedicata alle Vite dei dodici Cesari, parte proprio da Giulio Cesare.\nGli imperatori di Roma non furono tali nel senso moderno del termine. Ufficialmente il Senato non perse mai i suoi poteri e Augusto stesso si definiva \"primus inter pares\" (\"il primo tra gli eguali\"), rivolgendosi ai senatori.\nGli imperatori romani godettero di un potere enorme, ma spesso precario, perché esposto a congiure e intrighi che coinvolgevano i loro familiari, la corte o gli eserciti. L'incidenza di morti violente tra di essi aumentò notevolmente dalla crisi del terzo secolo in poi (235-476), parallelamente alla diminuzione media degli anni di regno.",
+     "pageprops": {
+      "wikibase_item": "Q125740"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T21:40:27Z",
+     "lastrevid": 152946481,
+     "length": 74024,
+     "fullurl": "https://it.wikipedia.org/wiki/Imperatori_romani",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Imperatori_romani&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Imperatori_romani"
+    },
+    {
+     "pageid": 38889,
+     "ns": 0,
+     "title": "Romani",
+     "index": 1,
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q196194"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:19Z",
+     "lastrevid": 153001594,
+     "length": 2464,
+     "fullurl": "https://it.wikipedia.org/wiki/Romani",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Romani&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Romani"
+    },
+    {
+     "pageid": 2239287,
+     "ns": 0,
+     "title": "Romania",
+     "index": 4,
+     "extract": "La Romania (in romeno România, [romɨˈnia]), è uno Stato membro dell'Unione europea e dell'ONU, situato in Europa centro-orientale al confine con la penisola balcanica.\nHa una popolazione di 19 053 815 abitanti (2022) e una superficie di 238391 km².\nÈ una repubblica semipresidenziale e la sua capitale è Bucarest.\nConfina a ovest con l'Ungheria e la Serbia, a sud con la Bulgaria, a est con il Mar Nero, la Moldavia e l'Ucraina e a nord nuovamente con l'Ucraina.\nDal 29 marzo 2004 la Romania fa parte della NATO e, dal 1º gennaio 2007, dell'Unione europea.\nLa sua valuta è il leu romeno (lei al plurale, simbolo L), (1 leu = 0,1965 euro, al 15 gennaio 2025).",
+     "pageprops": {
+      "wikibase_item": "Q218"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T20:28:03Z",
+     "lastrevid": 153211382,
+     "length": 114039,
+     "fullurl": "https://it.wikipedia.org/wiki/Romania",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Romania&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Romania"
+    },
+    {
+     "pageid": 2458813,
+     "ns": 0,
+     "title": "Civiltà romana",
+     "index": 2,
+     "extract": "La civiltà romana è la civiltà fondata nell'antichità dai Romani, una popolazione indoeuropea di ceppo italico e appartenente nello specifico al gruppo dei popoli latino-falisci, stanziatisi in epoca protostorica nell'attuale Lazio, la quale riuscì a partire dal III secolo a.C. ad estendere il proprio predominio sull'Italia e, successivamente, sull'intero bacino del Mediterraneo e in gran parte dell'Europa centro-occidentale. La suddetta civiltà, passata da una monarchia attraverso una repubblica oligarchica fino a un impero - la cui parte occidentale sopravvisse fino al V secolo e lasciò importanti tracce archeologiche e numerose testimonianze letterarie - plasmò l'immagine di quella che è oggi considerata come civiltà occidentale.\nLa civiltà romana è spesso annoverata nell'antichità classica insieme all'antica Grecia, essendo quest'ultima una civiltà che ha ispirato parte della cultura romana. Oltre al suo modello di potere, che è stato emulato o ispirato da innumerevoli principi, la civiltà romana ha contribuito enormemente allo sviluppo del diritto, delle istituzioni e della legislazione, nonché della guerra, dell'arte, della letteratura, dell'architettura, della tecnologia e delle lingue del mondo occidentale.",
+     "pageprops": {
+      "wikibase_item": "Q120754777"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T21:40:27Z",
+     "lastrevid": 153128297,
+     "length": 213771,
+     "fullurl": "https://it.wikipedia.org/wiki/Civilt%C3%A0_romana",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Civilt%C3%A0_romana&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Civilt%C3%A0_romana"
+    }
+   ]
+  }
+ }
+}

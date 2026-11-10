@@ -1,0 +1,1028 @@
+{
+  "key": "d441717b4c7a9804c8fea0f6f4d17cb9a5e59569114e4935d66e943c7302f38c",
+  "label": "gen_earth_terremoti",
+  "recordedAt": "2026-11-06T09:08:59.262Z",
+  "provider": "claude-cli",
+  "request": {
+    "systemSha256": "fad147fab4611e129a22457b0ad3bf37577a13b752cef07b008618985c414051",
+    "promptSha256": "0c6af36a9d0e987e9a97b141009432b490d9ef01c6fc7b6f3afa177499154214",
+    "schemaSha256": "33d90a097ee4c1a3f0c7c691984eaa345a0c91d1473aa6dfbc8f9ac05166b71e",
+    "imageSha256": []
+  },
+  "response": {
+    "data": {
+      "version": "0.1",
+      "engine": "earth",
+      "title": "I terremoti",
+      "page": {
+        "subject": "Scienze",
+        "topic": "I terremoti",
+        "language": "it",
+        "bookPage": "74"
+      },
+      "kind": "science",
+      "style": "color",
+      "music": {
+        "track": "music-curious",
+        "volume": 0.5
+      },
+      "engineData": {
+        "chapters": [
+          {
+            "chapter": "faglia",
+            "block": {
+              "boundary": "none",
+              "relief": "hills",
+              "strata": [
+                {
+                  "id": "suolo",
+                  "name": "Suolo",
+                  "thickness": 1,
+                  "color": "#7a5a3a"
+                },
+                {
+                  "id": "rocce",
+                  "name": "Rocce della crosta",
+                  "thickness": 4,
+                  "color": "#9a8470"
+                },
+                {
+                  "id": "rocce-profonde",
+                  "name": "Rocce profonde",
+                  "thickness": 4,
+                  "color": "#6e5e52"
+                }
+              ],
+              "fault": {
+                "kind": "normal",
+                "depth": 0.5,
+                "quakes": [
+                  22
+                ],
+                "magnitude": 5,
+                "travel": 4
+              },
+              "arrows": [
+                {
+                  "id": "spinta-sx",
+                  "from": [
+                    -0.8,
+                    -0.4
+                  ],
+                  "to": [
+                    -0.3,
+                    -0.4
+                  ],
+                  "color": "#e05a3a",
+                  "at": 6,
+                  "until": 22
+                },
+                {
+                  "id": "spinta-dx",
+                  "from": [
+                    0.8,
+                    -0.5
+                  ],
+                  "to": [
+                    0.3,
+                    -0.5
+                  ],
+                  "color": "#e05a3a",
+                  "at": 6,
+                  "until": 22
+                }
+              ]
+            }
+          },
+          {
+            "chapter": "onde",
+            "block": {
+              "boundary": "none",
+              "relief": "hills",
+              "strata": [
+                {
+                  "id": "suolo2",
+                  "name": "Suolo",
+                  "thickness": 1,
+                  "color": "#7a5a3a"
+                },
+                {
+                  "id": "rocce2",
+                  "name": "Rocce della crosta",
+                  "thickness": 8,
+                  "color": "#9a8470"
+                }
+              ],
+              "fault": {
+                "kind": "normal",
+                "depth": 0.5,
+                "quakes": [
+                  8,
+                  26
+                ],
+                "magnitude": 6,
+                "travel": 5
+              }
+            }
+          },
+          {
+            "chapter": "misura",
+            "block": {
+              "boundary": "none",
+              "relief": "hills",
+              "strata": [
+                {
+                  "id": "suolo3",
+                  "name": "Suolo",
+                  "thickness": 1,
+                  "color": "#7a5a3a"
+                },
+                {
+                  "id": "rocce3",
+                  "name": "Rocce della crosta",
+                  "thickness": 8,
+                  "color": "#9a8470"
+                }
+              ],
+              "fault": {
+                "kind": "reverse",
+                "depth": 0.4,
+                "quakes": [
+                  6,
+                  24
+                ],
+                "magnitude": 6,
+                "compare": 3
+              }
+            },
+            "params": [
+              {
+                "id": "mag",
+                "var": "magnitude",
+                "label": "Magnitudo",
+                "min": 1,
+                "max": 9,
+                "step": 1
+              }
+            ]
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "faglia",
+          "title": "Rocce che si rompono",
+          "chip": "Faglia",
+          "kind": "science",
+          "duration": 40,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Un terremoto è un movimento improvviso della crosta terrestre.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 5,
+              "text": "Sottoterra le rocce sono spinte e schiacciate: sono sotto sforzo.",
+              "highlight": [
+                "p-rocce"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 10.5,
+              "text": "All'inizio si deformano, cioè si piegano un poco senza rompersi.",
+              "highlight": [
+                "p-rocce"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 16,
+              "text": "Quando non resistono più, si rompono lungo una frattura chiamata faglia.",
+              "highlight": [
+                "p-faglia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 22,
+              "text": "Guarda ora: la rottura libera di colpo l'energia accumulata.",
+              "highlight": [
+                "p-ipocentro"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 27.5,
+              "text": "Il punto in profondità dove le rocce si rompono è l'ipocentro.",
+              "highlight": [
+                "p-ipocentro"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 33,
+              "text": "Il punto della superficie proprio sopra l'ipocentro è l'epicentro.",
+              "highlight": [
+                "p-epicentro"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "entity": "block",
+                "part": "surface"
+              },
+              "distance": 21,
+              "azimuth": -10,
+              "elevation": 20
+            },
+            {
+              "at": 15,
+              "target": {
+                "entity": "block",
+                "part": "fault"
+              },
+              "distance": 14,
+              "azimuth": 0,
+              "elevation": 15
+            },
+            {
+              "at": 27,
+              "target": {
+                "entity": "block",
+                "part": "hypocentre"
+              },
+              "distance": 13,
+              "azimuth": 5,
+              "elevation": 18
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-rocce",
+              "name": "Rocce sotto sforzo",
+              "info": "Le rocce spinte da forze opposte si deformano finché si rompono.",
+              "kind": "area",
+              "anchor": {
+                "entity": "block",
+                "part": "rocce"
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  5,
+                  40
+                ]
+              ]
+            },
+            {
+              "id": "p-faglia",
+              "name": "Faglia",
+              "info": "La frattura lungo la quale le rocce si rompono e scorrono.",
+              "kind": "place",
+              "anchor": {
+                "entity": "block",
+                "part": "fault"
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  16,
+                  40
+                ]
+              ]
+            },
+            {
+              "id": "p-ipocentro",
+              "name": "Ipocentro",
+              "info": "Il punto in profondità dove le rocce si rompono e parte il terremoto.",
+              "kind": "place",
+              "anchor": {
+                "entity": "block",
+                "part": "hypocentre"
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  22,
+                  40
+                ]
+              ]
+            },
+            {
+              "id": "p-epicentro",
+              "name": "Epicentro",
+              "info": "Il punto della superficie che sta proprio sopra l'ipocentro.",
+              "kind": "place",
+              "anchor": {
+                "entity": "block",
+                "part": "epicentre"
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  33,
+                  40
+                ]
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Spesso si confondono i due termini: l'ipocentro è sottoterra, dove nasce il terremoto; l'epicentro è in superficie, ed è di solito il luogo dove la scossa si sente più forte perché è il più vicino all'ipocentro.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Qual è la differenza tra ipocentro ed epicentro?",
+              "options": [
+                "L'epicentro è in profondità, l'ipocentro in superficie",
+                "L'ipocentro è il punto in profondità dove si rompono le rocce, l'epicentro il punto in superficie sopra di esso",
+                "Sono due nomi della stessa cosa"
+              ],
+              "answer": 1,
+              "explain": "Il libro definisce l'ipocentro come il punto profondo della rottura e l'epicentro come il punto di superficie che gli sta sopra."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca il punto dove le rocce si rompono.",
+              "answerPins": [
+                "p-ipocentro"
+              ],
+              "explain": "La rottura avviene in profondità, nell'ipocentro."
+            }
+          ],
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "rumble",
+                "volume": 0.3
+              }
+            ],
+            "cues": [
+              {
+                "at": 0,
+                "sound": "whoosh-soft",
+                "volume": 0.5
+              },
+              {
+                "at": 16,
+                "sound": "chime",
+                "volume": 0.5
+              },
+              {
+                "at": 22,
+                "sound": "explosion",
+                "volume": 0.5
+              },
+              {
+                "at": 33,
+                "sound": "chime",
+                "volume": 0.5
+              }
+            ]
+          },
+          "book": {
+            "heading": "Come nasce un terremoto",
+            "formula": "sforzo → deformazione → rottura",
+            "lines": [
+              "Le rocce sotto sforzo si deformano.",
+              "Poi si rompono lungo una faglia.",
+              "Ipocentro: punto della rottura, in profondità.",
+              "Epicentro: in superficie, sopra l'ipocentro."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Dove nasce davvero un terremoto?",
+              "options": [
+                "In superficie, dove crollano le case",
+                "In profondità, dove le rocce si rompono",
+                "Nel cielo, per colpa dei temporali"
+              ],
+              "answer": 1
+            },
+            "test": {
+              "prompt": "Guarda la faglia: nota il punto in profondità da cui parte la rottura e il punto in superficie proprio sopra."
+            },
+            "prove": {
+              "text": "Il terremoto parte dall'ipocentro, in profondità, dove le rocce sotto sforzo si rompono lungo la faglia; l'epicentro è solo il punto di superficie sopra di esso.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Cacciatore di faglie"
+          }
+        },
+        {
+          "id": "onde",
+          "title": "Le onde sismiche",
+          "chip": "Onde",
+          "kind": "science",
+          "duration": 40,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Dall'ipocentro partono le onde sismiche, in tutte le direzioni.",
+              "highlight": [
+                "p-ipo2"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 8,
+              "text": "Guarda la scossa: i cerchi si allargano attorno all'ipocentro.",
+              "highlight": [
+                "p-onde-p",
+                "p-onde-s"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 14,
+              "text": "I cerchi blu sono le onde P: sono le più veloci e arrivano per prime.",
+              "highlight": [
+                "p-onde-p"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 20.5,
+              "text": "I cerchi viola sono le onde S: arrivano dopo.",
+              "highlight": [
+                "p-onde-s"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 26,
+              "text": "Ecco una seconda scossa: segui quale fronte tocca prima la superficie.",
+              "highlight": [
+                "p-epi2"
+              ],
+              "sourceIds": []
+            },
+            {
+              "at": 32,
+              "text": "Vicino all'epicentro le case tremano di più.",
+              "highlight": [
+                "p-epi2"
+              ],
+              "sourceIds": []
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "entity": "block",
+                "part": "hypocentre"
+              },
+              "distance": 14,
+              "azimuth": 0,
+              "elevation": 15
+            },
+            {
+              "at": 14,
+              "target": {
+                "entity": "block",
+                "part": "surface"
+              },
+              "distance": 20,
+              "azimuth": -8,
+              "elevation": 20
+            },
+            {
+              "at": 30,
+              "target": {
+                "entity": "block",
+                "part": "epicentre"
+              },
+              "distance": 13,
+              "azimuth": 8,
+              "elevation": 22
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-ipo2",
+              "name": "Ipocentro",
+              "info": "Da qui partono le onde sismiche.",
+              "kind": "place",
+              "anchor": {
+                "entity": "block",
+                "part": "hypocentre"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-onde-p",
+              "name": "Onde P",
+              "sub": "le più veloci",
+              "info": "Le onde sismiche più veloci: arrivano per prime.",
+              "kind": "event",
+              "marker": "#3a7bd5",
+              "anchor": {
+                "entity": "block",
+                "part": "fault",
+                "offset": [
+                  0.3,
+                  0.2,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  14,
+                  40
+                ]
+              ]
+            },
+            {
+              "id": "p-onde-s",
+              "name": "Onde S",
+              "sub": "arrivano dopo",
+              "info": "Onde sismiche più lente delle P: arrivano dopo.",
+              "kind": "event",
+              "marker": "#8a4fc0",
+              "anchor": {
+                "entity": "block",
+                "part": "fault",
+                "offset": [
+                  -0.3,
+                  0.1,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  20,
+                  40
+                ]
+              ]
+            },
+            {
+              "id": "p-epi2",
+              "name": "Epicentro",
+              "info": "Il punto di superficie sopra l'ipocentro, dove le onde arrivano prima.",
+              "kind": "place",
+              "anchor": {
+                "entity": "block",
+                "part": "epicentre"
+              },
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Partendo nello stesso istante, le onde P arrivano prima perché viaggiano più velocemente delle onde S. Più ci si allontana dall'ipocentro, più cresce il ritardo tra le due.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Perché le onde P arrivano prima delle onde S?",
+              "options": [
+                "Perché partono prima",
+                "Perché sono più veloci",
+                "Perché sono più forti"
+              ],
+              "answer": 1,
+              "explain": "Partono insieme dall'ipocentro, ma le onde P sono le più veloci, quindi arrivano per prime."
+            },
+            {
+              "type": "pick",
+              "q": "Tocca le onde che arrivano per prime.",
+              "answerPins": [
+                "p-onde-p"
+              ],
+              "explain": "Le onde P sono le più veloci."
+            }
+          ],
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "rumble",
+                "volume": 0.35
+              }
+            ],
+            "cues": [
+              {
+                "at": 8,
+                "sound": "explosion",
+                "volume": 0.5
+              },
+              {
+                "at": 14,
+                "sound": "whoosh",
+                "volume": 0.5
+              },
+              {
+                "at": 20.5,
+                "sound": "whoosh-soft",
+                "volume": 0.5
+              },
+              {
+                "at": 26,
+                "sound": "explosion",
+                "volume": 0.5
+              }
+            ]
+          },
+          "book": {
+            "heading": "Onde P e onde S",
+            "lines": [
+              "Partono dall'ipocentro in tutte le direzioni.",
+              "Onde P: le più veloci, arrivano prima.",
+              "Onde S: arrivano dopo."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Onde P e onde S partono insieme. Quali arrivano prima in superficie?",
+              "options": [
+                "Le onde S",
+                "Arrivano insieme",
+                "Le onde P"
+              ],
+              "answer": 2
+            },
+            "test": {
+              "prompt": "Alla seconda scossa guarda quale cerchio, blu o viola, raggiunge per primo la superficie."
+            },
+            "prove": {
+              "text": "Le due onde partono nello stesso momento dall'ipocentro; le onde P sono più veloci, quindi coprono la stessa distanza in meno tempo.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Detective delle onde"
+          }
+        },
+        {
+          "id": "misura",
+          "title": "Misurare un terremoto",
+          "chip": "Misura",
+          "kind": "science",
+          "duration": 42,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Il sismografo è lo strumento che registra le onde sismiche.",
+              "highlight": [
+                "p-sismografo"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 6,
+              "text": "Guarda la scossa: il tracciato registrato si chiama sismogramma.",
+              "highlight": [
+                "p-sismografo"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 12,
+              "text": "La scala Richter misura l'energia liberata dal terremoto, cioè la sua magnitudo.",
+              "highlight": [
+                "p-richter"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 18.5,
+              "text": "La scala Mercalli misura invece gli effetti su persone, case e ambiente.",
+              "highlight": [
+                "p-mercalli"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 24.5,
+              "text": "La scala Mercalli ha 12 gradi.",
+              "speech": "La scala Mercalli ha dodici gradi.",
+              "highlight": [
+                "p-mercalli"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 29,
+              "text": "Prova a cambiare la magnitudo e guarda come tremano le case.",
+              "highlight": [
+                "p-readout"
+              ],
+              "sourceIds": []
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "entity": "block",
+                "part": "surface"
+              },
+              "distance": 21,
+              "azimuth": 10,
+              "elevation": 20
+            },
+            {
+              "at": 12,
+              "target": {
+                "entity": "block",
+                "part": "readout"
+              },
+              "distance": 14,
+              "azimuth": 0,
+              "elevation": 18
+            },
+            {
+              "at": 24,
+              "target": {
+                "entity": "block",
+                "part": "epicentre"
+              },
+              "distance": 13,
+              "azimuth": -6,
+              "elevation": 22
+            }
+          ],
+          "pins": [
+            {
+              "id": "p-sismografo",
+              "name": "Sismografo",
+              "info": "Strumento che registra le onde sismiche su un sismogramma.",
+              "kind": "object",
+              "anchor": {
+                "entity": "block",
+                "part": "surface",
+                "offset": [
+                  0.6,
+                  0.2,
+                  0
+                ]
+              },
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p-richter",
+              "name": "Scala Richter",
+              "info": "Misura l'energia liberata dal terremoto: la magnitudo.",
+              "kind": "data",
+              "anchor": {
+                "entity": "block",
+                "part": "readout"
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  12,
+                  42
+                ]
+              ]
+            },
+            {
+              "id": "p-mercalli",
+              "name": "Scala Mercalli",
+              "sub": "12 gradi",
+              "info": "Misura gli effetti del terremoto; ha 12 gradi.",
+              "kind": "data",
+              "anchor": {
+                "entity": "block",
+                "part": "epicentre"
+              },
+              "sourceIds": [
+                "page"
+              ],
+              "visible": [
+                [
+                  18,
+                  42
+                ]
+              ]
+            },
+            {
+              "id": "p-readout",
+              "name": "Magnitudo",
+              "info": "Il riquadro mostra la magnitudo scelta e quanto cresce l'ampiezza delle onde.",
+              "kind": "data",
+              "anchor": {
+                "entity": "block",
+                "part": "readout",
+                "offset": [
+                  0,
+                  0.3,
+                  0
+                ]
+              },
+              "sourceIds": [],
+              "visible": [
+                [
+                  29,
+                  42
+                ]
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Le due scale rispondono a domande diverse: la Richter dice quanta energia ha liberato il terremoto, la Mercalli quali danni e effetti ha prodotto in un certo luogo.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Che cosa misura la scala Mercalli?",
+              "options": [
+                "Gli effetti del terremoto",
+                "L'energia liberata",
+                "La profondità dell'ipocentro"
+              ],
+              "answer": 0,
+              "explain": "Secondo il libro la Mercalli misura gli effetti, mentre la Richter misura l'energia (magnitudo)."
+            },
+            {
+              "type": "choice",
+              "q": "Quanti gradi ha la scala Mercalli?",
+              "options": [
+                "Dieci",
+                "Cinque",
+                "Dodici"
+              ],
+              "answer": 2,
+              "explain": "Il libro indica che la scala Mercalli ha 12 gradi."
+            }
+          ],
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "rumble",
+                "volume": 0.3
+              },
+              {
+                "sound": "electric-hum",
+                "volume": 0.2
+              }
+            ],
+            "cues": [
+              {
+                "at": 6,
+                "sound": "explosion",
+                "volume": 0.5
+              },
+              {
+                "at": 12,
+                "sound": "beep",
+                "volume": 0.4
+              },
+              {
+                "at": 24,
+                "sound": "explosion",
+                "volume": 0.5
+              },
+              {
+                "at": 24.5,
+                "sound": "chime",
+                "volume": 0.5
+              }
+            ]
+          },
+          "book": {
+            "heading": "Sismografo e scale",
+            "lines": [
+              "Il sismografo registra le onde: sismogramma.",
+              "Richter: energia liberata (magnitudo).",
+              "Mercalli: effetti, 12 gradi."
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Un terremoto forte in una zona deserta non fa danni. Quale scala darà un valore alto?",
+              "options": [
+                "La Richter, che misura l'energia",
+                "La Mercalli, che misura gli effetti",
+                "Nessuna delle due"
+              ],
+              "answer": 0
+            },
+            "test": {
+              "prompt": "Prova tu: muovi la magnitudo e guarda quanto tremano le case vicino all'epicentro.",
+              "params": [
+                "mag"
+              ]
+            },
+            "prove": {
+              "text": "La Richter misura l'energia liberata, che non dipende da cosa c'è in superficie; la Mercalli misura gli effetti, quindi senza case né persone resta bassa.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Sismologo in erba"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "id": "page",
+          "kind": "page",
+          "title": "Pagina del libro, p. 74: I terremoti"
+        }
+      ],
+      "videos": [],
+      "disclaimers": [
+        "Ricostruzione semplificata: proporzioni, profondità e movimenti non sono in scala.",
+        "Le onde sismiche sono molto rallentate e il tremolio delle case è esagerato per poterlo seguire.",
+        "Il sismografo è solo indicato con un'etichetta e non è disegnato nella scena."
+      ]
+    },
+    "usage": {
+      "inputTokens": 2,
+      "outputTokens": 6874,
+      "cacheCreationInputTokens": 21887,
+      "cacheReadInputTokens": 0,
+      "costUsdEstimate": 0.312584
+    },
+    "durationMs": 58772,
+    "model": "claude-opus-5-5"
+  }
+}

@@ -1,0 +1,506 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=adrenergic+receptor+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:02:47.078Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 28822255,
+     "ns": 6,
+     "title": "File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s006.ogv",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 351975,
+       "width": 900,
+       "height": 900,
+       "duration": 2.75,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s006.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s006.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28822255",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s006",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from PLOS ONE|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Video display resolution 900 x 900|Videos from open-access scholarly articles|Beta-2 adrenergic receptors",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Live imaging of β2AR::Cerulean rapid internalization after exposure to isoprenaline. A single cell expressing β2AR::Cerulean exhibits diffuse expression at the plasma membrane. After 20 minutes of isoprenaline exposure, β2AR::Cerulean becomes punctate and internalized, with some protein remaining at the plasma membrane. This one-hour time course for β2AR::Cerulean reveals dynamic remodeling of the cell.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Bubnell J, Pfister P, Sapar M, Rogers M, Feinstein P",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 28822258,
+     "ns": 6,
+     "title": "File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s007.ogv",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 245263,
+       "width": 684,
+       "height": 684,
+       "duration": 2.5,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s007.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s007.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28822258",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s007",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from PLOS ONE|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Videos from open-access scholarly articles|Beta-2 adrenergic receptors|Video display resolution 684 x 684",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Live imaging of β2AR::mCerulean3 rapid internalization after exposure to isoprenaline. A single cell expressing β2AR::mCerulean3 exhibits diffuse expression at the plasma membrane. Twenty minute time-lapse imaging after isoprenaline exposure shows β2AR::mCerulean3 becoming punctate and internalized, with some protein remaining at the plasma membrane.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Bubnell J, Pfister P, Sapar M, Rogers M, Feinstein P",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 28822259,
+     "ns": 6,
+     "title": "File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s008.ogv",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 130704,
+       "width": 900,
+       "height": 900,
+       "duration": 2.5,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s008.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s008.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28822259",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s008",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from PLOS ONE|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Videos from open-access scholarly articles|Beta-2 adrenergic receptors",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Live imaging of β2AR::Teal rapid internalization after exposure to isoprenaline. A single cell expressing β2AR::Teal exhibits diffuse expression at the plasma membrane. Twenty minute time-lapse imaging after isoprenaline exposure shows β2AR::Teal becoming punctate and internalized, with some protein remaining at the plasma membrane.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Bubnell J, Pfister P, Sapar M, Rogers M, Feinstein P",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 28837962,
+     "ns": 6,
+     "title": "File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s012.ogv",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 22455,
+       "width": 360,
+       "height": 360,
+       "duration": 2.5,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s012.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s012.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28837962",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "2-Adrenergic-Receptor-Fluorescent-Protein-Fusions-Traffic-to-the-Plasma-Membrane-and-Retain-pone.0074941.s012",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from PLOS ONE|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Video display resolution 360 x 360|Videos from open-access scholarly articles|Beta-2 adrenergic receptors",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Live imaging of β2AR::AFP rapid internalization after exposure to isoprenaline. A single cell expressing β2AR::AFP exhibits diffuse expression at the plasma membrane. Twenty minute time-lapse imaging after isoprenaline exposure shows β2AR::AFP becoming punctate and internalized, with some protein remaining at the plasma membrane.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Bubnell J, Pfister P, Sapar M, Rogers M, Feinstein P",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52717090,
+     "ns": 6,
+     "title": "File:The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s2.ogv",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 19803272,
+       "width": 2600,
+       "height": 2056,
+       "duration": 2,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s2.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s2.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52717090",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s2",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Beta-1 adrenergic receptors|Media from Nature Communications|Computer simulations|Gene expression regulation|Signal transduction|Cardiovascular models|Cell death|Primary cell cultures|Beta agonists|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Sprague-Dawley rats|Videos from open-access scholarly articles|Cardiac myocytes|Physiological feedback|Heart ventricles|Cell survival|Proto-oncogene proteins c-bcl-2|Mitogen-activated protein kinase 1|Beta-2 adrenergic receptors|Mitogen-activated protein kinase 3|Cyclic AMP response element modulator|Video display resolution 2600 x 2056",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 1 Merged movie simultaneously showing cardiomyocytes under the four different experimental conditions (Control, 500 ȝM RP-cAMPS + 1 ȝM ISO, 10 ȝM RP-cAMPS + 1 ȝM ISO, 1 ȝM ISO). Cardiomyocytes pre-incubated with or without RP-cAMPS (at 10 or 500 ȝM for 2 hours) and treated with 1 ȝM ISO were imaged for 12 hours with 1-hour interval using the automated microscope. The analyzed results for the survival rate of the experimental groups are shown in Supplementary Fig. 3.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Shin S, Kim T, Lee H, Kang J, Lee J, Cho K, Kim D",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52717144,
+     "ns": 6,
+     "title": "File:The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s7.ogv",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3431961,
+       "width": 640,
+       "height": 480,
+       "duration": 10.75,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s7.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s7.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52717144",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s7",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Beta-1 adrenergic receptors|Media from Nature Communications|Computer simulations|Gene expression regulation|Signal transduction|Cardiovascular models|Cell death|Primary cell cultures|Beta agonists|Uploaded with Open Access Media Importer|Ogv videos|Video display resolution 640 x 480|Uploaded with Open Access Media Importer and needing category review|Sprague-Dawley rats|Videos from open-access scholarly articles|Cardiac myocytes|Physiological feedback|Heart ventricles|Cell survival|Proto-oncogene proteins c-bcl-2|Mitogen-activated protein kinase 1|Beta-2 adrenergic receptors|Mitogen-activated protein kinase 3|Cyclic AMP response element modulator",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 6 Representative time-lapse images of ionomycin-treated cardiomyocytes. Cardiomyocytes treated with ionomycin were imaged for 5 hours with 5 minutes intervals using the automated microscope. Sarcomeric structures of most cardiomyocytes were disrupted by the treatment of ionomycin (Fig. 4h).",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Shin S, Kim T, Lee H, Kang J, Lee J, Cho K, Kim D",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52717148,
+     "ns": 6,
+     "title": "File:The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s8.ogv",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3434558,
+       "width": 640,
+       "height": 480,
+       "duration": 10.75,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s8.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s8.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52717148",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s8",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Beta-1 adrenergic receptors|Media from Nature Communications|Computer simulations|Gene expression regulation|Signal transduction|Cardiovascular models|Cell death|Primary cell cultures|Beta agonists|Uploaded with Open Access Media Importer|Ogv videos|Video display resolution 640 x 480|Uploaded with Open Access Media Importer and needing category review|Sprague-Dawley rats|Videos from open-access scholarly articles|Cardiac myocytes|Physiological feedback|Heart ventricles|Cell survival|Proto-oncogene proteins c-bcl-2|Mitogen-activated protein kinase 1|Beta-2 adrenergic receptors|Mitogen-activated protein kinase 3|Cyclic AMP response element modulator",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 7 Representative time-lapse images of 10 ȝM ISO plus ionomycin-treated cardiomyocytes. Cardiomyocytes pre-incubated with 10 ȝM ISO for 12 hours followed by treatment with ionomycin were imaged for 5 hours with 5 minutes intervals using the automated microscopy. Disruption of cardiomyocytes was slower and the number of rod-shaped cardiomyocytes (with intact sarcomere) was larger than the ionomycin-only treated group (Fig. 4h).",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Shin S, Kim T, Lee H, Kang J, Lee J, Cho K, Kim D",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52717151,
+     "ns": 6,
+     "title": "File:The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s9.ogv",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3563952,
+       "width": 640,
+       "height": 480,
+       "duration": 10.75,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s9.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s9.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52717151",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s9",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Beta-1 adrenergic receptors|Media from Nature Communications|Computer simulations|Gene expression regulation|Signal transduction|Cardiovascular models|Cell death|Primary cell cultures|Beta agonists|Uploaded with Open Access Media Importer|Ogv videos|Video display resolution 640 x 480|Uploaded with Open Access Media Importer and needing category review|Sprague-Dawley rats|Videos from open-access scholarly articles|Cardiac myocytes|Physiological feedback|Heart ventricles|Cell survival|Proto-oncogene proteins c-bcl-2|Mitogen-activated protein kinase 1|Beta-2 adrenergic receptors|Mitogen-activated protein kinase 3|Cyclic AMP response element modulator",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 8 Representative time-lapse images of 10 ȝM ISO plus ionomycin-treated cardiomyocytes. Cardiomyocytes pre-incubated with 10 ȝM ISO for 12 hours followed by treatment with ionomycin were imaged for 5 hours with 5 minutes intervals using the automated microscopy. Disruption of cardiomyocytes was slower and the number of rod-shaped cardiomyocytes (with intact sarcomere) was larger than the ionomycin-only treated group (Fig. 4h).",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Shin S, Kim T, Lee H, Kang J, Lee J, Cho K, Kim D",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52717161,
+     "ns": 6,
+     "title": "File:The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s12.ogv",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 9499711,
+       "width": 2600,
+       "height": 1028,
+       "duration": 2,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s12.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s12.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52717161",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s12",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Beta-1 adrenergic receptors|Media from Nature Communications|Computer simulations|Gene expression regulation|Signal transduction|Cardiovascular models|Cell death|Primary cell cultures|Beta agonists|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Sprague-Dawley rats|Videos from open-access scholarly articles|Cardiac myocytes|Physiological feedback|Heart ventricles|Cell survival|Proto-oncogene proteins c-bcl-2|Mitogen-activated protein kinase 1|Beta-2 adrenergic receptors|Mitogen-activated protein kinase 3|Cyclic AMP response element modulator|Video display resolution 2600 x 1028",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 11 Merged movie simultaneously showing cardiomyocytes under the two different experimental conditions (siControl + 1 μM ISO, siICER + 1 μM ISO) Cardiomyocytes transfected with siControl or siICER and then treated with 1 μM ISO were imaged for 12 hours with 1-hour interval using the automated microscope. siICER group shows higher survival rate than siControl group. The analyzed results of the survival rate of those groups are shown in Fig. 6e.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Shin S, Kim T, Lee H, Kang J, Lee J, Cho K, Kim D",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52717166,
+     "ns": 6,
+     "title": "File:The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s13.ogv",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 9194326,
+       "width": 2600,
+       "height": 1028,
+       "duration": 2,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s13.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-switching-role-of-%CE%B2-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s13.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52717166",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-switching-role-of-β-adrenergic-receptor-signalling-in-cell-survival-or-death-decision-of-ncomms6777-s13",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Beta-1 adrenergic receptors|Media from Nature Communications|Computer simulations|Gene expression regulation|Signal transduction|Cardiovascular models|Cell death|Primary cell cultures|Beta agonists|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Sprague-Dawley rats|Videos from open-access scholarly articles|Cardiac myocytes|Physiological feedback|Heart ventricles|Cell survival|Proto-oncogene proteins c-bcl-2|Mitogen-activated protein kinase 1|Beta-2 adrenergic receptors|Mitogen-activated protein kinase 3|Cyclic AMP response element modulator|Video display resolution 2600 x 1028",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 12 Merged movie simultaneously showing cardiomyocytes under the two different experimental conditions (1 nM ISO, PD98059 + 1 nM ISO). Cardiomyocytes pre-incubated with or without PD98059 and then treated with 1 nM ISO were imaged for 12 hours with 1-hour interval using the automated microscope. Control group shows higher survival rate than PD98059-treated group. The analyzed results of the survival rate of those groups are shown in Fig. 6h",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Shin S, Kim T, Lee H, Kang J, Lee J, Cho K, Kim D",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

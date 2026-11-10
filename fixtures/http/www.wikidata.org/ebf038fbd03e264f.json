@@ -1,0 +1,1195 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q1438%7CQ2634%7CQ1139820%7CQ1282%7CQ524%7CQ937958%7CQ38882%7CQ212214%7CQ768102%7CQ1443%7CQ1447%7CQ1452&props=labels%7Cclaims&languages=it%7Cen",
+ "fetchedAt": "2026-11-04T11:34:26.158Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q1438": {
+    "id": "Q1438",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Campania"
+     },
+     "en": {
+      "language": "en",
+      "value": "Campania"
+     }
+    },
+    "claims": {
+     "P1082": [
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+5786373",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "77f348fcb49110a0de3c2faf4865527dc30dcbc9",
+          "datavalue": {
+           "value": {
+            "time": "+2019-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+5869965",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "1e2a78761fecc9e5ba1ba772d86ba7dbf29fe467",
+          "datavalue": {
+           "value": {
+            "time": "+2013-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+13670.95",
+          "unit": "http://www.wikidata.org/entity/Q712226"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P2044": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+322",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.75,
+          "longitude": 14.95,
+          "altitude": null,
+          "precision": 0.016666666666666666,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ],
+     "P571": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1970-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q2634": {
+    "id": "Q2634",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Napoli"
+     },
+     "en": {
+      "language": "en",
+      "value": "Naples"
+     }
+    },
+    "claims": {
+     "P1082": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+975260",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "8ad1664a2c4adc5f86cfb7c2646694cf1079891a",
+          "datavalue": {
+           "value": {
+            "time": "+2015-09-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+972212",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "257e6f64375627ad3511095a6a1912ff29fed919",
+          "datavalue": {
+           "value": {
+            "time": "+2016-06-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+966144",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "2ff9f2abd718876c309be62236757815728cb215",
+          "datavalue": {
+           "value": {
+            "time": "+2018-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+989789",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "c9843c0451eab35bdc526364b00abb66887fe269",
+          "datavalue": {
+           "value": {
+            "time": "+2017-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+913462",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "6f04831e9aa7d02df208c708f5492802810fab78",
+          "datavalue": {
+           "value": {
+            "time": "+2023-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+119.02",
+          "unit": "http://www.wikidata.org/entity/Q712226"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "d65f6714ab178b8d2d58383f2135dd80b0c1260b",
+          "datavalue": {
+           "value": {
+            "time": "+2011-10-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2044": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+17",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.83583333333333,
+          "longitude": 14.248611111111112,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q1139820": {
+    "id": "Q1139820",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Cervati"
+     },
+     "it": {
+      "language": "it",
+      "value": "Cervati"
+     }
+    },
+    "claims": {
+     "P2044": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+1898",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.266666666667,
+          "longitude": 15.466666666667,
+          "altitude": null,
+          "precision": 0.016666666666667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q1282": {
+    "id": "Q1282",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Lazio"
+     },
+     "en": {
+      "language": "en",
+      "value": "Lazio"
+     }
+    },
+    "claims": {
+     "P1082": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+5879082",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "77f348fcb49110a0de3c2faf4865527dc30dcbc9",
+          "datavalue": {
+           "value": {
+            "time": "+2019-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+5720536",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "78f9907b15ead5f9bea001886c58a17fa245904a",
+          "datavalue": {
+           "value": {
+            "time": "+2023-01-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 10,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+17236",
+          "unit": "http://www.wikidata.org/entity/Q712226"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P2044": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+416",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 41.9,
+          "longitude": 12.716666666667,
+          "altitude": null,
+          "precision": null,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ],
+     "P571": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1970-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q524": {
+    "id": "Q524",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mount Vesuvius"
+     },
+     "it": {
+      "language": "it",
+      "value": "Vesuvio"
+     }
+    },
+    "claims": {
+     "P2044": [
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+1281",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      },
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+1297",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.82261,
+          "longitude": 14.42919,
+          "altitude": null,
+          "precision": 0.00001,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q937958": {
+    "id": "Q937958",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Sele"
+     },
+     "it": {
+      "language": "it",
+      "value": "Sele"
+     }
+    },
+    "claims": {
+     "P2043": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+64",
+          "unit": "http://www.wikidata.org/entity/Q828224"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.482,
+          "longitude": 14.943,
+          "altitude": null,
+          "precision": 0.001,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q38882": {
+    "id": "Q38882",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "mar Tirreno"
+     },
+     "en": {
+      "language": "en",
+      "value": "Tyrrhenian Sea"
+     }
+    },
+    "claims": {
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+275000",
+          "unit": "http://www.wikidata.org/entity/Q712226"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40,
+          "longitude": 12,
+          "altitude": null,
+          "precision": 1,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q212214": {
+    "id": "Q212214",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Costiera amalfitana"
+     },
+     "en": {
+      "language": "en",
+      "value": "Amalfi Coast"
+     }
+    },
+    "claims": {
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.633333333333,
+          "longitude": 14.6,
+          "altitude": null,
+          "precision": 0.016666666666667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q768102": {
+    "id": "Q768102",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Campanian Archipelago"
+     },
+     "it": {
+      "language": "it",
+      "value": "Arcipelago Campano"
+     }
+    },
+    "claims": {
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.6671,
+          "longitude": 14.0955,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q1443": {
+    "id": "Q1443",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Molise"
+     },
+     "en": {
+      "language": "en",
+      "value": "Molise"
+     }
+    },
+    "claims": {
+     "P1082": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+304285",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "77f348fcb49110a0de3c2faf4865527dc30dcbc9",
+          "datavalue": {
+           "value": {
+            "time": "+2019-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+4438",
+          "unit": "http://www.wikidata.org/entity/Q712226"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P2044": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+631",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 41.7,
+          "longitude": 14.616666666666667,
+          "altitude": null,
+          "precision": 0.016666666666666666,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q1447": {
+    "id": "Q1447",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Puglia"
+     },
+     "en": {
+      "language": "en",
+      "value": "Apulia"
+     }
+    },
+    "claims": {
+     "P1082": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+4029053",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "77f348fcb49110a0de3c2faf4865527dc30dcbc9",
+          "datavalue": {
+           "value": {
+            "time": "+2019-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+3866174",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "6c893d9fe0ff49813de05b639f39b340a12ce1db",
+          "datavalue": {
+           "value": {
+            "time": "+2025-07-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+19365.8",
+          "unit": "http://www.wikidata.org/entity/Q712226",
+          "upperBound": "+19365.9",
+          "lowerBound": "+19365.7"
+         },
+         "type": "quantity"
+        }
+       }
+      },
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+19540.9",
+          "unit": "http://www.wikidata.org/entity/Q712226"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 41.008611111111,
+          "longitude": 16.512777777778,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q1452": {
+    "id": "Q1452",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Basilicata"
+     },
+     "en": {
+      "language": "en",
+      "value": "Basilicata"
+     }
+    },
+    "claims": {
+     "P1082": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+562869",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "77f348fcb49110a0de3c2faf4865527dc30dcbc9",
+          "datavalue": {
+           "value": {
+            "time": "+2019-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+562869",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "6174553681261aeec411766adf691fdeec1dee47",
+          "datavalue": {
+           "value": {
+            "time": "+2018-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      },
+      {
+       "rank": "preferred",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+547579",
+          "unit": "1"
+         },
+         "type": "quantity"
+        }
+       },
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "49ae60be22d4c3fc5628dc09cf76d6f4a396c58b",
+          "datavalue": {
+           "value": {
+            "time": "+2020-12-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       }
+      }
+     ],
+     "P2046": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+9994.61",
+          "unit": "http://www.wikidata.org/entity/Q712226",
+          "upperBound": "+9994.62",
+          "lowerBound": "+9994.60"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P2044": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "amount": "+633",
+          "unit": "http://www.wikidata.org/entity/Q11573"
+         },
+         "type": "quantity"
+        }
+       }
+      }
+     ],
+     "P625": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "latitude": 40.5,
+          "longitude": 16.5,
+          "altitude": null,
+          "precision": 0.0166667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

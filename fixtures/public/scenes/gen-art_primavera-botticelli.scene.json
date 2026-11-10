@@ -1,0 +1,1065 @@
+{
+  "version": "0.1",
+  "title": "La Primavera di Botticelli",
+  "page": {
+    "subject": "arte e immagine",
+    "topic": "La Primavera di Botticelli",
+    "bookPage": "142",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "chapters": [
+    {
+      "id": "opera",
+      "title": "Un giardino di miti",
+      "chip": "L'opera",
+      "kind": "art",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Questa è la Primavera, un dipinto di Sandro Botticelli realizzato intorno al 1480.",
+          "speech": "Questa è la Primavera, un dipinto di Sandro Botticelli realizzato intorno al millequattrocentottanta.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8,
+          "text": "È dipinta a tempera su tavola: colori stesi su un supporto di legno, non su tela.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "La scena si svolge in un giardino di aranci, con un prato pieno di fiori.",
+          "highlight": [
+            "p-aranci"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Nel giardino compaiono nove personaggi della mitologia classica, con Venere al centro.",
+          "highlight": [
+            "p-venere1"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 32,
+          "text": "Oggi il quadro è conservato nella Galleria degli Uffizi, a Firenze.",
+          "highlight": [
+            "p-uffizi"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "artwork"
+          },
+          "distance": 17,
+          "azimuth": 0,
+          "elevation": 4
+        },
+        {
+          "at": 16,
+          "target": {
+            "entity": "region",
+            "part": "aranci"
+          },
+          "distance": 9,
+          "azimuth": 0,
+          "elevation": 4
+        },
+        {
+          "at": 24,
+          "target": {
+            "entity": "artwork"
+          },
+          "distance": 15,
+          "azimuth": 0,
+          "elevation": 3
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-aranci",
+          "name": "Aranci",
+          "info": "Gli alberi formano il fondo del giardino in cui si svolge la scena.",
+          "kind": "object",
+          "anchor": {
+            "entity": "region",
+            "part": "aranci"
+          },
+          "visible": [
+            [
+              16,
+              24
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-venere1",
+          "name": "Venere",
+          "info": "La dea dell'amore sta al centro del giardino.",
+          "kind": "person",
+          "anchor": {
+            "entity": "region",
+            "part": "venere"
+          },
+          "visible": [
+            [
+              24,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-uffizi",
+          "name": "Uffizi, Firenze",
+          "info": "Il museo fiorentino dove oggi si trova il dipinto.",
+          "kind": "note",
+          "anchor": {
+            "entity": "artwork",
+            "offset": [
+              0,
+              4,
+              0
+            ]
+          },
+          "visible": [
+            [
+              32,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Secondo Wikidata il dipinto misura 314 × 203 cm e la tecnica è tempera su tavola preparata con gesso.",
+          "sourceIds": [
+            "wd-q549847"
+          ]
+        },
+        {
+          "text": "Il libro scrive «intorno al 1480»; Wikidata indica semplicemente 1480: la data esatta non è documentata con certezza.",
+          "sourceIds": [
+            "page",
+            "wd-q549847"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Dove è conservata oggi la Primavera?",
+          "options": [
+            "Al Louvre di Parigi",
+            "Ai Musei Vaticani",
+            "Agli Uffizi di Firenze"
+          ],
+          "answer": 2,
+          "explain": "La pagina dice che il dipinto si trova nella Galleria degli Uffizi, a Firenze."
+        }
+      ],
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.3
+          },
+          {
+            "at": 16,
+            "sound": "whoosh-soft",
+            "volume": 0.3
+          },
+          {
+            "at": 24,
+            "sound": "chime",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "La Primavera",
+        "formula": "intorno al 1480",
+        "lines": [
+          "Dipinto di Sandro Botticelli",
+          "Tempera su tavola",
+          "Oggi agli Uffizi di Firenze"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Il quadro è grande quasi tre metri. Su che cosa l'avrà dipinto Botticelli?",
+          "options": [
+            "Su una tela di lino",
+            "Su una tavola di legno",
+            "Direttamente sul muro"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda le figure in fila sotto gli alberi: contale da destra a sinistra."
+        },
+        "prove": {
+          "text": "La Primavera è a tempera su tavola: colori impastati con un legante, stesi su legno preparato con gesso.",
+          "sourceIds": [
+            "page",
+            "wd-q549847"
+          ]
+        },
+        "stamp": "Visitatore degli Uffizi"
+      }
+    },
+    {
+      "id": "destra-sinistra",
+      "title": "Si legge da destra",
+      "chip": "Lettura",
+      "kind": "myth",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Questo quadro non si legge come un libro: si legge da destra a sinistra.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8,
+          "text": "All'estrema destra c'è Zefiro, il vento di primavera, con le guance gonfie.",
+          "highlight": [
+            "p-zefiro"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "Zefiro rapisce la ninfa Clori, cioè una divinità minore della natura.",
+          "highlight": [
+            "p-clori"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Clori si trasforma in Flora, la figura con l'abito coperto di fiori.",
+          "highlight": [
+            "p-flora"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 32,
+          "text": "È un mito: racconta come la primavera fa rifiorire la natura.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "artwork"
+          },
+          "distance": 16,
+          "azimuth": 0,
+          "elevation": 3
+        },
+        {
+          "at": 8,
+          "target": {
+            "entity": "region",
+            "part": "zefiro"
+          },
+          "distance": 7,
+          "azimuth": 0,
+          "elevation": 4
+        },
+        {
+          "at": 16,
+          "target": {
+            "entity": "region",
+            "part": "clori"
+          },
+          "distance": 7,
+          "azimuth": 0,
+          "elevation": 4
+        },
+        {
+          "at": 24,
+          "target": {
+            "entity": "region",
+            "part": "flora"
+          },
+          "distance": 7,
+          "azimuth": 0,
+          "elevation": 4
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-zefiro",
+          "name": "Zefiro",
+          "info": "Il vento di primavera, che entra nel giardino da destra.",
+          "kind": "person",
+          "anchor": {
+            "entity": "region",
+            "part": "zefiro"
+          },
+          "visible": [
+            [
+              8,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-clori",
+          "name": "Clori",
+          "info": "La ninfa rapita da Zefiro.",
+          "kind": "person",
+          "anchor": {
+            "entity": "region",
+            "part": "clori"
+          },
+          "visible": [
+            [
+              16,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-flora",
+          "name": "Flora",
+          "info": "Clori trasformata: la dea dei fiori.",
+          "kind": "person",
+          "anchor": {
+            "entity": "region",
+            "part": "flora"
+          },
+          "visible": [
+            [
+              24,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Clori e Flora sono la stessa figura in due momenti diversi: il pittore mostra la trasformazione mettendo le due fasi una accanto all'altra.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Perché si dice che il quadro si legge da destra a sinistra?",
+          "options": [
+            "Perché la storia comincia a destra con Zefiro",
+            "Perché Botticelli era mancino",
+            "Perché la firma è a sinistra"
+          ],
+          "answer": 0,
+          "explain": "Il racconto parte da Zefiro a destra, prosegue con Clori e Flora e arriva fino a Mercurio a sinistra."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il vento di primavera.",
+          "answerPins": [
+            "p-zefiro"
+          ],
+          "explain": "Zefiro è il vento di primavera, all'estrema destra."
+        }
+      ],
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.3
+          },
+          {
+            "at": 8,
+            "sound": "whoosh-soft",
+            "volume": 0.3
+          },
+          {
+            "at": 24,
+            "sound": "sparkle",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "Da destra a sinistra",
+        "formula": "Zefiro → Clori → Flora",
+        "lines": [
+          "Zefiro è il vento di primavera",
+          "Rapisce la ninfa Clori",
+          "Clori si trasforma in Flora"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Da quale lato comincia il racconto del quadro?",
+          "options": [
+            "Da sinistra, come un libro",
+            "Da destra",
+            "Dal centro verso i lati"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Segui la freccia gialla: parte da Zefiro, a destra, e attraversa il giardino."
+        },
+        "prove": {
+          "text": "Il racconto comincia a destra con Zefiro: il vento rapisce Clori, che diventa Flora. Per seguire la storia lo sguardo va da destra a sinistra.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Lettore controvento"
+      }
+    },
+    {
+      "id": "amore",
+      "title": "Amore e primavera",
+      "chip": "Significato",
+      "kind": "myth",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Al centro c'è Venere, la dea dell'amore, un po' arretrata rispetto alle altre figure.",
+          "highlight": [
+            "p-venere"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8,
+          "text": "Sopra di lei vola Cupido bendato, pronto a scoccare una freccia con l'arco.",
+          "highlight": [
+            "p-cupido"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "A sinistra le tre Grazie danzano in cerchio, tenendosi per mano.",
+          "highlight": [
+            "p-grazie"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Mercurio chiude la scena: con il caduceo, un bastone magico, scaccia le nuvole.",
+          "highlight": [
+            "p-mercurio"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 32,
+          "text": "Insieme, le figure celebrano l'amore e la natura che si rinnova in primavera.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "layer",
+            "part": "l-venere"
+          },
+          "distance": 8,
+          "azimuth": 20,
+          "elevation": 4
+        },
+        {
+          "at": 8,
+          "target": {
+            "entity": "region",
+            "part": "cupido"
+          },
+          "distance": 6,
+          "azimuth": 0,
+          "elevation": 5
+        },
+        {
+          "at": 16,
+          "target": {
+            "entity": "layer",
+            "part": "l-grazie"
+          },
+          "distance": 8,
+          "azimuth": -20,
+          "elevation": 4
+        },
+        {
+          "at": 24,
+          "target": {
+            "entity": "region",
+            "part": "mercurio"
+          },
+          "distance": 7,
+          "azimuth": 0,
+          "elevation": 4
+        },
+        {
+          "at": 32,
+          "target": {
+            "entity": "artwork"
+          },
+          "distance": 16,
+          "azimuth": 0,
+          "elevation": 3
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-venere",
+          "name": "Venere",
+          "info": "La dea dell'amore, al centro del giardino.",
+          "kind": "person",
+          "anchor": {
+            "entity": "layer",
+            "part": "l-venere"
+          },
+          "visible": [
+            [
+              0,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-cupido",
+          "name": "Cupido",
+          "info": "Vola sopra Venere con l'arco.",
+          "kind": "person",
+          "anchor": {
+            "entity": "region",
+            "part": "cupido"
+          },
+          "visible": [
+            [
+              8,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-grazie",
+          "name": "Le tre Grazie",
+          "info": "Danzano in cerchio intrecciando le mani.",
+          "kind": "group",
+          "anchor": {
+            "entity": "layer",
+            "part": "l-grazie"
+          },
+          "visible": [
+            [
+              16,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-mercurio",
+          "name": "Mercurio",
+          "info": "Con il caduceo allontana le nuvole dal giardino.",
+          "kind": "person",
+          "anchor": {
+            "entity": "region",
+            "part": "mercurio"
+          },
+          "visible": [
+            [
+              24,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Un'allegoria è un'immagine che rappresenta un'idea: qui le figure del mito diventano il simbolo dell'amore e della primavera.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come si muovono le tre Grazie?",
+          "options": [
+            "Corrono verso Zefiro",
+            "Danzano in cerchio tenendosi per mano",
+            "Stanno sedute sul prato"
+          ],
+          "answer": 1,
+          "explain": "La pagina descrive le tre Grazie che danzano in cerchio; le mani intrecciate creano un ritmo morbido."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca chi scaccia le nuvole.",
+          "answerPins": [
+            "p-mercurio"
+          ],
+          "explain": "Mercurio, a sinistra, scaccia le nuvole con il caduceo."
+        }
+      ],
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.3
+          },
+          {
+            "at": 8,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 16,
+            "sound": "whoosh-soft",
+            "volume": 0.3
+          },
+          {
+            "at": 32,
+            "sound": "chime",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "Venere e il giardino",
+        "formula": "amore + natura che rinasce",
+        "lines": [
+          "Venere al centro, Cupido sopra",
+          "Tre Grazie danzano in cerchio",
+          "Mercurio scaccia le nuvole"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Chi mette Botticelli al centro del quadro?",
+          "options": [
+            "Flora, la dea dei fiori",
+            "Mercurio con il caduceo",
+            "Venere, dea dell'amore"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Prova tu: muovi il rilievo e stacca le tre Grazie dal fondo per vedere il loro cerchio.",
+          "params": [
+            "rilievo-grazie"
+          ]
+        },
+        "prove": {
+          "text": "Venere sta al centro con Cupido sopra di lei: il quadro celebra l'amore e il rinnovarsi della natura in primavera.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Detective dei miti"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Pagina del libro, p. 142: La Primavera di Botticelli"
+    },
+    {
+      "id": "wd-q549847",
+      "kind": "wikidata",
+      "title": "Primavera (Q549847)",
+      "url": "https://www.wikidata.org/wiki/Q549847",
+      "publisher": "Wikidata",
+      "accessed": "2026-11-04",
+      "wikidataId": "Q549847",
+      "license": "CC0 1.0"
+    },
+    {
+      "id": "commons-q549847",
+      "kind": "web",
+      "title": "Sandro Botticelli, Primavera (File:Sandro Botticelli - La Primavera - Google Art Project.jpg)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
+      "publisher": "Wikimedia Commons",
+      "accessed": "2026-11-04",
+      "license": "Public domain"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Immagine dell'opera: file in pubblico dominio da Wikimedia Commons.",
+    "Freccia, cerchio e asse sono tracciati sull'immagine a scopo didattico.",
+    "Le zone dei personaggi sono rettangoli approssimativi disegnati per la lezione.",
+    "Le figure sono personaggi del mito, non persone storiche.",
+    "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro."
+  ],
+  "music": {
+    "track": "music-history",
+    "volume": 0.5
+  },
+  "voices": [
+    {
+      "id": "narratore",
+      "name": "Narratore",
+      "prefer": "any",
+      "lang": "it-IT"
+    }
+  ],
+  "style": "color",
+  "engine": "art",
+  "engineData": {
+    "artwork": {
+      "title": "Primavera",
+      "author": "Sandro Botticelli",
+      "date": "1480",
+      "technique": "tempera su tavola",
+      "location": "Firenze, Galleria degli Uffizi",
+      "kind": "painting",
+      "wikidataId": "Q549847",
+      "sizeCm": [
+        314,
+        203
+      ],
+      "image": {
+        "asset": "/cache/art/Q549847/sandro-botticelli-la-primavera-google-art-project.jpg",
+        "width": 2048,
+        "height": 1361,
+        "sourceId": "commons-q549847"
+      },
+      "link": "https://www.wikidata.org/wiki/Q549847",
+      "sourceIds": [
+        "wd-q549847",
+        "page"
+      ]
+    },
+    "presentation": {
+      "mount": "frame",
+      "width": 12,
+      "museumWall": true
+    },
+    "regions": [
+      {
+        "id": "zefiro",
+        "name": "Zefiro",
+        "rect": [
+          0.82,
+          0.05,
+          0.18,
+          0.6
+        ]
+      },
+      {
+        "id": "clori",
+        "name": "Clori",
+        "rect": [
+          0.7,
+          0.15,
+          0.15,
+          0.8
+        ]
+      },
+      {
+        "id": "flora",
+        "name": "Flora",
+        "rect": [
+          0.56,
+          0.15,
+          0.16,
+          0.85
+        ]
+      },
+      {
+        "id": "venere",
+        "name": "Venere",
+        "rect": [
+          0.42,
+          0.15,
+          0.15,
+          0.8
+        ]
+      },
+      {
+        "id": "cupido",
+        "name": "Cupido",
+        "rect": [
+          0.42,
+          0,
+          0.14,
+          0.2
+        ]
+      },
+      {
+        "id": "grazie",
+        "name": "Le tre Grazie",
+        "rect": [
+          0.12,
+          0.12,
+          0.28,
+          0.85
+        ]
+      },
+      {
+        "id": "mercurio",
+        "name": "Mercurio",
+        "rect": [
+          0,
+          0.05,
+          0.15,
+          0.92
+        ]
+      },
+      {
+        "id": "aranci",
+        "name": "Giardino di aranci",
+        "rect": [
+          0.1,
+          0,
+          0.8,
+          0.3
+        ]
+      }
+    ],
+    "overlays": [
+      {
+        "id": "lettura",
+        "color": "#f2c14e",
+        "kind": "arrow",
+        "from": [
+          0.92,
+          0.5
+        ],
+        "to": [
+          0.06,
+          0.5
+        ],
+        "style": "plain"
+      },
+      {
+        "id": "cerchio-grazie",
+        "color": "#ffffff",
+        "kind": "circle",
+        "center": [
+          0.26,
+          0.45
+        ],
+        "radius": 0.13
+      },
+      {
+        "id": "asse",
+        "kind": "axis",
+        "x": 0.49
+      }
+    ],
+    "layers": [
+      {
+        "id": "l-venere",
+        "region": "venere",
+        "depth": 0.5
+      },
+      {
+        "id": "l-grazie",
+        "region": "grazie",
+        "depth": 0.4
+      }
+    ],
+    "params": [
+      {
+        "id": "rilievo-grazie",
+        "label": "rilievo Grazie",
+        "kind": "depth",
+        "target": "l-grazie",
+        "min": 0,
+        "max": 1,
+        "step": 0.05
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "opera",
+        "actions": [
+          {
+            "do": "tour",
+            "target": "aranci",
+            "at": 16,
+            "until": 24
+          },
+          {
+            "do": "show",
+            "target": "asse",
+            "at": 24,
+            "until": 34,
+            "draw": 2
+          },
+          {
+            "do": "highlight",
+            "target": "venere",
+            "at": 24,
+            "until": 34
+          }
+        ]
+      },
+      {
+        "chapter": "destra-sinistra",
+        "actions": [
+          {
+            "do": "show",
+            "target": "lettura",
+            "at": 0,
+            "until": 12,
+            "draw": 3
+          },
+          {
+            "do": "tour",
+            "target": "zefiro",
+            "at": 8,
+            "until": 16
+          },
+          {
+            "do": "tour",
+            "target": "clori",
+            "at": 16,
+            "until": 24
+          },
+          {
+            "do": "tour",
+            "target": "flora",
+            "at": 24,
+            "until": 36
+          }
+        ]
+      },
+      {
+        "chapter": "amore",
+        "actions": [
+          {
+            "do": "lift",
+            "target": "l-venere",
+            "at": 0,
+            "until": 16
+          },
+          {
+            "do": "tour",
+            "target": "cupido",
+            "at": 8,
+            "until": 16
+          },
+          {
+            "do": "lift",
+            "target": "l-grazie",
+            "at": 16,
+            "until": 32
+          },
+          {
+            "do": "show",
+            "target": "cerchio-grazie",
+            "at": 16,
+            "until": 26,
+            "draw": 2
+          },
+          {
+            "do": "tour",
+            "target": "mercurio",
+            "at": 24,
+            "until": 32
+          }
+        ]
+      }
+    ]
+  },
+  "audience": "teen"
+}

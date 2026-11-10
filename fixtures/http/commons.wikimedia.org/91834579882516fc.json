@@ -1,0 +1,506 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=sensory+organ+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:05:48.779Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 22698186,
+     "ns": 6,
+     "title": "File:The-Cercal-Organ-May-Provide-Singing-Tettigoniids-a-Backup-Sensory-System-for-the-Detection-of-pone.0012698.s001.ogv",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 1858691,
+       "width": 352,
+       "height": 240,
+       "duration": 38.32,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/The-Cercal-Organ-May-Provide-Singing-Tettigoniids-a-Backup-Sensory-System-for-the-Detection-of-pone.0012698.s001.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-Cercal-Organ-May-Provide-Singing-Tettigoniids-a-Backup-Sensory-System-for-the-Detection-of-pone.0012698.s001.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22698186",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-Cercal-Organ-May-Provide-Singing-Tettigoniids-a-Backup-Sensory-System-for-the-Detection-of-pone.0012698.s001",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Tettigonia cantans|Mecopoda elongata|Media from PLOS ONE|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Video display resolution 352 x 240|Videos from open-access scholarly articles|Videos of Tettigonia viridissima|Stridulatory organs",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "High speed videos (300 frames per second) of stridulating tettigoniids. Stridulating males appear in the following sequence: T. cantans, T. viridissima and Mecopoda elongata (chirping species). The latter species was filmed from two different perspectives. Males of M. elongata generate chirps consisting of syllables increasing in amplitude. This is reflected in the stridulatory movement of their front wings. Note that males only rub the dorsal part of both front wings against each other, whereas the tip of wings and the ventral margin of front wings almost stay motionless.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Hartbauer M, Ofner E, Grossauer V, Siemers B",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 22794171,
+     "ns": 6,
+     "title": "File:Fish-Geometry-and-Electric-Organ-Discharge-Determine-Functional-Organization-of-the-Electrosensory-pone.0027470.s001.ogv",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 3509002,
+       "width": 720,
+       "height": 480,
+       "duration": 47.91458124791458,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Fish-Geometry-and-Electric-Organ-Discharge-Determine-Functional-Organization-of-the-Electrosensory-pone.0027470.s001.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fish-Geometry-and-Electric-Organ-Discharge-Determine-Functional-Organization-of-the-Electrosensory-pone.0027470.s001.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22794171",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Fish-Geometry-and-Electric-Organ-Discharge-Determine-Functional-Organization-of-the-Electrosensory-pone.0027470.s001",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Electrophorus|Media from PLOS ONE|Fish physiology|Electric organ|Sensory perception|Sensory receptor cells|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Video display resolution 720 x 480|Videos about mental health|Sensory physiology|Videos from open-access scholarly articles|Videos of bioinformatics|Videos of sensory system uploaded by Open Access Media Importer Bot|Videos of computational neuroscience|Videos of nervous system",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Complete electric organ discharge. Electric field potential generated by the electric organ discharge represented on a sagittal across the modeled fish. Hot tones represent positive potential values, while cold tones represent negative electric potentials. The black line indicates the points where the potentials are zero. The video shows several times the electric field generated by the MoGO during the timecourse of the EOD.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Sanguinetti-Scheck J, Pedraja E, Cilleruelo E, Migliaro A, Aguilera P, Caputi A, Budelli R",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 25775508,
+     "ns": 6,
+     "title": "File:Role-of-Sensory-Experience-in-Functional-Development-of-Drosophila-Motor-Circuits-pone.0062199.s002.ogv",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 12351099,
+       "width": 640,
+       "height": 480,
+       "duration": 43.2950566893424,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Role-of-Sensory-Experience-in-Functional-Development-of-Drosophila-Motor-Circuits-pone.0062199.s002.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Role-of-Sensory-Experience-in-Functional-Development-of-Drosophila-Motor-Circuits-pone.0062199.s002.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25775508",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Role-of-Sensory-Experience-in-Functional-Development-of-Drosophila-Motor-Circuits-pone.0062199.s002",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from PLOS ONE|Motor systems|Sensory perception|Animal models of disease|Synaptic plasticity|Uploaded with Open Access Media Importer|Ogv videos|Video display resolution 640 x 480|Uploaded with Open Access Media Importer and needing category review|Sensory physiology|Videos from open-access scholarly articles|Videos of sensory system uploaded by Open Access Media Importer Bot|Videos of developmental neuroscience in Drosophila melanogaster",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Calcium imaging in chordotonal organs during muscle contractions. Calcium imaging of chordotonal organs (chos) in dissected larva undergoing peristalsis (Quad-Speed, iav-GAL4&gt;UAS-GCaMP3). Note that the activation of chos and segmental muscle contraction propagate at a similar timing. (9.5 MB MOV).",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Fushiki A, Kohsaka H, Nose A",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.5",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 30495933,
+     "ns": 6,
+     "title": "File:The-Candidate-Splicing-Factor-Sfswap-Regulates-Growth-and-Patterning-of-Inner-Ear-Sensory-Organs-pgen.1004055.s008.ogv",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 9959093,
+       "width": 640,
+       "height": 480,
+       "duration": 28.666485260770976,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/The-Candidate-Splicing-Factor-Sfswap-Regulates-Growth-and-Patterning-of-Inner-Ear-Sensory-Organs-pgen.1004055.s008.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:The-Candidate-Splicing-Factor-Sfswap-Regulates-Growth-and-Patterning-of-Inner-Ear-Sensory-Organs-pgen.1004055.s008.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30495933",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "The-Candidate-Splicing-Factor-Sfswap-Regulates-Growth-and-Patterning-of-Inner-Ear-Sensory-Organs-pgen.1004055.s008",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from PLOS Genetics|Pattern formation|Uploaded with Open Access Media Importer|Ogv videos|Video display resolution 640 x 480|Uploaded with Open Access Media Importer and needing category review|Organism development|Videos of developmental biology|Mutations in mice|Cell differentiation|Videos from open-access scholarly articles|Videos of sensory system uploaded by Open Access Media Importer Bot|Growth control|Videos of auditory system uploaded by Open Access Media Importer Bot|Cell fate determination",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "SfswapTg/Tg mutants exhibit circling and head bobbing behavior. SfswapTg/Tg mutants examined in their home cage exhibit significant circling behavior. Between circling bouts, SfswapTg/Tg mice show head bobbing behavior.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Moayedi Y, Basch M, Pacheco N, Gao S, Wang R, Harrison W, Xiao N, Oghalai J, Overbeek P, Mardon G, Groves A",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 30674986,
+     "ns": 6,
+     "title": "File:Evolutionary-origins-of-sensation-in-metazoans-functional-evidence-for-a-new-sensory-organ-in-1471-2148-14-3-S2.ogv",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 206639,
+       "width": 374,
+       "height": 292,
+       "duration": 23.4,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Evolutionary-origins-of-sensation-in-metazoans-functional-evidence-for-a-new-sensory-organ-in-1471-2148-14-3-S2.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Evolutionary-origins-of-sensation-in-metazoans-functional-evidence-for-a-new-sensory-organ-in-1471-2148-14-3-S2.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30674986",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Evolutionary-origins-of-sensation-in-metazoans-functional-evidence-for-a-new-sensory-organ-in-1471-2148-14-3-S2",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from BMC Evolutionary Biology|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Videos from open-access scholarly articles|Videos of sensory system uploaded by Open Access Media Importer Bot|Evolution of nervous systems|Primary cilia|Video display resolution 374 x 292",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Additional file 2: Movie S1 Cilia in the osculum of a live sponge, Ephydatia muelleri, labeled using FM1-43. High-frequency time-lapse microscopy (images taken at 50 millisecond intervals with exposure of 50 milliseconds) indicates that the cilia are non-motile and only vibrate in the flow that passes out the osculum.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Ludeman D, Farrar N, Riesgo A, Paps J, Leys S",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 2.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 50118829,
+     "ns": 6,
+     "title": "File:A cosmic sense of scale.webm",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 15997245,
+       "width": 3840,
+       "height": 2160,
+       "duration": 84,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/A_cosmic_sense_of_scale.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_cosmic_sense_of_scale.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50118829",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "A cosmic sense of scale",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "WebM videos|Star size comparisons|European Southern Observatory Images|Videos of 2016|Video display resolution 3840 x 2160|ESO videos by L. Calçada|ESO videos by M. Kornmesser",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This animation gives a sense of the awe-inspiring scale of some of the known objects in our universe. It is difficult for human minds to comprehend the shear size of distant stars, many of which completely dwarf our own Sun. Here we see some of the most famous objects displayed relative to one another. The animation begins with Earth, which has a radius of about 6.3 million metres, and ends at VY Canis Majoris, one of the largest known stars in existence, with a radius about 1420 times that of our own Sun, or 990 billion metres! Keep an eye on the changing scale underneath the objects to really appreciate the variation in size.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "ESO/L. Calçada/M. Kornmesser",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 52644684,
+     "ns": 6,
+     "title": "File:Single-cell-RNA-Seq-resolves-cellular-complexity-in-sensory-organs-from-the-neonatal-inner-ear-ncomms9557-s2.ogv",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 2088788,
+       "width": 1440,
+       "height": 798,
+       "duration": 10.14164,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Single-cell-RNA-Seq-resolves-cellular-complexity-in-sensory-organs-from-the-neonatal-inner-ear-ncomms9557-s2.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Single-cell-RNA-Seq-resolves-cellular-complexity-in-sensory-organs-from-the-neonatal-inner-ear-ncomms9557-s2.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52644684",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Single-cell-RNA-Seq-resolves-cellular-complexity-in-sensory-organs-from-the-neonatal-inner-ear-ncomms9557-s2",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from Nature Communications|Principal component analysis|Single-cell analysis|Hair cells|Uploaded with Open Access Media Importer|Ogv videos|Uploaded with Open Access Media Importer and needing category review|Newborn animals|Videos from open-access scholarly articles|Gene expression profiling|RNA sequence analysis|Labyrinth supporting cells|Video display resolution 1440 x 798",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Supplementary Movie 1 3-D PCA plot of utricular and cochlear cells. Movie shows rotation of 3-D PCA plot in Fig. 9a.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Burns J, Kelly M, Hoa M, Morell R, Kelley M",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 80336449,
+     "ns": 6,
+     "title": "File:La Iaia i Pau al Tastautors (sense so).webm",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 4360538,
+       "width": 493,
+       "height": 360,
+       "duration": 111,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/La_Iaia_i_Pau_al_Tastautors_%28sense_so%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Iaia_i_Pau_al_Tastautors_(sense_so).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80336449",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "La Iaia i Pau al Tastautors (sense so)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Pau Vallvé|Maria Coma|Uploaded with video2commons|License reviewed by YouTubeReviewBot|Ràdio Televisió Cardedeu in 2011|La iaia",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "El grup La Iaia i el artista Pau Vallvé al Tastautors el 2011. Versió del vídeo sense só.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Radio Televisió Cardedeu",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 161030306,
+     "ns": 6,
+     "title": "File:Panca Indera Manusia.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 56886911,
+       "width": 1920,
+       "height": 1080,
+       "duration": 253.1,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Panca_Indera_Manusia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panca_Indera_Manusia.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161030306",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Panca Indera Manusia",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|Tugas akhir SPT 3.0",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Panca indera manusia terdiri dari mata, telinga, hidung, kulit, dan lidah. Mereka bekerja bersama untuk melihat, mendengar, mencium, merasakan, dan mengecap, membantu kita berinteraksi dan memahami dunia.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rizkika1\" title=\"User:Rizkika1\">Rizkika1</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 184549778,
+     "ns": 6,
+     "title": "File:Tutorial Cap Falla sense foto.webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 51856587,
+       "width": 1920,
+       "height": 1080,
+       "duration": 811.101,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tutorial_Cap_Falla_sense_foto.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tutorial_Cap_Falla_sense_foto.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=184549778",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Tutorial Cap Falla sense foto",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Library of Museu Valencià d'Etnologia|Self-published work|Files by Museu Valencià d'Etnologia|Instructional videos on using Wikimedia Commons in Spanish|All media supported by Wikimedia España in 2026|Files provided or supported by L'ETNO in 2026|Cap Falla sense foto 2026|Files supported by Amical Wikimedia in 2026",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Video tutorial per a explicar com pujar fotos a Wikimedia Commons a través del Viquiprojecte Cap Falla sense foto que obrim des de la Biblioteca de L'ETNO en 2026 amb la col·laboració d'Amical Wikimedia, Wikimedia España i l'Associació d'Estudis Fallers",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ponscor\" title=\"User:Ponscor\">Ponscor</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

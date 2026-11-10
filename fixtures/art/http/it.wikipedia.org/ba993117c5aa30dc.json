@@ -1,0 +1,22 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageprops&titles=Ultima+Cena+%28Leonardo%29&redirects=1",
+ "fetchedAt": "2026-11-04T11:23:58.036Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 1367940,
+     "ns": 0,
+     "title": "Ultima Cena (Leonardo)",
+     "pageprops": {
+      "defaultsort": "Ultima Cena",
+      "page_image_free": "Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
+      "wikibase_item": "Q128910"
+     }
+    }
+   ]
+  }
+ }
+}

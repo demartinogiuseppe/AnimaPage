@@ -1,0 +1,1398 @@
+{
+  "version": "0.1",
+  "engine": "chart",
+  "title": "Campania in numeri",
+  "page": {
+    "subject": "geografia",
+    "topic": "Campania: popolazione e territorio",
+    "bookPage": "84",
+    "language": "it"
+  },
+  "kind": "geography",
+  "music": {
+    "track": "music-calm",
+    "volume": 0.45
+  },
+  "style": "color",
+  "chapters": [
+    {
+      "id": "province",
+      "title": "Dove vivono i campani",
+      "chip": "Province",
+      "kind": "geography",
+      "duration": 46,
+      "narration": [
+        {
+          "at": 0,
+          "text": "In Campania vivono più di cinque milioni e mezzo di persone. Ma dove abitano?",
+          "highlight": [],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Ecco le cinque province, in ordine alfabetico: Avellino, Benevento, Caserta, Napoli e Salerno.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Una barra svetta su tutte: la città metropolitana di Napoli, con 2.951.375 abitanti.",
+          "highlight": [
+            "p-napoli"
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "Mettiamo in fila le province, dalla più popolosa alla meno popolosa.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Seconda è Salerno, con 1.052.217 abitanti; ultima è Benevento, con 257.215.",
+          "highlight": [
+            "p-salerno",
+            "p-benevento"
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 31,
+          "text": "Napoli da sola ha quasi il triplo degli abitanti di Salerno: ci vive più di un campano su due, il 53 per cento.",
+          "highlight": [
+            "p-napoli"
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        },
+        {
+          "at": 38,
+          "text": "Attenzione ai numeri: il libro scrive 5.590.076 abitanti, i dati ISTAT di maggio 2026 ne contano 5.562.943. La popolazione cambia ogni anno.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "wp-demografia"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "chart",
+            "part": "province-barre"
+          },
+          "distance": 19,
+          "azimuth": 0,
+          "elevation": 16
+        },
+        {
+          "at": 12,
+          "target": {
+            "entity": "item",
+            "part": "province-barre",
+            "index": 3
+          },
+          "distance": 13,
+          "azimuth": -12,
+          "elevation": 14
+        },
+        {
+          "at": 19,
+          "target": {
+            "entity": "chart",
+            "part": "province-barre"
+          },
+          "distance": 19,
+          "azimuth": 0,
+          "elevation": 18
+        },
+        {
+          "at": 31,
+          "target": {
+            "pos": [
+              -3.6,
+              3,
+              0
+            ]
+          },
+          "distance": 14,
+          "azimuth": 10,
+          "elevation": 14
+        },
+        {
+          "at": 38,
+          "target": {
+            "entity": "chart",
+            "part": "province-barre"
+          },
+          "distance": 21,
+          "azimuth": 0,
+          "elevation": 20
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-avellino",
+          "name": "Avellino",
+          "info": "392.296 abitanti (ISTAT, maggio 2026).",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "province-barre",
+            "index": 0
+          },
+          "visible": [],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "id": "p-benevento",
+          "name": "Benevento",
+          "info": "257.215 abitanti (ISTAT, maggio 2026): la provincia meno popolosa.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "province-barre",
+            "index": 1
+          },
+          "visible": [
+            [
+              24,
+              31
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "id": "p-caserta",
+          "name": "Caserta",
+          "info": "909.840 abitanti (ISTAT, maggio 2026).",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "province-barre",
+            "index": 2
+          },
+          "visible": [],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "id": "p-napoli",
+          "name": "Napoli",
+          "info": "Città metropolitana: 2.951.375 abitanti (ISTAT, maggio 2026), su 1.171 km².",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "province-barre",
+            "index": 3
+          },
+          "visible": [
+            [
+              12,
+              46
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ],
+          "sub": "città metropolitana"
+        },
+        {
+          "id": "p-salerno",
+          "name": "Salerno",
+          "info": "1.052.217 abitanti (ISTAT, maggio 2026): la provincia più estesa.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "province-barre",
+            "index": 4
+          },
+          "visible": [
+            [
+              24,
+              31
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "wp-campania"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La città metropolitana di Napoli ha 92 comuni su soli 1.171 km²: è l'area della Campania con più abitanti per chilometro quadrato.",
+          "sourceIds": [
+            "wp-demografia",
+            "wp-campania"
+          ]
+        },
+        {
+          "text": "La provincia più estesa e con più comuni è Salerno: 158 comuni su 4.954 km².",
+          "sourceIds": [
+            "wp-campania",
+            "wp-demografia"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quale provincia ha più abitanti dopo Napoli?",
+          "options": [
+            "Caserta",
+            "Salerno",
+            "Avellino"
+          ],
+          "answer": 1,
+          "explain": "Salerno ha 1.052.217 abitanti, Caserta 909.840."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la provincia con meno abitanti.",
+          "answerPins": [
+            "p-benevento"
+          ],
+          "explain": "Benevento: 257.215 abitanti."
+        }
+      ],
+      "book": {
+        "heading": "Dove vivono i campani",
+        "formula": "2.951.375 : 5.562.943 ≈ 53 %",
+        "lines": [
+          "Abitanti secondo il libro: 5.590.076",
+          "ISTAT, maggio 2026: 5.562.943",
+          "Città metropolitana di Napoli: 2.951.375"
+        ],
+        "sourceIds": [
+          "page",
+          "wp-demografia",
+          "calc"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Secondo te, quanti campani vivono nella città metropolitana di Napoli?",
+          "options": [
+            "Circa uno su cinque",
+            "Circa uno su tre",
+            "Più di uno su due"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Muovi il cursore e confronta le province una per una.",
+          "params": [
+            "provincia"
+          ]
+        },
+        "prove": {
+          "text": "Su 5.562.943 campani, 2.951.375 vivono nella città metropolitana di Napoli: il 53 %, più di uno su due.",
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        },
+        "stamp": "Contatore di province"
+      },
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "city",
+            "volume": 0.12
+          }
+        ],
+        "cues": [
+          {
+            "at": 5,
+            "sound": "pop",
+            "volume": 0.6
+          },
+          {
+            "at": 12,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 19,
+            "sound": "whoosh-soft",
+            "volume": 0.7
+          },
+          {
+            "at": 31,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 38,
+            "sound": "page-turn",
+            "volume": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "territorio",
+      "title": "Collina, montagna, pianura",
+      "chip": "Territorio",
+      "kind": "geography",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora guardiamo il territorio: com'è fatta la Campania?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 4,
+          "text": "Il libro lo divide in tre fasce: collina, montagna e pianura.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 10,
+          "text": "La collina è la fascia più grande: il 51 per cento, più della metà.",
+          "highlight": [
+            "p-collina"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "La montagna occupa il 34 per cento, la pianura solo il 15.",
+          "highlight": [
+            "p-montagna",
+            "p-pianura"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 23,
+          "text": "Wikipedia dà numeri più precisi: collina 50,8, montagna 34,6, pianura 14,6 per cento.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-campania"
+          ]
+        },
+        {
+          "at": 31,
+          "text": "Il libro ha arrotondato i numeri, ma la sostanza non cambia: la Campania è soprattutto collina e montagna.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "wp-campania"
+          ]
+        },
+        {
+          "at": 36,
+          "text": "Le pianure sono poche, ma fertili: si sono formate con la lava e la cenere dei vulcani.",
+          "highlight": [
+            "p-pianura"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "chart",
+            "part": "territorio-ciambella"
+          },
+          "distance": 17,
+          "azimuth": 0,
+          "elevation": 48
+        },
+        {
+          "at": 10,
+          "target": {
+            "entity": "item",
+            "part": "territorio-ciambella",
+            "index": 0
+          },
+          "distance": 12,
+          "azimuth": -20,
+          "elevation": 45
+        },
+        {
+          "at": 16,
+          "target": {
+            "entity": "chart",
+            "part": "territorio-ciambella"
+          },
+          "distance": 15,
+          "azimuth": 15,
+          "elevation": 50
+        },
+        {
+          "at": 23,
+          "target": {
+            "entity": "chart",
+            "part": "territorio-ciambella"
+          },
+          "distance": 16,
+          "azimuth": 0,
+          "elevation": 55
+        },
+        {
+          "at": 36,
+          "target": {
+            "entity": "item",
+            "part": "territorio-ciambella",
+            "index": 2
+          },
+          "distance": 12,
+          "azimuth": 20,
+          "elevation": 45
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-collina",
+          "name": "Collina",
+          "info": "51 % secondo il libro, 50,8 % secondo Wikipedia.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "territorio-ciambella",
+            "index": 0
+          },
+          "visible": [
+            [
+              10,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page",
+            "wp-campania"
+          ],
+          "marker": "#7fae4e"
+        },
+        {
+          "id": "p-montagna",
+          "name": "Montagna",
+          "info": "34 % secondo il libro, 34,6 % secondo Wikipedia.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "territorio-ciambella",
+            "index": 1
+          },
+          "visible": [
+            [
+              16,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page",
+            "wp-campania"
+          ],
+          "marker": "#9a6b4b"
+        },
+        {
+          "id": "p-pianura",
+          "name": "Pianura",
+          "info": "15 % secondo il libro, 14,6 % secondo Wikipedia.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "territorio-ciambella",
+            "index": 2
+          },
+          "visible": [
+            [
+              16,
+              42
+            ]
+          ],
+          "sourceIds": [
+            "page",
+            "wp-campania"
+          ],
+          "marker": "#e2b93b"
+        }
+      ],
+      "deep": [
+        {
+          "text": "Collina e montagna insieme fanno l'85 per cento della regione (51 + 34): quasi nove parti su dieci non sono pianura.",
+          "sourceIds": [
+            "page",
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quale fascia occupa più spazio in Campania?",
+          "options": [
+            "Montagna",
+            "Collina",
+            "Pianura"
+          ],
+          "answer": 1,
+          "explain": "La collina: 51 % per il libro, 50,8 % per Wikipedia."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la fascia più piccola.",
+          "answerPins": [
+            "p-pianura"
+          ],
+          "explain": "La pianura: 15 % per il libro, 14,6 % per Wikipedia."
+        }
+      ],
+      "book": {
+        "heading": "Collina, montagna, pianura",
+        "formula": "51 % + 34 % + 15 % = 100 %",
+        "lines": [
+          "Collina 51 % · Montagna 34 % · Pianura 15 %",
+          "Wikipedia: 50,8 % · 34,6 % · 14,6 %"
+        ],
+        "sourceIds": [
+          "page",
+          "wp-campania"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Quanta parte della Campania è pianura?",
+          "options": [
+            "Circa metà",
+            "Circa un terzo",
+            "Meno di un sesto"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Scorri le tre fasce e guarda quanto è piccola la pianura.",
+          "params": [
+            "fascia"
+          ]
+        },
+        "prove": {
+          "text": "La pianura è il 15 % per il libro e il 14,6 % per Wikipedia: meno di un sesto, che è circa il 16,7 %.",
+          "sourceIds": [
+            "page",
+            "wp-campania",
+            "calc"
+          ]
+        },
+        "stamp": "Esperto di territorio"
+      },
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "forest",
+            "volume": 0.15
+          }
+        ],
+        "cues": [
+          {
+            "at": 4,
+            "sound": "pop",
+            "volume": 0.6
+          },
+          {
+            "at": 10,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 23,
+            "sound": "page-turn",
+            "volume": 0.7
+          },
+          {
+            "at": 36,
+            "sound": "chime",
+            "volume": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "popolazione",
+      "title": "Come è cambiata la popolazione",
+      "chip": "Nel tempo",
+      "kind": "geography",
+      "duration": 52,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ultima domanda: la Campania ha sempre avuto tanti abitanti?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 4,
+          "text": "Al primo censimento dell'Italia unita, nel 1861, i campani erano 2.402.355.",
+          "highlight": [
+            "p-1861"
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "wp-censimento"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Poi la popolazione cresce, censimento dopo censimento.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Nel 1951 i campani sono 4.346.264: in novant'anni sono quasi raddoppiati.",
+          "highlight": [
+            "p-1951"
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        },
+        {
+          "at": 31,
+          "text": "La crescita continua fino al 2011, quando si contano 5.766.810 abitanti: è il valore più alto.",
+          "highlight": [
+            "p-2011"
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "at": 39,
+          "text": "Nel 2021, per la prima volta, il censimento ne conta di meno: 5.624.420.",
+          "highlight": [
+            "p-2021"
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        },
+        {
+          "at": 45,
+          "text": "Rispetto al 1861 gli abitanti sono più che raddoppiati: la linea grigia segna il punto di partenza.",
+          "highlight": [
+            "p-1861",
+            "p-2021"
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "chart",
+            "part": "popolazione-linea"
+          },
+          "distance": 20,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 6,
+          "target": {
+            "entity": "cursor",
+            "part": "popolazione-linea"
+          },
+          "distance": 13,
+          "azimuth": -15,
+          "elevation": 10
+        },
+        {
+          "at": 38,
+          "target": {
+            "entity": "chart",
+            "part": "popolazione-linea"
+          },
+          "distance": 23,
+          "azimuth": 4,
+          "elevation": 14
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-1861",
+          "name": "1861",
+          "info": "Primo censimento dell'Italia unita: 2.402.355 abitanti.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "popolazione-linea",
+            "index": 0
+          },
+          "visible": [
+            [
+              4,
+              52
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "wp-censimento"
+          ]
+        },
+        {
+          "id": "p-1951",
+          "name": "1951",
+          "info": "4.346.264 abitanti.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "popolazione-linea",
+            "index": 8
+          },
+          "visible": [
+            [
+              24,
+              52
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "id": "p-2011",
+          "name": "2011",
+          "info": "5.766.810 abitanti: il valore più alto fra i censimenti.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "popolazione-linea",
+            "index": 14
+          },
+          "visible": [
+            [
+              36,
+              52
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "id": "p-2021",
+          "name": "2021",
+          "info": "5.624.420 abitanti: per la prima volta meno del censimento precedente.",
+          "kind": "data",
+          "anchor": {
+            "entity": "item",
+            "part": "popolazione-linea",
+            "index": 15
+          },
+          "visible": [
+            [
+              38,
+              52
+            ]
+          ],
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "A maggio 2026 i residenti in Campania sono 5.562.943: il 9,4 per cento degli italiani.",
+          "sourceIds": [
+            "wp-demografia"
+          ]
+        },
+        {
+          "text": "Dal 2011 al 2021 la Campania ha perso 142.390 abitanti (5.766.810 − 5.624.420).",
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quale censimento la Campania ha avuto più abitanti?",
+          "options": [
+            "1951",
+            "2011",
+            "2021"
+          ],
+          "answer": 1,
+          "explain": "Nel 2011: 5.766.810 abitanti."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il censimento in cui gli abitanti sono diminuiti rispetto al precedente.",
+          "answerPins": [
+            "p-2021"
+          ],
+          "explain": "Nel 2021: 5.624.420, meno dei 5.766.810 del 2011."
+        }
+      ],
+      "book": {
+        "heading": "Come è cambiata la popolazione",
+        "formula": "1861: 2.402.355 → 2021: 5.624.420",
+        "lines": [
+          "Il massimo al censimento del 2011: 5.766.810",
+          "Nel 2021 la popolazione cala per la prima volta"
+        ],
+        "sourceIds": [
+          "wp-demografia"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Dal 2011 al 2021 gli abitanti della Campania…",
+          "options": [
+            "sono aumentati",
+            "sono diminuiti",
+            "sono rimasti uguali"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Muovi l'anno e guarda crescere la linea: dove si ferma la salita?",
+          "params": [
+            "anno"
+          ]
+        },
+        "prove": {
+          "text": "2011: 5.766.810 abitanti; 2021: 5.624.420. Sono 142.390 in meno.",
+          "sourceIds": [
+            "wp-demografia",
+            "calc"
+          ]
+        },
+        "stamp": "Viaggiatore nel tempo"
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 6,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 24,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 36,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 39,
+            "sound": "bell",
+            "volume": 0.5
+          },
+          {
+            "at": 45,
+            "sound": "page-turn",
+            "volume": 0.7
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Libro di geografia, p. 84: Campania"
+    },
+    {
+      "id": "wp-demografia",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Demografia della Campania",
+      "url": "https://it.wikipedia.org/wiki/Demografia_della_Campania",
+      "publisher": "Wikipedia (it), dati ISTAT",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-campania",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Campania",
+      "url": "https://it.wikipedia.org/wiki/Campania",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-04",
+      "wikidataId": "Q1438",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-censimento",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Censimento generale della popolazione e delle abitazioni",
+      "url": "https://it.wikipedia.org/wiki/Censimento_generale_della_popolazione_e_delle_abitazioni",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli della lezione (rapporti, somme e differenze sui dati sopra)"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Popolazione per provincia: dati ISTAT di maggio 2026 riportati da Wikipedia. Il libro usa dati di un anno precedente, per questo il totale è diverso.",
+    "Censimenti dal 1861 al 2021: dati ISTAT riportati da Wikipedia. Le percentuali della lezione sono arrotondate."
+  ],
+  "engineData": {
+    "datasets": [
+      {
+        "id": "province",
+        "title": "Abitanti per provincia",
+        "unit": "abitanti",
+        "categories": [
+          {
+            "id": "avellino",
+            "label": "Avellino"
+          },
+          {
+            "id": "benevento",
+            "label": "Benevento"
+          },
+          {
+            "id": "caserta",
+            "label": "Caserta"
+          },
+          {
+            "id": "napoli",
+            "label": "Napoli"
+          },
+          {
+            "id": "salerno",
+            "label": "Salerno"
+          }
+        ],
+        "series": [
+          {
+            "id": "istat2026",
+            "label": "ISTAT, maggio 2026",
+            "color": "#3b6fb6",
+            "values": [
+              392296,
+              257215,
+              909840,
+              2951375,
+              1052217
+            ],
+            "sourceIds": [
+              "wp-demografia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "territorio",
+        "title": "Il territorio della Campania",
+        "unit": "%",
+        "categories": [
+          {
+            "id": "collina",
+            "label": "Collina",
+            "color": "#7fae4e"
+          },
+          {
+            "id": "montagna",
+            "label": "Montagna",
+            "color": "#9a6b4b"
+          },
+          {
+            "id": "pianura",
+            "label": "Pianura",
+            "color": "#e2b93b"
+          }
+        ],
+        "series": [
+          {
+            "id": "libro",
+            "label": "Libro",
+            "values": [
+              51,
+              34,
+              15
+            ],
+            "decimals": 0,
+            "sourceIds": [
+              "page"
+            ]
+          },
+          {
+            "id": "wiki",
+            "label": "Wikipedia",
+            "values": [
+              50.8,
+              34.6,
+              14.6
+            ],
+            "decimals": 1,
+            "sourceIds": [
+              "wp-campania"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "censimenti",
+        "title": "Abitanti della Campania ai censimenti",
+        "unit": "abitanti",
+        "categories": [
+          {
+            "id": "c1861",
+            "label": "1861",
+            "x": 1861
+          },
+          {
+            "id": "c1871",
+            "label": "1871",
+            "x": 1871
+          },
+          {
+            "id": "c1881",
+            "label": "1881",
+            "x": 1881
+          },
+          {
+            "id": "c1901",
+            "label": "1901",
+            "x": 1901
+          },
+          {
+            "id": "c1911",
+            "label": "1911",
+            "x": 1911
+          },
+          {
+            "id": "c1921",
+            "label": "1921",
+            "x": 1921
+          },
+          {
+            "id": "c1931",
+            "label": "1931",
+            "x": 1931
+          },
+          {
+            "id": "c1936",
+            "label": "1936",
+            "x": 1936
+          },
+          {
+            "id": "c1951",
+            "label": "1951",
+            "x": 1951
+          },
+          {
+            "id": "c1961",
+            "label": "1961",
+            "x": 1961
+          },
+          {
+            "id": "c1971",
+            "label": "1971",
+            "x": 1971
+          },
+          {
+            "id": "c1981",
+            "label": "1981",
+            "x": 1981
+          },
+          {
+            "id": "c1991",
+            "label": "1991",
+            "x": 1991
+          },
+          {
+            "id": "c2001",
+            "label": "2001",
+            "x": 2001
+          },
+          {
+            "id": "c2011",
+            "label": "2011",
+            "x": 2011
+          },
+          {
+            "id": "c2021",
+            "label": "2021",
+            "x": 2021
+          }
+        ],
+        "series": [
+          {
+            "id": "censiti",
+            "label": "Abitanti censiti",
+            "color": "#c94f6d",
+            "values": [
+              2402355,
+              2520095,
+              2659688,
+              2914073,
+              3101593,
+              3343293,
+              3508774,
+              3696632,
+              4346264,
+              4760759,
+              5059348,
+              5463134,
+              5630280,
+              5701931,
+              5766810,
+              5624420
+            ],
+            "sourceIds": [
+              "wp-demografia"
+            ]
+          }
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "id": "province-barre",
+        "kind": "bars",
+        "dataset": "province",
+        "size": [
+          12,
+          6,
+          3
+        ],
+        "cursor": {
+          "id": "provincia",
+          "label": "Provincia"
+        }
+      },
+      {
+        "id": "territorio-ciambella",
+        "kind": "pie",
+        "dataset": "territorio",
+        "series": [
+          "libro"
+        ],
+        "donut": 0.45,
+        "radius": 4,
+        "thickness": 0.7,
+        "cursor": {
+          "id": "fascia",
+          "label": "Fascia"
+        }
+      },
+      {
+        "id": "popolazione-linea",
+        "kind": "line",
+        "dataset": "censimenti",
+        "area": true,
+        "size": [
+          14,
+          6,
+          2
+        ],
+        "cursor": {
+          "id": "anno",
+          "label": "Anno"
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "province",
+        "charts": [
+          {
+            "id": "province-barre",
+            "at": 0,
+            "grow": 3
+          }
+        ],
+        "actions": [
+          {
+            "do": "highlight",
+            "chart": "province-barre",
+            "at": 12,
+            "until": 19,
+            "categories": [
+              "napoli"
+            ]
+          },
+          {
+            "do": "sort",
+            "chart": "province-barre",
+            "at": 19.5,
+            "order": "desc"
+          },
+          {
+            "do": "highlight",
+            "chart": "province-barre",
+            "at": 24,
+            "until": 31,
+            "categories": [
+              "salerno",
+              "benevento"
+            ]
+          },
+          {
+            "do": "compare",
+            "chart": "province-barre",
+            "at": 31,
+            "until": 38,
+            "categories": [
+              "napoli",
+              "salerno"
+            ]
+          },
+          {
+            "do": "annotate",
+            "chart": "province-barre",
+            "at": 38,
+            "text": "Libro: 5.590.076 · ISTAT 2026: 5.562.943",
+            "sourceIds": [
+              "page",
+              "wp-demografia"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "territorio",
+        "charts": [
+          {
+            "id": "territorio-ciambella",
+            "at": 0,
+            "grow": 4
+          }
+        ],
+        "actions": [
+          {
+            "do": "highlight",
+            "chart": "territorio-ciambella",
+            "at": 10,
+            "until": 16,
+            "categories": [
+              "collina"
+            ]
+          },
+          {
+            "do": "highlight",
+            "chart": "territorio-ciambella",
+            "at": 16,
+            "until": 22,
+            "categories": [
+              "montagna",
+              "pianura"
+            ]
+          },
+          {
+            "do": "switch",
+            "chart": "territorio-ciambella",
+            "at": 23,
+            "series": "wiki"
+          },
+          {
+            "do": "annotate",
+            "chart": "territorio-ciambella",
+            "at": 25,
+            "until": 35,
+            "text": "Il libro arrotonda: 51 % → 50,8 %",
+            "category": "collina",
+            "sourceIds": [
+              "page",
+              "wp-campania"
+            ]
+          },
+          {
+            "do": "highlight",
+            "chart": "territorio-ciambella",
+            "at": 36,
+            "categories": [
+              "pianura"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "popolazione",
+        "charts": [
+          {
+            "id": "popolazione-linea",
+            "at": 0,
+            "grow": 2
+          }
+        ],
+        "actions": [
+          {
+            "do": "sweep",
+            "chart": "popolazione-linea",
+            "at": 6,
+            "until": 38
+          },
+          {
+            "do": "annotate",
+            "chart": "popolazione-linea",
+            "at": 36,
+            "category": "c2011",
+            "text": "Massimo: 5.766.810",
+            "sourceIds": [
+              "wp-demografia"
+            ]
+          },
+          {
+            "do": "compare",
+            "chart": "popolazione-linea",
+            "at": 45,
+            "categories": [
+              "c1861",
+              "c2021"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

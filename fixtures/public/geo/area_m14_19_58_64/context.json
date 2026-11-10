@@ -1,0 +1,221 @@
+{
+  "key": "area_m14_19_58_64",
+  "bbox": {
+    "lonMin": -14,
+    "lonMax": 58,
+    "latMin": 19,
+    "latMax": 64
+  },
+  "focus": "",
+  "neighbors": [],
+  "files": {
+    "terrain": "terrain.json",
+    "boundaries": "regions.geojson",
+    "rivers": "rivers.geojson"
+  },
+  "rivers": [
+    {
+      "id": "volga",
+      "name": "Volga"
+    },
+    {
+      "id": "danube",
+      "name": "Danube"
+    },
+    {
+      "id": "kama",
+      "name": "Kama"
+    },
+    {
+      "id": "nile",
+      "name": "Nile"
+    },
+    {
+      "id": "dnieper",
+      "name": "Dnieper"
+    },
+    {
+      "id": "don",
+      "name": "Don"
+    },
+    {
+      "id": "ural",
+      "name": "Ural"
+    },
+    {
+      "id": "vychegda",
+      "name": "Vychegda"
+    },
+    {
+      "id": "vistula",
+      "name": "Vistula"
+    },
+    {
+      "id": "tigris",
+      "name": "Tigris"
+    },
+    {
+      "id": "zapadnaya-dvina",
+      "name": "Zapadnaya Dvina"
+    },
+    {
+      "id": "elbe",
+      "name": "Elbe"
+    },
+    {
+      "id": "dniester",
+      "name": "Dniester"
+    },
+    {
+      "id": "loire",
+      "name": "Loire"
+    },
+    {
+      "id": "euphrates",
+      "name": "Euphrates"
+    },
+    {
+      "id": "oder",
+      "name": "Oder"
+    },
+    {
+      "id": "firat",
+      "name": "Firat"
+    },
+    {
+      "id": "severnaya-dvina",
+      "name": "Severnaya Dvina"
+    },
+    {
+      "id": "sukhona",
+      "name": "Sukhona"
+    },
+    {
+      "id": "duero",
+      "name": "Duero"
+    },
+    {
+      "id": "rhone",
+      "name": "Rhône"
+    },
+    {
+      "id": "tisza",
+      "name": "Tisza"
+    },
+    {
+      "id": "ebro",
+      "name": "Ebro"
+    },
+    {
+      "id": "drava",
+      "name": "Drava"
+    },
+    {
+      "id": "rhine",
+      "name": "Rhine"
+    }
+  ],
+  "features": [
+    "Uzbekistan",
+    "baliato di Jersey",
+    "Isola di Man",
+    "Regno Unito",
+    "Emirati Arabi Uniti",
+    "Ucraina",
+    "Turkmenistan",
+    "Turchia",
+    "Tunisia",
+    "Siria",
+    "Svizzera",
+    "Svezia",
+    "Sudan",
+    "Spagna",
+    "Slovacchia",
+    "Slovenia",
+    "Serbia",
+    "Arabia Saudita",
+    "San Marino",
+    "Russia",
+    "Romania",
+    "Qatar",
+    "Portogallo",
+    "Polonia",
+    "Oman",
+    "Norvegia",
+    "Niger",
+    "Paesi Bassi",
+    "Marocco",
+    "Sahara Occidentale",
+    "Montenegro",
+    "Moldavia",
+    "Mauritania",
+    "Malta",
+    "Mali",
+    "Macedonia del Nord",
+    "Lussemburgo",
+    "Lituania",
+    "Liechtenstein",
+    "Libia",
+    "Libano",
+    "Lettonia",
+    "Kuwait",
+    "Kosovo",
+    "Kazakistan",
+    "Giordania",
+    "Italia",
+    "Israele",
+    "Palestina",
+    "Irlanda",
+    "Iraq",
+    "Iran",
+    "Ungheria",
+    "Grecia",
+    "Germania",
+    "Georgia",
+    "Francia",
+    "Isole Åland",
+    "Finlandia",
+    "Estonia",
+    "Egitto",
+    "Fær Øer",
+    "Danimarca",
+    "Repubblica Ceca",
+    "Cipro del Nord",
+    "Cipro",
+    "Croazia",
+    "Ciad",
+    "Bulgaria",
+    "Bosnia ed Erzegovina",
+    "Belgio",
+    "Bielorussia",
+    "Bahrein",
+    "Azerbaigian",
+    "Austria",
+    "Armenia",
+    "Andorra",
+    "Algeria",
+    "Albania"
+  ],
+  "sourceIds": [
+    "data-terrain",
+    "data-naturalearth"
+  ],
+  "zoom": 5,
+  "grid": {
+    "width": 384,
+    "height": 321
+  },
+  "basis": [
+    "Roma",
+    "Gallia",
+    "Italia settentrionale",
+    "Spagna",
+    "Costantinopoli",
+    "BRITANNIA",
+    "Mar Nero",
+    "Mar Caspio",
+    "Mar Mediterraneo",
+    "EGITTO"
+  ],
+  "built": "2026-11-03"
+}

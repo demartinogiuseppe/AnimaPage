@@ -1,0 +1,1651 @@
+{
+  "version": "0.1",
+  "engine": "concept",
+  "title": "Studio di funzione: un esempio svolto",
+  "page": {
+    "subject": "Matematica",
+    "topic": "Studio di funzione: dominio e simmetria",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "music": {
+    "track": "music-curious",
+    "volume": 0.45
+  },
+  "chapters": [
+    {
+      "id": "funzione",
+      "title": "La funzione e il suo dominio",
+      "chip": "Dominio",
+      "kind": "mixed",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Facciamo uno studio di funzione completo su un esempio: f(x) = x² − 4x + 3.",
+          "highlight": [],
+          "sourceIds": [
+            "calc",
+            "w-studio"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Prima disegniamo il grafico: per ogni x calcoliamo f(x) e segniamo il punto. La curva che esce è una parabola.",
+          "highlight": [],
+          "sourceIds": [
+            "w-parabola"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "Il primo passo dello studio è il dominio: l'insieme dei valori che può assumere la x.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 23,
+          "text": "La nostra funzione è un polinomio: non ci sono denominatori, radici o logaritmi.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 29,
+          "text": "Per le funzioni polinomiali il dominio è l'insieme di tutti i numeri reali: la fascia copre l'intero asse x.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 37,
+          "text": "Lo scriviamo così: D = ℝ.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 21.8,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 7,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": -14,
+          "elevation": 9
+        },
+        {
+          "at": 28,
+          "target": {
+            "pos": [
+              -4,
+              2.2,
+              0.0
+            ]
+          },
+          "distance": 14.9,
+          "azimuth": 8,
+          "elevation": 10
+        },
+        {
+          "at": 37,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 20.7,
+          "azimuth": 0,
+          "elevation": 6
+        }
+      ],
+      "pins": [],
+      "deep": [
+        {
+          "text": "Altri casi dalla pagina: per una funzione fratta si escludono i valori che annullano il denominatore, per un logaritmo l'argomento deve essere positivo, per una radice di indice pari il radicando non può essere negativo.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Qual è il dominio di una funzione polinomiale?",
+          "options": [
+            "Tutti i numeri reali",
+            "Solo i numeri positivi",
+            "Tutti i reali tranne lo zero"
+          ],
+          "answer": 0,
+          "explain": "Un polinomio si può calcolare per qualsiasi x: il dominio è ℝ."
+        }
+      ],
+      "book": {
+        "heading": "Il dominio",
+        "formula": "f(x) = x² − 4x + 3",
+        "lines": [
+          "Dominio: i valori che può assumere x.",
+          "Polinomio → D = ℝ, tutti i numeri reali."
+        ],
+        "sourceIds": [
+          "page",
+          "calc"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Qual è il dominio di f(x) = x² − 4x + 3?",
+          "options": [
+            "Tutti i numeri reali",
+            "Solo x > 0",
+            "Tutti i reali tranne x = 1"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Guarda la fascia azzurra sull'asse x: copre tutta la retta?"
+        },
+        "prove": {
+          "text": "È un polinomio: niente denominatori, radici di indice pari o logaritmi. Si può calcolare per ogni x, quindi D = ℝ.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Cacciatore di domini"
+      }
+    },
+    {
+      "id": "intersezioni",
+      "title": "Intersezioni con gli assi",
+      "chip": "Intersezioni",
+      "kind": "mixed",
+      "duration": 40,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Secondo passo: troviamo dove il grafico incontra gli assi.",
+          "highlight": [],
+          "sourceIds": [
+            "w-studio"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Per l'asse x risolviamo f(x) = 0, cioè x² − 4x + 3 = 0.",
+          "highlight": [],
+          "sourceIds": [
+            "calc",
+            "w-studio"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Le soluzioni sono x = 1 e x = 3: la parabola taglia l'asse x nei punti A(1; 0) e B(3; 0).",
+          "highlight": [
+            "p-A",
+            "p-B"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 21,
+          "text": "Per l'asse y mettiamo x = 0 e otteniamo f(0) = 3.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 27,
+          "text": "Quindi il grafico incontra l'asse y nel punto C(0; 3).",
+          "highlight": [
+            "p-C"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 33,
+          "text": "Verifica con A: 1 − 4 + 3 fa proprio 0.",
+          "highlight": [
+            "p-A"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 11,
+          "target": {
+            "pos": [
+              -3,
+              3.2,
+              0.0
+            ]
+          },
+          "distance": 12.6,
+          "azimuth": -10,
+          "elevation": 8
+        },
+        {
+          "at": 20,
+          "target": {
+            "pos": [
+              -6,
+              4.5,
+              0.0
+            ]
+          },
+          "distance": 11.5,
+          "azimuth": 12,
+          "elevation": 6
+        },
+        {
+          "at": 33,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-A",
+          "name": "A(1; 0)",
+          "info": "Primo zero della funzione: f(1) = 0.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "A"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-B",
+          "name": "B(3; 0)",
+          "info": "Secondo zero della funzione: f(3) = 0.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "B"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-C",
+          "name": "C(0; 3)",
+          "info": "Intersezione con l'asse y: f(0) = 3.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "C"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Un trucco: x² − 4x + 3 si scompone in (x − 1)(x − 3). Un prodotto vale zero solo se uno dei fattori è zero.",
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quali punti la parabola taglia l'asse x?",
+          "options": [
+            "x = 1 e x = 3",
+            "x = −1 e x = −3",
+            "x = 0 e x = 3"
+          ],
+          "answer": 0,
+          "explain": "f(1) = 1 − 4 + 3 = 0 e f(3) = 9 − 12 + 3 = 0."
+        }
+      ],
+      "book": {
+        "heading": "Intersezioni con gli assi",
+        "formula": "x² − 4x + 3 = 0",
+        "lines": [
+          "Asse x: f(x) = 0 → x = 1 e x = 3",
+          "Asse y: x = 0 → f(0) = 3"
+        ],
+        "sourceIds": [
+          "calc",
+          "w-studio"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Quante volte la parabola taglia l'asse x?",
+          "options": [
+            "Nessuna",
+            "Una",
+            "Due"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Guarda dove la curva attraversa l'asse x."
+        },
+        "prove": {
+          "text": "x² − 4x + 3 = (x − 1)(x − 3): il prodotto vale zero solo per x = 1 oppure x = 3.",
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        "stamp": "Trova-zeri"
+      }
+    },
+    {
+      "id": "simmetria",
+      "title": "Pari, dispari o nessuna delle due?",
+      "chip": "Simmetria",
+      "kind": "mixed",
+      "duration": 52,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Terzo passo: la simmetria.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 4,
+          "text": "Una funzione è pari se f(−x) = f(x): il suo grafico è simmetrico rispetto all'asse y.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "w-pari"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Proviamo: ribaltiamo la curva attorno all'asse y e otteniamo il grafico di f(−x).",
+          "highlight": [],
+          "sourceIds": [
+            "w-pari"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "La copia viola non coincide con la curva blu: f non è pari.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 26,
+          "text": "Una funzione è dispari se f(−x) = −f(x): il grafico è simmetrico rispetto all'origine. Facciamo fare alla curva mezzo giro attorno all'origine.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "w-pari"
+          ]
+        },
+        {
+          "at": 36,
+          "text": "Anche questa seconda copia non coincide: f non è dispari. Abbiamo provato entrambe le prove: f è né pari né dispari.",
+          "highlight": [],
+          "sourceIds": [
+            "calc",
+            "page"
+          ]
+        },
+        {
+          "at": 43,
+          "text": "La parabola però ha un suo asse di simmetria: la retta verticale x = 2.",
+          "highlight": [],
+          "sourceIds": [
+            "calc",
+            "w-parabola"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 12,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 20.7,
+          "azimuth": 38,
+          "elevation": 14
+        },
+        {
+          "at": 19,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 26,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 20.7,
+          "azimuth": -34,
+          "elevation": 12
+        },
+        {
+          "at": 35,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        }
+      ],
+      "pins": [],
+      "deep": [
+        {
+          "text": "Il conto: f(−x) = (−x)² − 4(−x) + 3 = x² + 4x + 3. Per esempio f(1) = 0 ma f(−1) = 8: diversi, e nemmeno opposti.",
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "La funzione f(x) = x² − 4x + 3 è…",
+          "options": [
+            "pari",
+            "dispari",
+            "né pari né dispari"
+          ],
+          "answer": 2,
+          "explain": "f(−1) = 8 è diverso sia da f(1) = 0 sia da −f(1) = 0."
+        }
+      ],
+      "book": {
+        "heading": "Simmetria",
+        "formula": "f(−x) = f(x)?   f(−x) = −f(x)?",
+        "lines": [
+          "Pari: simmetrica rispetto all'asse y",
+          "Dispari: simmetrica rispetto all'origine",
+          "Qui: né pari né dispari",
+          "Asse della parabola: x = 2"
+        ],
+        "sourceIds": [
+          "page",
+          "w-pari",
+          "calc"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se ribaltiamo la parabola attorno all'asse y, la copia coinciderà con l'originale?",
+          "options": [
+            "Sì",
+            "No"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Osserva la copia viola mentre ruota nello spazio."
+        },
+        "prove": {
+          "text": "f(−x) = x² + 4x + 3 è diverso sia da f(x) sia da −f(x): per esempio f(1) = 0 ma f(−1) = 8.",
+          "sourceIds": [
+            "calc",
+            "w-pari"
+          ]
+        },
+        "stamp": "Detective delle simmetrie"
+      }
+    },
+    {
+      "id": "segno-vertice",
+      "title": "Segno e vertice",
+      "chip": "Segno e vertice",
+      "kind": "mixed",
+      "duration": 56,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Quarto passo: il segno. Dove la curva sta sopra l'asse x, f(x) è positiva; dove sta sotto, è negativa.",
+          "highlight": [],
+          "sourceIds": [
+            "w-studio"
+          ]
+        },
+        {
+          "at": 9,
+          "text": "f(x) è positiva per x < 1 e per x > 3, ed è negativa tra 1 e 3.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 17,
+          "text": "Ora cerchiamo il punto più basso. Un punto arancione scorre sulla curva con la sua retta tangente.",
+          "highlight": [],
+          "sourceIds": [
+            "w-studio"
+          ]
+        },
+        {
+          "at": 25,
+          "text": "Mentre scende, la tangente è inclinata verso il basso: la pendenza f′(x) è negativa.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 32,
+          "text": "In x = 2 la tangente diventa orizzontale: la pendenza vale 0.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 39,
+          "text": "Lì c'è il vertice V(2; −1): è il minimo della funzione.",
+          "highlight": [
+            "p-V"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-parabola"
+          ]
+        },
+        {
+          "at": 47,
+          "text": "Per una parabola la x del vertice è −b/2a: qui 4 diviso 2, cioè 2.",
+          "highlight": [],
+          "sourceIds": [
+            "calc",
+            "w-parabola"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 17,
+          "target": {
+            "pos": [
+              -3,
+              3.5,
+              0.0
+            ]
+          },
+          "distance": 13.8,
+          "azimuth": -16,
+          "elevation": 8
+        },
+        {
+          "at": 38,
+          "target": {
+            "pos": [
+              -2,
+              2.2,
+              0.0
+            ]
+          },
+          "distance": 11.5,
+          "azimuth": 10,
+          "elevation": 6
+        },
+        {
+          "at": 47,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-A",
+          "name": "A(1; 0)",
+          "info": "Primo zero della funzione: f(1) = 0.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "A"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-B",
+          "name": "B(3; 0)",
+          "info": "Secondo zero della funzione: f(3) = 0.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "B"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-C",
+          "name": "C(0; 3)",
+          "info": "Intersezione con l'asse y: f(0) = 3.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "C"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-V",
+          "name": "V(2; −1)",
+          "info": "Vertice della parabola: è il punto più basso, il minimo della funzione.",
+          "kind": "data",
+          "anchor": {
+            "entity": "point",
+            "part": "V"
+          },
+          "visible": [],
+          "sourceIds": [
+            "calc",
+            "w-parabola"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Con le derivate: f′(x) = 2x − 4 è negativa per x < 2 (la funzione scende) e positiva per x > 2 (sale). In x = 2 cambia segno: lì c'è il minimo.",
+          "sourceIds": [
+            "calc",
+            "w-studio"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Dove f(x) < 0?",
+          "options": [
+            "per x < 1",
+            "tra 1 e 3",
+            "per x > 3"
+          ],
+          "answer": 1,
+          "explain": "Tra 1 e 3 la curva sta sotto l'asse x: è la zona rossa."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il vertice della parabola.",
+          "answerPins": [
+            "p-V"
+          ],
+          "explain": "Il vertice è V(2; −1), il punto più basso della curva."
+        }
+      ],
+      "book": {
+        "heading": "Segno e vertice",
+        "formula": "V = (−b/2a; f(−b/2a))",
+        "lines": [
+          "f > 0 per x < 1 e per x > 3",
+          "f < 0 per 1 < x < 3",
+          "Minimo: V(2; −1)"
+        ],
+        "sourceIds": [
+          "calc",
+          "w-parabola"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Nel punto più basso della parabola, com'è la retta tangente?",
+          "options": [
+            "Orizzontale",
+            "Verticale",
+            "Inclinata"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Segui il punto arancione e guarda la pendenza nel riquadro."
+        },
+        "prove": {
+          "text": "La pendenza è f′(x) = 2x − 4, che vale 0 per x = 2; e f(2) = 4 − 8 + 3 = −1. Quindi il minimo è V(2; −1).",
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        "stamp": "Scalatore di parabole"
+      }
+    },
+    {
+      "id": "parametri",
+      "title": "Prova tu: i numeri a, b e c",
+      "chip": "a, b, c",
+      "kind": "mixed",
+      "duration": 52,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Scriviamo la funzione come f(x) = ax² + bx + c: nel nostro esempio a = 1, b = −4 e c = 3.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 9,
+          "text": "Se a diventa negativo, la parabola si capovolge e si apre verso il basso: il vertice diventa un massimo.",
+          "highlight": [],
+          "sourceIds": [
+            "w-parabola"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "Torniamo ad a = 1 e cambiamo c: la parabola sale e scende senza cambiare forma.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 28,
+          "text": "Cambiando b, il vertice si sposta e l'asse di simmetria lo segue: la sua x è sempre −b/2a. Se la curva si stacca dall'asse x, gli zeri spariscono.",
+          "highlight": [],
+          "sourceIds": [
+            "w-parabola"
+          ]
+        },
+        {
+          "at": 38,
+          "text": "Le etichette si ricalcolano mentre i numeri cambiano.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 44,
+          "text": "Ora prova tu: muovi a, b e c e guarda la parabola.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 9,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": -10,
+          "elevation": 8
+        },
+        {
+          "at": 28,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 10,
+          "elevation": 8
+        },
+        {
+          "at": 44,
+          "target": {
+            "entity": "graph",
+            "part": "g"
+          },
+          "distance": 19.5,
+          "azimuth": 0,
+          "elevation": 6
+        }
+      ],
+      "pins": [],
+      "deep": [
+        {
+          "text": "Il numero c è sempre il punto in cui la parabola taglia l'asse y, perché f(0) = c.",
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa succede se a diventa negativo?",
+          "options": [
+            "La parabola si apre verso il basso",
+            "La parabola diventa una retta",
+            "La parabola si sposta a destra"
+          ],
+          "answer": 0,
+          "explain": "Con a < 0 i rami vanno verso il basso e il vertice è un massimo."
+        }
+      ],
+      "book": {
+        "heading": "I numeri a, b e c",
+        "formula": "f(x) = ax² + bx + c",
+        "lines": [
+          "a > 0: aperta in alto; a < 0: in basso",
+          "c: dove taglia l'asse y",
+          "x del vertice: −b/2a"
+        ],
+        "sourceIds": [
+          "w-parabola",
+          "calc"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se a diventa negativo, la parabola…",
+          "options": [
+            "si apre verso il basso",
+            "diventa una retta",
+            "si sposta a destra"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Prova tu: muovi a, b e c e guarda la parabola.",
+          "params": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        "prove": {
+          "text": "Con a < 0 il termine ax² diventa molto negativo quando x è grande: i rami scendono e il vertice è un massimo.",
+          "sourceIds": [
+            "w-parabola"
+          ]
+        },
+        "stamp": "Esperto di parabole"
+      }
+    },
+    {
+      "id": "bonus-3d",
+      "title": "Bonus: la parabola in 3D",
+      "chip": "Bonus 3D",
+      "kind": "mixed",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Bonus in tre dimensioni: che cosa succede se facciamo girare una parabola?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 5,
+          "text": "Prendiamo la parabola z = x² e facciamola ruotare attorno al suo asse verticale.",
+          "highlight": [],
+          "sourceIds": [
+            "calc",
+            "w-paraboloide"
+          ]
+        },
+        {
+          "at": 14,
+          "text": "Ruotando, la curva disegna una superficie a forma di coppa: il paraboloide di rotazione.",
+          "highlight": [],
+          "sourceIds": [
+            "w-paraboloide"
+          ]
+        },
+        {
+          "at": 22,
+          "text": "La sua equazione è z = x² + y²: l'altezza dipende sia da x sia da y.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 30,
+          "text": "I colori indicano l'altezza: blu in basso, arancione in alto.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 36,
+          "text": "Ogni sezione verticale che passa per l'asse è di nuovo una parabola.",
+          "highlight": [],
+          "sourceIds": [
+            "w-paraboloide"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "graph",
+            "part": "g3"
+          },
+          "distance": 14.9,
+          "azimuth": 25,
+          "elevation": 18
+        },
+        {
+          "at": 5,
+          "target": {
+            "entity": "graph",
+            "part": "g3"
+          },
+          "distance": 12.6,
+          "azimuth": 10,
+          "elevation": 14
+        },
+        {
+          "at": 14,
+          "target": {
+            "entity": "graph",
+            "part": "g3"
+          },
+          "distance": 13.8,
+          "azimuth": 40,
+          "elevation": 28
+        },
+        {
+          "at": 30,
+          "target": {
+            "entity": "graph",
+            "part": "g3"
+          },
+          "distance": 13.8,
+          "azimuth": -30,
+          "elevation": 34
+        }
+      ],
+      "pins": [],
+      "deep": [
+        {
+          "text": "Un punto del paraboloide a distanza r dall'asse ha altezza r²: è la stessa regola della parabola z = x², ripetuta in tutte le direzioni.",
+          "sourceIds": [
+            "calc",
+            "w-paraboloide"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che forma ottieni facendo girare una parabola attorno al suo asse?",
+          "options": [
+            "Una coppa: il paraboloide",
+            "Un cubo",
+            "Un cilindro"
+          ],
+          "answer": 0,
+          "explain": "La parabola ruotando disegna il paraboloide di rotazione."
+        }
+      ],
+      "book": {
+        "heading": "Bonus: il paraboloide",
+        "formula": "z = x² + y²",
+        "lines": [
+          "Facciamo ruotare z = x² attorno al suo asse:",
+          "otteniamo il paraboloide di rotazione."
+        ],
+        "sourceIds": [
+          "calc",
+          "w-paraboloide"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Che forma ottieni facendo girare una parabola attorno al suo asse?",
+          "options": [
+            "Una coppa",
+            "Un cubo",
+            "Un cilindro"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Ruota la scena con il dito e guarda la superficie da sotto e da sopra."
+        },
+        "prove": {
+          "text": "Per un punto a distanza r dall'asse vale x² + y² = r², quindi la sua altezza è r²: la stessa regola della parabola z = x².",
+          "sourceIds": [
+            "calc",
+            "w-paraboloide"
+          ]
+        },
+        "stamp": "Architetto del 3D"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Libro di matematica: studio di funzione, dominio e simmetria"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli svolti nella lezione"
+    },
+    {
+      "id": "w-studio",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Studio di funzione",
+      "url": "https://it.wikipedia.org/wiki/Studio_di_funzione",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-pari",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Funzioni pari e dispari",
+      "url": "https://it.wikipedia.org/wiki/Funzioni_pari_e_dispari",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-parabola",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Parabola (geometria)",
+      "url": "https://it.wikipedia.org/wiki/Parabola_(geometria)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-paraboloide",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Paraboloide",
+      "url": "https://it.wikipedia.org/wiki/Paraboloide",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-03",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "L'esempio f(x) = x² − 4x + 3 è scelto dalla lezione per applicare le regole della pagina: non è un esercizio del libro."
+  ],
+  "engineData": {
+    "board": {
+      "width": 30,
+      "depth": 12
+    },
+    "roles": [],
+    "rows": [],
+    "axes": [],
+    "tiles": [],
+    "shapes": [],
+    "links": [],
+    "graphs": [
+      {
+        "id": "g",
+        "pos": [
+          -4,
+          0,
+          0
+        ],
+        "x": {
+          "min": -4,
+          "max": 6,
+          "step": 1
+        },
+        "y": {
+          "min": -2,
+          "max": 8,
+          "step": 1
+        },
+        "params": [
+          {
+            "id": "a",
+            "min": -3,
+            "max": 3,
+            "step": 0.1,
+            "value": 1
+          },
+          {
+            "id": "b",
+            "min": -6,
+            "max": 6,
+            "step": 0.1,
+            "value": -4
+          },
+          {
+            "id": "c",
+            "min": -4,
+            "max": 6,
+            "step": 0.1,
+            "value": 3
+          }
+        ],
+        "plots": [
+          {
+            "id": "f",
+            "expr": "a*x^2 + b*x + c",
+            "sourceIds": [
+              "calc"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "plot": "f",
+            "kind": "zero",
+            "x": 1,
+            "name": "A",
+            "sourceIds": [
+              "calc"
+            ]
+          },
+          {
+            "id": "B",
+            "plot": "f",
+            "kind": "zero",
+            "x": 3,
+            "name": "B",
+            "sourceIds": [
+              "calc"
+            ]
+          },
+          {
+            "id": "C",
+            "plot": "f",
+            "kind": "y-intercept",
+            "name": "C",
+            "sourceIds": [
+              "calc"
+            ]
+          },
+          {
+            "id": "V",
+            "plot": "f",
+            "kind": "vertex",
+            "x": 2,
+            "name": "V",
+            "sourceIds": [
+              "calc"
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "id": "asse",
+            "x": "-b/(2a)",
+            "meaning": "symmetry",
+            "plot": "f",
+            "sourceIds": [
+              "calc"
+            ]
+          }
+        ],
+        "regions": [
+          {
+            "id": "segno",
+            "plot": "f",
+            "sign": true
+          }
+        ],
+        "intervals": [
+          {
+            "id": "dom",
+            "label": "D = ℝ"
+          }
+        ],
+        "tracers": [
+          {
+            "id": "tr",
+            "plot": "f",
+            "x": 0,
+            "sourceIds": [
+              "calc"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "g3",
+        "pos": [
+          10,
+          0,
+          0
+        ],
+        "scale": 1.2,
+        "yScale": 0.6,
+        "x": {
+          "min": -2,
+          "max": 2,
+          "step": 1
+        },
+        "y": {
+          "min": -2,
+          "max": 2,
+          "step": 1
+        },
+        "z": {
+          "min": 0,
+          "max": 8,
+          "step": 2
+        },
+        "plots": [
+          {
+            "id": "p3",
+            "expr": "x^2",
+            "label": "z = x²",
+            "width": 0.07,
+            "sourceIds": [
+              "calc"
+            ]
+          }
+        ],
+        "surfaces": [
+          {
+            "id": "par",
+            "expr": "x^2 + y^2",
+            "x": [
+              -2,
+              2
+            ],
+            "y": [
+              -2,
+              2
+            ],
+            "sourceIds": [
+              "calc"
+            ]
+          }
+        ]
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "funzione",
+        "actions": [
+          {
+            "at": 0.3,
+            "do": "appear",
+            "ids": [
+              "g"
+            ]
+          },
+          {
+            "at": 7,
+            "do": "appear",
+            "ids": [
+              "f"
+            ],
+            "dur": 5
+          },
+          {
+            "at": 29,
+            "do": "appear",
+            "ids": [
+              "dom"
+            ],
+            "dur": 2
+          },
+          {
+            "at": 37,
+            "do": "highlight",
+            "ids": [
+              "dom"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "intersezioni",
+        "actions": [
+          {
+            "at": 0,
+            "do": "hide",
+            "ids": [
+              "dom"
+            ]
+          },
+          {
+            "at": 12,
+            "do": "appear",
+            "ids": [
+              "A",
+              "B"
+            ],
+            "stagger": 1.2
+          },
+          {
+            "at": 21,
+            "do": "appear",
+            "ids": [
+              "C"
+            ]
+          },
+          {
+            "at": 27,
+            "do": "highlight",
+            "ids": [
+              "C"
+            ]
+          },
+          {
+            "at": 33,
+            "do": "highlight",
+            "ids": [
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "simmetria",
+        "actions": [
+          {
+            "at": 12,
+            "do": "mirror",
+            "id": "f",
+            "about": "y-axis",
+            "dur": 4
+          },
+          {
+            "at": 20,
+            "do": "highlight",
+            "ids": [
+              "f"
+            ]
+          },
+          {
+            "at": 26,
+            "do": "mirror",
+            "id": "f",
+            "about": "origin",
+            "dur": 4
+          },
+          {
+            "at": 43,
+            "do": "appear",
+            "ids": [
+              "asse"
+            ]
+          },
+          {
+            "at": 45,
+            "do": "highlight",
+            "ids": [
+              "asse"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "segno-vertice",
+        "actions": [
+          {
+            "at": 0,
+            "do": "hide",
+            "ids": [
+              "asse"
+            ]
+          },
+          {
+            "at": 3,
+            "do": "appear",
+            "ids": [
+              "segno"
+            ],
+            "dur": 1.5
+          },
+          {
+            "at": 17,
+            "do": "hide",
+            "ids": [
+              "segno"
+            ]
+          },
+          {
+            "at": 18,
+            "do": "appear",
+            "ids": [
+              "tr"
+            ]
+          },
+          {
+            "at": 20,
+            "do": "trace",
+            "id": "tr",
+            "to": 2,
+            "dur": 11
+          },
+          {
+            "at": 32,
+            "do": "highlight",
+            "ids": [
+              "tr"
+            ]
+          },
+          {
+            "at": 39,
+            "do": "appear",
+            "ids": [
+              "V"
+            ]
+          },
+          {
+            "at": 40,
+            "do": "highlight",
+            "ids": [
+              "V"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "parametri",
+        "actions": [
+          {
+            "at": 0,
+            "do": "hide",
+            "ids": [
+              "tr"
+            ]
+          },
+          {
+            "at": 9,
+            "do": "param",
+            "id": "a",
+            "to": -1,
+            "dur": 4
+          },
+          {
+            "at": 15,
+            "do": "param",
+            "id": "a",
+            "to": 1,
+            "dur": 3
+          },
+          {
+            "at": 20,
+            "do": "param",
+            "id": "c",
+            "to": 0,
+            "dur": 3
+          },
+          {
+            "at": 24,
+            "do": "param",
+            "id": "c",
+            "to": 3,
+            "dur": 2.5
+          },
+          {
+            "at": 28,
+            "do": "appear",
+            "ids": [
+              "asse"
+            ]
+          },
+          {
+            "at": 29,
+            "do": "param",
+            "id": "b",
+            "to": -2,
+            "dur": 3
+          },
+          {
+            "at": 34,
+            "do": "param",
+            "id": "b",
+            "to": -4,
+            "dur": 3
+          },
+          {
+            "at": 38,
+            "do": "highlight",
+            "ids": [
+              "V",
+              "C"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "bonus-3d",
+        "carryOver": false,
+        "actions": [
+          {
+            "at": 0.3,
+            "do": "appear",
+            "ids": [
+              "g3"
+            ]
+          },
+          {
+            "at": 5,
+            "do": "appear",
+            "ids": [
+              "p3"
+            ],
+            "dur": 3
+          },
+          {
+            "at": 8.5,
+            "do": "mirror",
+            "id": "p3",
+            "about": "y-axis",
+            "dur": 5
+          },
+          {
+            "at": 14,
+            "do": "appear",
+            "ids": [
+              "par"
+            ],
+            "dur": 5
+          },
+          {
+            "at": 36,
+            "do": "highlight",
+            "ids": [
+              "p3"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

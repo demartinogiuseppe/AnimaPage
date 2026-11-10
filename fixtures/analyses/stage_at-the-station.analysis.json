@@ -1,0 +1,130 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "literary": {
+      "isLiterary": false
+    },
+    "exercises": [
+      "Role-play: in coppia, compra un biglietto per London. Usa single o return.",
+      "Abbina le frasi inglesi alla traduzione italiana."
+    ],
+    "illustrations": [
+      {
+        "kind": "drawing",
+        "description": "Una ragazza alla biglietteria di una stazione inglese; dietro il vetro un impiegato; un tabellone con gli orari.",
+        "labels": [
+          "Tickets",
+          "Platform 4",
+          "Oxford 10:15"
+        ]
+      }
+    ],
+    "language": "en",
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        64
+      ]
+    },
+    "subject": "inglese",
+    "topic": "At the station: buying a ticket",
+    "gradeLevel": "scuola secondaria di primo grado, classe 1",
+    "contentType": "mixed",
+    "summary": "La pagina presenta un dialogo in inglese alla stazione: Emma compra un biglietto per Oxford dall'impiegato della biglietteria. Si chiede il prezzo, il binario e l'orario del treno. Sotto il dialogo ci sono le parole nuove e un esercizio di role-play.",
+    "concepts": [
+      "chiedere un biglietto",
+      "single e return ticket",
+      "chiedere il prezzo",
+      "chiedere il binario e l'orario",
+      "formule di cortesia"
+    ],
+    "entities": [
+      {
+        "name": "Emma",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "ticket clerk",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "Oxford",
+        "type": "place",
+        "onPage": true
+      },
+      {
+        "name": "return ticket",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "platform",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "prezzo del biglietto",
+        "type": "quantity",
+        "value": "£12.50",
+        "onPage": true
+      },
+      {
+        "name": "binario",
+        "type": "quantity",
+        "value": "platform 4",
+        "onPage": true
+      },
+      {
+        "name": "orario",
+        "type": "quantity",
+        "value": "10:15",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "Emma: \"Hello. A return ticket to Oxford, please.\"",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "Clerk: \"That's twelve pounds fifty, please.\" (£12.50)",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "Emma: \"Which platform is it?\" Clerk: \"Platform 4.\"",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "Emma: \"What time does the train leave?\" Clerk: \"At ten fifteen.\" (10:15)",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "Emma: \"Thank you very much.\" Clerk: \"You're welcome. Have a nice trip!\"",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "A single ticket è un biglietto di sola andata, a return ticket di andata e ritorno.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "Per chiedere il binario si dice \"Which platform?\" e per l'orario \"What time does the train leave?\".",
+        "kind": "rule",
+        "onPage": true
+      }
+    ],
+    "suggestedEngine": "stage",
+    "engineReason": "È un dialogo tra due personaggi in inglese: in scena si sentono le battute e si vede chi parla."
+  }
+}

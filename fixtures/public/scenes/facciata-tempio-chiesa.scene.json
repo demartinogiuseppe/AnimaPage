@@ -1,0 +1,988 @@
+{
+  "version": "0.1",
+  "engine": "facade",
+  "title": "Dal tempio greco alla cupola del Pantheon",
+  "page": {
+    "subject": "Arte e immagine",
+    "topic": "Tre facciate: il tempio di Paestum, San Miniato al Monte e il Pantheon",
+    "language": "it"
+  },
+  "kind": "art",
+  "music": {
+    "track": "music-history",
+    "volume": 0.35
+  },
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Arte, facciate degli edifici (scena di riferimento del teatro delle facciate)"
+    },
+    {
+      "id": "w-nettuno",
+      "kind": "wikipedia",
+      "title": "Tempio di Nettuno (Paestum)",
+      "url": "https://it.wikipedia.org/wiki/Tempio_di_Nettuno_(Paestum)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-miniato",
+      "kind": "wikipedia",
+      "title": "San Miniato al Monte",
+      "url": "https://it.wikipedia.org/wiki/San_Miniato_al_Monte",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-pantheon",
+      "kind": "wikipedia",
+      "title": "Pantheon (Roma)",
+      "url": "https://it.wikipedia.org/wiki/Pantheon_(Roma)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Edifici semplificati e disegnati solo con linee: non sono rilievi in scala.",
+    "Il tempio di Paestum è disegnato come una scatola chiusa, senza il colonnato intorno: il tempio vero ha sei colonne sulla fronte e quattordici sui lati. Le campate e le misure sono schematiche.",
+    "San Miniato: la parte alta (due pannelli e una finestra tonda) non è la finestra e il mosaico veri, il solo portale al centro è una semplificazione e i marmi colorati non sono disegnati.",
+    "Il pronao del Pantheon è disegnato con una sola fila di otto colonne; il blocco intermedio e la rotonda sono semplificati."
+  ],
+  "engineData": {
+    "buildings": [
+      {
+        "id": "nettuno",
+        "name": "Tempio di Nettuno (Paestum)",
+        "style": "temple",
+        "base": {
+          "height": 1.5,
+          "steps": 3
+        },
+        "depth": 36,
+        "floors": [
+          {
+            "id": "t0",
+            "height": 9,
+            "top": "entablature",
+            "cornice": "plain",
+            "members": {
+              "type": "column",
+              "order": "doric",
+              "width": 2.0
+            },
+            "colonnade": {
+              "depth": 4
+            },
+            "bays": [
+              {
+                "id": "ta",
+                "width": 4.8,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "tb",
+                "width": 4.8,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "tc",
+                "width": 4.8,
+                "cell": {
+                  "el": "portal",
+                  "w": 2.4,
+                  "h": 5
+                }
+              },
+              {
+                "id": "td",
+                "width": 4.8,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "te",
+                "width": 4.8,
+                "cell": {
+                  "el": "wall"
+                }
+              }
+            ]
+          }
+        ],
+        "crown": {
+          "type": "pediment",
+          "shape": "triangular",
+          "pitch": 14
+        }
+      },
+      {
+        "id": "miniato",
+        "name": "San Miniato al Monte",
+        "style": "romanesque",
+        "base": {
+          "height": 0.8,
+          "steps": 2
+        },
+        "floors": [
+          {
+            "id": "r0",
+            "height": 7,
+            "top": "string-course",
+            "members": {
+              "type": "half-column",
+              "order": "tuscan",
+              "width": 0.45
+            },
+            "bays": [
+              {
+                "id": "r0a",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              },
+              {
+                "id": "r0b",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              },
+              {
+                "id": "r0c",
+                "width": 5.2,
+                "cell": {
+                  "el": "portal",
+                  "w": 3.4,
+                  "h": 4.8,
+                  "top": "round",
+                  "splay": 3
+                }
+              },
+              {
+                "id": "r0d",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              },
+              {
+                "id": "r0e",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              }
+            ]
+          },
+          {
+            "id": "r1",
+            "height": 6.5,
+            "shoulders": "slopes",
+            "members": {
+              "type": "half-column",
+              "order": "tuscan",
+              "width": 0.45
+            },
+            "bays": [
+              {
+                "id": "r1a",
+                "width": 3.6,
+                "cell": {
+                  "el": "panel",
+                  "w": 1.8,
+                  "h": 2.6,
+                  "sill": 1.4
+                }
+              },
+              {
+                "id": "r1b",
+                "width": 5.2,
+                "cell": {
+                  "el": "window",
+                  "w": 1.4,
+                  "h": 2.8,
+                  "sill": 1.8,
+                  "top": "round"
+                }
+              },
+              {
+                "id": "r1c",
+                "width": 3.6,
+                "cell": {
+                  "el": "panel",
+                  "w": 1.8,
+                  "h": 2.6,
+                  "sill": 1.4
+                }
+              }
+            ]
+          }
+        ],
+        "crown": {
+          "type": "gable",
+          "pitch": 24
+        }
+      },
+      {
+        "id": "pantheon",
+        "name": "Pantheon",
+        "style": "temple",
+        "base": {
+          "height": 1.2,
+          "steps": 3
+        },
+        "floors": [
+          {
+            "id": "pf",
+            "height": 13.5,
+            "top": "entablature",
+            "cornice": "plain",
+            "members": {
+              "type": "column",
+              "order": "corinthian",
+              "width": 1.2
+            },
+            "colonnade": {
+              "depth": 11
+            },
+            "bays": [
+              {
+                "id": "p0",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p1",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p2",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p3",
+                "width": 9.4,
+                "cell": {
+                  "el": "portal",
+                  "w": 7.8,
+                  "h": 9.4
+                }
+              },
+              {
+                "id": "p4",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p5",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p6",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              }
+            ]
+          }
+        ],
+        "crown": {
+          "type": "pediment",
+          "shape": "triangular",
+          "pitch": 15
+        },
+        "depth": 16,
+        "rotunda": {
+          "diameter": 43.3,
+          "height": 21.65,
+          "level": 1.2,
+          "niches": 7,
+          "dome": {
+            "type": "coffered",
+            "coffers": [
+              5,
+              28
+            ],
+            "oculus": 8.2,
+            "steps": 7
+          }
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "nettuno",
+        "building": "nettuno",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          },
+          {
+            "at": 32,
+            "view": "assonometria"
+          }
+        ],
+        "acts": [
+          {
+            "do": "highlight",
+            "target": "t0.members",
+            "at": 14,
+            "until": 25
+          },
+          {
+            "do": "highlight",
+            "target": "crown",
+            "at": 26,
+            "until": 31
+          }
+        ]
+      },
+      {
+        "chapter": "miniato",
+        "building": "miniato",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          },
+          {
+            "at": 35,
+            "view": "prospettiva"
+          }
+        ],
+        "acts": [
+          {
+            "do": "highlight",
+            "target": "r0",
+            "at": 13,
+            "until": 19
+          },
+          {
+            "do": "highlight",
+            "target": "r1",
+            "at": 20,
+            "until": 26
+          }
+        ]
+      },
+      {
+        "chapter": "pantheon",
+        "building": "pantheon",
+        "views": [
+          {
+            "at": 0,
+            "view": "assonometria"
+          },
+          {
+            "at": 13,
+            "view": "sezione"
+          },
+          {
+            "at": 36,
+            "view": "pianta"
+          }
+        ],
+        "acts": [
+          {
+            "do": "draw",
+            "target": "pantheon",
+            "at": 0,
+            "dur": 5
+          },
+          {
+            "do": "cut",
+            "bay": "p3",
+            "at": 13
+          },
+          {
+            "do": "highlight",
+            "target": "dome",
+            "at": 17,
+            "until": 30
+          },
+          {
+            "do": "highlight",
+            "target": "rotunda",
+            "at": 42,
+            "until": 48
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "nettuno",
+      "title": "Un tempio greco",
+      "chip": "Paestum",
+      "kind": "art",
+      "duration": 40,
+      "narration": [
+        {
+          "at": 0,
+          "text": "A Paestum, in Campania, un tempio greco è arrivato fino a noi in ottimo stato.",
+          "highlight": [],
+          "sourceIds": [
+            "w-nettuno"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Il nome «di Nettuno» è una vecchia attribuzione: a quale dio fosse dedicato davvero non si sa.",
+          "highlight": [],
+          "sourceIds": [
+            "w-nettuno"
+          ]
+        },
+        {
+          "at": 14,
+          "text": "È in stile dorico: colonne robuste e un frontone triangolare.",
+          "highlight": [
+            "p-colonne"
+          ],
+          "sourceIds": [
+            "w-nettuno"
+          ]
+        },
+        {
+          "at": 21,
+          "text": "Sulla fronte ci sono sei colonne.",
+          "highlight": [
+            "p-colonne"
+          ],
+          "sourceIds": [
+            "w-nettuno"
+          ]
+        },
+        {
+          "at": 26,
+          "text": "Sopra le colonne corre la trabeazione, e poi il frontone triangolare.",
+          "highlight": [
+            "p-frontone"
+          ],
+          "sourceIds": [
+            "w-nettuno"
+          ]
+        },
+        {
+          "at": 32,
+          "text": "Ora lo guardiamo in assonometria, e vediamo anche quanto è lungo.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-colonne",
+          "name": "Colonne doriche",
+          "info": "Sei colonne doriche sulla fronte.",
+          "kind": "object",
+          "anchor": {
+            "entity": "member",
+            "part": "t0"
+          },
+          "sourceIds": [
+            "w-nettuno"
+          ],
+          "visible": [
+            [
+              14,
+              40
+            ]
+          ]
+        },
+        {
+          "id": "p-frontone",
+          "name": "Frontone",
+          "info": "Il triangolo sopra la trabeazione.",
+          "kind": "object",
+          "anchor": {
+            "entity": "building"
+          },
+          "sourceIds": [
+            "w-nettuno"
+          ],
+          "visible": [
+            [
+              26,
+              40
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il tempio ha sei colonne sulla fronte e quattordici sui lati.",
+          "sourceIds": [
+            "w-nettuno"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quante colonne ci sono sulla fronte del tempio?",
+          "options": [
+            "Quattro",
+            "Sei",
+            "Dieci"
+          ],
+          "answer": 1,
+          "explain": "Sei colonne: un tempio con sei colonne sulla fronte si dice esastilo."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca le colonne doriche.",
+          "answerPins": [
+            "p-colonne"
+          ],
+          "explain": "Sono le colonne dell'ordine dorico: sei sulla fronte."
+        }
+      ],
+      "book": {
+        "heading": "Il tempio dorico",
+        "formula": "6 colonne sulla fronte",
+        "lines": [
+          "Paestum, tempio greco.",
+          "Ordine dorico.",
+          "Sopra: trabeazione e frontone."
+        ],
+        "sourceIds": [
+          "w-nettuno"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.25
+          },
+          {
+            "at": 14,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 26,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 32,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "miniato",
+      "title": "Una chiesa romanica",
+      "chip": "Romanico",
+      "kind": "art",
+      "duration": 42,
+      "narration": [
+        {
+          "at": 0,
+          "text": "San Miniato al Monte è una chiesa di Firenze, costruita su una collina.",
+          "highlight": [],
+          "sourceIds": [
+            "w-miniato"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "È in stile romanico: usa archi rotondi.",
+          "highlight": [],
+          "sourceIds": [
+            "w-miniato"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "In basso ci sono cinque archi rotondi, appoggiati a mezze colonne.",
+          "highlight": [
+            "p-archi"
+          ],
+          "sourceIds": [
+            "w-miniato"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "In alto la facciata è più stretta e finisce con un frontone.",
+          "highlight": [
+            "p-alto"
+          ],
+          "sourceIds": [
+            "w-miniato"
+          ]
+        },
+        {
+          "at": 27,
+          "text": "Sulla chiesa vera i marmi bianchi e verdi formano disegni. Noi li lasciamo fuori: disegniamo solo linee.",
+          "highlight": [],
+          "sourceIds": [
+            "w-miniato"
+          ]
+        },
+        {
+          "at": 35,
+          "text": "Per finire, la guardiamo in prospettiva.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-archi",
+          "name": "Archi",
+          "info": "Cinque archi rotondi su mezze colonne.",
+          "kind": "object",
+          "anchor": {
+            "entity": "floor",
+            "part": "r0"
+          },
+          "sourceIds": [
+            "w-miniato"
+          ],
+          "visible": [
+            [
+              13,
+              42
+            ]
+          ]
+        },
+        {
+          "id": "p-alto",
+          "name": "Registro alto",
+          "info": "La parte alta, più stretta, con il frontone.",
+          "kind": "object",
+          "anchor": {
+            "entity": "floor",
+            "part": "r1"
+          },
+          "sourceIds": [
+            "w-miniato"
+          ],
+          "visible": [
+            [
+              20,
+              42
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La chiesa ricorda san Miniato, un martire che secondo la tradizione fu ucciso a Firenze.",
+          "sourceIds": [
+            "w-miniato"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come sono gli archi del romanico?",
+          "options": [
+            "Rotondi",
+            "A punta",
+            "Rettangolari"
+          ],
+          "answer": 0,
+          "explain": "Il romanico usa archi a tutto sesto, cioè rotondi."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca gli archi in basso.",
+          "answerPins": [
+            "p-archi"
+          ],
+          "explain": "Sono cinque archi rotondi appoggiati a mezze colonne."
+        }
+      ],
+      "book": {
+        "heading": "La chiesa romanica",
+        "formula": "archi rotondi",
+        "lines": [
+          "San Miniato al Monte, Firenze.",
+          "In basso: cinque archi rotondi.",
+          "In alto: frontone."
+        ],
+        "sourceIds": [
+          "w-miniato"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.25
+          },
+          {
+            "at": 13,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 20,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 35,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pantheon",
+      "title": "La rotonda e la cupola",
+      "chip": "Pantheon",
+      "kind": "art",
+      "duration": 48,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il Pantheon, a Roma: davanti un pronao con otto colonne, poi la grande rotonda.",
+          "highlight": [],
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "L'edificio che vediamo fu ricostruito al tempo dell'imperatore Adriano.",
+          "highlight": [],
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Ora lo tagliamo lungo l'asse: è la sezione.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 17,
+          "text": "La cupola è una mezza sfera. Il suo diametro è uguale all'altezza interna, così dentro ci starebbe una sfera intera.",
+          "highlight": [
+            "p-cupola"
+          ],
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "I cassettoni sono cinque anelli: più si sale, più diventano piccoli.",
+          "highlight": [
+            "p-cupola"
+          ],
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        },
+        {
+          "at": 30,
+          "text": "In cima l'oculo resta aperto e fa entrare la luce.",
+          "highlight": [
+            "p-oculo"
+          ],
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        },
+        {
+          "at": 36,
+          "text": "Ora lo guardiamo dall'alto, tagliato poco sopra il pavimento.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 42,
+          "text": "Nel muro si aprono nicchie, una rettangolare e una rotonda a turno.",
+          "highlight": [
+            "p-rotonda"
+          ],
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "p-cupola",
+          "name": "Cupola",
+          "info": "Una mezza sfera con i cassettoni.",
+          "kind": "object",
+          "anchor": {
+            "entity": "dome"
+          },
+          "sourceIds": [
+            "w-pantheon"
+          ],
+          "visible": [
+            [
+              17,
+              36
+            ]
+          ]
+        },
+        {
+          "id": "p-oculo",
+          "name": "Oculo",
+          "info": "L'apertura rotonda in cima alla cupola.",
+          "kind": "object",
+          "anchor": {
+            "entity": "oculus"
+          },
+          "sourceIds": [
+            "w-pantheon"
+          ],
+          "visible": [
+            [
+              30,
+              36
+            ]
+          ]
+        },
+        {
+          "id": "p-rotonda",
+          "name": "Rotonda",
+          "info": "Il grande cilindro coperto dalla cupola.",
+          "kind": "object",
+          "anchor": {
+            "entity": "rotunda"
+          },
+          "sourceIds": [
+            "w-pantheon"
+          ],
+          "visible": [
+            [
+              36,
+              48
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Per la sua grandezza la cupola è ancora un record: è di calcestruzzo senza ferro dentro.",
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        },
+        {
+          "text": "La scritta sulla fronte nomina Agrippa, ma l'edificio attuale è più tardo.",
+          "sourceIds": [
+            "w-pantheon"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quante colonne ha la fronte del Pantheon?",
+          "options": [
+            "Sei",
+            "Otto",
+            "Dodici"
+          ],
+          "answer": 1,
+          "explain": "Otto colonne corinzie sulla fronte."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'apertura in cima alla cupola.",
+          "answerPins": [
+            "p-oculo"
+          ],
+          "explain": "L'oculo: è aperto e lascia entrare la luce."
+        }
+      ],
+      "book": {
+        "heading": "Il Pantheon",
+        "formula": "cupola = mezza sfera",
+        "lines": [
+          "Pronao con otto colonne.",
+          "Rotonda coperta da una cupola.",
+          "Cassettoni e oculo aperto."
+        ],
+        "sourceIds": [
+          "w-pantheon"
+        ]
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "page-turn",
+            "volume": 0.25
+          },
+          {
+            "at": 13,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          },
+          {
+            "at": 17,
+            "sound": "pop",
+            "volume": 0.3
+          },
+          {
+            "at": 36,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          }
+        ]
+      }
+    }
+  ]
+}

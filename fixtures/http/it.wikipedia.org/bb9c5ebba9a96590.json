@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=funzione+algebrica+fratta&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T17:59:35.773Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 1862,
+     "ns": 0,
+     "title": "Funzione (matematica)",
+     "index": 4,
+     "extract": "Una funzione in matematica è una relazione tra due insiemi, chiamati dominio e codominio della funzione, che associa a ogni elemento del dominio uno e un solo elemento del codominio. In altre parole, una funzione è una relazione univoca e totale. Se si richiede solo l’univocità, cioè si ammette che alcuni elementi del dominio non abbiano un corrispondente, si parla di funzione parziale.\nSe il dominio e il codominio della funzione f sono rispettivamente indicati con X e Y, la relazione si indica con f:X→Y e l’elemento che f associa a x∈X si indica con f(x) (si pronuncia \"effe di x\").",
+     "pageprops": {
+      "wikibase_item": "Q11348"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:18Z",
+     "lastrevid": 152873999,
+     "length": 24585,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_(matematica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_(matematica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_(matematica)"
+    },
+    {
+     "pageid": 181936,
+     "ns": 0,
+     "title": "Funzione meromorfa",
+     "index": 3,
+     "extract": "In matematica, in particolare in analisi complessa, si definisce funzione meromorfa su un sottoinsieme aperto 𝒟 del piano complesso una funzione che è olomorfa su tutto 𝒟 ad esclusione di un insieme di punti isolati che sono poli della funzione stessa.\nOgni funzione meromorfa su 𝒟 può essere espressa come rapporto di due funzioni olomorfe (con la funzione denominatore diversa dalla costante 0) definite sull'intero 𝒟: i poli della funzione meromorfa si ritrovano allora come zeri del denominatore.\n\nDa un punto di vista algebrico, l'insieme delle funzioni meromorfe sopra un dominio 𝒟 connesso munito delle operazioni di somma e prodotto è il campo delle frazioni del dominio di integrità costituito dall'insieme delle funzioni olomorfe nell'intero 𝒟. In parole povere, le funzioni meromorfe stanno alle olomorfe come le funzioni razionali fratte stanno alla funzioni razionali intere, come ℚ sta a ℤ.",
+     "pageprops": {
+      "wikibase_item": "Q217616"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:37Z",
+     "lastrevid": 142608531,
+     "length": 4183,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_meromorfa",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_meromorfa&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_meromorfa"
+    },
+    {
+     "pageid": 278622,
+     "ns": 0,
+     "title": "Funzione di variabile reale",
+     "index": 2,
+     "extract": "Una funzione di variabile reale è una funzione che prende valori sull'insieme dei numeri reali \n  \n    \n      \n        \n          R\n        \n      \n    \n    {\\displaystyle \\mathbb {R} }\n  \n e restituisce altri numeri reali. Più precisamente, una tale funzione ha come dominio e codominio \n  \n    \n      \n        \n          R\n        \n      \n    \n    {\\displaystyle \\mathbb {R} }\n  \n o un suo sottoinsieme.\nÈ possibile generalizzare il dominio e considerare il prodotto cartesiano di \n  \n    \n      \n        \n          R\n        \n      \n    \n    {\\displaystyle \\mathbb {R} }\n  \n con sé stesso un numero arbitrario di volte. La funzione prenderà uno o più numeri reali e restituirà uno o più numeri reali. Si dice dunque che l'argomento della funzione è una \n  \n    \n      \n        n\n      \n    \n    {\\displaystyle n}\n  \n-upla di numeri reali, o un vettore di \n  \n    \n      \n        \n          \n            R\n          \n          \n            n\n          \n        \n      \n    \n    {\\displaystyle \\mathbb {R} ^{n}}\n  \n.\n\nLe funzioni si dividono in funzioni scalari, se il codominio è un sottoinsieme di \n  \n    \n      \n        \n          R\n        \n      \n    \n    {\\displaystyle \\mathbb {R} }\n  \n, e funzioni vettoriali se il codominio è un sottoinsieme di \n  \n    \n      \n        \n          \n            R\n          \n          \n            n\n          \n        \n      \n    \n    {\\displaystyle \\mathbb {R} ^{n}}\n  \n per un certo \n  \n    \n      \n        n\n        >\n        1\n      \n    \n    {\\displaystyle n>1}\n  \n. In particolare, si dirà campo vettoriale una funzione da (un sottoinsieme di) \n  \n    \n      \n        \n          \n            R\n          \n          \n            n\n          \n        \n      \n    \n    {\\displaystyle \\mathbb {R} ^{n}}\n  \n (con \n  \n    \n      \n        n\n        >\n        1\n      \n    \n    {\\displaystyle n>1}\n  \n) in \n  \n    \n      \n        \n          \n            R\n          \n          \n            n\n          \n        \n      \n    \n    {\\displaystyle \\mathbb {R} ^{n}}\n  \n stesso.\nIn generale le possibilità sono quattro (considerando \n  \n    \n      \n        n\n        ,\n        m\n        >\n        1\n      \n    \n    {\\displaystyle n,m>1}\n  \n):\n\n  \n    \n      \n        f\n        :\n        \n          R\n        \n        →\n        \n          R\n        \n      \n    \n    {\\displaystyle f\\colon \\mathbb {R} \\to \\mathbb {R} }\n  \n: la situazione più classica;\n\n  \n    \n      \n        f\n        :\n        \n          \n            R\n          \n          \n            n\n          \n        \n        →\n        \n          R\n        \n      \n    \n    {\\displaystyle f\\colon \\mathbb {R} ^{n}\\to \\mathbb {R} }\n  \n: una funzione scalare in \n  \n    \n      \n        n\n      \n    \n    {\\displaystyle n}\n  \n variabili;\n\n  \n    \n      \n        f\n        :\n        \n          R\n        \n        →\n        \n          \n            R\n          \n          \n            n\n          \n        \n      \n    \n    {\\displaystyle f\\colon \\mathbb {R} \\to \\mathbb {R} ^{n}}\n  \n: una funzione vettoriale di una variabile (ad esempio quella che dato un numero restituisce parte intera e parte frazionaria);\n\n  \n    \n      \n        f\n        :\n        \n          \n            R\n          \n          \n            n\n          \n        \n        →\n        \n          \n            R\n          \n          \n            m\n          \n        \n      \n    \n    {\\displaystyle f\\colon \\mathbb {R} ^{n}\\to \\mathbb {R} ^{m}}\n  \n: una funzione vettoriale in \n  \n    \n      \n        n\n      \n    \n    {\\displaystyle n}\n  \n variabili.\nLe funzioni (scalari) di una variabile reale si classificano in funzioni algebriche e funzioni trascendenti.",
+     "pageprops": {
+      "wikibase_item": "Q861681"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:57Z",
+     "lastrevid": 144328573,
+     "length": 8950,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_di_variabile_reale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_di_variabile_reale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_di_variabile_reale"
+    },
+    {
+     "pageid": 4031616,
+     "ns": 0,
+     "title": "Scomposizione di Hermite",
+     "index": 1,
+     "extract": "In matematica, la formula di Hermite o scomposizione di Hermite, è un metodo che permette di effettuare la decomposizione in fratti semplici di una funzione razionale. Consente cioè di scomporre una qualsiasi funzione razionale in una somma di funzioni razionali di cui è facile trovare le primitive: allora la primitiva della funzione è la somma di tali primitive.",
+     "pageprops": {
+      "wikibase_item": "Q3952678"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:19:23Z",
+     "lastrevid": 133890880,
+     "length": 3277,
+     "fullurl": "https://it.wikipedia.org/wiki/Scomposizione_di_Hermite",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Scomposizione_di_Hermite&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Scomposizione_di_Hermite"
+    }
+   ]
+  }
+ }
+}

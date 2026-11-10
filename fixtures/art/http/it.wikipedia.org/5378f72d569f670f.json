@@ -1,0 +1,22 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageprops&titles=Guernica+%28Picasso%29&redirects=1",
+ "fetchedAt": "2026-11-04T11:23:59.519Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 2132418,
+     "ns": 0,
+     "title": "Guernica (Picasso)",
+     "pageprops": {
+      "defaultsort": "Guernica",
+      "page_image_free": "Mural_del_Gernika.jpg",
+      "wikibase_item": "Q175036"
+     }
+    }
+   ]
+  }
+ }
+}

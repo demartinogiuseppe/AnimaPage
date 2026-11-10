@@ -1,0 +1,1022 @@
+{
+  "version": "0.1",
+  "title": "Le fasi della Luna",
+  "page": {
+    "subject": "scienze",
+    "topic": "Le fasi lunari",
+    "bookPage": "52",
+    "language": "it"
+  },
+  "kind": "science",
+  "chapters": [
+    {
+      "id": "luce",
+      "title": "Una luce presa in prestito",
+      "chip": "Luce",
+      "kind": "science",
+      "duration": 34,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Guarda il Sole a sinistra: è lui che fa luce.",
+          "highlight": [
+            "sole"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "La Luna non ha luce propria. Riflette la luce del Sole, come uno specchio.",
+          "highlight": [
+            "luna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Metà della Luna è sempre illuminata dal Sole.",
+          "highlight": [
+            "luna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Ora la Luna è tra la Terra e il Sole: è la luna nuova.",
+          "highlight": [
+            "nuova",
+            "finestra"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "La parte illuminata non guarda verso di noi. Per questo non la vediamo.",
+          "highlight": [
+            "finestra"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              2,
+              2.5,
+              1
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 38
+        },
+        {
+          "at": 12,
+          "target": {
+            "entity": "moon"
+          },
+          "distance": 9,
+          "azimuth": 10,
+          "elevation": 20
+        },
+        {
+          "at": 22,
+          "target": {
+            "pos": [
+              2,
+              2.5,
+              1
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 38
+        }
+      ],
+      "pins": [
+        {
+          "id": "sole",
+          "name": "Sole",
+          "info": "Produce la luce che illumina la Luna.",
+          "kind": "object",
+          "anchor": {
+            "entity": "sun",
+            "offset": [
+              0,
+              1.7,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "terra",
+          "name": "Terra",
+          "info": "Da qui guardiamo la Luna.",
+          "kind": "object",
+          "anchor": {
+            "entity": "earth",
+            "offset": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "luna",
+          "name": "Luna",
+          "info": "Non ha luce propria: riflette la luce del Sole.",
+          "kind": "object",
+          "anchor": {
+            "entity": "moon",
+            "offset": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "nuova",
+          "name": "luna nuova",
+          "info": "La Luna è tra la Terra e il Sole: non la vediamo.",
+          "kind": "note",
+          "anchor": {
+            "entity": "orbit",
+            "index": 0,
+            "part": "moon"
+          },
+          "visible": [
+            [
+              18,
+              34
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "finestra",
+          "name": "come la vediamo",
+          "info": "La Luna vista dalla Terra.",
+          "kind": "note",
+          "anchor": {
+            "entity": "phase"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il libro chiama la luna nuova anche novilunio: è il punto di partenza del ciclo delle fasi.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quale fase la Luna non si vede? Perché?",
+          "options": [
+            "Luna piena, perché è troppo lontana",
+            "Primo quarto, perché è dietro la Terra",
+            "Luna nuova, perché il lato illuminato non guarda la Terra"
+          ],
+          "answer": 2,
+          "explain": "Con la luna nuova la Luna è tra la Terra e il Sole: verso di noi c'è il lato buio."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la stella che fa luce alla Luna.",
+          "answerPins": [
+            "sole"
+          ],
+          "explain": "La Luna riflette la luce del Sole."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "space",
+            "volume": 0.25
+          }
+        ],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "whoosh-soft",
+            "volume": 0.4
+          },
+          {
+            "at": 6,
+            "sound": "chime",
+            "volume": 0.4
+          },
+          {
+            "at": 18,
+            "sound": "sparkle",
+            "volume": 0.45
+          }
+        ]
+      },
+      "book": {
+        "heading": "La luce della Luna",
+        "lines": [
+          "La Luna non ha luce propria.",
+          "Riflette la luce del Sole.",
+          "Con la luna nuova non la vediamo."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se la Luna sta proprio tra la Terra e il Sole, come la vediamo?",
+          "options": [
+            "Tutta illuminata",
+            "Non la vediamo",
+            "Solo metà"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda la finestra della fase quando la Luna passa davanti al Sole."
+        },
+        "prove": {
+          "text": "La metà illuminata della Luna guarda il Sole. Con la luna nuova quella metà è girata dall'altra parte, e verso di noi c'è solo il lato buio.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Cacciatore di luci"
+      }
+    },
+    {
+      "id": "crescente",
+      "title": "La Luna cresce",
+      "chip": "Crescente",
+      "kind": "science",
+      "duration": 36,
+      "narration": [
+        {
+          "at": 0,
+          "text": "La Luna gira intorno alla Terra. Ogni giorno cambia posizione.",
+          "highlight": [
+            "luna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Guarda la finestra: la parte luminosa diventa più grande. La Luna è crescente.",
+          "highlight": [
+            "finestra"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Ecco il primo quarto: vediamo illuminata la metà destra.",
+          "highlight": [
+            "primo"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "La Luna continua il suo giro e la luce cresce ancora.",
+          "highlight": [
+            "luna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 25,
+          "text": "Ora la Terra è tra il Sole e la Luna: è la luna piena.",
+          "highlight": [
+            "piena"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 31,
+          "text": "Vediamo tutto il disco illuminato.",
+          "highlight": [
+            "finestra"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              2,
+              2.5,
+              1
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 38
+        },
+        {
+          "at": 12,
+          "target": {
+            "entity": "moon"
+          },
+          "distance": 9,
+          "azimuth": 20,
+          "elevation": 22
+        },
+        {
+          "at": 20,
+          "target": {
+            "pos": [
+              2,
+              2.5,
+              1
+            ]
+          },
+          "distance": 24,
+          "azimuth": 10,
+          "elevation": 38
+        }
+      ],
+      "pins": [
+        {
+          "id": "luna",
+          "name": "Luna",
+          "info": "Gira intorno alla Terra.",
+          "kind": "object",
+          "anchor": {
+            "entity": "moon",
+            "offset": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "primo",
+          "name": "primo quarto",
+          "info": "Vediamo illuminata la metà destra.",
+          "kind": "note",
+          "anchor": {
+            "entity": "orbit",
+            "index": 90,
+            "part": "moon"
+          },
+          "visible": [
+            [
+              12,
+              36
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "piena",
+          "name": "luna piena",
+          "info": "La Terra è tra il Sole e la Luna.",
+          "kind": "note",
+          "anchor": {
+            "entity": "orbit",
+            "index": 180,
+            "part": "moon"
+          },
+          "visible": [
+            [
+              24,
+              36
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "finestra",
+          "name": "come la vediamo",
+          "info": "La Luna vista dalla Terra.",
+          "kind": "note",
+          "anchor": {
+            "entity": "phase"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "sole",
+          "name": "Sole",
+          "info": "Illumina sempre metà della Luna.",
+          "kind": "object",
+          "anchor": {
+            "entity": "sun",
+            "offset": [
+              0,
+              1.7,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La Luna mostra fasi diverse perché dalla Terra vediamo una parte diversa della sua metà illuminata, secondo la sua posizione.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Disegna la Luna al primo quarto: quale metà colori di luce?",
+          "options": [
+            "La sinistra",
+            "La destra",
+            "Tutto il disco"
+          ],
+          "answer": 1,
+          "explain": "Al primo quarto vediamo illuminata la metà destra."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la posizione della luna piena.",
+          "answerPins": [
+            "piena"
+          ],
+          "explain": "Con la luna piena la Terra è tra il Sole e la Luna."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "space",
+            "volume": 0.25
+          }
+        ],
+        "cues": [
+          {
+            "at": 13,
+            "sound": "chime",
+            "volume": 0.4
+          },
+          {
+            "at": 25,
+            "sound": "sparkle",
+            "volume": 0.5
+          }
+        ]
+      },
+      "book": {
+        "heading": "Luna crescente",
+        "lines": [
+          "Primo quarto: luce sulla metà destra.",
+          "Luna piena: tutto il disco illuminato.",
+          "Con la luna piena la Terra sta in mezzo."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Al primo quarto, quale metà della Luna vediamo illuminata?",
+          "options": [
+            "La metà destra",
+            "La metà sinistra",
+            "Nessuna"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Prova tu: muovi la Luna da 0 a 180 e guarda la parte luminosa crescere.",
+          "params": [
+            "luna"
+          ]
+        },
+        "prove": {
+          "text": "Mentre la Luna gira, vediamo sempre di più la sua metà illuminata. Quando la Terra è tra il Sole e la Luna, la vediamo tutta.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Guardiano della luna piena"
+      }
+    },
+    {
+      "id": "calante",
+      "title": "La Luna cala",
+      "chip": "Calante",
+      "kind": "science",
+      "duration": 36,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Dopo la luna piena, la parte luminosa diventa più piccola.",
+          "highlight": [
+            "luna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "La Luna è calante. Guarda la finestra.",
+          "highlight": [
+            "finestra"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Ecco l'ultimo quarto: vediamo illuminata la metà sinistra.",
+          "highlight": [
+            "ultimo"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Un giro della Luna intorno alla Terra dura circa 27 giorni.",
+          "speech": "Un giro della Luna intorno alla Terra dura circa ventisette giorni.",
+          "highlight": [
+            "luna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Da una luna nuova alla successiva passano circa 29 giorni e mezzo.",
+          "speech": "Da una luna nuova alla successiva passano circa ventinove giorni e mezzo.",
+          "highlight": [
+            "nuova"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 31,
+          "text": "Poi il ciclo ricomincia.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              2,
+              2.5,
+              1
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 38
+        },
+        {
+          "at": 11,
+          "target": {
+            "entity": "moon"
+          },
+          "distance": 9,
+          "azimuth": -20,
+          "elevation": 22
+        },
+        {
+          "at": 18,
+          "target": {
+            "pos": [
+              2,
+              2.5,
+              1
+            ]
+          },
+          "distance": 25,
+          "azimuth": 0,
+          "elevation": 40
+        }
+      ],
+      "pins": [
+        {
+          "id": "luna",
+          "name": "Luna",
+          "info": "Continua il suo giro intorno alla Terra.",
+          "kind": "object",
+          "anchor": {
+            "entity": "moon",
+            "offset": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "ultimo",
+          "name": "ultimo quarto",
+          "info": "Vediamo illuminata la metà sinistra.",
+          "kind": "note",
+          "anchor": {
+            "entity": "orbit",
+            "index": 270,
+            "part": "moon"
+          },
+          "visible": [
+            [
+              11,
+              36
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "nuova",
+          "name": "luna nuova",
+          "info": "Qui il ciclo finisce e ricomincia.",
+          "kind": "note",
+          "anchor": {
+            "entity": "orbit",
+            "index": 0,
+            "part": "moon"
+          },
+          "visible": [
+            [
+              24,
+              36
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "finestra",
+          "name": "come la vediamo",
+          "info": "La Luna vista dalla Terra.",
+          "kind": "note",
+          "anchor": {
+            "entity": "phase"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "terra",
+          "name": "Terra",
+          "info": "La Luna le gira intorno.",
+          "kind": "object",
+          "anchor": {
+            "entity": "earth",
+            "offset": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il libro dà due durate: circa 27 giorni per il giro della Luna e circa 29 giorni e mezzo per il ciclo delle fasi. Il ciclo è più lungo perché intanto anche la Terra si sposta intorno al Sole, e la Luna deve fare un pezzetto in più per tornare tra la Terra e il Sole.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quanto dura il ciclo delle fasi, da luna nuova a luna nuova?",
+          "options": [
+            "Circa 29 giorni e mezzo",
+            "Circa 7 giorni",
+            "Circa 365 giorni"
+          ],
+          "answer": 0,
+          "explain": "Il libro dice che il ciclo delle fasi dura circa 29 giorni e mezzo."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la posizione dell'ultimo quarto.",
+          "answerPins": [
+            "ultimo"
+          ],
+          "explain": "All'ultimo quarto vediamo illuminata la metà sinistra: la Luna è calante."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "space",
+            "volume": 0.25
+          }
+        ],
+        "cues": [
+          {
+            "at": 12,
+            "sound": "chime",
+            "volume": 0.4
+          },
+          {
+            "at": 18,
+            "sound": "tick",
+            "volume": 0.35
+          },
+          {
+            "at": 24,
+            "sound": "tick",
+            "volume": 0.35
+          },
+          {
+            "at": 31,
+            "sound": "sparkle",
+            "volume": 0.45
+          }
+        ]
+      },
+      "book": {
+        "heading": "Luna calante",
+        "formula": "ciclo delle fasi ≈ 29 giorni e mezzo",
+        "lines": [
+          "Ultimo quarto: luce sulla metà sinistra.",
+          "Rivoluzione della Luna: circa 27 giorni.",
+          "Poi torna la luna nuova."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Dopo la luna piena, che cosa succede alla parte luminosa?",
+          "options": [
+            "Cresce ancora",
+            "Resta uguale",
+            "Diventa più piccola"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Prova tu: muovi la Luna da 180 a 360 e guarda la luce sparire a poco a poco.",
+          "params": [
+            "luna3"
+          ]
+        },
+        "prove": {
+          "text": "Dopo la luna piena, la metà illuminata si gira sempre più lontano da noi. All'ultimo quarto ne vediamo la metà sinistra, poi torna la luna nuova.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Esperto delle fasi"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Pagina del libro, p. 52: Le fasi lunari"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Dimensioni e distanze non sono in scala: il Sole, la Terra e la Luna sono disegnati vicini e piccoli.",
+    "L'inclinazione dell'orbita della Luna è esagerata per renderla visibile.",
+    "Le posizioni sono calcolate con formule semplificate e il tempo è accelerato.",
+    "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro."
+  ],
+  "music": {
+    "track": "music-mysterious",
+    "volume": 0.5
+  },
+  "style": "color",
+  "engine": "sky",
+  "engineData": {
+    "stars": {
+      "count": 400,
+      "seed": 7
+    },
+    "chapters": [
+      {
+        "chapter": "luce",
+        "view": "earth-moon",
+        "time": [
+          {
+            "at": 0,
+            "date": "2026-07-12T00:00:00Z"
+          },
+          {
+            "at": 14,
+            "date": "2026-07-14T12:00:00Z"
+          },
+          {
+            "at": 34,
+            "date": "2026-07-14T12:00:00Z"
+          }
+        ],
+        "phase": true,
+        "dateLabel": false,
+        "highlight": [
+          {
+            "target": "sun",
+            "window": [
+              0,
+              6
+            ]
+          },
+          {
+            "target": "moon",
+            "window": [
+              6,
+              18
+            ]
+          },
+          {
+            "target": "phase",
+            "window": [
+              18,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "crescente",
+        "view": "earth-moon",
+        "time": [
+          {
+            "at": 0,
+            "date": "2026-07-14T12:00:00Z"
+          },
+          {
+            "at": 12,
+            "date": "2026-07-21T12:00:00Z"
+          },
+          {
+            "at": 18,
+            "date": "2026-07-21T12:00:00Z"
+          },
+          {
+            "at": 28,
+            "date": "2026-07-29T12:00:00Z"
+          },
+          {
+            "at": 36,
+            "date": "2026-07-29T12:00:00Z"
+          }
+        ],
+        "phase": true,
+        "dateLabel": false,
+        "highlight": [
+          {
+            "target": "phase",
+            "window": [
+              6,
+              18
+            ]
+          },
+          {
+            "target": "moon",
+            "window": [
+              24,
+              34
+            ]
+          }
+        ],
+        "params": [
+          {
+            "id": "luna",
+            "kind": "moon",
+            "label": "Posizione della Luna"
+          }
+        ]
+      },
+      {
+        "chapter": "calante",
+        "view": "earth-moon",
+        "time": [
+          {
+            "at": 0,
+            "date": "2026-07-29T12:00:00Z"
+          },
+          {
+            "at": 12,
+            "date": "2026-08-05T12:00:00Z"
+          },
+          {
+            "at": 18,
+            "date": "2026-08-05T12:00:00Z"
+          },
+          {
+            "at": 28,
+            "date": "2026-08-12T12:00:00Z"
+          },
+          {
+            "at": 36,
+            "date": "2026-08-12T12:00:00Z"
+          }
+        ],
+        "phase": true,
+        "dateLabel": false,
+        "highlight": [
+          {
+            "target": "phase",
+            "window": [
+              6,
+              18
+            ]
+          },
+          {
+            "target": "orbit",
+            "window": [
+              18,
+              34
+            ]
+          }
+        ],
+        "params": [
+          {
+            "id": "luna3",
+            "kind": "moon",
+            "label": "Posizione della Luna"
+          }
+        ]
+      }
+    ]
+  },
+  "audience": "child"
+}

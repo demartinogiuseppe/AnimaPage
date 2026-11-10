@@ -1,0 +1,306 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=Bar+Sport+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T16:05:35.401Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 47719247,
+     "ns": 6,
+     "title": "File:British Polo Day - Great Britain 2015.webm",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 50146466,
+       "width": 1280,
+       "height": 720,
+       "duration": 204.568,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/British_Polo_Day_-_Great_Britain_2015.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:British_Polo_Day_-_Great_Britain_2015.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47719247",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "British Polo Day - Great Britain 2015",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Files from external sources with reviewed licenses|FoP-United Kingdom|Uploaded with video2commons|Videos from Vimeo|Videos of British Polo Day",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "<p>British Polo Day Great Britain stirs up a storm, celebrating cross-Atlantic ties with Mexico in a blend of true horsemanship, culinary talent and philanthropy. \nIn celebration of the Dual Year of Mexico and the UK, this year’s British Polo Day Great Britain - presented by Land Rover – had a decidedly Mexican twist, albeit with a British shower or two! Yesterday (Saturday 20th June), VIP and guests including host Urs Schwarzenbach, HH Maharaja Sawai Padmanabh, The Marquess of Blandford, Viscount Melville, The 13th Duke of Argyll, Lady Violet and Alice Manners, Ron Wahid, Nikki Mehta, Sir Jackie Stewart and Stephanie Powers marked the enduring legacy that exists between the two countries while raising almost £150,000 for charity.\nTravelling with Abercrombie &amp; Kent, VIPs and guests marked the lead up to British Polo Day Great Britain with a series of exclusive events. These included a Hotel Matilda Dual Dinner by Martha Ortizin the vertiginous Royal Suite of The InterContinental – a fusion of the two hotels’ culinary creativity, a private Justerini &amp; Brooks wine tasting at the newly-opened South Kensington Club and an official British Polo Day launch party at Tonteria – our very own Mexican corner of Chelsea! Exclusive behind the scenes tours of Harrods and the Brompton Bicycle factory also proved a hit with our Mexican guests.\nOn the day itself, guests arrived at the prestigious Black Bears private estate in chauffeur-driven Range Rovers to a Champagne Taittinger reception and an opening game of Brompton Bicycle Polo, in which the InterContinental London Park Lane Rest of World team clinched a well-deserved 3 – 1 victory. \nAt the Royal Salute ‘Neolithic’ bar designed by British architect Sally Mackareth - handcrafted out of 8,000 year old petrified oak - guests were treated to the time honoured and precious whisky. Meanwhile, the pitch-side ‘Harrods Garden Party’ was bustling with guests making their own ethereal midsummer floral crowns, playing croquet, enjoying ice creams with the resident Harrods Green Man and jumping on board the iconic Rosebery bus. Guests then sat down to an exclusive three-course lunch authored by \nInterContinental London Park Lane Chef, Theo Randall and accompanied by fine wines from Royal Warrant Holders, Justerini &amp; Brooks. Among the culinary masterpieces dreamt-up by Randall was a one-off co-authored chocolate pudding with Paul A Young Fine Chocolates. \nTorquhil Campbell, The 13th Duke of Argyll then drew lunch to a close, with guests standing on their seats for a traditional Quaich experience with Royal Salute 21 Year Old whisky – a fitting way to toast the noble sport of polo and kick-off the eagerly-anticipated Live Auction. As part of an ongoing commitment to philanthropy - which has so far raised an impressive US$1.5 million – auctioneer Lord Harry Dalmeny soon had the gavel sounding, as a fierce half hour of bidding raised over £144,000 for the Born Free Foundation, Head Injury \nThrough Sport (HITS), the Brooke, The Eve Branson Foundation, NSPCC and fittingly - and at the behest of our  visiting Mexican friends - Doña en Vida. \nThe afternoon’s polo soon had VIPs and guests braving the elements to stand pitchside as the Qatar Airways British Exiles took on the Royal Salute Commonwealth team in the opening Hackett Cronan Cup. These two very closely-matched teams - at 13 goals – battled hard. The Royal Salute Commonwealth team’s Tom Hunt and Simon Keyte left the Qatar Airways British Exiles adrift by 3-1 however magic by George Meyrick and Satnam Dhillon in particular changed the course of the match and a subsequent three goals resulted in a 5-5 draw.\nThen, following a quintessential British afternoon tea and the customary treading of the divots, the RJI Capital British Schools team took to the pitch against the Mexico Polo Team – our kind hosts of British Polo Day Mexico - in the Land Rover River Field Plate. Undeterred by the thunderstorm overhead, the Mexico Team drew first blood with Diego Solorozano scoring a penalty from the 40 yard spot. Thereafter the strong trio of Imelda de Alba. JJ de Alba and Luis Perez kept the Mexicans in the lead, emerging triumphant with a 3 – 2 victory. \n</p>\nThe official British Polo Day Great Britain Prizegiving marked the end of a great day’s polo. The crowd gathered to see Urs Schwarzenbach jointly present the Royal Salute Commonwealth and Qatar Airways British Exiles teams with the bespoke British Silverware designed Hackett Cronan Cup.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "British Polo Day",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 47719974,
+     "ns": 6,
+     "title": "File:British Polo Day - Great Britain 2014.webm",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 174212619,
+       "width": 1920,
+       "height": 1080,
+       "duration": 262.851,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/British_Polo_Day_-_Great_Britain_2014.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:British_Polo_Day_-_Great_Britain_2014.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47719974",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "British Polo Day - Great Britain 2014",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "2014 in sports in the United Kingdom|WebM videos|Polo in the United Kingdom|Files from external sources with reviewed licenses|FoP-United Kingdom|Uploaded with video2commons|Videos from Vimeo|Video display resolution 1920 x 1080|Videos of British Polo Day",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "<p>Marking the beginning of the English summer, the second British Polo Day Charity Cup was the home leg of its Global Series. \nOver lunch, professional auctioneer, author and political figure Lord Archer commenced the auction raising money for the benefit of Head Injury Through Sport, The James Wentworth Stanley Memorial Fund, The Eve Branson Foundation, Great Ormond Street Hospital, the Brooke and the British Red Cross (who, as part of their 60-year relationship with Land Rover, provided first aid support on the day from a Land Rover ambulance). With lots including a week for two at Sir Richard Branson’s Necker Island, tickets to the Monaco Grand Prix (watching from none other than Eddie Jordan’s boat) and a stunning pair of early art deco diamond earrings, the live auction (and accompanying iBid silent auction) raised an impressive US$310,504, bringing the British Polo Day philanthropic total to an incredible $1,230,385USD.\nIn the first match of the day – the British Polo Day Charity Cup presented by Land Rover - the Royal Salute British Exiles Atlantic Polo Team put aside their oars and dusted off their mallets for a closely-fought battle with The InterContinental London Park Lane Commonwealth Team, which resulted in a 6 -3 victory to The Commonwealth.\nDuring the second match – the Hackett Trophy – spectators enjoyed an award-winning modern British Afternoon Tea created by Executive Chef Paul Bates and team at InterContinental London Park Lane. Over a delicious array of cakes, tarts and scones, the Oxford Group Holdings British Schools Polo Team and Hackett Team Singapore took to the pitch for an exhilarating match which saw the British Schools Team win 8 -6.\nAs the sun went down on Black Bears, the victorious teams look their place on the podium for the British Polo Day prizegiving.\n</p>\nThe official afterparty then kicked off with an authentic Argentinian asado, alongside a lively-looking Rosebery - an iconic Routemaster bus fashioned into a double-decker bar, sponsored by The Drury Club. VIPs and guests then headed back into London and straight onto the dance floor of ‘London’s Best Boutique Club’, The Drury Club.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "British Polo Day",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 75703774,
+     "ns": 6,
+     "title": "File:2018 Christmas-Eve Winter-Swimming for New Year 2019.webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 50429496,
+       "width": 1280,
+       "height": 720,
+       "duration": 83.84100000000001,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/2018_Christmas-Eve_Winter-Swimming_for_New_Year_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:2018_Christmas-Eve_Winter-Swimming_for_New_Year_2019.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75703774",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "2018 Christmas-Eve Winter-Swimming for New Year 2019",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Winter swimming|Self-published work",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This series, including 2 pictures and a video file, was made for representing my <a href=\"//commons.wikimedia.org/wiki/User:Jason_M._C.,_Han\" title=\"User:Jason M. C., Han\">Jason M. C., Han</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Jason_M._C.,_Han\" title=\"User talk:Jason M. C., Han\"><span class=\"signature-talk\">discussione</span></a>) 07:36, 9 January 2019 (UTC) winter-swimming in 2018-2019 winter for Wikiversity's portal-building usage. For educational purposes, people can freely use, too. I selected a sample on Christmas Eve (December 24th) from many others (unrecorded) and explored to use more visualizing technologies (Video) to store and express this procedure. Because of the limitation of physics (I can't make if myself) and technologies (only my father took a smart-phone), I pleased my mother to record it, besides. But, she forgot to record the first-half stage; and at one interval, her attention was attracted by a naughtily crying seagull (several seconds, Wikipedia introduction: <a class=\"external free\" href=\"https://en.wikipedia.org/wiki/Gull\">https://en.wikipedia.org/wiki/Gull</a>) and distracted for a while... then, searched out my head and got back. Therefore, she has only recorded only 1 minutes and 23 seconds video file. \n<p>But Jason, how could we know how long your 'Christmas-Eve Winter-Swimming' has lasted, though we knew you were an honest boy, but evidence, please? \nDear friends, don't worry. We can make some calculations of the time through indications given by those photos and video:\n(1) My preparing-posture photo was made by my father at 12.15.11 a.m., and just after 26 seconds, a formal &amp; beautiful swimming photo got out at 12.15.37 a.m..  If in a very severe calculation way that preparation time cannot be added into the formal swimming time, there was merely 6-10 seconds before I got into the real swimming situation (I did a fast preparation on the beach based on the fact - in getting to Xinghai Square's bay-outskirt I had been doing the preparation) like the later formal swimming photo which my father took. But, in the end of my mother's video, she didn't record around 6-10 seconds, in which I got out from the water and prepared to cloth myself. Then, two times can be balanced out, and we can use the time 12.15.11 a.m. as the beginning time. \nAfter we got one side of Winter-Swimming, we can come to the other side - its ending time. Oh, the Forms' Converter from MP4 to WebM has only recorded its transforming time - today. Then, refering to file's property-time and my father phone's machine-time, it should be at 12.27.04 a.m., which was the beginning time my mother was recording. 1.23 minutes was its length, which should be added to. And, forgetting its balanced time mentioned before, we can get to 12.28.27 a.m., as the calculated ending time. By subtraction, we can know my Winter-Swimming time on Christmas Eve was approximately 13 minutes and 16 seconds. \n(2) Then, Jason, Why did you title it as 'for New Year'? To be honest, On New Year's Day, I did it in another time. However, very sorry to say, I cannot give any power ful evidence at all... Therefore, I use this series to represent the information of that period. \n</p>\n(3) Finally, honest boy, where did you take your Winter-Swimming? Oh, I did it in a regular place I has been swimming throughout seasons - Xinghai Square's 'Outdoor Bar-bathing' beach (Wikipedia introduction: <a class=\"external free\" href=\"https://en.wikipedia.org/wiki/Xinghai_Square\">https://en.wikipedia.org/wiki/Xinghai_Square</a>). Indeed, as I saw,  there were many other people winter-swimming there and regularly throughout seasons (not only me), which made this sport as a great local winter sport as other famous places around the world. Hopefully, you can join if you give your 'LIKE'.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jason_M._C.,_Han\" title=\"User:Jason M. C., Han\">Jason M. C., Han</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 85133666,
+     "ns": 6,
+     "title": "File:A day in the life of Team Petzl in Spain.webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 77940382,
+       "width": 1280,
+       "height": 720,
+       "duration": 221.89600000000002,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/A_day_in_the_life_of_Team_Petzl_in_Spain.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_day_in_the_life_of_Team_Petzl_in_Spain.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=85133666",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "A day in the life of Team Petzl in Spain",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Chris Sharma|Sasha DiGiulian|Videos of 2013|Uploaded with video2commons|Videos from Vimeo|Rock climbing in Spain|License reviewed by YouTubeReviewBot|Videos of rock climbing|Daila Ojeda|Nina Caprez",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Featuring Dani Andrada, Chris Sharma, Daila Ojeda, Sasha DiGiulian, Nina Caprez....\n<p>A video by Joe Kinder\nA day at the cliff in Catalunya is motivating, inspiring, and always full of energy.  With such great crags and some of the most beautiful ambiance the whole package is completed with good friends all trying hard together.  We push ourselves, but we push ourselves even more when we are with good company, and that's what this day in Santa Linya was like.  It was a day packed with action until the sun set and then it was off to the bar for conversations and stories.  The climbing life is a simple life here and a good one.  Here is a little glimpse.  Enjoy.\n</p>\npetzl.com/team",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://vimeo.com/petzl\">Petzl-sport</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 162440167,
+     "ns": 6,
+     "title": "File:Pull-ups - exercise demonstration video.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 358754,
+       "width": 1280,
+       "height": 720,
+       "duration": 6,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Pull-ups_-_exercise_demonstration_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pull-ups_-_exercise_demonstration_video.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162440167",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Pull-ups - exercise demonstration video",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Pull-ups|Videos without audio|Videos of people demonstrating strength training exercises|Videos uploaded by Prototyperspective",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "How to do the fitness exercise pull-ups",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@FitnessScapeFitness\">FitnessScape</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 191858320,
+     "ns": 6,
+     "title": "File:Jabiru experimental light sport aircraft preflight checks Old Bar.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 15861462,
+       "width": 1080,
+       "height": 1920,
+       "duration": 9.364,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Jabiru_experimental_light_sport_aircraft_preflight_checks_Old_Bar.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jabiru_experimental_light_sport_aircraft_preflight_checks_Old_Bar.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=191858320",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Jabiru experimental light sport aircraft preflight checks Old Bar",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "CC-Zero|Jabiru Aircraft|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Self-published work|Self-published work missing SDC copyright license",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Jabiru experimental light sport aircraft conducting pre-flight control checks with audible engine run-up at Old Bar Airfield, New South Wales, Australia.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:JaredMcKenzie\" title=\"User:JaredMcKenzie\">JaredMcKenzie</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Saccheggio+di+Roma+dei+Visigoti&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-06T09:03:21.242Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 54315,
+     "ns": 0,
+     "title": "Sacco di Roma",
+     "index": 3,
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q730892"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:21Z",
+     "lastrevid": 145348306,
+     "length": 1744,
+     "fullurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sacco_di_Roma&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma"
+    },
+    {
+     "pageid": 84979,
+     "ns": 0,
+     "title": "Sacco di Roma (410)",
+     "index": 1,
+     "extract": "Il sacco di Roma del 410 fu uno degli eventi più traumatici della storia antica. Costituì il terzo ed ultimo assedio (dopo quelli del 408 e 409) condotto dai Visigoti di Alarico I sulla più potente capitale dell'antichità, durato ben tre giorni (dal 24 al 27 agosto), in cui gli invasori depredarono luoghi pubblici e svariate case private, specialmente quelle dei più abbienti.\nGli edifici senz'altro più colpiti furono il palazzo dei Valerii sul Celio e le ville padronali sull'Aventino, che furono incendiate; le terme di Decio furono gravemente danneggiate, e il tempio di Giunone regina fu distrutto. Le statue del Foro furono spogliate, la curia Iulia, sede del Senato, data alle fiamme e la stessa augusta Galla Placidia venne presa in ostaggio da Alarico. Ciononostante, Roma incuteva rispetto agli invasori e nei tre giorni di saccheggio Alarico impartì l'ordine di risparmiare i luoghi di culto cristiani (soprattutto la basilica di San Pietro), che considerò come luoghi di asilo inviolabili dove non poteva essere ucciso nessuno.\nL'evento ebbe un'immediata risonanza in tutto l'Impero, sconvolgendolo moralmente. Avvertito infatti come evento di portata epocale, venne visto da Agostino d'Ippona (nel De civitate Dei) come segno della prossima fine del mondo o della punizione che Dio infliggeva alla capitale del paganesimo mentre dai gentili come una punizione per l'abiura della religione dei patres per la nuova cristiana. Prima dei Visigoti era dal sacco di Brenno, avvenuto 800 anni prima, che Roma era rimasta inespugnata. Il mito dell'inviolabilità di Roma crollò e la città sarà saccheggiata altre volte fino al 1527.",
+     "pageprops": {
+      "wikibase_item": "Q1463845"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:25Z",
+     "lastrevid": 152735940,
+     "length": 136512,
+     "fullurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_(410)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sacco_di_Roma_(410)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sacco_di_Roma_(410)"
+    },
+    {
+     "pageid": 204157,
+     "ns": 0,
+     "title": "Battaglia dei Campi Catalaunici",
+     "index": 4,
+     "extract": "La battaglia dei Campi Catalaunici (o Catalauni, o anche Maurici), detta anche battaglia di Chalons, si svolse il 20 giugno 451 in una pianura della Gallia nei pressi di Duro Catalaunum (l'odierna Châlons-en-Champagne).\nNello scontro, le truppe del generale romano Flavio Ezio, reclutate soprattutto tra i popoli Germani e affiancate dagli alleati Visigoti di Teodorico I, prevalsero sugli Unni di Attila.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q139808"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:40Z",
+     "lastrevid": 145218042,
+     "length": 17344,
+     "fullurl": "https://it.wikipedia.org/wiki/Battaglia_dei_Campi_Catalaunici",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Battaglia_dei_Campi_Catalaunici&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Battaglia_dei_Campi_Catalaunici"
+    },
+    {
+     "pageid": 702159,
+     "ns": 0,
+     "title": "Impero romano",
+     "index": 2,
+     "extract": "L'Impero romano fu lo Stato romano consolidatosi nell'area euro-mediterranea tra il I secolo a.C. e il XV secolo; in questa voce si tratta il periodo che va dalla sua fondazione, generalmente indicata con il 27 a.C. (primo anno del principato di Augusto), al 395, quando, dopo la morte di Teodosio I, l'Impero fu suddiviso dal punto di vista amministrativo ma non politico in una pars occidentalis e in una pars orientalis. L'Impero romano d'Occidente si fa terminare per convenzione nel 476, anno in cui Odoacre depone l'ultimo imperatore, Romolo Augusto, mentre l'Impero romano d'Oriente (indicato talvolta come Impero bizantino nella sua fase medievale) si protrasse fino alla conquista di Costantinopoli da parte degli Ottomani, nel 1453.\nNella sua massima espansione, l'Impero si estendeva, in tutto o in parte, sui territori degli odierni Stati di: Portogallo, Spagna, Andorra, Francia, Monaco, Belgio, Paesi Bassi (regioni meridionali), Regno Unito (Inghilterra, Galles, parte della Scozia), Lussemburgo, Germania (regioni meridionali e occidentali), Svizzera, Austria, Liechtenstein, Slovacchia (piccola parte), Ungheria, Italia, Vaticano, San Marino, Malta, Slovenia, Croazia, Bosnia ed Erzegovina, Serbia, Montenegro, Kosovo, Albania, Macedonia del Nord, Grecia, Bulgaria, Romania, Moldavia, Ucraina (parte costiera sud-occidentale con Isola dei Serpenti e Podolia), Turchia, Russia, Cipro, Siria, Libano, Iraq, Armenia, Georgia, Iran, Azerbaigian, Israele, Giordania, Palestina, Egitto, Sudan (piccola parte e per limitato periodo di tempo), Libia, Tunisia, Algeria, Marocco e Arabia Saudita (piccola parte). In totale, 52 dei 196 Stati riconosciuti nel mondo, più 3 parzialmente riconosciuti, più di ogni altro impero del mondo antico. Si espandeva su tre diversi continenti: Europa, Africa e Asia.\nNel 117 sotto Traiano ricopriva un'area di 5,0 milioni di km2, conteggiando anche gli Stati vassalli e i regni clienti. L'esatta misura della superficie governata da questo potente impero in realtà non è certa, a causa della mancanza di dati precisi, di dispute territoriali e della presenza di stati clienti il cui rapporto nei confronti di Roma non è sempre chiaro.\nPur non essendo il più vasto Stato dell’antichità, spettando tali primati all'impero achemenide, cinese e Xiongnu, quello di Roma è considerato il più grande per gestione e qualità del territorio, organizzazione socio-politica, e per l'importante eredità lasciata nella storia dell'umanità. In tutti i territori sui quali estesero i propri confini i Romani costruirono città, strade, ponti, acquedotti, fortificazioni, esportando ovunque il loro modello di civiltà e al contempo assimilando le popolazioni e civiltà assoggettate, in un processo così profondo che per secoli ancora dopo la fine dell'impero queste genti continuarono a definirsi romane. La civiltà nata sulle rive del Tevere, cresciuta e diffusasi in epoca repubblicana e infine sviluppatasi pienamente in età imperiale, è essenziale componente della civiltà occidentale.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q2277"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-05T23:16:25Z",
+     "lastrevid": 153227964,
+     "length": 119005,
+     "fullurl": "https://it.wikipedia.org/wiki/Impero_romano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Impero_romano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Impero_romano"
+    }
+   ]
+  }
+ }
+}

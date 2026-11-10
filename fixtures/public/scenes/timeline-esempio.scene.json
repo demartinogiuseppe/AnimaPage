@@ -1,0 +1,521 @@
+{
+  "version": "0.1",
+  "engine": "timeline",
+  "title": "Roma antica: monarchia, repubblica, impero",
+  "page": { "subject": "Storia", "topic": "Roma antica: monarchia, repubblica e impero", "language": "it" },
+  "kind": "history",
+  "music": {"track":"music-history","volume":0.6},
+  "chapters": [
+    {
+      "id": "re",
+      "title": "La Roma dei re",
+      "chip": "Re",
+      "book": {"heading":"La Roma dei re","formula":"753 a.C.","lines":["Fondazione di Roma secondo la tradizione: 21 aprile.","Romolo, primo re, è una figura leggendaria.","Ultimo re: Tarquinio il Superbo, cacciato nel 509 a.C."],"sourceIds":["w-fondazione","w-romolo","w-tarquinio"]},
+      "activity": {"predict":{"q":"Chi ha fissato la data della fondazione di Roma?","options":["Romolo in persona","Il letterato Varrone, molto più tardi","Gli archeologi di oggi"],"answer":1},"test":{"prompt":"Guarda la tacca della fondazione sulla linea del tempo."},"prove":{"text":"La data del 21 aprile 753 a.C. fu fissata molto più tardi dal letterato latino Varrone, sulla base di calcoli.","sourceIds":["w-fondazione"]},"stamp":"Cronista dei re"},
+      "kind": "mixed",
+      "dates": "753–509 a.C.",
+      "duration": 40,
+      "sounds": {"ambience":[],"cues":[{"at":4.5,"sound":"whoosh-soft","volume":0.6},{"at":4.7,"sound":"chime","volume":0.45},{"at":24,"sound":"pop","volume":0.4},{"at":31.5,"sound":"whoosh-soft","volume":0.6}]},
+      "narration": [
+        { "at": 0, "text": "Questa è la linea del tempo di Roma antica: ogni tacca segna un secolo.", "highlight": [], "sourceIds": [] },
+        {
+          "at": 4,
+          "text": "Secondo la tradizione, Roma fu fondata il 21 aprile del 753 a.C.",
+          "speech": "Secondo la tradizione, Roma fu fondata il ventuno aprile del settecentocinquantatré avanti Cristo.",
+          "highlight": ["fondazione"],
+          "sourceIds": ["w-fondazione"]
+        },
+        {
+          "at": 11,
+          "text": "Quella data fu fissata molto più tardi dal letterato latino Varrone, sulla base di calcoli.",
+          "highlight": ["fondazione"],
+          "sourceIds": ["w-fondazione"]
+        },
+        {
+          "at": 17,
+          "text": "Il fondatore sarebbe Romolo, primo re: è una figura leggendaria e la sua storicità è discussa dagli studiosi.",
+          "highlight": [],
+          "sourceIds": ["w-romolo"]
+        },
+        {
+          "at": 24,
+          "text": "Comincia l'età regia: secondo la tradizione, Roma fu governata da sette re.",
+          "highlight": ["eta-regia"],
+          "sourceIds": ["w-eta-regia"]
+        },
+        {
+          "at": 31,
+          "text": "L'ultimo re fu Tarquinio il Superbo: regnò dal 535 al 509 a.C., quando fu cacciato da Roma.",
+          "speech": "L'ultimo re fu Tarquinio il Superbo: regnò dal cinquecentotrentacinque al cinquecentonove avanti Cristo, quando fu cacciato da Roma.",
+          "highlight": ["tarquinio"],
+          "sourceIds": ["w-tarquinio"]
+        }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "year", "part": "-150" }, "distance": 38, "azimuth": 0, "elevation": 40 },
+        { "at": 4, "target": { "entity": "event", "part": "fondazione" }, "distance": 8, "azimuth": -20, "elevation": 26 },
+        { "at": 17, "target": { "entity": "event", "part": "fondazione" }, "distance": 7, "azimuth": 18, "elevation": 22 },
+        { "at": 24, "target": { "entity": "period", "part": "regia" }, "distance": 15, "azimuth": 0, "elevation": 38 },
+        { "at": 31, "target": { "entity": "event", "part": "tarquinio" }, "distance": 8, "azimuth": -15, "elevation": 26 }
+      ],
+      "pins": [
+        {
+          "id": "fondazione",
+          "name": "Fondazione di Roma",
+          "sub": "753 a.C.",
+          "info": "Secondo la tradizione Roma fu fondata il 21 aprile 753 a.C. La data fu calcolata dal letterato latino Varrone; altre leggende indicano date diverse.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "fondazione" },
+          "visible": [[4.5, 40]],
+          "sourceIds": ["w-fondazione"]
+        },
+        {
+          "id": "eta-regia",
+          "name": "Età regia",
+          "sub": "753–509 a.C.",
+          "info": "Il periodo tra la fondazione di Roma e la nascita della Repubblica, in cui secondo la tradizione regnarono sette re.",
+          "kind": "area",
+          "anchor": { "entity": "period", "part": "regia", "offset": [0, 0.3, 0] },
+          "visible": [[24, 40]],
+          "sourceIds": ["w-eta-regia"]
+        },
+        {
+          "id": "tarquinio",
+          "name": "Tarquinio il Superbo",
+          "sub": "535–509 a.C.",
+          "info": "Settimo e ultimo re di Roma, della dinastia etrusca dei Tarquini. Nel 509 a.C. fu messo al bando da Roma.",
+          "kind": "person",
+          "anchor": { "entity": "event", "part": "tarquinio" },
+          "visible": [[31.5, 40]],
+          "sourceIds": ["w-tarquinio"]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Varrone fissò la data della fondazione sulla base dei calcoli dell'astrologo Lucio Taruzio. Leggende basate su altri calcoli indicano anni diversi.",
+          "sourceIds": ["w-fondazione"]
+        },
+        {
+          "text": "Nel mito Romolo è gemello di Remo e figlio del dio Marte e di Rea Silvia: è un racconto tramandato, non storia documentata.",
+          "sourceIds": ["w-romolo"]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Chi fu, secondo la tradizione, l'ultimo re di Roma?",
+          "options": ["Romolo", "Tarquinio il Superbo", "Augusto", "Traiano"],
+          "answer": 1,
+          "explain": "Tarquinio il Superbo fu il settimo e ultimo re: fu cacciato da Roma e nacque la Repubblica."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'evento che la tradizione indica come la fondazione di Roma.",
+          "answerPins": ["fondazione"],
+          "explain": "È la fondazione di Roma: una data calcolata da Varrone, non documentata da fonti dell'epoca."
+        }
+      ]
+    },
+    {
+      "id": "repubblica",
+      "title": "La Repubblica",
+      "chip": "Repubblica",
+      "book": {"heading":"La Repubblica","formula":"dal 509 a.C.","lines":["Roma è governata da un'oligarchia repubblicana.","Le Leggi delle XII tavole mettono per iscritto il diritto.","Tre guerre puniche contro Cartagine."],"sourceIds":["w-repubblica","w-xii-tavole","w-prima-punica","w-terza-punica"]},
+      "activity": {"predict":{"q":"Contro quale città Roma combatté le guerre puniche?","options":["Atene","Cartagine","Troia"],"answer":1},"test":{"prompt":"Segui le guerre puniche sulla linea del tempo."},"prove":{"text":"Le guerre puniche furono combattute tra Roma e Cartagine: la prima dal 264 al 241 a.C., soprattutto in Sicilia; la terza, l'ultima, dal 149 al 146 a.C.","sourceIds":["w-prima-punica","w-terza-punica"]},"stamp":"Console della Repubblica"},
+      "kind": "history",
+      "dates": "509–27 a.C.",
+      "duration": 50,
+      "sounds": {"ambience":[{"sound":"sea","volume":0.3,"window":[25.5,33]}],"cues":[{"at":1,"sound":"whoosh-soft","volume":0.6},{"at":1.2,"sound":"chime","volume":0.45},{"at":13.5,"sound":"whoosh-soft","volume":0.6},{"at":25.5,"sound":"whoosh-soft","volume":0.6},{"at":33.5,"sound":"whoosh-soft","volume":0.6},{"at":40.5,"sound":"whoosh-soft","volume":0.6}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Cacciato l'ultimo re, nel 509 a.C. nasce la Repubblica romana.",
+          "speech": "Cacciato l'ultimo re, nel cinquecentonove avanti Cristo nasce la Repubblica romana.",
+          "highlight": ["repubblica"],
+          "sourceIds": ["w-repubblica"]
+        },
+        {
+          "at": 7,
+          "text": "Roma non è più governata da un re, ma da un'oligarchia repubblicana.",
+          "highlight": ["periodo-repubblica"],
+          "sourceIds": ["w-repubblica"]
+        },
+        {
+          "at": 13,
+          "text": "Nel 451-450 a.C. i decemviri scrivono le Leggi delle XII tavole.",
+          "speech": "Nel quattrocentocinquantuno e quattrocentocinquanta avanti Cristo i decemviri scrivono le Leggi delle dodici tavole.",
+          "highlight": ["xii-tavole"],
+          "sourceIds": ["w-xii-tavole"]
+        },
+        {
+          "at": 20,
+          "text": "Sono una delle prime raccolte scritte del diritto romano.",
+          "highlight": ["xii-tavole"],
+          "sourceIds": ["w-xii-tavole"]
+        },
+        {
+          "at": 25,
+          "text": "Dal 264 al 241 a.C. Roma combatte contro Cartagine la prima guerra punica, soprattutto in Sicilia.",
+          "speech": "Dal duecentosessantaquattro al duecentoquarantuno avanti Cristo Roma combatte contro Cartagine la prima guerra punica, soprattutto in Sicilia.",
+          "highlight": ["prima-punica"],
+          "sourceIds": ["w-prima-punica"]
+        },
+        {
+          "at": 33,
+          "text": "La terza guerra punica, dal 149 al 146 a.C., è l'ultima delle tre guerre tra Roma e Cartagine.",
+          "speech": "La terza guerra punica, dal centoquarantanove al centoquarantasei avanti Cristo, è l'ultima delle tre guerre tra Roma e Cartagine.",
+          "highlight": ["terza-punica"],
+          "sourceIds": ["w-terza-punica"]
+        },
+        {
+          "at": 40,
+          "text": "Il 15 marzo del 44 a.C. Giulio Cesare viene ucciso da un gruppo di senatori, che temevano volesse farsi re.",
+          "speech": "Il quindici marzo del quarantaquattro avanti Cristo Giulio Cesare viene ucciso da un gruppo di senatori, che temevano volesse farsi re.",
+          "highlight": ["cesaricidio"],
+          "sourceIds": ["w-cesaricidio"]
+        }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "event", "part": "repubblica" }, "distance": 8, "azimuth": -15, "elevation": 26 },
+        { "at": 7, "target": { "entity": "period", "part": "repubblica" }, "distance": 20, "azimuth": 0, "elevation": 38 },
+        { "at": 13, "target": { "entity": "event", "part": "xii-tavole" }, "distance": 8, "azimuth": 15, "elevation": 26 },
+        { "at": 25, "target": { "entity": "event", "part": "prima-punica" }, "distance": 8, "azimuth": -15, "elevation": 26 },
+        { "at": 33, "target": { "entity": "event", "part": "terza-punica" }, "distance": 8, "azimuth": 15, "elevation": 26 },
+        { "at": 40, "target": { "entity": "event", "part": "cesaricidio" }, "distance": 8, "azimuth": -10, "elevation": 24 },
+        { "at": 46, "target": { "entity": "period", "part": "repubblica" }, "distance": 22, "azimuth": 0, "elevation": 38 }
+      ],
+      "pins": [
+        {
+          "id": "repubblica",
+          "name": "Nasce la Repubblica",
+          "sub": "509 a.C.",
+          "info": "Dopo la cacciata di Tarquinio il Superbo, Roma diventa una repubblica governata da un'oligarchia.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "repubblica" },
+          "visible": [[1, 50]],
+          "sourceIds": ["w-repubblica", "w-tarquinio"]
+        },
+        {
+          "id": "periodo-repubblica",
+          "name": "Repubblica romana",
+          "sub": "509–27 a.C.",
+          "info": "Il sistema di governo di Roma tra il 509 e il 27 a.C. La sua fine si fa coincidere con la fine delle guerre civili e la nascita del Principato.",
+          "kind": "area",
+          "anchor": { "entity": "period", "part": "repubblica", "offset": [0, 0.3, 0] },
+          "visible": [[1, 50]],
+          "sourceIds": ["w-repubblica"]
+        },
+        {
+          "id": "xii-tavole",
+          "name": "Leggi delle XII tavole",
+          "sub": "451–450 a.C.",
+          "info": "Corpo di leggi scritto dai decemviri, con regole di diritto privato, pubblico e sacro. Il testo ci è giunto incompleto.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "xii-tavole" },
+          "visible": [[13.5, 50]],
+          "sourceIds": ["w-xii-tavole"]
+        },
+        {
+          "id": "prima-punica",
+          "name": "Prima guerra punica",
+          "sub": "264–241 a.C.",
+          "info": "Guerra tra Roma e Cartagine per il controllo del Mediterraneo occidentale, combattuta soprattutto in Sicilia. Vinse Roma.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "prima-punica" },
+          "visible": [[25.5, 50]],
+          "sourceIds": ["w-prima-punica"]
+        },
+        {
+          "id": "terza-punica",
+          "name": "Terza guerra punica",
+          "sub": "149–146 a.C.",
+          "info": "L'ultima delle tre guerre tra Roma e Cartagine.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "terza-punica" },
+          "visible": [[33.5, 50]],
+          "sourceIds": ["w-terza-punica"]
+        },
+        {
+          "id": "cesaricidio",
+          "name": "Morte di Cesare",
+          "sub": "15 marzo 44 a.C.",
+          "info": "Giulio Cesare viene ucciso da un gruppo di senatori contrari a ogni forma di potere personale.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "cesaricidio" },
+          "visible": [[40.5, 50]],
+          "sourceIds": ["w-cesaricidio"]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il nome «guerre puniche» viene da Punici, come i Romani chiamavano i Cartaginesi per le loro origini fenicie.",
+          "sourceIds": ["w-prima-punica"]
+        },
+        {
+          "text": "La prima guerra punica fu una guerra di logoramento durata oltre 20 anni: alla fine Roma impose a Cartagine pesanti sanzioni economiche.",
+          "sourceIds": ["w-prima-punica"]
+        },
+        {
+          "text": "Tra i congiurati che uccisero Cesare c'erano anche alcuni suoi sostenitori, spinti soprattutto da motivi personali.",
+          "sourceIds": ["w-cesaricidio"]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Contro quale città Roma combatté le guerre puniche?",
+          "options": ["Atene", "Cartagine", "Troia", "Sparta"],
+          "answer": 1,
+          "explain": "Le guerre puniche furono combattute tra Roma e Cartagine: «Punici» era il nome latino dei Cartaginesi."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la guerra combattuta soprattutto in Sicilia.",
+          "answerPins": ["prima-punica"],
+          "explain": "È la prima guerra punica: Roma e Cartagine si scontrarono soprattutto in Sicilia."
+        }
+      ]
+    },
+    {
+      "id": "impero",
+      "title": "L'Impero",
+      "chip": "Impero",
+      "book": {"heading":"L'Impero","formula":"27 a.C. – 476 d.C.","lines":["Augusto è il primo imperatore.","Con Traiano l'Impero raggiunge la massima espansione.","Nel 395 l'Impero si divide in Occidente e Oriente."],"sourceIds":["w-augusto","w-traiano","w-impero","w-caduta"]},
+      "activity": {"predict":{"q":"Fino a quando durò l'Impero romano d'Oriente?","options":["Fino al 476 d.C.","Fino al 1453","Esiste ancora"],"answer":1},"test":{"prompt":"Guarda la linea del tempo dopo il 476: che cosa continua?"},"prove":{"text":"Nel 476 d.C., per convenzione, finisce l'Impero d'Occidente; l'Impero d'Oriente invece dura fino al 1453.","sourceIds":["w-caduta","w-impero"]},"stamp":"Storico dell'Impero"},
+      "kind": "history",
+      "dates": "27 a.C. – 476 d.C.",
+      "duration": 46,
+      "sounds": {"ambience":[],"cues":[{"at":1,"sound":"whoosh-soft","volume":0.6},{"at":1.2,"sound":"chime","volume":0.45},{"at":15.5,"sound":"whoosh-soft","volume":0.6},{"at":24.5,"sound":"whoosh-soft","volume":0.6},{"at":32.5,"sound":"whoosh-soft","volume":0.6},{"at":32.7,"sound":"chime","volume":0.45}]},
+      "narration": [
+        {
+          "at": 0,
+          "text": "Nel 27 a.C. comincia il governo di Augusto, fondatore e primo imperatore dell'Impero romano.",
+          "speech": "Nel ventisette avanti Cristo comincia il governo di Augusto, fondatore e primo imperatore dell'Impero romano.",
+          "highlight": ["augusto"],
+          "sourceIds": ["w-augusto", "w-impero"]
+        },
+        {
+          "at": 8,
+          "text": "Il suo potere, che oggi chiamiamo «principato», era di fatto quello di un monarca.",
+          "highlight": ["augusto"],
+          "sourceIds": ["w-augusto"]
+        },
+        {
+          "at": 15,
+          "text": "Sotto Traiano, imperatore dal 98 al 117 d.C., l'Impero raggiunge la sua massima espansione.",
+          "speech": "Sotto Traiano, imperatore dal novantotto al centodiciassette dopo Cristo, l'Impero raggiunge la sua massima espansione.",
+          "highlight": ["traiano"],
+          "sourceIds": ["w-traiano"]
+        },
+        {
+          "at": 24,
+          "text": "Nel 395, dopo la morte di Teodosio I, l'Impero viene diviso in una parte d'Occidente e una d'Oriente.",
+          "speech": "Nel trecentonovantacinque, dopo la morte di Teodosio primo, l'Impero viene diviso in una parte d'Occidente e una d'Oriente.",
+          "highlight": ["divisione"],
+          "sourceIds": ["w-impero"]
+        },
+        {
+          "at": 32,
+          "text": "Nel 476 d.C. Odoacre depone l'ultimo imperatore d'Occidente, Romolo Augusto: per convenzione, è la fine dell'Impero romano d'Occidente.",
+          "speech": "Nel quattrocentosettantasei dopo Cristo Odoacre depone l'ultimo imperatore d'Occidente, Romolo Augusto: per convenzione, è la fine dell'Impero romano d'Occidente.",
+          "highlight": ["caduta"],
+          "sourceIds": ["w-caduta", "w-odoacre"]
+        },
+        {
+          "at": 40,
+          "text": "L'Impero d'Oriente invece durerà fino al 1453.",
+          "speech": "L'Impero d'Oriente invece durerà fino al millequattrocentocinquantatré.",
+          "highlight": [],
+          "sourceIds": ["w-impero"]
+        }
+      ],
+      "camera": [
+        { "at": 0, "target": { "entity": "event", "part": "augusto" }, "distance": 8, "azimuth": 15, "elevation": 26 },
+        { "at": 15, "target": { "entity": "event", "part": "traiano" }, "distance": 8, "azimuth": -15, "elevation": 26 },
+        { "at": 24, "target": { "entity": "event", "part": "divisione" }, "distance": 8, "azimuth": 15, "elevation": 26 },
+        { "at": 32, "target": { "entity": "event", "part": "caduta" }, "distance": 8, "azimuth": -15, "elevation": 26 },
+        { "at": 40, "target": { "entity": "year", "part": "-150" }, "distance": 38, "azimuth": 0, "elevation": 40 }
+      ],
+      "pins": [
+        {
+          "id": "augusto",
+          "name": "Augusto",
+          "sub": "27 a.C. – 14 d.C.",
+          "info": "Nato Gaio Ottavio, fu il fondatore dell'Impero romano e il suo primo imperatore. Governò per circa quarant'anni.",
+          "kind": "person",
+          "anchor": { "entity": "event", "part": "augusto" },
+          "visible": [[1, 46]],
+          "sourceIds": ["w-augusto"]
+        },
+        {
+          "id": "periodo-impero",
+          "name": "Impero romano",
+          "sub": "27 a.C. – 476 d.C.",
+          "info": "Dalla fondazione, indicata generalmente nel 27 a.C., alla fine convenzionale dell'Impero d'Occidente nel 476.",
+          "kind": "area",
+          "anchor": { "entity": "period", "part": "impero", "offset": [0, 0.3, 0] },
+          "visible": [[1, 46]],
+          "sourceIds": ["w-impero"]
+        },
+        {
+          "id": "traiano",
+          "name": "Traiano",
+          "sub": "98–117 d.C.",
+          "info": "Imperatore romano: sotto di lui l'Impero raggiunse la sua massima espansione territoriale.",
+          "kind": "person",
+          "anchor": { "entity": "event", "part": "traiano" },
+          "visible": [[15.5, 46]],
+          "sourceIds": ["w-traiano"]
+        },
+        {
+          "id": "divisione",
+          "name": "Divisione dell'Impero",
+          "sub": "395",
+          "info": "Dopo la morte di Teodosio I l'Impero fu diviso in una parte occidentale e una orientale, sul piano amministrativo.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "divisione" },
+          "visible": [[24.5, 46]],
+          "sourceIds": ["w-impero"]
+        },
+        {
+          "id": "caduta",
+          "name": "Fine dell'Impero d'Occidente",
+          "sub": "476 d.C.",
+          "info": "Odoacre depone l'ultimo imperatore romano d'Occidente, Romolo Augusto. È il risultato di un lungo declino.",
+          "kind": "event",
+          "anchor": { "entity": "event", "part": "caduta" },
+          "visible": [[32.5, 46]],
+          "sourceIds": ["w-caduta", "w-odoacre"]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Augusto presentò il suo potere non come una monarchia ma come una restaurazione della Repubblica (restitutio rei publicae).",
+          "sourceIds": ["w-augusto"]
+        },
+        {
+          "text": "Odoacre era un generale germanico, re degli Eruli. La sua origine esatta è incerta.",
+          "sourceIds": ["w-odoacre"]
+        },
+        {
+          "text": "L'Impero d'Oriente finì con la conquista di Costantinopoli da parte degli Ottomani.",
+          "sourceIds": ["w-impero"]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Sotto quale imperatore l'Impero romano raggiunse la sua massima espansione?",
+          "options": ["Augusto", "Traiano", "Romolo Augusto", "Teodosio I"],
+          "answer": 1,
+          "explain": "Fu Traiano: sotto il suo regno l'Impero raggiunse la massima espansione territoriale."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'evento che segna, per convenzione, la fine dell'Impero romano d'Occidente.",
+          "answerPins": ["caduta"],
+          "explain": "È la deposizione di Romolo Augusto da parte di Odoacre: gli storici la usano come data di fine dell'Impero d'Occidente."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "id": "w-eta-regia", "kind": "wikipedia", "title": "Età regia di Roma", "url": "https://it.wikipedia.org/wiki/Et%C3%A0_regia_di_Roma", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q201038", "license": "CC BY-SA 4.0" },
+    { "id": "w-fondazione", "kind": "wikipedia", "title": "Fondazione di Roma", "url": "https://it.wikipedia.org/wiki/Fondazione_di_Roma", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q1247524", "license": "CC BY-SA 4.0" },
+    { "id": "w-romolo", "kind": "wikipedia", "title": "Romolo", "url": "https://it.wikipedia.org/wiki/Romolo", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q2186", "license": "CC BY-SA 4.0" },
+    { "id": "w-tarquinio", "kind": "wikipedia", "title": "Tarquinio il Superbo", "url": "https://it.wikipedia.org/wiki/Tarquinio_il_Superbo", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q193047", "license": "CC BY-SA 4.0" },
+    { "id": "w-repubblica", "kind": "wikipedia", "title": "Repubblica romana", "url": "https://it.wikipedia.org/wiki/Repubblica_romana", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q17167", "license": "CC BY-SA 4.0" },
+    { "id": "w-xii-tavole", "kind": "wikipedia", "title": "Leggi delle XII tavole", "url": "https://it.wikipedia.org/wiki/Leggi_delle_XII_tavole", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q203686", "license": "CC BY-SA 4.0" },
+    { "id": "w-prima-punica", "kind": "wikipedia", "title": "Prima guerra punica", "url": "https://it.wikipedia.org/wiki/Prima_guerra_punica", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q6286", "license": "CC BY-SA 4.0" },
+    { "id": "w-terza-punica", "kind": "wikipedia", "title": "Terza guerra punica", "url": "https://it.wikipedia.org/wiki/Terza_guerra_punica", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q6334", "license": "CC BY-SA 4.0" },
+    { "id": "w-cesaricidio", "kind": "wikipedia", "title": "Cesaricidio", "url": "https://it.wikipedia.org/wiki/Cesaricidio", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q1025466", "license": "CC BY-SA 4.0" },
+    { "id": "w-augusto", "kind": "wikipedia", "title": "Augusto", "url": "https://it.wikipedia.org/wiki/Augusto", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q1405", "license": "CC BY-SA 4.0" },
+    { "id": "w-impero", "kind": "wikipedia", "title": "Impero romano", "url": "https://it.wikipedia.org/wiki/Impero_romano", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q2277", "license": "CC BY-SA 4.0" },
+    { "id": "w-traiano", "kind": "wikipedia", "title": "Traiano", "url": "https://it.wikipedia.org/wiki/Traiano", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q1425", "license": "CC BY-SA 4.0" },
+    { "id": "w-caduta", "kind": "wikipedia", "title": "Caduta dell'Impero romano d'Occidente", "url": "https://it.wikipedia.org/wiki/Caduta_dell%27Impero_romano_d%27Occidente", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q608613", "license": "CC BY-SA 4.0" },
+    { "id": "w-odoacre", "kind": "wikipedia", "title": "Odoacre", "url": "https://it.wikipedia.org/wiki/Odoacre", "publisher": "Wikipedia, l'enciclopedia libera", "accessed": "2026-11-03", "wikidataId": "Q103333", "license": "CC BY-SA 4.0" }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Le date dell'età dei re sono quelle tramandate dalla tradizione antica: Romolo è una figura leggendaria.",
+    "La linea del tempo è in scala: ogni tacca segna un secolo.",
+    "Simboli e colori sono illustrativi, non ricostruzioni archeologiche."
+  ],
+  "engineData": {
+    "axis": { "from": -800, "to": 500, "tick": 100, "labels": "era" },
+    "periods": [
+      { "id": "regia", "name": "Età regia", "from": -753, "to": -509, "color": "#c08a4a", "sourceIds": ["w-eta-regia"] },
+      { "id": "repubblica", "name": "Repubblica", "from": -509, "to": -27, "color": "#4f7f6a", "sourceIds": ["w-repubblica"] },
+      { "id": "impero", "name": "Impero", "from": -27, "to": 476, "color": "#a0522d", "sourceIds": ["w-impero", "w-caduta"] }
+    ],
+    "events": [
+      { "id": "fondazione", "year": -753, "title": "Fondazione di Roma (secondo la tradizione)", "symbol": "tower", "emphasis": "major", "sourceIds": ["w-fondazione"] },
+      { "id": "tarquinio", "year": -535, "to": -509, "title": "Regno di Tarquinio il Superbo", "symbol": "crown", "sourceIds": ["w-tarquinio"] },
+      { "id": "repubblica", "year": -509, "title": "Nasce la Repubblica", "symbol": "temple", "emphasis": "major", "sourceIds": ["w-repubblica"] },
+      { "id": "xii-tavole", "year": -451, "to": -450, "title": "Leggi delle XII tavole", "symbol": "scroll", "sourceIds": ["w-xii-tavole"] },
+      { "id": "prima-punica", "year": -264, "to": -241, "title": "Prima guerra punica", "symbol": "ship", "sourceIds": ["w-prima-punica"] },
+      { "id": "terza-punica", "year": -149, "to": -146, "title": "Terza guerra punica", "symbol": "shield", "sourceIds": ["w-terza-punica"] },
+      { "id": "cesaricidio", "year": -44, "title": "Morte di Cesare", "symbol": "sword", "sourceIds": ["w-cesaricidio"] },
+      { "id": "augusto", "year": -27, "title": "Augusto primo imperatore", "symbol": "crown", "color": "#d1a640", "emphasis": "major", "sourceIds": ["w-augusto", "w-impero"] },
+      { "id": "traiano", "year": 98, "to": 117, "title": "Traiano: massima espansione", "symbol": "column", "sourceIds": ["w-traiano"] },
+      { "id": "divisione", "year": 395, "title": "Divisione dell'Impero", "symbol": "shield", "color": "#7a2e22", "sourceIds": ["w-impero"] },
+      { "id": "caduta", "year": 476, "title": "Fine dell'Impero d'Occidente", "symbol": "crown", "color": "#7b7468", "emphasis": "major", "sourceIds": ["w-caduta", "w-odoacre"] }
+    ],
+    "chapters": [
+      {
+        "chapter": "re",
+        "events": [
+          { "id": "fondazione", "at": 4.5, "glow": [[4.5, 23]] },
+          { "id": "tarquinio", "at": 31.5, "glow": [[31.5, 40]] }
+        ],
+        "periods": [{ "id": "regia", "at": 24 }],
+        "cursor": [
+          { "at": 4, "year": -753 },
+          { "at": 30, "year": -753 },
+          { "at": 32, "year": -522 }
+        ]
+      },
+      {
+        "chapter": "repubblica",
+        "events": [
+          { "id": "repubblica", "at": 1, "glow": [[1, 13]] },
+          { "id": "xii-tavole", "at": 13.5, "glow": [[13.5, 25]] },
+          { "id": "prima-punica", "at": 25.5, "glow": [[25.5, 33]] },
+          { "id": "terza-punica", "at": 33.5, "glow": [[33.5, 40]] },
+          { "id": "cesaricidio", "at": 40.5, "glow": [[40.5, 50]] }
+        ],
+        "periods": [{ "id": "repubblica", "at": 1 }],
+        "cursor": [
+          { "at": 0, "year": -509 },
+          { "at": 12, "year": -509 },
+          { "at": 14, "year": -451 },
+          { "at": 24, "year": -451 },
+          { "at": 26, "year": -264 },
+          { "at": 32, "year": -264 },
+          { "at": 34, "year": -149 },
+          { "at": 39, "year": -149 },
+          { "at": 41, "year": -44 }
+        ]
+      },
+      {
+        "chapter": "impero",
+        "events": [
+          { "id": "augusto", "at": 1, "glow": [[1, 15]] },
+          { "id": "traiano", "at": 15.5, "glow": [[15.5, 24]] },
+          { "id": "divisione", "at": 24.5, "glow": [[24.5, 32]] },
+          { "id": "caduta", "at": 32.5, "glow": [[32.5, 46]] }
+        ],
+        "periods": [{ "id": "impero", "at": 1 }],
+        "cursor": [
+          { "at": 0, "year": -27 },
+          { "at": 14, "year": -27 },
+          { "at": 16, "year": 107 },
+          { "at": 23, "year": 107 },
+          { "at": 25, "year": 395 },
+          { "at": 31, "year": 395 },
+          { "at": 33, "year": 476 }
+        ]
+      }
+    ]
+  }
+}

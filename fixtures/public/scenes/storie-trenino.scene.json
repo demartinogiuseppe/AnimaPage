@@ -1,0 +1,803 @@
+{
+  "version": "0.1",
+  "engine": "storybook",
+  "title": "Il trenino e la lettera T",
+  "page": {
+    "subject": "Italiano",
+    "topic": "La lettera T",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "audience": "child",
+  "chapters": [
+    {
+      "id": "parte",
+      "title": "Il trenino parte",
+      "chip": "Parte",
+      "kind": "mixed",
+      "duration": 19,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il trenino rosso dorme alla stazione.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.5,
+          "text": "Ciuf ciuf, buongiorno a tutti!",
+          "speaker": "treno",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6.5,
+          "text": "Muu, io sono la mucca. Vado piano piano.",
+          "speaker": "mucca",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 10.5,
+          "text": "Din don! Il trenino parte sui binari.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 14.5,
+          "text": "Tocca il trenino e la mucca!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "trenino",
+          "name": "Il trenino",
+          "info": "Il trenino rosso va sui binari.",
+          "kind": "object",
+          "anchor": {
+            "entity": "treno"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "mucca",
+          "name": "La mucca",
+          "info": "La mucca guarda il trenino.",
+          "kind": "object",
+          "anchor": {
+            "entity": "mucca"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "cielo",
+      "title": "Guarda il cielo!",
+      "chip": "Cielo",
+      "kind": "mixed",
+      "duration": 15,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Guarda in alto, nel cielo azzurro!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.5,
+          "text": "Il sole brilla e fa scintille.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Che bello, vedo tanti uccellini!",
+          "speaker": "treno",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 10,
+          "text": "La nuvola soffia, e il pappagallo vola!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "sole",
+          "name": "Il sole",
+          "info": "Il sole brilla nel cielo.",
+          "kind": "object",
+          "anchor": {
+            "entity": "sole"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "nuvola",
+          "name": "La nuvola",
+          "info": "La nuvola soffia un po' di vento.",
+          "kind": "object",
+          "anchor": {
+            "entity": "nuvola"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "grande",
+      "title": "Chi è più grande?",
+      "chip": "Grande",
+      "kind": "mixed",
+      "duration": 21,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Chi è più grande? Guardiamo insieme!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.5,
+          "text": "Muu, io sono grande e lenta.",
+          "speaker": "mucca",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Io sono più piccolo, ma sono veloce! Boing!",
+          "speaker": "treno",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 11.5,
+          "text": "La tazza è piccola piccola. Tadà!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 15,
+          "text": "Mettili in fila, dal più grande al più piccolo!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "mucca",
+          "name": "La mucca",
+          "info": "La mucca è la più grande.",
+          "kind": "object",
+          "anchor": {
+            "entity": "mucca"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "trenino",
+          "name": "Il trenino",
+          "info": "Il trenino è più piccolo della mucca.",
+          "kind": "object",
+          "anchor": {
+            "entity": "treno"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "tazza",
+          "name": "La tazza",
+          "info": "La tazza è la più piccola.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tazza"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "caccia-t",
+      "title": "La caccia alla T",
+      "chip": "Caccia T",
+      "kind": "mixed",
+      "duration": 14.5,
+      "narration": [
+        {
+          "at": 0,
+          "text": "T come treno!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 2.5,
+          "text": "T come tazza.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "Muu, io non inizio con la T!",
+          "speaker": "mucca",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 9,
+          "text": "Tocca le cose che iniziano con la T!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "treno",
+          "name": "Il treno",
+          "info": "Treno comincia con la T.",
+          "kind": "object",
+          "anchor": {
+            "entity": "treno"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "tazza",
+          "name": "La tazza",
+          "info": "Tazza comincia con la T.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tazza"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "colora",
+      "title": "Colora il trenino",
+      "chip": "Colora",
+      "kind": "mixed",
+      "duration": 12,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco il trenino!",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 2.5,
+          "text": "Ciuf ciuf, voglio un vestito nuovo!",
+          "speaker": "treno",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Din don! Scegli un colore e colora il trenino.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [],
+      "pins": [
+        {
+          "id": "trenino",
+          "name": "Il trenino",
+          "info": "Il trenino aspetta il suo colore.",
+          "kind": "object",
+          "anchor": {
+            "entity": "treno"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [],
+      "quiz": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Pagina del libro sulla lettera T (storia originale)"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Storia originale per bambini, ispirata al tema della pagina."
+  ],
+  "voices": [
+    {
+      "id": "treno",
+      "name": "Il trenino",
+      "prefer": "any",
+      "pitch": 1.3,
+      "rate": 1.1
+    },
+    {
+      "id": "mucca",
+      "name": "La mucca",
+      "prefer": "any",
+      "pitch": 0.7,
+      "rate": 0.8
+    }
+  ],
+  "engineData": {
+    "letter": "T",
+    "characters": [
+      {
+        "id": "treno",
+        "model": "train",
+        "at": [
+          -5,
+          0.5
+        ],
+        "scale": 0.75
+      },
+      {
+        "id": "mucca",
+        "model": "cow",
+        "at": [
+          4,
+          -2.5
+        ]
+      },
+      {
+        "id": "tazza",
+        "model": "mug",
+        "at": [
+          4,
+          1.5
+        ],
+        "scale": 2.4
+      },
+      {
+        "id": "palla",
+        "model": "ball",
+        "at": [
+          -1,
+          -3
+        ]
+      },
+      {
+        "id": "sole",
+        "model": "sun",
+        "at": [
+          -4,
+          -3
+        ],
+        "scale": 0.6
+      },
+      {
+        "id": "nuvola",
+        "model": "cloud",
+        "at": [
+          3,
+          -2
+        ],
+        "scale": 0.7
+      },
+      {
+        "id": "pappagallo",
+        "model": "parrot",
+        "at": [
+          0,
+          1
+        ],
+        "scale": 1.2
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "parte",
+        "place": "rails",
+        "acts": [
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -5,
+              0.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "mucca",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              5,
+              -3
+            ]
+          },
+          {
+            "do": "sound",
+            "group": "train-whistle",
+            "sentence": 0,
+            "word": 1
+          },
+          {
+            "do": "sound",
+            "group": "train-chug",
+            "sentence": 1,
+            "word": 0
+          },
+          {
+            "do": "sound",
+            "group": "cow-moo",
+            "sentence": 2,
+            "word": 0
+          },
+          {
+            "do": "sound",
+            "group": "train-bell",
+            "sentence": 3,
+            "word": 0
+          },
+          {
+            "do": "sound",
+            "group": "train-chug",
+            "sentence": 3,
+            "word": 6
+          },
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 11,
+            "dur": 3,
+            "to": [
+              -0.5,
+              0.5
+            ],
+            "gait": "roll"
+          }
+        ],
+        "play": {
+          "kind": "touch",
+          "prompt": "Tocca il trenino e la mucca!",
+          "stamp": "Amico del trenino"
+        }
+      },
+      {
+        "chapter": "cielo",
+        "place": "sky",
+        "ambience": [
+          "birds"
+        ],
+        "acts": [
+          {
+            "do": "move",
+            "who": "sole",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              -3
+            ]
+          },
+          {
+            "do": "move",
+            "who": "nuvola",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              3,
+              -2
+            ]
+          },
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              3
+            ]
+          },
+          {
+            "do": "appear",
+            "who": "pappagallo",
+            "at": 9.5,
+            "sound": "pop"
+          },
+          {
+            "do": "sound",
+            "group": "sparkle",
+            "sentence": 1,
+            "word": 2
+          },
+          {
+            "do": "sound",
+            "group": "slide-whistle",
+            "sentence": 3,
+            "word": 6
+          },
+          {
+            "do": "move",
+            "who": "pappagallo",
+            "at": 10.5,
+            "dur": 3,
+            "to": [
+              4,
+              2
+            ],
+            "gait": "glide"
+          }
+        ]
+      },
+      {
+        "chapter": "grande",
+        "place": "meadow",
+        "acts": [
+          {
+            "do": "move",
+            "who": "mucca",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              1
+            ]
+          },
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              0,
+              1.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "tazza",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              4,
+              1.5
+            ]
+          },
+          {
+            "do": "sound",
+            "group": "cow-moo",
+            "sentence": 1,
+            "word": 0
+          },
+          {
+            "do": "sound",
+            "group": "boing",
+            "sentence": 2,
+            "word": 7
+          },
+          {
+            "do": "sound",
+            "group": "cup-clink",
+            "sentence": 3,
+            "word": 1
+          },
+          {
+            "do": "sound",
+            "group": "ta-da",
+            "sentence": 3,
+            "word": 5
+          },
+          {
+            "do": "react",
+            "who": "treno",
+            "at": 9,
+            "how": "jump"
+          }
+        ],
+        "play": {
+          "kind": "order",
+          "prompt": "Metti in fila dal più grande al più piccolo.",
+          "order": [
+            "mucca",
+            "treno",
+            "tazza"
+          ],
+          "stamp": "Maestro delle misure"
+        }
+      },
+      {
+        "chapter": "caccia-t",
+        "place": "rails",
+        "acts": [
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -4,
+              0.5
+            ]
+          },
+          {
+            "do": "move",
+            "who": "tazza",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              0,
+              2
+            ]
+          },
+          {
+            "do": "move",
+            "who": "mucca",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              4,
+              -2
+            ]
+          },
+          {
+            "do": "move",
+            "who": "palla",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              -1,
+              -3
+            ]
+          },
+          {
+            "do": "sound",
+            "group": "train-whistle",
+            "sentence": 0,
+            "word": 2
+          },
+          {
+            "do": "sound",
+            "group": "cup-clink",
+            "sentence": 1,
+            "word": 2
+          },
+          {
+            "do": "sound",
+            "group": "cow-moo",
+            "sentence": 2,
+            "word": 0
+          }
+        ],
+        "play": {
+          "kind": "letter",
+          "prompt": "Tocca le cose che iniziano con la T.",
+          "targets": [
+            "treno",
+            "tazza"
+          ],
+          "stamp": "Cercatore di T"
+        }
+      },
+      {
+        "chapter": "colora",
+        "place": "rails",
+        "acts": [
+          {
+            "do": "move",
+            "who": "treno",
+            "at": 0,
+            "dur": 1,
+            "to": [
+              0,
+              1
+            ]
+          },
+          {
+            "do": "sound",
+            "group": "pop",
+            "sentence": 0,
+            "word": 0
+          },
+          {
+            "do": "sound",
+            "group": "train-chug",
+            "sentence": 1,
+            "word": 0
+          },
+          {
+            "do": "sound",
+            "group": "train-bell",
+            "sentence": 2,
+            "word": 0
+          }
+        ],
+        "play": {
+          "kind": "color",
+          "prompt": "Scegli un colore e colora il trenino.",
+          "who": "treno",
+          "stamp": "Pittore di treni"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=imperfetto&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:00:44.158Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 725168,
+     "ns": 0,
+     "title": "Indicativo imperfetto",
+     "index": 2,
+     "extract": "L'imperfetto dell'indicativo è la forma verbale delle lingue romanze che si adatta principalmente ad indicare situazioni ed abitudini considerate in un momento passato. È quindi la forma più adatta, all'interno del passato, per le descrizioni o per l'enunciazione di eventi ripetuti.",
+     "pageprops": {
+      "wikibase_item": "Q12547192"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:32Z",
+     "lastrevid": 151805220,
+     "length": 25095,
+     "fullurl": "https://it.wikipedia.org/wiki/Indicativo_imperfetto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Indicativo_imperfetto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Indicativo_imperfetto"
+    },
+    {
+     "pageid": 725190,
+     "ns": 0,
+     "title": "Imperfetto",
+     "index": 1,
+     "extract": "Imperfetto – forma verbale dell'indicativo della lingua italiana\nImperfetto – forma verbale del congiuntivo della lingua italiana\nImperfetto – forma verbale del greco antico\nImperfetto – album di Povia del 2021",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3796811"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:32Z",
+     "lastrevid": 135633714,
+     "length": 375,
+     "fullurl": "https://it.wikipedia.org/wiki/Imperfetto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Imperfetto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Imperfetto"
+    },
+    {
+     "pageid": 730589,
+     "ns": 0,
+     "title": "Congiuntivo imperfetto",
+     "index": 3,
+     "extract": "Il congiuntivo imperfetto è la forma verbale della lingua italiana usata in genere nella proposizione subordinata laddove la principale al passato esprime insicurezza:\n\nSperavo che tu fossi sincero.\nDato il suo valore di irrealtà, il congiuntivo imperfetto gioca un ruolo di primo piano nella formazione del periodo ipotetico:\n\nSe tu fossi sincero, lo sarei anch'io.",
+     "pageprops": {
+      "wikibase_item": "Q3502541"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 150592958,
+     "length": 19812,
+     "fullurl": "https://it.wikipedia.org/wiki/Congiuntivo_imperfetto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Congiuntivo_imperfetto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Congiuntivo_imperfetto"
+    },
+    {
+     "pageid": 10816253,
+     "ns": 0,
+     "title": "Perfetto imperfetto",
+     "index": 4,
+     "extract": "Perfetto imperfetto è il tredicesimo album in studio del cantautore italiano Marco Masini,  pubblicato il 6 marzo 2026 per BMG Rights Management.\nL'edizione fisica del disco contiene due tracce bonus, tra cui il brano Male necessario con cui il cantautore ha partecipato in coppia col rapper Fedez in gara al 76º Festival di Sanremo.",
+     "pageprops": {
+      "wikibase_item": "Q138605257"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T10:44:53Z",
+     "lastrevid": 152719000,
+     "length": 4361,
+     "fullurl": "https://it.wikipedia.org/wiki/Perfetto_imperfetto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Perfetto_imperfetto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Perfetto_imperfetto"
+    }
+   ]
+  }
+ }
+}

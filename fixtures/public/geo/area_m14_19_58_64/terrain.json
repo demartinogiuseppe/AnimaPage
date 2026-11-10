@@ -1,0 +1,18 @@
+{
+  "format": "int16le",
+  "data": "terrain.bin",
+  "width": 384,
+  "height": 321,
+  "bbox": {
+    "lonMin": -14,
+    "lonMax": 58,
+    "latMin": 19,
+    "latMax": 64
+  },
+  "unit": "m",
+  "layout": "row-major, row 0 = latMax (north), column 0 = lonMin (west); node (i,j) at lon = lonMin + i/(width-1)*(lonMax-lonMin), lat = latMax - j/(height-1)*(latMax-latMin)",
+  "min": -5455,
+  "max": 4042,
+  "source": "Terrarium tiles z5, bilinear",
+  "attribution": "Terrain Tiles (AWS Open Data, Tilezen/Mapzen). Europe terrain data produced using Copernicus data and information funded by the European Union - EU-DEM layers; SRTM and GMTED2010 courtesy of the U.S. Geological Survey; ETOPO1 U.S. National Oceanic and Atmospheric Administration."
+}

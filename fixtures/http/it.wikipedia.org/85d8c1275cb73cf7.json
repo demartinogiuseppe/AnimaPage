@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=passato+remoto&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T03:06:40.200Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 727941,
+     "ns": 0,
+     "title": "Passato remoto",
+     "index": 1,
+     "extract": "Il passato remoto (o meno comunemente perfetto semplice) è una forma verbale del modo indicativo.\nNormalmente il passato remoto viene usato per indicare avvenimenti dall'aspetto verbale puntuale anziché duraturo (il che lo distingue dall'imperfetto) e considerati come compiuti in un passato considerato psicologicamente come lontano, povero di rapporti espliciti con il presente (inteso come il momento dell'enunciazione), il che lo distingue dal passato prossimo.",
+     "pageprops": {
+      "wikibase_item": "Q442485"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 151208201,
+     "length": 38243,
+     "fullurl": "https://it.wikipedia.org/wiki/Passato_remoto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Passato_remoto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Passato_remoto"
+    },
+    {
+     "pageid": 730230,
+     "ns": 0,
+     "title": "Passato prossimo",
+     "index": 3,
+     "extract": "Il passato prossimo (più raramente perfetto composto) è una forma verbale che indica eventi, esperienze e fatti conclusi, considerati secondo l'aspetto perfettivo (es.: Ieri sono andato alla stazione).\nQuesto significa che mentre l'imperfetto indica una situazione, uno stato o comunque un evento durante il suo svolgimento nel passato, il passato prossimo visualizza l'azione come un evento compiuto.",
+     "pageprops": {
+      "wikibase_item": "Q1240211"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 152982125,
+     "length": 17318,
+     "fullurl": "https://it.wikipedia.org/wiki/Passato_prossimo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Passato_prossimo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Passato_prossimo"
+    },
+    {
+     "pageid": 730399,
+     "ns": 0,
+     "title": "Trapassato remoto",
+     "index": 2,
+     "extract": "Il trapassato remoto è una forma verbale che indica fatti che si sono svolti immediatamente prima di un momento indicato dal passato remoto.\nEsempio: nell'enunciato \n\nDopo che Luisa ebbe sceso le scale, uscì dalla palazzina,\nl'azione indicata dal verbo scendere (coniugata al trapassato remoto) è anteriore a quella di uscire (passato remoto). \nSe alcuni secoli fa compariva anche nella proposizione principale, oggi si usa solo nella secondaria; nello specifico, solo nella temporale. Nel complesso, questa forma verbale ha un certo ruolo, seppur modesto, soprattutto nella lingua scritta di stile particolarmente elevato (es.: testo letterario). È ancora meno diffuso nelle varietà settentrionali italiane.",
+     "pageprops": {
+      "wikibase_item": "Q1101896"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:15Z",
+     "lastrevid": 150610742,
+     "length": 12463,
+     "fullurl": "https://it.wikipedia.org/wiki/Trapassato_remoto",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Trapassato_remoto&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Trapassato_remoto"
+    },
+    {
+     "pageid": 2738741,
+     "ns": 0,
+     "title": "Verbi irregolari italiani",
+     "index": 4,
+     "extract": "Nella lingua italiana sono presenti diversi verbi irregolari (quasi tutti concentrati nella seconda coniugazione), ossia verbi che mostrano un'irregolarità sotto i seguenti punti di vista:\n\na livello desinenziale per la presenza di terminazioni diverse da quelle dello schema dei verbi regolari (ad esempio io sono salito, verbo regolare, ma io sono venuto, non venito, verbo quindi irregolare);\na livello tematico o con cambio di radice (esempio: voi andate, ma essi vanno; si parla in questo caso di suppletivismo);\ncon modificazioni non prevedibili per aggiustamenti tra tema e desinenza (sapere, sapiente).",
+     "pageprops": {
+      "wikibase_item": "Q4009866"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:11Z",
+     "lastrevid": 151420192,
+     "length": 133523,
+     "fullurl": "https://it.wikipedia.org/wiki/Verbi_irregolari_italiani",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Verbi_irregolari_italiani&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Verbi_irregolari_italiani"
+    }
+   ]
+  }
+ }
+}

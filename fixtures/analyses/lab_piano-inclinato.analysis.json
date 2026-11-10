@@ -1,0 +1,125 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "literary": {
+      "isLiterary": false
+    },
+    "exercises": [
+      "Un carrello pesa 200 N e deve salire a 1 m di altezza su una rampa lunga 5 m. Quale forza serve (senza attrito)?",
+      "Fai un esempio di piano inclinato nella vita di tutti i giorni."
+    ],
+    "illustrations": [
+      {
+        "kind": "diagram",
+        "description": "Una cassa su una rampa con le frecce della forza F lungo il piano e del peso P verso il basso; indicate altezza h e lunghezza l.",
+        "labels": [
+          "F",
+          "P",
+          "h",
+          "l"
+        ]
+      }
+    ],
+    "language": "it",
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        118
+      ]
+    },
+    "subject": "fisica",
+    "topic": "Il piano inclinato",
+    "gradeLevel": "scuola secondaria di primo grado",
+    "contentType": "explanation",
+    "summary": "La pagina presenta il piano inclinato come macchina semplice: per sollevare un peso fino a una certa altezza serve una forza minore se lo si spinge lungo una rampa più lunga. Più il piano è inclinato, più forza serve. L'attrito rende necessaria una forza un po' maggiore.",
+    "concepts": [
+      "macchina semplice",
+      "piano inclinato",
+      "forza e peso",
+      "inclinazione",
+      "attrito",
+      "lavoro"
+    ],
+    "entities": [
+      {
+        "name": "piano inclinato",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "forza",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "peso",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "attrito",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "altezza",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "lunghezza del piano",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "esempio rampa",
+        "type": "quantity",
+        "value": "peso 100 N, altezza 1 m, lunghezza 4 m, forza 25 N",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "Il piano inclinato è una macchina semplice: una superficie piana inclinata rispetto all'orizzontale.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "Per sollevare un corpo lungo un piano inclinato serve una forza minore del suo peso.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Senza attrito, la forza necessaria sta al peso come l'altezza sta alla lunghezza del piano: F : P = h : l.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Esempio: per un peso di 100 N, un'altezza di 1 m e un piano lungo 4 m, servono 25 N.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Più il piano è inclinato, più forza serve per spingere il corpo.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Si risparmia forza, ma si percorre una strada più lunga.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "L'attrito tra il corpo e il piano fa aumentare la forza necessaria.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "suggestedEngine": "lab",
+    "engineReason": "È un esperimento di fisica: inclinazione, forza e attrito si capiscono cambiando i valori e guardando la cassa salire."
+  }
+}

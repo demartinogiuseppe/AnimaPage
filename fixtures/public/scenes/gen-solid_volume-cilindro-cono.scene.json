@@ -1,0 +1,988 @@
+{
+  "version": "0.1",
+  "title": "Il volume del cilindro e del cono",
+  "page": {
+    "subject": "matematica",
+    "topic": "Il volume del cilindro e del cono",
+    "bookPage": "212",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "chapters": [
+    {
+      "id": "cilindro",
+      "title": "Il volume del cilindro",
+      "chip": "Cilindro",
+      "kind": "mixed",
+      "duration": 32,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco un rettangolo che gira attorno a un asse.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 6,
+          "text": "Girando, il rettangolo genera un cilindro con raggio 3 cm e altezza 10 cm.",
+          "speech": "Girando, il rettangolo genera un cilindro con raggio tre centimetri e altezza dieci centimetri.",
+          "highlight": [
+            "p-cil",
+            "p-r"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "La base è un cerchio: la sua area è π per r al quadrato.",
+          "speech": "La base è un cerchio: la sua area è pi greco per erre al quadrato.",
+          "highlight": [
+            "p-base"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "Il volume è l'area di base per l'altezza: V = π · r² · h.",
+          "speech": "Il volume è l'area di base per l'altezza: vu uguale pi greco per erre al quadrato per acca.",
+          "highlight": [
+            "p-h"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 25,
+          "text": "Con π ≈ 3,14 si ottiene 282,6 cm³.",
+          "speech": "Con pi greco circa tre virgola quattordici si ottiene duecentottantadue virgola sei centimetri cubi.",
+          "highlight": [
+            "p-board"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              2,
+              0
+            ]
+          },
+          "distance": 10,
+          "azimuth": 20,
+          "elevation": 20
+        },
+        {
+          "at": 12,
+          "target": {
+            "pos": [
+              0,
+              2.5,
+              0
+            ]
+          },
+          "distance": 11,
+          "azimuth": 15,
+          "elevation": 22
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-cil",
+          "name": "Cilindro",
+          "info": "Solido generato dalla rotazione di un rettangolo.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cil",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-r",
+          "name": "Raggio r",
+          "info": "Il raggio del cerchio di base: 3 cm.",
+          "kind": "data",
+          "anchor": {
+            "entity": "dim",
+            "part": "cil.r"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-h",
+          "name": "Altezza h",
+          "info": "La distanza tra le due basi: 10 cm.",
+          "kind": "data",
+          "anchor": {
+            "entity": "dim",
+            "part": "cil.h"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-base",
+          "name": "Base",
+          "info": "Un cerchio di area π · r².",
+          "kind": "data",
+          "anchor": {
+            "entity": "face",
+            "index": 0,
+            "part": "cil"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-board",
+          "name": "Volume",
+          "info": "3,14 · 9 · 10 = 282,6 cm³.",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cil"
+          },
+          "visible": [
+            [
+              14,
+              32
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il libro usa π ≈ 3,14: è un valore arrotondato, quindi 282,6 cm³ è un valore approssimato del volume vero.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come si calcola il volume del cilindro?",
+          "options": [
+            "Area di base per altezza",
+            "Raggio per altezza",
+            "Area di base per altezza diviso 3"
+          ],
+          "answer": 0,
+          "explain": "Il volume del cilindro è area di base per altezza: V = π · r² · h."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'altezza del cilindro.",
+          "answerPins": [
+            "p-h"
+          ],
+          "explain": "L'altezza è la distanza tra le due basi."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 3,
+            "sound": "whoosh-soft",
+            "volume": 0.5
+          },
+          {
+            "at": 14,
+            "sound": "chime",
+            "volume": 0.5
+          },
+          {
+            "at": 25,
+            "sound": "sparkle",
+            "volume": 0.6
+          }
+        ]
+      },
+      "book": {
+        "heading": "Volume del cilindro",
+        "formula": "V = π · r² · h",
+        "lines": [
+          "Area di base: π · r².",
+          "Volume = area di base · altezza.",
+          "r = 3 cm, h = 10 cm: 282,6 cm³."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se raddoppi l'altezza del cilindro, il volume…",
+          "options": [
+            "resta uguale",
+            "quadruplica",
+            "raddoppia"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Prova tu: muovi l'altezza h e guarda il volume sulla lavagna.",
+          "params": [
+            "cil-h"
+          ]
+        },
+        "prove": {
+          "text": "Nella formula V = π · r² · h l'altezza compare una sola volta: se h raddoppia, raddoppia anche V.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Re dei cilindri"
+      }
+    },
+    {
+      "id": "cono",
+      "title": "Tre coni per un cilindro",
+      "chip": "Cono",
+      "kind": "mixed",
+      "duration": 37,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora accanto al cilindro c'è un cono con la stessa base e la stessa altezza.",
+          "highlight": [
+            "p-cono"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8,
+          "text": "Riempiamo il cono d'acqua e versiamolo nel cilindro: ecco il primo.",
+          "highlight": [
+            "p-liq"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 15,
+          "text": "Secondo cono: il livello sale ancora, ma il cilindro non è pieno.",
+          "highlight": [
+            "p-liq"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 22,
+          "text": "Terzo cono: ora il cilindro è pieno fino all'orlo.",
+          "highlight": [
+            "p-cil2"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 29,
+          "text": "Il volume del cono è un terzo del cilindro: 94,2 cm³.",
+          "speech": "Il volume del cono è un terzo del cilindro: novantaquattro virgola due centimetri cubi.",
+          "highlight": [
+            "p-vcono"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              2,
+              0
+            ]
+          },
+          "distance": 13,
+          "azimuth": 15,
+          "elevation": 20
+        },
+        {
+          "at": 8,
+          "target": {
+            "pos": [
+              -1.5,
+              3.5,
+              0
+            ]
+          },
+          "distance": 12,
+          "azimuth": 15,
+          "elevation": 20
+        },
+        {
+          "at": 28,
+          "target": {
+            "pos": [
+              0,
+              2.5,
+              0
+            ]
+          },
+          "distance": 13,
+          "azimuth": 18,
+          "elevation": 22
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-cono",
+          "name": "Cono",
+          "info": "Stessa base e stessa altezza del cilindro.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cono2",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-cil2",
+          "name": "Cilindro",
+          "info": "Si riempie con tre coni pieni.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cil2",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-liq",
+          "name": "Acqua",
+          "info": "Il livello sale di un terzo a ogni cono versato.",
+          "kind": "data",
+          "anchor": {
+            "entity": "liquid",
+            "part": "cil2"
+          },
+          "visible": [
+            [
+              8,
+              37
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-vcono",
+          "name": "Volume del cono",
+          "info": "282,6 : 3 = 94,2 cm³.",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cono2"
+          },
+          "visible": [
+            [
+              29,
+              37
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La regola vale solo se cono e cilindro hanno la stessa base e la stessa altezza: V cono = (π · r² · h) : 3.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quanti coni pieni servono per riempire il cilindro con stessa base e altezza?",
+          "options": [
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "explain": "Il volume del cono è un terzo di quello del cilindro: ne servono tre."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 8,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 15,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 22,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 29,
+            "sound": "sparkle",
+            "volume": 0.6
+          }
+        ]
+      },
+      "book": {
+        "heading": "Volume del cono",
+        "formula": "V = (π · r² · h) : 3",
+        "lines": [
+          "Stessa base, stessa altezza del cilindro.",
+          "Tre coni riempiono il cilindro.",
+          "282,6 : 3 = 94,2 cm³."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Quanti coni pieni d'acqua servono per riempire il cilindro?",
+          "options": [
+            "2, il cono è metà",
+            "3",
+            "dipende dal raggio"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda il livello dopo ogni cono, poi muovi il raggio: servono sempre tre coni?",
+          "params": [
+            "cono-r"
+          ]
+        },
+        "prove": {
+          "text": "Il volume del cono è un terzo del volume del cilindro con la stessa base e la stessa altezza, per ogni raggio: quindi servono sempre tre coni.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Travasatore esperto"
+      }
+    },
+    {
+      "id": "esercizi",
+      "title": "Esercizi",
+      "chip": "Esercizi",
+      "kind": "mixed",
+      "duration": 30,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Esercizio: un cilindro ha raggio 2 cm e altezza 5 cm.",
+          "speech": "Esercizio: un cilindro ha raggio due centimetri e altezza cinque centimetri.",
+          "highlight": [
+            "p-cil3"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Calcoliamo: 3,14 per 4 per 5 fa 62,8 cm³.",
+          "speech": "Calcoliamo: tre virgola quattordici per quattro per cinque fa sessantadue virgola otto centimetri cubi.",
+          "highlight": [
+            "p-v3"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Il cono con lo stesso raggio e la stessa altezza vale un terzo.",
+          "highlight": [
+            "p-cono3"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "Quindi 62,8 diviso 3: circa 20,9 cm³.",
+          "speech": "Quindi sessantadue virgola otto diviso tre: circa venti virgola nove centimetri cubi.",
+          "highlight": [
+            "p-v4"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              1.5,
+              0
+            ]
+          },
+          "distance": 12,
+          "azimuth": 15,
+          "elevation": 20
+        },
+        {
+          "at": 13,
+          "target": {
+            "pos": [
+              0,
+              2,
+              0
+            ]
+          },
+          "distance": 13,
+          "azimuth": 22,
+          "elevation": 22
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-cil3",
+          "name": "Cilindro",
+          "info": "r = 2 cm, h = 5 cm.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cil3",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-cono3",
+          "name": "Cono",
+          "info": "Stesso raggio e stessa altezza del cilindro.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cono3",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-v3",
+          "name": "V cilindro",
+          "info": "3,14 · 4 · 5 = 62,8 cm³.",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cil3"
+          },
+          "visible": [
+            [
+              6,
+              30
+            ]
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-v4",
+          "name": "V cono",
+          "info": "62,8 : 3 ≈ 20,9 cm³.",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cono3"
+          },
+          "visible": [
+            [
+              19,
+              30
+            ]
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il risultato 20,9 cm³ è arrotondato al decimo, perché la divisione per 3 non finisce.",
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Volume del cilindro con r = 2 cm e h = 5 cm (π ≈ 3,14)?",
+          "options": [
+            "31,4 cm³",
+            "62,8 cm³",
+            "20,9 cm³"
+          ],
+          "answer": 1,
+          "explain": "3,14 · 2² · 5 = 3,14 · 4 · 5 = 62,8 cm³."
+        },
+        {
+          "type": "choice",
+          "q": "Volume del cono con lo stesso raggio e la stessa altezza?",
+          "options": [
+            "circa 20,9 cm³",
+            "62,8 cm³",
+            "31,4 cm³"
+          ],
+          "answer": 0,
+          "explain": "Il cono è un terzo del cilindro: 62,8 : 3 ≈ 20,9 cm³."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 6,
+            "sound": "chime",
+            "volume": 0.5
+          },
+          {
+            "at": 19,
+            "sound": "chime",
+            "volume": 0.5
+          },
+          {
+            "at": 25,
+            "sound": "correct",
+            "volume": 0.6
+          }
+        ]
+      },
+      "book": {
+        "heading": "Mettiti alla prova",
+        "formula": "V cono = V cilindro : 3",
+        "lines": [
+          "Cilindro r = 2 cm, h = 5 cm.",
+          "V cilindro = 62,8 cm³.",
+          "V cono ≈ 20,9 cm³."
+        ],
+        "sourceIds": [
+          "page",
+          "calc"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se r = 2 cm, quanto vale r² nella formula?",
+          "options": [
+            "4",
+            "2",
+            "1"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Prova tu: muovi il raggio e guarda come cambiano i due volumi.",
+          "params": [
+            "es-r"
+          ]
+        },
+        "prove": {
+          "text": "r² vuol dire r per r: 2 · 2 = 4, non 2 · 2 come doppio del raggio confuso col quadrato in generale.",
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        "stamp": "Campione dei volumi"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Pagina del libro, p. 212: Il volume del cilindro e del cono"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli svolti nella lezione a partire dalle formule dei grafici"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "I solidi sono disegnati in scala ridotta; le etichette mostrano le misure vere.",
+    "Il travaso dei coni è un'animazione semplificata.",
+    "I volumi usano π ≈ 3,14 e sono arrotondati.",
+    "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro."
+  ],
+  "music": {
+    "track": "music-curious",
+    "volume": 0.5
+  },
+  "style": "color",
+  "engine": "solid",
+  "engineData": {
+    "unit": "cm",
+    "chapters": [
+      {
+        "chapter": "cilindro",
+        "solids": [
+          {
+            "id": "cil",
+            "shape": "cylinder",
+            "dims": {
+              "h": 10,
+              "r": 3
+            },
+            "name": "Cilindro",
+            "color": "#4f86c6"
+          }
+        ],
+        "acts": [
+          {
+            "do": "revolve",
+            "solid": "cil",
+            "at": 3,
+            "dur": 5
+          }
+        ],
+        "params": [
+          {
+            "id": "cil-h",
+            "dim": "h",
+            "solids": [
+              "cil"
+            ],
+            "label": "Altezza h (cm)",
+            "min": 2,
+            "max": 12,
+            "step": 1
+          }
+        ],
+        "show": [
+          {
+            "item": "dims",
+            "at": 9
+          },
+          {
+            "item": "board",
+            "solid": "cil",
+            "at": 14,
+            "formulas": [
+              "Ab",
+              "V"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "cono",
+        "solids": [
+          {
+            "id": "cil2",
+            "shape": "cylinder",
+            "dims": {
+              "h": 10,
+              "r": 3
+            },
+            "name": "Cilindro",
+            "color": "#4f86c6"
+          },
+          {
+            "id": "cono2",
+            "shape": "cone",
+            "dims": {
+              "h": 10,
+              "r": 3
+            },
+            "name": "Cono",
+            "color": "#e07a3f"
+          }
+        ],
+        "acts": [
+          {
+            "do": "fill",
+            "solid": "cil2",
+            "at": 8,
+            "dur": 6,
+            "from": "cono2"
+          },
+          {
+            "do": "fill",
+            "solid": "cil2",
+            "at": 15,
+            "dur": 6,
+            "from": "cono2"
+          },
+          {
+            "do": "fill",
+            "solid": "cil2",
+            "at": 22,
+            "dur": 6,
+            "from": "cono2"
+          }
+        ],
+        "params": [
+          {
+            "id": "cono-r",
+            "dim": "r",
+            "solids": [
+              "cil2",
+              "cono2"
+            ],
+            "label": "Raggio r (cm)",
+            "min": 1,
+            "max": 4,
+            "step": 0.5
+          }
+        ],
+        "show": [
+          {
+            "item": "dims",
+            "until": 8
+          },
+          {
+            "item": "board",
+            "solid": "cono2",
+            "at": 29,
+            "formulas": [
+              "V"
+            ],
+            "compare": "cil2"
+          }
+        ]
+      },
+      {
+        "chapter": "esercizi",
+        "solids": [
+          {
+            "id": "cil3",
+            "shape": "cylinder",
+            "dims": {
+              "h": 5,
+              "r": 2
+            },
+            "name": "Cilindro",
+            "color": "#4f86c6"
+          },
+          {
+            "id": "cono3",
+            "shape": "cone",
+            "dims": {
+              "h": 5,
+              "r": 2
+            },
+            "name": "Cono",
+            "color": "#e07a3f"
+          }
+        ],
+        "params": [
+          {
+            "id": "es-r",
+            "dim": "r",
+            "solids": [
+              "cil3",
+              "cono3"
+            ],
+            "label": "Raggio r (cm)",
+            "min": 1,
+            "max": 4,
+            "step": 0.5
+          }
+        ],
+        "show": [
+          {
+            "item": "dims"
+          },
+          {
+            "item": "board",
+            "at": 6,
+            "formulas": [
+              "V"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "audience": "teen"
+}

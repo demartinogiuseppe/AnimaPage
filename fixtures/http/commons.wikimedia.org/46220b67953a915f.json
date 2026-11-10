@@ -1,0 +1,208 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=dependent+and+independent+variables+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T17:59:39.108Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 58002325,
+     "ns": 6,
+     "title": "File:Nonlinear Systems- 5 Feedback loops & Non-Equilibrium.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 10926244,
+       "width": 1280,
+       "height": 720,
+       "duration": 381.317,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Nonlinear_Systems-_5_Feedback_loops_%26_Non-Equilibrium.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nonlinear_Systems-_5_Feedback_loops_%26_Non-Equilibrium.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58002325",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Nonlinear Systems- 5 Feedback loops & Non-Equilibrium",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Files from external sources with reviewed licenses|Videos of science|Uploaded with video2commons",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "In this video we will discuss the second source of nonlinearity, what are call feedback loops, where the previous output to the system has some effect on its environment and this then in turn feeds back to affect the current or future input to the system making exponential growth and decay possible.\n<p>For full courses, transcriptions and downloads please see: <a rel=\"nofollow\" class=\"external free\" href=\"http://www.complexityacademy.io\">http://www.complexityacademy.io</a>\n</p><p>Transcription excerpt:\n</p><p>If we were to draw a model of a linear system it would look something like this, there would be an input to the system, some process and an output, as we can see the input and the output to the system are independent from each other. The value that we input to the system now, is not in any way affected by the previous output. There are of cause phenomena where this holds true, such as the flipping of a coin, the value I will get from flipping a coin now will not be dependent in any way on the value I got the last time I flipped it, in mathematics this is called the Markov property.\nBut the fact is that many things in our world don’t behave like this, meaning that current input variables to the system are dependent on a previous outputs and current outputs will effect future inputs. The state of the weather yesterday will effect the state of the weather today, the amount of money I have in my account today will through interest effect the amount I have tomorrow and so on. This phenomena where the output of a system is \"fed back\" to become inputs as part of a chain of cause-and-effect that forms a circuit or loop is called a feedback loop.\nA feedback loop could be defined as a channel or pathway formed by an 'effect' returning to its 'cause,' and generating either more or less of the same effect. An example of this might be a dialogue between two people, what you say now will effect what the other person will say and that will in turn feedback as the input to what you will say in the future. A full discussion of the dynamics of feedback loops is beyond the scope of this module, our aim here is to merely touch on how they effect the behavior of a system with respect to nonlinearity.\nFeedback loops are divided into two qualitatively different types, what are called positive and negative feedback. A negative feedback loop represents a relationship of constraint and balance between two or more variables, when one variable in the system changes in a positive direction the other changes in the opposite, negative direction, thus always working to maintain the original overall combined value to the system.\nAn example of this might be the feedback loops that regulate the temperature of the human body. Different body organs work to maintain a constant temperature within the body by either conserving or releasing more heat, through sweating and capillary dilation they counter balance the fluctuations in the external environment’s temperature. Another example of negative feedback loop might be between the supply and demand of a product. The more demand there is for a product the more the price may go up which will in turn feedback to reduce the demand.\n</p>\nWe can note the direct additive relationship here when one component goes up the other goes down in a somewhat proportional fashion with the end result being a linear system that tends toward equilibrium. We haven’t yet had the chance to discuss the significance of equilibrium but it plays a very important role in linear systems theory. When we have these additive negative feedback loops the net result is a zero sum game, the total gains and loses combined are zero and we can then define this as the system’s equilibrium or “normal” state, with our models then being build on this assumption of there being an equilibrium. This concept of equilibrium holds well for isolated systems and systems in negative feedback loops, but as we will see this assumption about their being an equilibrium breaks down in nonlinear systems and thus we describe them a being “far-from-equilibrium”.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/channel/UCutCcajxhR33k9UR-DdLsAQ\">Complexity Academy</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 133045270,
+     "ns": 6,
+     "title": "File:Schrodinger Equation. Get the Deepest Understanding..webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 313487939,
+       "width": 3840,
+       "height": 2160,
+       "duration": 2969.301,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Schrodinger_Equation._Get_the_Deepest_Understanding..webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Schrodinger_Equation._Get_the_Deepest_Understanding..webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133045270",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Schrodinger Equation. Get the Deepest Understanding.",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Schrödinger equation|License review needed (video)|Uploaded with video2commons|Videos by Universaldenker Physics",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Learn the time (in)dependent Schrodinger equation and what the wave function is.\n<p>▶️ Playlists: <a rel=\"nofollow\" class=\"external free\" href=\"https://youtube.com/universaldenker-physics/playlists\">https://youtube.com/universaldenker-physics/playlists</a>\n❤️ Unlock all videos: <a rel=\"nofollow\" class=\"external free\" href=\"https://youtube.com/universaldenker-physics/join\">https://youtube.com/universaldenker-physics/join</a>\n📚 Read lesson: <a rel=\"nofollow\" class=\"external free\" href=\"https://en.universaldenker.org/lessons/242\">https://en.universaldenker.org/lessons/242</a>\n</p><p>In this quantum mechanics lecture you will learn the Schrodinger equation (1d and 3d, time-independent and time-dependent) within 45 minutes. In the beginning, you will learn the difference between classical mechanics and quantum mechanics and some applications of the Schrodinger equation.\n</p><p>Then we derive the one-dimensional time-independent Schrodinger equation (SEQ) and uncover the basic principles of the Schrodinger equation - energy conservation and wave-particle duality. Afterwards, you will learn its statistical Interpretation (Copenhagen Interpretation) and the associated squared magnitude of the wave function. After that, we study the general behavior of the wave function in the classically allowed and forbidden regions and the resulting energy quantization. We then generalize the one-dimensional Schrodinger equation to the three-dimensional version and encounter the Laplace and Hamilton operator. With the latter we formulate the Schrodinger equation as an eigenvalue equation.\n</p><p>Then we move on to the time-dependent Schrodinger equation and try to motivate (\"derive\") it with a little magic. And finally we apply the powerful separation of variables to the time-dependent Schrodinger equation to simplify the solving of the differential equation. As a result, we get stationary states and the stationary Schrodinger equation, which is much easier to solve than the time-dependent version.\n</p><p>Video content:\n</p>\n<hr>\n<p>00:00 What is a partial second-order DEQ? \n00:58 Classical Mechanics vs. Quantum Mechanics\n04:27 Applications\n05:14 Derivation of the time-independent Schrodinger equation (1d)\n17:14 Squared magnitude, probability and normalization\n25:26 Wave function in classically allowed and forbidden regions\n35:34 Time-independent Schrodinger equation (3d) and Hamilton operator\n38:18 Time-dependent Schrodinger equation (1d and 3d)\n41:18 Separation of variables and stationary states\n</p><p>Join physics community:\n</p>\n<hr>\n<p>Discuss about physics, ask physics questions or leave feedback.\n🔗 Discord: <a rel=\"nofollow\" class=\"external free\" href=\"https://discord.com/invite/3Btr63fujg\">https://discord.com/invite/3Btr63fujg</a>\n</p><p>About the channel:\n</p>\n<hr>\n<p>Here you will find high quality free physics videos for beginners and advanced students.\n</p><p>About the author:\n</p>\n<hr>\n<p>I am Alexander Fufaev, I am a physicist from Germany. I run the physics website universaldenker.org\n🔗 More about me: <a rel=\"nofollow\" class=\"external free\" href=\"https://en.universaldenker.org/avatars/fufaev\">https://en.universaldenker.org/avatars/fufaev</a>\n</p><p>Useful links:\n</p>\n<hr>\n<p>🔗 Playlists: <a rel=\"nofollow\" class=\"external free\" href=\"https://youtube.com/c/universaldenker-physics/playlists\">https://youtube.com/c/universaldenker-physics/playlists</a>\n🔗 Online formulary: <a rel=\"nofollow\" class=\"external free\" href=\"https://en.universaldenker.org/formulas\">https://en.universaldenker.org/formulas</a>\n🔗 Exercises with solutions: <a rel=\"nofollow\" class=\"external free\" href=\"https://en.universaldenker.org/exercises\">https://en.universaldenker.org/exercises</a>\n🔗 Free physics images: <a rel=\"nofollow\" class=\"external free\" href=\"https://en.universaldenker.org/illustrations\">https://en.universaldenker.org/illustrations</a>\n🔗 Physics questions: <a rel=\"nofollow\" class=\"external free\" href=\"https://en.universaldenker.org/questions\">https://en.universaldenker.org/questions</a>\n</p>\n<ol><li>universaldenker</li></ol>\nYou may reuse the videos for your own purposes. ❤️",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@universaldenker-physics\">Universaldenker ⚛ Physics</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 148238755,
+     "ns": 6,
+     "title": "File:Containerbrücke (proportional).webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 15085198,
+       "width": 1920,
+       "height": 1080,
+       "duration": 63.448,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Containerbr%C3%BCcke_%28proportional%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Containerbr%C3%BCcke_(proportional).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148238755",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Containerbrücke (proportional)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|Videos of linear functions|Lernwerkstatt Aachen",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "A very simple cardboard-model of a container bridge helps pupils upwards from age 10 to begin and understand the specific roles of independent and dependent variables.<br><br>The idea is to find a function or term which maps x to y. In this case, the solution will be a proportional function. The graph will go through the coordinate origin.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rhetos\" title=\"User:Rhetos\">Rhetos</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 148247398,
+     "ns": 6,
+     "title": "File:Containerbrücke (linear).webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 23530885,
+       "width": 1920,
+       "height": 1080,
+       "duration": 77.48,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Containerbr%C3%BCcke_%28linear%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Containerbr%C3%BCcke_(linear).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148247398",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Containerbrücke (linear)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|Videos of linear functions|Lernwerkstatt Aachen",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "A very simple cardboard-model of a container bridge helps pupils upwards from age 10 to begin and understand the specific roles of independent and dependent variables.\nThe idea is to find a function or term which maps x to y. In this case, the solution will be a linear function with a negative gradient. This, however, will require skills usually only present from the age of 14 and upwards.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rhetos\" title=\"User:Rhetos\">Rhetos</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

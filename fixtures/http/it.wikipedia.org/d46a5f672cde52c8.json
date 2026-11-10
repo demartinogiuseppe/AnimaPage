@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=coclea&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:02:34.173Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 130375,
+     "ns": 0,
+     "title": "Vite di Archimede",
+     "index": 3,
+     "extract": "La vite idraulica di Archimede, detta anche còclea (dal latino cochlea, propriamente \"chiocciola\"), è un dispositivo elementare usato per sollevare un liquido (ad esempio acqua) o un materiale granulare (ad esempio sabbia, ghiaia o solidi frantumati) o per sfruttare l'energia cinetica associata alla discesa del fluido lungo tale dispositivo.\nSebbene si tratti in genere di una macchina operatrice in quanto per definizione assorbe energia per lo svolgimento di un lavoro che è quello di sollevare il fluido, in alcune applicazioni può essere utilizzata come macchina motrice e in questo caso si parla di turbina a vite (il liquido scorre nel tubo dall'alto verso il basso e il suo moto di discesa aziona la vite di Archimede mettendola in rotazione producendo energia cinetica che può essere raccolta per generare energia elettrica).",
+     "pageprops": {
+      "wikibase_item": "Q189155"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:29Z",
+     "lastrevid": 150964085,
+     "length": 7398,
+     "fullurl": "https://it.wikipedia.org/wiki/Vite_di_Archimede",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Vite_di_Archimede&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Vite_di_Archimede"
+    },
+    {
+     "pageid": 529788,
+     "ns": 0,
+     "title": "Coclea",
+     "index": 2,
+     "extract": "Coclea – Elemento dell'orecchio interno\nCoclea – Sistema per il sollevamento di liquidi\nCoclea – Sistema per il sollevamento di polveri e granuli",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3681974"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:15Z",
+     "lastrevid": 87572376,
+     "length": 322,
+     "fullurl": "https://it.wikipedia.org/wiki/Coclea",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Coclea&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Coclea"
+    },
+    {
+     "pageid": 855799,
+     "ns": 0,
+     "title": "Orecchio interno",
+     "index": 4,
+     "extract": "L'orecchio interno è la parte più interna dell'orecchio dei vertebrati. Esso è posto nell’osso temporale ed è costituito esternamente dal labirinto osseo, contenente perilinfa, e più internamente da un labirinto membranoso, contenente endolinfa. L'orecchio interno è diviso in due parti:\n\nCoclea, che è l'organo dell'udito;\nVestibolo, che è l'organo dell'equilibrio.\nLa conoscenza dell'anatomia dell'orecchio interno fu rivoluzionata da Domenico Cotugno, il quale, nel suo De aquaeductibus auris humanae anatomica dissertatio (Napoli 1761), descrisse accuratamente per la prima volta, gli acquedotti del vestibolo e della coclea e soprattutto sostenne la presenza ubiquitaria di liquido nel labirinto, suscitando sorpresa tra gli studiosi del tempo, che invece ritenevano fosse presente aria, in accordo alla dottrina aristotelica.",
+     "pageprops": {
+      "wikibase_item": "Q212344"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:26Z",
+     "lastrevid": 150881852,
+     "length": 5250,
+     "fullurl": "https://it.wikipedia.org/wiki/Orecchio_interno",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Orecchio_interno&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Orecchio_interno"
+    },
+    {
+     "pageid": 1572607,
+     "ns": 0,
+     "title": "Coclea (anatomia)",
+     "index": 1,
+     "extract": "La coclea  è una componente dell'orecchio interno e fa parte dell'organo dell'udito. La sua forma ricorda il guscio di una chiocciola (da cui anche il significato latino del termine), con un canale spirale avvolto intorno ad un nucleo di forma conica. La coclea di destra presenta un avvolgimento in senso antiorario, mentre quella di sinistra in senso orario.\nSi divide in tre scale, o rampe: scala vestibolare, scala media (che prevede il condotto cocleare) e la scala timpanica, divise da membrane. La scala vestibolare e la timpanica sono messe in comunicazione dall'elicotrema e sono piene di perilinfa con l'unica funzione di trasmettere le vibrazioni che provengono dalla catena degli ossicini alla scala media nella quale è posto l'organo del Corti, il vero organo neuro-sensoriale uditivo, responsabile della trasduzione dell'impulso cinetico in elettro-chimico.",
+     "pageprops": {
+      "wikibase_item": "Q317857"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:59Z",
+     "lastrevid": 150595308,
+     "length": 25231,
+     "fullurl": "https://it.wikipedia.org/wiki/Coclea_(anatomia)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Coclea_(anatomia)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Coclea_(anatomia)"
+    }
+   ]
+  }
+ }
+}

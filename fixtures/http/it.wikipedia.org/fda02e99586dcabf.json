@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=ciglia&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:02:39.475Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 292295,
+     "ns": 0,
+     "title": "Ciglia (citologia)",
+     "index": 3,
+     "extract": "In una cellula, le ciglia sono degli organelli corti (diametro 0,25 μm, lunghezza 5-10 μm) e sottili raggruppati che si estendono sulla superficie di molte cellule eucariotiche. Queste sono per lo più corte e numerose.",
+     "pageprops": {
+      "wikibase_item": "Q180436"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:47Z",
+     "lastrevid": 151337627,
+     "length": 5669,
+     "fullurl": "https://it.wikipedia.org/wiki/Ciglia_(citologia)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ciglia_(citologia)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ciglia_(citologia)"
+    },
+    {
+     "pageid": 1238065,
+     "ns": 0,
+     "title": "Ciglia",
+     "index": 2,
+     "extract": "Ciglia – in anatomia, peli presenti sulle palpebre\nCiglia – in citologia, organi microscopici della cellula\nCiglia – in botanica, peli disposti in linea che ornano qualche parte di una pianta",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3676615"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:15:08Z",
+     "lastrevid": 151362291,
+     "length": 359,
+     "fullurl": "https://it.wikipedia.org/wiki/Ciglia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ciglia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ciglia"
+    },
+    {
+     "pageid": 2000983,
+     "ns": 0,
+     "title": "Ciglia (occhi)",
+     "index": 1,
+     "extract": "Le ciglia sono i peli che crescono sul margine delle palpebre. Proteggono gli occhi dalle impurità e, essendo sensibili al tocco, agiscono in funzione di avvertimento quando un oggetto (ad esempio un insetto o la polvere) si avvicina all'occhio, che si chiude per riflesso: hanno le stesse funzioni alle quali assolvono le vibrisse dei gatti o dei topi.\nIl termine greco per definire le ciglia è βλέϕαρον, blefaron. Questo termine è spesso usato come radice di altre parole che definiscono disturbi o patologie a carico della regione delle ciglia (ad esempio blefarite, l'infiammazione del margine palpebrale, la zona di impianto delle ciglia, o anchiloblefaro, l'aderenza dei margini delle due palpebre).\nSono costituite dal ciglio stesso, e dalla cilia, uno strato di tessuto cartilagineo sottostante al ciglio, che ha la funzione di sostituzione del ciglio in caso di danneggiamento di quest'ultimo.",
+     "pageprops": {
+      "wikibase_item": "Q160108"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:29Z",
+     "lastrevid": 151362438,
+     "length": 6725,
+     "fullurl": "https://it.wikipedia.org/wiki/Ciglia_(occhi)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ciglia_(occhi)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ciglia_(occhi)"
+    },
+    {
+     "pageid": 6253273,
+     "ns": 0,
+     "title": "Ciglia finte",
+     "index": 4,
+     "extract": "Le ciglia finte sono protesi decorative da applicare sugli occhi. L’applicazione di extension delle ciglia è un trattamento estetico ideato per aumentare la lunghezza, modificare la curvatura ed aumentare il volume delle proprie ciglia naturali.\nI metodi (o tecniche) di applicazione delle extension ciglia esistenti sono 2: one to one e volume.\nIl primo prevede l'applicazione di una extension per ogni ciglia naturale, mentre nel secondo vengono realizzati dei ventagli (costituiti da più extension) poi applicati su ognuna delle ciglia naturali.\nLa (o il) professionista che realizza gli impianti di extension viene definita(o) lashmaker.",
+     "pageprops": {
+      "wikibase_item": "Q2633526"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:21:11Z",
+     "lastrevid": 152784310,
+     "length": 14112,
+     "fullurl": "https://it.wikipedia.org/wiki/Ciglia_finte",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ciglia_finte&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ciglia_finte"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,199 @@
+{
+  "model": "claude-opus-5-5",
+  "note": "Synthetic page (HTML rendered in the scratchpad, not stored), analysed live with prompt an-5.",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.95,
+    "language": "it",
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        112
+      ]
+    },
+    "orientation": "upright",
+    "subject": "tecnologia",
+    "topic": "Le carrucole",
+    "gradeLevel": "scuola secondaria di primo grado",
+    "contentType": "explanation",
+    "literary": {
+      "isLiterary": false
+    },
+    "summary": "La pagina spiega che la carrucola è una ruota scanalata in cui scorre una fune e che serve a sollevare pesi con meno fatica. Confronta la carrucola fissa, che non fa risparmiare forza ma cambia la direzione della forza, con la carrucola mobile, che dimezza la forza ma richiede di tirare il doppio della fune. Presenta anche il paranco, che unisce carrucole fisse e mobili, e propone due domande di verifica.",
+    "concepts": [
+      "carrucola come macchina semplice",
+      "carrucola fissa: forza uguale al peso",
+      "cambio di direzione della forza",
+      "carrucola mobile: forza pari a metà del peso",
+      "doppio della fune da tirare",
+      "paranco: carrucole fisse e mobili insieme",
+      "usi del paranco: gru e velieri"
+    ],
+    "entities": [
+      {
+        "name": "carrucola",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "carrucola fissa",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "carrucola mobile",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "paranco",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "perno",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "fune",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "scanalatura",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "gru",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "velieri",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "altezza di sollevamento",
+        "type": "quantity",
+        "value": "1 metro",
+        "onPage": true
+      },
+      {
+        "name": "fune da tirare",
+        "type": "quantity",
+        "value": "2 metri",
+        "onPage": true
+      },
+      {
+        "name": "sacco",
+        "type": "quantity",
+        "value": "40 kg",
+        "onPage": true
+      },
+      {
+        "name": "F = P",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "F = P : 2",
+        "type": "term",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "La carrucola è una ruota con una scanalatura sul bordo in cui scorre una fune.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "La carrucola gira intorno a un perno fissato a un sostegno.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "La carrucola serve a sollevare pesi con meno fatica.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Nella carrucola fissa il perno è fermo.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "Nella carrucola fissa, tirando la fune verso il basso, il peso sale.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Con la carrucola fissa la forza necessaria è uguale al peso (F = P).",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "La carrucola fissa non fa risparmiare forza ma cambia la direzione in cui si tira, che è più comoda.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Nella carrucola mobile la carrucola è appesa alla fune e sale insieme al peso.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "Nella carrucola mobile il peso è sostenuto da due tratti di fune.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Con la carrucola mobile basta una forza pari a metà del peso (F = P : 2).",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Con la carrucola mobile bisogna tirare il doppio della fune: per alzare il peso di 1 metro si tirano 2 metri di fune.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Il paranco unisce carrucole fisse e mobili.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "Con 2 carrucole mobili la forza necessaria è un quarto del peso.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Il paranco è usato dalle gru e dai velieri.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "exercises": [
+      "Quale carrucola cambia solo la direzione della forza?",
+      "Con una carrucola mobile, quanta forza serve per sollevare un sacco di 40 kg?"
+    ],
+    "illustrations": [
+      {
+        "kind": "diagram",
+        "description": "Schema di due carrucole appese a una trave: a sinistra una carrucola fissa con il peso P e la forza verso il basso F = P; a destra una carrucola mobile che sostiene il peso P con la fune tirata verso l'alto con forza F = P : 2.",
+        "labels": [
+          "P",
+          "F = P",
+          "F = P : 2",
+          "carrucola fissa",
+          "carrucola mobile"
+        ]
+      }
+    ],
+    "suggestedEngine": "workshop",
+    "engineReason": "La pagina tratta le carrucole e il paranco, macchine semplici che si possono costruire in un modello 3D con ruote, funi e pesi animati; le carrucole non rientrano negli esperimenti disponibili nel laboratorio."
+  }
+}

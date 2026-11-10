@@ -1,0 +1,286 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=Studio+di+funzione%7Cdominio%7Cvariabile+indipendente+x%7Cnumeri+reali%7Cradicando%7Cfunzione+f%28x%29%7Csimmetria%7Cfunzione+pari%7Cfunzione+dispari%7Cfunzione+polinomiale%7Cfunzione+algebrica+fratta%7Cfunzione+logaritmica",
+ "fetchedAt": "2026-11-03T17:59:34.332Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "normalized": [
+    {
+     "fromencoded": false,
+     "from": "dominio",
+     "to": "Dominio"
+    },
+    {
+     "fromencoded": false,
+     "from": "variabile indipendente x",
+     "to": "Variabile indipendente x"
+    },
+    {
+     "fromencoded": false,
+     "from": "numeri reali",
+     "to": "Numeri reali"
+    },
+    {
+     "fromencoded": false,
+     "from": "radicando",
+     "to": "Radicando"
+    },
+    {
+     "fromencoded": false,
+     "from": "funzione f(x)",
+     "to": "Funzione f(x)"
+    },
+    {
+     "fromencoded": false,
+     "from": "simmetria",
+     "to": "Simmetria"
+    },
+    {
+     "fromencoded": false,
+     "from": "funzione pari",
+     "to": "Funzione pari"
+    },
+    {
+     "fromencoded": false,
+     "from": "funzione dispari",
+     "to": "Funzione dispari"
+    },
+    {
+     "fromencoded": false,
+     "from": "funzione polinomiale",
+     "to": "Funzione polinomiale"
+    },
+    {
+     "fromencoded": false,
+     "from": "funzione algebrica fratta",
+     "to": "Funzione algebrica fratta"
+    },
+    {
+     "fromencoded": false,
+     "from": "funzione logaritmica",
+     "to": "Funzione logaritmica"
+    }
+   ],
+   "redirects": [
+    {
+     "from": "Numeri reali",
+     "to": "Numero reale"
+    },
+    {
+     "from": "Funzione dispari",
+     "to": "Funzioni pari e dispari",
+     "tofragment": "Funzioni dispari"
+    },
+    {
+     "from": "Funzione pari",
+     "to": "Funzioni pari e dispari",
+     "tofragment": "Funzioni pari"
+    },
+    {
+     "from": "Funzione logaritmica",
+     "to": "Logaritmo"
+    },
+    {
+     "from": "Funzione polinomiale",
+     "to": "Polinomio"
+    },
+    {
+     "from": "Radicando",
+     "to": "Radicale (matematica)"
+    }
+   ],
+   "pages": [
+    {
+     "ns": 0,
+     "title": "Funzione algebrica fratta",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_algebrica_fratta",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_algebrica_fratta&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_algebrica_fratta"
+    },
+    {
+     "ns": 0,
+     "title": "Funzione f(x)",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Funzione_f(x)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzione_f(x)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzione_f(x)"
+    },
+    {
+     "ns": 0,
+     "title": "Variabile indipendente x",
+     "missing": true,
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "fullurl": "https://it.wikipedia.org/wiki/Variabile_indipendente_x",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Variabile_indipendente_x&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Variabile_indipendente_x"
+    },
+    {
+     "pageid": 3558,
+     "ns": 0,
+     "title": "Polinomio",
+     "extract": "In matematica un polinomio (dal greco \"polys\", che significa \"molti\", e \"nomos\", che significa \"termini\") è un'espressione composta da numeri, chiamati coefficienti del polinomio, e indeterminate (che possono essere pensate come variabili), legate da operazioni di addizione, sottrazione e moltiplicazione. Ciascuno degli elementi di un polinomio al cui interno non compaiono addizioni o sottrazioni prende il nome di monomio.\nAd esempio:\n\nx+3y−z2\nè un polinomio composto dai tre monomi x, 3y e z2. \nUn polinomio definisce una funzione f(x)=axn+bxn−1+cxn−2+⋯+t nello spazio dei suoi coefficienti, attribuendo al suo argomento (in questo caso la x) il valore dato dalla sua espressione simbolica calcolata in esso.\nAd esempio, il polinomio\n\np(x)=x2−3x+2\ndefinisce una funzione reale di variabile reale.\nCostruito un polinomio qualsiasi, le radici del polinomio sono definite dall'insieme di quei valori che, sostituiti alle variabili, danno all'espressione polinomiale valore nullo. Ad esempio, p(x) ha come radici i valori 1 e 2, poiché sostituendoli nell'espressione del polinomio si ha  \n\np(1)=12−3×1+2=0,\np(2)=22−3×2+2=0.\nI polinomi sono oggetti matematici di fondamentale importanza, alla base soprattutto dell'algebra, ma anche dell'analisi e della geometria analitica.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q43260"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T15:43:20Z",
+     "lastrevid": 150395150,
+     "length": 21957,
+     "fullurl": "https://it.wikipedia.org/wiki/Polinomio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Polinomio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Polinomio"
+    },
+    {
+     "pageid": 23403,
+     "ns": 0,
+     "title": "Numero reale",
+     "extract": "In matematica, i numeri reali possono essere descritti in maniera non formale come numeri ai quali è possibile attribuire uno sviluppo decimale finito o infinito, come π=3,141592… I numeri reali possono essere positivi, negativi o nulli e comprendono, come casi particolari, i numeri interi (come 12), i numeri razionali (come −22/7) e i numeri irrazionali algebrici (come 2) e trascendenti (come π ed e). L'insieme dei numeri reali è generalmente indicato con la lettera R o ℝ.\n\nI numeri reali possono essere messi in corrispondenza biunivoca con i punti di una retta, detta retta numerica o retta reale.\nLa definizione formale dei numeri reali ha rappresentato uno degli sviluppi più significativi del XIX secolo. Tra le definizioni maggiormente adottate oggi figurano le classi di equivalenza di successioni di Cauchy di numeri razionali, le sezioni di Dedekind, una ridefinizione del termine \"rappresentazione decimale\" e una definizione assiomatica come unico campo archimedeo completo ordinato.\nI termini reale e immaginario sono stati introdotti ne La Géometrie di René Descartes (1637), relativamente allo studio delle radici delle equazioni. Per estensione diversi autori hanno cominciato a parlare di numeri reali e numeri immaginari. Nel 1874 appare un articolo fondamentale di Georg Cantor nel quale l'autore prende in considerazione l'insieme dei numeri reali dimostrando che tale insieme non è numerabile.",
+     "pageprops": {
+      "wikibase_item": "Q12916"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:20Z",
+     "lastrevid": 152734540,
+     "length": 39605,
+     "fullurl": "https://it.wikipedia.org/wiki/Numero_reale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Numero_reale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Numero_reale"
+    },
+    {
+     "pageid": 110720,
+     "ns": 0,
+     "title": "Funzioni pari e dispari",
+     "extract": "In matematica, le funzioni pari e le funzioni dispari sono funzioni che soddisfano simmetrie assiali o radiali tra la funzione di un valore e la funzione dell'opposto del valore. Sono importanti in molti settori dell'analisi matematica, in particolare nella teoria delle serie di potenze e delle serie di Fourier.",
+     "pageprops": {
+      "wikibase_item": "Q126592"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:28Z",
+     "lastrevid": 142380698,
+     "length": 6110,
+     "fullurl": "https://it.wikipedia.org/wiki/Funzioni_pari_e_dispari",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Funzioni_pari_e_dispari&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Funzioni_pari_e_dispari"
+    },
+    {
+     "pageid": 111435,
+     "ns": 0,
+     "title": "Dominio",
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q13589709"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:27Z",
+     "lastrevid": 144201321,
+     "length": 1485,
+     "fullurl": "https://it.wikipedia.org/wiki/Dominio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Dominio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Dominio"
+    },
+    {
+     "pageid": 229756,
+     "ns": 0,
+     "title": "Radicale (matematica)",
+     "extract": "In matematica, la radice n-esima o radicale n-esimo, con  n∈ℤ>0 (ossia intero positivo), di un numero reale a≥0, scritto come an, è un numero reale b tale che bn=a. Il numero reale a è detto radicando, il numero n è detto indice e il numero b è detto radice n-esima di a.\nUna radice con indice 2 è indicata con il nome di radice quadrata e una radice con indice 3 con il nome di radice cubica o radice terza, ma esistono radici con qualsiasi indice intero positivo.",
+     "pageprops": {
+      "wikibase_item": "Q601053"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:42Z",
+     "lastrevid": 147216117,
+     "length": 16547,
+     "fullurl": "https://it.wikipedia.org/wiki/Radicale_(matematica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Radicale_(matematica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Radicale_(matematica)"
+    },
+    {
+     "pageid": 554580,
+     "ns": 0,
+     "title": "Simmetria",
+     "extract": "Il termine simmetria indica generalmente la presenza di alcune ripetizioni nella forma geometrica di un oggetto. L'oggetto può essere ad esempio una figura bidimensionale (un dipinto, un poligono, una tassellazione, ecc.)  oppure una figura tridimensionale (una statua, un poliedro, ecc.). Molte simmetrie sono osservabili in natura.\nIl concetto di simmetria è ampiamente studiato in geometria. La simmetria è anche un concetto base per capire la dimensione degli oggetti.",
+     "pageprops": {
+      "wikibase_item": "Q12485"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:04Z",
+     "lastrevid": 139544581,
+     "length": 2671,
+     "fullurl": "https://it.wikipedia.org/wiki/Simmetria",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Simmetria&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Simmetria"
+    },
+    {
+     "pageid": 2707085,
+     "ns": 0,
+     "title": "Logaritmo",
+     "extract": "In matematica, il logaritmo di un numero in una data base è l'esponente al quale la base deve essere elevata per ottenere il numero stesso. In generale, se b=ac, allora c è il logaritmo in base a di b, cioè, scritto in notazione matematica,\n\nc=logab.\nPer esempio, il logaritmo in base 10 di 1000 è 3 poiché bisogna elevare 10 alla terza potenza per ottenere 1000, ossia 103=1000. Facendo riferimento alla succitata formula, avremo a=10, b=1000 e c=3.\nI logaritmi furono introdotti da Nepero all'inizio del 1600, e trovarono subito applicazione nelle scienze e nell'ingegneria, soprattutto come strumento per semplificare calcoli con numeri molto grandi, grazie all'introduzione di tavole di logaritmi.\nLa funzione loga(x):(0,+∞)→ℝ (logaritmo in base a di x) è la funzione inversa della funzione esponenziale in base a data da ax:ℝ→(0,+∞).\nÈ di importanza fondamentale il logaritmo naturale, cioè il logaritmo che ha come base il numero di Nepero, indicato con e≈2,718. Il logaritmo naturale è l'inverso della funzione esponenziale ex:ℝ→(0,+∞).\n\n",
+     "pageprops": {
+      "wikibase_item": "Q11197"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:08Z",
+     "lastrevid": 149989069,
+     "length": 22658,
+     "fullurl": "https://it.wikipedia.org/wiki/Logaritmo",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Logaritmo&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Logaritmo"
+    },
+    {
+     "pageid": 8293092,
+     "ns": 0,
+     "title": "Studio di funzione",
+     "extract": "In analisi matematica la locuzione studio di funzione indica l'applicazione pratica dei teoremi e delle tecniche del calcolo infinitesimale nello specifico caso di una funzione di cui è nota l'espressione analitica. Lo studio di funzione è utile per ricavare esplicitamente le informazioni che descrivono il comportamento di una funzione nel suo dominio. Spesso, le informazioni ottenute mediante uno studio di funzione sono sufficienti per poter tracciare, anche a mano, un grafico qualitativo della funzione studiata e che in genere, per funzioni a valori reali di una variabile reale, viene rappresentato su un piano cartesiano, anche se in taluni casi potrebbe essere più semplice ricorrere un sistema di coordinate differente. In genere, con \"studio di funzione\" ci si riferisce implicitamente al solo e specifico caso delle funzioni reali di una sola variabile reale, ma con le opportune modifiche è comunque possibile adattare le considerazioni seguenti anche al caso delle funzioni di più variabili reali, nonché anche per le funzioni di una o più variabili complesse.",
+     "pageprops": {
+      "wikibase_item": "Q97370382"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-09-01T06:32:50Z",
+     "lastrevid": 150357518,
+     "length": 16768,
+     "fullurl": "https://it.wikipedia.org/wiki/Studio_di_funzione",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Studio_di_funzione&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Studio_di_funzione"
+    }
+   ]
+  }
+ }
+}

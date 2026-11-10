@@ -1,0 +1,281 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q97370382%7CQ19652%7CQ146481%7CQ191468%7CQ320723%7CQ47306354%7CQ750432%7CQ133871%7CQ12916%7CQ601053%7CQ11348%7CQ182003%7CQ170058%7CQ12485%7CQ126592%7CQ43260%7CQ3952678%7CQ861681%7CQ217616%7CQ11197&props=labels%7Cclaims&languages=it%7Cen",
+ "fetchedAt": "2026-11-03T17:59:36.566Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q97370382": {
+    "id": "Q97370382",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Studio di funzione"
+     }
+    },
+    "claims": {}
+   },
+   "Q19652": {
+    "id": "Q19652",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "pubblico dominio"
+     },
+     "en": {
+      "language": "en",
+      "value": "public domain"
+     }
+    },
+    "claims": {}
+   },
+   "Q146481": {
+    "id": "Q146481",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "dominio"
+     },
+     "en": {
+      "language": "en",
+      "value": "domain"
+     }
+    },
+    "claims": {}
+   },
+   "Q191468": {
+    "id": "Q191468",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Dominio pelagico"
+     },
+     "en": {
+      "language": "en",
+      "value": "pelagic zone"
+     }
+    },
+    "claims": {}
+   },
+   "Q320723": {
+    "id": "Q320723",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "dependent and independent variables"
+     },
+     "it": {
+      "language": "it",
+      "value": "variabili dipendenti e indipendenti"
+     }
+    },
+    "claims": {}
+   },
+   "Q47306354": {
+    "id": "Q47306354",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "natural exponential function"
+     },
+     "it": {
+      "language": "it",
+      "value": "funzione esponenziale"
+     }
+    },
+    "claims": {}
+   },
+   "Q750432": {
+    "id": "Q750432",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "differential of a function"
+     },
+     "it": {
+      "language": "it",
+      "value": "differenziale"
+     }
+    },
+    "claims": {}
+   },
+   "Q133871": {
+    "id": "Q133871",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "distribuzione normale"
+     },
+     "en": {
+      "language": "en",
+      "value": "normal distribution"
+     }
+    },
+    "claims": {}
+   },
+   "Q12916": {
+    "id": "Q12916",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "real number"
+     },
+     "it": {
+      "language": "it",
+      "value": "numero reale"
+     }
+    },
+    "claims": {}
+   },
+   "Q601053": {
+    "id": "Q601053",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "nth root"
+     },
+     "it": {
+      "language": "it",
+      "value": "radicale"
+     }
+    },
+    "claims": {}
+   },
+   "Q11348": {
+    "id": "Q11348",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "function"
+     },
+     "it": {
+      "language": "it",
+      "value": "funzione"
+     }
+    },
+    "claims": {}
+   },
+   "Q182003": {
+    "id": "Q182003",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "funzione iniettiva"
+     },
+     "en": {
+      "language": "en",
+      "value": "injection"
+     }
+    },
+    "claims": {}
+   },
+   "Q170058": {
+    "id": "Q170058",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "funzione continua"
+     },
+     "en": {
+      "language": "en",
+      "value": "continuous function"
+     }
+    },
+    "claims": {}
+   },
+   "Q12485": {
+    "id": "Q12485",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "symmetry"
+     },
+     "it": {
+      "language": "it",
+      "value": "simmetria"
+     }
+    },
+    "claims": {}
+   },
+   "Q126592": {
+    "id": "Q126592",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "even and odd functions"
+     },
+     "it": {
+      "language": "it",
+      "value": "funzioni pari e dispari"
+     }
+    },
+    "claims": {}
+   },
+   "Q43260": {
+    "id": "Q43260",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "polinomio"
+     },
+     "en": {
+      "language": "en",
+      "value": "polynomial"
+     }
+    },
+    "claims": {}
+   },
+   "Q3952678": {
+    "id": "Q3952678",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Scomposizione di Hermite"
+     }
+    },
+    "claims": {}
+   },
+   "Q861681": {
+    "id": "Q861681",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "function of a real variable"
+     },
+     "it": {
+      "language": "it",
+      "value": "funzione di variabile reale"
+     }
+    },
+    "claims": {}
+   },
+   "Q217616": {
+    "id": "Q217616",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "funzione meromorfa"
+     },
+     "en": {
+      "language": "en",
+      "value": "meromorphic function"
+     }
+    },
+    "claims": {}
+   },
+   "Q11197": {
+    "id": "Q11197",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "logarithm"
+     },
+     "it": {
+      "language": "it",
+      "value": "logaritmo"
+     }
+    },
+    "claims": {}
+   }
+  }
+ }
+}

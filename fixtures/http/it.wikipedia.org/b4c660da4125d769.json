@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=sensi+vista+tatto+udito&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:05:45.602Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 777232,
+     "ns": 0,
+     "title": "Guardare Ascoltare Sentire",
+     "index": 4,
+     "extract": "La manovra Guardare Ascoltare Sentire (talvolta indicata con l'acronimo GAS o definita anche Guardo Ascolto Sento in inglese \"looking, listening, and feeling\") viene utilizzata da un soccorritore nel primo soccorso per determinare se una persona colta da malore stia respirando, per massimo 10 secondi, a seconda della condizione del soggetto. Più in generale, la pratica è utilizzata per monitorare i segni vitali delle persone,  utilizzando 3 dei 5 sensi: vista, udito e tatto.\nNel caso di ostruzione totale della respirazione si hanno circa 3 minuti prima del decesso della persona, e in quel lasso di tempo occorre intervenire.",
+     "pageprops": {
+      "wikibase_item": "Q3778296"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:18Z",
+     "lastrevid": 143988779,
+     "length": 3270,
+     "fullurl": "https://it.wikipedia.org/wiki/Guardare_Ascoltare_Sentire",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Guardare_Ascoltare_Sentire&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Guardare_Ascoltare_Sentire"
+    },
+    {
+     "pageid": 1375526,
+     "ns": 0,
+     "title": "Felis silvestris catus",
+     "index": 3,
+     "extract": "Il gatto domestico (Felis catus Linnaeus, 1758 o Felis silvestris catus Linnaeus, 1758) è un mammifero carnivoro appartenente alla famiglia Felidae.\nDall'indole essenzialmente territoriale e crepuscolare, il gatto domestico è un predatore di piccoli animali, specialmente roditori e uccelli. Per comunicare, utilizza vari vocalizzi (più di sedici), le fusa, le posizioni del corpo e i feromoni. Prevalentemente domestico, può essere addestrato ad accettare istruzioni semplici e può imparare da solo a manipolare svariati meccanismi, anche complessi, tra cui le maniglie delle porte o le chiusure delle gabbie.\nIl gatto domestico è il felino con il più vasto areale nel mondo e con la popolazione più numerosa, protagonista anche di fenomeni d'inselvatichimento così ampi da determinarne l'inclusione nella lista delle cento specie invasive più dannose da parte dell'IUCN.\nSi possono contare una cinquantina di razze differenti, riconosciute con certificazioni.",
+     "pageprops": {
+      "wikibase_item": "Q146"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T13:33:48Z",
+     "lastrevid": 153136290,
+     "length": 86799,
+     "fullurl": "https://it.wikipedia.org/wiki/Felis_silvestris_catus",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Felis_silvestris_catus&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Felis_silvestris_catus"
+    },
+    {
+     "pageid": 2938480,
+     "ns": 0,
+     "title": "Organi di senso",
+     "index": 1,
+     "extract": "Gli organi di senso sono strutture fisiche presenti nei corpi degli esseri viventi che servono a ricevere informazioni dal mondo circostante.\nNegli animali sono composti da strutture, più o meno complesse, specializzate nella ricezione di stimoli esterni o interni, nella conversione di questi stimoli in impulsi nervosi e nella trasmissione di tali impulsi lungo differenti percorsi, dando eventualmente atto ad una risposta, verso l'esterno, allo stimolo; nei vegetali, pur agendo similmente per potenziali d'azione, con differenze nelle concentrazioni ioniche intra ed extracellulari, in assenza di un sistema neuronale, i fenomeni come tigmotropismo, tropismo, tigmonastia, vengono diversamente mediati.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q3355930"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:21Z",
+     "lastrevid": 150740465,
+     "length": 17456,
+     "fullurl": "https://it.wikipedia.org/wiki/Organi_di_senso",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Organi_di_senso&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Organi_di_senso"
+    },
+    {
+     "pageid": 9426901,
+     "ns": 0,
+     "title": "Enterocezione",
+     "index": 2,
+     "extract": "L'enterocezione  o interocezione è quel senso che rivela le sensazioni dello stato interno del corpo, a differenza dei sensi canonici (vista, udito, tatto, gusto, olfatto) che sono preposti verso sensazioni esterne (esterocezione). Questo senso può essere sia conscio che inconscio. Comprende il processo del cervello di integrazione dei segnali trasmessi dal corpo in sottoregioni specifiche, come il tronco cerebrale, il talamo, l'insula, la corteccia somatosensoriale e cingolata anteriore, consentendo una rappresentazione istantanea dello stato fisiologico del corpo. Questo è importante per mantenere le condizioni omeostatiche nel corpo (come la fame o la sete, ecc.).",
+     "pageprops": {
+      "wikibase_item": "Q1668091"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:23:06Z",
+     "lastrevid": 151817435,
+     "length": 2482,
+     "fullurl": "https://it.wikipedia.org/wiki/Enterocezione",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Enterocezione&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Enterocezione"
+    }
+   ]
+  }
+ }
+}

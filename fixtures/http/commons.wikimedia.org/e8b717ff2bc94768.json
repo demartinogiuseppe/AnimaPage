@@ -1,0 +1,404 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=Mount+Vesuvius+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-05T03:06:30.568Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 17445536,
+     "ns": 6,
+     "title": "File:Vesuvius in Eruption, newsreel (1944).ogv",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 43163573,
+       "width": 768,
+       "height": 576,
+       "duration": 374.19102040816324,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Vesuvius_in_Eruption%2C_newsreel_%281944%29.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vesuvius_in_Eruption,_newsreel_(1944).ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17445536",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Vesuvius in Eruption, newsreel (1944)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "1944 in Italy|CC-Zero|Pyroclastic flows|Aa lava|Vesuvius eruptions in 1944|United News|Media of the day|Ogv videos|Files with closed captioning in English|Videos of 1944|Lava flows in Italy|Black and white videos|Video display resolution 768 x 576|1944 films of the United States|Pyroclastic flows at Vesuvius|Videos of volcanic eruptions|Videos of films of the United States|Eruption columns of Vesuvius|Damage of Mount Vesuvius|Files with closed captioning in Hungarian|Subplinian eruptions|Videos of short films from 1944",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Vesuvio in eruzione, cinegiornale del 1944.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "National Archives and Records Administration",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 19817303,
+     "ns": 6,
+     "title": "File:Concrete-engineerguy.ogv",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 27260748,
+       "width": 532,
+       "height": 300,
+       "duration": 359.328798185941,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Concrete-engineerguy.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Concrete-engineerguy.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=19817303",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Concrete-engineerguy",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Concrete|Videos of structural engineering|EngineerGuy Series 1|Videos by engineerguy",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "<p>Bill moves a piece of sewer pipe into his office to show how important the ancient material concrete is to our modern world. It, of course, wreaks havoc on his office.\n</p><p>Transcript: Transcript I find this piece of concrete absolutely amazing. This is a piece of sewer pipe and its used to hook together another pipe at 90 degrees. You just pass it through this hole and use a rubber gasket so it doesn't leak. This piece of pipe is about 50 inches tall and its about the same diameter, so that means it weighs about 1500 pounds or three-quarters of a ton. Now obviously its substantial, but its made from something that looks like dirt.\n</p><p>At my local hardware store I bought this bag of concrete. And, indeed, it does look like dirt. But its made of aggregate which is gravel and sand and cement. Cement is made of oxides of calcium, silicon and aluminum. And if you add a little bit of water, it will form a paste, and if you have aggregate in there you'll actually make concrete.\n</p><p>Now, concrete is an ancient material; it comes from the Latin words for \"to grow together\". The Romans discovered it by accident, a builder was making mortar and he had added volcanic ash from Mount Vesuvius to his mixture and he noticed he had a very hard substance. From there the Romans fine-tuned the recipe for concrete; they added things like horsehair so it wouldn't shrink when it set. They also added blood so it would be frost resistant.\n</p><p>The pinnacle of Roman concrete was probably the pantheon. This dome was made from concrete. Michelangelo said it was \"angelic\" and \"not of human design.\"\n</p><p>Now there's a common misconception about concrete: And that is that when it hardens it's drying. That would imply that water is evaporating; nothing like that is happening. In fact, you can make concrete under water. The Romans made pier and lighthouses and breakwaters out of it. What's happening instead is something called hydration.\n</p><p>The water molecules are combing with the oxides forming larger molecules that then coalesce into a network. Now this will take a little bit of time to dry.\n</p>\nWell it looks dry. We now have a piece of concrete, it isn't completely solid or completely set - it'll take about twenty-eight days for it to harden completely. And today we make just about everything out of concrete - we make sidewalks and buildings. In fact, engineers are creating lightweight forms of concrete so they can use it to replace the wood in building. A piece of concrete like this sewer pipe is far to heavy to use ...",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "William S. Hammack",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 51196907,
+     "ns": 6,
+     "title": "File:Nagaoka Festival Fireworks 2015 \"Shining Hello Kitty\".webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 20400664,
+       "width": 1280,
+       "height": 720,
+       "duration": 115.203,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Nagaoka_Festival_Fireworks_2015_%22Shining_Hello_Kitty%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nagaoka_Festival_Fireworks_2015_%22Shining_Hello_Kitty%22.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51196907",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Nagaoka Festival Fireworks 2015 \"Shining Hello Kitty\"",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|WebM videos|Files from external sources with reviewed licenses|Video display resolution 1280 x 720|Videos of Nagaoka Festival Fireworks",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Vesuvius Extra Large Starmine \"Shining Hello Kitty\" at the <a href=\"https://en.wikipedia.org/wiki/Nagaoka,_Niigata\" class=\"extiw\" title=\"en:Nagaoka, Niigata\">Nagaoka</a> Festival Fireworks 2015, Japan",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "penguin8622",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 51463055,
+     "ns": 6,
+     "title": "File:Nagaoka Festival Fireworks 2014 Vesuvius Extra Large Starmine 20140803.webm",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 20461163,
+       "width": 1280,
+       "height": 720,
+       "duration": 103.24300000000001,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nagaoka_Festival_Fireworks_2014_Vesuvius_Extra_Large_Starmine_20140803.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nagaoka_Festival_Fireworks_2014_Vesuvius_Extra_Large_Starmine_20140803.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51463055",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Nagaoka Festival Fireworks 2014 Vesuvius Extra Large Starmine 20140803",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|WebM videos|Files from external sources with reviewed licenses|Video display resolution 1280 x 720|Videos of Nagaoka Festival Fireworks",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Vesuvius Extra Large Starmine \"Advance with a smile\" at the <a href=\"https://en.wikipedia.org/wiki/Nagaoka,_Niigata\" class=\"extiw\" title=\"en:Nagaoka, Niigata\">Nagaoka</a> Festival Fireworks 2014, Japan",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "113icecream Japanese Fireworks",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 58229754,
+     "ns": 6,
+     "title": "File:Am Vesuv; Video from the volcano.webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 63462958,
+       "width": 854,
+       "height": 480,
+       "duration": 100.846,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Am_Vesuv%3B_Video_from_the_volcano.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Am_Vesuv;_Video_from_the_volcano.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58229754",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Am Vesuv; Video from the volcano",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Mount Vesuvius|Self-published work|Volcanoes in Italy in 2017|Volcanic degassing in Italy|Vesuvius in 2017|Main crater of Mount Vesuvius",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Videoaufnahme vom April 2017.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Colling-architektur\" title=\"User:Colling-architektur\">Colling-architektur</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 75675440,
+     "ns": 6,
+     "title": "File:Il Miracolo di Sant'Antonio (ver. FB).webm",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 147273028,
+       "width": 1920,
+       "height": 1080,
+       "duration": 497.693,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Il_Miracolo_di_Sant%27Antonio_%28ver._FB%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Il_Miracolo_di_Sant%27Antonio_(ver._FB).webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75675440",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Il Miracolo di Sant'Antonio (ver. FB)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Poggiomarino|Vesuvio Films|Self-published work|Historical images of Vesuvius Observatory|Antonio di Padova",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Il Miracolo di Sant'Antonio di Padova",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pietro.dipalma&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pietro.dipalma (page does not exist)\">Pietro.dipalma</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 120482842,
+     "ns": 6,
+     "title": "File:Vesuvius (erupting) Circa April 5, 1926.webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 5324230,
+       "width": 1920,
+       "height": 1080,
+       "duration": 67.70100000000001,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Vesuvius_%28erupting%29_Circa_April_5%2C_1926.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vesuvius_(erupting)_Circa_April_5,_1926.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=120482842",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Vesuvius (erupting) Circa April 5, 1926",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|Vesuvius eruptions in 1926",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Taken from the surrounding caldera.\n<p>Cameraman: Frederick C.J. Wiss.\n</p><p>Camera: Ciné-Kodak Model B with an f/6.5 lens. \n</p><p>Film was digitized by CinePost using their Super 16mm WetGate system.\n</p>\nExtracted fromː <a rel=\"nofollow\" class=\"external free\" href=\"https://www.youtube.com/watch?v=JDnFUHY7RkY\">https://www.youtube.com/watch?v=JDnFUHY7RkY</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Don_Wiss&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Don Wiss (page does not exist)\">Don Wiss</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 127850647,
+     "ns": 6,
+     "title": "File:Morning in Naples.webm",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 27943969,
+       "width": 1920,
+       "height": 1080,
+       "duration": 20.408,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Morning_in_Naples.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Morning_in_Naples.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127850647",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Morning in Naples",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Mount Vesuvius|Naples|Self-published work|Naples in the 2010s|Videos from Italy by city",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The morning atmosphere in Naples, with Mt. Vesuvius in view.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Spontaneous_Symmetry\" title=\"User:Spontaneous Symmetry\">Joaquim Baeta</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

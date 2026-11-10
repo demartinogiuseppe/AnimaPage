@@ -1,0 +1,2403 @@
+{
+  "version": "0.1",
+  "title": "Note, ritmo e timbro",
+  "page": {
+    "subject": "Musica",
+    "topic": "Il pentagramma, i valori delle note e il timbro",
+    "language": "it"
+  },
+  "kind": "science",
+  "chapters": [
+    {
+      "id": "note",
+      "title": "Le note sul pentagramma",
+      "chip": "Note",
+      "kind": "science",
+      "duration": 44,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco il pentagramma: cinque righe e quattro spazi, che si contano dal basso verso l'alto.",
+          "highlight": [
+            "p-riga2"
+          ],
+          "sourceIds": [
+            "w-pentagramma"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "All'inizio c'è la chiave di violino, chiamata anche chiave di Sol.",
+          "highlight": [
+            "p-chiave"
+          ],
+          "sourceIds": [
+            "w-chiave"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Ascolta la scala di Do maggiore, che sale sul pentagramma e sulla tastiera.",
+          "highlight": [
+            "p-do"
+          ],
+          "sourceIds": [
+            "w-scala"
+          ]
+        },
+        {
+          "at": 18.6,
+          "text": "Do, Re, Mi, Fa, Sol, La, Si, Do: in inglese C, D, E, F, G, A, B, C.",
+          "speech": "Do, Re, Mi, Fa, Sol, La, Si, Do: in inglese ci, di, e, effe, gi, a, bi, ci.",
+          "highlight": [],
+          "sourceIds": [
+            "w-nota"
+          ]
+        },
+        {
+          "at": 25.8,
+          "text": "Guarda la seconda riga: la nota che ci sta sopra è il Sol, la nota della chiave.",
+          "highlight": [
+            "p-sol",
+            "p-riga2"
+          ],
+          "sourceIds": [
+            "w-chiave"
+          ]
+        },
+        {
+          "at": 32.6,
+          "text": "Tra Mi e Fa, e tra Si e Do, c'è solo un semitono: sulla tastiera non c'è un tasto nero in mezzo.",
+          "highlight": [
+            "p-mifa"
+          ],
+          "sourceIds": [
+            "w-scala"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              3.9,
+              0
+            ]
+          },
+          "distance": 17,
+          "azimuth": 0,
+          "elevation": 10
+        },
+        {
+          "at": 7,
+          "target": {
+            "entity": "staff",
+            "part": "clef"
+          },
+          "distance": 9,
+          "azimuth": -14,
+          "elevation": 6
+        },
+        {
+          "at": 12,
+          "target": {
+            "pos": [
+              0,
+              2.6,
+              0.8
+            ]
+          },
+          "distance": 17,
+          "azimuth": 0,
+          "elevation": 24
+        },
+        {
+          "at": 32,
+          "target": {
+            "entity": "key",
+            "part": "E4"
+          },
+          "distance": 10,
+          "azimuth": 8,
+          "elevation": 42
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-chiave",
+          "name": "Chiave di violino",
+          "sub": "chiave di Sol",
+          "info": "Il suo ricciolo avvolge la seconda riga e fissa lì il Sol.",
+          "kind": "note",
+          "anchor": {
+            "entity": "staff",
+            "part": "clef",
+            "offset": [
+              0,
+              2.2,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-chiave"
+          ]
+        },
+        {
+          "id": "p-riga2",
+          "name": "Seconda riga",
+          "info": "Le righe si contano dal basso: questa è la seconda, quella del Sol.",
+          "kind": "note",
+          "anchor": {
+            "entity": "staff",
+            "part": "line-2",
+            "offset": [
+              -0.8,
+              0,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-pentagramma",
+            "w-chiave"
+          ]
+        },
+        {
+          "id": "p-do",
+          "name": "Do centrale",
+          "sub": "C4",
+          "info": "Sta sotto il pentagramma, su un taglio addizionale: un trattino che allunga le righe.",
+          "kind": "note",
+          "marker": "#e53935",
+          "anchor": {
+            "entity": "note",
+            "index": 0,
+            "offset": [
+              0,
+              -0.7,
+              0
+            ]
+          },
+          "visible": [
+            [
+              12,
+              44
+            ]
+          ],
+          "sourceIds": [
+            "w-pentagramma",
+            "w-chiave"
+          ]
+        },
+        {
+          "id": "p-sol",
+          "name": "Sol",
+          "sub": "G4",
+          "info": "È la nota sulla seconda riga: quella indicata dalla chiave di violino.",
+          "kind": "note",
+          "marker": "#00a3b4",
+          "anchor": {
+            "entity": "note",
+            "index": 4,
+            "offset": [
+              0,
+              0.7,
+              0
+            ]
+          },
+          "visible": [
+            [
+              17,
+              44
+            ]
+          ],
+          "sourceIds": [
+            "w-chiave"
+          ]
+        },
+        {
+          "id": "p-mifa",
+          "name": "Mi - Fa",
+          "sub": "semitono",
+          "info": "Tra Mi e Fa c'è un semitono: sulla tastiera i due tasti bianchi sono vicini, senza tasto nero.",
+          "kind": "note",
+          "anchor": {
+            "entity": "key",
+            "part": "E4",
+            "offset": [
+              0.3,
+              0.5,
+              0
+            ]
+          },
+          "visible": [
+            [
+              30,
+              44
+            ]
+          ],
+          "sourceIds": [
+            "w-scala"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "I nomi Do, Re, Mi... vengono dalle sillabe iniziali dei versi di un inno, Ut queant laxis; la scelta è attribuita a Guido d'Arezzo. Il Do prese il posto di Ut nel XVII secolo.",
+          "sourceIds": [
+            "w-nota"
+          ]
+        },
+        {
+          "text": "Il Sol della chiave di violino è una quinta sopra il Do centrale: per questo il Do centrale si scrive sotto il pentagramma, su un taglio addizionale.",
+          "sourceIds": [
+            "w-chiave",
+            "w-pentagramma"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quante righe ha il pentagramma?",
+          "options": [
+            "Quattro",
+            "Cinque",
+            "Sette"
+          ],
+          "answer": 1,
+          "explain": "Il pentagramma ha cinque righe e quattro spazi, contati dal basso verso l'alto."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la nota che sta sulla seconda riga.",
+          "answerPins": [
+            "p-sol"
+          ],
+          "explain": "Sulla seconda riga, in chiave di violino, c'è il Sol."
+        }
+      ],
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "page-turn",
+            "volume": 0.4
+          },
+          {
+            "at": 17,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 1
+          },
+          {
+            "at": 18,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 1
+          },
+          {
+            "at": 19,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 1
+          },
+          {
+            "at": 20,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 1
+          },
+          {
+            "at": 21,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 22,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "A4",
+            "duration": 1
+          },
+          {
+            "at": 23,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "B4",
+            "duration": 1
+          },
+          {
+            "at": 24,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C5",
+            "duration": 1
+          },
+          {
+            "at": 25.8,
+            "sound": "chime",
+            "volume": 0.35
+          },
+          {
+            "at": 27,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 1
+          },
+          {
+            "at": 28,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 1
+          },
+          {
+            "at": 29,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 1
+          },
+          {
+            "at": 30,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 1
+          },
+          {
+            "at": 31,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 32,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "A4",
+            "duration": 1
+          },
+          {
+            "at": 33,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "B4",
+            "duration": 1
+          },
+          {
+            "at": 34,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C5",
+            "duration": 1
+          }
+        ]
+      },
+      "book": {
+        "heading": "Le note sul pentagramma",
+        "formula": "Do Re Mi Fa Sol La Si = C D E F G A B",
+        "lines": [
+          "Il pentagramma ha 5 righe e 4 spazi.",
+          "La chiave di violino mette il Sol sulla 2ª riga.",
+          "Mi-Fa e Si-Do: un semitono."
+        ],
+        "sourceIds": [
+          "w-pentagramma",
+          "w-chiave",
+          "w-nota",
+          "w-scala"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "In chiave di violino, quale nota sta sulla seconda riga del pentagramma?",
+          "options": [
+            "Do",
+            "Sol",
+            "Mi"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda quale nota si accende sulla seconda riga. Poi sposta la scala con il cursore e guarda i tasti neri.",
+          "params": [
+            "tr1"
+          ]
+        },
+        "prove": {
+          "text": "La chiave di violino si chiama anche chiave di Sol: il suo ricciolo avvolge la seconda riga e fissa lì il Sol. Da lì, contando righe e spazi, trovi tutte le altre note.",
+          "sourceIds": [
+            "w-chiave",
+            "w-pentagramma"
+          ]
+        },
+        "stamp": "Lettore di pentagrammi"
+      }
+    },
+    {
+      "id": "ritmo",
+      "title": "Il ritmo",
+      "chip": "Ritmo",
+      "kind": "science",
+      "duration": 47,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ogni nota ha un valore: dice quanto dura il suono.",
+          "highlight": [],
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "at": 4.8,
+          "text": "La semibreve dura come due minime, la minima come due semiminime, e così via fino alla semicroma.",
+          "highlight": [
+            "p-semibreve",
+            "p-minima"
+          ],
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "at": 12.2,
+          "text": "Ascolta: il metronomo batte quattro tempi in ogni battuta da quattro quarti.",
+          "highlight": [
+            "p-metronomo"
+          ],
+          "sourceIds": [
+            "w-misura",
+            "w-metronomo"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Ogni battuta dura quattro tempi: una semibreve, due minime, quattro semiminime, otto crome.",
+          "highlight": [],
+          "sourceIds": [
+            "w-valore",
+            "w-misura"
+          ]
+        },
+        {
+          "at": 24.6,
+          "text": "Nell'ultima battuta c'è anche una pausa: un silenzio che dura come una semiminima.",
+          "highlight": [
+            "p-pausa"
+          ],
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "at": 30.8,
+          "text": "A ottanta battiti al minuto, una semiminima dura tre quarti di secondo.",
+          "highlight": [
+            "p-metronomo"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-metronomo"
+          ]
+        },
+        {
+          "at": 36.6,
+          "text": "Prova tu: più alto è il tempo, più corte diventano tutte le note.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              3.9,
+              0
+            ]
+          },
+          "distance": 16,
+          "azimuth": 0,
+          "elevation": 8
+        },
+        {
+          "at": 12,
+          "target": {
+            "pos": [
+              -0.8,
+              4.1,
+              0
+            ]
+          },
+          "distance": 19,
+          "azimuth": -6,
+          "elevation": 12
+        },
+        {
+          "at": 30,
+          "target": {
+            "entity": "panel",
+            "part": "tempo"
+          },
+          "distance": 10,
+          "azimuth": -10,
+          "elevation": 10
+        },
+        {
+          "at": 36,
+          "target": {
+            "pos": [
+              -0.5,
+              4,
+              0
+            ]
+          },
+          "distance": 19,
+          "azimuth": 4,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-semibreve",
+          "name": "Semibreve",
+          "sub": "4 tempi",
+          "info": "La figura più lunga: riempie da sola una battuta da 4/4.",
+          "kind": "note",
+          "anchor": {
+            "entity": "note",
+            "index": 0,
+            "offset": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "visible": [
+            [
+              0,
+              15
+            ]
+          ],
+          "sourceIds": [
+            "w-valore",
+            "w-misura"
+          ]
+        },
+        {
+          "id": "p-minima",
+          "name": "Minima",
+          "sub": "2 tempi",
+          "info": "Vale metà semibreve: due minime riempiono una battuta.",
+          "kind": "note",
+          "anchor": {
+            "entity": "note",
+            "index": 1,
+            "offset": [
+              0,
+              2.2,
+              0
+            ]
+          },
+          "visible": [
+            [
+              0,
+              16
+            ]
+          ],
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "id": "p-semiminima",
+          "name": "Semiminima",
+          "sub": "1 tempo",
+          "info": "Vale un quarto: nel 4/4 è il battito del metronomo.",
+          "kind": "note",
+          "anchor": {
+            "entity": "note",
+            "index": 3,
+            "offset": [
+              0,
+              2.2,
+              0
+            ]
+          },
+          "visible": [
+            [
+              0,
+              17
+            ]
+          ],
+          "sourceIds": [
+            "w-valore",
+            "w-misura"
+          ]
+        },
+        {
+          "id": "p-croma",
+          "name": "Croma",
+          "sub": "½ tempo",
+          "info": "Vale un ottavo: ne servono due per un battito.",
+          "kind": "note",
+          "anchor": {
+            "entity": "note",
+            "index": 9,
+            "offset": [
+              0,
+              2.2,
+              0
+            ]
+          },
+          "visible": [
+            [
+              19,
+              24.5
+            ]
+          ],
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "id": "p-pausa",
+          "name": "Pausa",
+          "sub": "di semiminima",
+          "info": "Un silenzio che dura un tempo: anche il silenzio si conta.",
+          "kind": "note",
+          "anchor": {
+            "entity": "note",
+            "index": 19,
+            "offset": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "visible": [
+            [
+              24.6,
+              28
+            ]
+          ],
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "id": "p-metronomo",
+          "name": "Metronomo",
+          "sub": "bpm",
+          "info": "Misura il tempo in battiti per minuto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "panel",
+            "part": "tempo",
+            "offset": [
+              -2.7,
+              0.6,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-metronomo"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il punto dopo una nota ne aumenta la durata della metà: una semiminima col punto vale un quarto più un ottavo.",
+          "sourceIds": [
+            "w-valore"
+          ]
+        },
+        {
+          "text": "La parola metronomo fu coniata da Johann Nepomuk Mälzel nel 1815; i numeri di metronomo usati di solito vanno da 40 a 208 battiti per minuto.",
+          "sourceIds": [
+            "w-metronomo"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quante semiminime valgono quanto una minima?",
+          "options": [
+            "Una",
+            "Due",
+            "Quattro"
+          ],
+          "answer": 1,
+          "explain": "Ogni figura dura il doppio della successiva: una minima vale due semiminime."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la figura che dura di più.",
+          "answerPins": [
+            "p-semibreve"
+          ],
+          "explain": "La semibreve dura quattro tempi: è la più lunga delle figure in scena."
+        }
+      ],
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "page-turn",
+            "volume": 0.4
+          },
+          {
+            "at": 13,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 13,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 3
+          },
+          {
+            "at": 13.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 14.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 15.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 16,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 16,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1.5
+          },
+          {
+            "at": 16.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 17.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 17.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1.5
+          },
+          {
+            "at": 18.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 19,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 19,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 19.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 19.75,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 20.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 20.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 21.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 21.25,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 22,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 22,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 22.375,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 22.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 22.75,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 23.125,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 23.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 23.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 23.875,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 24.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 24.25,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 24.625,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 25,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 25,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 25.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 25.75,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 26.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 26.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 26.875,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 27.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 31,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 31,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 3
+          },
+          {
+            "at": 31.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 32.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 33.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 34,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 34,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1.5
+          },
+          {
+            "at": 34.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 35.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 35.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1.5
+          },
+          {
+            "at": 36.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 37,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 37,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 37.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 37.75,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 38.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 38.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 39.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 39.25,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 40,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 40,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 40.375,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 40.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 40.75,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 41.125,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 41.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 41.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 41.875,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 42.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 42.25,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 42.625,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 43,
+            "sound": "instr-drum",
+            "volume": 0.35
+          },
+          {
+            "at": 43,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 43.75,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 43.75,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.75
+          },
+          {
+            "at": 44.5,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          },
+          {
+            "at": 44.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 44.875,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 0.375
+          },
+          {
+            "at": 45.25,
+            "sound": "instr-hihat",
+            "volume": 0.35
+          }
+        ]
+      },
+      "book": {
+        "heading": "Valori e ritmo",
+        "formula": "1 semibreve = 2 minime = 4 semiminime",
+        "lines": [
+          "Ogni figura dura il doppio della successiva.",
+          "Nel 4/4 ogni battuta ha 4 tempi da un quarto.",
+          "La pausa è un silenzio che si conta."
+        ],
+        "sourceIds": [
+          "w-valore",
+          "w-misura"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "In una battuta da 4/4, quante crome ci stanno?",
+          "options": [
+            "4",
+            "8",
+            "16"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Muovi il tempo: cambia la velocità, non il numero di note in una battuta. Poi scegli una figura e guarda quante ne entrano.",
+          "params": [
+            "bpm2",
+            "fig2"
+          ]
+        },
+        "prove": {
+          "text": "Una semiminima vale un quarto e una croma un ottavo: in quattro quarti entrano otto ottavi, cioè otto crome. Il tempo in bpm cambia solo quanto dura ogni battito.",
+          "sourceIds": [
+            "w-valore",
+            "w-misura"
+          ]
+        },
+        "stamp": "Custode del ritmo"
+      }
+    },
+    {
+      "id": "timbro",
+      "title": "Il timbro",
+      "chip": "Timbro",
+      "kind": "science",
+      "duration": 48,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora ascolta la stessa melodia, Fra Martino, suonata da strumenti diversi.",
+          "highlight": [],
+          "sourceIds": [
+            "w-framartino"
+          ]
+        },
+        {
+          "at": 5.2,
+          "text": "Il timbro è la qualità del suono che ti fa riconoscere chi suona, anche sulla stessa nota.",
+          "highlight": [],
+          "sourceIds": [
+            "w-timbro"
+          ]
+        },
+        {
+          "at": 12.6,
+          "text": "Prima il pianoforte, poi il flauto, poi il violino e infine lo xilofono.",
+          "highlight": [
+            "p-piano",
+            "p-flauto",
+            "p-violino",
+            "p-xilofono"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 18.6,
+          "text": "Le note sono le stesse: altezza e durata non cambiano, cambia il timbro.",
+          "highlight": [],
+          "sourceIds": [
+            "w-timbro"
+          ]
+        },
+        {
+          "at": 25,
+          "text": "Sul pannello vedi gli armonici: il flauto ne ha pochi, il violino tanti. È questo che rende diverso il timbro.",
+          "highlight": [
+            "p-armonici"
+          ],
+          "sourceIds": [
+            "w-timbro"
+          ]
+        },
+        {
+          "at": 33.8,
+          "text": "Il Do centrale vibra circa 262 volte al secondo, se il La è accordato a 440 hertz.",
+          "speech": "Il Do centrale vibra circa duecentosessantadue volte al secondo, se il La è accordato a quattrocentoquaranta hertz.",
+          "highlight": [
+            "p-armonici"
+          ],
+          "sourceIds": [
+            "w-freq",
+            "w-a440",
+            "calc"
+          ]
+        },
+        {
+          "at": 41.2,
+          "text": "Prova tu: scegli lo strumento con il cursore e ascolta la differenza.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              1.5
+            ]
+          },
+          "distance": 21,
+          "azimuth": 0,
+          "elevation": 16
+        },
+        {
+          "at": 12,
+          "target": {
+            "pos": [
+              0,
+              1.6,
+              4.2
+            ]
+          },
+          "distance": 15,
+          "azimuth": 0,
+          "elevation": 18
+        },
+        {
+          "at": 25,
+          "target": {
+            "entity": "panel",
+            "part": "wave"
+          },
+          "distance": 11,
+          "azimuth": 8,
+          "elevation": 6
+        },
+        {
+          "at": 38,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              1.5
+            ]
+          },
+          "distance": 21,
+          "azimuth": -4,
+          "elevation": 16
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-piano",
+          "name": "Pianoforte",
+          "sub": "tastiera",
+          "info": "I tasti muovono martelletti che colpiscono le corde.",
+          "kind": "object",
+          "anchor": {
+            "entity": "instrument",
+            "part": "piano"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-flauto",
+          "name": "Flauto",
+          "sub": "legni",
+          "info": "Il suono nasce dall'aria che vibra nel tubo: un suono dolce, con pochi armonici.",
+          "kind": "object",
+          "anchor": {
+            "entity": "instrument",
+            "part": "flute"
+          },
+          "sourceIds": [
+            "w-orchestra"
+          ]
+        },
+        {
+          "id": "p-violino",
+          "name": "Violino",
+          "sub": "archi",
+          "info": "L'arco strofina le corde: un suono ricco di armonici.",
+          "kind": "object",
+          "anchor": {
+            "entity": "instrument",
+            "part": "violin"
+          },
+          "sourceIds": [
+            "w-orchestra"
+          ]
+        },
+        {
+          "id": "p-xilofono",
+          "name": "Xilofono",
+          "sub": "percussioni",
+          "info": "Le bacchette colpiscono barre di legno: il suono si spegne presto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "instrument",
+            "part": "xylophone"
+          },
+          "sourceIds": [
+            "w-orchestra"
+          ]
+        },
+        {
+          "id": "p-armonici",
+          "name": "Armonici",
+          "info": "Le barre mostrano i suoni più deboli che accompagnano la nota: ogni strumento ha i suoi.",
+          "kind": "data",
+          "anchor": {
+            "entity": "panel",
+            "part": "wave",
+            "offset": [
+              2.2,
+              0.2,
+              0
+            ]
+          },
+          "visible": [
+            [
+              24,
+              48
+            ]
+          ],
+          "sourceIds": [
+            "w-timbro"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Fra Martino (in francese Frère Jacques) è una canzone popolare francese, famosa in tutto il mondo in molte versioni. Nel 2014 una musicologa l'ha attribuita a Jean-Philippe Rameau.",
+          "sourceIds": [
+            "w-framartino"
+          ]
+        },
+        {
+          "text": "Nell'orchestra gli strumenti sono divisi in famiglie: archi, legni, ottoni e percussioni. Il violino è un arco, flauto e clarinetto sono legni, lo xilofono è una percussione.",
+          "sourceIds": [
+            "w-orchestra"
+          ]
+        },
+        {
+          "text": "Altezza, intensità, durata e timbro sono i parametri del suono. Il timbro dipende dallo spettro armonico: quali armonici ci sono e quanto sono forti.",
+          "sourceIds": [
+            "w-timbro"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Due strumenti suonano lo stesso Do, con la stessa forza e per lo stesso tempo. Che cosa li distingue?",
+          "options": [
+            "L'altezza",
+            "La durata",
+            "Il timbro"
+          ],
+          "answer": 2,
+          "explain": "Altezza, intensità e durata sono uguali: resta il timbro, che dipende dagli armonici di ciascuno strumento."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca lo strumento della famiglia degli archi.",
+          "answerPins": [
+            "p-violino"
+          ],
+          "explain": "Il violino suona con l'arco: fa parte degli archi."
+        }
+      ],
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 0,
+            "sound": "page-turn",
+            "volume": 0.4
+          },
+          {
+            "at": 9,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 9.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 10,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 10.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 11,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 11.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 12,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 12.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 13,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 13.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 14,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 15,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 15.5,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 16,
+            "sound": "instr-piano",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 18,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 18.5,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 19,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 19.5,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 20,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 20.5,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 21,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 21.5,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 22,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 22.5,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 23,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 24,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 24.5,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 25,
+            "sound": "instr-flute",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 27,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 27.5,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 28,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 28.5,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 29,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 29.5,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 30,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 30.5,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 31,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 31.5,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 32,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 33,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 33.5,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 34,
+            "sound": "instr-violin",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 36,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 36.5,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 37,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 37.5,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 38,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 38.5,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "D4",
+            "duration": 0.5
+          },
+          {
+            "at": 39,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 39.5,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "C4",
+            "duration": 0.5
+          },
+          {
+            "at": 40,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 40.5,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 41,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          },
+          {
+            "at": 42,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "E4",
+            "duration": 0.5
+          },
+          {
+            "at": 42.5,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "F4",
+            "duration": 0.5
+          },
+          {
+            "at": 43,
+            "sound": "instr-xylophone",
+            "volume": 0.7,
+            "pitch": "G4",
+            "duration": 1
+          }
+        ]
+      },
+      "book": {
+        "heading": "Il timbro",
+        "formula": "altezza · intensità · durata · timbro",
+        "lines": [
+          "Il timbro distingue due suoni con la stessa altezza.",
+          "Dipende dagli armonici dello strumento.",
+          "Famiglie: archi, legni, ottoni, percussioni."
+        ],
+        "sourceIds": [
+          "w-timbro",
+          "w-orchestra"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Pianoforte e flauto suonano lo stesso Do, per lo stesso tempo. Che cosa cambia?",
+          "options": [
+            "L'altezza del suono",
+            "Il timbro",
+            "La durata del suono"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Scegli lo strumento con il cursore: guarda il pannello degli armonici e ascolta.",
+          "params": [
+            "str3",
+            "bpm3"
+          ]
+        },
+        "prove": {
+          "text": "Altezza e durata dipendono dalla nota e dal suo valore, che restano uguali. Il timbro dipende dagli armonici, i suoni più deboli che accompagnano la nota: ogni strumento ha i suoi.",
+          "sourceIds": [
+            "w-timbro"
+          ]
+        },
+        "stamp": "Orecchio da direttore"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Musica, «Il pentagramma, il ritmo e il timbro» (scena di riferimento)"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli del motore musica (temperamento equabile con La4 = 440 Hz; durata di un battito = 60 / bpm secondi)"
+    },
+    {
+      "id": "w-pentagramma",
+      "kind": "wikipedia",
+      "title": "Pentagramma",
+      "url": "https://it.wikipedia.org/wiki/Pentagramma",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-chiave",
+      "kind": "wikipedia",
+      "title": "Chiave di violino",
+      "url": "https://it.wikipedia.org/wiki/Chiave_di_violino",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-nota",
+      "kind": "wikipedia",
+      "title": "Nota musicale",
+      "url": "https://it.wikipedia.org/wiki/Nota_musicale",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-scala",
+      "kind": "wikipedia",
+      "title": "Scala maggiore",
+      "url": "https://it.wikipedia.org/wiki/Scala_maggiore",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-valore",
+      "kind": "wikipedia",
+      "title": "Valore (musica)",
+      "url": "https://it.wikipedia.org/wiki/Valore_(musica)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-misura",
+      "kind": "wikipedia",
+      "title": "Misura (musica)",
+      "url": "https://it.wikipedia.org/wiki/Misura_(musica)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-metronomo",
+      "kind": "wikipedia",
+      "title": "Metronomo",
+      "url": "https://it.wikipedia.org/wiki/Metronomo",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-timbro",
+      "kind": "wikipedia",
+      "title": "Timbro (musica)",
+      "url": "https://it.wikipedia.org/wiki/Timbro_(musica)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-orchestra",
+      "kind": "wikipedia",
+      "title": "Orchestra",
+      "url": "https://it.wikipedia.org/wiki/Orchestra",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-framartino",
+      "kind": "wikipedia",
+      "title": "Fra Martino",
+      "url": "https://it.wikipedia.org/wiki/Fra_Martino",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-a440",
+      "kind": "wikipedia",
+      "title": "A440 (pitch standard)",
+      "url": "https://en.wikipedia.org/wiki/A440_(pitch_standard)",
+      "publisher": "Wikipedia, the free encyclopedia",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-freq",
+      "kind": "wikipedia",
+      "title": "Piano key frequencies",
+      "url": "https://en.wikipedia.org/wiki/Piano_key_frequencies",
+      "publisher": "Wikipedia, the free encyclopedia",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Gli strumenti sono modelli semplificati e i loro suoni sono sintetizzati: il timbro è solo un'approssimazione di quello vero.",
+    "Il pannello degli armonici è schematico: le ampiezze sono illustrative, non misurate.",
+    "Notazione semplificata: le crome hanno ciascuna la sua codetta, senza travature."
+  ],
+  "music": {
+    "track": "music-playful",
+    "volume": 0.4
+  },
+  "style": "color",
+  "engine": "music",
+  "engineData": {
+    "chapters": [
+      {
+        "chapter": "note",
+        "clef": "treble",
+        "time": [
+          4,
+          4
+        ],
+        "tempo": 60,
+        "start": 17,
+        "repeat": 2,
+        "gap": 2,
+        "instruments": [
+          "piano"
+        ],
+        "names": "both",
+        "notes": [
+          {
+            "pitch": "C4",
+            "beats": 1
+          },
+          {
+            "pitch": "D4",
+            "beats": 1
+          },
+          {
+            "pitch": "E4",
+            "beats": 1
+          },
+          {
+            "pitch": "F4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "A4",
+            "beats": 1
+          },
+          {
+            "pitch": "B4",
+            "beats": 1
+          },
+          {
+            "pitch": "C5",
+            "beats": 1
+          }
+        ],
+        "params": [
+          {
+            "id": "tr1",
+            "kind": "transpose",
+            "label": "Sposta la scala (semitoni)",
+            "min": 0,
+            "max": 7
+          }
+        ],
+        "show": [
+          {
+            "item": "names",
+            "at": 17
+          },
+          {
+            "item": "keyboard"
+          }
+        ]
+      },
+      {
+        "chapter": "ritmo",
+        "clef": "treble",
+        "time": [
+          4,
+          4
+        ],
+        "tempo": 80,
+        "start": 13,
+        "repeat": 2,
+        "gap": 4,
+        "instruments": [
+          "piano"
+        ],
+        "metronome": {
+          "sound": "hihat",
+          "accent": true
+        },
+        "notes": [
+          {
+            "pitch": "G4",
+            "beats": 4
+          },
+          {
+            "pitch": "G4",
+            "beats": 2
+          },
+          {
+            "pitch": "G4",
+            "beats": 2
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 1
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "G4",
+            "beats": 0.5
+          },
+          {
+            "pitch": "rest",
+            "beats": 1
+          }
+        ],
+        "params": [
+          {
+            "id": "bpm2",
+            "kind": "tempo",
+            "label": "Tempo (bpm)",
+            "min": 40,
+            "max": 160
+          },
+          {
+            "id": "fig2",
+            "kind": "value",
+            "label": "Figura (1 semibreve, 5 semicroma)"
+          }
+        ],
+        "show": [
+          {
+            "item": "beats"
+          },
+          {
+            "item": "tempo"
+          }
+        ]
+      },
+      {
+        "chapter": "timbro",
+        "clef": "treble",
+        "time": [
+          4,
+          4
+        ],
+        "tempo": 120,
+        "start": 9,
+        "repeat": 4,
+        "gap": 2,
+        "instruments": [
+          "piano",
+          "flute",
+          "violin",
+          "xylophone"
+        ],
+        "notes": [
+          {
+            "pitch": "C4",
+            "beats": 1,
+            "lyric": "Fra"
+          },
+          {
+            "pitch": "D4",
+            "beats": 1,
+            "lyric": "Mar"
+          },
+          {
+            "pitch": "E4",
+            "beats": 1,
+            "lyric": "ti"
+          },
+          {
+            "pitch": "C4",
+            "beats": 1,
+            "lyric": "no"
+          },
+          {
+            "pitch": "C4",
+            "beats": 1,
+            "lyric": "cam"
+          },
+          {
+            "pitch": "D4",
+            "beats": 1,
+            "lyric": "pa"
+          },
+          {
+            "pitch": "E4",
+            "beats": 1,
+            "lyric": "na"
+          },
+          {
+            "pitch": "C4",
+            "beats": 1,
+            "lyric": "ro,"
+          },
+          {
+            "pitch": "E4",
+            "beats": 1,
+            "lyric": "dor"
+          },
+          {
+            "pitch": "F4",
+            "beats": 1,
+            "lyric": "mi"
+          },
+          {
+            "pitch": "G4",
+            "beats": 2,
+            "lyric": "tu?"
+          },
+          {
+            "pitch": "E4",
+            "beats": 1,
+            "lyric": "dor"
+          },
+          {
+            "pitch": "F4",
+            "beats": 1,
+            "lyric": "mi"
+          },
+          {
+            "pitch": "G4",
+            "beats": 2,
+            "lyric": "tu?"
+          }
+        ],
+        "params": [
+          {
+            "id": "str3",
+            "kind": "instrument",
+            "label": "Strumento (1 pianoforte, 2 flauto, 3 violino, 4 xilofono)"
+          },
+          {
+            "id": "bpm3",
+            "kind": "tempo",
+            "label": "Tempo (bpm)",
+            "min": 60,
+            "max": 160
+          }
+        ],
+        "show": [
+          {
+            "item": "lyrics"
+          },
+          {
+            "item": "instruments"
+          },
+          {
+            "item": "wave"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Fine+dell%27impero+romano+d%27Occidente&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:02:56.069Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 2353,
+     "ns": 0,
+     "title": "Imperatori romani",
+     "index": 4,
+     "extract": "Questa voce contiene la lista degli imperatori romani che governarono dal 27 a.C. al 476 d.C. Per ciascuno sono riportati: il nome con cui è più comunemente conosciuto; il nome ufficioso; la data di nascita; il periodo temporale del suo regno (durante il quale fu ricevuto il titolo di augusto); la causa della morte (con la data se diversa da quella della fine del regno). Sono citati gli usurpatori (a volte la distinzione è dubbia, e in generale si segue la tradizione storica consolidata), gli imperatori che regnarono insieme, le date di eventuali associazioni al trono con il titolo di cesare.\nGiulio Cesare non ebbe mai il titolo di \"princeps\" o di \"augusto\", a differenza di Ottaviano: tuttavia fu dittatore dal 49 a.C. al 44 a.C., cosa mai successa in precedenza (con l'eccezione di Silla nel periodo 82 a.C.-79 a.C., il dictator poteva rimanere in carica al massimo sei mesi e così era sempre accaduto), ma soprattutto il titolo di \"imperatore\", nel suo significato moderno, corrisponde al titolo di cesare nella storia di Roma, almeno fino all'inizio della tetrarchia. Svetonio infatti, nella sua opera dedicata alle Vite dei dodici Cesari, parte proprio da Giulio Cesare.\nGli imperatori di Roma non furono tali nel senso moderno del termine. Ufficialmente il Senato non perse mai i suoi poteri e Augusto stesso si definiva \"primus inter pares\" (\"il primo tra gli eguali\"), rivolgendosi ai senatori.\nGli imperatori romani godettero di un potere enorme, ma spesso precario, perché esposto a congiure e intrighi che coinvolgevano i loro familiari, la corte o gli eserciti. L'incidenza di morti violente tra di essi aumentò notevolmente dalla crisi del terzo secolo in poi (235-476), parallelamente alla diminuzione media degli anni di regno.",
+     "pageprops": {
+      "wikibase_item": "Q125740"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:18Z",
+     "lastrevid": 152946481,
+     "length": 74024,
+     "fullurl": "https://it.wikipedia.org/wiki/Imperatori_romani",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Imperatori_romani&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Imperatori_romani"
+    },
+    {
+     "pageid": 702159,
+     "ns": 0,
+     "title": "Impero romano",
+     "index": 3,
+     "extract": "L'Impero romano fu lo Stato romano consolidatosi nell'area euro-mediterranea tra il I secolo a.C. e il XV secolo; in questa voce si tratta il periodo che va dalla sua fondazione, generalmente indicata con il 27 a.C. (primo anno del principato di Augusto), al 395, quando, dopo la morte di Teodosio I, l'Impero fu suddiviso dal punto di vista amministrativo ma non politico in una pars occidentalis e in una pars orientalis. L'Impero romano d'Occidente si fa terminare per convenzione nel 476, anno in cui Odoacre depone l'ultimo imperatore, Romolo Augusto, mentre l'Impero romano d'Oriente (indicato talvolta come Impero bizantino nella sua fase medievale) si protrasse fino alla conquista di Costantinopoli da parte degli Ottomani, nel 1453.\nNella sua massima espansione, l'Impero si estendeva, in tutto o in parte, sui territori degli odierni Stati di: Portogallo, Spagna, Andorra, Francia, Monaco, Belgio, Paesi Bassi (regioni meridionali), Regno Unito (Inghilterra, Galles, parte della Scozia), Lussemburgo, Germania (regioni meridionali e occidentali), Svizzera, Austria, Liechtenstein, Slovacchia (piccola parte), Ungheria, Italia, Vaticano, San Marino, Malta, Slovenia, Croazia, Bosnia ed Erzegovina, Serbia, Montenegro, Kosovo, Albania, Macedonia del Nord, Grecia, Bulgaria, Romania, Moldavia, Ucraina (parte costiera sud-occidentale con Isola dei Serpenti e Podolia), Turchia, Russia, Cipro, Siria, Libano, Iraq, Armenia, Georgia, Iran, Azerbaigian, Israele, Giordania, Palestina, Egitto, Sudan (piccola parte e per limitato periodo di tempo), Libia, Tunisia, Algeria, Marocco e Arabia Saudita (piccola parte). In totale, 52 dei 196 Stati riconosciuti nel mondo, più 3 parzialmente riconosciuti, più di ogni altro impero del mondo antico. Si espandeva su tre diversi continenti: Europa, Africa e Asia.\nNel 117 sotto Traiano ricopriva un'area di 5,0 milioni di km2, conteggiando anche gli Stati vassalli e i regni clienti. L'esatta misura della superficie governata da questo potente impero in realtà non è certa, a causa della mancanza di dati precisi, di dispute territoriali e della presenza di stati clienti il cui rapporto nei confronti di Roma non è sempre chiaro.\nPur non essendo il più vasto Stato dell’antichità, spettando tali primati all'impero achemenide, cinese e Xiongnu, quello di Roma è considerato il più grande per gestione e qualità del territorio, organizzazione socio-politica, e per l'importante eredità lasciata nella storia dell'umanità. In tutti i territori sui quali estesero i propri confini i Romani costruirono città, strade, ponti, acquedotti, fortificazioni, esportando ovunque il loro modello di civiltà e al contempo assimilando le popolazioni e civiltà assoggettate, in un processo così profondo che per secoli ancora dopo la fine dell'impero queste genti continuarono a definirsi romane. La civiltà nata sulle rive del Tevere, cresciuta e diffusasi in epoca repubblicana e infine sviluppatasi pienamente in età imperiale, è essenziale componente della civiltà occidentale.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q2277"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T00:25:51Z",
+     "lastrevid": 152745657,
+     "length": 110436,
+     "fullurl": "https://it.wikipedia.org/wiki/Impero_romano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Impero_romano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Impero_romano"
+    },
+    {
+     "pageid": 732326,
+     "ns": 0,
+     "title": "Impero romano d'Occidente",
+     "index": 2,
+     "extract": "L'Impero romano d'Occidente venne a costituirsi come entità pienamente autonoma e distinta dalla parte orientale al momento della morte dell'Imperatore Teodosio I nel 395, quando l'Impero venne diviso tra i suoi due figli, lasciando l'Occidente ad Onorio e l'Oriente ad Arcadio. \nGià in precedenza, in varie occasioni, l'Impero venne a trovarsi diviso in più entità a sé stanti per fini di carattere amministrativo e militare, come in occasione dell'istituzione della tetrarchia. Tuttavia, dal 395 in poi, l'Impero romano d'Occidente e l'Impero romano d'Oriente non vennero più a ricostituirsi in unica entità; per tale motivo, tradizionalmente, la data della morte dell'imperatore Teodosio I (395) viene considerata dalla storiografia come l'inizio della vita autonoma della parte occidentale dell'Impero romano.\nL'idea dell'unità restò tuttavia salda nelle coscienze ancora per lungo tempo, e certo non si era ancora spenta quando, nel 476, il re degli Eruli Odoacre depose l'ultimo imperatore occidentale, Romolo Augusto, e rimise le insegne dell'Impero all'imperatore d'Oriente Zenone. Quest'ultimo non aveva mai riconosciuto il titolo imperiale a Romolo Augusto e impose che si continuasse a riconoscere Giulio Nepote come legittimo imperatore d'Occidente. Zenone continuò a considerare l'Italia e Roma, culla della civiltà romana, come una parte dell'impero, mentre Odoacre e poi Teodorico, come patrizi d'Italia, ufficialmente svolgevano il ruolo di governatori per conto del sovrano di Costantinopoli, pur essendo di fatto regnanti autonomi.\nAncora l'imperatore bizantino Giustiniano tentò la riunificazione delle due parti dopo la fine dell'Impero d'Occidente, progetto che tuttavia finirà nei secoli successivi con l'affermazione dei regni di Franchi, Visigoti e Longobardi, e la nascita del Sacro Romano Impero.",
+     "pageprops": {
+      "wikibase_item": "Q42834"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T00:25:51Z",
+     "lastrevid": 152745658,
+     "length": 180368,
+     "fullurl": "https://it.wikipedia.org/wiki/Impero_romano_d%27Occidente",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Impero_romano_d%27Occidente&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Impero_romano_d%27Occidente"
+    },
+    {
+     "pageid": 2549597,
+     "ns": 0,
+     "title": "Caduta dell'Impero romano d'Occidente",
+     "index": 1,
+     "extract": "La caduta dell'Impero romano d'Occidente viene fissata formalmente dagli storici nel 476 d.C., anno in cui Odoacre depose l'ultimo imperatore romano d'Occidente, Romolo Augusto. Ciò fu il risultato di un lungo processo di declino dell'Impero romano d'Occidente in cui quest'ultimo non riuscì a far rispettare il suo dominio sulle sue province e il suo vasto territorio fu diviso in diverse entità.\nGli storici moderni hanno ipotizzato diversi fattori causali, tra cui il declino dell'efficienza del suo esercito, la salute e il numero della popolazione, la crisi dell'economia, l'incompetenza degli imperatori, le lotte interne per il potere, i mutamenti religiosi e l'inefficienza dell'amministrazione civile. Anche la crescente pressione da parte delle invasioni barbariche, ovvero di popoli estranei alla cultura latina, contribuì notevolmente alla caduta.\nSebbene la sua legittimità sia durata per secoli e la sua influenza culturale permanga ancora oggi, l'Impero d'Occidente non ha mai avuto la forza di risorgere, non riuscendo più a dominare alcuna parte dell'Europa occidentale a nord delle Alpi. L'Impero romano d'Oriente, o bizantino, sopravvisse e, sebbene diminuito in forza, rimase per secoli una potenza effettiva del Mediterraneo orientale fino alla sua definitiva caduta nel 1453 da parte dei Turchi ottomani.",
+     "pageprops": {
+      "wikibase_item": "Q608613"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-02T16:31:07Z",
+     "lastrevid": 152940591,
+     "length": 136837,
+     "fullurl": "https://it.wikipedia.org/wiki/Caduta_dell%27Impero_romano_d%27Occidente",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Caduta_dell%27Impero_romano_d%27Occidente&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Caduta_dell%27Impero_romano_d%27Occidente"
+    }
+   ]
+  }
+ }
+}

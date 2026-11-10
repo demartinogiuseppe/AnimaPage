@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=pelle&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-06T09:03:10.939Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 252804,
+     "ns": 0,
+     "title": "Pelle",
+     "index": 1,
+     "extract": "La cute o pelle è il rivestimento più esterno del corpo di un vertebrato. Nei mammiferi e in particolare nell'essere umano, è l'organo più esteso dell'apparato tegumentario (la sua superficie è di circa 2 m²) e protegge i tessuti sottostanti (muscoli, ossa, organi interni). La pelle è costituita da una serie di tessuti di origine ectodermica e mesodermica, che può avere varia colorazione, struttura fisiologica e organica, andando incontro anche a processi d'invecchiamento più o meno visibili. \nIn corrispondenza degli orifizi, la cute continua con le rispettive mucose formando uno strato senza interruzioni. Nell'essere umano, la pelle è più spessa nel maschio che nella femmina e lo spessore può variare da 0,5 a 2 mm fino ad arrivare a 4 mm nelle regioni della nuca, del palmo delle mani e nella pianta del piede. È dotata di una grande distensibilità e resistenza dal momento che una striscia di 3 mm per 100 mm può sopportare fino a 10 kg, allungandosi del 50% circa.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q1074"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:44Z",
+     "lastrevid": 151436430,
+     "length": 21918,
+     "fullurl": "https://it.wikipedia.org/wiki/Pelle",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Pelle&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Pelle"
+    },
+    {
+     "pageid": 627767,
+     "ns": 0,
+     "title": "Graziano Pellè",
+     "index": 2,
+     "extract": "Graziano Pellè (San Cesario di Lecce, 15 luglio 1985) è un ex calciatore italiano, di ruolo attaccante.",
+     "pageprops": {
+      "wikibase_item": "Q218680"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-05T18:48:51Z",
+     "lastrevid": 152152465,
+     "length": 41079,
+     "fullurl": "https://it.wikipedia.org/wiki/Graziano_Pell%C3%A8",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Graziano_Pell%C3%A8&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Graziano_Pell%C3%A8"
+    },
+    {
+     "pageid": 1159056,
+     "ns": 0,
+     "title": "Antonio Pelle",
+     "index": 3,
+     "extract": "Antonio Pelle, detto Ntoni Gambazza (San Luca, 1º marzo 1932 – Locri, 4 novembre 2009), è stato un mafioso italiano della 'ndrangheta e capo della cosca Pelle di San Luca.",
+     "pageprops": {
+      "wikibase_item": "Q2529653"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-05T18:48:55Z",
+     "lastrevid": 151572216,
+     "length": 12810,
+     "fullurl": "https://it.wikipedia.org/wiki/Antonio_Pelle",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Antonio_Pelle&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Antonio_Pelle"
+    },
+    {
+     "pageid": 3627997,
+     "ns": 0,
+     "title": "La pelle che abito",
+     "index": 4,
+     "extract": "La pelle che abito (La piel que habito) è un film del 2011 diretto da Pedro Almodóvar basato sul romanzo Tarantola (Mygale) di Thierry Jonquet.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q1130310"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:19:00Z",
+     "lastrevid": 152495238,
+     "length": 9898,
+     "fullurl": "https://it.wikipedia.org/wiki/La_pelle_che_abito",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=La_pelle_che_abito&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/La_pelle_che_abito"
+    }
+   ]
+  }
+ }
+}

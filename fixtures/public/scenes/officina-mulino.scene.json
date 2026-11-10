@@ -1,0 +1,1553 @@
+{
+  "version": "0.1",
+  "engine": "workshop",
+  "title": "Il mulino ad acqua",
+  "page": {
+    "subject": "Tecnologia",
+    "topic": "Il mulino ad acqua: dall'acqua alla farina",
+    "language": "it"
+  },
+  "kind": "science",
+  "music": {
+    "track": "music-curious",
+    "volume": 0.35
+  },
+  "style": "color",
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Tecnologia, «Il mulino ad acqua» (scena di riferimento)"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli dell'Officina: rapporto tra i denti delle ruote dentate"
+    },
+    {
+      "id": "w-mulino",
+      "kind": "wikipedia",
+      "title": "Mulino ad acqua",
+      "url": "https://it.wikipedia.org/wiki/Mulino_ad_acqua",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-05",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Il mulino è uno schema semplificato: proporzioni e velocità non sono quelle reali."
+  ],
+  "chapters": [
+    {
+      "id": "ruota",
+      "title": "L'acqua fa girare la ruota",
+      "chip": "Ruota",
+      "kind": "science",
+      "duration": 34,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Questo è un mulino ad acqua: usa la forza dell'acqua per macinare il grano.",
+          "highlight": [
+            "p-ruota"
+          ],
+          "sourceIds": [
+            "page",
+            "w-mulino"
+          ]
+        },
+        {
+          "at": 5,
+          "text": "L'acqua arriva dalla gora, una vasca in alto, e scorre nel canale.",
+          "highlight": [
+            "p-gora"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Cade sulle pale della ruota: il suo peso le spinge verso il basso.",
+          "highlight": [
+            "p-forza"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 17,
+          "text": "Una pala scende, la successiva prende il suo posto: la ruota gira senza fermarsi.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24,
+          "text": "Poi l'acqua torna nel fosso e continua il suo corso verso valle.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 29,
+          "text": "Prova tu: cambia la portata e guarda la ruota.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              -0.5,
+              2.8,
+              0
+            ]
+          },
+          "distance": 15,
+          "azimuth": 18,
+          "elevation": 16
+        },
+        {
+          "at": 5,
+          "target": {
+            "entity": "gora"
+          },
+          "distance": 8,
+          "azimuth": 25,
+          "elevation": 18
+        },
+        {
+          "at": 11,
+          "target": {
+            "entity": "ruota"
+          },
+          "distance": 9,
+          "azimuth": 12,
+          "elevation": 12
+        },
+        {
+          "at": 24,
+          "target": {
+            "pos": [
+              0,
+              2.6,
+              0.5
+            ]
+          },
+          "distance": 15,
+          "azimuth": 22,
+          "elevation": 18
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-ruota",
+          "name": "Ruota a pale",
+          "info": "Riceve l'acqua sulle pale e gira.",
+          "kind": "object",
+          "anchor": {
+            "entity": "ruota",
+            "offset": [
+              0,
+              0,
+              0.6
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-gora",
+          "name": "Gora",
+          "info": "La vasca che raccoglie l'acqua e la porta al canale.",
+          "kind": "object",
+          "anchor": {
+            "entity": "gora",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-forza",
+          "name": "Peso dell'acqua",
+          "info": "L'acqua che cade spinge le pale verso il basso.",
+          "kind": "note",
+          "anchor": {
+            "entity": "forza"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              10,
+              34
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "I mulini ad acqua erano usati già nell'antichità per macinare i cereali.",
+          "sourceIds": [
+            "w-mulino"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa fa girare la ruota del mulino?",
+          "options": [
+            "Il vento",
+            "Il peso dell'acqua che cade sulle pale",
+            "Il mugnaio con una manovella"
+          ],
+          "answer": 1,
+          "explain": "L'acqua cade sulle pale e con il suo peso le spinge in basso."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la vasca da cui arriva l'acqua.",
+          "answerPins": [
+            "p-gora"
+          ],
+          "explain": "È la gora: raccoglie l'acqua e la manda nel canale."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "river",
+            "volume": 0.45
+          }
+        ],
+        "cues": [
+          {
+            "at": 3,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 11,
+            "sound": "wood-hit",
+            "volume": 0.4
+          }
+        ]
+      },
+      "book": {
+        "heading": "La ruota a pale",
+        "formula": "acqua che cade → ruota che gira",
+        "lines": [
+          "L'acqua arriva dalla gora nel canale.",
+          "Cade sulle pale e le spinge in basso.",
+          "La ruota gira finché l'acqua scorre."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se nel canale arriva più acqua, che cosa fa la ruota?",
+          "options": [
+            "Gira più piano",
+            "Gira più veloce",
+            "Gira alla stessa velocità"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Muovi la portata dell'acqua e guarda la velocità della ruota.",
+          "params": [
+            "q"
+          ]
+        },
+        "prove": {
+          "text": "Più acqua cade sulle pale, più forte è la spinta: la ruota gira più veloce.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Mugnaio apprendista"
+      }
+    },
+    {
+      "id": "ingranaggi",
+      "title": "Le ruote dentate cambiano la direzione",
+      "chip": "Ingranaggi",
+      "kind": "science",
+      "duration": 36,
+      "narration": [
+        {
+          "at": 0,
+          "text": "La ruota fa girare un lungo albero di legno che entra nel mulino.",
+          "highlight": [
+            "p-albero"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Sull'albero c'è una grande ruota dentata, il lubecchio, con 24 denti.",
+          "speech": "Sull'albero c'è una grande ruota dentata, il lubecchio, con ventiquattro denti.",
+          "highlight": [
+            "p-lubecchio"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "I suoi denti spingono una ruota piccola e orizzontale, la lanterna, con 10 denti.",
+          "speech": "I suoi denti spingono una ruota piccola e orizzontale, la lanterna, con dieci denti.",
+          "highlight": [
+            "p-lanterna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "Così il moto passa da un albero orizzontale a un fuso verticale.",
+          "highlight": [
+            "p-fuso"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 26,
+          "text": "A ogni giro del lubecchio la lanterna fa 24 diviso 10, cioè 2,4 giri: gira più veloce.",
+          "speech": "A ogni giro del lubecchio la lanterna fa ventiquattro diviso dieci, cioè due virgola quattro giri: gira più veloce.",
+          "highlight": [
+            "p-lanterna"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "ruota",
+            "offset": [
+              0.6,
+              0,
+              -1.2
+            ]
+          },
+          "distance": 10,
+          "azimuth": 35,
+          "elevation": 18
+        },
+        {
+          "at": 6,
+          "target": {
+            "entity": "lubecchio"
+          },
+          "distance": 6.5,
+          "azimuth": 30,
+          "elevation": 16
+        },
+        {
+          "at": 13,
+          "target": {
+            "entity": "lanterna"
+          },
+          "distance": 5.5,
+          "azimuth": 40,
+          "elevation": 28
+        },
+        {
+          "at": 20,
+          "target": {
+            "entity": "fuso"
+          },
+          "distance": 8,
+          "azimuth": 30,
+          "elevation": 20
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-albero",
+          "name": "Albero",
+          "info": "Il lungo palo che gira insieme alla ruota.",
+          "kind": "object",
+          "anchor": {
+            "entity": "albero"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-lubecchio",
+          "name": "Lubecchio",
+          "info": "Grande ruota dentata verticale: 24 denti.",
+          "kind": "object",
+          "anchor": {
+            "entity": "lubecchio",
+            "offset": [
+              0,
+              1.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-lanterna",
+          "name": "Lanterna",
+          "info": "Piccola ruota dentata orizzontale: 10 denti.",
+          "kind": "object",
+          "anchor": {
+            "entity": "lanterna",
+            "offset": [
+              0.3,
+              0,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-fuso",
+          "name": "Fuso",
+          "info": "Asse verticale che porta il moto alla macina.",
+          "kind": "object",
+          "anchor": {
+            "entity": "fuso",
+            "offset": [
+              0,
+              0.6,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Due ruote dentate che si toccano girano in versi opposti; con un ingranaggio ad angolo retto il moto cambia direzione.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Il lubecchio ha 24 denti, la lanterna 10. Quale gira più veloce?",
+          "options": [
+            "Il lubecchio",
+            "La lanterna",
+            "Girano uguali"
+          ],
+          "answer": 1,
+          "explain": "La ruota con meno denti fa più giri: 24 : 10 = 2,4 giri per ogni giro del lubecchio."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la ruota dentata piccola.",
+          "answerPins": [
+            "p-lanterna"
+          ],
+          "explain": "È la lanterna, con 10 denti."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "river",
+            "volume": 0.3
+          },
+          {
+            "sound": "machine",
+            "volume": 0.25,
+            "window": [
+              3,
+              36
+            ]
+          }
+        ],
+        "cues": [
+          {
+            "at": 13,
+            "sound": "metal-clank",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "Gli ingranaggi",
+        "formula": "giri lanterna = giri lubecchio · 24 : 10",
+        "lines": [
+          "Il lubecchio ha 24 denti, la lanterna 10.",
+          "La ruota con meno denti gira più veloce.",
+          "Il moto passa dall'orizzontale al verticale."
+        ],
+        "sourceIds": [
+          "page",
+          "calc"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Il lubecchio ha più denti della lanterna. Chi gira più veloce?",
+          "options": [
+            "Il lubecchio",
+            "La lanterna",
+            "Nessuno dei due"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Cambia la portata: la lanterna gira sempre 2,4 volte più veloce della ruota?",
+          "params": [
+            "q"
+          ]
+        },
+        "prove": {
+          "text": "A ogni giro del lubecchio passano 24 denti, cioè 2,4 giri della lanterna da 10 denti.",
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        "stamp": "Maestro degli ingranaggi"
+      }
+    },
+    {
+      "id": "macina",
+      "title": "La macina fa la farina",
+      "chip": "Macina",
+      "kind": "science",
+      "duration": 32,
+      "narration": [
+        {
+          "at": 0,
+          "text": "In cima al fuso gira la macina, una pesante pietra rotonda.",
+          "highlight": [
+            "p-macina"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Sotto c'è una pietra ferma: il grano finisce tra le due pietre.",
+          "highlight": [
+            "p-grano"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Il grano scende dalla tramoggia, un imbuto di legno.",
+          "highlight": [
+            "p-grano"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Strofinato tra le pietre diventa farina, che scivola nel sacco.",
+          "highlight": [
+            "p-farina"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 25,
+          "text": "Prova tu: con più acqua la macina gira più veloce e il sacco si riempie prima.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "macina"
+          },
+          "distance": 6,
+          "azimuth": 25,
+          "elevation": 30
+        },
+        {
+          "at": 12,
+          "target": {
+            "entity": "tramoggia"
+          },
+          "distance": 5,
+          "azimuth": 20,
+          "elevation": 22
+        },
+        {
+          "at": 18,
+          "target": {
+            "entity": "sacco",
+            "offset": [
+              0,
+              1.8,
+              0
+            ]
+          },
+          "distance": 8,
+          "azimuth": 30,
+          "elevation": 18
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-macina",
+          "name": "Macina",
+          "info": "La pietra che gira sopra la pietra ferma.",
+          "kind": "object",
+          "anchor": {
+            "entity": "macina",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-grano",
+          "name": "Tramoggia",
+          "info": "L'imbuto da cui scende il grano.",
+          "kind": "object",
+          "anchor": {
+            "entity": "tramoggia",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "p-farina",
+          "name": "Farina",
+          "info": "Il grano macinato scende nel sacco.",
+          "kind": "object",
+          "anchor": {
+            "entity": "sacco",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              16,
+              32
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Le macine avevano solchi che portavano la farina dal centro verso il bordo.",
+          "sourceIds": [
+            "w-mulino"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Dove si trasforma il grano in farina?",
+          "options": [
+            "Nella gora",
+            "Tra le due macine",
+            "Sulle pale della ruota"
+          ],
+          "answer": 1,
+          "explain": "Il grano viene schiacciato e strofinato tra la macina che gira e quella ferma."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la pietra che gira.",
+          "answerPins": [
+            "p-macina"
+          ],
+          "explain": "È la macina, in cima al fuso."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "machine",
+            "volume": 0.35
+          }
+        ],
+        "cues": [
+          {
+            "at": 12,
+            "sound": "whoosh-soft",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "La macina",
+        "formula": "grano → macina → farina",
+        "lines": [
+          "La macina gira sopra una pietra ferma.",
+          "Il grano scende dalla tramoggia.",
+          "Tra le pietre diventa farina."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Se la ruota gira più veloce, il sacco di farina si riempie...",
+          "options": [
+            "Prima",
+            "Dopo",
+            "Allo stesso tempo"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Aumenta la portata e guarda la macina e il sacco.",
+          "params": [
+            "q"
+          ]
+        },
+        "prove": {
+          "text": "Più acqua fa girare più veloce la ruota, gli ingranaggi e la macina: si macina più grano nello stesso tempo.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Mugnaio esperto"
+      }
+    }
+  ],
+  "engineData": {
+    "params": [
+      {
+        "id": "q",
+        "label": "Portata dell'acqua",
+        "min": 20,
+        "max": 120,
+        "step": 5,
+        "value": 60
+      }
+    ],
+    "parts": [
+      {
+        "id": "terreno",
+        "shape": "box",
+        "size": [
+          11.5,
+          0.2,
+          5.6
+        ],
+        "pos": [
+          0,
+          -0.1,
+          0
+        ],
+        "color": "#b5c98a"
+      },
+      {
+        "id": "fosso",
+        "shape": "box",
+        "size": [
+          11.5,
+          0.06,
+          1
+        ],
+        "pos": [
+          0,
+          0.03,
+          2
+        ],
+        "color": "#7fb2d9"
+      },
+      {
+        "id": "casa",
+        "shape": "box",
+        "size": [
+          4.6,
+          6.2,
+          2.6
+        ],
+        "pos": [
+          0.4,
+          3.1,
+          -0.8
+        ],
+        "glass": true,
+        "color": "#efe3cc",
+        "opacity": 0.22
+      },
+      {
+        "id": "insegna",
+        "shape": "text",
+        "text": "MULINO",
+        "height": 0.34,
+        "pos": [
+          0.4,
+          6.55,
+          0.55
+        ],
+        "key": true
+      },
+      {
+        "id": "pilastro",
+        "shape": "box",
+        "size": [
+          0.22,
+          4.7,
+          0.22
+        ],
+        "pos": [
+          -4.4,
+          2.35,
+          1.3
+        ],
+        "color": "#7a5434"
+      },
+      {
+        "id": "gora",
+        "shape": "liquid",
+        "size": [
+          1.3,
+          0,
+          1
+        ],
+        "height": 1.2,
+        "level": 0.6,
+        "pos": [
+          -5,
+          4.75,
+          1.3
+        ],
+        "color": "#3f8fd8",
+        "key": true
+      },
+      {
+        "id": "canale",
+        "shape": "box",
+        "size": [
+          2.5,
+          0.22,
+          0.8
+        ],
+        "pos": [
+          -3.45,
+          4.85,
+          1.3
+        ],
+        "color": "#9a6b3f"
+      },
+      {
+        "id": "ruota",
+        "shape": "wheel",
+        "radius": 1.7,
+        "height": 0.7,
+        "teeth": 12,
+        "spokes": 4,
+        "pos": [
+          -2.6,
+          2.3,
+          1.3
+        ],
+        "color": "#8a5a32",
+        "key": true
+      },
+      {
+        "id": "albero",
+        "shape": "cylinder",
+        "parent": "ruota",
+        "radius": 0.12,
+        "height": 2.4,
+        "pos": [
+          0,
+          0,
+          -1.1
+        ],
+        "rot": [
+          90,
+          0,
+          0
+        ],
+        "color": "#5b4636"
+      },
+      {
+        "id": "lubecchio",
+        "shape": "wheel",
+        "parent": "ruota",
+        "radius": 1,
+        "height": 0.25,
+        "teeth": 24,
+        "spokes": 4,
+        "pos": [
+          0,
+          0,
+          -1.9
+        ],
+        "color": "#b07a45"
+      },
+      {
+        "id": "asse",
+        "shape": "line",
+        "dashed": true,
+        "path": [
+          [
+            -2.6,
+            2.3,
+            2.4
+          ],
+          [
+            -2.6,
+            2.3,
+            -1.9
+          ]
+        ],
+        "color": "#28303c"
+      },
+      {
+        "id": "fuso",
+        "shape": "cylinder",
+        "radius": 0.09,
+        "height": 2.7,
+        "pos": [
+          -0.9,
+          3.65,
+          -0.6
+        ],
+        "color": "#5b4636"
+      },
+      {
+        "id": "lanterna",
+        "shape": "wheel",
+        "parent": "fuso",
+        "radius": 0.42,
+        "height": 0.3,
+        "teeth": 10,
+        "spokes": 0,
+        "pos": [
+          0,
+          -1.2,
+          0
+        ],
+        "rot": [
+          90,
+          0,
+          0
+        ],
+        "color": "#c48c4a"
+      },
+      {
+        "id": "macina-fissa",
+        "shape": "cylinder",
+        "radius": 0.95,
+        "height": 0.3,
+        "pos": [
+          -0.9,
+          4.72,
+          -0.6
+        ],
+        "color": "#9c968c"
+      },
+      {
+        "id": "macina",
+        "shape": "cylinder",
+        "parent": "fuso",
+        "radius": 0.95,
+        "height": 0.3,
+        "pos": [
+          0,
+          1.42,
+          0
+        ],
+        "color": "#b8b2a6",
+        "key": true
+      },
+      {
+        "id": "segno",
+        "shape": "box",
+        "parent": "macina",
+        "size": [
+          0.5,
+          0.06,
+          0.12
+        ],
+        "pos": [
+          0.55,
+          0.17,
+          0
+        ],
+        "color": "#c0392b"
+      },
+      {
+        "id": "tramoggia",
+        "shape": "cone",
+        "radius": 0.55,
+        "height": 0.8,
+        "rot": [
+          180,
+          0,
+          0
+        ],
+        "pos": [
+          -0.9,
+          5.85,
+          -0.6
+        ],
+        "color": "#9a6b3f"
+      },
+      {
+        "id": "grano",
+        "shape": "particles",
+        "path": [
+          [
+            -0.9,
+            6.1,
+            -0.6
+          ],
+          [
+            -0.9,
+            5.25,
+            -0.6
+          ]
+        ],
+        "count": 8,
+        "speed": 0.6,
+        "radius": 0.05,
+        "color": "#e0b84a"
+      },
+      {
+        "id": "scivolo",
+        "shape": "tube",
+        "path": [
+          [
+            0.1,
+            4.75,
+            -0.6
+          ],
+          [
+            0.8,
+            4.2,
+            -0.6
+          ],
+          [
+            1.3,
+            2.4,
+            -0.6
+          ],
+          [
+            1.6,
+            1.3,
+            -0.6
+          ]
+        ],
+        "radius": 0.13,
+        "glass": true
+      },
+      {
+        "id": "farina",
+        "shape": "particles",
+        "path": [
+          [
+            0.1,
+            4.75,
+            -0.6
+          ],
+          [
+            0.8,
+            4.2,
+            -0.6
+          ],
+          [
+            1.3,
+            2.4,
+            -0.6
+          ],
+          [
+            1.6,
+            1.3,
+            -0.6
+          ]
+        ],
+        "count": 18,
+        "speed": 0.8,
+        "radius": 0.06,
+        "color": "#fffaf0"
+      },
+      {
+        "id": "sacco",
+        "shape": "liquid",
+        "radius": 0.45,
+        "height": 1,
+        "level": 0.15,
+        "pos": [
+          1.6,
+          0,
+          -0.6
+        ],
+        "color": "#f3ead6"
+      },
+      {
+        "id": "acqua",
+        "shape": "particles",
+        "count": 70,
+        "speed": 2,
+        "radius": 0.07,
+        "color": "#2f7fd0",
+        "path": [
+          [
+            -5,
+            5.15,
+            1.3
+          ],
+          [
+            -2.4,
+            5.05,
+            1.3
+          ],
+          [
+            -1.9,
+            4.4,
+            1.3
+          ],
+          [
+            -1.2,
+            3.6,
+            1.3
+          ],
+          [
+            -0.8,
+            2.4,
+            1.3
+          ],
+          [
+            -1.1,
+            1.2,
+            1.3
+          ],
+          [
+            -1.9,
+            0.4,
+            1.4
+          ],
+          [
+            -1,
+            0.12,
+            1.9
+          ],
+          [
+            2.5,
+            0.12,
+            2
+          ],
+          [
+            5.5,
+            0.12,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "forza",
+        "shape": "arrow",
+        "path": [
+          [
+            -0.2,
+            4,
+            2
+          ],
+          [
+            -0.2,
+            2.3,
+            2
+          ]
+        ],
+        "color": "#c0392b",
+        "key": true
+      },
+      {
+        "id": "mugnaio",
+        "shape": "model",
+        "model": "man-c",
+        "height": 1.7,
+        "pos": [
+          3.4,
+          0,
+          0.9
+        ],
+        "rot": [
+          0,
+          -35,
+          0
+        ]
+      },
+      {
+        "id": "albero-verde",
+        "shape": "model",
+        "model": "tree-oak",
+        "height": 3.2,
+        "pos": [
+          4.6,
+          0,
+          -1.6
+        ]
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "ruota",
+        "items": [
+          {
+            "id": "terreno"
+          },
+          {
+            "id": "fosso"
+          },
+          {
+            "id": "casa"
+          },
+          {
+            "id": "insegna"
+          },
+          {
+            "id": "pilastro"
+          },
+          {
+            "id": "gora"
+          },
+          {
+            "id": "canale"
+          },
+          {
+            "id": "ruota",
+            "glow": [
+              [
+                11,
+                23
+              ]
+            ]
+          },
+          {
+            "id": "fuso"
+          },
+          {
+            "id": "macina-fissa"
+          },
+          {
+            "id": "tramoggia"
+          },
+          {
+            "id": "scivolo"
+          },
+          {
+            "id": "sacco"
+          },
+          {
+            "id": "mugnaio"
+          },
+          {
+            "id": "albero-verde"
+          },
+          {
+            "id": "acqua",
+            "at": 3
+          },
+          {
+            "id": "forza",
+            "at": 11,
+            "until": 24,
+            "glow": [
+              [
+                11,
+                17
+              ]
+            ]
+          }
+        ],
+        "tracks": [
+          {
+            "part": "ruota",
+            "prop": "spin",
+            "expr": "-q/500*max(0, min(1, (t - 3)/3))"
+          },
+          {
+            "part": "acqua",
+            "prop": "speed",
+            "expr": "q/30"
+          },
+          {
+            "part": "gora",
+            "prop": "level",
+            "expr": "0.3 + q/250"
+          }
+        ]
+      },
+      {
+        "chapter": "ingranaggi",
+        "items": [
+          {
+            "id": "terreno"
+          },
+          {
+            "id": "fosso"
+          },
+          {
+            "id": "casa"
+          },
+          {
+            "id": "insegna"
+          },
+          {
+            "id": "pilastro"
+          },
+          {
+            "id": "gora"
+          },
+          {
+            "id": "canale"
+          },
+          {
+            "id": "ruota",
+            "glow": [
+              [
+                0,
+                5
+              ]
+            ]
+          },
+          {
+            "id": "fuso",
+            "glow": [
+              [
+                13,
+                26
+              ]
+            ]
+          },
+          {
+            "id": "macina-fissa"
+          },
+          {
+            "id": "tramoggia"
+          },
+          {
+            "id": "scivolo"
+          },
+          {
+            "id": "sacco"
+          },
+          {
+            "id": "mugnaio"
+          },
+          {
+            "id": "albero-verde"
+          },
+          {
+            "id": "lubecchio",
+            "glow": [
+              [
+                6,
+                13
+              ]
+            ]
+          },
+          {
+            "id": "acqua"
+          },
+          {
+            "id": "asse",
+            "at": 0.5,
+            "until": 12
+          }
+        ],
+        "tracks": [
+          {
+            "part": "ruota",
+            "prop": "spin",
+            "expr": "-q/500*max(0, min(1, (t - 3)/3))"
+          },
+          {
+            "part": "acqua",
+            "prop": "speed",
+            "expr": "q/30"
+          },
+          {
+            "part": "gora",
+            "prop": "level",
+            "expr": "0.3 + q/250"
+          },
+          {
+            "part": "fuso",
+            "prop": "spin",
+            "expr": "2.4*q/500*max(0, min(1, (t - 3)/3))"
+          }
+        ]
+      },
+      {
+        "chapter": "macina",
+        "items": [
+          {
+            "id": "terreno"
+          },
+          {
+            "id": "fosso"
+          },
+          {
+            "id": "casa"
+          },
+          {
+            "id": "insegna"
+          },
+          {
+            "id": "pilastro"
+          },
+          {
+            "id": "gora"
+          },
+          {
+            "id": "canale"
+          },
+          {
+            "id": "ruota"
+          },
+          {
+            "id": "fuso",
+            "glow": [
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          {
+            "id": "macina-fissa"
+          },
+          {
+            "id": "tramoggia",
+            "glow": [
+              [
+                12,
+                18
+              ]
+            ]
+          },
+          {
+            "id": "scivolo"
+          },
+          {
+            "id": "sacco",
+            "glow": [
+              [
+                18,
+                25
+              ]
+            ]
+          },
+          {
+            "id": "mugnaio"
+          },
+          {
+            "id": "albero-verde"
+          },
+          {
+            "id": "grano",
+            "at": 12
+          },
+          {
+            "id": "farina",
+            "at": 17
+          },
+          {
+            "id": "acqua"
+          }
+        ],
+        "tracks": [
+          {
+            "part": "ruota",
+            "prop": "spin",
+            "expr": "-q/500*max(0, min(1, (t - 3)/3))"
+          },
+          {
+            "part": "acqua",
+            "prop": "speed",
+            "expr": "q/30"
+          },
+          {
+            "part": "gora",
+            "prop": "level",
+            "expr": "0.3 + q/250"
+          },
+          {
+            "part": "fuso",
+            "prop": "spin",
+            "expr": "2.4*q/500*max(0, min(1, (t - 3)/3))"
+          },
+          {
+            "part": "sacco",
+            "prop": "level",
+            "expr": "min(0.85, 0.15 + max(0, t - 18)*q/1500)"
+          },
+          {
+            "part": "farina",
+            "prop": "speed",
+            "expr": "q/75"
+          }
+        ]
+      }
+    ]
+  }
+}

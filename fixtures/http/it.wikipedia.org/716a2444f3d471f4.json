@@ -1,0 +1,259 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&titles=Campania%7CNapoli%7CLazio%7CVesuvio%7CSele%7CArcipelago+Campano%7CCostiera+Amalfitana%7CIschia%7CProcida%7CCapri%7Ccantieri+navali%7CMar+Tirreno",
+ "fetchedAt": "2026-11-05T02:33:02.588Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "normalized": [
+    {
+     "fromencoded": false,
+     "from": "cantieri navali",
+     "to": "Cantieri navali"
+    }
+   ],
+   "redirects": [
+    {
+     "from": "Costiera Amalfitana",
+     "to": "Costiera amalfitana"
+    },
+    {
+     "from": "Cantieri navali",
+     "to": "Cantiere navale"
+    }
+   ],
+   "pages": [
+    {
+     "pageid": 2712,
+     "ns": 0,
+     "title": "Mar Tirreno",
+     "extract": "Il mar Tirreno è la porzione del mar Mediterraneo occidentale che si estende a occidente della penisola italiana fino alle coste della Corsica e della Sardegna e al canale di Sardegna. Può essere suddiviso in alto e basso Tirreno o anche in Tirreno settentrionale, centrale e meridionale.",
+     "pageprops": {
+      "wikibase_item": "Q38882"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T22:39:24Z",
+     "lastrevid": 153154670,
+     "length": 20458,
+     "fullurl": "https://it.wikipedia.org/wiki/Mar_Tirreno",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Mar_Tirreno&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Mar_Tirreno"
+    },
+    {
+     "pageid": 2986,
+     "ns": 0,
+     "title": "Napoli",
+     "extract": "Napoli (AFI: /ˈnapoli/ ; Napule in napoletano, pronuncia [ˈnɑːpələ]) è un comune italiano di 902 705 abitanti, capoluogo dell'omonima città metropolitana e della Campania. È il centro di una delle più popolose aree metropolitane dell'Unione europea e il terzo comune d'Italia per popolazione.\nNapoli nasce come Partenope, fondata dai Cumani su Pizzofalcone a fine VIII secolo a.C. su base archeologica, sebbene sporadici reperti suggeriscano una datazione più antica. Alla fine del VI secolo a.C. Partenope si evolse in Neapolis, divenendo uno dei centri più famosi della Magna Grecia e il principale tramite della grecità nella nascente cultura romana.\nCon la conquista romana, Napoli mantenne la cultura greca e l'autonomia, diventando alleata nel Tirreno; dal I secolo d.C. ospitò i Sebastà, giochi pari a quelli di Olimpia, e divenne meta privilegiata per l'élite romana e diversi imperatori.\nDopo l'invasione longobarda del VI secolo, Napoli rimase bizantina come capitale del Ducato di Napoli, che in seguito divenne indipendente sotto un duca ereditario. Dal 1266 fu capitale del Regno di Sicilia, poi dal 1282 del Regno di Napoli e, in seguito, del Regno delle Due Sicilie fino all'Unità d'Italia.\nNapoli è una delle più antiche città d'Europa, con circa tremila anni di storia attestata archeologicamente e un ruolo centrale nello sviluppo culturale del Mediterraneo. Sede della Federico II, la più antica università statale e laica al mondo, è stata protagonista dell'Umanesimo e dell'Illuminismo e punto di riferimento per la musica classica e l'opera grazie alla scuola musicale napoletana, dando tra l'altro origine all'opera buffa.\nLa città è stata cruciale per l'evoluzione di correnti artistiche come il Barocco, ed è alla base della canzone e del teatro napoletano, oltre a una tradizione culinaria con\nicone globali, come la pizza napoletana, riconosciuta dall'UNESCO.\nNel 1995 l'UNESCO ha dichiarato patrimonio mondiale il centro storico di Napoli, riconoscendolo come impronta delle culture europee e mediterranee, un sito unico e di valore universale senza eguali. Nel 1997 ha incluso il Somma-Vesuvio tra le Riserve della biosfera, comprendendo l'area est di Napoli e i comuni vesuviani.\nIn città, in quanto spesso definita come «capitale del Mediterraneo» e per la sua centralità geografica, ha inoltre sede l'Assemblea parlamentare del Mediterraneo.",
+     "pageprops": {
+      "wikibase_item": "Q2634"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T16:41:23Z",
+     "lastrevid": 153208378,
+     "length": 262076,
+     "fullurl": "https://it.wikipedia.org/wiki/Napoli",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Napoli&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Napoli"
+    },
+    {
+     "pageid": 4442,
+     "ns": 0,
+     "title": "Vesuvio",
+     "extract": "Il Vesuvio è uno stratovulcano situato in Italia, in posizione dominante rispetto al golfo di Napoli, in Campania. La sua forma attuale è il risultato della fusione con un vulcano più antico, il Monte Somma: il cono vulcanico si è sviluppato all'interno della caldera formatasi dal crollo della parte superiore del Somma a causa di potenti eruzioni esplosive, tra cui spicca quella del 79 d.C.\nÈ uno dei due vulcani attivi dell'Europa continentale (più precisamente è definito quiescente, risalendo l'ultima eruzione a 82 anni fa) nonché uno dei più studiati e pericolosi al mondo a causa dell'elevata popolazione delle zone circostanti e delle sue caratteristiche esplosive. L'area vesuviana presenta infatti un'alta densità di popolazione e il numero dei residenti potenzialmente in pericolo si aggira intorno a 700000.",
+     "pageprops": {
+      "wikibase_item": "Q524"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-01T22:07:43Z",
+     "lastrevid": 152337710,
+     "length": 45709,
+     "fullurl": "https://it.wikipedia.org/wiki/Vesuvio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Vesuvio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Vesuvio"
+    },
+    {
+     "pageid": 50329,
+     "ns": 0,
+     "title": "Capri",
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q858285"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:20Z",
+     "lastrevid": 149772282,
+     "length": 1966,
+     "fullurl": "https://it.wikipedia.org/wiki/Capri",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Capri&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Capri"
+    },
+    {
+     "pageid": 53302,
+     "ns": 0,
+     "title": "Ischia",
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q285385"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:21Z",
+     "lastrevid": 147489132,
+     "length": 1051,
+     "fullurl": "https://it.wikipedia.org/wiki/Ischia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ischia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ischia"
+    },
+    {
+     "pageid": 124280,
+     "ns": 0,
+     "title": "Costiera amalfitana",
+     "extract": "La Costiera amalfitana (o Costa d'Amalfi) è un tratto di costa tirrenica della provincia di Salerno in Campania. Situata ad est della penisola sorrentina, si affaccia sul golfo di Salerno e si estende da Positano a Vietri sul Mare (confinante con Salerno).\nRiconosciuta come Patrimonio dell'umanità dell'UNESCO nel 1997, la costiera è rinomata in tutto il mondo per la sua bellezza naturalistica. Prende il nome dalla città di Amalfi, suo nucleo geografico e storico.",
+     "pageprops": {
+      "wikibase_item": "Q212214"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:29Z",
+     "lastrevid": 148836927,
+     "length": 11554,
+     "fullurl": "https://it.wikipedia.org/wiki/Costiera_amalfitana",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Costiera_amalfitana&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Costiera_amalfitana"
+    },
+    {
+     "pageid": 217864,
+     "ns": 0,
+     "title": "Sele",
+     "extract": "Il Sele è un importante fiume della Campania lungo 64 km, il secondo della regione e del Mezzogiorno d'Italia per volume medio d'acque dopo il Volturno, tributario del Mar Tirreno. Il corso del fiume è tutelato dalla Riserva naturale Foce Sele - Tanagro.",
+     "pageprops": {
+      "wikibase_item": "Q937958"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:41Z",
+     "lastrevid": 152612392,
+     "length": 15755,
+     "fullurl": "https://it.wikipedia.org/wiki/Sele",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Sele&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Sele"
+    },
+    {
+     "pageid": 785290,
+     "ns": 0,
+     "title": "Arcipelago Campano",
+     "extract": "L'Arcipelago Campano (anche detto Napoletano o Partenopeo) è un arcipelago formato da un gruppo di cinque isole situate ai margini del golfo di Napoli, nel Mar Tirreno.\nFino al 1934 tra le Isole Campane (o Napoletane) si includevano anche le isole Ponziane (che prima dell'istituzione della provincia di Latina si trovavano in Campania, in provincia di Napoli); oggi per riferirsi al complesso delle isole Partenopee e a quelle Pontine si utilizza talvolta la forma \"arcipelago pontino-campano\".",
+     "pageprops": {
+      "wikibase_item": "Q768102"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:18Z",
+     "lastrevid": 149213608,
+     "length": 6829,
+     "fullurl": "https://it.wikipedia.org/wiki/Arcipelago_Campano",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Arcipelago_Campano&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Arcipelago_Campano"
+    },
+    {
+     "pageid": 1512148,
+     "ns": 0,
+     "title": "Campania",
+     "extract": "La Campania (AFI: /kamˈpanja/) è una regione dell'Italia meridionale, con capoluogo Napoli. Istituita come regione a statuto ordinario nel 1948, è divenuta operativa nel 1970 con l'elezione dei primi organi regionali.\nCon 5 561 912 abitanti è la regione più popolosa del Mezzogiorno e la terza d'Italia per popolazione, dopo Lombardia e Lazio; è inoltre la seconda regione italiana per densità abitativa, preceduta soltanto dalla Lombardia.\nSituata tra il mar Tirreno e l'Appennino meridionale, ha una superficie di 13670,95 km² e confina con Lazio, Molise, Puglia e Basilicata. Comprende la città metropolitana di Napoli e le province di Avellino, Benevento, Caserta e Salerno.\nLe prime testimonianze della presenza umana in Campania risalgono al paleolitico e al neolitico. Nell'antichità il territorio fu abitato dagli Osci e dai Sanniti e interessato dalla colonizzazione greca, che diede origine a importanti centri della Magna Grecia. Dopo le guerre sannitiche entrò progressivamente nell'orbita di Roma, che in epoca imperiale ne valorizzò la fertilità con la denominazione di Campania felix. Dopo la crisi dell'Impero romano d'Occidente il territorio fu diviso tra domini longobardi e bizantini; nel medioevo entrò nell'ambito del regno di Sicilia e successivamente del regno di Napoli, di cui Napoli fu capitale. In epoca contemporanea la regione è stata coinvolta nelle dinamiche della questione meridionale.",
+     "pageprops": {
+      "wikibase_item": "Q1438"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T21:55:26Z",
+     "lastrevid": 153043738,
+     "length": 243975,
+     "fullurl": "https://it.wikipedia.org/wiki/Campania",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Campania&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Campania"
+    },
+    {
+     "pageid": 1673860,
+     "ns": 0,
+     "title": "Cantiere navale",
+     "extract": "Il cantiere navale è un tipo di cantiere, precisamente uno stabilimento dove si costruiscono, si riparano o si demoliscono navi.\nQuello dove si riparano si chiama anche arsenale, ed è dotato in genere anche di bacino di carenaggio; quello dove si producono e riparano piccole imbarcazioni è detto anche squero, dal nome del piano inclinato ove si tirano in secca le imbarcazioni.\nLa struttura impiantistica, la dimensione e la configurazione degli stabilimenti varia a seconda della tipologia dell'attività che vi viene svolta e della grandezza delle imbarcazioni che vengono trattate.",
+     "pageprops": {
+      "wikibase_item": "Q190928"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:17:05Z",
+     "lastrevid": 152861978,
+     "length": 4481,
+     "fullurl": "https://it.wikipedia.org/wiki/Cantiere_navale",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Cantiere_navale&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Cantiere_navale"
+    },
+    {
+     "pageid": 1824537,
+     "ns": 0,
+     "title": "Lazio",
+     "extract": "Il Lazio è una regione a statuto ordinario dell'Italia centrale di 5 709 402 abitanti, istituita nel 1948 e resa operativa nel 1970. Ha come capoluogo la città di Roma.\nÈ la seconda regione italiana per popolazione (dopo la Lombardia), mentre figura al nono posto per estensione territoriale. Confina a nord-ovest con la Toscana, a nord con l'Umbria, a nord-est con le Marche e l'Abruzzo e a sud-est con il Molise e la Campania. A sud-ovest invece è bagnato dal mar Tirreno. Al suo interno è presente la piccola enclave della Città del Vaticano. Nella remota antichità il Lazio (Latium) comprendeva soltanto una parte limitata dell'attuale regione, compresa tra il corso inferiore del Tevere, il mar Tirreno, le paludi pontine e i monti Sabini.",
+     "pageprops": {
+      "wikibase_item": "Q1282"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-04T11:33:23Z",
+     "lastrevid": 153204900,
+     "length": 131088,
+     "fullurl": "https://it.wikipedia.org/wiki/Lazio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Lazio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Lazio"
+    },
+    {
+     "pageid": 2907477,
+     "ns": 0,
+     "title": "Procida",
+     "extract": "Procida (AFI: /ˈprɔʧida/; Proceta, /ˈprɔʧətə/ in napoletano) è un comune italiano di 9 991 abitanti della città metropolitana di Napoli in Campania. Il territorio comunale comprende interamente le isole di Procida e Vivara.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q72432"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:20Z",
+     "lastrevid": 152757573,
+     "length": 47104,
+     "fullurl": "https://it.wikipedia.org/wiki/Procida",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Procida&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Procida"
+    }
+   ]
+  }
+ }
+}

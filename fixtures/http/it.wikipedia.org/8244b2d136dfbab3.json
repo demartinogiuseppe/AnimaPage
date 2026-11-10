@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Bar+Sport&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:01:43.512Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 195665,
+     "ns": 0,
+     "title": "Bar Sport (libro)",
+     "index": 2,
+     "extract": "Bar Sport è il primo libro di Stefano Benni, pubblicato da Arnoldo Mondadori Editore nel marzo 1976.\nÈ considerato un classico della narrativa umoristica italiana, e caratterizzato dalla particolare comicità di Benni, che presenta situazioni reali stereotipate, deformate ed estremizzate. Descrive in modo surreale la realtà dei bar italiani, soprattutto quelli di provincia. Sebbene sia stato pubblicato nel 1976, molte situazioni narrate sono ancora attuali.\nNel 1997 Benni pubblica da Feltrinelli il seguito, Bar Sport Duemila; e nel giugno dello stesso anno ripubblica Bar Sport col nuovo editore nella collana Universale Economica Feltrinelli. Nel 2016, in occasione dei quarant'anni dall'uscita dell'originale del 1976, è stato ripubblicato sempre da Feltrinelli in un'edizione speciale.\nNel 2011 è stato distribuito il film Bar Sport tratto dal romanzo, per la regia di Massimo Martelli, con un cast composto, tra gli altri, da Claudio Bisio, Antonio Catania, Giuseppe Battiston, Bob Messini, Antonio Cornacchione, Gianluca Impastato, Alessandro Sampaoli, Cristiano Pasca, Angela Finocchiaro, Lunetta Savino, Teo Teocoli, Stefano Bicocchi (Vito).\n\n",
+     "pageprops": {
+      "wikibase_item": "Q3634477"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:40Z",
+     "lastrevid": 148612168,
+     "length": 8880,
+     "fullurl": "https://it.wikipedia.org/wiki/Bar_Sport_(libro)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Bar_Sport_(libro)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Bar_Sport_(libro)"
+    },
+    {
+     "pageid": 714642,
+     "ns": 0,
+     "title": "Al bar dello sport",
+     "index": 1,
+     "extract": "Al bar dello sport è un film del 1983 diretto da Francesco Massaro e con protagonisti Lino Banfi e Jerry Calà.",
+     "pageprops": {
+      "wikibase_item": "Q3607552"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T23:41:26Z",
+     "lastrevid": 152316427,
+     "length": 5735,
+     "fullurl": "https://it.wikipedia.org/wiki/Al_bar_dello_sport",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Al_bar_dello_sport&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Al_bar_dello_sport"
+    },
+    {
+     "pageid": 3704504,
+     "ns": 0,
+     "title": "Bar Sport (film)",
+     "index": 3,
+     "extract": "Bar Sport è un film del 2011, diretto da Massimo Martelli, tratto dall'omonimo libro di Stefano Benni.\nIl film è uscito nelle sale italiane il 21 ottobre 2011.",
+     "pageprops": {
+      "wikibase_item": "Q3634478"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T13:10:31Z",
+     "lastrevid": 151806586,
+     "length": 3172,
+     "fullurl": "https://it.wikipedia.org/wiki/Bar_Sport_(film)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Bar_Sport_(film)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Bar_Sport_(film)"
+    },
+    {
+     "pageid": 4805612,
+     "ns": 0,
+     "title": "Bar Sport",
+     "index": 4,
+     "extract": "Bar Sport – libro di Stefano Benni, pubblicato nel 1976\nBar Sport – film del 2011 tratto dall'omonimo libro\nBar Sport – storico programma radiofonico di Radio Popolare\nBar Sport Duemila – libro di Stefano Benni, pubblicato nel 2016",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q16265542"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:19:55Z",
+     "lastrevid": 98762008,
+     "length": 395,
+     "fullurl": "https://it.wikipedia.org/wiki/Bar_Sport",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Bar_Sport&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Bar_Sport"
+    }
+   ]
+  }
+ }
+}

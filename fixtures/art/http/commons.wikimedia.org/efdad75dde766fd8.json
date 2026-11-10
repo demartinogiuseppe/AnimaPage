@@ -1,0 +1,73 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3AMural+del+%22Guernica%22+de+Picasso.jpg&prop=imageinfo&iiprop=url%7Csize%7Cmime%7Cextmetadata&iiurlwidth=960&iiextmetadatafilter=LicenseShortName%7CLicense%7CCopyrighted%7CArtist%7CUsageTerms%7CAttributionRequired",
+ "fetchedAt": "2026-11-04T11:24:00.200Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 149356484,
+     "ns": 6,
+     "title": "File:Mural del \"Guernica\" de Picasso.jpg",
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 2124351,
+       "width": 4520,
+       "height": 2060,
+       "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Mural_del_%22Guernica%22_de_Picasso.jpg/960px-Mural_del_%22Guernica%22_de_Picasso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "thumbwidth": 960,
+       "thumbheight": 438,
+       "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Mural_del_%22Guernica%22_de_Picasso.jpg/1920px-Mural_del_%22Guernica%22_de_Picasso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+       },
+       "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Mural_del_%22Guernica%22_de_Picasso.jpg/960px-Mural_del_%22Guernica%22_de_Picasso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 960,
+        "height": 438,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Mural_del_%22Guernica%22_de_Picasso.jpg/1920px-Mural_del_%22Guernica%22_de_Picasso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+       },
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mural_del_%22Guernica%22_de_Picasso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mural_del_%22Guernica%22_de_Picasso.jpg",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149356484",
+       "extmetadata": {
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Julesvernex2\" title=\"User:Julesvernex2\">Jules Verne Times Two</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "UsageTerms": {
+         "value": "Creative Commons Attribution-Share Alike 4.0",
+         "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+         "value": "true",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Copyrighted": {
+         "value": "True",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "License": {
+         "value": "cc-by-sa-4.0",
+         "source": "commons-templates",
+         "hidden": ""
+        }
+       },
+       "mime": "image/jpeg"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

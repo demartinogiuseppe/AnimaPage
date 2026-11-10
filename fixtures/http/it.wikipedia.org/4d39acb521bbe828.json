@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=tempi+composti&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:00:43.903Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 38930,
+     "ns": 0,
+     "title": "Metro (musica)",
+     "index": 3,
+     "extract": "Nella teoria musicale, il metro è una struttura basata sulla ricorrenza periodica di elementi accentuativi. Tale struttura può anche essere implicita (ideale/teorica ovvero silente, solo scrita sul pentagramma), ossia non essere esplicitata ritmicamente (ovvero supportanto il metro tramite la composizione di suoni che gli corrispondano). Essa condiziona il nostro ascolto. Da qui deriva, ad esempio, l'effetto della sincope, frutto per l'appunto di una sfasatura tra l'elemento esplicito del ritmo e quello implicito del metro.\nNella notazione occidentale, la misura della battuta musicale costituisce un elemento metrico, benché gli studi di etnomusicologia abbiano dimostrato come il concetto di metro sia più esteso di quello di battuta.\nLa misura ha due scopi nella musica occidentale: raggruppare una serie di tempi e rappresentare il mattone di una struttura musicale più ampia come una frase. La misura di una battuta implica la struttura dell'accentuazione delle note, ove alcune sono più accentuate di altre; il cambio di tempo cambia dunque anche il modo in cui le note sono accentate.",
+     "pageprops": {
+      "wikibase_item": "Q630649"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:22Z",
+     "lastrevid": 150592324,
+     "length": 14052,
+     "fullurl": "https://it.wikipedia.org/wiki/Metro_(musica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Metro_(musica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Metro_(musica)"
+    },
+    {
+     "pageid": 91217,
+     "ns": 0,
+     "title": "Verbo (lingua italiana)",
+     "index": 2,
+     "extract": "Come in altre lingue, il verbo, in lingua italiana, è una parte del discorso che denota azione (portare, leggere), occorrenza (decomporsi, scintillarsi) o uno stato dell'essere (esistere, vivere, stare).\nIn italiano la flessione del verbo è complessa, così come in latino e nelle altre lingue romanze.",
+     "pageprops": {
+      "wikibase_item": "Q127785260"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:26Z",
+     "lastrevid": 146588685,
+     "length": 20654,
+     "fullurl": "https://it.wikipedia.org/wiki/Verbo_(lingua_italiana)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Verbo_(lingua_italiana)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Verbo_(lingua_italiana)"
+    },
+    {
+     "pageid": 1461936,
+     "ns": 0,
+     "title": "Verbo ausiliare",
+     "index": 4,
+     "extract": "Un verbo ausiliare (dal latino verbum auxiliare) è un verbo utilizzato in combinazione ad un altro per dare un particolare significato della forma verbale. Questo è evidente, in italiano, nella formazione di tempi composti come il passato prossimo o il trapassato prossimo:\n\nho fatto\nero andato.\nSi tratta delle forme dei verbi fare ed andare; questi sono coniugati con l'ausilio dei verbi avere (ho fatto) ed essere (ero andato).",
+     "pageprops": {
+      "wikibase_item": "Q465800"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:15:27Z",
+     "lastrevid": 149694120,
+     "length": 7966,
+     "fullurl": "https://it.wikipedia.org/wiki/Verbo_ausiliare",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Verbo_ausiliare&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Verbo_ausiliare"
+    },
+    {
+     "pageid": 3600702,
+     "ns": 0,
+     "title": "Tempi composti",
+     "index": 1,
+     "extract": "In musica: vedi tempi composti\nIn grammatica: relativamente alla lingua italiana vedi tempi semplici e composti",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3983153"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:18:19Z",
+     "lastrevid": 139352084,
+     "length": 217,
+     "fullurl": "https://it.wikipedia.org/wiki/Tempi_composti",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Tempi_composti&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Tempi_composti"
+    }
+   ]
+  }
+ }
+}

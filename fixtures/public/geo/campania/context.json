@@ -1,0 +1,61 @@
+{
+  "key": "campania",
+  "bbox": {
+    "lonMin": 13.65,
+    "lonMax": 15.9,
+    "latMin": 39.9,
+    "latMax": 41.6
+  },
+  "focus": "Campania",
+  "neighbors": [
+    "Lazio",
+    "Molise",
+    "Puglia",
+    "Basilicata"
+  ],
+  "files": {
+    "terrain": "terrain.json",
+    "boundaries": "regions.geojson",
+    "rivers": "rivers.geojson"
+  },
+  "rivers": [
+    {
+      "id": "volturno",
+      "name": "Volturno"
+    },
+    {
+      "id": "sele",
+      "name": "Sele"
+    },
+    {
+      "id": "calore",
+      "name": "Calore Irpino"
+    },
+    {
+      "id": "garigliano",
+      "name": "Garigliano"
+    }
+  ],
+  "features": [
+    "Lazio",
+    "Campania",
+    "Molise",
+    "Puglia",
+    "Basilicata",
+    "Calabria"
+  ],
+  "sourceIds": [
+    "data-terrain",
+    "data-istat",
+    "data-osm"
+  ],
+  "zoom": 10,
+  "grid": {
+    "width": 256,
+    "height": 255
+  },
+  "basis": [
+    "Campania"
+  ],
+  "built": "2026-11-03"
+}

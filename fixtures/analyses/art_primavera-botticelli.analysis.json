@@ -1,0 +1,158 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "literary": {
+      "isLiterary": false
+    },
+    "exercises": [
+      "Descrivi i gesti delle tre Grazie.",
+      "Perché si dice che il quadro si legge da destra a sinistra?"
+    ],
+    "illustrations": [
+      {
+        "kind": "photo",
+        "description": "Riproduzione della Primavera di Botticelli con i nove personaggi nel giardino.",
+        "labels": [
+          "Zefiro",
+          "Clori",
+          "Flora",
+          "Venere",
+          "Cupido",
+          "le tre Grazie",
+          "Mercurio"
+        ]
+      }
+    ],
+    "language": "it",
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        142
+      ]
+    },
+    "subject": "arte e immagine",
+    "topic": "La Primavera di Botticelli",
+    "gradeLevel": "scuola secondaria di primo grado",
+    "contentType": "explanation",
+    "summary": "La pagina presenta la Primavera di Sandro Botticelli, dipinta a tempera su tavola intorno al 1480 e oggi agli Uffizi di Firenze. Descrive i personaggi in un giardino di aranci, da Zefiro e Clori a Flora, Venere al centro, le tre Grazie e Mercurio, con Cupido in alto. Spiega la lettura da destra a sinistra e il significato legato all'amore e alla primavera.",
+    "concepts": [
+      "Rinascimento fiorentino",
+      "tempera su tavola",
+      "mitologia classica",
+      "lettura da destra a sinistra",
+      "composizione e ritmo delle figure",
+      "allegoria della primavera"
+    ],
+    "entities": [
+      {
+        "name": "Primavera",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "Sandro Botticelli",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "Galleria degli Uffizi",
+        "type": "place",
+        "onPage": true
+      },
+      {
+        "name": "Firenze",
+        "type": "place",
+        "onPage": true
+      },
+      {
+        "name": "data",
+        "type": "date",
+        "value": "intorno al 1480",
+        "onPage": true
+      },
+      {
+        "name": "Venere",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "Mercurio",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "Zefiro",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "Clori",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "Flora",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "le tre Grazie",
+        "type": "group",
+        "onPage": true
+      },
+      {
+        "name": "Cupido",
+        "type": "person",
+        "onPage": true
+      },
+      {
+        "name": "tempera su tavola",
+        "type": "term",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "La Primavera è un dipinto di Sandro Botticelli, eseguito a tempera su tavola intorno al 1480.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Oggi è conservata nella Galleria degli Uffizi, a Firenze.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "La scena si svolge in un giardino di aranci e il quadro si legge da destra a sinistra.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "A destra Zefiro, il vento di primavera, rapisce la ninfa Clori, che si trasforma in Flora.",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "Al centro c'è Venere e sopra di lei vola Cupido con l'arco.",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "A sinistra le tre Grazie danzano in cerchio e Mercurio scaccia le nuvole con il caduceo.",
+        "kind": "story_event",
+        "onPage": true
+      },
+      {
+        "text": "Il dipinto celebra l'amore e il rinnovarsi della natura in primavera.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "suggestedEngine": "art",
+    "engineReason": "La pagina è dedicata a un dipinto: si capisce guardando l'opera da vicino, figura per figura."
+  }
+}

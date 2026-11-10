@@ -1,0 +1,96 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=recettori&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-03T16:02:31.927Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 204479,
+     "ns": 0,
+     "title": "Dopamina",
+     "index": 4,
+     "extract": "La dopamina, più raramente nota come dopammina, è un neurotrasmettitore endogeno della famiglia delle catecolammine. All'interno del cervello questa feniletilammina funziona da neurotrasmettitore, tramite l'attivazione dei recettori dopaminergici specifici e subrecettori.\nLa dopamina è prodotta in diverse aree del cervello, tra cui la substantia nigra e l'area tegmentale ventrale (ATV). Grandi quantità si trovano nei gangli della base, soprattutto nel telencefalo, nel nucleus accumbens, nel tubercolo olfattorio, nel nucleo centrale dell'amigdala, nell'eminenza mediana e in alcune zone della corteccia frontale.\nLa dopamina è anche un \"neuro ormone\" rilasciato dall'ipotalamo. La sua principale funzione come ormone è quella di inibire il rilascio di prolattina da parte del lobo anteriore dell'ipofisi. A livello gastrointestinale il suo effetto principale è l'emesi.\nLa \"dopamina\" può essere fornita come un farmaco che agisce sul sistema nervoso simpatico, dando effetti come aumento della frequenza cardiaca e pressione del sangue.\nLa dopaminemia è la concentrazione di dopamina nel sangue (e.g., iper-dopaminemia).",
+     "pageprops": {
+      "wikibase_item": "Q170304"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:40Z",
+     "lastrevid": 152644608,
+     "length": 18033,
+     "fullurl": "https://it.wikipedia.org/wiki/Dopamina",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Dopamina&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Dopamina"
+    },
+    {
+     "pageid": 1447459,
+     "ns": 0,
+     "title": "Recettore (biochimica)",
+     "index": 2,
+     "extract": "In biochimica, per recettore s'intende una proteina cellulare in grado di riconoscere un agonista (endogeno o esogeno) come peptidi o ormoni o molecola gassosa, instaurare con esso un legame altamente specifico e dare inizio alla catena di eventi biochimici che determinano poi uno o più effetti biologici. I neurorecettori sono una classe specifica di recettori che consistono nell'insieme di proteine di membrana nel cervello che sono attivate dai neurotrasmettitori per fare comunicare le cellule nervose tra loro.\nEsistono diverse definizioni di recettore:\n\nin biologia e medicina, il termine \"recettore\" fa riferimento a qualsiasi struttura in grado di reagire a sollecitazioni specifiche, sviluppando una reazione caratteristica;\nin immunologia, un recettore è una struttura di membrana in grado di reagire con l'antigene;\nin farmacodinamica, il recettore è una macromolecola coinvolta nella trasmissione chimica dei segnali nella cellula, o fra una cellula e l'altra, che si può trovare sulla superficie della membrana cellulare o all'interno del citoplasma;\nin biologia molecolare, si tratta di particolari siti recettivi della membrana cellulare o delle strutture subcellulari, in grado di reagire specificamente;\nin neurofisiologia, il termine indica strutture nervose, morfologicamente ben definite e di varia complessità, capaci di ricevere gli stimoli provenienti dall'esterno o dall'interno dell'organismo, e di trasdurli in impulsi nervosi da inviare ai centri superiori.",
+     "pageprops": {
+      "wikibase_item": "Q208467"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:52Z",
+     "lastrevid": 152852754,
+     "length": 16888,
+     "fullurl": "https://it.wikipedia.org/wiki/Recettore_(biochimica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Recettore_(biochimica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Recettore_(biochimica)"
+    },
+    {
+     "pageid": 1466023,
+     "ns": 0,
+     "title": "Recettore adrenergico",
+     "index": 1,
+     "extract": "I recettori adrenergici sono recettori metabotropici di membrana che interagiscono con il neurotrasmettitore noradrenalina e la catecolamina adrenalina.\nAppartengono ai recettori accoppiati a proteine G.\nA seconda dell'accoppiamento, i recettori adrenergici sono classificati in α (alfa) e β (beta), a loro volta ripartiti in sottotipi: α1 e α2 e β1, β2 e β3.\n\nI recettori α1 sono accoppiati alla fosfolipasi C e producono i loro effetti principalmente grazie al rilascio di Ca2+ intracellulare;\nI recettori α2 sono accoppiati a una proteina Gi (proteina G inibitrice) la quale inibisce l'azione dell'adenilato ciclasi riducendo pertanto la formazione di cAMP, inibendo il passaggio di calcio all’interno della cellula.\nI recettori β1 sono accoppiati a proteine G stimolatrici (Gs) che innalzano il livello di cAMP attivando delle proteinchinasi che innalzano il livello di calcio intracellulare.\nI recettori β2 sono accoppiati a una proteina G stimolatrice e attivatrice della proteinchinasi A che riesce ad stimolare l'attività della fosfatasi della catena leggera della miosina (MLCP), generando così un rilassamento muscolare.",
+     "pageprops": {
+      "wikibase_item": "Q410568"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:53Z",
+     "lastrevid": 152895133,
+     "length": 46231,
+     "fullurl": "https://it.wikipedia.org/wiki/Recettore_adrenergico",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Recettore_adrenergico&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Recettore_adrenergico"
+    },
+    {
+     "pageid": 1481191,
+     "ns": 0,
+     "title": "Recettore muscarinico",
+     "index": 3,
+     "extract": "Il recettore muscarinico è un recettore transmembrana accoppiato a proteine G coinvolto nella trasmissione del segnale all'interno del sistema nervoso parasimpatico. Il loro ligando endogeno è costituito dall'acetilcolina e il loro agonista esogeno muscarina, un alcaloide contenuto nell'Amanita muscaria e in alcune altre specie di funghi velenosi (in particolare specie appartenenti ai generi Inocybe e Clitocybe). La molecola di acetilcolina attiva i recettori muscarinici, permettendo una reazione parasimpatica in tutti gli organi e tessuti in cui il recettore è espresso. I recettori nicotinici sono recettori ionotropici legati a ligando che rispondono anche all'acetilcolina, ma sono principalmente presenti nel sistema nervoso centrale. I recettori muscarinici sono coinvolti nella peristalsi, nella minzione, nella broncocostrizione e in diverse altre reazioni parasimpatiche. I recettori muscarinici sono un tipo di recettore accoppiato alle proteine G legate a ligando, che funzionano sia come proteine G regolatorie simulative (Gs) che come proteine G regolatorie inibitorie (Gi). La stimolazione dell'acetilcolina attiva la proteina Gq per attivare la PLC e il Ca2+. Esistono cinque diversi sottotipi di recettori che, quando disfunzionali o sovra-stimolati, possono essere bersaglio di vari farmaci agonisti ed antagonisti.\nL'unica eccezione a questi recettori sono le ghiandole sudoripare, che possiedono recettori colinergici muscarinici ma fanno parte del sistema nervoso simpatico.",
+     "pageprops": {
+      "wikibase_item": "Q410959"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:54Z",
+     "lastrevid": 152407681,
+     "length": 81285,
+     "fullurl": "https://it.wikipedia.org/wiki/Recettore_muscarinico",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Recettore_muscarinico&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Recettore_muscarinico"
+    }
+   ]
+  }
+ }
+}

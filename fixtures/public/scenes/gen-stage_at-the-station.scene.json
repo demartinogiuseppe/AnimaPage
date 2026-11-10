@@ -1,0 +1,1040 @@
+{
+  "version": "0.1",
+  "title": "At the station: buying a ticket",
+  "page": {
+    "subject": "inglese",
+    "topic": "At the station: buying a ticket",
+    "bookPage": "64",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "chapters": [
+    {
+      "id": "biglietto",
+      "title": "Un biglietto per Oxford",
+      "chip": "Biglietto",
+      "kind": "mixed",
+      "duration": 32,
+      "narration": [
+        {
+          "at": 3.2,
+          "text": "Siamo alla biglietteria di una stazione inglese: Emma vuole andare a Oxford.",
+          "highlight": [
+            "emma",
+            "insegna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 9,
+          "text": "Hello. A return ticket to Oxford, please.",
+          "speaker": "emma",
+          "highlight": [
+            "emma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12.5,
+          "text": "Emma chiede un biglietto di andata e ritorno per Oxford: «return ticket».",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 17.8,
+          "text": "That's twelve pounds fifty, please.",
+          "speaker": "clerk",
+          "highlight": [
+            "clerk"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20.6,
+          "text": "L'impiegato dice il prezzo: dodici sterline e cinquanta, scritto £12.50.",
+          "speech": "L'impiegato dice il prezzo: dodici sterline e cinquanta.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 25.6,
+          "text": "«Please» vuol dire «per favore»: lo usano entrambi, per essere gentili.",
+          "highlight": [
+            "emma",
+            "clerk"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 12.5,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 8,
+          "target": {
+            "pos": [
+              0.25,
+              1,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": -8,
+          "elevation": 12
+        },
+        {
+          "at": 18,
+          "target": {
+            "pos": [
+              0.5,
+              1,
+              -0.3
+            ]
+          },
+          "distance": 8.5,
+          "azimuth": 8,
+          "elevation": 13
+        }
+      ],
+      "pins": [
+        {
+          "id": "emma",
+          "name": "Emma",
+          "sub": "viaggiatrice",
+          "info": "Emma compra un biglietto per Oxford.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "emma.top"
+          },
+          "visible": [
+            [
+              4,
+              32
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "clerk",
+          "name": "Ticket clerk",
+          "sub": "impiegato della biglietteria",
+          "info": "Vende i biglietti dietro lo sportello.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "clerk.top"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "insegna",
+          "name": "Tickets",
+          "sub": "biglietti",
+          "info": "«Tickets» indica la biglietteria.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "insegna-tickets"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "«Pounds» sono le sterline, la moneta inglese: «twelve pounds fifty» si scrive £12.50.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cos'è un «return ticket»?",
+          "options": [
+            "Un biglietto di sola andata",
+            "Un biglietto scontato",
+            "Un biglietto di andata e ritorno"
+          ],
+          "answer": 2,
+          "explain": "La pagina spiega che return ticket è il biglietto di andata e ritorno."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca chi vende il biglietto.",
+          "answerPins": [
+            "clerk"
+          ],
+          "explain": "È il ticket clerk, l'impiegato della biglietteria."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "crowd",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 1.5,
+            "sound": "footsteps",
+            "volume": 0.4
+          },
+          {
+            "at": 18,
+            "sound": "coins",
+            "volume": 0.5
+          },
+          {
+            "at": 21,
+            "sound": "chime",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "Buying a ticket",
+        "formula": "A return ticket to Oxford, please.",
+        "lines": [
+          "return ticket = andata e ritorno",
+          "please = per favore",
+          "Prezzo: £12.50"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Emma vuole andare a Oxford e poi tornare. Che biglietto chiede?",
+          "options": [
+            "A single ticket",
+            "A return ticket",
+            "A platform ticket"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Ascolta Emma: quale parola indica andata e ritorno?"
+        },
+        "prove": {
+          "text": "Emma chiede «a return ticket»: return vuol dire ritorno, quindi il biglietto vale per andare e tornare.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Viaggiatore esperto"
+      }
+    },
+    {
+      "id": "binario-orario",
+      "title": "Binario e orario",
+      "chip": "Binario",
+      "kind": "mixed",
+      "duration": 28.5,
+      "narration": [
+        {
+          "at": 3.2,
+          "text": "Ora Emma vuole sapere da quale binario parte il treno.",
+          "highlight": [
+            "emma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8.6,
+          "text": "Which platform is it?",
+          "speaker": "emma",
+          "highlight": [
+            "emma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Platform 4.",
+          "speech": "Platform four.",
+          "speaker": "clerk",
+          "highlight": [
+            "clerk",
+            "binario"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12.6,
+          "text": "«Platform» vuol dire «binario»: il treno parte dal binario 4.",
+          "speech": "«Platform» vuol dire «binario»: il treno parte dal binario quattro.",
+          "highlight": [
+            "binario"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 17,
+          "text": "What time does the train leave?",
+          "speaker": "emma",
+          "highlight": [
+            "emma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "At ten fifteen.",
+          "speaker": "clerk",
+          "highlight": [
+            "clerk",
+            "tabellone"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 22,
+          "text": "Il treno parte alle 10:15, cioè alle dieci e un quarto.",
+          "speech": "Il treno parte alle dieci e quindici, cioè alle dieci e un quarto.",
+          "highlight": [
+            "tabellone"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0.25,
+              1,
+              0
+            ]
+          },
+          "distance": 9.5,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 10,
+          "target": {
+            "pos": [
+              -1,
+              1.4,
+              -0.6
+            ]
+          },
+          "distance": 9,
+          "azimuth": -12,
+          "elevation": 12
+        },
+        {
+          "at": 17,
+          "target": {
+            "pos": [
+              0.25,
+              1,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 6,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "emma",
+          "name": "Emma",
+          "sub": "viaggiatrice",
+          "info": "Chiede binario e orario.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "emma.top"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "clerk",
+          "name": "Ticket clerk",
+          "sub": "impiegato",
+          "info": "Risponde alle domande di Emma.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "clerk.top"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "binario",
+          "name": "Platform 4",
+          "sub": "binario 4",
+          "info": "Il binario da cui parte il treno per Oxford.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "cartello-binario"
+          },
+          "visible": [
+            [
+              11,
+              28.5
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "tabellone",
+          "name": "Oxford 10:15",
+          "sub": "orario di partenza",
+          "info": "Il tabellone indica il treno per Oxford delle 10:15.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "tabellone"
+          },
+          "visible": [
+            [
+              20,
+              28.5
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "«What time does the train leave?» usa «does» perché il soggetto, the train, è terza persona singolare.",
+          "sourceIds": []
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come si chiede a che ora parte il treno?",
+          "options": [
+            "Which platform is it?",
+            "What time does the train leave?",
+            "How much is the train?"
+          ],
+          "answer": 1,
+          "explain": "Per l'orario la pagina indica «What time does the train leave?»."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il cartello del binario.",
+          "answerPins": [
+            "binario"
+          ],
+          "explain": "«Platform 4» vuol dire binario 4."
+        }
+      ],
+      "status": [
+        {
+          "from": 20,
+          "to": 27,
+          "text": "Oxford 10:15"
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "crowd",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 11,
+            "sound": "chime",
+            "volume": 0.4
+          },
+          {
+            "at": 20,
+            "sound": "bell",
+            "volume": 0.4
+          },
+          {
+            "at": 24,
+            "sound": "whistle",
+            "volume": 0.3
+          }
+        ]
+      },
+      "book": {
+        "heading": "Platform and time",
+        "formula": "Which platform? What time does the train leave?",
+        "lines": [
+          "platform = binario",
+          "Platform 4 = binario 4",
+          "At ten fifteen = alle 10:15"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Per sapere il binario, che cosa chiede Emma?",
+          "options": [
+            "Which platform is it?",
+            "How much is it?",
+            "Where is Oxford?"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Guarda il tabellone a sinistra mentre l'impiegato risponde. Prova tu: abbassa le luci e segui il riflettore su chi parla.",
+          "params": [
+            "luci"
+          ]
+        },
+        "prove": {
+          "text": "«Which platform?» chiede quale binario; la risposta «Platform 4» corrisponde al cartello in scena.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Re dei binari"
+      }
+    },
+    {
+      "id": "saluti-roleplay",
+      "title": "Grazie e tocca a te",
+      "chip": "Role-play",
+      "kind": "mixed",
+      "duration": 25.5,
+      "narration": [
+        {
+          "at": 3.2,
+          "text": "Thank you very much.",
+          "speaker": "emma",
+          "highlight": [
+            "emma"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 5.6,
+          "text": "You're welcome. Have a nice trip!",
+          "speaker": "clerk",
+          "highlight": [
+            "clerk"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8.6,
+          "text": "Emma ringrazia; l'impiegato risponde «prego» e le augura buon viaggio.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13.4,
+          "text": "Ricorda: «single ticket» è solo andata, «return ticket» è andata e ritorno.",
+          "highlight": [
+            "insegna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 18.6,
+          "text": "Ora tocca a te: compra un biglietto per London, single o return.",
+          "highlight": [
+            "clerk"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0.25,
+              1,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 9,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 12,
+          "azimuth": -6,
+          "elevation": 13
+        },
+        {
+          "at": 18,
+          "target": {
+            "pos": [
+              0.25,
+              1,
+              0
+            ]
+          },
+          "distance": 9.5,
+          "azimuth": 8,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "emma",
+          "name": "Emma",
+          "sub": "viaggiatrice",
+          "info": "Ringrazia e parte per Oxford.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "emma.top"
+          },
+          "visible": [
+            [
+              0,
+              10
+            ],
+            [
+              16,
+              25.5
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "clerk",
+          "name": "Ticket clerk",
+          "sub": "impiegato",
+          "info": "Augura buon viaggio: «Have a nice trip!».",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "clerk.top"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "insegna",
+          "name": "Tickets",
+          "sub": "biglietti",
+          "info": "Single = sola andata; return = andata e ritorno.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "insegna-tickets"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Nel role-play della pagina cambi la destinazione: «A single ticket to London, please» oppure «A return ticket to London, please».",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Abbina: «Have a nice trip!» vuol dire...",
+          "options": [
+            "Buon viaggio!",
+            "Che ore sono?",
+            "Quanto costa?"
+          ],
+          "answer": 0,
+          "explain": "L'impiegato augura a Emma un buon viaggio."
+        },
+        {
+          "type": "choice",
+          "q": "Vuoi andare a London senza tornare. Che biglietto chiedi?",
+          "options": [
+            "A return ticket",
+            "A single ticket",
+            "A platform ticket"
+          ],
+          "answer": 1,
+          "explain": "Single ticket è il biglietto di sola andata."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "crowd",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 9,
+            "sound": "footsteps",
+            "volume": 0.4
+          },
+          {
+            "at": 13.4,
+            "sound": "page-turn",
+            "volume": 0.4
+          },
+          {
+            "at": 23,
+            "sound": "applause",
+            "volume": 0.5
+          }
+        ]
+      },
+      "book": {
+        "heading": "Polite words",
+        "formula": "single ≠ return",
+        "lines": [
+          "Thank you very much = grazie mille",
+          "You're welcome = prego",
+          "Have a nice trip! = buon viaggio!",
+          "Role-play: un biglietto per London"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Emma dice «Thank you very much». Che cosa risponde l'impiegato?",
+          "options": [
+            "Please.",
+            "Platform 4.",
+            "You're welcome."
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Ripeti le battute di Emma, poi fai tu la parte del cliente per London. Prova tu: cambia la distanza tra i personaggi.",
+          "params": [
+            "spazio"
+          ]
+        },
+        "prove": {
+          "text": "«You're welcome» è la risposta cortese a «thank you», come il nostro «prego».",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Campione di cortesia"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Pagina del libro, p. 64: At the station: buying a ticket"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Ricostruzione semplificata: la stazione, i cartelli e i movimenti sul palco sono creati per l'animazione.",
+    "Le battute in inglese sono lette dalla voce sintetica del dispositivo: la pronuncia può non essere perfetta.",
+    "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro."
+  ],
+  "music": {
+    "track": "music-calm",
+    "volume": 0.5
+  },
+  "voices": [
+    {
+      "id": "emma",
+      "name": "Emma",
+      "prefer": "female",
+      "lang": "en-GB",
+      "pitch": 1.15,
+      "rate": 0.9
+    },
+    {
+      "id": "clerk",
+      "name": "Ticket clerk",
+      "prefer": "male",
+      "lang": "en-GB",
+      "pitch": 0.95,
+      "rate": 0.9
+    }
+  ],
+  "style": "color",
+  "engine": "stage",
+  "engineData": {
+    "set": {
+      "backdrop": "piazza",
+      "size": [
+        7,
+        4.5
+      ]
+    },
+    "characters": [
+      {
+        "id": "emma",
+        "model": "girl",
+        "pos": [
+          -0.4,
+          0.7
+        ],
+        "facing": 30
+      },
+      {
+        "id": "clerk",
+        "model": "man-d",
+        "pos": [
+          0.9,
+          -0.9
+        ]
+      }
+    ],
+    "props": [
+      {
+        "id": "bancone",
+        "model": "bar-counter",
+        "pos": [
+          0.9,
+          0,
+          -0.2
+        ],
+        "scale": 1.3
+      },
+      {
+        "id": "insegna-tickets",
+        "model": {
+          "shape": "text",
+          "text": "TICKETS",
+          "color": "#1f4e8c",
+          "height": 0.3,
+          "plate": "#f6f1e6"
+        },
+        "pos": [
+          0.9,
+          2.3,
+          -1.5
+        ]
+      },
+      {
+        "id": "cartello-binario",
+        "model": {
+          "shape": "text",
+          "text": "PLATFORM 4",
+          "color": "#ffffff",
+          "height": 0.28,
+          "plate": "#2e7d46"
+        },
+        "pos": [
+          -2.2,
+          2.2,
+          -1.5
+        ]
+      },
+      {
+        "id": "tabellone",
+        "model": {
+          "shape": "text",
+          "text": "OXFORD 10:15",
+          "color": "#ffd23f",
+          "height": 0.26,
+          "plate": "#222222"
+        },
+        "pos": [
+          -2.2,
+          1.6,
+          -1.5
+        ]
+      },
+      {
+        "id": "panchina",
+        "model": "bench",
+        "pos": [
+          -2.4,
+          0,
+          0.4
+        ],
+        "scale": 2
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "biglietto",
+        "blocking": [
+          {
+            "do": "enter",
+            "who": "emma",
+            "at": 1.5,
+            "to": [
+              -0.4,
+              0.7
+            ],
+            "side": "left",
+            "dur": 3
+          },
+          {
+            "do": "gesture",
+            "who": "emma",
+            "at": 9,
+            "clip": "interact-right",
+            "dur": 1.4
+          },
+          {
+            "do": "gesture",
+            "who": "clerk",
+            "at": 17.8,
+            "clip": "interact-right",
+            "dur": 1.4
+          }
+        ]
+      },
+      {
+        "chapter": "binario-orario",
+        "blocking": [
+          {
+            "do": "gesture",
+            "who": "clerk",
+            "at": 11,
+            "clip": "interact-right",
+            "dur": 1.4
+          },
+          {
+            "do": "gesture",
+            "who": "emma",
+            "at": 13,
+            "clip": "emote-yes",
+            "dur": 1.3
+          },
+          {
+            "do": "gesture",
+            "who": "emma",
+            "at": 22.5,
+            "clip": "emote-yes",
+            "dur": 1.3
+          }
+        ],
+        "params": [
+          {
+            "id": "luci",
+            "kind": "lights",
+            "label": "Luci in sala",
+            "min": 0.1,
+            "max": 1,
+            "step": 0.1,
+            "value": 1
+          }
+        ]
+      },
+      {
+        "chapter": "saluti-roleplay",
+        "blocking": [
+          {
+            "do": "gesture",
+            "who": "clerk",
+            "at": 5.6,
+            "clip": "interact-right",
+            "dur": 1.4
+          },
+          {
+            "do": "exit",
+            "who": "emma",
+            "at": 9,
+            "side": "left",
+            "dur": 3
+          },
+          {
+            "do": "enter",
+            "who": "emma",
+            "at": 14,
+            "to": [
+              -0.4,
+              0.7
+            ],
+            "side": "left",
+            "dur": 3
+          }
+        ],
+        "params": [
+          {
+            "id": "spazio",
+            "kind": "spacing",
+            "label": "Distanza tra i personaggi",
+            "min": 0.7,
+            "max": 1.5,
+            "step": 0.1,
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  "audience": "teen"
+}

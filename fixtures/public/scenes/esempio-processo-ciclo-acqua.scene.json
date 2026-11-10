@@ -1,0 +1,1979 @@
+{
+  "version": "0.1",
+  "engine": "process",
+  "title": "Il ciclo dell'acqua",
+  "page": {
+    "subject": "Scienze",
+    "topic": "L'idrosfera: il ciclo dell'acqua",
+    "language": "it"
+  },
+  "kind": "science",
+  "music": {
+    "track": "music-curious",
+    "volume": 0.6
+  },
+  "engineData": {
+    "parts": [
+      {
+        "id": "mare",
+        "shape": "box",
+        "size": [
+          9,
+          1.2,
+          4
+        ],
+        "pos": [
+          -5.5,
+          -4.4,
+          0
+        ],
+        "color": "#3b82c4",
+        "label": [
+          0,
+          0.6,
+          1
+        ]
+      },
+      {
+        "id": "terra",
+        "shape": "layers",
+        "width": 11,
+        "depth": 4,
+        "pos": [
+          5,
+          -4.6,
+          0
+        ],
+        "layers": [
+          {
+            "id": "suolo",
+            "thickness": 0.8,
+            "color": "#8a6a45"
+          },
+          {
+            "id": "falda",
+            "thickness": 0.7,
+            "color": "#4f8fc4"
+          },
+          {
+            "id": "roccia",
+            "thickness": 1,
+            "color": "#8d8a86"
+          }
+        ]
+      },
+      {
+        "id": "montagna",
+        "shape": "cylinder",
+        "radius": 3,
+        "radiusTop": 0,
+        "height": 5,
+        "pos": [
+          6,
+          -0.85,
+          0
+        ],
+        "color": "#7f8f6a",
+        "label": [
+          -1.2,
+          0.6,
+          0
+        ]
+      },
+      {
+        "id": "neve-cima",
+        "shape": "cylinder",
+        "radius": 0.9,
+        "radiusTop": 0,
+        "height": 1.5,
+        "pos": [
+          6,
+          0.9,
+          0
+        ],
+        "color": "#f7f9fb"
+      },
+      {
+        "id": "sole",
+        "shape": "sphere",
+        "radius": 1.2,
+        "pos": [
+          -7.5,
+          6,
+          0
+        ],
+        "color": "#f5c542",
+        "label": [
+          0,
+          -1.2,
+          0
+        ]
+      },
+      {
+        "id": "aria-calda",
+        "shape": "arrow",
+        "from": [
+          -3.6,
+          -2.6,
+          0.6
+        ],
+        "to": [
+          -3.6,
+          1.8,
+          0.6
+        ],
+        "radius": 0.12,
+        "color": "#e8743a",
+        "label": [
+          -3.6,
+          0,
+          0.6
+        ]
+      },
+      {
+        "id": "aria-fredda",
+        "shape": "box",
+        "size": [
+          20,
+          2.4,
+          0.2
+        ],
+        "pos": [
+          0,
+          4.6,
+          -1.6
+        ],
+        "color": "#a9cdee",
+        "opacity": 0.25,
+        "label": [
+          -8,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "nuvola",
+        "shape": "blob",
+        "radius": 1.4,
+        "bumps": 0.7,
+        "seed": 5,
+        "pos": [
+          -1,
+          4.4,
+          0
+        ],
+        "scale": [
+          2,
+          0.85,
+          1
+        ],
+        "color": "#f4f6f8"
+      },
+      {
+        "id": "goccioline",
+        "shape": "dots",
+        "size": [
+          4.6,
+          1.4,
+          1.4
+        ],
+        "count": 70,
+        "radius": 0.07,
+        "seed": 2,
+        "pos": [
+          -1,
+          4.4,
+          0.4
+        ],
+        "color": "#7fb4e6"
+      },
+      {
+        "id": "nuvola-pioggia",
+        "shape": "blob",
+        "radius": 1.4,
+        "bumps": 0.7,
+        "seed": 9,
+        "pos": [
+          4.5,
+          4.4,
+          0
+        ],
+        "scale": [
+          2,
+          0.85,
+          1
+        ],
+        "color": "#9aa5b1"
+      },
+      {
+        "id": "fiume",
+        "shape": "tube",
+        "radius": 0.18,
+        "color": "#4a90d9",
+        "path": [
+          [
+            4.6,
+            -1.6,
+            1.2
+          ],
+          [
+            3.4,
+            -2.9,
+            1.3
+          ],
+          [
+            1.2,
+            -3.3,
+            1.4
+          ],
+          [
+            -1.4,
+            -3.75,
+            1.5
+          ]
+        ],
+        "label": [
+          2.4,
+          -3.1,
+          1.4
+        ]
+      },
+      {
+        "id": "freccia-su",
+        "shape": "arrow",
+        "from": [
+          -6,
+          -2.8,
+          1.6
+        ],
+        "to": [
+          -3.4,
+          3,
+          1.6
+        ],
+        "radius": 0.16,
+        "color": "#e8743a",
+        "label": [
+          -4.7,
+          0.1,
+          1.6
+        ]
+      },
+      {
+        "id": "freccia-vento",
+        "shape": "arrow",
+        "from": [
+          -0.5,
+          6.6,
+          1.6
+        ],
+        "to": [
+          4,
+          6.6,
+          1.6
+        ],
+        "radius": 0.16,
+        "color": "#8a96a3",
+        "label": [
+          1.75,
+          6.6,
+          1.6
+        ]
+      },
+      {
+        "id": "freccia-giu",
+        "shape": "arrow",
+        "from": [
+          6.5,
+          3.4,
+          1.6
+        ],
+        "to": [
+          6.5,
+          0.8,
+          1.6
+        ],
+        "radius": 0.16,
+        "color": "#2f6fb0",
+        "label": [
+          6.5,
+          2.1,
+          1.6
+        ]
+      },
+      {
+        "id": "freccia-ritorno",
+        "shape": "arrow",
+        "from": [
+          3,
+          -2.6,
+          1.8
+        ],
+        "to": [
+          -2.5,
+          -3.2,
+          1.8
+        ],
+        "radius": 0.16,
+        "color": "#2f6fb0",
+        "label": [
+          0.2,
+          -2.9,
+          1.8
+        ]
+      }
+    ],
+    "flows": [
+      {
+        "id": "vapore",
+        "path": [
+          [
+            -6.5,
+            -3.7,
+            0.3
+          ],
+          [
+            -5.2,
+            -0.5,
+            0.3
+          ],
+          [
+            -2.6,
+            3.6,
+            0.3
+          ]
+        ],
+        "color": "#e6eef6",
+        "count": 40,
+        "speed": 1.2,
+        "size": 0.11,
+        "spread": 0.9,
+        "seed": 3
+      },
+      {
+        "id": "pioggia",
+        "path": [
+          [
+            4.2,
+            3.6,
+            0.6
+          ],
+          [
+            4.2,
+            -2.9,
+            0.6
+          ]
+        ],
+        "color": "#5aa0e0",
+        "count": 70,
+        "speed": 4.5,
+        "size": 0.06,
+        "spread": 1.6,
+        "seed": 4
+      },
+      {
+        "id": "neve",
+        "path": [
+          [
+            6.4,
+            3.6,
+            0.4
+          ],
+          [
+            6.1,
+            1.4,
+            0.4
+          ]
+        ],
+        "color": "#ffffff",
+        "count": 30,
+        "speed": 0.9,
+        "size": 0.09,
+        "spread": 0.7,
+        "seed": 6
+      },
+      {
+        "id": "acqua-fiume",
+        "along": "fiume",
+        "color": "#cfe7ff",
+        "count": 30,
+        "speed": 1.4,
+        "size": 0.09
+      },
+      {
+        "id": "infiltrazione",
+        "path": [
+          [
+            8,
+            -3.4,
+            1.9
+          ],
+          [
+            8,
+            -4.4,
+            1.9
+          ],
+          [
+            4,
+            -4.55,
+            1.9
+          ],
+          [
+            -0.8,
+            -4.6,
+            1.9
+          ]
+        ],
+        "color": "#1f5f9f",
+        "count": 24,
+        "speed": 0.6,
+        "size": 0.09,
+        "seed": 7
+      }
+    ],
+    "rays": [
+      {
+        "id": "calore-1",
+        "path": [
+          [
+            -7.1,
+            4.9,
+            0
+          ],
+          [
+            -7.6,
+            -3.7,
+            0
+          ]
+        ],
+        "color": "#f5a623",
+        "width": 0.035,
+        "speed": 5,
+        "photons": 2
+      },
+      {
+        "id": "calore-2",
+        "path": [
+          [
+            -6.6,
+            5.1,
+            0
+          ],
+          [
+            -5,
+            -3.7,
+            0
+          ]
+        ],
+        "color": "#f5a623",
+        "width": 0.035,
+        "speed": 5,
+        "photons": 2
+      },
+      {
+        "id": "calore-3",
+        "path": [
+          [
+            -8,
+            5,
+            0
+          ],
+          [
+            -9.5,
+            -3.7,
+            0
+          ]
+        ],
+        "color": "#f5a623",
+        "width": 0.035,
+        "speed": 5,
+        "photons": 2
+      }
+    ],
+    "waves": [],
+    "chapters": [
+      {
+        "chapter": "evaporazione",
+        "items": [
+          {
+            "id": "mare"
+          },
+          {
+            "id": "terra"
+          },
+          {
+            "id": "montagna"
+          },
+          {
+            "id": "neve-cima"
+          },
+          {
+            "id": "sole",
+            "glow": [
+              [
+                11,
+                14.3
+              ]
+            ]
+          },
+          {
+            "id": "calore-1",
+            "at": 11
+          },
+          {
+            "id": "calore-2",
+            "at": 11.3
+          },
+          {
+            "id": "calore-3",
+            "at": 11.6
+          },
+          {
+            "id": "vapore",
+            "at": 14.3
+          },
+          {
+            "id": "aria-calda",
+            "at": 24.1,
+            "glow": [
+              [
+                24.1,
+                29.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "condensazione",
+        "items": [
+          {
+            "id": "mare"
+          },
+          {
+            "id": "terra"
+          },
+          {
+            "id": "montagna"
+          },
+          {
+            "id": "neve-cima"
+          },
+          {
+            "id": "sole"
+          },
+          {
+            "id": "vapore"
+          },
+          {
+            "id": "aria-fredda",
+            "glow": [
+              [
+                0,
+                3.3
+              ]
+            ]
+          },
+          {
+            "id": "goccioline",
+            "at": 3.3,
+            "glow": [
+              [
+                3.3,
+                13.4
+              ]
+            ]
+          },
+          {
+            "id": "nuvola",
+            "at": 13.4,
+            "glow": [
+              [
+                13.4,
+                17.4
+              ]
+            ]
+          },
+          {
+            "id": "freccia-vento",
+            "at": 17.4,
+            "glow": [
+              [
+                17.4,
+                23.3
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "chapter": "precipitazione",
+        "items": [
+          {
+            "id": "mare"
+          },
+          {
+            "id": "terra"
+          },
+          {
+            "id": "montagna"
+          },
+          {
+            "id": "neve-cima"
+          },
+          {
+            "id": "sole"
+          },
+          {
+            "id": "nuvola-pioggia",
+            "glow": [
+              [
+                0,
+                5.5
+              ]
+            ]
+          },
+          {
+            "id": "pioggia",
+            "at": 5.5
+          },
+          {
+            "id": "neve",
+            "at": 10.7
+          },
+          {
+            "id": "fiume",
+            "at": 17,
+            "glow": [
+              [
+                17,
+                22.3
+              ]
+            ]
+          },
+          {
+            "id": "acqua-fiume",
+            "at": 17
+          },
+          {
+            "id": "falda",
+            "glow": [
+              [
+                22.3,
+                27.8
+              ]
+            ]
+          },
+          {
+            "id": "infiltrazione",
+            "at": 22.3
+          }
+        ]
+      },
+      {
+        "chapter": "ciclo",
+        "items": [
+          {
+            "id": "mare"
+          },
+          {
+            "id": "terra"
+          },
+          {
+            "id": "montagna"
+          },
+          {
+            "id": "neve-cima"
+          },
+          {
+            "id": "sole"
+          },
+          {
+            "id": "vapore"
+          },
+          {
+            "id": "nuvola"
+          },
+          {
+            "id": "nuvola-pioggia"
+          },
+          {
+            "id": "pioggia"
+          },
+          {
+            "id": "fiume"
+          },
+          {
+            "id": "acqua-fiume"
+          },
+          {
+            "id": "infiltrazione"
+          },
+          {
+            "id": "freccia-su",
+            "at": 3.3,
+            "glow": [
+              [
+                3.3,
+                7.4
+              ]
+            ]
+          },
+          {
+            "id": "freccia-vento",
+            "at": 7.4,
+            "glow": [
+              [
+                7.4,
+                12.3
+              ]
+            ]
+          },
+          {
+            "id": "freccia-giu",
+            "at": 12.3,
+            "glow": [
+              [
+                12.3,
+                15.6
+              ]
+            ]
+          },
+          {
+            "id": "freccia-ritorno",
+            "at": 15.6,
+            "glow": [
+              [
+                15.6,
+                20.4
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "evaporazione",
+      "title": "Il Sole scalda il mare",
+      "chip": "Evaporazione",
+      "book": {
+        "heading": "L'evaporazione",
+        "formula": "acqua liquida + calore → vapore",
+        "lines": [
+          "Il Sole scalda il mare, i laghi e i fiumi.",
+          "Una parte dell'acqua diventa vapore, un gas invisibile.",
+          "L'aria calda sale e porta il vapore in alto."
+        ],
+        "sourceIds": [
+          "page",
+          "w-evaporazione"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Che cosa fa il Sole all'acqua del mare?",
+          "options": [
+            "La fa gelare",
+            "Ne trasforma una parte in vapore",
+            "La rende più salata e basta"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda i raggi del Sole che arrivano sul mare: che cosa comincia a salire?"
+        },
+        "prove": {
+          "text": "Con il calore del Sole una parte dell'acqua evapora: diventa vapore e sale con l'aria calda.",
+          "sourceIds": [
+            "page",
+            "w-evaporazione"
+          ]
+        },
+        "stamp": "Cacciatore di vapore"
+      },
+      "kind": "science",
+      "duration": 37.5,
+      "narration": [
+        {
+          "at": 0,
+          "text": "L'acqua della Terra non sta mai ferma: si muove in un grande giro che non finisce mai.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "w-ciclo"
+          ]
+        },
+        {
+          "at": 6.4,
+          "text": "Questo giro si chiama ciclo dell'acqua. Comincia dal mare.",
+          "highlight": [
+            "mare"
+          ],
+          "sourceIds": [
+            "page",
+            "w-ciclo"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Il Sole scalda la superficie del mare.",
+          "highlight": [
+            "sole",
+            "mare"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 14.3,
+          "text": "Con il calore una parte dell'acqua diventa vapore: un gas invisibile.",
+          "highlight": [
+            "vapore"
+          ],
+          "sourceIds": [
+            "page",
+            "w-evaporazione"
+          ]
+        },
+        {
+          "at": 19.6,
+          "text": "Questo passaggio da liquido a gas si chiama evaporazione.",
+          "highlight": [
+            "vapore"
+          ],
+          "sourceIds": [
+            "page",
+            "w-evaporazione"
+          ]
+        },
+        {
+          "at": 24.1,
+          "text": "L'aria calda, più leggera, sale verso l'alto e porta con sé il vapore.",
+          "highlight": [
+            "aria-calda"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 29.5,
+          "text": "Evapora anche l'acqua dei laghi, dei fiumi e quella che esce dalle foglie delle piante.",
+          "highlight": [],
+          "sourceIds": [
+            "w-ciclo"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 8
+        },
+        {
+          "at": 11,
+          "target": {
+            "pos": [
+              -6,
+              0.5,
+              0
+            ]
+          },
+          "distance": 15,
+          "azimuth": -10,
+          "elevation": 6
+        },
+        {
+          "at": 24.1,
+          "target": {
+            "entity": "part",
+            "part": "aria-calda"
+          },
+          "distance": 12,
+          "azimuth": 10,
+          "elevation": 6
+        }
+      ],
+      "pins": [
+        {
+          "id": "mare",
+          "name": "mare",
+          "info": "Contiene quasi tutta l'acqua della Terra: circa il 97% è acqua salata di mari e oceani.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "mare"
+          },
+          "sourceIds": [
+            "w-ciclo"
+          ]
+        },
+        {
+          "id": "sole",
+          "name": "Sole",
+          "info": "Con il suo calore fa partire il ciclo dell'acqua.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "sole"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "vapore",
+          "name": "vapore acqueo",
+          "info": "Acqua diventata gas: non si vede, ma è nell'aria.",
+          "kind": "object",
+          "anchor": {
+            "entity": "flow",
+            "part": "vapore",
+            "index": 40
+          },
+          "visible": [
+            [
+              14.3,
+              37.5
+            ]
+          ],
+          "sourceIds": [
+            "page",
+            "w-evaporazione"
+          ]
+        },
+        {
+          "id": "aria-calda",
+          "name": "aria calda",
+          "info": "L'aria scaldata è più leggera e sale verso l'alto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "aria-calda"
+          },
+          "visible": [
+            [
+              24.1,
+              37.5
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il vapore acqueo è invisibile: la «nebbiolina» che vedi sopra una pentola che bolle è già fatta di goccioline minuscole.",
+          "sourceIds": [
+            "w-evaporazione"
+          ]
+        },
+        {
+          "text": "Quando il mare evapora il sale resta nell'acqua: per questo la pioggia è acqua dolce.",
+          "sourceIds": [
+            "w-ciclo"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come si chiama il passaggio dell'acqua da liquido a vapore?",
+          "options": [
+            "Condensazione",
+            "Evaporazione",
+            "Precipitazione"
+          ],
+          "answer": 1,
+          "explain": "È l'evaporazione: con il calore l'acqua liquida diventa gas."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca quello che fornisce il calore per l'evaporazione.",
+          "answerPins": [
+            "sole"
+          ],
+          "explain": "È il Sole: scalda il mare e fa evaporare l'acqua."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "sea",
+            "volume": 0.4
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "whoosh-soft",
+            "volume": 0.5
+          },
+          {
+            "at": 11,
+            "sound": "chime",
+            "volume": 0.4
+          },
+          {
+            "at": 14.3,
+            "sound": "sparkle",
+            "volume": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "condensazione",
+      "title": "Nascono le nuvole",
+      "chip": "Condensazione",
+      "book": {
+        "heading": "La condensazione",
+        "formula": "vapore + freddo → goccioline",
+        "lines": [
+          "In alto l'aria è più fredda.",
+          "Il vapore si raffredda e diventa goccioline.",
+          "Tante goccioline insieme formano le nuvole."
+        ],
+        "sourceIds": [
+          "page",
+          "w-condensazione"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Di che cosa è fatta una nuvola?",
+          "options": [
+            "Di fumo",
+            "Di goccioline d'acqua o di cristalli di ghiaccio",
+            "Di vapore invisibile"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda che cosa succede al vapore quando arriva nella fascia d'aria fredda."
+        },
+        "prove": {
+          "text": "Al freddo il vapore condensa in goccioline minuscole: è così che nasce una nuvola.",
+          "sourceIds": [
+            "page",
+            "w-nube"
+          ]
+        },
+        "stamp": "Costruttore di nuvole"
+      },
+      "kind": "science",
+      "duration": 23.3,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Più si sale, più l'aria è fredda.",
+          "highlight": [
+            "aria-fredda"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.3,
+          "text": "Lassù il vapore si raffredda e torna liquido, in goccioline piccolissime.",
+          "highlight": [
+            "goccioline"
+          ],
+          "sourceIds": [
+            "page",
+            "w-condensazione"
+          ]
+        },
+        {
+          "at": 8.9,
+          "text": "Questo passaggio da gas a liquido si chiama condensazione.",
+          "highlight": [
+            "goccioline"
+          ],
+          "sourceIds": [
+            "page",
+            "w-condensazione"
+          ]
+        },
+        {
+          "at": 13.4,
+          "text": "Miliardi di goccioline vicine formano una nuvola.",
+          "highlight": [
+            "nuvola"
+          ],
+          "sourceIds": [
+            "page",
+            "w-nube"
+          ]
+        },
+        {
+          "at": 17.4,
+          "text": "Il vento spinge la nuvola verso la terra e le montagne.",
+          "highlight": [
+            "vento"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              -1,
+              3.5,
+              0
+            ]
+          },
+          "distance": 16,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 3.3,
+          "target": {
+            "entity": "part",
+            "part": "goccioline"
+          },
+          "distance": 7,
+          "azimuth": 15,
+          "elevation": 8
+        },
+        {
+          "at": 13.4,
+          "target": {
+            "entity": "part",
+            "part": "nuvola"
+          },
+          "distance": 10,
+          "azimuth": -10,
+          "elevation": 6
+        },
+        {
+          "at": 17.4,
+          "target": {
+            "pos": [
+              2,
+              3.5,
+              0
+            ]
+          },
+          "distance": 17,
+          "azimuth": 0,
+          "elevation": 6
+        }
+      ],
+      "pins": [
+        {
+          "id": "aria-fredda",
+          "name": "aria fredda",
+          "info": "In alto l'aria è più fredda che vicino al suolo.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "aria-fredda"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "goccioline",
+          "name": "goccioline",
+          "info": "Il vapore raffreddato torna liquido in gocce piccolissime.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "goccioline"
+          },
+          "visible": [
+            [
+              3.3,
+              23.3
+            ]
+          ],
+          "sourceIds": [
+            "page",
+            "w-condensazione"
+          ]
+        },
+        {
+          "id": "nuvola",
+          "name": "nuvola",
+          "info": "Un insieme di goccioline d'acqua (o di cristalli di ghiaccio) sospese nell'aria.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "nuvola",
+            "offset": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "visible": [
+            [
+              13.4,
+              23.3
+            ]
+          ],
+          "sourceIds": [
+            "w-nube"
+          ]
+        },
+        {
+          "id": "vento",
+          "name": "vento",
+          "info": "Sposta le nuvole, anche per centinaia di chilometri.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "freccia-vento",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "visible": [
+            [
+              17.4,
+              23.3
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La condensazione si vede anche in casa: le goccioline sul vetro freddo di una finestra o su una bottiglia appena tolta dal frigorifero.",
+          "sourceIds": [
+            "w-condensazione"
+          ]
+        },
+        {
+          "text": "Molto in alto fa così freddo che le nuvole sono fatte di minuscoli cristalli di ghiaccio.",
+          "sourceIds": [
+            "w-nube"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Perché il vapore diventa goccioline salendo?",
+          "options": [
+            "Perché in alto l'aria è più fredda",
+            "Perché in alto c'è più sale",
+            "Perché il vento lo schiaccia"
+          ],
+          "answer": 0,
+          "explain": "Salendo il vapore incontra aria fredda, si raffredda e condensa."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la fascia d'aria in cui avviene la condensazione.",
+          "answerPins": [
+            "aria-fredda"
+          ],
+          "explain": "È l'aria fredda in alto: lì il vapore torna liquido."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "wind",
+            "volume": 0.35
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "whoosh-soft",
+            "volume": 0.5
+          },
+          {
+            "at": 3.3,
+            "sound": "pop",
+            "volume": 0.35
+          },
+          {
+            "at": 17.4,
+            "sound": "whoosh",
+            "volume": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "precipitazione",
+      "title": "Pioggia, neve e fiumi",
+      "chip": "Precipitazione",
+      "book": {
+        "heading": "La precipitazione",
+        "formula": "goccioline pesanti → pioggia o neve",
+        "lines": [
+          "Le goccioline si uniscono e cadono.",
+          "In montagna, al freddo, cade la neve.",
+          "Fiumi e falde riportano l'acqua al mare."
+        ],
+        "sourceIds": [
+          "page",
+          "w-precipitazione"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Dove va a finire la pioggia che cade sulla montagna?",
+          "options": [
+            "Sparisce nel nulla",
+            "Scorre nei fiumi o filtra nel terreno",
+            "Torna subito nella nuvola"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Segui l'acqua dalla nuvola al mare: quali strade prende?"
+        },
+        "prove": {
+          "text": "Una parte scorre nei fiumi, un'altra filtra nel terreno e forma la falda: entrambe tornano al mare.",
+          "sourceIds": [
+            "page",
+            "w-falda"
+          ]
+        },
+        "stamp": "Guardiano dei fiumi"
+      },
+      "kind": "science",
+      "duration": 33.6,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Nella nuvola le goccioline si uniscono e diventano più grandi e pesanti.",
+          "highlight": [
+            "nuvola-pioggia"
+          ],
+          "sourceIds": [
+            "page",
+            "w-precipitazione"
+          ]
+        },
+        {
+          "at": 5.5,
+          "text": "Quando l'aria non riesce più a tenerle, cadono: è la precipitazione.",
+          "highlight": [
+            "pioggia"
+          ],
+          "sourceIds": [
+            "page",
+            "w-precipitazione"
+          ]
+        },
+        {
+          "at": 10.7,
+          "text": "In pianura cade la pioggia; sulle montagne, dove fa più freddo, può cadere la neve.",
+          "highlight": [
+            "pioggia",
+            "neve"
+          ],
+          "sourceIds": [
+            "page",
+            "w-precipitazione"
+          ]
+        },
+        {
+          "at": 17,
+          "text": "L'acqua che scorre sul terreno si raccoglie nei ruscelli e nei fiumi.",
+          "highlight": [
+            "fiume"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 22.3,
+          "text": "Un'altra parte filtra nel terreno e forma l'acqua sotterranea, la falda.",
+          "highlight": [
+            "falda"
+          ],
+          "sourceIds": [
+            "page",
+            "w-falda"
+          ]
+        },
+        {
+          "at": 27.8,
+          "text": "Fiumi e falde, piano piano, riportano l'acqua al mare.",
+          "highlight": [
+            "fiume",
+            "falda"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "part",
+            "part": "nuvola-pioggia"
+          },
+          "distance": 11,
+          "azimuth": 0,
+          "elevation": 6
+        },
+        {
+          "at": 10.7,
+          "target": {
+            "pos": [
+              5,
+              1,
+              0
+            ]
+          },
+          "distance": 14,
+          "azimuth": 10,
+          "elevation": 6
+        },
+        {
+          "at": 17,
+          "target": {
+            "pos": [
+              2,
+              -2.5,
+              1
+            ]
+          },
+          "distance": 12,
+          "azimuth": 20,
+          "elevation": 14
+        },
+        {
+          "at": 22.3,
+          "target": {
+            "pos": [
+              3,
+              -4.2,
+              1
+            ]
+          },
+          "distance": 11,
+          "azimuth": 0,
+          "elevation": 4
+        }
+      ],
+      "pins": [
+        {
+          "id": "nuvola-pioggia",
+          "name": "nuvola carica",
+          "info": "Quando le gocce diventano grandi la nuvola si fa scura.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "nuvola-pioggia",
+            "offset": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "pioggia",
+          "name": "pioggia",
+          "info": "Gocce d'acqua che cadono dalla nuvola.",
+          "kind": "object",
+          "anchor": {
+            "entity": "flow",
+            "part": "pioggia",
+            "index": 50
+          },
+          "visible": [
+            [
+              5.5,
+              33.6
+            ]
+          ],
+          "sourceIds": [
+            "w-precipitazione"
+          ]
+        },
+        {
+          "id": "neve",
+          "name": "neve",
+          "info": "Sulle cime fredde l'acqua cade come cristalli di ghiaccio.",
+          "kind": "object",
+          "anchor": {
+            "entity": "flow",
+            "part": "neve",
+            "index": 60
+          },
+          "visible": [
+            [
+              10.7,
+              33.6
+            ]
+          ],
+          "sourceIds": [
+            "w-precipitazione"
+          ]
+        },
+        {
+          "id": "fiume",
+          "name": "fiume",
+          "info": "Raccoglie l'acqua che scorre sul terreno e la porta al mare.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "fiume"
+          },
+          "visible": [
+            [
+              17,
+              33.6
+            ]
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "falda",
+          "name": "falda",
+          "info": "Acqua sotterranea che riempie i piccoli spazi tra sabbia e rocce.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "falda"
+          },
+          "visible": [
+            [
+              22.3,
+              33.6
+            ]
+          ],
+          "sourceIds": [
+            "w-falda"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Anche la grandine è una precipitazione: chicchi di ghiaccio che si formano dentro le nuvole temporalesche.",
+          "sourceIds": [
+            "w-precipitazione"
+          ]
+        },
+        {
+          "text": "Dalle falde viene gran parte dell'acqua dei pozzi e delle sorgenti.",
+          "sourceIds": [
+            "w-falda"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Perché sulle montagne può cadere la neve invece della pioggia?",
+          "options": [
+            "Perché in alto fa più freddo",
+            "Perché le montagne sono più vicine al Sole",
+            "Perché lì l'acqua è salata"
+          ],
+          "answer": 0,
+          "explain": "In alto la temperatura è più bassa e l'acqua cade come cristalli di ghiaccio."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca l'acqua che si nasconde sotto terra.",
+          "answerPins": [
+            "falda"
+          ],
+          "explain": "È la falda, l'acqua sotterranea."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "rain",
+            "volume": 0.45,
+            "window": [
+              5.5,
+              33.6
+            ]
+          },
+          {
+            "sound": "river",
+            "volume": 0.35,
+            "window": [
+              17,
+              33.6
+            ]
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.4,
+            "sound": "thunder",
+            "volume": 0.35
+          },
+          {
+            "at": 17.4,
+            "sound": "splash",
+            "volume": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "ciclo",
+      "title": "Un giro che non finisce mai",
+      "chip": "Il ciclo",
+      "book": {
+        "heading": "Il ciclo dell'acqua",
+        "formula": "evaporazione → condensazione → precipitazione → ritorno al mare",
+        "lines": [
+          "L'acqua cambia stato: liquida, gas, ghiaccio.",
+          "Il motore del ciclo è il calore del Sole.",
+          "Il giro ricomincia sempre da capo."
+        ],
+        "sourceIds": [
+          "page",
+          "w-ciclo"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Che cosa fa muovere tutto il ciclo dell'acqua?",
+          "options": [
+            "Il calore del Sole",
+            "La Luna",
+            "Il sale del mare"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Segui le quattro frecce: da dove parte il giro e dove ritorna?"
+        },
+        "prove": {
+          "text": "Il calore del Sole fa evaporare l'acqua: è il motore che fa ripartire il ciclo ogni giorno.",
+          "sourceIds": [
+            "page",
+            "w-ciclo"
+          ]
+        },
+        "stamp": "Esperto del ciclo dell'acqua"
+      },
+      "kind": "science",
+      "duration": 27,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Mettiamo insieme le tappe del viaggio.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.3,
+          "text": "Il Sole fa evaporare l'acqua, che sale come vapore.",
+          "highlight": [
+            "freccia-su"
+          ],
+          "sourceIds": [
+            "page",
+            "w-evaporazione"
+          ]
+        },
+        {
+          "at": 7.4,
+          "text": "In alto il vapore condensa e forma le nuvole, spinte dal vento.",
+          "highlight": [
+            "freccia-vento"
+          ],
+          "sourceIds": [
+            "page",
+            "w-condensazione"
+          ]
+        },
+        {
+          "at": 12.3,
+          "text": "Dalle nuvole cadono pioggia e neve.",
+          "highlight": [
+            "freccia-giu"
+          ],
+          "sourceIds": [
+            "page",
+            "w-precipitazione"
+          ]
+        },
+        {
+          "at": 15.6,
+          "text": "Fiumi e falde riportano l'acqua al mare, e il giro ricomincia.",
+          "highlight": [
+            "freccia-ritorno"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20.4,
+          "text": "L'acqua sulla Terra è sempre la stessa: cambia solo stato e posto.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "w-ciclo"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "distance": 25,
+          "azimuth": 0,
+          "elevation": 8
+        },
+        {
+          "at": 20.4,
+          "target": {
+            "pos": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "distance": 23,
+          "azimuth": -12,
+          "elevation": 10
+        }
+      ],
+      "pins": [
+        {
+          "id": "freccia-su",
+          "name": "evaporazione",
+          "info": "L'acqua del mare diventa vapore e sale.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "freccia-su"
+          },
+          "sourceIds": [
+            "w-evaporazione"
+          ]
+        },
+        {
+          "id": "freccia-vento",
+          "name": "condensazione e vento",
+          "info": "Il vapore forma le nuvole, che il vento sposta.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "freccia-vento",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-condensazione"
+          ]
+        },
+        {
+          "id": "freccia-giu",
+          "name": "precipitazione",
+          "info": "Pioggia e neve cadono sulla terra.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "freccia-giu"
+          },
+          "sourceIds": [
+            "w-precipitazione"
+          ]
+        },
+        {
+          "id": "freccia-ritorno",
+          "name": "ritorno al mare",
+          "info": "Fiumi e falde riportano l'acqua al mare.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "freccia-ritorno"
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Bere, lavarsi, coltivare: tutta l'acqua dolce che usiamo arriva dalle precipitazioni del ciclo dell'acqua.",
+          "sourceIds": [
+            "w-ciclo"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Qual è l'ordine giusto delle tappe?",
+          "options": [
+            "Precipitazione, evaporazione, condensazione",
+            "Evaporazione, condensazione, precipitazione",
+            "Condensazione, precipitazione, evaporazione"
+          ],
+          "answer": 1,
+          "explain": "Prima l'acqua evapora, poi condensa in nuvole, infine cade come pioggia o neve."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la freccia della condensazione.",
+          "answerPins": [
+            "freccia-vento"
+          ],
+          "explain": "È la freccia in alto, dove il vapore forma le nuvole."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "sea",
+            "volume": 0.3
+          },
+          {
+            "sound": "wind",
+            "volume": 0.2
+          }
+        ],
+        "cues": [
+          {
+            "at": 3.3,
+            "sound": "pop",
+            "volume": 0.35
+          },
+          {
+            "at": 7.4,
+            "sound": "pop",
+            "volume": 0.35
+          },
+          {
+            "at": 12.3,
+            "sound": "pop",
+            "volume": 0.35
+          },
+          {
+            "at": 15.6,
+            "sound": "pop",
+            "volume": 0.35
+          },
+          {
+            "at": 20.4,
+            "sound": "chime",
+            "volume": 0.45
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Scienze, «Il ciclo dell'acqua» (lezione di esempio originale, scritta per AnimaPage)"
+    },
+    {
+      "id": "w-ciclo",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Ciclo dell'acqua",
+      "url": "https://it.wikipedia.org/wiki/Ciclo_dell%27acqua",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-evaporazione",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Evaporazione",
+      "url": "https://it.wikipedia.org/wiki/Evaporazione",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-condensazione",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Condensazione",
+      "url": "https://it.wikipedia.org/wiki/Condensazione",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-nube",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Nuvola",
+      "url": "https://it.wikipedia.org/wiki/Nuvola",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-precipitazione",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Precipitazione (meteorologia)",
+      "url": "https://it.wikipedia.org/wiki/Precipitazione_(meteorologia)",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-falda",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Falda acquifera",
+      "url": "https://it.wikipedia.org/wiki/Falda_acquifera",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Lezione di esempio scritta per AnimaPage: non viene da una pagina di un libro.",
+    "Disegno schematico, non in scala: il mare, la montagna e le nuvole sono molto più grandi e lontani.",
+    "Il vapore acqueo è invisibile: qui è disegnato con puntini perché si possa seguire."
+  ]
+}

@@ -1,0 +1,1611 @@
+{
+  "version": "0.1",
+  "engine": "solid",
+  "title": "Geometria solida",
+  "page": {
+    "subject": "Matematica",
+    "topic": "Solidi: sviluppo, solidi di rotazione, volumi e similitudine",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "music": {
+    "track": "music-curious",
+    "volume": 0.35
+  },
+  "style": "color",
+  "chapters": [
+    {
+      "id": "cubo",
+      "title": "Il cubo e il suo sviluppo",
+      "chip": "Cubo",
+      "kind": "mixed",
+      "duration": 52,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco un cubo con lo spigolo di 3 centimetri.",
+          "highlight": [
+            "p-cubo"
+          ],
+          "sourceIds": [
+            "calc"
+          ],
+          "speech": "Ecco un cubo con lo spigolo di tre centimetri."
+        },
+        {
+          "at": 4.5,
+          "text": "Prima di contare, prevedi: facce più vertici meno spigoli, quanto fa?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 9,
+          "text": "Contiamo le facce: sono 6 quadrati uguali.",
+          "highlight": [
+            "p-faccia"
+          ],
+          "sourceIds": [
+            "w-cubo"
+          ],
+          "speech": "Contiamo le facce: sono sei quadrati uguali."
+        },
+        {
+          "at": 14,
+          "text": "Ora i vertici, gli angoli del cubo: sono 8.",
+          "highlight": [
+            "p-vertice"
+          ],
+          "sourceIds": [
+            "w-cubo"
+          ],
+          "speech": "Ora i vertici, gli angoli del cubo: sono otto."
+        },
+        {
+          "at": 20,
+          "text": "E gli spigoli, dove due facce si incontrano: sono 12.",
+          "highlight": [
+            "p-spigolo"
+          ],
+          "sourceIds": [
+            "w-cubo"
+          ],
+          "speech": "E gli spigoli, dove due facce si incontrano: sono dodici."
+        },
+        {
+          "at": 27,
+          "text": "Facce più vertici meno spigoli: 6 più 8 meno 12 fa 2. È la formula di Eulero per i poliedri.",
+          "highlight": [
+            "p-conti"
+          ],
+          "sourceIds": [
+            "w-eulero",
+            "w-cubo",
+            "calc"
+          ],
+          "speech": "Facce più vertici meno spigoli: sei più otto meno dodici fa due. È la formula di Eulero per i poliedri."
+        },
+        {
+          "at": 32,
+          "text": "Ora apriamo il cubo lungo alcuni spigoli e lo stendiamo sul tavolo.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 37,
+          "text": "Ecco il suo sviluppo piano: 6 quadrati. L'area del cubo è l'area di questi quadrati: 6 per 3 al quadrato, cioè 54 centimetri quadrati.",
+          "highlight": [
+            "p-sviluppo",
+            "p-lavagna"
+          ],
+          "sourceIds": [
+            "w-cubo",
+            "calc"
+          ],
+          "speech": "Ecco il suo sviluppo piano: sei quadrati. L'area del cubo è l'area di questi quadrati: sei per tre al quadrato, cioè cinquantaquattro centimetri quadrati."
+        },
+        {
+          "at": 44,
+          "text": "Ora richiudiamo: lo sviluppo si piega e torna un cubo.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 48,
+          "text": "Prova tu: cambia lo spigolo e guarda come cambiano area e volume.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "distance": 11,
+          "azimuth": 28,
+          "elevation": 24
+        },
+        {
+          "at": 8,
+          "target": {
+            "entity": "solid",
+            "part": "cubo",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          "distance": 8.5,
+          "azimuth": 32,
+          "elevation": 26
+        },
+        {
+          "at": 26,
+          "target": {
+            "pos": [
+              0,
+              2.2,
+              -0.5
+            ]
+          },
+          "distance": 10.5,
+          "azimuth": 18,
+          "elevation": 22
+        },
+        {
+          "at": 32,
+          "target": {
+            "pos": [
+              0,
+              0.6,
+              0
+            ]
+          },
+          "distance": 17,
+          "azimuth": 10,
+          "elevation": 52
+        },
+        {
+          "at": 44,
+          "target": {
+            "pos": [
+              0,
+              1.2,
+              0
+            ]
+          },
+          "distance": 11,
+          "azimuth": 28,
+          "elevation": 26
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-cubo",
+          "name": "Cubo",
+          "info": "Spigolo di 3 cm: tutte le facce sono quadrati uguali.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cubo",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc",
+            "w-cubo"
+          ],
+          "sub": "a = 3 cm",
+          "marker": "#4f86c6"
+        },
+        {
+          "id": "p-faccia",
+          "name": "Faccia",
+          "info": "Una delle 6 facce: un quadrato.",
+          "kind": "data",
+          "anchor": {
+            "entity": "face",
+            "part": "cubo",
+            "index": 2
+          },
+          "sourceIds": [
+            "w-cubo"
+          ]
+        },
+        {
+          "id": "p-vertice",
+          "name": "Vertice",
+          "info": "Un punto dove si incontrano 3 spigoli. Il cubo ha 8 vertici.",
+          "kind": "data",
+          "anchor": {
+            "entity": "vertex",
+            "part": "cubo",
+            "index": 7,
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-cubo"
+          ]
+        },
+        {
+          "id": "p-spigolo",
+          "name": "Spigolo",
+          "info": "Il segmento dove si incontrano due facce. Il cubo ha 12 spigoli.",
+          "kind": "data",
+          "anchor": {
+            "entity": "edge",
+            "part": "cubo",
+            "index": 5
+          },
+          "sourceIds": [
+            "w-cubo"
+          ]
+        },
+        {
+          "id": "p-conti",
+          "name": "F + V − S",
+          "info": "6 + 8 − 12 = 2: la formula di Eulero.",
+          "kind": "note",
+          "anchor": {
+            "entity": "elements",
+            "part": "cubo"
+          },
+          "sourceIds": [
+            "w-eulero",
+            "calc"
+          ],
+          "visible": [
+            [
+              8,
+              31
+            ]
+          ]
+        },
+        {
+          "id": "p-sviluppo",
+          "name": "Sviluppo piano",
+          "info": "Il cubo aperto e steso: 6 quadrati uniti per i lati.",
+          "kind": "object",
+          "anchor": {
+            "entity": "net",
+            "part": "cubo"
+          },
+          "sourceIds": [
+            "w-cubo"
+          ],
+          "visible": [
+            [
+              35,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "p-lavagna",
+          "name": "La lavagna",
+          "info": "Area e volume calcolati con la misura dello spigolo.",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cubo"
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "visible": [
+            [
+              35,
+              52
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il cubo è uno dei 5 solidi platonici: le sue facce sono tutte quadrati uguali.",
+          "sourceIds": [
+            "w-platonici",
+            "w-cubo"
+          ]
+        },
+        {
+          "text": "La formula F + V − S = 2 vale anche per gli altri solidi platonici: il dodecaedro ha 12 facce, 20 vertici e 30 spigoli, e 12 + 20 − 30 = 2.",
+          "sourceIds": [
+            "w-platonici",
+            "w-eulero"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Quanti spigoli ha un cubo?",
+          "options": [
+            "6",
+            "8",
+            "12"
+          ],
+          "answer": 2,
+          "explain": "Il cubo ha 12 spigoli: 4 sotto, 4 sopra e 4 verticali."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca un vertice del cubo.",
+          "answerPins": [
+            "p-vertice"
+          ],
+          "explain": "Il vertice è il punto dove si incontrano tre spigoli."
+        }
+      ],
+      "book": {
+        "heading": "Il cubo",
+        "formula": "F + V − S = 2",
+        "lines": [
+          "6 facce quadrate, 12 spigoli, 8 vertici.",
+          "Lo sviluppo piano è formato da 6 quadrati.",
+          "Area totale A = 6 · a², volume V = a³."
+        ],
+        "sourceIds": [
+          "w-cubo",
+          "w-eulero"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Conta facce (F), vertici (V) e spigoli (S) di un cubo. Quanto fa F + V − S?",
+          "options": [
+            "0",
+            "2",
+            "6"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Cambia lo spigolo del cubo: cambiano area e volume, ma facce, vertici e spigoli?",
+          "params": [
+            "lato"
+          ]
+        },
+        "prove": {
+          "text": "Il cubo ha 6 facce, 8 vertici e 12 spigoli: 6 + 8 − 12 = 2. Lo spigolo cambia area e volume, non il numero di facce, vertici e spigoli: la formula di Eulero F + V − S = 2 resta vera.",
+          "sourceIds": [
+            "w-cubo",
+            "w-eulero",
+            "calc"
+          ]
+        },
+        "stamp": "Esploratore dei poliedri"
+      },
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.15
+          }
+        ],
+        "cues": [
+          {
+            "at": 9,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 14,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 20,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 27,
+            "sound": "sparkle",
+            "volume": 0.7
+          },
+          {
+            "at": 32,
+            "sound": "whoosh-soft",
+            "volume": 0.7
+          },
+          {
+            "at": 44,
+            "sound": "whoosh-soft",
+            "volume": 0.7
+          },
+          {
+            "at": 47.5,
+            "sound": "pop",
+            "volume": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "cilindro-cono",
+      "title": "Cilindro e cono",
+      "chip": "Cilindro e cono",
+      "kind": "mixed",
+      "duration": 62,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Un rettangolo gira intorno a un suo lato, come una porta sui cardini.",
+          "highlight": [
+            "p-figura"
+          ],
+          "sourceIds": [
+            "w-rotazione"
+          ]
+        },
+        {
+          "at": 4.5,
+          "text": "Con un giro completo descrive un cilindro: è un solido di rotazione.",
+          "highlight": [
+            "p-cil"
+          ],
+          "sourceIds": [
+            "w-rotazione"
+          ]
+        },
+        {
+          "at": 10,
+          "text": "Ora un triangolo rettangolo gira intorno a un cateto: nasce un cono.",
+          "highlight": [
+            "p-cono"
+          ],
+          "sourceIds": [
+            "w-cono"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "Cilindro e cono hanno la stessa base, con raggio 2 centimetri, e la stessa altezza, 4 centimetri.",
+          "highlight": [
+            "p-raggio"
+          ],
+          "sourceIds": [
+            "calc"
+          ],
+          "speech": "Cilindro e cono hanno la stessa base, con raggio due centimetri, e la stessa altezza, quattro centimetri."
+        },
+        {
+          "at": 21,
+          "text": "Prevedi: quanti coni pieni d'acqua servono per riempire il cilindro?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 24.5,
+          "text": "Primo cono: versiamo.",
+          "highlight": [
+            "p-acqua"
+          ],
+          "sourceIds": []
+        },
+        {
+          "at": 31.5,
+          "text": "Il livello è salito solo di un terzo. Secondo cono.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 38.5,
+          "text": "Terzo cono.",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 44.5,
+          "text": "Pieno! Servono tre coni: il volume del cono è un terzo di quello del cilindro con la stessa base e la stessa altezza.",
+          "highlight": [
+            "p-acqua"
+          ],
+          "sourceIds": [
+            "w-cono"
+          ]
+        },
+        {
+          "at": 51,
+          "text": "Con raggio 2 e altezza 4 il cilindro ha volume di circa 50,3 centimetri cubi, il cono di circa 16,8.",
+          "highlight": [
+            "p-lav-cil",
+            "p-lav-cono"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-cilindro",
+            "w-cono"
+          ],
+          "speech": "Con raggio due e altezza quattro il cilindro ha volume di circa cinquanta virgola tre centimetri cubi, il cono di circa sedici virgola otto."
+        },
+        {
+          "at": 57,
+          "text": "Prova tu: cambia raggio e altezza. Il cono resta sempre un terzo del cilindro.",
+          "highlight": [],
+          "sourceIds": [
+            "w-cono"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "solid",
+            "part": "cil",
+            "offset": [
+              0,
+              -1.4,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": 20,
+          "elevation": 16
+        },
+        {
+          "at": 9.5,
+          "target": {
+            "entity": "solid",
+            "part": "cono",
+            "offset": [
+              0,
+              -1.4,
+              0
+            ]
+          },
+          "distance": 9,
+          "azimuth": -12,
+          "elevation": 16
+        },
+        {
+          "at": 15.5,
+          "target": {
+            "pos": [
+              0,
+              2.4,
+              0
+            ]
+          },
+          "distance": 14,
+          "azimuth": 10,
+          "elevation": 16
+        },
+        {
+          "at": 23.5,
+          "target": {
+            "pos": [
+              -0.8,
+              3.6,
+              0
+            ]
+          },
+          "distance": 15,
+          "azimuth": 8,
+          "elevation": 14
+        },
+        {
+          "at": 48,
+          "target": {
+            "pos": [
+              0,
+              4.2,
+              -0.6
+            ]
+          },
+          "distance": 16,
+          "azimuth": 4,
+          "elevation": 12
+        },
+        {
+          "at": 56,
+          "target": {
+            "pos": [
+              0,
+              2.8,
+              0
+            ]
+          },
+          "distance": 15,
+          "azimuth": 10,
+          "elevation": 16
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-figura",
+          "name": "Rettangolo",
+          "info": "Ruota intorno al lato verticale: l'asse di rotazione.",
+          "kind": "object",
+          "anchor": {
+            "entity": "figure",
+            "part": "cil"
+          },
+          "sourceIds": [
+            "w-rotazione"
+          ],
+          "visible": [
+            [
+              0,
+              9.5
+            ]
+          ]
+        },
+        {
+          "id": "p-cil",
+          "name": "Cilindro",
+          "info": "Raggio 2 cm, altezza 4 cm.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cil",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "marker": "#4f86c6"
+        },
+        {
+          "id": "p-cono",
+          "name": "Cono",
+          "info": "Stessa base e stessa altezza del cilindro.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "cono",
+            "offset": [
+              0,
+              0.5,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "marker": "#e07b39"
+        },
+        {
+          "id": "p-raggio",
+          "name": "Raggio r",
+          "info": "Il raggio della base: 2 cm per tutti e due i solidi.",
+          "kind": "data",
+          "anchor": {
+            "entity": "dim",
+            "part": "cil.r"
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "visible": [
+            [
+              14,
+              23
+            ]
+          ]
+        },
+        {
+          "id": "p-acqua",
+          "name": "Acqua",
+          "info": "Ogni cono pieno alza il livello di un terzo.",
+          "kind": "data",
+          "anchor": {
+            "entity": "liquid",
+            "part": "cil"
+          },
+          "sourceIds": [
+            "calc",
+            "w-cono"
+          ],
+          "visible": [
+            [
+              24,
+              50
+            ]
+          ]
+        },
+        {
+          "id": "p-lav-cil",
+          "name": "Volume del cilindro",
+          "info": "V = π · r² · h",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cil"
+          },
+          "sourceIds": [
+            "w-cilindro"
+          ],
+          "visible": [
+            [
+              48,
+              62
+            ]
+          ]
+        },
+        {
+          "id": "p-lav-cono",
+          "name": "Volume del cono",
+          "info": "V = π · r² · h : 3",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "cono"
+          },
+          "sourceIds": [
+            "w-cono"
+          ],
+          "visible": [
+            [
+              48,
+              62
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Anche la sfera è un solido di rotazione: nasce da un semicerchio che gira intorno al suo diametro.",
+          "sourceIds": [
+            "w-rotazione"
+          ]
+        },
+        {
+          "text": "Archimede sapeva già che il cilindro che contiene esattamente una sfera ha un volume pari a 3/2 di quello della sfera.",
+          "sourceIds": [
+            "w-sfera"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Un cono e un cilindro hanno la stessa base e la stessa altezza. Il cilindro contiene 30 litri: quanti litri contiene il cono?",
+          "options": [
+            "10 litri",
+            "15 litri",
+            "30 litri"
+          ],
+          "answer": 0,
+          "explain": "Il volume del cono è un terzo di quello del cilindro: 30 : 3 = 10 litri."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il solido con il volume minore.",
+          "answerPins": [
+            "p-cono"
+          ],
+          "explain": "Il cono: con la stessa base e la stessa altezza ha un terzo del volume del cilindro."
+        }
+      ],
+      "book": {
+        "heading": "Cilindro e cono",
+        "formula": "V cono = π · r² · h : 3",
+        "lines": [
+          "Il cilindro nasce da un rettangolo che ruota intorno a un lato.",
+          "Il cono nasce da un triangolo rettangolo che ruota intorno a un cateto.",
+          "Cilindro: V = π · r² · h.",
+          "Il cono con stessa base e altezza ne è un terzo."
+        ],
+        "sourceIds": [
+          "w-rotazione",
+          "w-cono",
+          "w-cilindro"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Cono e cilindro hanno la stessa base e la stessa altezza. Quanti coni pieni d'acqua servono per riempire il cilindro?",
+          "options": [
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Cambia raggio e altezza (valgono per tutti e due i solidi): i volumi cambiano, ma il rapporto?",
+          "params": [
+            "r",
+            "h"
+          ]
+        },
+        "prove": {
+          "text": "V cilindro = π · r² · h e V cono = π · r² · h : 3. Con la stessa base e la stessa altezza servono sempre 3 coni per riempire il cilindro, qualunque siano r e h.",
+          "sourceIds": [
+            "w-cono",
+            "w-cilindro"
+          ]
+        },
+        "stamp": "Maestro dei volumi"
+      },
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.15
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.5,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 10,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 26.5,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 33.5,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 40.5,
+            "sound": "splash",
+            "volume": 0.5
+          },
+          {
+            "at": 44.5,
+            "sound": "correct",
+            "volume": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "scala",
+      "title": "Se raddoppio il lato",
+      "chip": "Raddoppio",
+      "kind": "mixed",
+      "duration": 55,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Due cubi uguali, con lo spigolo di 1 centimetro.",
+          "highlight": [
+            "p-piccolo",
+            "p-grande"
+          ],
+          "sourceIds": [
+            "calc"
+          ],
+          "speech": "Due cubi uguali, con lo spigolo di un centimetro."
+        },
+        {
+          "at": 5,
+          "text": "Prevedi: se raddoppio lo spigolo, quante volte cresce il volume?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 11,
+          "text": "Raddoppiamo lo spigolo del cubo a destra: ora misura 2 centimetri.",
+          "highlight": [
+            "p-grande"
+          ],
+          "sourceIds": [
+            "calc"
+          ],
+          "speech": "Raddoppiamo lo spigolo del cubo a destra: ora misura due centimetri."
+        },
+        {
+          "at": 17,
+          "text": "Ogni faccia contiene 4 quadretti, grandi come la faccia del cubo piccolo: l'area cresce 4 volte, cioè 2 per 2.",
+          "highlight": [
+            "p-quadretto"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-cubo"
+          ],
+          "speech": "Ogni faccia contiene quattro quadretti, grandi come la faccia del cubo piccolo: l'area cresce quattro volte, cioè due per due."
+        },
+        {
+          "at": 25,
+          "text": "E dentro ci stanno 8 cubetti piccoli: il volume cresce 8 volte, cioè 2 per 2 per 2.",
+          "highlight": [
+            "p-lavagna"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-cubo"
+          ],
+          "speech": "E dentro ci stanno otto cubetti piccoli: il volume cresce otto volte, cioè due per due per due."
+        },
+        {
+          "at": 33,
+          "text": "Se tutte le misure si moltiplicano per k, l'area si moltiplica per k al quadrato e il volume per k al cubo.",
+          "highlight": [],
+          "sourceIds": [
+            "w-cubo",
+            "calc"
+          ]
+        },
+        {
+          "at": 41,
+          "text": "Con k uguale a 3: area 9 volte più grande, volume 27 volte.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ],
+          "speech": "Con k uguale a tre: area nove volte più grande, volume ventisette volte."
+        },
+        {
+          "at": 48,
+          "text": "Prova tu: muovi il fattore di scala k e guarda la lavagna.",
+          "highlight": [],
+          "sourceIds": []
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              1.4,
+              0
+            ]
+          },
+          "distance": 10,
+          "azimuth": 22,
+          "elevation": 22
+        },
+        {
+          "at": 10.5,
+          "target": {
+            "pos": [
+              0.6,
+              2.0,
+              0
+            ]
+          },
+          "distance": 11,
+          "azimuth": 20,
+          "elevation": 24
+        },
+        {
+          "at": 16.5,
+          "target": {
+            "pos": [
+              0.8,
+              2.4,
+              0
+            ]
+          },
+          "distance": 12.5,
+          "azimuth": 22,
+          "elevation": 22
+        },
+        {
+          "at": 31,
+          "target": {
+            "pos": [
+              0,
+              3.6,
+              -0.6
+            ]
+          },
+          "distance": 15,
+          "azimuth": 12,
+          "elevation": 16
+        },
+        {
+          "at": 47,
+          "target": {
+            "pos": [
+              0,
+              2.6,
+              0
+            ]
+          },
+          "distance": 13,
+          "azimuth": 18,
+          "elevation": 20
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-piccolo",
+          "name": "Cubo piccolo",
+          "info": "Spigolo 1 cm: area 6 cm², volume 1 cm³.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "piccolo",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "marker": "#4f86c6"
+        },
+        {
+          "id": "p-grande",
+          "name": "Cubo grande",
+          "info": "Lo spigolo cresce di k volte.",
+          "kind": "object",
+          "anchor": {
+            "entity": "solid",
+            "part": "grande",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "marker": "#e07b39"
+        },
+        {
+          "id": "p-quadretto",
+          "name": "Una faccia",
+          "info": "Con lo spigolo doppio contiene 4 quadretti di 1 cm².",
+          "kind": "data",
+          "anchor": {
+            "entity": "face",
+            "part": "grande",
+            "index": 2
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "visible": [
+            [
+              15,
+              55
+            ]
+          ]
+        },
+        {
+          "id": "p-lavagna",
+          "name": "La lavagna",
+          "info": "Area e volume del cubo grande confrontati con quelli del piccolo.",
+          "kind": "note",
+          "anchor": {
+            "entity": "board",
+            "part": "grande"
+          },
+          "sourceIds": [
+            "calc"
+          ],
+          "visible": [
+            [
+              17,
+              55
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il cubo di spigolo 2 cm ha area 24 cm² e volume 8 cm³; quello di spigolo 1 cm ha area 6 cm² e volume 1 cm³.",
+          "sourceIds": [
+            "calc",
+            "w-cubo"
+          ]
+        },
+        {
+          "text": "Ingrandire una figura senza deformarla è una similitudine: tutte le distanze si moltiplicano per lo stesso numero k e gli angoli non cambiano.",
+          "sourceIds": [
+            "w-similitudine"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Raddoppi lo spigolo di un cubo: la sua area diventa…",
+          "options": [
+            "il doppio",
+            "4 volte più grande",
+            "8 volte più grande"
+          ],
+          "answer": 1,
+          "explain": "L'area è 6 · a²: con lo spigolo doppio diventa 6 · (2a)², cioè 4 volte tanto."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il cubo che ha volume 8 volte più grande.",
+          "answerPins": [
+            "p-grande"
+          ],
+          "explain": "Il cubo grande: spigolo doppio, volume 2 · 2 · 2 = 8 volte."
+        }
+      ],
+      "book": {
+        "heading": "Se raddoppio il lato",
+        "formula": "A × k²   V × k³",
+        "lines": [
+          "Spigolo × 2: area × 4, volume × 8.",
+          "Spigolo × 3: area × 9, volume × 27.",
+          "La forma resta la stessa: è una similitudine."
+        ],
+        "sourceIds": [
+          "w-cubo",
+          "calc",
+          "w-similitudine"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Raddoppi lo spigolo di un cubo. Il suo volume diventa…",
+          "options": [
+            "il doppio",
+            "4 volte più grande",
+            "8 volte più grande"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Muovi il fattore di scala k del cubo grande: la lavagna mostra di quanto crescono area e volume.",
+          "params": [
+            "k"
+          ]
+        },
+        "prove": {
+          "text": "L'area del cubo è 6 · a²: con lo spigolo 2a diventa 6 · (2a)² = 4 · 6a². Il volume a³ diventa (2a)³ = 8 · a³. In generale l'area cresce come k² e il volume come k³.",
+          "sourceIds": [
+            "w-cubo",
+            "calc"
+          ]
+        },
+        "stamp": "Ingegnere delle scale"
+      },
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "room",
+            "volume": 0.15
+          }
+        ],
+        "cues": [
+          {
+            "at": 11,
+            "sound": "whoosh",
+            "volume": 0.6
+          },
+          {
+            "at": 17,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 25,
+            "sound": "chime",
+            "volume": 0.6
+          },
+          {
+            "at": 25.5,
+            "sound": "whoosh-soft",
+            "volume": 0.5
+          },
+          {
+            "at": 41,
+            "sound": "sparkle",
+            "volume": 0.6
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Matematica, «Geometria solida» (scena di riferimento)"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli del motore solid: misure dalle formule e dai modelli dei solidi"
+    },
+    {
+      "id": "w-cubo",
+      "kind": "wikipedia",
+      "title": "Cubo",
+      "url": "https://it.wikipedia.org/wiki/Cubo",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-eulero",
+      "kind": "wikipedia",
+      "title": "Formula di Eulero per i poliedri",
+      "url": "https://it.wikipedia.org/wiki/Formula_di_Eulero_per_i_poliedri",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-platonici",
+      "kind": "wikipedia",
+      "title": "Solido platonico",
+      "url": "https://it.wikipedia.org/wiki/Solido_platonico",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-cilindro",
+      "kind": "wikipedia",
+      "title": "Cilindro (geometria)",
+      "url": "https://it.wikipedia.org/wiki/Cilindro_(geometria)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-cono",
+      "kind": "wikipedia",
+      "title": "Cono",
+      "url": "https://it.wikipedia.org/wiki/Cono",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-rotazione",
+      "kind": "wikipedia",
+      "title": "Solido di rotazione",
+      "url": "https://it.wikipedia.org/wiki/Solido_di_rotazione",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-sfera",
+      "kind": "wikipedia",
+      "title": "Sfera",
+      "url": "https://it.wikipedia.org/wiki/Sfera",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-similitudine",
+      "kind": "wikipedia",
+      "title": "Similitudine (geometria)",
+      "url": "https://it.wikipedia.org/wiki/Similitudine_(geometria)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "I solidi sono disegnati in scala sul tavolo; le etichette e la lavagna mostrano le misure vere.",
+    "Le misure con π sono arrotondate al centesimo."
+  ],
+  "engineData": {
+    "unit": "cm",
+    "chapters": [
+      {
+        "chapter": "cubo",
+        "solids": [
+          {
+            "id": "cubo",
+            "shape": "cube",
+            "dims": {
+              "a": 3
+            },
+            "color": "#4f86c6"
+          }
+        ],
+        "acts": [
+          {
+            "do": "count",
+            "solid": "cubo",
+            "what": "faces",
+            "at": 9,
+            "dur": 3.6
+          },
+          {
+            "do": "count",
+            "solid": "cubo",
+            "what": "vertices",
+            "at": 14,
+            "dur": 4.8
+          },
+          {
+            "do": "count",
+            "solid": "cubo",
+            "what": "edges",
+            "at": 20,
+            "dur": 6
+          },
+          {
+            "do": "unfold",
+            "solid": "cubo",
+            "at": 32,
+            "dur": 4
+          },
+          {
+            "do": "fold",
+            "solid": "cubo",
+            "at": 44,
+            "dur": 3.5
+          }
+        ],
+        "params": [
+          {
+            "id": "lato",
+            "dim": "a",
+            "solids": [
+              "cubo"
+            ],
+            "label": "Spigolo a (cm)",
+            "min": 1,
+            "max": 3.5,
+            "step": 0.5
+          }
+        ],
+        "show": [
+          {
+            "item": "dims",
+            "until": 8
+          },
+          {
+            "item": "elements",
+            "solid": "cubo",
+            "at": 8,
+            "until": 31
+          },
+          {
+            "item": "units",
+            "solid": "cubo",
+            "at": 35
+          },
+          {
+            "item": "board",
+            "solid": "cubo",
+            "at": 35,
+            "formulas": [
+              "A",
+              "V"
+            ]
+          },
+          {
+            "item": "dims",
+            "at": 47.5
+          }
+        ]
+      },
+      {
+        "chapter": "cilindro-cono",
+        "solids": [
+          {
+            "id": "cil",
+            "shape": "cylinder",
+            "dims": {
+              "r": 2,
+              "h": 4
+            },
+            "color": "#4f86c6"
+          },
+          {
+            "id": "cono",
+            "shape": "cone",
+            "dims": {
+              "r": 2,
+              "h": 4
+            },
+            "color": "#e07b39"
+          }
+        ],
+        "acts": [
+          {
+            "do": "revolve",
+            "solid": "cil",
+            "at": 1,
+            "dur": 6
+          },
+          {
+            "do": "revolve",
+            "solid": "cono",
+            "at": 10.5,
+            "dur": 5
+          },
+          {
+            "do": "fill",
+            "solid": "cil",
+            "from": "cono",
+            "at": 24,
+            "dur": 6.5
+          },
+          {
+            "do": "fill",
+            "solid": "cil",
+            "from": "cono",
+            "at": 31,
+            "dur": 6.5
+          },
+          {
+            "do": "fill",
+            "solid": "cil",
+            "from": "cono",
+            "at": 38,
+            "dur": 6.5
+          }
+        ],
+        "params": [
+          {
+            "id": "r",
+            "dim": "r",
+            "solids": [
+              "cil",
+              "cono"
+            ],
+            "label": "Raggio r (cm)",
+            "min": 1,
+            "max": 3,
+            "step": 0.1
+          },
+          {
+            "id": "h",
+            "dim": "h",
+            "solids": [
+              "cil",
+              "cono"
+            ],
+            "label": "Altezza h (cm)",
+            "min": 2,
+            "max": 6,
+            "step": 0.5
+          }
+        ],
+        "show": [
+          {
+            "item": "dims",
+            "at": 15.5,
+            "until": 23.5
+          },
+          {
+            "item": "board",
+            "solid": "cil",
+            "at": 48,
+            "formulas": [
+              "V"
+            ]
+          },
+          {
+            "item": "board",
+            "solid": "cono",
+            "at": 48,
+            "formulas": [
+              "V"
+            ],
+            "compare": "cil"
+          },
+          {
+            "item": "dims",
+            "at": 56
+          }
+        ]
+      },
+      {
+        "chapter": "scala",
+        "solids": [
+          {
+            "id": "piccolo",
+            "shape": "cube",
+            "dims": {
+              "a": 1
+            },
+            "name": "Cubo piccolo",
+            "color": "#4f86c6"
+          },
+          {
+            "id": "grande",
+            "shape": "cube",
+            "dims": {
+              "a": 1
+            },
+            "name": "Cubo grande",
+            "color": "#e07b39"
+          }
+        ],
+        "acts": [
+          {
+            "do": "scale",
+            "solid": "grande",
+            "k": 2,
+            "at": 11,
+            "dur": 3
+          },
+          {
+            "do": "spin",
+            "solid": "grande",
+            "at": 25,
+            "dur": 5,
+            "turns": 0.25
+          },
+          {
+            "do": "scale",
+            "solid": "grande",
+            "k": 3,
+            "at": 41,
+            "dur": 2.5
+          }
+        ],
+        "params": [
+          {
+            "id": "k",
+            "dim": "k",
+            "solids": [
+              "grande"
+            ],
+            "label": "Fattore di scala k",
+            "min": 1,
+            "max": 3,
+            "step": 0.5
+          }
+        ],
+        "show": [
+          {
+            "item": "units"
+          },
+          {
+            "item": "dims",
+            "until": 17
+          },
+          {
+            "item": "board",
+            "solid": "piccolo",
+            "at": 17,
+            "formulas": [
+              "A",
+              "V"
+            ]
+          },
+          {
+            "item": "board",
+            "solid": "grande",
+            "at": 17,
+            "formulas": [
+              "A",
+              "V"
+            ],
+            "compare": "piccolo"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1101 @@
+{
+  "key": "bb35181e6d02122887764907b5dccaadba2077761fc8a744d750f55719c4c338",
+  "label": "gen_chart_popolazione-regioni",
+  "recordedAt": "2026-11-06T09:07:14.582Z",
+  "provider": "claude-cli",
+  "request": {
+    "systemSha256": "fad147fab4611e129a22457b0ad3bf37577a13b752cef07b008618985c414051",
+    "promptSha256": "60a3cb42b17b3dd16067833489311afbbd60d3e6de7a92dade9821e35a9c3485",
+    "schemaSha256": "bf1611124746e5bfddcdb802a916c1be0829f399dc2163486fbc0f602b5a7ec4",
+    "imageSha256": []
+  },
+  "response": {
+    "data": {
+      "version": "0.1",
+      "engine": "chart",
+      "title": "Le regioni più popolose d'Italia",
+      "page": {
+        "subject": "geografia",
+        "topic": "La popolazione delle regioni italiane",
+        "bookPage": "36",
+        "language": "it"
+      },
+      "kind": "geography",
+      "style": "color",
+      "music": {
+        "track": "music-calm",
+        "volume": 0.55
+      },
+      "engineData": {
+        "datasets": [
+          {
+            "id": "regioni",
+            "title": "Abitanti delle otto regioni più popolose",
+            "unit": "abitanti",
+            "decimals": 0,
+            "categories": [
+              {
+                "id": "lombardia",
+                "label": "Lombardia"
+              },
+              {
+                "id": "lazio",
+                "label": "Lazio"
+              },
+              {
+                "id": "campania",
+                "label": "Campania"
+              },
+              {
+                "id": "veneto",
+                "label": "Veneto"
+              },
+              {
+                "id": "sicilia",
+                "label": "Sicilia"
+              },
+              {
+                "id": "emilia-romagna",
+                "label": "Emilia-Romagna"
+              },
+              {
+                "id": "piemonte",
+                "label": "Piemonte"
+              },
+              {
+                "id": "puglia",
+                "label": "Puglia"
+              }
+            ],
+            "series": [
+              {
+                "id": "libro",
+                "label": "Libro",
+                "color": "#3b6fb6",
+                "values": [
+                  10020528,
+                  5714745,
+                  5590076,
+                  4847026,
+                  4814016,
+                  4437578,
+                  4252581,
+                  3900852
+                ],
+                "sourceIds": [
+                  "page"
+                ]
+              }
+            ]
+          }
+        ],
+        "charts": [
+          {
+            "id": "regioni-barre",
+            "kind": "bars",
+            "dataset": "regioni",
+            "size": [
+              14,
+              6,
+              3
+            ],
+            "values": true,
+            "cursor": {
+              "id": "regione",
+              "label": "Regione"
+            }
+          }
+        ],
+        "chapters": [
+          {
+            "chapter": "la-piu-grande",
+            "charts": [
+              {
+                "id": "regioni-barre",
+                "at": 0,
+                "grow": 5
+              }
+            ],
+            "actions": [
+              {
+                "do": "highlight",
+                "chart": "regioni-barre",
+                "at": 11,
+                "until": 24,
+                "categories": [
+                  "lombardia"
+                ]
+              },
+              {
+                "do": "annotate",
+                "chart": "regioni-barre",
+                "at": 15,
+                "until": 24,
+                "category": "lombardia",
+                "text": "Lombardia: 10 020 528 abitanti",
+                "sourceIds": [
+                  "page"
+                ]
+              },
+              {
+                "do": "highlight",
+                "chart": "regioni-barre",
+                "at": 24,
+                "categories": [
+                  "lazio",
+                  "campania"
+                ]
+              }
+            ]
+          },
+          {
+            "chapter": "in-fila",
+            "charts": [
+              {
+                "id": "regioni-barre",
+                "at": 0,
+                "grow": 1
+              }
+            ],
+            "actions": [
+              {
+                "do": "sort",
+                "chart": "regioni-barre",
+                "at": 2,
+                "order": "desc"
+              },
+              {
+                "do": "highlight",
+                "chart": "regioni-barre",
+                "at": 6,
+                "until": 16,
+                "categories": [
+                  "lazio",
+                  "campania"
+                ]
+              },
+              {
+                "do": "highlight",
+                "chart": "regioni-barre",
+                "at": 16,
+                "until": 26,
+                "categories": [
+                  "puglia"
+                ]
+              },
+              {
+                "do": "annotate",
+                "chart": "regioni-barre",
+                "at": 20,
+                "until": 26,
+                "category": "puglia",
+                "text": "Puglia: 3 900 852 abitanti",
+                "sourceIds": [
+                  "page"
+                ]
+              },
+              {
+                "do": "highlight",
+                "chart": "regioni-barre",
+                "at": 26,
+                "categories": [
+                  "emilia-romagna",
+                  "piemonte"
+                ]
+              }
+            ]
+          },
+          {
+            "chapter": "quasi-uguali",
+            "charts": [
+              {
+                "id": "regioni-barre",
+                "at": 0,
+                "grow": 1
+              }
+            ],
+            "actions": [
+              {
+                "do": "compare",
+                "chart": "regioni-barre",
+                "at": 4,
+                "until": 19,
+                "categories": [
+                  "veneto",
+                  "sicilia"
+                ]
+              },
+              {
+                "do": "annotate",
+                "chart": "regioni-barre",
+                "at": 13,
+                "until": 19,
+                "category": "sicilia",
+                "text": "Veneto 4 847 026 · Sicilia 4 814 016",
+                "sourceIds": [
+                  "page"
+                ]
+              },
+              {
+                "do": "highlight",
+                "chart": "regioni-barre",
+                "at": 23,
+                "categories": [
+                  "lombardia",
+                  "lazio",
+                  "campania"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "id": "la-piu-grande",
+          "title": "La regione più popolosa",
+          "chip": "Il primo",
+          "kind": "geography",
+          "duration": 30,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Guarda: queste sono le otto regioni italiane con più abitanti.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 5,
+              "text": "Ogni barra è una regione: più è alta, più persone ci vivono.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 11,
+              "text": "La barra più alta è la Lombardia.",
+              "highlight": [
+                "p1-lombardia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 15,
+              "text": "La Lombardia ha 10 020 528 abitanti.",
+              "speech": "La Lombardia ha dieci milioni ventimilacinquecentoventotto abitanti.",
+              "highlight": [
+                "p1-lombardia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 20,
+              "text": "È la regione più popolosa d'Italia.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 24,
+              "text": "Dopo vengono il Lazio e la Campania.",
+              "highlight": [
+                "p1-lazio",
+                "p1-campania"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "entity": "chart",
+                "part": "regioni-barre"
+              },
+              "distance": 20,
+              "azimuth": 0,
+              "elevation": 15
+            },
+            {
+              "at": 11,
+              "target": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 0
+              },
+              "distance": 13,
+              "azimuth": -12,
+              "elevation": 15
+            },
+            {
+              "at": 24,
+              "target": {
+                "entity": "chart",
+                "part": "regioni-barre"
+              },
+              "distance": 18,
+              "azimuth": 8,
+              "elevation": 14
+            }
+          ],
+          "pins": [
+            {
+              "id": "p1-lombardia",
+              "name": "Lombardia",
+              "info": "10 020 528 abitanti: la regione più popolosa.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 0
+              },
+              "visible": [
+                [
+                  11,
+                  30
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p1-lazio",
+              "name": "Lazio",
+              "info": "5 714 745 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 1
+              },
+              "visible": [
+                [
+                  24,
+                  30
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p1-campania",
+              "name": "Campania",
+              "info": "5 590 076 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 2
+              },
+              "visible": [
+                [
+                  24,
+                  30
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Una tabella mette i numeri in righe e colonne. Un grafico a barre trasforma gli stessi numeri in barre: così si confrontano con un'occhiata.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "pick",
+              "q": "Tocca la regione con più abitanti.",
+              "answerPins": [
+                "p1-lombardia"
+              ],
+              "explain": "La Lombardia ha la barra più alta: 10 020 528 abitanti."
+            },
+            {
+              "type": "choice",
+              "q": "Quale regione viene subito dopo la Lombardia?",
+              "options": [
+                "Campania",
+                "Veneto",
+                "Lazio"
+              ],
+              "answer": 2,
+              "explain": "Il Lazio ha 5 714 745 abitanti, più della Campania."
+            }
+          ],
+          "book": {
+            "heading": "La più popolosa",
+            "formula": "Lombardia: 10 020 528 abitanti",
+            "lines": [
+              "Otto regioni con più abitanti",
+              "Barra più alta = più persone",
+              "Poi Lazio e Campania"
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Secondo te, la barra della Lombardia sarà…",
+              "options": [
+                "Alta come quella del Lazio",
+                "Molto più alta di tutte",
+                "Un po' più bassa del Lazio"
+              ],
+              "answer": 1
+            },
+            "test": {
+              "prompt": "Prova tu: muovi il cursore e guarda ogni regione.",
+              "params": [
+                "regione"
+              ]
+            },
+            "prove": {
+              "text": "La Lombardia ha 10 020 528 abitanti, il Lazio 5 714 745: la barra lombarda è di gran lunga la più alta.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Lettore di barre"
+          },
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "room",
+                "volume": 0.3
+              }
+            ],
+            "cues": [
+              {
+                "at": 0,
+                "sound": "page-turn",
+                "volume": 0.6
+              },
+              {
+                "at": 11,
+                "sound": "chime",
+                "volume": 0.6
+              },
+              {
+                "at": 15,
+                "sound": "pop",
+                "volume": 0.5
+              },
+              {
+                "at": 24,
+                "sound": "pop",
+                "volume": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "id": "in-fila",
+          "title": "Dal più al meno",
+          "chip": "In fila",
+          "kind": "geography",
+          "duration": 31,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Ora mettiamo le barre in fila, dalla più alta alla più bassa.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 6,
+              "text": "Il Lazio ha 5 714 745 abitanti.",
+              "speech": "Il Lazio ha cinque milioni settecentoquattordicimila settecentoquarantacinque abitanti.",
+              "highlight": [
+                "p2-lazio"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 11,
+              "text": "La Campania ne ha 5 590 076.",
+              "speech": "La Campania ne ha cinque milioni cinquecentonovantamila settantasei.",
+              "highlight": [
+                "p2-campania"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 16,
+              "text": "In fondo alla fila c'è la Puglia.",
+              "highlight": [
+                "p2-puglia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 20,
+              "text": "La Puglia ha 3 900 852 abitanti: è l'ultima della tabella.",
+              "speech": "La Puglia ha tre milioni novecentomila ottocentocinquantadue abitanti: è l'ultima della tabella.",
+              "highlight": [
+                "p2-puglia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 26,
+              "text": "Emilia-Romagna e Piemonte stanno nel mezzo.",
+              "highlight": [
+                "p2-emilia",
+                "p2-piemonte"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "entity": "chart",
+                "part": "regioni-barre"
+              },
+              "distance": 20,
+              "azimuth": 0,
+              "elevation": 15
+            },
+            {
+              "at": 6,
+              "target": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 1
+              },
+              "distance": 13,
+              "azimuth": -10,
+              "elevation": 14
+            },
+            {
+              "at": 16,
+              "target": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 7
+              },
+              "distance": 13,
+              "azimuth": 10,
+              "elevation": 14
+            },
+            {
+              "at": 26,
+              "target": {
+                "entity": "chart",
+                "part": "regioni-barre"
+              },
+              "distance": 18,
+              "azimuth": 5,
+              "elevation": 15
+            }
+          ],
+          "pins": [
+            {
+              "id": "p2-lazio",
+              "name": "Lazio",
+              "info": "5 714 745 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 1
+              },
+              "visible": [
+                [
+                  6,
+                  31
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p2-campania",
+              "name": "Campania",
+              "info": "5 590 076 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 2
+              },
+              "visible": [
+                [
+                  11,
+                  31
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p2-puglia",
+              "name": "Puglia",
+              "info": "3 900 852 abitanti: la meno popolosa della tabella.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 7
+              },
+              "visible": [
+                [
+                  16,
+                  31
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p2-emilia",
+              "name": "Emilia-Romagna",
+              "info": "4 437 578 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 5
+              },
+              "visible": [
+                [
+                  26,
+                  31
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p2-piemonte",
+              "name": "Piemonte",
+              "info": "4 252 581 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 6
+              },
+              "visible": [
+                [
+                  26,
+                  31
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "La Puglia è l'ultima solo tra queste otto regioni: la tabella mostra le più popolose, non tutte le regioni d'Italia.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "pick",
+              "q": "Tocca la regione con meno abitanti della tabella.",
+              "answerPins": [
+                "p2-puglia"
+              ],
+              "explain": "La Puglia ha 3 900 852 abitanti, meno delle altre sette."
+            },
+            {
+              "type": "choice",
+              "q": "Chi ha più abitanti tra Emilia-Romagna e Piemonte?",
+              "options": [
+                "Emilia-Romagna",
+                "Piemonte",
+                "Sono uguali"
+              ],
+              "answer": 0,
+              "explain": "L'Emilia-Romagna ha 4 437 578 abitanti, il Piemonte 4 252 581."
+            }
+          ],
+          "book": {
+            "heading": "Dal più al meno",
+            "formula": "Puglia: 3 900 852 abitanti",
+            "lines": [
+              "Lazio 5 714 745",
+              "Campania 5 590 076",
+              "Ultima in tabella: Puglia"
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Quale regione sarà in fondo alla fila?",
+              "options": [
+                "Piemonte",
+                "Sicilia",
+                "Puglia"
+              ],
+              "answer": 2
+            },
+            "test": {
+              "prompt": "Guarda le barre che si mettono in fila, poi muovi il cursore fino all'ultima.",
+              "params": [
+                "regione"
+              ]
+            },
+            "prove": {
+              "text": "La Puglia ha 3 900 852 abitanti, il Piemonte 4 252 581: la barra pugliese è la più bassa.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Re della classifica"
+          },
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "room",
+                "volume": 0.3
+              }
+            ],
+            "cues": [
+              {
+                "at": 2,
+                "sound": "whoosh",
+                "volume": 0.5
+              },
+              {
+                "at": 6,
+                "sound": "pop",
+                "volume": 0.5
+              },
+              {
+                "at": 16,
+                "sound": "chime",
+                "volume": 0.6
+              },
+              {
+                "at": 26,
+                "sound": "pop",
+                "volume": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "id": "quasi-uguali",
+          "title": "Due regioni quasi uguali",
+          "chip": "Confronto",
+          "kind": "geography",
+          "duration": 30,
+          "narration": [
+            {
+              "at": 0,
+              "text": "Cerca due barre alte quasi uguali.",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 4,
+              "text": "Sono il Veneto e la Sicilia.",
+              "highlight": [
+                "p3-veneto",
+                "p3-sicilia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 8,
+              "text": "Il Veneto ha 4 847 026 abitanti.",
+              "speech": "Il Veneto ha quattro milioni ottocentoquarantasettemila ventisei abitanti.",
+              "highlight": [
+                "p3-veneto"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 13,
+              "text": "La Sicilia ne ha 4 814 016: quasi lo stesso numero!",
+              "speech": "La Sicilia ne ha quattro milioni ottocentoquattordicimila sedici: quasi lo stesso numero!",
+              "highlight": [
+                "p3-sicilia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 19,
+              "text": "Perché alcune regioni hanno tanti abitanti?",
+              "highlight": [],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "at": 23,
+              "text": "Hanno grandi città e molte attività economiche, cioè tanti lavori.",
+              "highlight": [
+                "p3-lombardia"
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "camera": [
+            {
+              "at": 0,
+              "target": {
+                "entity": "chart",
+                "part": "regioni-barre"
+              },
+              "distance": 19,
+              "azimuth": 0,
+              "elevation": 15
+            },
+            {
+              "at": 4,
+              "target": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 3
+              },
+              "distance": 12,
+              "azimuth": -8,
+              "elevation": 12
+            },
+            {
+              "at": 19,
+              "target": {
+                "entity": "chart",
+                "part": "regioni-barre"
+              },
+              "distance": 19,
+              "azimuth": 10,
+              "elevation": 16
+            }
+          ],
+          "pins": [
+            {
+              "id": "p3-veneto",
+              "name": "Veneto",
+              "info": "4 847 026 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 3
+              },
+              "visible": [
+                [
+                  4,
+                  30
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p3-sicilia",
+              "name": "Sicilia",
+              "info": "4 814 016 abitanti.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 4
+              },
+              "visible": [
+                [
+                  4,
+                  30
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            },
+            {
+              "id": "p3-lombardia",
+              "name": "Lombardia",
+              "info": "La più popolosa: grandi città e molte attività economiche.",
+              "kind": "data",
+              "anchor": {
+                "entity": "item",
+                "part": "regioni-barre",
+                "index": 0
+              },
+              "visible": [
+                [
+                  23,
+                  30
+                ]
+              ],
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "deep": [
+            {
+              "text": "Le attività economiche sono i lavori di un luogo: fabbriche, negozi, uffici. Dove c'è tanto lavoro, molte persone vanno a vivere.",
+              "sourceIds": [
+                "page"
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "type": "choice",
+              "q": "Quali due regioni hanno un numero di abitanti quasi uguale?",
+              "options": [
+                "Lazio e Puglia",
+                "Veneto e Sicilia",
+                "Lombardia e Campania"
+              ],
+              "answer": 1,
+              "explain": "Veneto 4 847 026 e Sicilia 4 814 016: le due barre sono quasi alte uguali."
+            },
+            {
+              "type": "choice",
+              "q": "Perché alcune regioni sono molto popolate?",
+              "options": [
+                "Hanno grandi città e molti lavori",
+                "Sono le più fredde",
+                "Hanno meno strade"
+              ],
+              "answer": 0,
+              "explain": "Il libro dice che le regioni più popolose hanno grandi città e molte attività economiche."
+            }
+          ],
+          "book": {
+            "heading": "Quasi uguali",
+            "formula": "Veneto 4 847 026 · Sicilia 4 814 016",
+            "lines": [
+              "Due barre quasi alte uguali",
+              "Grandi città attirano persone",
+              "Molte attività economiche = tanti lavori"
+            ],
+            "sourceIds": [
+              "page"
+            ]
+          },
+          "activity": {
+            "predict": {
+              "q": "Quale regione ha quasi gli stessi abitanti del Veneto?",
+              "options": [
+                "Lombardia",
+                "Puglia",
+                "Sicilia"
+              ],
+              "answer": 2
+            },
+            "test": {
+              "prompt": "Prova tu: muovi il cursore tra Veneto e Sicilia e confronta le barre.",
+              "params": [
+                "regione"
+              ]
+            },
+            "prove": {
+              "text": "Il Veneto ha 4 847 026 abitanti e la Sicilia 4 814 016: i numeri iniziano entrambi con 4 milioni e 800 mila.",
+              "sourceIds": [
+                "page"
+              ]
+            },
+            "stamp": "Detective dei confronti"
+          },
+          "sounds": {
+            "ambience": [
+              {
+                "sound": "city",
+                "volume": 0.25
+              }
+            ],
+            "cues": [
+              {
+                "at": 4,
+                "sound": "chime",
+                "volume": 0.6
+              },
+              {
+                "at": 13,
+                "sound": "pop",
+                "volume": 0.5
+              },
+              {
+                "at": 23,
+                "sound": "sparkle",
+                "volume": 0.5
+              }
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "id": "page",
+          "kind": "page",
+          "title": "Pagina del libro, p. 36: La popolazione delle regioni italiane"
+        }
+      ],
+      "videos": [],
+      "disclaimers": [
+        "I numeri degli abitanti sono quelli del libro; oggi potrebbero essere un po' diversi.",
+        "Il libro usa barre orizzontali: qui le barre sono verticali e in 3D, ma i dati sono gli stessi."
+      ]
+    },
+    "usage": {
+      "inputTokens": 2,
+      "outputTokens": 7893,
+      "cacheCreationInputTokens": 22311,
+      "cacheReadInputTokens": 0,
+      "costUsdEstimate": 0.336356
+    },
+    "durationMs": 63706,
+    "model": "claude-opus-5-5"
+  }
+}

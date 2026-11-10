@@ -1,0 +1,1823 @@
+{
+  "version": "0.1",
+  "engine": "map",
+  "title": "I grandi fiumi d'Europa",
+  "page": {
+    "subject": "Geografia",
+    "topic": "L'Europa fisica: i grandi fiumi",
+    "language": "it"
+  },
+  "kind": "geography",
+  "music": {
+    "track": "music-calm",
+    "volume": 0.7
+  },
+  "engineData": {
+    "area": {
+      "bbox": {
+        "lonMin": -14,
+        "lonMax": 58,
+        "latMin": 19,
+        "latMax": 64
+      },
+      "widthUnits": 10
+    },
+    "terrain": {
+      "asset": "geo/area_m14_19_58_64/terrain.json",
+      "verticalExaggeration": 40
+    },
+    "boundaries": {
+      "asset": "geo/area_m14_19_58_64/regions.geojson",
+      "focus": "",
+      "neighbors": [],
+      "outlineColor": "#d23b2a"
+    },
+    "rivers": {
+      "asset": "geo/area_m14_19_58_64/rivers.geojson",
+      "items": [
+        {
+          "id": "volga",
+          "width": 1,
+          "highlight": [
+            {
+              "chapter": "intro",
+              "from": 28.9
+            },
+            {
+              "chapter": "volga"
+            }
+          ]
+        },
+        {
+          "id": "danube",
+          "width": 1,
+          "highlight": [
+            {
+              "chapter": "intro",
+              "from": 19.1,
+              "to": 23.2
+            },
+            {
+              "chapter": "danubio"
+            }
+          ]
+        },
+        {
+          "id": "rhine",
+          "width": 0.8,
+          "highlight": [
+            {
+              "chapter": "intro",
+              "from": 14.9,
+              "to": 19.1
+            },
+            {
+              "chapter": "alpi",
+              "from": 8.1,
+              "to": 17.9
+            }
+          ]
+        },
+        {
+          "id": "rhone",
+          "width": 0.7,
+          "highlight": [
+            {
+              "chapter": "alpi",
+              "from": 17.9
+            }
+          ]
+        },
+        {
+          "id": "loire",
+          "width": 0.6,
+          "highlight": []
+        },
+        {
+          "id": "elbe",
+          "width": 0.6,
+          "highlight": []
+        },
+        {
+          "id": "vistula",
+          "width": 0.6,
+          "highlight": []
+        },
+        {
+          "id": "dnieper",
+          "width": 0.8,
+          "highlight": []
+        },
+        {
+          "id": "don",
+          "width": 0.7,
+          "highlight": []
+        },
+        {
+          "id": "ebro",
+          "width": 0.5,
+          "highlight": []
+        }
+      ]
+    },
+    "colorModes": [
+      {
+        "id": "alt",
+        "type": "altitude",
+        "label": "Altitudine",
+        "ticks": [
+          0,
+          500,
+          1500,
+          3000
+        ]
+      },
+      {
+        "id": "type",
+        "type": "classes",
+        "label": "Terre basse e terre alte",
+        "classes": [
+          {
+            "label": "Pianura",
+            "maxElev": 200,
+            "color": "#7cbf55",
+            "sourceIds": []
+          },
+          {
+            "label": "Collina e altopiano",
+            "maxElev": 1000,
+            "color": "#e9d65a",
+            "sourceIds": []
+          },
+          {
+            "label": "Montagna",
+            "color": "#b8603f",
+            "sourceIds": []
+          }
+        ],
+        "note": "Soglie semplificate, solo per leggere la mappa"
+      }
+    ],
+    "colorModeTrack": {
+      "intro": [
+        {
+          "at": 0,
+          "mode": "alt"
+        },
+        {
+          "at": 23.2,
+          "mode": "type"
+        }
+      ],
+      "volga": [
+        {
+          "at": 0,
+          "mode": "type"
+        }
+      ]
+    },
+    "cityMarkers": true,
+    "columns": {
+      "color": "#2a7fd2",
+      "maxHeight": 2.4,
+      "items": [
+        {
+          "pinId": "p_volga",
+          "geo": [
+            46,
+            51.5
+          ],
+          "value": 3.5,
+          "sourceIds": [
+            "wp-volga"
+          ]
+        },
+        {
+          "pinId": "p_danubio",
+          "geo": [
+            22.6,
+            44.6
+          ],
+          "value": 2.85,
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "pinId": "p_reno",
+          "geo": [
+            7,
+            50.6
+          ],
+          "value": 1.23,
+          "sourceIds": [
+            "wp-reno"
+          ]
+        },
+        {
+          "pinId": "p_rodano",
+          "geo": [
+            4.8,
+            45
+          ],
+          "value": 0.81,
+          "sourceIds": [
+            "wp-rodano"
+          ]
+        }
+      ],
+      "show": [
+        {
+          "chapter": "volga",
+          "from": 15.4,
+          "grow": 1.2
+        }
+      ]
+    },
+    "effects": [],
+    "routes": [
+      {
+        "id": "danubio",
+        "label": "Il viaggio del Danubio",
+        "color": "#2a7fd2",
+        "path": [
+          [
+            8.5,
+            47.95
+          ],
+          [
+            10,
+            48.4
+          ],
+          [
+            12.1,
+            49
+          ],
+          [
+            13.46,
+            48.57
+          ],
+          [
+            14.29,
+            48.3
+          ],
+          [
+            16.37,
+            48.21
+          ],
+          [
+            17.11,
+            48.15
+          ],
+          [
+            18.9,
+            47.8
+          ],
+          [
+            19.04,
+            47.5
+          ],
+          [
+            18.75,
+            46
+          ],
+          [
+            19.84,
+            45.25
+          ],
+          [
+            20.46,
+            44.82
+          ],
+          [
+            22.5,
+            44.65
+          ],
+          [
+            25.95,
+            43.85
+          ],
+          [
+            27.27,
+            44.12
+          ],
+          [
+            28.05,
+            45.43
+          ],
+          [
+            29.6,
+            45.15
+          ]
+        ],
+        "width": 1,
+        "show": [
+          {
+            "chapter": "danubio",
+            "from": 3.9,
+            "draw": 21.8
+          }
+        ],
+        "sourceIds": [
+          "wp-danubio"
+        ]
+      }
+    ],
+    "areas": []
+  },
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "Le grandi vie d'acqua dell'Europa",
+      "chip": "Panoramica",
+      "book": {
+        "heading": "I fiumi d'Europa in breve",
+        "formula": "sorgente → corso → foce",
+        "lines": [
+          "I fiumi portano al mare l'acqua di piogge e nevi.",
+          "Molti nascono dalle Alpi e vanno verso mari diversi.",
+          "I più lunghi scorrono nelle grandi pianure dell'est."
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Dove scorrono i fiumi più lunghi d'Europa?",
+          "options": [
+            "Tra le montagne delle Alpi",
+            "Nelle grandi pianure dell'est",
+            "Nelle isole del Mediterraneo"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda i colori della mappa: dove il verde della pianura occupa più spazio, il fiume ha tutta la strada per allungarsi."
+        },
+        "prove": {
+          "text": "Il Volga, il fiume più lungo d'Europa, attraversa la grande pianura della Russia prima di arrivare al Mar Caspio.",
+          "sourceIds": [
+            "page",
+            "wp-volga"
+          ]
+        },
+        "stamp": "Esploratore dei fiumi"
+      },
+      "kind": "geography",
+      "duration": 36.2,
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "river",
+            "volume": 0.45
+          },
+          {
+            "sound": "wind",
+            "volume": 0.2
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 23.2,
+            "sound": "chime",
+            "volume": 0.5
+          }
+        ]
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Questa è l'Europa, con i suoi fiumi più grandi.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.8,
+          "text": "Un fiume raccoglie l'acqua delle piogge e delle nevi e la porta fino al mare.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 9.7,
+          "text": "Molti fiumi nascono dalle Alpi, le montagne più alte del continente.",
+          "highlight": [
+            "alpi"
+          ],
+          "sourceIds": [
+            "page",
+            "wp-alpi"
+          ]
+        },
+        {
+          "at": 14.9,
+          "text": "Il Reno corre verso nord e finisce nel Mare del Nord.",
+          "highlight": [
+            "reno",
+            "mare-nord"
+          ],
+          "sourceIds": [
+            "page",
+            "wp-reno"
+          ]
+        },
+        {
+          "at": 19.1,
+          "text": "Il Danubio va verso est e arriva fino al Mar Nero.",
+          "highlight": [
+            "danubio",
+            "mar-nero"
+          ],
+          "sourceIds": [
+            "page",
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 23.2,
+          "text": "Guarda i colori: a est la terra è bassa e piatta per migliaia di chilometri.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 28.9,
+          "text": "Lì scorre il Volga, il fiume più lungo d'Europa, che finisce nel Mar Caspio.",
+          "highlight": [
+            "volga",
+            "caspio"
+          ],
+          "sourceIds": [
+            "page",
+            "wp-volga"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "geo": [
+              20,
+              47
+            ]
+          },
+          "distance": 10.5,
+          "azimuth": 0,
+          "elevation": 58
+        },
+        {
+          "at": 9.7,
+          "target": {
+            "geo": [
+              10,
+              47.5
+            ]
+          },
+          "distance": 6,
+          "azimuth": 0,
+          "elevation": 52
+        },
+        {
+          "at": 23.2,
+          "target": {
+            "geo": [
+              32,
+              48
+            ]
+          },
+          "distance": 9.5,
+          "azimuth": 0,
+          "elevation": 55
+        }
+      ],
+      "pins": [
+        {
+          "id": "volga",
+          "name": "Volga",
+          "info": "Il fiume più lungo d'Europa. Scorre tutto in Russia e finisce nel Mar Caspio.",
+          "kind": "river",
+          "anchor": {
+            "geo": [
+              50.1,
+              53.2
+            ]
+          },
+          "sourceIds": [
+            "page",
+            "wp-volga"
+          ]
+        },
+        {
+          "id": "danubio",
+          "name": "Danubio",
+          "info": "Attraversa l'Europa centrale da ovest a est e sfocia nel Mar Nero.",
+          "kind": "river",
+          "anchor": {
+            "geo": [
+              22.6,
+              44.4
+            ]
+          },
+          "sourceIds": [
+            "page",
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "reno",
+          "name": "Reno",
+          "info": "Nasce nelle Alpi svizzere e sfocia nel Mare del Nord, nei Paesi Bassi.",
+          "kind": "river",
+          "anchor": {
+            "geo": [
+              6.8,
+              50.8
+            ]
+          },
+          "sourceIds": [
+            "page",
+            "wp-reno"
+          ]
+        },
+        {
+          "id": "alpi",
+          "name": "Alpi",
+          "info": "La catena montuosa più alta d'Europa: qui nascono molti fiumi, tra cui il Reno e il Rodano.",
+          "kind": "peak",
+          "anchor": {
+            "geo": [
+              9,
+              46.5
+            ]
+          },
+          "sourceIds": [
+            "page",
+            "wp-alpi"
+          ]
+        },
+        {
+          "id": "mar-nero",
+          "name": "Mar Nero",
+          "info": "Mare chiuso tra Europa e Asia: vi arrivano il Danubio e altri grandi fiumi dell'est.",
+          "kind": "sea",
+          "anchor": {
+            "geo": [
+              34,
+              43.3
+            ]
+          },
+          "sourceIds": [
+            "wp-mar-nero"
+          ]
+        },
+        {
+          "id": "caspio",
+          "name": "Mar Caspio",
+          "info": "Un enorme lago salato, chiamato mare per la sua grandezza. Non comunica con l'oceano.",
+          "kind": "sea",
+          "anchor": {
+            "geo": [
+              50.5,
+              42
+            ]
+          },
+          "sourceIds": [
+            "wp-caspio"
+          ]
+        },
+        {
+          "id": "mare-nord",
+          "name": "Mare del Nord",
+          "info": "Mare dell'oceano Atlantico tra la Gran Bretagna e l'Europa continentale.",
+          "kind": "sea",
+          "anchor": {
+            "geo": [
+              3.5,
+              56
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "mediterraneo",
+          "name": "Mar Mediterraneo",
+          "info": "Il mare che bagna l'Italia: vi arrivano il Rodano e l'Ebro.",
+          "kind": "sea",
+          "anchor": {
+            "geo": [
+              17.5,
+              35.5
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il punto dove un fiume nasce si chiama sorgente; il punto dove finisce, nel mare o in un lago, si chiama foce.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "text": "Il Mar Caspio è il più grande lago salato della Terra: si chiama mare perché è enorme e la sua acqua è salata.",
+          "sourceIds": [
+            "wp-caspio"
+          ]
+        },
+        {
+          "text": "Tutto il territorio che manda la sua acqua a uno stesso fiume si chiama bacino idrografico.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "text": "Nel modello le altezze sono esagerate, altrimenti le montagne sembrerebbero quasi piatte.",
+          "sourceIds": []
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Qual è il fiume più lungo d'Europa?",
+          "options": [
+            "Il Danubio",
+            "Il Reno",
+            "Il Volga"
+          ],
+          "answer": 2,
+          "explain": "È il Volga, che scorre in Russia e finisce nel Mar Caspio."
+        },
+        {
+          "type": "choice",
+          "q": "In quale mare sfocia il Danubio?",
+          "options": [
+            "Nel Mar Nero",
+            "Nel Mare del Nord",
+            "Nel Mar Mediterraneo"
+          ],
+          "answer": 0,
+          "explain": "Il Danubio attraversa l'Europa verso est e arriva al Mar Nero."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca sulla mappa il mare in cui finisce il Volga.",
+          "answerPins": [
+            "caspio"
+          ],
+          "explain": "È il Mar Caspio, un grande lago salato senza sbocco sull'oceano."
+        }
+      ]
+    },
+    {
+      "id": "danubio",
+      "title": "Il Danubio, il fiume delle capitali",
+      "chip": "Danubio",
+      "book": {
+        "heading": "Il Danubio",
+        "lines": [
+          "Nasce nella Foresta Nera, in Germania.",
+          "Attraversa l'Europa centrale verso est.",
+          "Passa per Vienna, Bratislava, Budapest e Belgrado.",
+          "Sfocia nel Mar Nero con un grande delta."
+        ],
+        "sourceIds": [
+          "page",
+          "wp-danubio"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Quante capitali di Stati incontra il Danubio lungo il suo viaggio?",
+          "options": [
+            "Una",
+            "Due",
+            "Quattro"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Segui la freccia lungo il fiume e conta le capitali che si accendono."
+        },
+        "prove": {
+          "text": "Il Danubio bagna quattro capitali: Vienna, Bratislava, Budapest e Belgrado.",
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        "stamp": "Navigatore del Danubio"
+      },
+      "kind": "geography",
+      "duration": 32,
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "river",
+            "volume": 0.5
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 19.7,
+            "sound": "bell",
+            "volume": 0.4
+          },
+          {
+            "at": 25.7,
+            "sound": "seagull",
+            "volume": 0.45
+          }
+        ]
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Seguiamo il Danubio dalla sorgente fino al mare.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.9,
+          "text": "Nasce in Germania, sulle colline della Foresta Nera.",
+          "highlight": [
+            "foresta-nera"
+          ],
+          "sourceIds": [
+            "page",
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 8.1,
+          "text": "Scorre verso est e passa per Vienna, la capitale dell'Austria.",
+          "highlight": [
+            "vienna"
+          ],
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 12.9,
+          "text": "Poco dopo bagna Bratislava e poi Budapest.",
+          "highlight": [
+            "bratislava",
+            "budapest"
+          ],
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 16.4,
+          "text": "Gira verso sud e arriva a Belgrado.",
+          "highlight": [
+            "belgrado"
+          ],
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 19.7,
+          "text": "Quattro capitali sulle sue rive: per questo lo chiamano il fiume delle capitali.",
+          "highlight": [],
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 25.7,
+          "text": "Alla fine si apre in un grande delta e si getta nel Mar Nero.",
+          "highlight": [
+            "delta"
+          ],
+          "sourceIds": [
+            "wp-delta-danubio"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "geo": [
+              13,
+              48
+            ]
+          },
+          "distance": 5.5,
+          "azimuth": 0,
+          "elevation": 55
+        },
+        {
+          "at": 12.9,
+          "target": {
+            "geo": [
+              19,
+              47
+            ]
+          },
+          "distance": 5,
+          "azimuth": 0,
+          "elevation": 52
+        },
+        {
+          "at": 25.7,
+          "target": {
+            "geo": [
+              26,
+              45
+            ]
+          },
+          "distance": 5.5,
+          "azimuth": 0,
+          "elevation": 52
+        }
+      ],
+      "pins": [
+        {
+          "id": "foresta-nera",
+          "name": "Foresta Nera",
+          "info": "Zona di colline boscose nel sud-ovest della Germania: qui nasce il Danubio.",
+          "kind": "area",
+          "anchor": {
+            "geo": [
+              8.3,
+              48
+            ]
+          },
+          "sourceIds": [
+            "page",
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "vienna",
+          "name": "Vienna",
+          "info": "Capitale dell'Austria, sulle rive del Danubio.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              16.37,
+              48.21
+            ]
+          },
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "bratislava",
+          "name": "Bratislava",
+          "info": "Capitale della Slovacchia, a poca distanza da Vienna lungo il fiume.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              17.11,
+              48.15
+            ]
+          },
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "budapest",
+          "name": "Budapest",
+          "info": "Capitale dell'Ungheria: il Danubio la divide in due parti, Buda e Pest.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              19.04,
+              47.5
+            ]
+          },
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "belgrado",
+          "name": "Belgrado",
+          "info": "Capitale della Serbia, dove il fiume Sava si getta nel Danubio.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              20.46,
+              44.82
+            ]
+          },
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "delta",
+          "name": "Delta del Danubio",
+          "info": "Prima di arrivare al mare il fiume si divide in tanti rami tra paludi e canneti, rifugio di moltissimi uccelli.",
+          "kind": "area",
+          "anchor": {
+            "geo": [
+              29.4,
+              45.1
+            ]
+          },
+          "sourceIds": [
+            "wp-delta-danubio"
+          ]
+        },
+        {
+          "id": "r_danubio",
+          "name": "Il viaggio del Danubio",
+          "info": "La freccia segue il fiume dalla sorgente alla foce.",
+          "kind": "river",
+          "anchor": {
+            "entity": "route",
+            "part": "danubio",
+            "offset": [
+              0,
+              0.15,
+              0
+            ]
+          },
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il Danubio è lungo circa 2850 km: tra i fiumi d'Europa è secondo solo al Volga.",
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "text": "Il suo corso tocca o attraversa dieci Stati: nessun altro fiume al mondo ne bagna così tanti.",
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "text": "Il delta del Danubio, tra Romania e Ucraina, è una delle zone umide più grandi d'Europa ed è protetto come patrimonio dell'umanità.",
+          "sourceIds": [
+            "wp-delta-danubio"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Dove nasce il Danubio?",
+          "options": [
+            "Nelle Alpi svizzere",
+            "Nella Foresta Nera, in Germania",
+            "Nei Carpazi"
+          ],
+          "answer": 1,
+          "explain": "Nasce nella Foresta Nera, nel sud-ovest della Germania."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca sulla mappa la capitale che il Danubio divide in due parti, Buda e Pest.",
+          "answerPins": [
+            "budapest"
+          ],
+          "explain": "È Budapest, la capitale dell'Ungheria."
+        }
+      ]
+    },
+    {
+      "id": "alpi",
+      "title": "Reno e Rodano, figli delle Alpi",
+      "chip": "Reno e Rodano",
+      "book": {
+        "heading": "Due fiumi, due mari",
+        "formula": "Reno → Mare del Nord · Rodano → Mediterraneo",
+        "lines": [
+          "Nascono vicini, nelle Alpi svizzere.",
+          "Il Reno va a nord e attraversa il Lago di Costanza.",
+          "Il Rodano attraversa il Lago di Ginevra e va a sud."
+        ],
+        "sourceIds": [
+          "wp-reno",
+          "wp-rodano"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Due fiumi nascono vicini sulle Alpi. Finiranno nello stesso mare?",
+          "options": [
+            "Sì, sempre",
+            "No, possono andare in mari diversi"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Guarda da che parte scende ciascun fiume: il versante della montagna decide la sua strada."
+        },
+        "prove": {
+          "text": "Il Reno scende verso il Mare del Nord, il Rodano verso il Mar Mediterraneo, anche se le loro sorgenti sono vicine.",
+          "sourceIds": [
+            "wp-reno",
+            "wp-rodano"
+          ]
+        },
+        "stamp": "Guida delle Alpi"
+      },
+      "kind": "geography",
+      "duration": 32.8,
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "river",
+            "volume": 0.4
+          },
+          {
+            "sound": "wind",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 12.4,
+            "sound": "seagull",
+            "volume": 0.4
+          }
+        ]
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Torniamo sulle Alpi svizzere.",
+          "highlight": [
+            "sorgenti"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 3.3,
+          "text": "Qui nascono due fiumi vicini che poi prendono strade opposte.",
+          "highlight": [
+            "sorgenti"
+          ],
+          "sourceIds": [
+            "wp-reno",
+            "wp-rodano"
+          ]
+        },
+        {
+          "at": 8.1,
+          "text": "Il Reno va verso nord e attraversa il Lago di Costanza.",
+          "highlight": [
+            "costanza"
+          ],
+          "sourceIds": [
+            "wp-reno",
+            "wp-costanza"
+          ]
+        },
+        {
+          "at": 12.4,
+          "text": "Arriva nei Paesi Bassi, vicino a Rotterdam, e finisce nel Mare del Nord.",
+          "highlight": [
+            "rotterdam",
+            "mare-nord"
+          ],
+          "sourceIds": [
+            "wp-reno",
+            "wp-rotterdam"
+          ]
+        },
+        {
+          "at": 17.9,
+          "text": "Il Rodano va verso ovest e attraversa il Lago di Ginevra.",
+          "highlight": [
+            "lemano"
+          ],
+          "sourceIds": [
+            "wp-rodano",
+            "wp-lemano"
+          ]
+        },
+        {
+          "at": 22.4,
+          "text": "Poi scende verso sud, passa per Lione e forma il delta della Camargue.",
+          "highlight": [
+            "lione",
+            "camargue"
+          ],
+          "sourceIds": [
+            "wp-rodano",
+            "wp-camargue"
+          ]
+        },
+        {
+          "at": 27.8,
+          "text": "La sua acqua finisce nel Mar Mediterraneo.",
+          "highlight": [
+            "mediterraneo"
+          ],
+          "sourceIds": [
+            "wp-rodano"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "geo": [
+              8,
+              47
+            ]
+          },
+          "distance": 3.6,
+          "azimuth": 0,
+          "elevation": 48
+        },
+        {
+          "at": 8.1,
+          "target": {
+            "geo": [
+              7,
+              49.5
+            ]
+          },
+          "distance": 5,
+          "azimuth": 0,
+          "elevation": 54
+        },
+        {
+          "at": 17.9,
+          "target": {
+            "geo": [
+              5.5,
+              45
+            ]
+          },
+          "distance": 4.8,
+          "azimuth": 0,
+          "elevation": 54
+        }
+      ],
+      "pins": [
+        {
+          "id": "sorgenti",
+          "name": "Alpi svizzere",
+          "info": "Qui, non lontane l'una dall'altra, ci sono le sorgenti del Reno e del Rodano.",
+          "kind": "peak",
+          "anchor": {
+            "geo": [
+              8.5,
+              46.6
+            ]
+          },
+          "sourceIds": [
+            "wp-reno",
+            "wp-rodano"
+          ]
+        },
+        {
+          "id": "costanza",
+          "name": "Lago di Costanza",
+          "info": "Grande lago tra Svizzera, Germania e Austria, attraversato dal Reno.",
+          "kind": "area",
+          "anchor": {
+            "geo": [
+              9.4,
+              47.6
+            ]
+          },
+          "sourceIds": [
+            "wp-costanza"
+          ]
+        },
+        {
+          "id": "rotterdam",
+          "name": "Rotterdam",
+          "info": "Città dei Paesi Bassi vicino alla foce del Reno: ha il porto più grande d'Europa.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              4.48,
+              51.92
+            ]
+          },
+          "sourceIds": [
+            "wp-rotterdam"
+          ]
+        },
+        {
+          "id": "lemano",
+          "name": "Lago di Ginevra",
+          "info": "Detto anche Lemano: il Rodano lo attraversa prima di entrare in Francia.",
+          "kind": "area",
+          "anchor": {
+            "geo": [
+              6.55,
+              46.43
+            ]
+          },
+          "sourceIds": [
+            "wp-lemano"
+          ]
+        },
+        {
+          "id": "lione",
+          "name": "Lione",
+          "info": "Grande città francese, dove il Rodano riceve il fiume Saona.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              4.84,
+              45.76
+            ]
+          },
+          "sourceIds": [
+            "wp-rodano"
+          ]
+        },
+        {
+          "id": "camargue",
+          "name": "Camargue",
+          "info": "Il delta del Rodano: lagune, saline e paludi famose per i fenicotteri e i cavalli bianchi.",
+          "kind": "area",
+          "anchor": {
+            "geo": [
+              4.5,
+              43.55
+            ]
+          },
+          "sourceIds": [
+            "wp-camargue"
+          ]
+        },
+        {
+          "id": "mare-nord",
+          "name": "Mare del Nord",
+          "info": "Qui arriva l'acqua del Reno.",
+          "kind": "sea",
+          "anchor": {
+            "geo": [
+              3.5,
+              54.5
+            ]
+          },
+          "sourceIds": [
+            "wp-reno"
+          ]
+        },
+        {
+          "id": "mediterraneo",
+          "name": "Mar Mediterraneo",
+          "info": "Qui arriva l'acqua del Rodano.",
+          "kind": "sea",
+          "anchor": {
+            "geo": [
+              5,
+              41.8
+            ]
+          },
+          "sourceIds": [
+            "wp-rodano"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il Reno è lungo circa 1230 km; per decenni molti libri hanno scritto 1320 km, per un errore di trascrizione scoperto solo nel 2010.",
+          "sourceIds": [
+            "wp-reno"
+          ]
+        },
+        {
+          "text": "Il Rodano nasce da un ghiacciaio: d'estate, quando la neve si scioglie, porta più acqua.",
+          "sourceIds": [
+            "wp-rodano"
+          ]
+        },
+        {
+          "text": "Una linea di cime divide l'acqua che va verso un mare da quella che va verso un altro: si chiama spartiacque.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quale mare sfocia il Rodano?",
+          "options": [
+            "Nel Mare del Nord",
+            "Nel Mar Mediterraneo",
+            "Nel Mar Nero"
+          ],
+          "answer": 1,
+          "explain": "Il Rodano scende verso sud attraverso la Francia e arriva al Mediterraneo."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca sulla mappa il lago che attraversa il Reno.",
+          "answerPins": [
+            "costanza"
+          ],
+          "explain": "È il Lago di Costanza, tra Svizzera, Germania e Austria."
+        }
+      ]
+    },
+    {
+      "id": "volga",
+      "title": "Il Volga e la grande pianura",
+      "chip": "Volga",
+      "book": {
+        "heading": "Fiumi lunghi e fiumi brevi",
+        "formula": "Volga 3500 km · Danubio 2850 km · Reno 1230 km",
+        "lines": [
+          "Il Volga è il fiume più lungo d'Europa.",
+          "Scorre lento nella pianura della Russia.",
+          "Finisce nel Mar Caspio, un mare chiuso."
+        ],
+        "sourceIds": [
+          "wp-volga",
+          "wp-danubio",
+          "wp-reno"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Quale fiume avrà la colonna più alta?",
+          "options": [
+            "Il Rodano",
+            "Il Danubio",
+            "Il Volga"
+          ],
+          "answer": 2
+        },
+        "test": {
+          "prompt": "Guarda crescere le colonne: l'altezza è la lunghezza del fiume."
+        },
+        "prove": {
+          "text": "Il Volga, lungo circa 3500 km, supera il Danubio di circa 650 km.",
+          "sourceIds": [
+            "wp-volga",
+            "wp-danubio"
+          ]
+        },
+        "stamp": "Misuratore di fiumi"
+      },
+      "kind": "geography",
+      "duration": 37.7,
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "river",
+            "volume": 0.35
+          },
+          {
+            "sound": "wind",
+            "volume": 0.3
+          }
+        ],
+        "cues": [
+          {
+            "at": 0.2,
+            "sound": "whoosh-soft",
+            "volume": 0.6
+          },
+          {
+            "at": 15.4,
+            "sound": "pop",
+            "volume": 0.5
+          }
+        ]
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora andiamo a est, nella grande pianura della Russia.",
+          "highlight": [
+            "pianura"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 4.2,
+          "text": "Qui il terreno è quasi piatto e il Volga scorre lento per migliaia di chilometri.",
+          "highlight": [
+            "pianura"
+          ],
+          "sourceIds": [
+            "page",
+            "wp-volga"
+          ]
+        },
+        {
+          "at": 10.3,
+          "text": "Passa per Volgograd e arriva ad Astrachan', vicino al Mar Caspio.",
+          "highlight": [
+            "volgograd",
+            "astrakhan"
+          ],
+          "sourceIds": [
+            "wp-volga"
+          ]
+        },
+        {
+          "at": 15.4,
+          "text": "Confrontiamo le lunghezze: ogni colonna è un fiume.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 19.5,
+          "text": "Il Volga è lungo circa 3500 km, il Danubio circa 2850.",
+          "speech": "Il Volga è lungo circa 3500 chilometri, il Danubio circa 2850.",
+          "highlight": [
+            "p_volga",
+            "p_danubio"
+          ],
+          "sourceIds": [
+            "wp-volga",
+            "wp-danubio"
+          ]
+        },
+        {
+          "at": 24.3,
+          "text": "Il Reno e il Rodano, che nascono sulle Alpi, sono molto più corti.",
+          "highlight": [
+            "p_reno",
+            "p_rodano"
+          ],
+          "sourceIds": [
+            "wp-reno",
+            "wp-rodano"
+          ]
+        },
+        {
+          "at": 29.4,
+          "text": "In pianura un fiume ha spazio per allungarsi; tra le montagne arriva al mare più in fretta.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "geo": [
+              42,
+              51
+            ]
+          },
+          "distance": 7,
+          "azimuth": 0,
+          "elevation": 55
+        },
+        {
+          "at": 15.4,
+          "target": {
+            "geo": [
+              26,
+              47
+            ]
+          },
+          "distance": 10,
+          "azimuth": 0,
+          "elevation": 40
+        }
+      ],
+      "pins": [
+        {
+          "id": "pianura",
+          "name": "Pianura Sarmatica",
+          "info": "La grande pianura dell'Europa orientale: il terreno scende pochissimo e i fiumi scorrono lenti.",
+          "kind": "area",
+          "anchor": {
+            "geo": [
+              38,
+              53
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "id": "volgograd",
+          "name": "Volgograd",
+          "info": "Grande città russa sulla riva del Volga.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              44.5,
+              48.7
+            ]
+          },
+          "sourceIds": [
+            "wp-volga"
+          ]
+        },
+        {
+          "id": "astrakhan",
+          "name": "Astrachan'",
+          "info": "Città vicina al delta del Volga, poco prima del Mar Caspio.",
+          "kind": "city",
+          "anchor": {
+            "geo": [
+              48.03,
+              46.35
+            ]
+          },
+          "sourceIds": [
+            "wp-volga"
+          ]
+        },
+        {
+          "id": "p_volga",
+          "name": "Volga",
+          "sub": "circa 3500 km",
+          "info": "Il fiume più lungo d'Europa.",
+          "kind": "data",
+          "anchor": {
+            "entity": "column",
+            "part": "p_volga"
+          },
+          "sourceIds": [
+            "wp-volga"
+          ]
+        },
+        {
+          "id": "p_danubio",
+          "name": "Danubio",
+          "sub": "circa 2850 km",
+          "info": "Il secondo fiume d'Europa per lunghezza.",
+          "kind": "data",
+          "anchor": {
+            "entity": "column",
+            "part": "p_danubio"
+          },
+          "sourceIds": [
+            "wp-danubio"
+          ]
+        },
+        {
+          "id": "p_reno",
+          "name": "Reno",
+          "sub": "circa 1230 km",
+          "info": "Dalle Alpi al Mare del Nord.",
+          "kind": "data",
+          "anchor": {
+            "entity": "column",
+            "part": "p_reno"
+          },
+          "sourceIds": [
+            "wp-reno"
+          ]
+        },
+        {
+          "id": "p_rodano",
+          "name": "Rodano",
+          "sub": "circa 810 km",
+          "info": "Dalle Alpi al Mediterraneo.",
+          "kind": "data",
+          "anchor": {
+            "entity": "column",
+            "part": "p_rodano"
+          },
+          "sourceIds": [
+            "wp-rodano"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il Volga scorre interamente in Russia: è il fiume più lungo d'Europa, con circa 3500 km.",
+          "sourceIds": [
+            "wp-volga"
+          ]
+        },
+        {
+          "text": "Il Mar Caspio non ha uscita verso l'oceano: l'acqua del Volga se ne va solo evaporando.",
+          "sourceIds": [
+            "wp-caspio"
+          ]
+        },
+        {
+          "text": "D'inverno lunghi tratti del Volga gelano per alcuni mesi.",
+          "sourceIds": [
+            "wp-volga"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Perché i fiumi della pianura russa sono così lunghi?",
+          "options": [
+            "Perché piove sempre",
+            "Perché attraversano grandi pianure prima di arrivare al mare",
+            "Perché nascono dai ghiacciai"
+          ],
+          "answer": 1,
+          "explain": "In una pianura immensa il fiume scorre lento e percorre migliaia di chilometri prima di trovare il mare."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la colonna del secondo fiume d'Europa per lunghezza.",
+          "answerPins": [
+            "p_danubio"
+          ],
+          "explain": "È il Danubio, con circa 2850 km."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Geografia, «I grandi fiumi d'Europa» (lezione di esempio originale, scritta per AnimaPage)"
+    },
+    {
+      "id": "wp-volga",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Volga",
+      "url": "https://it.wikipedia.org/wiki/Volga",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q626",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-danubio",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Danubio",
+      "url": "https://it.wikipedia.org/wiki/Danubio",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q1653",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-reno",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Reno",
+      "url": "https://it.wikipedia.org/wiki/Reno",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q584",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-rodano",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Rodano",
+      "url": "https://it.wikipedia.org/wiki/Rodano",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q602",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-mar-nero",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Mar Nero",
+      "url": "https://it.wikipedia.org/wiki/Mar_Nero",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q166",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-caspio",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Mar Caspio",
+      "url": "https://it.wikipedia.org/wiki/Mar_Caspio",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q5484",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-alpi",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Alpi",
+      "url": "https://it.wikipedia.org/wiki/Alpi",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q1286",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-costanza",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Lago di Costanza",
+      "url": "https://it.wikipedia.org/wiki/Lago_di_Costanza",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q4127",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-lemano",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Lago Lemano",
+      "url": "https://it.wikipedia.org/wiki/Lago_Lemano",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "wikidataId": "Q6403",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-rotterdam",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Rotterdam",
+      "url": "https://it.wikipedia.org/wiki/Rotterdam",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-camargue",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Camargue",
+      "url": "https://it.wikipedia.org/wiki/Camargue",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-delta-danubio",
+      "kind": "wikipedia",
+      "title": "Wikipedia: Delta del Danubio",
+      "url": "https://it.wikipedia.org/wiki/Delta_del_Danubio",
+      "publisher": "Wikipedia (it)",
+      "accessed": "2026-11-10",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "data-terrain",
+      "kind": "dataset",
+      "title": "Terrain Tiles (Terrarium): rilievo da EU-DEM (Copernicus), SRTM e GMTED2010 (USGS), ETOPO1 (NOAA)",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "publisher": "AWS Open Data / Tilezen",
+      "accessed": "2026-11-03",
+      "license": "Attribuzione richiesta: vedi github.com/tilezen/joerd/blob/master/docs/attribution.md"
+    },
+    {
+      "id": "data-naturalearth",
+      "kind": "dataset",
+      "title": "Natural Earth: confini degli Stati, mari e fiumi",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "publisher": "Natural Earth",
+      "accessed": "2026-11-03",
+      "license": "Pubblico dominio"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Lezione di esempio scritta per AnimaPage: non viene da una pagina di un libro.",
+    "Rilievo ricostruito in modo semplificato da dati di elevazione reali a bassa risoluzione: le montagne appaiono più basse e più lisce del vero.",
+    "Altezze esagerate 40 volte rispetto alla realtà.",
+    "I fiumi sono disegnati in modo semplificato e alcuni solo per un tratto; le lunghezze sono arrotondate.",
+    "I confini sottili sono quelli degli Stati di oggi, mostrati solo come riferimento.",
+    "Confini e fiumi: Natural Earth (pubblico dominio). Rilievo: Terrain Tiles (EU-DEM Copernicus, USGS, NOAA)."
+  ]
+}

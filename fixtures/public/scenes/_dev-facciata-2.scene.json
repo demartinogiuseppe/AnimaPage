@@ -1,0 +1,495 @@
+{
+  "version": "0.1",
+  "engine": "facade",
+  "title": "Facciate (prova 2)",
+  "page": {
+    "subject": "Arte",
+    "topic": "Facciate",
+    "language": "it"
+  },
+  "kind": "art",
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Seconda scena di prova per il teatro delle facciate"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Scena di prova: edifici semplificati disegnati solo con linee."
+  ],
+  "engineData": {
+    "buildings": [
+      {
+        "id": "tempio",
+        "name": "Tempio dorico",
+        "style": "temple",
+        "base": {
+          "height": 1.2,
+          "steps": 3
+        },
+        "floors": [
+          {
+            "id": "t0",
+            "height": 9,
+            "top": "entablature",
+            "cornice": "plain",
+            "members": {
+              "type": "column",
+              "order": "doric",
+              "width": 0.9
+            },
+            "colonnade": {
+              "depth": 3
+            },
+            "bays": [
+              {
+                "id": "t0a",
+                "width": 3.45,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "t0b",
+                "width": 3,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "t0c",
+                "width": 3,
+                "cell": {
+                  "el": "portal",
+                  "w": 1.6,
+                  "h": 3.6
+                }
+              },
+              {
+                "id": "t0d",
+                "width": 3,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "t0e",
+                "width": 3.45,
+                "cell": {
+                  "el": "wall"
+                }
+              }
+            ]
+          }
+        ],
+        "crown": {
+          "type": "pediment",
+          "shape": "triangular",
+          "pitch": 15
+        }
+      },
+      {
+        "id": "romanico",
+        "name": "Chiesa romanica",
+        "style": "romanesque",
+        "base": {
+          "height": 0.8,
+          "steps": 2
+        },
+        "floors": [
+          {
+            "id": "r0",
+            "height": 7,
+            "top": "string-course",
+            "members": {
+              "type": "half-column",
+              "order": "tuscan",
+              "width": 0.45
+            },
+            "bays": [
+              {
+                "id": "r0a",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              },
+              {
+                "id": "r0b",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              },
+              {
+                "id": "r0c",
+                "width": 5.2,
+                "cell": {
+                  "el": "portal",
+                  "w": 3.6,
+                  "h": 4.8,
+                  "top": "round",
+                  "splay": 3
+                }
+              },
+              {
+                "id": "r0d",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              },
+              {
+                "id": "r0e",
+                "width": 3.6,
+                "cell": {
+                  "el": "arch",
+                  "open": false,
+                  "archivolt": "moulded"
+                }
+              }
+            ]
+          },
+          {
+            "id": "r1",
+            "height": 6.5,
+            "shoulders": "slopes",
+            "members": {
+              "type": "half-column",
+              "order": "tuscan",
+              "width": 0.45
+            },
+            "bays": [
+              {
+                "id": "r1a",
+                "width": 3.6,
+                "cell": {
+                  "el": "gallery",
+                  "columns": 5,
+                  "h": 1.8,
+                  "sill": 2.6
+                }
+              },
+              {
+                "id": "r1b",
+                "width": 5.2,
+                "cell": {
+                  "el": "window",
+                  "w": 1.4,
+                  "h": 2.8,
+                  "sill": 1.8,
+                  "top": "round"
+                }
+              },
+              {
+                "id": "r1c",
+                "width": 3.6,
+                "cell": {
+                  "el": "gallery",
+                  "columns": 5,
+                  "h": 1.8,
+                  "sill": 2.6
+                }
+              }
+            ]
+          }
+        ],
+        "crown": {
+          "type": "gable",
+          "pitch": 24
+        }
+      },
+      {
+        "id": "pantheon",
+        "name": "Pantheon",
+        "style": "temple",
+        "base": {
+          "height": 1.2,
+          "steps": 3
+        },
+        "floors": [
+          {
+            "id": "pf",
+            "height": 13.5,
+            "top": "entablature",
+            "cornice": "plain",
+            "members": {
+              "type": "column",
+              "order": "corinthian",
+              "width": 1.2
+            },
+            "colonnade": {
+              "depth": 11
+            },
+            "bays": [
+              {
+                "id": "p0",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p1",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p2",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p3",
+                "width": 9.4,
+                "cell": {
+                  "el": "portal",
+                  "w": 7.8,
+                  "h": 9.4
+                }
+              },
+              {
+                "id": "p4",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p5",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              },
+              {
+                "id": "p6",
+                "width": 3.9,
+                "cell": {
+                  "el": "wall"
+                }
+              }
+            ]
+          }
+        ],
+        "crown": {
+          "type": "pediment",
+          "shape": "triangular",
+          "pitch": 15
+        },
+        "depth": 16,
+        "rotunda": {
+          "diameter": 43.3,
+          "height": 21.65,
+          "level": 1.2,
+          "niches": 7,
+          "dome": {
+            "type": "coffered",
+            "coffers": [
+              5,
+              28
+            ],
+            "oculus": 8.2,
+            "steps": 7
+          }
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "tempio",
+        "building": "tempio",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          },
+          {
+            "at": 6,
+            "view": "assonometria"
+          }
+        ]
+      },
+      {
+        "chapter": "romanico",
+        "building": "romanico",
+        "views": [
+          {
+            "at": 0,
+            "view": "prospetto"
+          },
+          {
+            "at": 6,
+            "view": "assonometria"
+          }
+        ]
+      },
+      {
+        "chapter": "rotonda",
+        "building": "pantheon",
+        "views": [
+          {
+            "at": 0,
+            "view": "assonometria"
+          },
+          {
+            "at": 7,
+            "view": "sezione"
+          },
+          {
+            "at": 14,
+            "view": "pianta"
+          }
+        ],
+        "acts": [
+          {
+            "do": "draw",
+            "target": "pantheon",
+            "at": 0,
+            "dur": 4
+          },
+          {
+            "do": "highlight",
+            "target": "dome",
+            "at": 5,
+            "until": 7
+          },
+          {
+            "do": "cut",
+            "bay": "p3",
+            "at": 7
+          },
+          {
+            "do": "highlight",
+            "target": "rotunda",
+            "at": 14,
+            "until": 16
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "tempio",
+      "title": "Il tempio dorico",
+      "chip": "Tempio",
+      "kind": "art",
+      "duration": 12,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Sei colonne doriche davanti alla cella, su uno stilobate a gradini; sopra la trabeazione con i triglifi, poi il frontone.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "building"
+          },
+          "distance": 14,
+          "azimuth": 0,
+          "elevation": 0
+        }
+      ],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "romanico",
+      "title": "La chiesa romanica",
+      "chip": "Romanico",
+      "kind": "art",
+      "duration": 12,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Due registri: in basso arcate cieche e il portale a più archi rientranti, in alto la loggetta e le falde delle navate che salgono al timpano.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "building"
+          },
+          "distance": 14,
+          "azimuth": 0,
+          "elevation": 0
+        }
+      ],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "rotonda",
+      "title": "La rotonda e la cupola",
+      "chip": "Rotonda",
+      "kind": "art",
+      "duration": 22,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Il Pantheon: davanti un pronao con otto colonne corinzie, poi un blocco intermedio e, dietro, la rotonda coperta dalla cupola.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 7,
+          "text": "Il taglio passa per l'asse. La cupola è una mezza sfera che poggia sul cilindro: dentro, una sfera ci starebbe esatta. I cassettoni sono cinque anelli che si rimpiccioliscono verso l'alto, e in cima l'oculo resta aperto.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 14,
+          "text": "Dall'alto, tagliato poco sopra lo stilobate: i muri pieni sono in grigio. Nello spessore della rotonda si aprono nicchie rettangolari e semicircolari a turno, e l'ingresso è sull'asse.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "building"
+          },
+          "distance": 14,
+          "azimuth": 0,
+          "elevation": 0
+        }
+      ],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    }
+  ]
+}

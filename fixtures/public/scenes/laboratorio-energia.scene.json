@@ -1,0 +1,1300 @@
+{
+  "version": "0.1",
+  "engine": "lab",
+  "title": "L'energia si trasforma",
+  "page": {
+    "subject": "Scienze",
+    "topic": "Energia potenziale, energia cinetica e calore",
+    "language": "it"
+  },
+  "kind": "science",
+  "music": {
+    "track": "music-curious",
+    "volume": 0.4
+  },
+  "chapters": [
+    {
+      "id": "caduta",
+      "title": "La caduta libera",
+      "chip": "Caduta",
+      "kind": "science",
+      "duration": 46,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Nel laboratorio lasciamo cadere due palle dalla stessa altezza: la rossa ha massa 1 kg, la blu 5 kg.",
+          "highlight": [
+            "p-red",
+            "p-blue"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 6.5,
+          "text": "Prima di guardare, prevedi: quale tocca terra per prima?",
+          "highlight": [],
+          "sourceIds": []
+        },
+        {
+          "at": 9,
+          "text": "Via! Le guardiamo al rallentatore, quattro volte più lente del vero.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "Arrivano insieme. Senza aria ogni corpo cade con la stessa accelerazione g, circa 9,8 metri al secondo ogni secondo.",
+          "speech": "Arrivano insieme. Senza aria ogni corpo cade con la stessa accelerazione g, circa nove virgola otto metri al secondo ogni secondo.",
+          "highlight": [],
+          "sourceIds": [
+            "w-apollo15",
+            "w-g"
+          ]
+        },
+        {
+          "at": 21,
+          "text": "Da 2 metri la caduta dura 0,64 secondi e la palla tocca terra a 6,3 metri al secondo.",
+          "speech": "Da due metri la caduta dura zero virgola sessantaquattro secondi e la palla tocca terra a sei virgola tre metri al secondo.",
+          "highlight": [
+            "p-board"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-caduta"
+          ]
+        },
+        {
+          "at": 28,
+          "text": "Ora dieci volte più lente. Guarda le provette: l'energia potenziale, in blu, si svuota mentre si riempie quella cinetica, in arancione.",
+          "highlight": [
+            "p-ep",
+            "p-ec"
+          ],
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "at": 32,
+          "text": "La somma resta 19,6 joule per la palla rossa: l'energia non sparisce, si trasforma.",
+          "speech": "La somma resta diciannove virgola sei joule per la palla rossa: l'energia non sparisce, si trasforma.",
+          "highlight": [
+            "p-tot"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-energia"
+          ]
+        },
+        {
+          "at": 36,
+          "text": "Nell'urto con il pavimento l'energia cinetica diventa calore e suono: la provetta rossa.",
+          "highlight": [
+            "p-q"
+          ],
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "at": 41,
+          "text": "Ora prova tu con i cursori: il tempo di caduta cambia con l'altezza, non con la massa.",
+          "highlight": [],
+          "sourceIds": [
+            "w-caduta"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 8,
+          "target": {
+            "entity": "part",
+            "part": "release"
+          },
+          "distance": 15,
+          "azimuth": -14,
+          "elevation": 6
+        },
+        {
+          "at": 13,
+          "target": {
+            "entity": "part",
+            "part": "ruler"
+          },
+          "distance": 17,
+          "azimuth": -8,
+          "elevation": 8
+        },
+        {
+          "at": 27,
+          "target": {
+            "pos": [
+              1.2,
+              2.8,
+              0
+            ]
+          },
+          "distance": 21,
+          "azimuth": 6,
+          "elevation": 9
+        },
+        {
+          "at": 38,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": 4,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-red",
+          "name": "Palla rossa",
+          "sub": "1 kg",
+          "info": "Massa 1 kg: parte da 2 m di altezza.",
+          "kind": "object",
+          "marker": "#d9483b",
+          "anchor": {
+            "entity": "body",
+            "offset": [
+              0,
+              0.7,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-blue",
+          "name": "Palla blu",
+          "sub": "5 kg",
+          "info": "Massa 5 kg: cinque volte più pesante, ma cade nello stesso tempo.",
+          "kind": "object",
+          "marker": "#2f6fd6",
+          "anchor": {
+            "entity": "body",
+            "index": 1,
+            "offset": [
+              0,
+              0.8,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-ep",
+          "name": "Energia potenziale",
+          "sub": "Ep = m·g·h",
+          "info": "Dipende dall'altezza: più la palla è in alto, più energia potenziale ha.",
+          "kind": "data",
+          "marker": "#2f6fd6",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Ep"
+          },
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "id": "p-ec",
+          "name": "Energia cinetica",
+          "sub": "Ec = ½·m·v²",
+          "info": "Dipende dalla velocità: cresce mentre la palla accelera.",
+          "kind": "data",
+          "marker": "#f08a24",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Ec"
+          },
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "id": "p-q",
+          "name": "Calore",
+          "info": "L'energia dispersa nell'urto: scalda un poco palla e pavimento.",
+          "kind": "data",
+          "marker": "#d63a3a",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Q"
+          },
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "id": "p-tot",
+          "name": "Energia totale",
+          "info": "Ep + Ec + Q: la somma resta sempre la stessa.",
+          "kind": "data",
+          "anchor": {
+            "entity": "gauge",
+            "part": "energy"
+          },
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "id": "p-board",
+          "name": "La lavagna",
+          "info": "I conti dell'esperimento, aggiornati mentre la palla cade.",
+          "kind": "note",
+          "anchor": {
+            "entity": "gauge",
+            "part": "board"
+          },
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Nel 1971, durante la missione Apollo 15, l'astronauta David Scott lasciò cadere sulla Luna, dove non c'è aria, un martello e una piuma: toccarono il suolo insieme, come aveva previsto Galileo.",
+          "sourceIds": [
+            "w-apollo15"
+          ]
+        },
+        {
+          "text": "Sulla Terra una piuma cade più lentamente di un sasso solo per la resistenza dell'aria. In questo laboratorio l'aria è trascurata.",
+          "sourceIds": [
+            "w-apollo15"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "In quale momento l'energia cinetica della palla è massima?",
+          "options": [
+            "Appena prima di toccare terra",
+            "A metà della caduta",
+            "Nell'istante in cui parte"
+          ],
+          "answer": 0,
+          "explain": "La palla accelera per tutta la caduta: la velocità, e quindi Ec = ½·m·v², è massima appena prima dell'urto."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la provetta dell'energia che cresce mentre la palla cade.",
+          "answerPins": [
+            "p-ec"
+          ],
+          "explain": "Cresce l'energia cinetica: la palla va sempre più veloce."
+        }
+      ],
+      "book": {
+        "heading": "La caduta libera",
+        "formula": "h = ½ · g · t²",
+        "lines": [
+          "Senza aria tutti i corpi cadono con la stessa accelerazione g ≈ 9,8 m/s².",
+          "Il tempo di caduta non dipende dalla massa.",
+          "Ep = m·g·h si trasforma in Ec = ½·m·v²."
+        ],
+        "sourceIds": [
+          "w-caduta",
+          "w-g",
+          "w-energia"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Una palla da 1 kg e una da 5 kg cadono insieme dalla stessa altezza, senza aria. Quale tocca terra per prima?",
+          "options": [
+            "La palla da 5 kg, perché è più pesante",
+            "Arrivano insieme",
+            "La palla da 1 kg, perché è più leggera"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Cambia l'altezza e la massa della palla rossa: cambia il tempo di caduta? E l'energia?",
+          "params": [
+            "h",
+            "m1"
+          ]
+        },
+        "prove": {
+          "text": "Senza aria tutti i corpi cadono con la stessa accelerazione g: il tempo t = √(2h/g) non contiene la massa. La massa cambia l'energia (Ep = m·g·h), non il tempo di caduta.",
+          "sourceIds": [
+            "w-apollo15",
+            "w-caduta",
+            "calc"
+          ]
+        },
+        "stamp": "Allievo di Galileo"
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 9,
+            "sound": "click",
+            "volume": 0.6
+          },
+          {
+            "at": 11.6,
+            "sound": "wood-hit",
+            "volume": 0.7
+          },
+          {
+            "at": 20,
+            "sound": "click",
+            "volume": 0.6
+          },
+          {
+            "at": 22.6,
+            "sound": "wood-hit",
+            "volume": 0.7
+          },
+          {
+            "at": 28,
+            "sound": "click",
+            "volume": 0.6
+          },
+          {
+            "at": 34.4,
+            "sound": "wood-hit",
+            "volume": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pendolo",
+      "title": "Il pendolo",
+      "chip": "Pendolo",
+      "kind": "science",
+      "duration": 46,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora un pendolo: una pallina di 0,5 kg appesa a un filo lungo 1 metro.",
+          "speech": "Ora un pendolo: una pallina di mezzo chilo appesa a un filo lungo un metro.",
+          "highlight": [
+            "p-bob"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "La spostiamo di 20 gradi e la lasciamo andare.",
+          "speech": "La spostiamo di venti gradi e la lasciamo andare.",
+          "highlight": [],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Agli estremi la pallina è ferma: ha solo energia potenziale. In basso è più veloce: ha solo energia cinetica.",
+          "highlight": [
+            "p-ep",
+            "p-ec"
+          ],
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "Le due energie si scambiano a ogni oscillazione, ma la loro somma non cambia.",
+          "highlight": [
+            "p-rest"
+          ],
+          "sourceIds": [
+            "w-pendolo",
+            "w-energia"
+          ]
+        },
+        {
+          "at": 26,
+          "text": "Il periodo, il tempo di un'andata e ritorno, con un filo di 1 metro è circa 2 secondi.",
+          "speech": "Il periodo, il tempo di un'andata e ritorno, con un filo di un metro è circa due secondi.",
+          "highlight": [
+            "p-board"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-pendolo"
+          ]
+        },
+        {
+          "at": 34,
+          "text": "Il periodo dipende dalla lunghezza del filo, non dalla massa: provalo con i cursori.",
+          "highlight": [],
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        },
+        {
+          "at": 40,
+          "text": "Per piccole oscillazioni non dipende neppure dall'ampiezza: è l'isocronismo descritto da Galileo.",
+          "highlight": [
+            "p-pivot"
+          ],
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 5,
+          "target": {
+            "entity": "part",
+            "part": "rest"
+          },
+          "distance": 15,
+          "azimuth": -12,
+          "elevation": 8
+        },
+        {
+          "at": 11,
+          "target": {
+            "pos": [
+              1.2,
+              2.6,
+              0
+            ]
+          },
+          "distance": 21,
+          "azimuth": 6,
+          "elevation": 9
+        },
+        {
+          "at": 25,
+          "target": {
+            "entity": "gauge",
+            "part": "board"
+          },
+          "distance": 13,
+          "azimuth": 6,
+          "elevation": 4
+        },
+        {
+          "at": 33,
+          "target": {
+            "pos": [
+              0,
+              3.2,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": -4,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-bob",
+          "name": "Pallina",
+          "sub": "0,5 kg",
+          "info": "Massa 0,5 kg: prova a cambiarla, il periodo resta uguale.",
+          "kind": "object",
+          "marker": "#e0a020",
+          "anchor": {
+            "entity": "body",
+            "offset": [
+              0,
+              0.6,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc",
+            "w-pendolo"
+          ]
+        },
+        {
+          "id": "p-pivot",
+          "name": "Punto di sospensione",
+          "info": "Il filo è fissato qui: la pallina oscilla attorno a questo punto.",
+          "kind": "object",
+          "anchor": {
+            "entity": "part",
+            "part": "pivot",
+            "offset": [
+              0,
+              0.3,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        },
+        {
+          "id": "p-rest",
+          "name": "Punto più basso",
+          "info": "Qui la pallina è più veloce: l'energia è tutta cinetica.",
+          "kind": "place",
+          "anchor": {
+            "entity": "part",
+            "part": "rest",
+            "offset": [
+              0,
+              -0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        },
+        {
+          "id": "p-ep",
+          "name": "Energia potenziale",
+          "info": "Massima agli estremi dell'oscillazione.",
+          "kind": "data",
+          "marker": "#2f6fd6",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Ep"
+          },
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        },
+        {
+          "id": "p-ec",
+          "name": "Energia cinetica",
+          "info": "Massima nel punto più basso.",
+          "kind": "data",
+          "marker": "#f08a24",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Ec"
+          },
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        },
+        {
+          "id": "p-board",
+          "name": "La lavagna",
+          "info": "Il periodo calcolato con la lunghezza attuale del filo.",
+          "kind": "note",
+          "anchor": {
+            "entity": "gauge",
+            "part": "board"
+          },
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "La formula T = 2π√(L/g) vale per piccole oscillazioni, in genere sotto i 10 gradi: per angoli più grandi il periodo si allunga un poco. Il laboratorio calcola il moto esatto.",
+          "sourceIds": [
+            "w-pendolo",
+            "calc"
+          ]
+        },
+        {
+          "text": "Galileo Galilei descrisse per primo l'isocronismo del pendolo: per piccole oscillazioni il periodo non dipende dall'ampiezza.",
+          "sourceIds": [
+            "w-pendolo"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Da che cosa dipende il periodo di un pendolo semplice (piccole oscillazioni)?",
+          "options": [
+            "Dalla lunghezza del filo",
+            "Dalla massa della pallina",
+            "Da quanto lo spingi forte"
+          ],
+          "answer": 0,
+          "explain": "T = 2π√(L/g): contano la lunghezza L e la gravità g, non la massa."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il punto in cui la pallina va più veloce.",
+          "answerPins": [
+            "p-rest"
+          ],
+          "explain": "Nel punto più basso l'energia potenziale è tutta diventata cinetica."
+        }
+      ],
+      "book": {
+        "heading": "Il pendolo",
+        "formula": "T = 2π · √(L / g)",
+        "lines": [
+          "Ep e Ec si scambiano a ogni oscillazione.",
+          "Il periodo dipende dalla lunghezza L, non dalla massa.",
+          "Per piccole oscillazioni non dipende dall'ampiezza."
+        ],
+        "sourceIds": [
+          "w-pendolo"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Raddoppi la lunghezza del filo, da 1 m a 2 m. Il periodo dell'oscillazione…",
+          "options": [
+            "raddoppia",
+            "aumenta, ma solo di circa 1,4 volte",
+            "resta uguale",
+            "si dimezza"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Sposta il cursore della lunghezza a 2 m e leggi il periodo sulla lavagna. Poi cambia la massa.",
+          "params": [
+            "len",
+            "mbob"
+          ]
+        },
+        "prove": {
+          "text": "Nel periodo T = 2π√(L/g) la lunghezza è sotto radice: con L doppio il periodo diventa √2 ≈ 1,41 volte più lungo, da 2,0 s a 2,8 s. La massa non compare.",
+          "sourceIds": [
+            "w-pendolo",
+            "calc"
+          ]
+        },
+        "stamp": "Maestro del pendolo"
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 6,
+            "sound": "whoosh-soft",
+            "volume": 0.5
+          },
+          {
+            "at": 26,
+            "sound": "tick",
+            "volume": 0.5
+          },
+          {
+            "at": 34,
+            "sound": "chime",
+            "volume": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "attrito",
+      "title": "L'attrito e il calore",
+      "chip": "Attrito",
+      "kind": "science",
+      "duration": 50,
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ultimo esperimento: una cassetta di 1 kg scivola in una valle fatta di due rampe inclinate di 30 gradi.",
+          "speech": "Ultimo esperimento: una cassetta di un chilo scivola in una valle fatta di due rampe inclinate di trenta gradi.",
+          "highlight": [
+            "p-block"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Partenza! Senza attrito risalirebbe sull'altra rampa fino alla stessa altezza.",
+          "highlight": [
+            "p-top"
+          ],
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "at": 12,
+          "text": "Ma qui c'è attrito, con coefficiente 0,1: a ogni passaggio la cassetta risale un po' meno.",
+          "speech": "Ma qui c'è attrito, con coefficiente zero virgola uno: a ogni passaggio la cassetta risale un po' meno.",
+          "highlight": [
+            "p-block"
+          ],
+          "sourceIds": [
+            "calc",
+            "w-attrito"
+          ]
+        },
+        {
+          "at": 19,
+          "text": "La forza d'attrito si oppone sempre al movimento della cassetta.",
+          "highlight": [
+            "p-block"
+          ],
+          "sourceIds": [
+            "w-attrito"
+          ]
+        },
+        {
+          "at": 26,
+          "text": "L'energia che manca non sparisce: l'attrito la trasforma in calore, la provetta rossa.",
+          "highlight": [
+            "p-q"
+          ],
+          "sourceIds": [
+            "w-attrito",
+            "w-energia"
+          ]
+        },
+        {
+          "at": 34,
+          "text": "Dopo circa 7 secondi la cassetta si ferma: tutti i 9,8 joule iniziali sono diventati calore.",
+          "speech": "Dopo circa sette secondi la cassetta si ferma: tutti i nove virgola otto joule iniziali sono diventati calore.",
+          "highlight": [
+            "p-q",
+            "p-board"
+          ],
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "at": 42,
+          "text": "Prova a togliere l'attrito con il cursore, oppure a renderlo così forte che la cassetta non parte nemmeno.",
+          "highlight": [],
+          "sourceIds": [
+            "w-attrito"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              0,
+              2.6,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": 0,
+          "elevation": 14
+        },
+        {
+          "at": 5,
+          "target": {
+            "pos": [
+              0.6,
+              2.4,
+              0
+            ]
+          },
+          "distance": 22,
+          "azimuth": -6,
+          "elevation": 11
+        },
+        {
+          "at": 19,
+          "target": {
+            "entity": "body"
+          },
+          "distance": 11,
+          "azimuth": 12,
+          "elevation": 8
+        },
+        {
+          "at": 25,
+          "target": {
+            "entity": "gauge",
+            "part": "energy"
+          },
+          "distance": 14,
+          "azimuth": 10,
+          "elevation": 6
+        },
+        {
+          "at": 33,
+          "target": {
+            "pos": [
+              0,
+              2.6,
+              0
+            ]
+          },
+          "distance": 24,
+          "azimuth": -4,
+          "elevation": 14
+        }
+      ],
+      "pins": [
+        {
+          "id": "p-block",
+          "name": "Cassetta",
+          "sub": "1 kg",
+          "info": "Massa 1 kg: scivola strisciando sulle rampe di legno.",
+          "kind": "object",
+          "marker": "#c4692b",
+          "anchor": {
+            "entity": "body",
+            "offset": [
+              0,
+              0.6,
+              0
+            ]
+          },
+          "sourceIds": [
+            "calc"
+          ]
+        },
+        {
+          "id": "p-top",
+          "name": "Partenza",
+          "info": "Da qui la cassetta parte ferma: ha solo energia potenziale.",
+          "kind": "place",
+          "anchor": {
+            "entity": "part",
+            "part": "top",
+            "offset": [
+              0,
+              0.4,
+              0
+            ]
+          },
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "id": "p-q",
+          "name": "Calore",
+          "sub": "Q",
+          "info": "L'energia trasformata dall'attrito: scalda la cassetta e le rampe.",
+          "kind": "data",
+          "marker": "#d63a3a",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Q"
+          },
+          "sourceIds": [
+            "w-attrito"
+          ]
+        },
+        {
+          "id": "p-ec",
+          "name": "Energia cinetica",
+          "info": "Massima quando la cassetta passa sul tratto piano.",
+          "kind": "data",
+          "marker": "#f08a24",
+          "anchor": {
+            "entity": "gauge",
+            "part": "Ec"
+          },
+          "sourceIds": [
+            "w-energia"
+          ]
+        },
+        {
+          "id": "p-board",
+          "name": "La lavagna",
+          "info": "Accelerazione sulla rampa e calore prodotto finora.",
+          "kind": "note",
+          "anchor": {
+            "entity": "gauge",
+            "part": "board"
+          },
+          "sourceIds": [
+            "calc"
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il coefficiente d'attrito dipende dalle superfici: tra legno e legno quello dinamico vale circa 0,20, tra ghiaccio e ghiaccio solo 0,02.",
+          "sourceIds": [
+            "w-attrito"
+          ]
+        },
+        {
+          "text": "Un corpo fermo su un piano inclinato comincia a scivolare quando la tangente dell'angolo supera il coefficiente d'attrito statico.",
+          "sourceIds": [
+            "w-attrito"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Con l'attrito, la somma Ep + Ec della cassetta…",
+          "options": [
+            "diminuisce, perché una parte diventa calore",
+            "resta uguale",
+            "aumenta"
+          ],
+          "answer": 0,
+          "explain": "L'attrito trasforma energia meccanica in calore: Ep + Ec cala, ma Ep + Ec + Q resta costante."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la provetta del calore prodotto dall'attrito.",
+          "answerPins": [
+            "p-q"
+          ],
+          "explain": "La provetta rossa Q si riempie mentre la cassetta rallenta."
+        }
+      ],
+      "book": {
+        "heading": "L'attrito",
+        "formula": "Ep + Ec + Q = costante",
+        "lines": [
+          "L'attrito si oppone al movimento: F = μ · N.",
+          "Trasforma energia meccanica in calore.",
+          "L'energia totale non cambia: cambia forma."
+        ],
+        "sourceIds": [
+          "w-attrito",
+          "w-energia"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Con l'attrito la cassetta risale sempre meno, finché si ferma. Dove va a finire l'energia che le manca?",
+          "options": [
+            "Sparisce: l'energia si consuma",
+            "Diventa calore nelle superfici che strisciano",
+            "Resta nascosta nella cassetta come energia potenziale"
+          ],
+          "answer": 1
+        },
+        "test": {
+          "prompt": "Porta l'attrito a 0: fin dove risale la cassetta? Poi aumentalo e guarda la provetta del calore.",
+          "params": [
+            "mu",
+            "ang"
+          ]
+        },
+        "prove": {
+          "text": "L'attrito trasforma l'energia meccanica in calore: la provetta rossa Q si riempie quanto si svuotano Ep ed Ec, e la somma resta uguale. Con μ = 0 la cassetta risale alla stessa altezza.",
+          "sourceIds": [
+            "w-attrito",
+            "w-energia",
+            "calc"
+          ]
+        },
+        "stamp": "Detective dell'energia"
+      },
+      "sounds": {
+        "ambience": [],
+        "cues": [
+          {
+            "at": 6,
+            "sound": "whoosh",
+            "volume": 0.5
+          },
+          {
+            "at": 20.4,
+            "sound": "wood-hit",
+            "volume": 0.6
+          },
+          {
+            "at": 34,
+            "sound": "sparkle",
+            "volume": 0.4
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Scienze, «L'energia si trasforma» (scena di riferimento)"
+    },
+    {
+      "id": "calc",
+      "kind": "computed",
+      "title": "Calcoli del laboratorio (motore lab: g = 9,81 m/s², aria trascurata)"
+    },
+    {
+      "id": "w-caduta",
+      "kind": "wikipedia",
+      "title": "Caduta libera",
+      "url": "https://it.wikipedia.org/wiki/Caduta_libera",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-g",
+      "kind": "wikipedia",
+      "title": "Accelerazione di gravità",
+      "url": "https://it.wikipedia.org/wiki/Accelerazione_di_gravit%C3%A0",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-apollo15",
+      "kind": "wikipedia",
+      "title": "Apollo 15",
+      "url": "https://it.wikipedia.org/wiki/Apollo_15",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-pendolo",
+      "kind": "wikipedia",
+      "title": "Pendolo semplice",
+      "url": "https://it.wikipedia.org/wiki/Pendolo_semplice",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-energia",
+      "kind": "wikipedia",
+      "title": "Energia meccanica",
+      "url": "https://it.wikipedia.org/wiki/Energia_meccanica",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "w-attrito",
+      "kind": "wikipedia",
+      "title": "Attrito",
+      "url": "https://it.wikipedia.org/wiki/Attrito",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Esperimenti simulati: la resistenza dell'aria è trascurata e g vale 9,81 m/s².",
+    "Gli apparecchi sono disegnati in scala per stare sul banco; righelli e lavagna mostrano le misure vere."
+  ],
+  "engineData": {
+    "chapters": [
+      {
+        "chapter": "caduta",
+        "setup": {
+          "kind": "fall",
+          "height": 2,
+          "mass": 1,
+          "mass2": 5
+        },
+        "params": [
+          {
+            "id": "h",
+            "var": "height",
+            "label": "Altezza (m)",
+            "min": 0.5,
+            "max": 5,
+            "step": 0.1
+          },
+          {
+            "id": "m1",
+            "var": "mass",
+            "label": "Massa palla rossa (kg)",
+            "min": 0.1,
+            "max": 10,
+            "step": 0.1
+          }
+        ],
+        "runs": [
+          {
+            "at": 9,
+            "speed": 0.25
+          },
+          {
+            "at": 20,
+            "speed": 0.25
+          },
+          {
+            "at": 28,
+            "speed": 0.1
+          }
+        ],
+        "show": [
+          {
+            "item": "energy"
+          },
+          {
+            "item": "board"
+          },
+          {
+            "item": "timer"
+          },
+          {
+            "item": "ruler"
+          },
+          {
+            "item": "velocity",
+            "at": 9
+          },
+          {
+            "item": "strobe",
+            "at": 20
+          }
+        ]
+      },
+      {
+        "chapter": "pendolo",
+        "setup": {
+          "kind": "pendulum",
+          "length": 1,
+          "mass": 0.5,
+          "angle": 20
+        },
+        "params": [
+          {
+            "id": "len",
+            "var": "length",
+            "label": "Lunghezza del filo (m)",
+            "min": 0.25,
+            "max": 2.5,
+            "step": 0.05
+          },
+          {
+            "id": "mbob",
+            "var": "mass",
+            "label": "Massa (kg)",
+            "min": 0.1,
+            "max": 5,
+            "step": 0.1
+          }
+        ],
+        "runs": [
+          {
+            "at": 6
+          }
+        ],
+        "show": [
+          {
+            "item": "energy"
+          },
+          {
+            "item": "board"
+          },
+          {
+            "item": "timer",
+            "at": 6
+          },
+          {
+            "item": "ruler"
+          },
+          {
+            "item": "velocity",
+            "at": 11
+          }
+        ]
+      },
+      {
+        "chapter": "attrito",
+        "setup": {
+          "kind": "ramp",
+          "angle": 30,
+          "length": 2,
+          "mass": 1,
+          "friction": 0.1,
+          "flat": 1,
+          "track": "valley"
+        },
+        "params": [
+          {
+            "id": "mu",
+            "var": "friction",
+            "label": "Attrito μ",
+            "min": 0,
+            "max": 0.5,
+            "step": 0.01
+          },
+          {
+            "id": "ang",
+            "var": "angle",
+            "label": "Inclinazione (°)",
+            "min": 15,
+            "max": 50,
+            "step": 1
+          }
+        ],
+        "runs": [
+          {
+            "at": 6,
+            "speed": 0.5
+          }
+        ],
+        "show": [
+          {
+            "item": "energy"
+          },
+          {
+            "item": "board"
+          },
+          {
+            "item": "timer",
+            "at": 6
+          },
+          {
+            "item": "ruler"
+          },
+          {
+            "item": "velocity",
+            "at": 6
+          },
+          {
+            "item": "forces",
+            "at": 18
+          }
+        ]
+      }
+    ]
+  }
+}

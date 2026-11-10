@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=coniugazione&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-04T11:34:37.862Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 760033,
+     "ns": 0,
+     "title": "Coniugazione",
+     "index": 1,
+     "extract": "Coniugazione – in biologia, l'unione sessuale tra individui diversi\nConiugazione – in batteriologia, processo tramite il quale i batteri possono trasferire unidirezionalmente materiale genetico\nConiugazione – nell'ambito protistologico, in particolare tra i Ciliata, lo scambio di materiale genetico secondo differenti modalità\nConiugazione – in chimica, la reazione che si instaura tra acidi e basi\nConiugazione – in chimica, effetto elettronico tra i legami chimici\nConiugazione – in linguistica, creazione delle forme derivate di un verbo a partire dal paradigma attraverso flessione\nConiugazione (lingua italiana)\nClasse di coniugio – in matematica, particolare tipo di azione di un gruppo in sé stesso\nConiugazione – in matematica, operazione attraverso la quale si ricava il complesso coniugato di un numero, cioè il numero ottenuto da un numero complesso cambiando il segno della parte immaginaria",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q250417"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:14:35Z",
+     "lastrevid": 124909775,
+     "length": 1270,
+     "fullurl": "https://it.wikipedia.org/wiki/Coniugazione",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Coniugazione&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Coniugazione"
+    },
+    {
+     "pageid": 1098066,
+     "ns": 0,
+     "title": "Coniugazione (linguistica)",
+     "index": 4,
+     "extract": "In linguistica, la coniugazione  di un verbo (dal latino coniugatio, 'unione', da coniugere, letteralmente 'porre sotto lo stesso giogo') è il complesso sistematizzato delle forme verbali prodotte dal meccanismo di flessione verbale.\nIl termine appartiene alla grammatica tradizionale. Vi corrisponde il termine \"declinazione\", che è la flessione dei sostantivi. Insieme alla declinazione, la coniugazione rappresenta una delle nozioni morfosintattiche fondamentali concepite dai grammatici antichi.",
+     "pageprops": {
+      "wikibase_item": "Q474628"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:32Z",
+     "lastrevid": 138780452,
+     "length": 6304,
+     "fullurl": "https://it.wikipedia.org/wiki/Coniugazione_(linguistica)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Coniugazione_(linguistica)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Coniugazione_(linguistica)"
+    },
+    {
+     "pageid": 2830386,
+     "ns": 0,
+     "title": "Terza coniugazione",
+     "index": 2,
+     "extract": "In italiano, la terza coniugazione verbale è quella dei verbi aventi l'infinito in -ire, erede della quarta coniugazione latina. \nContiene all'incirca un migliaio di verbi a lemma nei dizionari di cui la stragrande maggioranza incoativi, cioè verbi che formano regolarmente la coniugazione con l'aggiunta di un infisso in alcune voci verbali.",
+     "pageprops": {
+      "wikibase_item": "Q3984890"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:15Z",
+     "lastrevid": 151511269,
+     "length": 12944,
+     "fullurl": "https://it.wikipedia.org/wiki/Terza_coniugazione",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Terza_coniugazione&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Terza_coniugazione"
+    },
+    {
+     "pageid": 8885783,
+     "ns": 0,
+     "title": "Coniugazione (lingua italiana)",
+     "index": 3,
+     "extract": "Nel sistema verbale della lingua italiana si distinguono tradizionalmente tre coniugazioni, la 1ª, la 2ª e la 3ª coniugazione, per indicare i verbi che all'infinito terminano rispettivamente in -are, -ere ed -ire. Spesso le forme coniugate delle tre coniugazioni si distinguono per un'unica vocale, detta tematica.\nNella coniugazione delle forme semplici (eccettuati il futuro semplice e il passato remoto), l'accento tonico cade sulla radice nelle forme al singolare e nella terza plurale (loro), mentre nelle forme in noi e voi cade sulla desinenza. Ad esempio, per il presente indicativo del verbo amare si avrà: àmo, àmi, àma, amiàmo, amàte, àmano. Durante l'apprendimento della lingua, possono creare alcune difficoltà alcune forme con comportamenti devianti nel presente ed in altre forme semplici. Il verbo abitare conserva l'accento sulla penultima sillaba nelle forme in noi e voi, ma ha una coniugazione ricca di forme sdrucciole: àbito, àbiti, àbita, abitiàmo, abitàte, àbitano. Similmente: dèdico eccetera.",
+     "pageprops": {
+      "wikibase_item": "Q6093515"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:22:46Z",
+     "lastrevid": 150594506,
+     "length": 5323,
+     "fullurl": "https://it.wikipedia.org/wiki/Coniugazione_(lingua_italiana)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Coniugazione_(lingua_italiana)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Coniugazione_(lingua_italiana)"
+    }
+   ]
+  }
+ }
+}

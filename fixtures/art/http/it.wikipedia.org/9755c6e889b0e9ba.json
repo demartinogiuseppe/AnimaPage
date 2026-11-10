@@ -1,0 +1,22 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageprops&titles=Primavera+%28Botticelli%29&redirects=1",
+ "fetchedAt": "2026-11-04T11:36:23.725Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 21145,
+     "ns": 0,
+     "title": "Primavera (Botticelli)",
+     "pageprops": {
+      "defaultsort": "Primavera",
+      "page_image_free": "Botticelli-primavera.jpg",
+      "wikibase_item": "Q549847"
+     }
+    }
+   ]
+  }
+ }
+}

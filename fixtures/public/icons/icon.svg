@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#9b4a22"/>
+  <g id="art">
+    <!-- cover edge under the pages -->
+    <path d="M256 214 C210 186 148 180 88 194 L88 386 C148 372 210 378 256 404 C302 378 364 372 424 386 L424 194 C364 180 302 186 256 214 Z" fill="#5e2a12"/>
+    <!-- pages -->
+    <path d="M256 204 C214 176 156 170 102 182 L102 366 C156 354 214 360 256 388 Z" fill="#fbf3e6"/>
+    <path d="M256 204 C298 176 356 170 410 182 L410 366 C356 354 298 360 256 388 Z" fill="#f3e7d4"/>
+    <path d="M256 204 L256 388" stroke="#d9c3a6" stroke-width="4"/>
+    <!-- lines of text -->
+    <g stroke="#d9c3a6" stroke-width="9" stroke-linecap="round" fill="none">
+      <path d="M128 222 C162 214 196 216 228 230"/>
+      <path d="M128 256 C162 248 196 250 228 264"/>
+      <path d="M128 290 C162 282 196 284 228 298"/>
+      <path d="M128 324 C152 318 172 318 196 324"/>
+      <path d="M284 230 C316 216 350 214 384 222"/>
+      <path d="M284 264 C316 250 350 248 384 256"/>
+    </g>
+    <!-- the spark rising from the page -->
+    <path d="M300 62 Q309 116 352 126 Q309 136 300 190 Q291 136 248 126 Q291 116 300 62 Z" fill="#ffd36b"/>
+    <path d="M222 96 Q226 116 242 120 Q226 124 222 144 Q218 124 202 120 Q218 116 222 96 Z" fill="#ffe7a8"/>
+    <circle cx="368" cy="78" r="9" fill="#ffe7a8"/>
+  </g>
+</svg>

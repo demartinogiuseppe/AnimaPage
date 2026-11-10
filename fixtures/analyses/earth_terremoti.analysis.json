@@ -1,0 +1,131 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "language": "it",
+    "literary": {
+      "isLiterary": false
+    },
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        74
+      ]
+    },
+    "subject": "scienze",
+    "topic": "I terremoti",
+    "gradeLevel": "scuola secondaria di primo grado, classe 3",
+    "contentType": "explanation",
+    "summary": "La pagina spiega che un terremoto è un movimento improvviso della crosta terrestre causato dalla rottura delle rocce lungo una faglia. Il punto in profondità dove si rompono le rocce è l'ipocentro, quello in superficie sopra di esso è l'epicentro. Le onde sismiche si propagano in tutte le direzioni; i sismografi le registrano e la forza si misura con le scale Richter e Mercalli.",
+    "concepts": [
+      "terremoto",
+      "faglia",
+      "ipocentro",
+      "epicentro",
+      "onde sismiche P e S",
+      "sismografo",
+      "scala Richter e scala Mercalli"
+    ],
+    "entities": [
+      {
+        "name": "faglia",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "ipocentro",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "epicentro",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "onde P",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "onde S",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "sismografo",
+        "type": "object",
+        "onPage": true
+      },
+      {
+        "name": "scala Richter",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "scala Mercalli",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "gradi della scala Mercalli",
+        "type": "quantity",
+        "value": "12 gradi",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "Un terremoto è un movimento improvviso della crosta terrestre.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Le rocce sotto sforzo si deformano finché si rompono lungo una faglia e liberano energia.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "L'ipocentro è il punto in profondità dove si rompono le rocce; l'epicentro è il punto della superficie che sta sopra l'ipocentro.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "Dall'ipocentro partono le onde sismiche: le onde P sono le più veloci, le onde S arrivano dopo.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Il sismografo registra le onde sismiche su un sismogramma.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "La scala Richter misura l'energia liberata (magnitudo); la scala Mercalli misura gli effetti e ha 12 gradi.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "exercises": [
+      "Qual è la differenza tra ipocentro ed epicentro?",
+      "Perché le onde P arrivano prima delle onde S?"
+    ],
+    "illustrations": [
+      {
+        "kind": "diagram",
+        "description": "Sezione della crosta con una faglia, l'ipocentro, l'epicentro in superficie e le onde sismiche concentriche.",
+        "labels": [
+          "faglia",
+          "ipocentro",
+          "epicentro",
+          "onde sismiche"
+        ]
+      }
+    ],
+    "suggestedEngine": "earth",
+    "engineReason": "Il terremoto nasce dentro la Terra: una sezione della crosta mostra faglia, ipocentro e onde."
+  }
+}

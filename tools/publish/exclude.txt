@@ -1,0 +1,86 @@
+# Paths dropped from the public clean copy (see tools/publish/make-clean-copy.ts).
+# gitignore-like: "dir/" = a directory, "*" = any run of characters within one path segment,
+# a pattern without an inner "/" matches at any depth, otherwise it is anchored at the repo root.
+# Reasons: pre-publication audit (protected book pages, third-party data, private local files).
+
+# --- untracked / private local paths (never published) ---
+.git/
+.superpowers/
+.ruff_cache/
+node_modules/
+server/.env
+server/data/
+apps/web/.cert/
+fixtures/pages/
+ledger.jsonl
+wt-*/
+
+# --- material from protected book pages ---
+# photo of a school-book page
+docs/reference/pages/
+# recorded LLM analyses (text transcribed from the books)
+fixtures/llm/geografia_campania_p84.*
+fixtures/llm/grammatica_modo-indicativo_p44.*
+fixtures/llm/scienze_sensi_p38-39.*
+fixtures/llm/storia_germani-fine-impero_p116-117.*
+fixtures/llm/racconto_elettricista-pasticcione.*
+# recorded LLM scene generations derived from those pages
+fixtures/llm/generate/gen_geografia_campania_p84.*
+fixtures/llm/generate/gen_grammatica_modo-indicativo_p44.*
+fixtures/llm/generate/gen_scienze_sensi_p38-39.*
+fixtures/llm/generate/gen_storia_germani-fine-impero_p116-117.*
+fixtures/llm/generate/gen_racconto_elettricista-pasticcione.*
+# recorded enrichment (derived from the same pages)
+fixtures/enrich/
+# scenes generated from, or hand-built on, the protected pages
+fixtures/public/scenes/gen-geografia_campania_p84.scene.json
+fixtures/public/scenes/gen-grammatica_modo-indicativo_p44.scene.json
+fixtures/public/scenes/gen-scienze_sensi_p38-39.scene.json
+fixtures/public/scenes/gen-storia_germani-fine-impero_p116-117.scene.json
+fixtures/public/scenes/gen-racconto_elettricista-pasticcione.scene.json
+fixtures/public/scenes/scienze-sensi.scene.json
+fixtures/public/scenes/grammatica-indicativo.scene.json
+fixtures/public/scenes/racconto-elettricista.scene.json
+fixtures/public/scenes/campania.scene.json
+# map-routes dev scene: its narration copies sentences of the history book pages 116-117
+fixtures/public/scenes/_dev-routes.scene.json
+
+# vasi-comunicanti (book page): recordings, scene, screenshot
+fixtures/llm/vasi-comunicanti.*
+fixtures/llm/generate/gen_vasi-comunicanti.*
+fixtures/public/scenes/gen-vasi-comunicanti.scene.json
+docs/theatres/lab-vessels-1-vasi.png
+# analysis and prototype built from the Campania page (quote its wording)
+docs/reference/analysis-campania.md
+docs/reference/prototypes/campania-ar.html
+# scripts that hold the scene texts of the protected pages
+tools/scenes/gen-racconto-elettricista.mjs
+tools/scenes/gen-sensi.mjs
+tools/scenes/gen_indicativo.py
+# evaluation / milestone reports quoting the protected pages' text
+docs/eval/
+docs/m2/
+docs/m3/
+
+# --- screenshots of protected pages / photo flows ---
+docs/m1/
+docs/m4/
+docs/m5/
+docs/m5-book/
+docs/m6-archive/
+docs/m6-labels/
+docs/m6-themes/
+
+# --- third-party data ---
+# YouTube Data API responses (API terms, third-party creator data and emails)
+fixtures/http/youtube.googleapis.com/
+# image with no documented licence
+fixtures/art/files/51fa7e399f17ef7b.bin
+# fixtures/http (Wikipedia/Wikidata/Commons) is kept: attribution in NOTICE.md (CC BY-SA 4.0 / CC0)
+
+# --- "Studio di funzione" (from a book-page photo; owner decision 2026-11-10) ---
+fixtures/analyses/matematica_studio-funzione.analysis.json
+fixtures/enrich/llm/enrich_matematica_studio-funzione.*
+fixtures/llm/generate/enrich/matematica_studio-funzione.json
+fixtures/llm/generate/gen_matematica_studio-funzione.*
+fixtures/public/scenes/gen-matematica_studio-funzione.scene.json

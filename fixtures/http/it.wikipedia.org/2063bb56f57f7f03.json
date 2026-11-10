@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=iride&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-04T11:34:58.394Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 53655,
+     "ns": 0,
+     "title": "Iride",
+     "index": 3,
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q3801942"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:21Z",
+     "lastrevid": 148882550,
+     "length": 2057,
+     "fullurl": "https://it.wikipedia.org/wiki/Iride",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Iride&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Iride"
+    },
+    {
+     "pageid": 53664,
+     "ns": 0,
+     "title": "Iride (anatomia)",
+     "index": 1,
+     "extract": "L'iride è una membrana interna del bulbo oculare, pigmentata di colore vario, di forma circolare e con la funzione di diaframma, situata tra la cornea e il cristallino. Insieme al corpo ciliare e alla coroide, forma la tonaca vascolare dell'occhio. Ha la forma di un disco circolare di circa 10 mm di diametro, con un'apertura centrale circolare detta pupilla, il cui diametro può cambiare (tra circa 2 e 8 mm) proprio grazie ai movimenti dell'iride.",
+     "pageprops": {
+      "wikibase_item": "Q178748"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:15:23Z",
+     "lastrevid": 146670055,
+     "length": 8824,
+     "fullurl": "https://it.wikipedia.org/wiki/Iride_(anatomia)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Iride_(anatomia)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Iride_(anatomia)"
+    },
+    {
+     "pageid": 2634755,
+     "ns": 0,
+     "title": "Iride (divinità)",
+     "index": 2,
+     "extract": "Iride (in greco antico Ἶρις?, Íris), conosciuta anche come Iris, Iri, Taumantia e Taumantiade, è un personaggio della mitologia greca.\nDea minore dell'Olimpo, messaggera degli dèi e personificazione dell'arcobaleno.",
+     "pageprops": {
+      "wikibase_item": "Q184570"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:18:03Z",
+     "lastrevid": 152369138,
+     "length": 5569,
+     "fullurl": "https://it.wikipedia.org/wiki/Iride_(divinit%C3%A0)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Iride_(divinit%C3%A0)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Iride_(divinit%C3%A0)"
+    },
+    {
+     "pageid": 10662144,
+     "ns": 0,
+     "title": "IRIDE (costellazione satellitare)",
+     "index": 4,
+     "extract": "IRIDE è una costellazione satellitare per l’osservazione della Terra, una delle più importanti iniziative spaziali europee nel settore, interamente sviluppata in Italia su iniziativa del Governo italiano.\nIl programma è gestito dall’agenzia spaziale europea (ESA) con il supporto dell’agenzia spaziale italiana (ASI) e finanziato attraverso il piano nazionale di ripresa e resilienza (PNRR) e il piano nazionale complementare (PNC).\nLa costellazione è destinata a diventare operativa entro il 2026 e sarà impiegata per il monitoraggio ambientale, la gestione delle risorse naturali, la protezione civile e lo sviluppo di applicazioni commerciali basate sui dati satellitari.",
+     "pageprops": {
+      "wikibase_item": "Q137485492"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:24:00Z",
+     "lastrevid": 152688275,
+     "length": 24296,
+     "fullurl": "https://it.wikipedia.org/wiki/IRIDE_(costellazione_satellitare)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=IRIDE_(costellazione_satellitare)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/IRIDE_(costellazione_satellitare)"
+    }
+   ]
+  }
+ }
+}

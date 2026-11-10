@@ -1,0 +1,126 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "language": "it",
+    "literary": {
+      "isLiterary": false
+    },
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        18
+      ]
+    },
+    "subject": "musica",
+    "topic": "Le note sul pentagramma",
+    "gradeLevel": "scuola secondaria di primo grado, classe 1",
+    "contentType": "explanation",
+    "summary": "La pagina presenta il pentagramma, formato da cinque linee e quattro spazi, e la chiave di violino, che fissa il sol sulla seconda linea. Spiega dove si scrivono le sette note do, re, mi, fa, sol, la, si e che più una nota è in alto, più il suono è acuto. Le note sotto il pentagramma usano i tagli addizionali, come il do centrale.",
+    "concepts": [
+      "pentagramma",
+      "linee e spazi",
+      "chiave di violino",
+      "nomi delle note",
+      "suoni acuti e gravi",
+      "tagli addizionali"
+    ],
+    "entities": [
+      {
+        "name": "pentagramma",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "linee",
+        "type": "quantity",
+        "value": "5",
+        "onPage": true
+      },
+      {
+        "name": "spazi",
+        "type": "quantity",
+        "value": "4",
+        "onPage": true
+      },
+      {
+        "name": "chiave di violino",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "note",
+        "type": "quantity",
+        "value": "7",
+        "onPage": true
+      },
+      {
+        "name": "do centrale",
+        "type": "term",
+        "onPage": true
+      },
+      {
+        "name": "taglio addizionale",
+        "type": "term",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "Il pentagramma è formato da cinque linee e quattro spazi, che si contano dal basso verso l'alto.",
+        "kind": "definition",
+        "onPage": true
+      },
+      {
+        "text": "La chiave di violino si scrive all'inizio del pentagramma e indica che sulla seconda linea c'è il sol.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Le note sono sette: do, re, mi, fa, sol, la, si.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Più una nota è scritta in alto sul pentagramma, più il suono è acuto; più è in basso, più è grave.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Il do centrale si scrive sotto il pentagramma, su un taglio addizionale.",
+        "kind": "rule",
+        "onPage": true
+      },
+      {
+        "text": "Sulle linee, dal basso, ci sono mi, sol, si, re, fa; negli spazi fa, la, do, mi.",
+        "kind": "rule",
+        "onPage": true
+      }
+    ],
+    "exercises": [
+      "Scrivi sul pentagramma la scala di do, dal do centrale al do acuto.",
+      "Quali note si trovano negli spazi?"
+    ],
+    "illustrations": [
+      {
+        "kind": "diagram",
+        "description": "Un pentagramma con la chiave di violino e le note da do centrale a do acuto, con i loro nomi.",
+        "labels": [
+          "do",
+          "re",
+          "mi",
+          "fa",
+          "sol",
+          "la",
+          "si",
+          "do"
+        ]
+      }
+    ],
+    "suggestedEngine": "music",
+    "engineReason": "Le note si capiscono vedendole sul pentagramma e ascoltandone il suono."
+  }
+}

@@ -1,0 +1,506 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=Campania+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-03T15:58:01.314Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 10,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 71996196,
+     "ns": 6,
+     "title": "File:Casoria ufficio postale.ogv",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 30716077,
+       "width": 1280,
+       "height": 720,
+       "duration": 40.676770833333336,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Casoria_ufficio_postale.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casoria_ufficio_postale.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71996196",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Casoria ufficio postale",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Casoria|Post offices in Campania|2009-04-06|Ogv videos|April 2009 in Italy|Videos of 2009|Uploaded with video2commons|Videos of 2009 from Italy|Video display resolution 1280 x 720|License reviewed by YouTubeReviewBot|Videos in Italian",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Casoria Ieri &amp; Oggi online\" presenta:\nPomeriggio alla Posta di Casoria Centro 06/04/09 ore 15.3",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/Bratonmania\">Bratonmania</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 71997097,
+     "ns": 6,
+     "title": "File:Casoria 15 -06 2010 - Uff. postale di Casoria (Filangieri).ogv",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 13768628,
+       "width": 320,
+       "height": 240,
+       "duration": 108.85514739229025,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Casoria_15_-06_2010_-_Uff._postale_di_Casoria_%28Filangieri%29.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casoria_15_-06_2010_-_Uff._postale_di_Casoria_(Filangieri).ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71997097",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Casoria 15 -06 2010 - Uff. postale di Casoria (Filangieri)",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Casoria|Post offices in Campania|Ogv videos|June 2010 in Italy|Uploaded with video2commons|Videos of 2010 from Italy|Video display resolution 320 x 240|License reviewed by YouTubeReviewBot|Videos in Italian",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Casoria Ieri &amp; Oggi online\" presenta:\nMomenti di tensione per la fila, fuori all'ufficio postale di Casoria (Filangieri",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/Bratonmania\">Bratonmania</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 71997191,
+     "ns": 6,
+     "title": "File:Tentata Truffa Ad Un Ufficio Postale, Nei Guai Coppia Di Battipaglia.ogv",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 19794260,
+       "width": 854,
+       "height": 480,
+       "duration": 73.44471655328798,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Tentata_Truffa_Ad_Un_Ufficio_Postale%2C_Nei_Guai_Coppia_Di_Battipaglia.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tentata_Truffa_Ad_Un_Ufficio_Postale,_Nei_Guai_Coppia_Di_Battipaglia.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71997191",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Tentata Truffa Ad Un Ufficio Postale, Nei Guai Coppia Di Battipaglia",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Crime in Italy|Post offices in Campania|2018-06-08|Ogv videos|Uploaded with video2commons|Videos of 2018 from Italy|June 2018 in Campania|License reviewed by YouTubeReviewBot|Videos in Italian|Video display resolution 854 x 480",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "L'informazione di Sud Tv semplice e puntuale ogni ora. In Campania sul canale 663.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/sudtgnews\">tgnews</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 73067534,
+     "ns": 6,
+     "title": "File:Villa Jovis GoPro walkthrough.webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 130016513,
+       "width": 1920,
+       "height": 1080,
+       "duration": 133.123,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Villa_Jovis_GoPro_walkthrough.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Villa_Jovis_GoPro_walkthrough.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73067534",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Villa Jovis GoPro walkthrough",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Villa Jovis (Capri)|Self-published work|Videos of 2018 from Italy|Files with coordinates missing SDC location of creation|September 2018 in Campania|2018 in Capri",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Walking through the downstairs servants' quarters of Villa Jovis, Roman Imperial palace on the island of Capri.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jwslubbock\" title=\"User:Jwslubbock\">Jwslubbock</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 75686274,
+     "ns": 6,
+     "title": "File:WIKITONGUES- Paola speaking Italian and Sicilian.webm",
+     "index": 8,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 5366457,
+       "width": 1920,
+       "height": 1080,
+       "duration": 22.801000000000002,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75686274",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "WIKITONGUES- Paola speaking Italian and Sicilian",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Videos of 2018|Uploaded with video2commons|License reviewed by YouTubeReviewBot|Wikitongues videos in Italian|Wikitongues videos in Sicilian",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This video was recorded by David Paleino in Campobello di Mazara, Sicily, Italy, where Paola lives. Sicilian is spoken by as many as five million people, primarily in the Italian island of Sicily, as well as parts of mainland regions Calabria, Campania, and Apulia. It has been a literary language since at least the twelfth century CE, when the Sicilian King Frederick I, who would later become the Holy Roman Emperor Frederick II, began encouraging poetry in the language; an initiative that gave way to a cohort of early writers known as the ‘Sicilian School’. Sicilian literature fell into decline with the rise of Italian as a regional lingua franca, but remained prominent in its spoken form as a mother tongue, and persists today, despite significant challenges: the language remains unrecognized by the Italian government and is therefore absent from public education. Both David and Paola are volunteers at Cadèmia Siciliana, a nonprofit initiative to promote and preserve the language for future generations.\n<p>Help us caption &amp; translate this video!\n</p>\n<a rel=\"nofollow\" class=\"external free\" href=\"https://amara.org/v/eKTZ/\">https://amara.org/v/eKTZ/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/WikiTongues\">Wikitongues</a>, David Paleino",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 75687060,
+     "ns": 6,
+     "title": "File:WIKITONGUES- Steven speaking Sicilian.webm",
+     "index": 7,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 75852884,
+       "width": 1920,
+       "height": 1080,
+       "duration": 354.741,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/WIKITONGUES-_Steven_speaking_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Steven_speaking_Sicilian.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75687060",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "WIKITONGUES- Steven speaking Sicilian",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Videos of 2018|Uploaded with video2commons|License reviewed by YouTubeReviewBot|Wikitongues videos in Sicilian",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This video was recorded by Steven Campo in Independence, Louisiana, a U.S. American town with a large Sicilian population. Sicilian is spoken by as many as five million people, primarily in the Italian island of Sicily, as well as parts of mainland regions Calabria, Campania, and Apulia. It has been a literary language since at least the twelfth century CE, when the Sicilian King Frederick I, who would later become the Holy Roman Emperor Frederick II, began encouraging poetry in the language; an initiative that gave way to a cohort of early writers known as the ‘Sicilian School’. Sicilian literature fell into decline with the rise of Italian as a regional lingua franca, but remained prominent in its spoken form as a mother tongue, and persists today, despite significant challenges: the language remains unrecognized by the Italian government and is therefore absent from public education. Steven is a volunteer at Cadèmia Siciliana, a nonprofit initiative to promote and preserve the language for future generations.\n<p>Help us caption &amp; translate this video!\n</p>\n<a rel=\"nofollow\" class=\"external free\" href=\"https://amara.org/v/hSva/\">https://amara.org/v/hSva/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/WikiTongues\">Wikitongues</a>, Nick Panzarella",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 116091754,
+     "ns": 6,
+     "title": "File:Piss-In, Pee for Free 2022 Berlin 01.webm",
+     "index": 10,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 174555348,
+       "width": 7680,
+       "height": 4320,
+       "duration": 15.458,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piss-In,_Pee_for_Free_2022_Berlin_01.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116091754",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Piss-In, Pee for Free 2022 Berlin 01",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Personality rights warning|Videos by C.Suthorn|Information field template with formatting|Videos of demonstrations and protests in support of women's rights|Video display resolution 7680 x 4320|Videos of 2022 from Berlin|International Womens Day in 2022 in Berlin, Piss-In der Kampagne Pee for Free|Files (PR) by C.Suthorn",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Alla vigilia della Giornata Internazionale della Donna 2022, la campagna \"Pee for Free\" ha tenuto un Piss-In a Berlino Alexanderplatz vicino al Rotes Rathaus per fare pressione per orinatoi gratuiti accessibili a quelli di tutti i generi.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<table style=\"margin: 1.5em auto; width:100%; color:var(--color-base,#202122); background-color:var(--background-color-neutral-subtle,#f8f9fa); border:2px solid #cccccc; padding:1px;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><span><video id=\"mwe_player_0\" poster=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm/250px--Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser\" controls=\"\" preload=\"none\" data-mw-tmh=\"\" class=\"mw-file-element\" width=\"160\" height=\"90\" data-durationhint=\"16\" data-mwtitle=\"Piss-In,_Pee_for_Free_2022_Berlin_01.webm\" data-mwprovider=\"local\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm.1080p.vp9.webm\" type='video/webm; codecs=\"vp9, opus\"' data-transcodekey=\"1080p.vp9.webm\" data-width=\"1920\" data-height=\"1080\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm.240p.vp9.webm\" type='video/webm; codecs=\"vp9, opus\"' data-transcodekey=\"240p.vp9.webm\" data-width=\"426\" data-height=\"240\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm.360p.mpeg4.mov\" type='video/quicktime; codecs=\"mp4v\"' data-transcodekey=\"360p.mpeg4.mov\" data-width=\"640\" data-height=\"360\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm.480p.vp9.webm\" type='video/webm; codecs=\"vp9, opus\"' data-transcodekey=\"480p.vp9.webm\" data-width=\"854\" data-height=\"480\"></source></source></source></source></video></span></span>\n</td>\n<td align=\"center\"><a href=\"https://upload.wikimedia.org/wikipedia/commons/1/13/Piss-In%2C_Pee_for_Free_2022_Berlin_01.webm?utm_source=commons.wikimedia.org&amp;utm_campaign=api&amp;utm_content=original\" class=\"internal\" title=\"Piss-In, Pee for Free 2022 Berlin 01.webm\"><b> This video</b></a> is a work by Wikipedia and Wikimedia Commons user C.Suthorn. When reusing, <a rel=\"nofollow\" class=\"external text\" href=\"https://p7press.eu/easy-attribution?file=Piss-In,_Pee_for_Free_2022_Berlin_01.webm&amp;ref=ikpoqgyikpo&amp;author=C.Suthorn&amp;lic=cc-by-sa-4.0&amp;type=print,social\"><i>credit</i></a> me as described in the Licensing information below. <span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></span></span> I would appreciate being notified (<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/C.Suthorn\" title=\"Special:EmailUser/C.Suthorn\">wikimail</a>, <a href=\"//commons.wikimedia.org/wiki/User_talk:C.Suthorn\" title=\"User talk:C.Suthorn\">talk page</a>, <a href=\"//commons.wikimedia.org/wiki/User:C.Suthorn\" title=\"User:C.Suthorn\">email</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://no-pony.farm/@Life_is\">Social Media</a>) if you use my work outside Wikimedia.\n<p>Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.\n</p><p>If you want to extract a still image from this video, you can do so, but I would prefer, if you ask me for a still, as I have the mp4-file of the original recording to extract the still from, while the video online is a transcoding to webm format with generational quality loss.\n</p><p>More of my work can be found in my <a href=\"//commons.wikimedia.org/wiki/Category:Files_by_C.Suthorn\" title=\"Category:Files by C.Suthorn\">personal gallery</a> or at my <a rel=\"nofollow\" class=\"external text\" href=\"http://p7.ee/PRT/CHANNEL\">Peertube channel</a>.\n</p>\n</td></tr></tbody></table>\n<table style=\"margin: 1.5em auto; width:100%; color:var(--color-base,#202122); background-color:var(--background-color-success-subtle,#dff2eb); border:2px solid var(--border-color-success,#099979); padding:1px;\" cellspacing=\"10\">\n<tbody><tr>\n<td>A prepared attribution especially for use in Social Media and Print (newspapers, flyers, books, murals, mousepads, mugs, posters, t-shirts) can be copied <a rel=\"nofollow\" class=\"external text\" href=\"https://p7press.eu/easy-attribution?file=Piss-In,_Pee_for_Free_2022_Berlin_01.webm&amp;ref=ikpoqgyikpo&amp;author=C.Suthorn&amp;lic=cc-by-sa-4.0&amp;type=print,social\"><i>here</i></a>\n</td></tr></tbody></table>\n<p><br>\n</p>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "personality",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 116092610,
+     "ns": 6,
+     "title": "File:Piss-In, Pee for Free 2022 Berlin 06.webm",
+     "index": 9,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 474643552,
+       "width": 7680,
+       "height": 4320,
+       "duration": 43.837,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piss-In,_Pee_for_Free_2022_Berlin_06.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116092610",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Piss-In, Pee for Free 2022 Berlin 06",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Personality rights warning|Videos by C.Suthorn|Information field template with formatting|Videos of demonstrations and protests in support of women's rights|Video display resolution 7680 x 4320|Videos of 2022 from Berlin|International Womens Day in 2022 in Berlin, Piss-In der Kampagne Pee for Free|Files (PR) by C.Suthorn",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Alla vigilia della Giornata Internazionale della Donna 2022, la campagna \"Pee for Free\" ha tenuto un Piss-In a Berlino Alexanderplatz vicino al Rotes Rathaus per fare pressione per orinatoi gratuiti accessibili a quelli di tutti i generi.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<table style=\"margin: 1.5em auto; width:100%; color:var(--color-base,#202122); background-color:var(--background-color-neutral-subtle,#f8f9fa); border:2px solid #cccccc; padding:1px;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><span><video id=\"mwe_player_1\" poster=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm/250px--Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser\" controls=\"\" preload=\"none\" data-mw-tmh=\"\" class=\"mw-file-element\" width=\"160\" height=\"90\" data-durationhint=\"44\" data-mwtitle=\"Piss-In,_Pee_for_Free_2022_Berlin_06.webm\" data-mwprovider=\"local\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm.1080p.vp9.webm\" type='video/webm; codecs=\"vp9, opus\"' data-transcodekey=\"1080p.vp9.webm\" data-width=\"1920\" data-height=\"1080\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm.240p.vp9.webm\" type='video/webm; codecs=\"vp9, opus\"' data-transcodekey=\"240p.vp9.webm\" data-width=\"426\" data-height=\"240\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm.360p.mpeg4.mov\" type='video/quicktime; codecs=\"mp4v\"' data-transcodekey=\"360p.mpeg4.mov\" data-width=\"640\" data-height=\"360\"><source src=\"https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm.480p.vp9.webm\" type='video/webm; codecs=\"vp9, opus\"' data-transcodekey=\"480p.vp9.webm\" data-width=\"854\" data-height=\"480\"></source></source></source></source></video></span></span>\n</td>\n<td align=\"center\"><a href=\"https://upload.wikimedia.org/wikipedia/commons/d/d0/Piss-In%2C_Pee_for_Free_2022_Berlin_06.webm?utm_source=commons.wikimedia.org&amp;utm_campaign=api&amp;utm_content=original\" class=\"internal\" title=\"Piss-In, Pee for Free 2022 Berlin 06.webm\"><b> This video</b></a> is a work by Wikipedia and Wikimedia Commons user C.Suthorn. When reusing, <a rel=\"nofollow\" class=\"external text\" href=\"https://p7press.eu/easy-attribution?file=Piss-In,_Pee_for_Free_2022_Berlin_06.webm&amp;ref=mtwspynmtws&amp;author=C.Suthorn&amp;lic=cc-by-sa-4.0&amp;type=print,social\"><i>credit</i></a> me as described in the Licensing information below. <span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></span></span> I would appreciate being notified (<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/C.Suthorn\" title=\"Special:EmailUser/C.Suthorn\">wikimail</a>, <a href=\"//commons.wikimedia.org/wiki/User_talk:C.Suthorn\" title=\"User talk:C.Suthorn\">talk page</a>, <a href=\"//commons.wikimedia.org/wiki/User:C.Suthorn\" title=\"User:C.Suthorn\">email</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://no-pony.farm/@Life_is\">Social Media</a>) if you use my work outside Wikimedia.\n<p>Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.\n</p><p>If you want to extract a still image from this video, you can do so, but I would prefer, if you ask me for a still, as I have the mp4-file of the original recording to extract the still from, while the video online is a transcoding to webm format with generational quality loss.\n</p><p>More of my work can be found in my <a href=\"//commons.wikimedia.org/wiki/Category:Files_by_C.Suthorn\" title=\"Category:Files by C.Suthorn\">personal gallery</a> or at my <a rel=\"nofollow\" class=\"external text\" href=\"http://p7.ee/PRT/CHANNEL\">Peertube channel</a>.\n</p>\n</td></tr></tbody></table>\n<table style=\"margin: 1.5em auto; width:100%; color:var(--color-base,#202122); background-color:var(--background-color-success-subtle,#dff2eb); border:2px solid var(--border-color-success,#099979); padding:1px;\" cellspacing=\"10\">\n<tbody><tr>\n<td>A prepared attribution especially for use in Social Media and Print (newspapers, flyers, books, murals, mousepads, mugs, posters, t-shirts) can be copied <a rel=\"nofollow\" class=\"external text\" href=\"https://p7press.eu/easy-attribution?file=Piss-In,_Pee_for_Free_2022_Berlin_06.webm&amp;ref=mtwspynmtws&amp;author=C.Suthorn&amp;lic=cc-by-sa-4.0&amp;type=print,social\"><i>here</i></a>\n</td></tr></tbody></table>\n<p><br>\n</p>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "personality",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 127850647,
+     "ns": 6,
+     "title": "File:Morning in Naples.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 27943969,
+       "width": 1920,
+       "height": 1080,
+       "duration": 20.408,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Morning_in_Naples.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Morning_in_Naples.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127850647",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Morning in Naples",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Mount Vesuvius|Naples|Self-published work|Naples in the 2010s|Videos from Italy by city",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "The morning atmosphere in Naples, with Mt. Vesuvius in view.",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Spontaneous_Symmetry\" title=\"User:Spontaneous Symmetry\">Joaquim Baeta</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 152760578,
+     "ns": 6,
+     "title": "File:Firma dell'Accordo per lo sviluppo e la coesione tra il Governo e la Regione Campania.webm",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 21545486,
+       "width": 1920,
+       "height": 1080,
+       "duration": 67.021,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Firma_dell%27Accordo_per_lo_sviluppo_e_la_coesione_tra_il_Governo_e_la_Regione_Campania.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firma_dell%27Accordo_per_lo_sviluppo_e_la_coesione_tra_il_Governo_e_la_Regione_Campania.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152760578",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Firma dell'Accordo per lo sviluppo e la coesione tra il Governo e la Regione Campania",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Vincenzo De Luca|Videos from YouTube|License review needed (video)|Giorgia Meloni in September 2024|Videos of Giorgia Meloni in 2024|Giorgia Meloni at Palazzo Chigi in 2024",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Palazzo Chigi, 17/09/2024 - Firma dell'Accordo per lo sviluppo e la coesione tra il Governo e la Regione Campania.\n<a rel=\"nofollow\" class=\"external free\" href=\"https://www.governo.it/it/articolo/firma-dellaccordo-lo-sviluppo-e-la-coesione-tra-il-governo-e-la-regione-campania/26564\">https://www.governo.it/it/articolo/firma-dellaccordo-lo-sviluppo-e-la-coesione-tra-il-governo-e-la-regione-campania/26564</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "Italian Government",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

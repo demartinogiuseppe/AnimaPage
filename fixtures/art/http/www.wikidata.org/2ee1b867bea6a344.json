@@ -1,0 +1,398 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q5669%7CQ16335227%7CQ911047%7CQ116844750%7CQ51252%7CQ175166%7CQ106857709%7CQ274988%7CQ209644%7CQ467515%7CQ47652%7CQ5011%7CQ184353%7CQ1150%7CQ467%7CQ1107656%7CQ506%7CQ3355098%7CQ1312%7CQ1075258%7CQ45922%7CQ886167%7CQ40730%7CQ10884%7CQ41484%7CQ89%7CQ12791%7CQ83437&props=labels&languages=it%7Cen",
+ "fetchedAt": "2026-11-04T11:36:24.392Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q5669": {
+    "type": "item",
+    "id": "Q5669",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Sandro Botticelli"
+     },
+     "it": {
+      "language": "it",
+      "value": "Sandro Botticelli"
+     }
+    }
+   },
+   "Q16335227": {
+    "type": "item",
+    "id": "Q16335227",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Uffizi Gallery"
+     },
+     "it": {
+      "language": "it",
+      "value": "Galleria delle pitture e delle statue degli Uffizi"
+     }
+    }
+   },
+   "Q911047": {
+    "type": "item",
+    "id": "Q911047",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Palazzo Medici Riccardi"
+     },
+     "it": {
+      "language": "it",
+      "value": "Palazzo Medici Riccardi"
+     }
+    }
+   },
+   "Q116844750": {
+    "type": "item",
+    "id": "Q116844750",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Bedroom of Lorenzo il Magnifico of Palazzo Medici"
+     }
+    }
+   },
+   "Q51252": {
+    "type": "item",
+    "id": "Q51252",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Galleria degli Uffizi"
+     },
+     "en": {
+      "language": "en",
+      "value": "Uffizi Gallery"
+     }
+    }
+   },
+   "Q175166": {
+    "type": "item",
+    "id": "Q175166",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "tempera"
+     },
+     "en": {
+      "language": "en",
+      "value": "tempera"
+     }
+    }
+   },
+   "Q106857709": {
+    "type": "item",
+    "id": "Q106857709",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "panel"
+     },
+     "it": {
+      "language": "it",
+      "value": "tavola"
+     }
+    }
+   },
+   "Q274988": {
+    "type": "item",
+    "id": "Q274988",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "gesso"
+     },
+     "en": {
+      "language": "en",
+      "value": "plaster"
+     }
+    }
+   },
+   "Q209644": {
+    "type": "item",
+    "id": "Q209644",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Flora"
+     },
+     "en": {
+      "language": "en",
+      "value": "Flora"
+     }
+    }
+   },
+   "Q467515": {
+    "type": "item",
+    "id": "Q467515",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Zefiro"
+     },
+     "en": {
+      "language": "en",
+      "value": "Zephyrus"
+     }
+    }
+   },
+   "Q47652": {
+    "type": "item",
+    "id": "Q47652",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Venere"
+     },
+     "en": {
+      "language": "en",
+      "value": "Venus"
+     }
+    }
+   },
+   "Q5011": {
+    "type": "item",
+    "id": "Q5011",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Cupido"
+     },
+     "en": {
+      "language": "en",
+      "value": "Cupid"
+     }
+    }
+   },
+   "Q184353": {
+    "type": "item",
+    "id": "Q184353",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Cariti"
+     },
+     "en": {
+      "language": "en",
+      "value": "Charites"
+     }
+    }
+   },
+   "Q1150": {
+    "type": "item",
+    "id": "Q1150",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mercury"
+     },
+     "it": {
+      "language": "it",
+      "value": "Mercurio"
+     }
+    }
+   },
+   "Q467": {
+    "type": "item",
+    "id": "Q467",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "woman"
+     },
+     "it": {
+      "language": "it",
+      "value": "donna"
+     }
+    }
+   },
+   "Q1107656": {
+    "type": "item",
+    "id": "Q1107656",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "giardino"
+     },
+     "en": {
+      "language": "en",
+      "value": "garden"
+     }
+    }
+   },
+   "Q506": {
+    "type": "item",
+    "id": "Q506",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "flower"
+     },
+     "it": {
+      "language": "it",
+      "value": "fiore"
+     }
+    }
+   },
+   "Q3355098": {
+    "type": "item",
+    "id": "Q3355098",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "arancio"
+     },
+     "en": {
+      "language": "en",
+      "value": "Citrus sinensis"
+     }
+    }
+   },
+   "Q1312": {
+    "type": "item",
+    "id": "Q1312",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "spring"
+     },
+     "it": {
+      "language": "it",
+      "value": "primavera"
+     }
+    }
+   },
+   "Q1075258": {
+    "type": "item",
+    "id": "Q1075258",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Chloris"
+     },
+     "it": {
+      "language": "it",
+      "value": "Clori"
+     }
+    }
+   },
+   "Q45922": {
+    "type": "item",
+    "id": "Q45922",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "freccia"
+     },
+     "en": {
+      "language": "en",
+      "value": "arrow"
+     }
+    }
+   },
+   "Q886167": {
+    "type": "item",
+    "id": "Q886167",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "flowering plant"
+     },
+     "it": {
+      "language": "it",
+      "value": "pianta fiorita"
+     }
+    }
+   },
+   "Q40730": {
+    "type": "item",
+    "id": "Q40730",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Demetra"
+     },
+     "en": {
+      "language": "en",
+      "value": "Demeter"
+     }
+    }
+   },
+   "Q10884": {
+    "type": "item",
+    "id": "Q10884",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "tree"
+     },
+     "it": {
+      "language": "it",
+      "value": "albero"
+     }
+    }
+   },
+   "Q41484": {
+    "type": "item",
+    "id": "Q41484",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Ermes"
+     },
+     "en": {
+      "language": "en",
+      "value": "Hermes"
+     }
+    }
+   },
+   "Q89": {
+    "type": "item",
+    "id": "Q89",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "apple"
+     },
+     "it": {
+      "language": "it",
+      "value": "mela"
+     }
+    }
+   },
+   "Q12791": {
+    "type": "item",
+    "id": "Q12791",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "sword"
+     },
+     "it": {
+      "language": "it",
+      "value": "spada"
+     }
+    }
+   },
+   "Q83437": {
+    "type": "item",
+    "id": "Q83437",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "gemma"
+     },
+     "en": {
+      "language": "en",
+      "value": "gemstone"
+     }
+    }
+   }
+  },
+  "success": 1
+ }
+}

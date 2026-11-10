@@ -1,0 +1,298 @@
+{
+ "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=list+of+Roman+emperors+filetype%3Avideo&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=size%7Cmime%7Cmediatype%7Curl%7Cextmetadata&iiextmetadatafilter=ObjectName%7CImageDescription%7CCategories%7CLicenseShortName%7CArtist%7CRestrictions&iiextmetadatalanguage=it",
+ "fetchedAt": "2026-11-05T03:09:39.132Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 60739092,
+     "ns": 6,
+     "title": "File:Ommegang Bruselas 2017 08 video.ogv",
+     "index": 1,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 73280388,
+       "width": 1920,
+       "height": 1080,
+       "duration": 21.199818594104308,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ommegang_Bruselas_2017_08_video.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ommegang_Bruselas_2017_08_video.ogv",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60739092",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Ommegang Bruselas 2017 08 video",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Self-published work|Images by Hispalois|Sedan of the Ommegang of Brussels|Videos of horse-drawn vehicles|Philip II of Spain in art|Charles V, Holy Roman Emperor in art|Videos from Brussels|2017 Ommegang of Brussels",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "<a href=\"https://en.wikipedia.org/wiki/Ommegang_of_Brussels\" class=\"extiw\" title=\"w:Ommegang of Brussels\">Ommegang of Brussels</a> 2017-07-07",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hispalois\" title=\"User:Hispalois\">Hispalois</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "application/ogg",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 68512193,
+     "ns": 6,
+     "title": "File:Split, Croatia in Ultra 4K.webm",
+     "index": 4,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 1252022970,
+       "width": 3840,
+       "height": 2160,
+       "duration": 588.581,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Split%2C_Croatia_in_Ultra_4K.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Split,_Croatia_in_Ultra_4K.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68512193",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Split, Croatia in Ultra 4K",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Files from external sources with reviewed licenses|Uploaded with video2commons|Videos from Split|Videos with music by Chris Zabriskie|Videos from Le Monde en Vidéo",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Version en français plus bas .\n<p>Split is the second most populous city in Croatia\nThe Substructures\nThe Diocletian Palace Substructures represent one of the best preserved ancient complexes of their kind in the world, and hence are in many ways responsible for the reason the historical core of Split was in 1979 included on the UNESCO'S World Heritage list.\n</p><p>In the Roman times, their function was to elevate the Emperor's chambers on the floor above, but they were also the storage area for the Palace. Being structurally a faithful replica of the chambers above, they enable a faithful reconstruction of the way the Emperor's chambers looked like.\n</p><p>In the early Middle Ages a part of them was used as a residential area, and in one of the halls parts of an ancient oil and wine press (turnjačica) were found, remaining exhibited in the same spot to this day. With the residence construction within the Palace, the Substructures were turned into a waste pit for those households built above them. Cleaning of the Substructure's halls was conceived and commenced in the mid 19th century by an architect Vicko Andrić, the first Split and Croatian conservationist, and today they have been excavated and reconstructed to the sixties of the last century. Only the eastern part became open for the public relatively recently, in May 1995.\n</p><p>The entrance to the halls of the Substructures today is through Porta Aenea, from the Riva, or down the stairs from the Peristyle. Today the Substructures are full of life. They regularly host painting and sculpture exhibitions, theatre plays, fairs like the International Flower Fair, gastronomic and oenological presentations, and many other social and cultural events. The central hall, representing the main communication line between the Riva and the Peristyle, is a place to buy valuable souvenirs, and the rest of the Substructures is open for sightseeing as one of the greatest attractions of Split, frequently, besides Peristyle, a synonym for Diocletian Palace.\n</p><p><br>\nSplit est la deuxième ville la plus peuplée de Croatie\nLes sous-structures\nLes infrastructures du palais de Dioclétien représentent l'un des complexes antiques les mieux préservés de ce genre dans le monde et sont par conséquent à bien des égards responsables du fait que le noyau historique de Split a été inscrit en 1979 sur la liste du patrimoine mondial de l'UNESCO.\n</p><p>À l'époque romaine, leur fonction était d'élever les chambres de l'Empereur à l'étage supérieur, mais elles étaient aussi la zone de stockage pour le Palais. Etant structurellement une réplique fidèle des chambres ci-dessus, ils permettent une reconstitution fidèle de la façon dont les chambres de l'Empereur ressemblaient.\n</p><p>Au début du Moyen Age, une partie d'entre eux a été utilisée comme zone résidentielle et dans l'une des salles, on a trouvé des parties d'une ancienne presse à huile et à vin (turnjačica) qui restaient exposées au même endroit à ce jour. Avec la construction de la résidence au sein du palais, les infrastructures ont été transformées en fosse à déchets pour les ménages construits au-dessus d'eux. Le nettoyage des halls de l'infrastructure a été conçu et commencé au milieu du XIXe siècle par un architecte Vicko Andrić, le premier écologiste de Split et croate, qui a été excavé et reconstruit dans les années soixante du siècle dernier. Seule la partie orientale a été ouverte au public relativement récemment, en mai 1995.\n</p><p>L'entrée des halls des infrastructures aujourd'hui est par Porta Aenea, de Riva, ou en bas des escaliers du péristyle. Aujourd'hui, les infrastructures sont pleines de vie. Ils accueillent régulièrement des expositions de peinture et de sculpture, des pièces de théâtre, des foires comme la Foire internationale des fleurs, des présentations gastronomiques et œnologiques et bien d'autres événements sociaux et culturels. Le hall central, qui représente la principale ligne de communication entre le Riva et le Péristyle, est un lieu d'achat de précieux souvenirs, et le reste des infrastructures est ouvert au tourisme comme l'une des plus grandes attractions de Split. pour le palais de Dioclétien.\n</p><p>Musics:\n</p><p>Act Three par Audionautix est protégée par une licence Creative Commons Attribution (<a rel=\"nofollow\" class=\"external free\" href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</a>)\nArtiste : <a rel=\"nofollow\" class=\"external free\" href=\"http://audionautix.com/\">http://audionautix.com/</a>\n</p><p>Cylinder Two par Chris Zabriskie est protégée par une licence Creative Commons Attribution (<a rel=\"nofollow\" class=\"external free\" href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</a>)\nSource : <a rel=\"nofollow\" class=\"external free\" href=\"http://chriszabriskie.com/cylinders/\">http://chriszabriskie.com/cylinders/</a>\n</p>\nArtiste : <a rel=\"nofollow\" class=\"external free\" href=\"http://chriszabriskie.com/\">http://chriszabriskie.com/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/allairej1957\">Le Monde en Vidéo</a>",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 3.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 75686274,
+     "ns": 6,
+     "title": "File:WIKITONGUES- Paola speaking Italian and Sicilian.webm",
+     "index": 6,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 5366457,
+       "width": 1920,
+       "height": 1080,
+       "duration": 22.801000000000002,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75686274",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "WIKITONGUES- Paola speaking Italian and Sicilian",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Videos of 2018|Uploaded with video2commons|License reviewed by YouTubeReviewBot|Wikitongues videos in Italian|Wikitongues videos in Sicilian",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This video was recorded by David Paleino in Campobello di Mazara, Sicily, Italy, where Paola lives. Sicilian is spoken by as many as five million people, primarily in the Italian island of Sicily, as well as parts of mainland regions Calabria, Campania, and Apulia. It has been a literary language since at least the twelfth century CE, when the Sicilian King Frederick I, who would later become the Holy Roman Emperor Frederick II, began encouraging poetry in the language; an initiative that gave way to a cohort of early writers known as the ‘Sicilian School’. Sicilian literature fell into decline with the rise of Italian as a regional lingua franca, but remained prominent in its spoken form as a mother tongue, and persists today, despite significant challenges: the language remains unrecognized by the Italian government and is therefore absent from public education. Both David and Paola are volunteers at Cadèmia Siciliana, a nonprofit initiative to promote and preserve the language for future generations.\n<p>Help us caption &amp; translate this video!\n</p>\n<a rel=\"nofollow\" class=\"external free\" href=\"https://amara.org/v/eKTZ/\">https://amara.org/v/eKTZ/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/WikiTongues\">Wikitongues</a>, David Paleino",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 75687060,
+     "ns": 6,
+     "title": "File:WIKITONGUES- Steven speaking Sicilian.webm",
+     "index": 5,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 75852884,
+       "width": 1920,
+       "height": 1080,
+       "duration": 354.741,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/WIKITONGUES-_Steven_speaking_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Steven_speaking_Sicilian.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75687060",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "WIKITONGUES- Steven speaking Sicilian",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Media from YouTube|Videos of 2018|Uploaded with video2commons|License reviewed by YouTubeReviewBot|Wikitongues videos in Sicilian",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "This video was recorded by Steven Campo in Independence, Louisiana, a U.S. American town with a large Sicilian population. Sicilian is spoken by as many as five million people, primarily in the Italian island of Sicily, as well as parts of mainland regions Calabria, Campania, and Apulia. It has been a literary language since at least the twelfth century CE, when the Sicilian King Frederick I, who would later become the Holy Roman Emperor Frederick II, began encouraging poetry in the language; an initiative that gave way to a cohort of early writers known as the ‘Sicilian School’. Sicilian literature fell into decline with the rise of Italian as a regional lingua franca, but remained prominent in its spoken form as a mother tongue, and persists today, despite significant challenges: the language remains unrecognized by the Italian government and is therefore absent from public education. Steven is a volunteer at Cadèmia Siciliana, a nonprofit initiative to promote and preserve the language for future generations.\n<p>Help us caption &amp; translate this video!\n</p>\n<a rel=\"nofollow\" class=\"external free\" href=\"https://amara.org/v/hSva/\">https://amara.org/v/hSva/</a>",
+         "source": "commons-desc-page"
+        },
+        "Artist": {
+         "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/WikiTongues\">Wikitongues</a>, Nick Panzarella",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 179876142,
+     "ns": 6,
+     "title": "File:Німфеум Адріана 11.webm",
+     "index": 3,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 44616405,
+       "width": 1080,
+       "height": 1920,
+       "duration": 7.043,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/%D0%9D%D1%96%D0%BC%D1%84%D0%B5%D1%83%D0%BC_%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD%D0%B0_11.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9D%D1%96%D0%BC%D1%84%D0%B5%D1%83%D0%BC_%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD%D0%B0_11.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179876142",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Німфеум Адріана 11",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Files with no machine-readable author|Files with no machine-readable source|Media lacking author information|Self-published work|Images without source|Nymphaeum of Hadrian (Perge)|Files with coordinates missing SDC location of creation|Uploaded via Campaign:espc-ua|Images from Wiki Science Competition 2025 in Ukraine|General category images from Wiki Science Competition 2025 in Ukraine",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "<a href=\"https://uk.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B3%D0%B5\" class=\"extiw\" title=\"uk:Перге\">Перге</a> — це добре збережене античне місто поблизу Анталії, яке було важливим центром Памфілії в елліністичну та римську добу; його руїни включають театр, стадіон, агору та вулиці з колонадами, а знахідки експонуються в Анталійському музеї.\n<p>Перге розташоване приблизно 15 км на схід від центру сучасної Анталії. Час заснування міста невідомий. У тексті договору, укладеного між Великим царем хетів <a href=\"https://uk.wikipedia.org/wiki/%D0%A2%D1%83%D0%B4%D1%85%D0%B0%D0%BB%D1%96%D1%8F_IV\" class=\"extiw\" title=\"uk:Тудхалія IV\">Тудхалією IV</a> та його кузеном принцем <a href=\"https://uk.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%83%D0%BD%D1%82%D0%B0\" class=\"extiw\" title=\"uk:Курунта\">Улмі-Тешшубою</a> у 13 ст. до н. е., воно згадується як «Парха».  Місто виникло як лікійське поселення, яке згодом перетворилося на грецьке місто в регіоні Памфілія. Греки називали місто Πέργη. За заповітом царя <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D1%82%D1%82%D0%B0%D0%BB_III\" class=\"extiw\" title=\"uk:Аттал III\">Аттала III</a> у 133 р. до н. е. місто перейшло під владу Риму. У римський період воно стало важливим адміністративним центром і столицею провінції Памфілія Секунда. Місто мало довгу історію від бронзової доби до середньовіччя, що відображається в багатошарових археологічних залишках.\nГоловними пам’ятками Перге є великий римський театр, стадіон, агора, вулиці з колонадами та добре збереженими фасадами будівель, римські лазні та міські ворота. План міста демонструє класичну сітку вулиць з центральною віссю і монументальними громадськими будівлями; багато з цих споруд датуються елліністичним і римським періодами, коли місто розквітало і активно забудівувалось.\nПерге відоме як один із важливих центрів скульптури античного світу; численні статуї та фрагменти були знайдені під час розкопок і зараз експонуються в Анталійському музеї, який дає повніший контекст для розуміння міста та його мистецтва. Сам археологічний комплекс у 2009 році включений до тимчасового списку ЮНЕСКО через значущість знахідок і збереженість руїн.\nПерші постійні розкопки на Перге розпочалися під керівництвом Джале Інан у 1946 році, що стало відправною точкою для сучасних досліджень і створення музейних колекцій в Анталії. У 1970-х роках професор доктор Халук Аббасоглу взяв на себе розкопки, проведені професором доктором Джале Інаном, який став головою Дирекції музею Анталії.\n<a href=\"https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B4%D0%BE\" class=\"extiw\" title=\"uk:Кардо\">Кардо Максимус</a> у Перге незвично звивиста, з чотирма поворотами. Тільки на двох ділянках вона має точний напрямок з півночі на південь. Вулицю прокладали у першій половині другого ст. н. е. по забудові, що вже існувала. Кардо Максимус оздоблена мармуровими та гранітними колонами. Мармур привезено з Греції та з Мармурового моря а граніт – з Єгипту. Центром вулиці йшов канал, збудований з вапняку. Струмок, що стікав з акрополя, утворював водоспад у <a href=\"https://uk.wikipedia.org/wiki/%D0%9D%D1%96%D0%BC%D1%84%D0%B5%D1%83%D0%BC\" class=\"extiw\" title=\"uk:Німфеум\">німфеумі</a> <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD\" class=\"extiw\" title=\"uk:Адріан\">Адріана</a> та тік цим каналом через усе місто і потім до річки Кестрос (сучасна <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D0%BA%D1%81%D1%83_(%D1%80%D1%96%D1%87%D0%BA%D0%B0,_%D0%A2%D1%83%D1%80%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D0%B0)\" class=\"extiw\" title=\"uk:Аксу (річка, Туреччина)\">Аксу</a>). \n</p>\nНімфеум, присвячений богу річки Кестрос (Цеструс)  збудований на початку ІІ століття н. е. можливо за правління імператора Адріана. Це була велика споруда 21 м завширшки та 13,4 м заввишки від якої починались сходи на <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D0%BA%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C\" class=\"extiw\" title=\"uk:Акрополь\">Акрополь</a>. Німфеум був прикрашений статуями Зевса, Артеміди та Аполлона а також двома статуями імператора Адріана – одягненою та оголеною. Усі статуї знаходяться у музеї Антальї.",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    },
+    {
+     "pageid": 179876149,
+     "ns": 6,
+     "title": "File:Німфеум Адріана 10.webm",
+     "index": 2,
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "size": 51158723,
+       "width": 1920,
+       "height": 1080,
+       "duration": 11.617,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%D0%9D%D1%96%D0%BC%D1%84%D0%B5%D1%83%D0%BC_%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD%D0%B0_10.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%9D%D1%96%D0%BC%D1%84%D0%B5%D1%83%D0%BC_%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD%D0%B0_10.webm",
+       "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179876149",
+       "extmetadata": {
+        "ObjectName": {
+         "value": "Німфеум Адріана 10",
+         "source": "mediawiki-metadata"
+        },
+        "Categories": {
+         "value": "Files with no machine-readable author|Files with no machine-readable source|Media lacking author information|Self-published work|Images without source|Nymphaeum of Hadrian (Perge)|Files with coordinates missing SDC location of creation|Uploaded via Campaign:espc-ua|Images from Wiki Science Competition 2025 in Ukraine|General category images from Wiki Science Competition 2025 in Ukraine",
+         "source": "commons-categories",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "<a href=\"https://uk.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B3%D0%B5\" class=\"extiw\" title=\"uk:Перге\">Перге</a> — це добре збережене античне місто поблизу Анталії, яке було важливим центром Памфілії в елліністичну та римську добу; його руїни включають театр, стадіон, агору та вулиці з колонадами, а знахідки експонуються в Анталійському музеї.\n<p>Перге розташоване приблизно 15 км на схід від центру сучасної Анталії. Час заснування міста невідомий. У тексті договору, укладеного між Великим царем хетів <a href=\"https://uk.wikipedia.org/wiki/%D0%A2%D1%83%D0%B4%D1%85%D0%B0%D0%BB%D1%96%D1%8F_IV\" class=\"extiw\" title=\"uk:Тудхалія IV\">Тудхалією IV</a> та його кузеном принцем <a href=\"https://uk.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%83%D0%BD%D1%82%D0%B0\" class=\"extiw\" title=\"uk:Курунта\">Улмі-Тешшубою</a> у 13 ст. до н. е., воно згадується як «Парха».  Місто виникло як лікійське поселення, яке згодом перетворилося на грецьке місто в регіоні Памфілія. Греки називали місто Πέργη. За заповітом царя <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D1%82%D1%82%D0%B0%D0%BB_III\" class=\"extiw\" title=\"uk:Аттал III\">Аттала III</a> у 133 р. до н. е. місто перейшло під владу Риму. У римський період воно стало важливим адміністративним центром і столицею провінції Памфілія Секунда. Місто мало довгу історію від бронзової доби до середньовіччя, що відображається в багатошарових археологічних залишках.\nГоловними пам’ятками Перге є великий римський театр, стадіон, агора, вулиці з колонадами та добре збереженими фасадами будівель, римські лазні та міські ворота. План міста демонструє класичну сітку вулиць з центральною віссю і монументальними громадськими будівлями; багато з цих споруд датуються елліністичним і римським періодами, коли місто розквітало і активно забудівувалось.\nПерге відоме як один із важливих центрів скульптури античного світу; численні статуї та фрагменти були знайдені під час розкопок і зараз експонуються в Анталійському музеї, який дає повніший контекст для розуміння міста та його мистецтва. Сам археологічний комплекс у 2009 році включений до тимчасового списку ЮНЕСКО через значущість знахідок і збереженість руїн.\nПерші постійні розкопки на Перге розпочалися під керівництвом Джале Інан у 1946 році, що стало відправною точкою для сучасних досліджень і створення музейних колекцій в Анталії. У 1970-х роках професор доктор Халук Аббасоглу взяв на себе розкопки, проведені професором доктором Джале Інаном, який став головою Дирекції музею Анталії.\n<a href=\"https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B4%D0%BE\" class=\"extiw\" title=\"uk:Кардо\">Кардо Максимус</a> у Перге незвично звивиста, з чотирма поворотами. Тільки на двох ділянках вона має точний напрямок з півночі на південь. Вулицю прокладали у першій половині другого ст. н. е. по забудові, що вже існувала. Кардо Максимус оздоблена мармуровими та гранітними колонами. Мармур привезено з Греції та з Мармурового моря а граніт – з Єгипту. Центром вулиці йшов канал, збудований з вапняку. Струмок, що стікав з акрополя, утворював водоспад у <a href=\"https://uk.wikipedia.org/wiki/%D0%9D%D1%96%D0%BC%D1%84%D0%B5%D1%83%D0%BC\" class=\"extiw\" title=\"uk:Німфеум\">німфеумі</a> <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D0%B4%D1%80%D1%96%D0%B0%D0%BD\" class=\"extiw\" title=\"uk:Адріан\">Адріана</a> та тік цим каналом через усе місто і потім до річки Кестрос (сучасна <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D0%BA%D1%81%D1%83_(%D1%80%D1%96%D1%87%D0%BA%D0%B0,_%D0%A2%D1%83%D1%80%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D0%B0)\" class=\"extiw\" title=\"uk:Аксу (річка, Туреччина)\">Аксу</a>). \n</p>\nНімфеум, присвячений богу річки Кестрос (Цеструс)  збудований на початку ІІ століття н. е. можливо за правління імператора Адріана. Це була велика споруда 21 м завширшки та 13,4 м заввишки від якої починались сходи на <a href=\"https://uk.wikipedia.org/wiki/%D0%90%D0%BA%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C\" class=\"extiw\" title=\"uk:Акрополь\">Акрополь</a>. Німфеум був прикрашений статуями Зевса, Артеміди та Аполлона а також двома статуями імператора Адріана – одягненою та оголеною. Усі статуї знаходяться у музеї Антальї.",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY 4.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "Restrictions": {
+         "value": "",
+         "source": "commons-desc-page",
+         "hidden": ""
+        }
+       },
+       "mime": "video/webm",
+       "mediatype": "VIDEO"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

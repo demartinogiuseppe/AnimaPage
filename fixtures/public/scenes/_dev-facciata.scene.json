@@ -1,0 +1,299 @@
+{
+  "version": "0.1",
+  "engine": "facade",
+  "title": "Facciate (prova)",
+  "page": { "subject": "Arte", "topic": "Facciate", "language": "it" },
+  "kind": "art",
+  "sources": [{ "id": "page", "kind": "page", "title": "Scena di prova per il teatro delle facciate" }],
+  "videos": [],
+  "disclaimers": ["Scena di prova: edifici semplificati disegnati solo con linee."],
+  "engineData": {
+    "buildings": [
+      {
+        "id": "palazzo",
+        "name": "Palazzo",
+        "style": "renaissance",
+        "base": { "height": 1 },
+        "floors": [
+          {
+            "id": "f0",
+            "height": 6,
+            "wall": "rusticated",
+            "top": "string-course",
+            "members": { "type": "pier", "width": 0.8, "rusticated": true },
+            "bays": [
+              { "id": "b0", "width": 4, "cell": { "el": "arch" } },
+              { "id": "b1", "width": 5, "cell": { "el": "arch" } },
+              { "id": "b2", "width": 4, "cell": { "el": "arch" } }
+            ]
+          },
+          {
+            "id": "f1",
+            "height": 5,
+            "top": "entablature",
+            "cornice": "dentils",
+            "members": { "type": "pilaster", "order": "ionic", "width": 0.5 },
+            "bays": [
+              { "id": "c0", "width": 4, "cell": { "el": "window", "w": 1.2, "h": 2.4, "sill": 1, "pediment": "triangular" } },
+              { "id": "c1", "width": 5, "cell": { "el": "window", "w": 1.2, "h": 2.4, "sill": 1, "pediment": "triangular" } },
+              { "id": "c2", "width": 4, "cell": { "el": "window", "w": 1.2, "h": 2.4, "sill": 1, "pediment": "triangular" } }
+            ]
+          }
+        ],
+        "crown": { "type": "balustrade", "height": 1 }
+      },
+      {
+        "id": "casa",
+        "name": "Casa stretta",
+        "style": "romanesque",
+        "base": { "height": 0.6, "steps": 2 },
+        "floors": [
+          {
+            "id": "g0",
+            "height": 3.6,
+            "top": "string-course",
+            "bays": [{ "id": "d0", "width": 3.2, "cell": { "el": "portal", "w": 1.4, "h": 2.6, "top": "round" } }]
+          },
+          {
+            "id": "g1",
+            "height": 3,
+            "bays": [{ "id": "d1", "width": 3.2, "cell": { "el": "window", "w": 0.9, "h": 1.5, "sill": 0.9, "top": "round" } }]
+          }
+        ],
+        "crown": { "type": "gable", "pitch": 28 }
+      },
+      {
+        "id": "catalogo",
+        "name": "Tavola del catalogo",
+        "style": "baroque",
+        "base": { "height": 1.2, "steps": 3 },
+        "floors": [
+          {
+            "id": "k0",
+            "height": 5.4,
+            "wall": "rusticated",
+            "course": 0.45,
+            "top": "string-course",
+            "members": { "type": "pier", "width": 0.8, "rusticated": true },
+            "bays": [
+              { "id": "a0", "width": 3.6, "cell": {"el":"arch","archivolt":"voussoirs","keystone":true} },
+              { "id": "a1", "width": 3.6, "cell": {"el":"arch","archivolt":"moulded"} },
+              { "id": "a2", "width": 3.6, "cell": {"el":"portal","w":1.5,"h":3.2,"pediment":"triangular"} },
+              { "id": "a3", "width": 3.6, "cell": {"el":"arch","archivolt":"moulded","open":false} },
+              { "id": "a4", "width": 3.6, "cell": {"el":"arch","archivolt":"voussoirs","keystone":true} }
+            ]
+          },
+          {
+            "id": "k1",
+            "height": 4.8,
+            "top": "entablature",
+            "cornice": "dentils",
+            "members": { "type": "pilaster", "order": "ionic", "width": 0.5, "paired": true },
+            "bays": [
+              { "id": "b0", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.9,"pediment":"triangular","corbels":true} },
+              { "id": "b1", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":1,"pediment":"segmental","balustrade":true} },
+              { "id": "b2", "width": 3.6, "cell": {"el":"window","w":1.6,"h":2.2,"sill":0.9,"top":"round","mullion":true} },
+              { "id": "b3", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.9,"pediment":"segmental","corbels":true} },
+              { "id": "b4", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":1,"pediment":"triangular","balustrade":true} }
+            ]
+          },
+          {
+            "id": "k2",
+            "height": 4.4,
+            "top": "entablature",
+            "cornice": "modillions",
+            "shoulders": "volutes",
+            "members": { "type": "column", "order": "composite", "width": 0.5 },
+            "colonnade": { "depth": 0.9 },
+            "bays": [
+              { "id": "d0", "width": 3.6, "cell": {"el":"panel","w":1.4,"h":2.2,"sill":0.8} },
+              { "id": "d1", "width": 3.6, "cell": {"el":"oculus","r":0.8,"y":2.2} },
+              { "id": "d2", "width": 3.6, "cell": {"el":"niche","w":0.9,"h":2,"sill":0.8} }
+            ]
+          }
+        ],
+        "crown": { "type": "pediment", "shape": "triangular" }
+      },
+      {
+        "id": "ordini",
+        "name": "Gli ordini sovrapposti",
+        "style": "classical",
+        "base": { "height": 0.8 },
+        "floors": [
+          {
+            "id": "o0",
+            "height": 3.8,
+            "top": "entablature",
+            "cornice": "plain",
+            "members": { "type": "pilaster", "order": "tuscan", "width": 0.6 },
+            "bays": [
+              { "id": "p0a", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} },
+              { "id": "p0b", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} }
+            ]
+          },
+          {
+            "id": "o1",
+            "height": 3.8,
+            "top": "entablature",
+            "cornice": "plain",
+            "members": { "type": "pilaster", "order": "doric", "width": 0.6 },
+            "bays": [
+              { "id": "p1a", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} },
+              { "id": "p1b", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} }
+            ]
+          },
+          {
+            "id": "o2",
+            "height": 3.8,
+            "top": "entablature",
+            "cornice": "dentils",
+            "members": { "type": "half-column", "order": "ionic", "width": 0.6, "paired": true },
+            "bays": [
+              { "id": "p2a", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} },
+              { "id": "p2b", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} }
+            ]
+          },
+          {
+            "id": "o3",
+            "height": 3.8,
+            "top": "entablature",
+            "cornice": "modillions",
+            "members": { "type": "pilaster", "order": "corinthian", "width": 0.6 },
+            "bays": [
+              { "id": "p3a", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} },
+              { "id": "p3b", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} }
+            ]
+          },
+          {
+            "id": "o4",
+            "height": 3.8,
+            "top": "entablature",
+            "cornice": "modillions",
+            "members": { "type": "pilaster", "order": "composite", "width": 0.6 },
+            "bays": [
+              { "id": "p4a", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} },
+              { "id": "p4b", "width": 3.6, "cell": {"el":"window","w":1.2,"h":2,"sill":0.8} }
+            ]
+          }
+        ],
+        "crown": { "type": "attic", "height": 1.4 }
+      }
+    ],
+    "chapters": [
+      { "chapter": "palazzo", "building": "palazzo", "views": [{ "at": 0, "view": "prospetto" }] },
+      { "chapter": "casa", "building": "casa", "views": [{ "at": 0, "view": "prospetto" }] },
+      { "chapter": "catalogo", "building": "catalogo", "views": [{ "at": 0, "view": "prospetto" }] },
+      { "chapter": "ordini", "building": "ordini", "views": [{ "at": 0, "view": "prospetto" }] },
+      {
+        "chapter": "viste",
+        "building": "palazzo",
+        "views": [
+          { "at": 0, "view": "prospetto" },
+          { "at": 6, "view": "assonometria" },
+          { "at": 12, "view": "prospettiva" },
+          { "at": 18, "view": "sezione" }
+        ],
+        "acts": [{ "do": "cut", "bay": "b1", "at": 18 }]
+      },
+      {
+        "chapter": "occhio",
+        "building": "palazzo",
+        "views": [
+          { "at": 0, "view": "prospetto" },
+          { "at": 10, "view": "prospettiva" }
+        ],
+        "acts": [
+          { "do": "draw", "target": "base", "at": 0, "dur": 2 },
+          { "do": "draw", "target": "f0", "at": 2, "dur": 3 },
+          { "do": "draw", "target": "f1", "at": 5, "dur": 3 },
+          { "do": "draw", "target": "crown", "at": 8, "dur": 2 },
+          { "do": "highlight", "target": "f1.members", "at": 11, "until": 16 },
+          { "do": "eye", "at": 14, "dur": 4, "height": 8, "x": 3 }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "palazzo",
+      "title": "Il palazzo",
+      "chip": "Palazzo",
+      "kind": "art",
+      "duration": 12,
+      "narration": [{ "at": 0, "text": "Un palazzo con tre archi al piano terra e tre finestre al piano nobile.", "highlight": [], "sourceIds": ["page"] }],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "casa",
+      "title": "La casa stretta",
+      "chip": "Casa",
+      "kind": "art",
+      "duration": 12,
+      "narration": [{ "at": 0, "text": "Una casa stretta, con una sola campata.", "highlight": [], "sourceIds": ["page"] }],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "catalogo",
+      "title": "La tavola del catalogo",
+      "chip": "Catalogo",
+      "kind": "art",
+      "duration": 12,
+      "narration": [{ "at": 0, "text": "Cinque campate su tre piani: archi, portale, finestre, colonne, frontone.", "highlight": [], "sourceIds": ["page"] }],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "ordini",
+      "title": "Gli ordini",
+      "chip": "Ordini",
+      "kind": "art",
+      "duration": 12,
+      "narration": [{ "at": 0, "text": "I cinque ordini sovrapposti, dal tuscanico al composito.", "highlight": [], "sourceIds": ["page"] }],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "viste",
+      "title": "Le quattro viste",
+      "chip": "Viste",
+      "kind": "art",
+      "duration": 24,
+      "narration": [{ "at": 0, "text": "Lo stesso palazzo in prospetto, in assonometria, in prospettiva con un punto di fuga e in sezione.", "highlight": [], "sourceIds": ["page"] }],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": []
+    },
+    {
+      "id": "occhio",
+      "title": "Dove sta l'occhio",
+      "chip": "Occhio",
+      "kind": "art",
+      "duration": 20,
+      "narration": [
+        { "at": 0, "text": "Il disegno nasce piano dopo piano: prima lo zoccolo, poi il piano terra, il piano nobile e la balaustra.", "highlight": [], "sourceIds": ["page"] },
+        { "at": 11, "text": "In prospettiva le linee in profondità si incontrano in un punto di fuga, sull'orizzonte, all'altezza dell'occhio. Guarda i capitelli in rosso.", "highlight": [], "sourceIds": ["page"] }
+      ],
+      "camera": [],
+      "pins": [],
+      "deep": [],
+      "quiz": [],
+      "activity": {
+        "predict": { "q": "Se guardi da più in alto, dove va il punto di fuga?", "options": ["Sale con l'occhio", "Resta dov'è", "Scende"], "answer": 0 },
+        "test": { "prompt": "Muovi l'occhio e guarda l'orizzonte e il punto di fuga.", "params": ["eye-height", "eye-x"] },
+        "prove": { "text": "Il punto di fuga sta sempre all'altezza dell'occhio, sull'orizzonte.", "sourceIds": ["page"] },
+        "stamp": "Occhio allenato"
+      }
+    }
+  ]
+}

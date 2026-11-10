@@ -1,0 +1,961 @@
+<title>Micenei e Troia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;800&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a 3D "AR" diorama with a film-style timeline under it, beside a study panel; stacked on phones. Palette from Mycenaean pottery (red-brown on buff clay) and the Aegean. */
+:root{
+  --bg:#ecebe6; --surface:#ffffff; --surface-2:#f4f2ee; --ink:#2a211b; --muted:#6c625a; --line:#ddd7cf;
+  --clay:#9b4a22; --clay-ink:#ffffff; --aegean:#1f5d86; --hl:#f6dfb0; --ok:#2e7d46; --bad:#b8392a;
+  --myth:#7a3fa0; --hist:#1f6d5e;
+  --label-ink:#2a211b; --label-bg:rgba(255,255,255,.93);
+  --font-display:"Cinzel", "Trajan Pro", Georgia, serif;
+  --font-body:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15120f; --surface:#1f1a16; --surface-2:#28211c; --ink:#efe6dc; --muted:#a99b8e; --line:#3a3029;
+    --clay:#e07a48; --clay-ink:#1d0f07; --aegean:#6fb3e0; --hl:#5b4320; --ok:#66c987; --bad:#ff7c6a;
+    --myth:#c49ae6; --hist:#5fc7b0; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15120f; --surface:#1f1a16; --surface-2:#28211c; --ink:#efe6dc; --muted:#a99b8e; --line:#3a3029;
+  --clay:#e07a48; --clay-ink:#1d0f07; --aegean:#6fb3e0; --hl:#5b4320; --ok:#66c987; --bad:#ff7c6a;
+  --myth:#c49ae6; --hist:#5fc7b0; color-scheme:dark;
+}
+html{height:100%;box-sizing:border-box}
+*,*::before,*::after{box-sizing:border-box}
+body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.5;overflow:hidden}
+button{font:inherit;color:inherit}
+button:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--clay);outline-offset:2px}
+
+.app{height:100%;display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:16px;padding-block:16px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media (max-width:860px){
+  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(300px,52%) minmax(0,1fr);gap:12px;padding-block:12px}
+}
+
+/* ---------- Stage ---------- */
+.stage{position:relative;min-height:0;border-radius:22px;overflow:hidden;background:#cfdde6;isolation:isolate}
+.stage canvas{display:block;width:100%;height:100%;touch-action:none}
+.labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.hud{position:absolute;left:12px;right:12px;top:12px;display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap;pointer-events:none;z-index:3}
+.hud > *{pointer-events:auto}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:var(--surface);color:var(--ink);font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.badge .dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
+.badge b{font-family:var(--font-mono);font-weight:500;font-size:12px}
+.kind{font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:2px 8px;border-radius:999px;color:#fff}
+.kind.myth{background:#7a3fa0} .kind.hist{background:#1f6d5e}
+.icon-btn{border:0;background:var(--surface);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.status{position:absolute;left:50%;top:56px;transform:translateX(-50%);z-index:3;background:rgba(20,14,10,.72);color:#fff;
+  padding:6px 14px;border-radius:999px;font-family:var(--font-display);font-weight:600;letter-spacing:.06em;font-size:14px;white-space:nowrap}
+.pickbar{position:absolute;left:50%;top:56px;transform:translateX(-50%);z-index:4;background:#9b4a22;color:#fff;padding:8px 14px;border-radius:999px;
+  font-weight:700;font-size:14px;box-shadow:0 4px 14px rgba(0,0,0,.25);max-width:calc(100% - 24px);text-align:center;text-wrap:balance}
+
+.timeline{position:absolute;left:12px;right:12px;bottom:12px;z-index:4;display:flex;align-items:center;gap:10px;background:var(--surface);color:var(--ink);
+  border-radius:999px;padding:6px 14px 6px 6px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.tl-play{width:38px;height:38px;border-radius:50%;border:0;background:var(--clay);color:var(--clay-ink);display:grid;place-items:center;cursor:pointer;flex:none}
+.tl-play svg{width:16px;height:16px;fill:currentColor}
+.tl-track{position:relative;flex:1;min-width:0;height:28px;display:flex;align-items:center}
+.tl-track input{width:100%;margin:0;accent-color:var(--clay);position:relative;z-index:1;background:transparent}
+.tl-marks{position:absolute;left:8px;right:8px;top:50%;height:12px;transform:translateY(-50%);pointer-events:none}
+.tl-marks i{position:absolute;top:0;width:2px;height:12px;background:var(--muted);opacity:.45;border-radius:1px}
+.tl-time{font-family:var(--font-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+
+.infocard{position:absolute;left:12px;bottom:70px;z-index:5;width:min(330px,calc(100% - 24px));background:var(--surface);color:var(--ink);border-radius:16px;padding:14px 16px;box-shadow:0 8px 28px rgba(0,0,0,.25)}
+.infocard h4{margin:0;font-family:var(--font-display);font-weight:800;font-size:18px;line-height:1.2}
+.infocard p{margin:6px 0 10px;font-size:15px}
+.infocard .row{display:flex;gap:8px}
+.webgl-fail{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:#3b3029}
+
+/* ---------- Pins ---------- */
+.pin{position:absolute;left:0;top:0;pointer-events:auto;cursor:pointer;white-space:nowrap;font-size:12.5px;line-height:1.2;color:var(--label-ink);
+  border:0;background:none;padding:0;font-family:var(--font-body);will-change:transform}
+.pin .tag{display:inline-flex;align-items:center;gap:6px;background:var(--label-bg);padding:3px 9px;border-radius:999px;box-shadow:0 1px 4px rgba(0,0,0,.3);font-weight:700}
+.pin .tag small{font-family:var(--font-mono);font-weight:500;font-size:10.5px;color:#8a3d1a}
+.pin .stem{display:block;width:2px;height:12px;margin:0 auto;background:var(--label-bg);box-shadow:0 1px 2px rgba(0,0,0,.25)}
+.pin.a .tag::before,.pin.t .tag::before{content:"";width:8px;height:8px;border-radius:50%}
+.pin.a .tag::before{background:#2c5fa6} .pin.t .tag::before{background:#b3342a}
+.pin.sea{font-style:italic;font-weight:700;color:#e8f3fb;letter-spacing:.14em;text-transform:uppercase;font-size:12px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.pin.pulse .tag,.pin.pulse.sea{animation:pulse 1.1s ease-in-out 2}
+@keyframes pulse{0%,100%{scale:1}50%{scale:1.22}}
+.picking .pin .tag{outline:2px dashed #9b4a22;outline-offset:2px}
+.picking .pin.sea{outline:2px dashed #fff;outline-offset:3px;border-radius:6px}
+.pin.right .tag{outline:3px solid #2e7d46 !important;background:#e3f4e7}
+.pin.wrong{animation:shake .4s}
+@keyframes shake{25%{margin-left:-6px}75%{margin-left:6px}}
+
+/* ---------- Panel ---------- */
+.panel{min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:14px;padding-right:2px;scrollbar-width:thin}
+.panel > *{flex:none}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{margin:2px 0 0;font-family:var(--font-display);font-weight:800;font-size:clamp(28px,3.6vw,38px);line-height:1;letter-spacing:.04em;color:var(--clay)}
+.meander{height:10px;margin-top:8px;background:
+  repeating-linear-gradient(90deg,var(--clay) 0 2px,transparent 2px 14px),
+  linear-gradient(var(--clay),var(--clay)) top/100% 2px no-repeat,
+  linear-gradient(var(--clay),var(--clay)) bottom/100% 2px no-repeat;opacity:.55}
+.btn{border:0;border-radius:999px;padding:9px 16px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-size:15px}
+.btn svg{width:16px;height:16px;fill:currentColor;flex:none}
+.btn.primary{background:var(--clay);color:var(--clay-ink)}
+.btn.soft{background:var(--surface-2);color:var(--ink);border:1px solid var(--line)}
+.btn.small{padding:6px 12px;font-size:14px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.chips button{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 13px;cursor:pointer;font-size:14px;display:inline-flex;align-items:center;gap:6px}
+.chips button i{width:7px;height:7px;border-radius:50%;display:inline-block}
+.chips button i.myth{background:var(--myth)} .chips button i.hist{background:var(--hist)}
+.chips button[aria-current="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg);font-weight:700}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+.card h2{margin:0 0 8px;font-family:var(--font-display);font-weight:800;font-size:22px;line-height:1.2;text-wrap:balance;letter-spacing:.02em}
+.kicker{display:flex;gap:8px;align-items:center;margin-bottom:6px;font-family:var(--font-mono);font-size:12px;color:var(--muted)}
+.narr{margin:0;font-size:17px;line-height:1.6}
+.narr span{border-radius:4px;transition:background .25s;cursor:pointer}
+.narr span:hover{text-decoration:underline dotted;text-underline-offset:3px}
+.narr span.on{background:var(--hl)}
+.ctrls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.switch{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);margin-left:auto;cursor:pointer}
+.switch input{width:36px;height:20px;appearance:none;background:var(--line);border-radius:999px;position:relative;cursor:pointer;margin:0}
+.switch input::after{content:"";position:absolute;left:2px;top:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s}
+.switch input:checked{background:var(--clay)}
+.switch input:checked::after{left:18px}
+.note{font-size:13px;color:var(--muted);margin:8px 0 0}
+details.card{padding:0}
+details.card summary{list-style:none;cursor:pointer;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-family:var(--font-display);font-weight:800;font-size:17px;letter-spacing:.03em}
+details.card summary::-webkit-details-marker{display:none}
+details.card summary::after{content:"+";font-size:22px;color:var(--clay);line-height:1}
+details.card[open] summary::after{content:"–"}
+.deep-body{padding:0 18px 16px}
+.deep-body ul{margin:0 0 12px;padding-left:20px;display:grid;gap:8px}
+.deep-body li::marker{color:var(--clay)}
+.quiz .qhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.quiz h3{margin:0;font-family:var(--font-display);font-weight:800;font-size:17px;letter-spacing:.03em}
+.quiz .prog{font-family:var(--font-mono);font-size:12px;color:var(--muted)}
+.quiz .q{font-size:17px;font-weight:700;margin:10px 0}
+.opts{display:grid;gap:8px}
+.opts button{text-align:left;border:1px solid var(--line);background:var(--surface-2);border-radius:12px;padding:10px 14px;cursor:pointer;font-size:15.5px}
+.opts button:hover:not(:disabled){border-color:var(--clay)}
+.opts button.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%,var(--surface))}
+.opts button.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,var(--surface))}
+.opts button:disabled{cursor:default}
+.pickhint{padding:10px 14px;border-radius:12px;background:var(--surface-2);border:1px dashed var(--clay);font-size:15px}
+.fb{margin:10px 0 0;font-size:15.5px}
+.fb b.ok{color:var(--ok)} .fb b.bad{color:var(--bad)}
+.qnav{display:flex;gap:8px;justify-content:flex-end;margin-top:12px;flex-wrap:wrap}
+.foot{font-size:13px;color:var(--muted);padding:0 4px 8px}
+@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}
+</style>
+
+<div class="app">
+  <section class="stage" id="stage" aria-label="Ricostruzione 3D animata">
+    <div class="labels" id="labels"></div>
+    <div class="hud">
+      <span class="badge"><span class="dot"></span><span id="era">Pagina riconosciuta</span> <span class="kind myth" id="kindTag">Mito</span></span>
+      <button class="icon-btn" id="recenter">Centra</button>
+    </div>
+    <div class="status" id="status" hidden></div>
+    <div class="pickbar" id="pickbar" hidden></div>
+    <div class="infocard" id="infocard" hidden>
+      <h4 id="icTitle"></h4><p id="icText"></p>
+      <div class="row"><button class="btn soft small" id="icSpeak">Ascolta</button><button class="btn soft small" id="icClose">Chiudi</button></div>
+    </div>
+    <div class="timeline">
+      <button class="tl-play" id="tlPlay" aria-label="Avvia"><svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg></button>
+      <div class="tl-track"><div class="tl-marks" id="tlMarks"></div><input type="range" id="tlRange" min="0" max="30" step="0.01" value="0" aria-label="Momento della simulazione"></div>
+      <span class="tl-time" id="tlTime">0:00 / 0:30</span>
+    </div>
+  </section>
+
+  <aside class="panel" aria-label="Spiegazione e domande">
+    <div class="head">
+      <div>
+        <div class="eyebrow">Storia · Le civiltà dell'Egeo</div>
+        <h1>I Micenei</h1>
+      </div>
+      <button class="btn primary" id="tourBtn"><svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg><span>Visita guidata</span></button>
+    </div>
+    <div class="meander" aria-hidden="true"></div>
+    <nav class="chips" id="chips" aria-label="Capitoli"></nav>
+
+    <article class="card">
+      <div class="kicker"><span class="kind" id="kind2"></span><span id="dates"></span></div>
+      <h2 id="chTitle"></h2>
+      <p class="narr" id="narr"></p>
+      <div class="ctrls">
+        <button class="btn soft small" id="playBtn"></button>
+        <label class="switch" for="voiceOn"><input type="checkbox" id="voiceOn" checked>Voce</label>
+      </div>
+      <p class="note" id="voiceNote" hidden></p>
+    </article>
+
+    <details class="card" id="deep">
+      <summary>Approfondisci</summary>
+      <div class="deep-body"><ul id="deepList"></ul><button class="btn soft small" id="deepSpeak">Ascolta l'approfondimento</button></div>
+    </details>
+
+    <section class="card quiz" id="quiz" aria-live="polite"></section>
+
+    <p class="foot">Ricostruzione didattica semplificata. Le scene sulla guerra di Troia seguono il racconto dei poemi (Iliade, Odissea, Eneide) e sono segnate come «Mito»; non sappiamo come si svolsero davvero le battaglie. Le parti segnate «Storia» si basano sui reperti archeologici.</p>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+"use strict";
+const PI=Math.PI;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const seg=(t,a,b)=>clamp((t-a)/(b-a),0,1);
+const E=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+const R=(i,k)=>{ const x=Math.sin(i*127.1+k*311.7)*43758.5453; return x-Math.floor(x); };
+const lerp=(a,b,t)=>a+(b-a)*t;
+// Troy hill: centre (13,0), flat top radius 4.6 at height 1.4, foot radius 6.6
+const TROY={x:13,z:0}, TOP=1.4, WALL_R=4.3, WALL_H=0.95;
+function hY(x,z){ const r=Math.hypot(x-TROY.x,z-TROY.z); return r<=4.6?TOP : r<6.6? TOP*(6.6-r)/2 : 0; }
+const GATE={x:TROY.x-WALL_R,z:0};          // Scaean Gate, west side
+const GATE_OUT={x:6.4,z:0};
+
+/* ================= Content ================= */
+const CHAPTERS=[
+ {id:"micenei",chip:"Chi erano",kind:"hist",dates:"1600–1100 a.C. circa",title:"Un popolo di guerrieri",dur:30,
+  narr:[[0,"I Micenei vissero in Grecia tra il 1600 e il 1100 a.C., nell'età del bronzo.",[]],
+        [5.5,"Il loro nome viene da Micene, la città più potente, protetta da mura fatte di massi enormi.",[]],
+        [11,"Erano un popolo di guerrieri: guarda come si armava un soldato miceneo.",[]],
+        [15,"In testa portava un elmo coperto di zanne di cinghiale e sul corpo un'armatura di bronzo.",["elmo","armatura"]],
+        [21,"Si proteggeva con un grande scudo di pelle a forma di otto e combatteva con la lancia.",["scudo","lancia"]],
+        [26,"I capi andavano in battaglia su carri a due ruote trainati da cavalli.",["carro"]]],
+  cams:[[0,[-2.2,2.0,16.6],[-4.2,0.85,11.8]]],
+  deep:["Le mura di Micene sono dette «ciclopiche»: i Greci vissuti dopo pensavano che solo i giganti Ciclopi potessero spostare massi così grandi.",
+        "All'ingresso di Micene c'è la Porta dei Leoni, costruita intorno al 1250 a.C.",
+        "Per un solo elmo servivano le zanne di decine di cinghiali: era un oggetto prezioso, che passava di padre in figlio.",
+        "A Dendra, in Grecia, è stata trovata un'armatura di bronzo completa di circa 3.400 anni fa. Era molto pesante.",
+        "I Micenei scrivevano su tavolette d'argilla con la Lineare B, una forma antichissima di greco. Alcune tavolette sono elenchi di carri, ruote e armature."],
+  quiz:[{t:"choice",q:"In quale età vissero i Micenei?",o:["Età della pietra","Età del bronzo","Età del ferro"],a:1,x:"Usavano il bronzo, una lega di rame e stagno."},
+        {t:"pick",q:"Tocca lo scudo a forma di otto.",a:["scudo"],x:"Lo scudo a otto era di pelle di bue su un telaio di legno."},
+        {t:"choice",q:"Di che cosa era coperto l'elmo miceneo?",o:["Piume d'aquila","Zanne di cinghiale","Scaglie di pesce"],a:1,x:"File di placchette ricavate da zanne di cinghiale."}]},
+ {id:"sbarco",chip:"Lo sbarco",kind:"myth",dates:"circa 1200 a.C., secondo il mito",title:"Mille navi verso Troia",dur:27,
+  narr:[[0,"Secondo un antico racconto, i Micenei, che Omero chiama Achei, partirono con più di mille navi per attaccare Troia.",["navi"]],
+        [7,"Troia era una città ricca sulla costa dell'attuale Turchia, vicino allo stretto dei Dardanelli.",["troia"]],
+        [13,"Il motivo della guerra, secondo il mito, fu il rapimento di Elena, moglie del re di Sparta Menelao, da parte del principe troiano Paride.",[]],
+        [21,"Le navi arrivarono sulla spiaggia e i guerrieri costruirono un accampamento.",["campo"]]],
+  cams:[[0,[-4,10,22],[-16,0,0]],[11,[-1,7,13],[-8,0,0]]],
+  deep:["Iliade e Odissea sono attribuite a Omero e furono composte intorno all'VIII secolo a.C., circa 400 anni dopo i fatti che raccontano.",
+        "Nel «Catalogo delle navi» dell'Iliade sono elencate più di mille navi, città per città.",
+        "Le navi erano lunghe e strette, con molti rematori e una vela quadrata. Arrivate a terra, venivano tirate in secca sulla spiaggia."],
+  quiz:[{t:"choice",q:"Come chiama Omero i Micenei?",o:["Achei","Troiani","Fenici"],a:0,x:"Nei poemi li chiama Achei, Danai o Argivi."},
+        {t:"choice",q:"Secondo il mito, perché scoppiò la guerra?",o:["Per il rapimento di Elena","Per una lite sul grano","Per un terremoto"],a:0,x:"Paride rapì Elena, moglie di Menelao."},
+        {t:"pick",q:"Tocca la città di Troia.",a:["troia"],x:"Troia è la città sulla collina."}]},
+ {id:"assedio",chip:"L'assedio",kind:"myth",dates:"dieci anni, secondo il mito",title:"Dieci anni sotto le mura",dur:24,
+  narr:[[0,"Il re di Micene, Agamennone, guidava l'esercito acheo.",["achei"]],
+        [4.5,"Troia però era protetta da mura altissime, e i Troiani lanciavano frecce dall'alto.",["mura"]],
+        [11,"Gli Achei non riuscivano a entrare: secondo la leggenda, l'assedio durò dieci anni.",[]],
+        [17,"Intorno alla città si combatteva spesso, nella pianura attraversata dal fiume Scamandro.",["scamandro"]]],
+  cams:[[0,[-6,11,17],[5,0.8,0]],[8,[0,6,11],[8,1.5,-1]]],
+  status:t=>t>6?`Anno ${clamp(1+Math.floor((t-6)/16*10),1,10)} di assedio`:"",
+  deep:["Agamennone era il fratello di Menelao, il marito di Elena.",
+        "Secondo l'Iliade gli Achei vivevano in capanne vicino alle navi, protette da un muro e da un fossato.",
+        "Le mura di Troia scoperte dagli archeologi erano di pietra, con torri, e spesse diversi metri."],
+  quiz:[{t:"choice",q:"Quanto durò l'assedio, secondo la leggenda?",o:["Un anno","Dieci anni","Cento anni"],a:1,x:"Dieci anni."},
+        {t:"choice",q:"Chi guidava l'esercito acheo?",o:["Agamennone","Ettore","Paride"],a:0,x:"Agamennone, re di Micene."},
+        {t:"pick",q:"Tocca il fiume della pianura di Troia.",a:["scamandro"],x:"È lo Scamandro."}]},
+ {id:"scontro",chip:"La battaglia",kind:"myth",dates:"decimo anno di guerra, secondo l'Iliade",title:"Battaglia nella pianura",dur:39,
+  narr:[[0,"Ecco come poteva svolgersi una battaglia nella pianura di Troia.",[]],
+        [4,"I Troiani escono dalle Porte Scee e si schierano davanti alla città.",["porte","troiani"]],
+        [9,"I carri da guerra portano i capi in prima linea; poi gli eroi scendono e combattono a piedi.",["carro"]],
+        [15,"Le file dei fanti si scontrano con lance e scudi.",["achei","troiani"]],
+        [20,"Alla fine i Troiani si ritirano dentro le mura.",[]],
+        [24,"Solo Ettore, il principe di Troia, resta fuori ad aspettare Achille, il più forte degli Achei.",["ettore","achille"]],
+        [30,"Nell'Iliade Achille insegue Ettore per tre volte intorno alle mura, poi lo sconfigge in duello.",["ettore","achille"]]],
+  cams:[[0,[-4,8.5,15],[2,0.3,0]],[20,[1,13,19],[10,0.5,0]],[34,[2.8,3.2,5.2],[6,0.5,0]]],
+  status:t=>(t>=26&&t<34)?`Giro ${clamp(1+Math.floor((t-26)/8*3),1,3)} di 3 intorno alle mura`:"",
+  deep:["Nell'Iliade i carri servono soprattutto a portare l'eroe sul campo: lui scende e combatte a piedi, mentre l'auriga aspetta.",
+        "Achille era arrabbiato con Agamennone e per molto tempo rifiutò di combattere. Tornò in battaglia dopo la morte dell'amico Patroclo, ucciso da Ettore.",
+        "L'Iliade racconta solo poche settimane del decimo anno di guerra e finisce con il funerale di Ettore.",
+        "Questa simulazione è una ricostruzione: non sappiamo come fosse schierato davvero un esercito miceneo."],
+  quiz:[{t:"choice",q:"A che cosa servivano i carri, nei racconti di Omero?",o:["A portare i capi in prima linea","A trasportare il cibo","A sfondare le mura"],a:0,x:"Portavano gli eroi sul campo di battaglia."},
+        {t:"pick",q:"Tocca il principe di Troia che affronta Achille.",a:["ettore"],x:"È Ettore, figlio del re Priamo."},
+        {t:"choice",q:"Come si chiama il poema di Omero sulla guerra di Troia?",o:["Iliade","Eneide","Divina Commedia"],a:0,x:"L'Iliade, da Ilio, l'altro nome di Troia."}]},
+ {id:"cavallo",chip:"Il cavallo",kind:"myth",dates:"fine della guerra, secondo il mito",title:"L'inganno del cavallo",dur:41,
+  narr:[[0,"Dopo dieci anni di assedio, Ulisse ebbe un'idea: costruire un enorme cavallo di legno, vuoto all'interno.",["cavallo"]],
+        [7,"Alcuni guerrieri si nascosero dentro, mentre le navi fingevano di partire e si nascondevano dietro l'isola di Tenedo.",["tenedo","navi"]],
+        [14,"I Troiani pensarono a un dono degli dei e trascinarono il cavallo dentro la città.",["cavallo"]],
+        [23,"Di notte i guerrieri uscirono dal cavallo e aprirono le porte.",["porte"]],
+        [28,"L'esercito acheo, tornato in silenzio, entrò a Troia e la città fu incendiata.",["troia"]],
+        [35,"Questo episodio non è nell'Iliade: lo raccontano l'Odissea e, molto più tardi, il poeta latino Virgilio nell'Eneide.",[]]],
+  cams:[[0,[-1.5,5,9],[-7,1,0]],[8,[-10,9,30],[-28,0,12]],[15,[-8,9,13],[0,0.5,0]],[22,[3.5,6.5,9],[10.5,1.8,0]],[27,[-6,10,16],[4,0.8,0]],[33,[2,9,14],[12,1.5,0]]],
+  status:t=>t>=20.5?"Notte":"",
+  deep:["Nell'Eneide il sacerdote Laocoonte avverte i Troiani: «Temo i Greci anche quando portano doni».",
+        "Cassandra, figlia del re Priamo, prediceva il futuro, ma nessuno le credeva.",
+        "Ancora oggi «cavallo di Troia» indica un inganno nascosto dentro qualcosa di innocuo, anche un virus per computer."],
+  quiz:[{t:"choice",q:"Chi ebbe l'idea del cavallo di legno?",o:["Achille","Ulisse","Agamennone"],a:1,x:"Ulisse, famoso per la sua astuzia."},
+        {t:"pick",q:"Tocca l'isola dietro cui si nascosero le navi.",a:["tenedo"],x:"È l'isola di Tenedo."},
+        {t:"choice",q:"In quale poema di Omero si parla del cavallo?",o:["Nell'Iliade","Nell'Odissea","In nessuno dei due"],a:1,x:"Nell'Odissea. L'Iliade finisce prima."}]},
+ {id:"storia",chip:"Mito o storia?",kind:"hist",dates:"dal 1870 a oggi",title:"Che cosa hanno trovato gli archeologi",dur:34,
+  narr:[[0,"Ma la guerra di Troia è davvero avvenuta?",[]],
+        [4,"Nel 1870 l'archeologo tedesco Heinrich Schliemann iniziò a scavare una collina in Turchia, chiamata Hisarlik, e trovò i resti di Troia.",["hisarlik"]],
+        [12,"Sotto terra c'erano tante città costruite una sopra l'altra, in più di tremila anni.",["l1","l9"]],
+        [18,"Uno degli strati, chiamato Troia VIIa, fu distrutto da un incendio intorno al 1180 a.C., più o meno all'epoca del mito.",["l7"]],
+        [26,"Gli storici pensano che dietro la leggenda ci sia forse il ricordo di guerre vere, ma molti dettagli sono stati inventati dai poeti.",[]]],
+  cams:[[0,[2,6,11],[13,1.6,0]],[11,[4.2,4.2,6.5],[12,2.7,0]]],
+  status:t=>t>=12?"Strati di Troia, dal più antico (in basso)":"",
+  deep:["Schliemann scavò in fretta e distrusse parte degli strati più recenti per arrivare a quelli antichi.",
+        "A Micene trovò una maschera d'oro che chiamò «maschera di Agamennone», ma è più antica di circa 300 anni rispetto all'epoca della guerra.",
+        "Documenti degli Ittiti, un popolo dell'Anatolia, parlano di una città chiamata Wilusa e di un popolo chiamato Ahhiyawa: forse sono Ilio, cioè Troia, e gli Achei.",
+        "Intorno al 1200 a.C. i palazzi micenei furono distrutti. Le cause non sono sicure: guerre, terremoti, carestie.",
+        "Il sito di Troia è patrimonio dell'UNESCO dal 1998."],
+  quiz:[{t:"choice",q:"Chi scoprì i resti di Troia?",o:["Heinrich Schliemann","Omero","Virgilio"],a:0,x:"Schliemann, a partire dal 1870."},
+        {t:"choice",q:"Come sono disposte le città trovate a Hisarlik?",o:["Una accanto all'altra","Una sopra l'altra","Sott'acqua"],a:1,x:"Ogni nuova città fu costruita sopra i resti della precedente."},
+        {t:"pick",q:"Tocca lo strato distrutto all'epoca della guerra di Troia.",a:["l7"],x:"È Troia VIIa, distrutta intorno al 1180 a.C."}]},
+];
+const CH=Object.fromEntries(CHAPTERS.map(c=>[c.id,c]));
+
+const PINS=[
+ {id:"elmo",name:"Elmo a zanne di cinghiale",ch:["micenei"],info:"Placchette ricavate da zanne di cinghiale, cucite su un berretto di cuoio. Omero lo descrive nell'Iliade."},
+ {id:"armatura",name:"Armatura di bronzo",ch:["micenei"],info:"Armatura a piastre di bronzo, simile a quella trovata a Dendra. Proteggeva il busto, le spalle e il collo."},
+ {id:"scudo",name:"Scudo a otto",ch:["micenei"],info:"Grande scudo di pelle di bue tesa su un telaio di legno. Copriva quasi tutto il corpo."},
+ {id:"lancia",name:"Lancia",ch:["micenei"],info:"Lunga lancia con la punta di bronzo: era l'arma principale del guerriero."},
+ {id:"carro",name:"Carro da guerra",ch:["micenei","scontro"],cond:t=>S.ch==="micenei"||(t>8&&t<17),info:"Carro leggero a due ruote trainato da due cavalli. Portava un guerriero e un auriga che guidava."},
+ {id:"navi",name:"Navi achee",side:"a",ch:["sbarco","cavallo"],info:"Navi lunghe e strette, a remi e con una vela quadrata. Omero le chiama «nere navi»."},
+ {id:"troia",name:"Troia",side:"t",ch:["sbarco","assedio","scontro","cavallo"],info:"Città fortificata su una collina vicino al mare, nell'attuale Turchia. I resti si trovano a Hisarlik."},
+ {id:"egeo",name:"Mar Egeo",k:"sea",ch:["sbarco"],info:"Il mare tra la Grecia e la Turchia, che i Micenei attraversavano con le loro navi."},
+ {id:"campo",name:"Accampamento acheo",side:"a",ch:["sbarco","assedio"],cond:t=>S.ch!=="sbarco"||t>19,info:"Secondo l'Iliade gli Achei vivevano in capanne vicino alle navi tirate in secca."},
+ {id:"mura",name:"Mura di Troia",ch:["assedio"],info:"Mura di pietra con torri, alte e spesse. Dall'alto i Troiani lanciavano frecce."},
+ {id:"achei",name:"Achei",side:"a",ch:["assedio","scontro"],info:"L'esercito acheo: guerrieri venuti da molte città della Grecia, guidati da Agamennone."},
+ {id:"troiani",name:"Troiani",side:"t",ch:["scontro"],cond:t=>t>5&&t<21,info:"L'esercito troiano con i suoi alleati, guidato da Ettore."},
+ {id:"scamandro",name:"Scamandro",ch:["assedio"],info:"Il fiume della pianura di Troia. Nell'Iliade si combatte spesso sulle sue rive."},
+ {id:"porte",name:"Porte Scee",ch:["scontro","cavallo"],info:"La porta principale di Troia nei poemi di Omero."},
+ {id:"ettore",name:"Ettore",side:"t",ch:["scontro"],cond:t=>t>=20,info:"Figlio del re Priamo e il più forte dei Troiani. Difendeva la sua città e la sua famiglia."},
+ {id:"achille",name:"Achille",side:"a",ch:["scontro"],cond:t=>t>=22,info:"Il più forte degli Achei. Secondo il mito era invulnerabile, tranne che nel tallone."},
+ {id:"cavallo",name:"Cavallo di legno",ch:["cavallo"],cond:t=>t>2,info:"Il cavallo di legno ideato da Ulisse, con i guerrieri nascosti nella pancia."},
+ {id:"tenedo",name:"Tenedo",ch:["cavallo"],info:"Piccola isola davanti a Troia. Secondo il mito le navi achee si nascosero dietro di essa."},
+ {id:"hisarlik",name:"Collina di Hisarlik",ch:["storia"],cond:t=>t<12,info:"La collina in Turchia dove si trovano i resti di Troia."},
+ {id:"l1",name:"Troia I",sub:"circa 3000 a.C.",ch:["storia"],cond:t=>t>11.5,info:"Il villaggio fortificato più antico, di circa 5.000 anni fa."},
+ {id:"l6",name:"Troia VI",sub:"mura potenti",ch:["storia"],cond:t=>t>15,info:"Una città ricca con mura potenti, danneggiata forse da un terremoto intorno al 1300 a.C."},
+ {id:"l7",name:"Troia VIIa",sub:"circa 1180 a.C.",ch:["storia"],cond:t=>t>15.6,info:"Distrutta da un incendio intorno al 1180 a.C.: è una delle candidate principali per la Troia del mito."},
+ {id:"l9",name:"Troia IX",sub:"età romana",ch:["storia"],cond:t=>t>16.8,info:"La città greca e poi romana di Ilio, costruita sopra tutte le altre."},
+];
+
+/* ================= State & voice ================= */
+const S={ch:"micenei",t:0,playing:false,si:-1,speaking:false,tour:false,picking:false,userCam:false,camKey:-1,voice:true,quiz:{}};
+const Voice={
+  ok:"speechSynthesis" in window, v:null, tok:0, timer:0, cur:null,
+  pick(){ if(!this.ok) return; const vs=speechSynthesis.getVoices()||[]; const it=vs.filter(v=>/^it([-_]|$)/i.test(v.lang));
+    this.v=it.find(v=>/natural|neural|premium|enhanced|google/i.test(v.name))||it[0]||null; },
+  stop(){ this.tok++; clearTimeout(this.timer); if(this.ok){ try{speechSynthesis.cancel();}catch(e){} } },
+  say(text,onEnd){
+    this.stop(); const tok=this.tok;
+    const done=()=>{ if(tok===this.tok) onEnd&&onEnd(); };
+    const timed=()=>{ this.timer=setTimeout(done,Math.max(1500,text.split(/\s+/).length*340)); };
+    if(this.ok&&S.voice){
+      const u=new SpeechSynthesisUtterance(spoken(text)); u.lang="it-IT"; if(this.v) u.voice=this.v; u.rate=0.98;
+      u.onend=done; u.onerror=e=>{ if(tok!==this.tok||e.error==="interrupted"||e.error==="canceled") return; showVoiceNote(); timed(); };
+      this.cur=u; speechSynthesis.speak(u);
+    } else timed();
+  },
+  list(arr){ let i=0; const next=()=>{ if(i<arr.length) this.say(arr[i++],next); }; next(); }
+};
+if(Voice.ok){ Voice.pick(); speechSynthesis.onvoiceschanged=()=>Voice.pick(); }
+let unlocked=false;
+function unlockVoice(){ if(unlocked||!Voice.ok) return; unlocked=true; try{ const u=new SpeechSynthesisUtterance(" "); u.volume=0; speechSynthesis.speak(u); }catch(e){} }
+document.addEventListener("pointerdown",unlockVoice,{once:true});
+const spoken=t=>t.replace(/a\.C\./g,"avanti Cristo").replace(/VIIa/g,"sette A").replace(/VIII secolo/g,"ottavo secolo").replace(/Troia (I|VI|IX)\b/g,(m,n)=>"Troia "+({I:"uno",VI:"sei",IX:"nove"})[n]);
+function showVoiceNote(){ const n=document.getElementById("voiceNote"); n.hidden=false; n.textContent="La voce non è disponibile in questo browser: la simulazione evidenzia il testo frase per frase."; }
+
+/* ================= Three.js scene ================= */
+const stage=document.getElementById("stage"), labelsEl=document.getElementById("labels");
+const HAS3=typeof THREE!=="undefined"&&!!THREE.OrbitControls;
+let renderer,scene,camera,controls,hemi,sun,moon,fireLight;
+const W={}; // world objects
+const NA=150, NT=120, N=NA+NT;
+const SOLD=new Array(N).fill(0).map(()=>({x:0,y:0,z:0,vis:false}));
+const M=c=>new THREE.MeshLambertMaterial({color:c});
+const SKY_DAY=HAS3?new THREE.Color("#cfdde6"):null, SKY_NIGHT=HAS3?new THREE.Color("#0b1426"):null;
+
+function hideTex(){ const c=document.createElement("canvas"); c.width=c.height=128; const g=c.getContext("2d");
+  g.fillStyle="#efe5cf"; g.fillRect(0,0,128,128); g.fillStyle="#6b3f22";
+  for(let i=0;i<9;i++){ g.beginPath(); g.ellipse(R(i,1)*128,R(i,2)*128,10+R(i,3)*18,8+R(i,4)*14,R(i,5)*3,0,7); g.fill(); }
+  return new THREE.CanvasTexture(c); }
+function sailTex(){ const c=document.createElement("canvas"); c.width=64; c.height=64; const g=c.getContext("2d");
+  g.fillStyle="#efe6d2"; g.fillRect(0,0,64,64); g.fillStyle="#a3402a"; for(let i=0;i<4;i++) g.fillRect(0,6+i*16,64,5); return new THREE.CanvasTexture(c); }
+
+function buildWarrior(o){
+  const g=new THREE.Group(), bronze=M("#b98a3e"), skin=M("#cf9a6e"), ivory=M("#efe6cf"), dark=M("#5a4430"), tunic=M(o.tunic);
+  const add=(geo,mat,x,y,z,rx,ry,rz)=>{ const m=new THREE.Mesh(geo,mat); m.position.set(x,y,z); if(rx||ry||rz) m.rotation.set(rx||0,ry||0,rz||0); g.add(m); return m; };
+  for(const s of [-1,1]){ add(new THREE.CylinderGeometry(.05,.042,.42,10),skin,s*.07,.21,0); add(new THREE.CylinderGeometry(.058,.05,.2,10),bronze,s*.07,.14,0); }
+  add(new THREE.CylinderGeometry(.12,.17,.16,14),tunic,0,.47,0);
+  for(let k=0;k<3;k++) add(new THREE.CylinderGeometry(.15+k*.012,.16+k*.014,.06,18),bronze,0,.585-k*.055,0);
+  add(new THREE.CylinderGeometry(.13,.15,.24,18),bronze,0,.74,0);
+  for(const s of [-1,1]){ add(new THREE.SphereGeometry(.075,12,8,0,PI*2,0,PI/2),bronze,s*.15,.82,0);
+    add(new THREE.CylinderGeometry(.035,.03,.32,8),skin,s*.19,.66,0,0,0,s*.15); }
+  add(new THREE.CylinderGeometry(.07,.11,.07,14),bronze,0,.89,0);
+  add(new THREE.SphereGeometry(.075,14,10),skin,0,.98,.005);
+  for(let k=0;k<4;k++) add(new THREE.CylinderGeometry(.068-k*.012,.084-k*.012,.036,16),k%2?dark:ivory,0,1.02+k*.034,0);
+  add(new THREE.SphereGeometry(.02,8,6),bronze,0,1.17,0);
+  add(new THREE.ConeGeometry(.03,.12,8),M(o.crest),0,1.24,0);
+  for(const s of [-1,1]) add(new THREE.BoxGeometry(.02,.07,.05),ivory,s*.078,.96,.02);
+  // figure-of-eight shield
+  const sh=new THREE.Group(), hm=new THREE.MeshLambertMaterial({map:hideTex()});
+  for(const y of [.2,-.2]){ const m=new THREE.Mesh(new THREE.SphereGeometry(.2,18,12),hm); m.scale.set(1,1.05,.28); m.position.y=y; sh.add(m); }
+  const boss=new THREE.Mesh(new THREE.BoxGeometry(.3,.07,.06),hm); sh.add(boss);
+  sh.position.set(-.08,.64,.2); sh.rotation.y=.2; g.add(sh);
+  add(new THREE.CylinderGeometry(.012,.012,1.7,6),dark,.24,.82,.04);
+  add(new THREE.ConeGeometry(.026,.14,6),bronze,.24,1.73,.04);
+  add(new THREE.BoxGeometry(.03,.3,.05),bronze,.17,.42,.08,0,0,.4);
+  g.scale.setScalar(o.scale||1);
+  g.userData.anchors={elmo:new THREE.Vector3(0,1.12,0),armatura:new THREE.Vector3(.06,.74,.15),scudo:new THREE.Vector3(-.1,.64,.28),lancia:new THREE.Vector3(.24,1.6,.04)};
+  return g;
+}
+function buildHorse(mat,legsOut){
+  const g=new THREE.Group(), add=(geo,x,y,z,rx)=>{ const m=new THREE.Mesh(geo,mat); m.position.set(x,y,z); if(rx) m.rotation.x=rx; g.add(m); return m; };
+  add(new THREE.BoxGeometry(.18,.2,.55),0,.55,0);
+  add(new THREE.BoxGeometry(.11,.3,.12),0,.72,.3,-.5);
+  add(new THREE.BoxGeometry(.1,.1,.22),0,.85,.42);
+  add(new THREE.BoxGeometry(.04,.22,.04),0,.5,-.3,.5);
+  const legs=[]; for(const [x,z] of [[-.06,.22],[.06,.22],[-.06,-.22],[.06,-.22]]){
+    const pivot=new THREE.Group(); pivot.position.set(x,.46,z); const l=new THREE.Mesh(new THREE.BoxGeometry(.05,.46,.05),mat); l.position.y=-.23; pivot.add(l); g.add(pivot); legs.push(pivot); }
+  if(legsOut) legsOut.push(...legs);
+  return g;
+}
+function buildChariot(panelColor,horseColor){
+  const g=new THREE.Group(), wood=M("#7a5232"), panel=M(panelColor), legs=[];
+  const add=(geo,mat,x,y,z)=>{ const m=new THREE.Mesh(geo,mat); m.position.set(x,y,z); g.add(m); return m; };
+  add(new THREE.BoxGeometry(.5,.05,.42),wood,0,.32,0);
+  add(new THREE.BoxGeometry(.52,.26,.04),panel,0,.47,.2);
+  for(const s of [-1,1]) add(new THREE.BoxGeometry(.04,.18,.4),panel,s*.25,.43,0);
+  const wheels=[];
+  for(const s of [-1,1]){ const w=new THREE.Group(); w.position.set(s*.31,.26,-.05);
+    const rim=new THREE.Mesh(new THREE.TorusGeometry(.24,.022,6,20),wood); rim.rotation.y=PI/2; w.add(rim);
+    for(let k=0;k<4;k++){ const sp=new THREE.Mesh(new THREE.BoxGeometry(.015,.46,.015),wood); sp.rotation.x=k*PI/4; w.add(sp); }
+    g.add(w); wheels.push(w); }
+  add(new THREE.BoxGeometry(.66,.025,.025),wood,0,.26,-.05);
+  const pole=add(new THREE.BoxGeometry(.03,.03,.95),wood,0,.4,.65);
+  const hm=M(horseColor);
+  for(const s of [-1,1]){ const h=buildHorse(hm,legs); h.position.set(s*.13,0,1.05); g.add(h); }
+  // driver
+  add(new THREE.CylinderGeometry(.07,.09,.34,10),panel,0,.52,-.02);
+  add(new THREE.SphereGeometry(.055,10,8),M("#cf9a6e"),0,.74,-.02);
+  add(new THREE.ConeGeometry(.06,.09,10),M("#efe6cf"),0,.81,-.02);
+  g.userData={wheels,legs};
+  return g;
+}
+function buildShip(){
+  const outer=new THREE.Group(), g=new THREE.Group(); g.rotation.y=-PI/2; outer.add(g);
+  const pitch=M("#2b231e"), wood=M("#6e4b2e");
+  const hull=new THREE.Mesh(new THREE.BoxGeometry(2.0,.26,.46),pitch); hull.position.y=.18; g.add(hull);
+  const bow=new THREE.Mesh(new THREE.ConeGeometry(.23,.5,4),pitch); bow.rotation.z=-PI/2; bow.rotation.x=PI/4; bow.position.set(1.24,.18,0); g.add(bow);
+  const post=new THREE.Mesh(new THREE.BoxGeometry(.06,.5,.06),pitch); post.position.set(1.38,.45,0); post.rotation.z=-.35; g.add(post);
+  const stern=new THREE.Mesh(new THREE.BoxGeometry(.08,.62,.1),pitch); stern.position.set(-1.08,.45,0); stern.rotation.z=.55; g.add(stern);
+  const mast=new THREE.Mesh(new THREE.CylinderGeometry(.025,.025,1.5,6),wood); mast.position.set(.1,.95,0); g.add(mast);
+  const sail=new THREE.Mesh(new THREE.PlaneGeometry(.9,.75),new THREE.MeshLambertMaterial({map:sailTex(),side:THREE.DoubleSide}));
+  sail.rotation.y=PI/2; sail.position.set(.12,1.18,0); g.add(sail);
+  for(let k=0;k<6;k++) for(const s of [-1,1]){ const o=new THREE.Mesh(new THREE.BoxGeometry(.03,.02,.5),wood); o.position.set(-.7+k*.28,.2,s*.38); o.rotation.x=s*.5; g.add(o); }
+  outer.userData={sail};
+  return outer;
+}
+
+function init(){
+  try{ renderer=new THREE.WebGLRenderer({antialias:true}); }
+  catch(e){ stage.insertAdjacentHTML("afterbegin",'<div class="webgl-fail">Il tuo browser non supporta la grafica 3D (WebGL). Spiegazioni, voce e domande funzionano comunque.</div>'); return false; }
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+  stage.prepend(renderer.domElement);
+  scene=new THREE.Scene(); scene.background=SKY_DAY.clone(); scene.fog=new THREE.Fog(SKY_DAY.clone(),45,115);
+  camera=new THREE.PerspectiveCamera(40,1,0.05,200);
+  hemi=new THREE.HemisphereLight(0xfff6e8,0x8a7a60,0.65); scene.add(hemi);
+  sun=new THREE.DirectionalLight(0xfff1d6,0.8); sun.position.set(-10,16,8); scene.add(sun);
+  moon=new THREE.DirectionalLight(0x7f9cff,0); moon.position.set(10,12,-10); scene.add(moon);
+
+  // ground, beach, sea
+  const ground=new THREE.Mesh(new THREE.PlaneGeometry(72,110),M("#b8a46c")); ground.rotation.x=-PI/2; ground.position.set(26.5,0,0); scene.add(ground);
+  const beach=new THREE.Mesh(new THREE.PlaneGeometry(3.4,110),M("#e2d3a2")); beach.rotation.x=-PI/2; beach.position.set(-8.3,0.004,0); scene.add(beach);
+  const sea=new THREE.Mesh(new THREE.PlaneGeometry(80,110),new THREE.MeshPhongMaterial({color:0x2d6f9c,shininess:70,specular:0x6fa8cc}));
+  sea.rotation.x=-PI/2; sea.position.set(-50,-0.02,0); scene.add(sea);
+  W.sea=sea;
+  // Tenedos island and Mount Ida
+  const ten=new THREE.Mesh(new THREE.SphereGeometry(5,24,12,0,PI*2,0,PI/2),M("#8f8a5a")); ten.scale.set(1,.42,1); ten.position.set(-37,-0.05,18.5); scene.add(ten);
+  for(const [x,z,r,h] of [[42,-14,10,7],[50,6,13,9],[38,22,8,5]]){ const m=new THREE.Mesh(new THREE.ConeGeometry(r,h,20),M("#9a9473")); m.position.set(x,h/2-0.1,z); scene.add(m); }
+  // Scamander river
+  const rp=[[26,-17],[16,-11.5],[6,-9.6],[-2,-10.6],[-9.6,-12.5]].map(p=>new THREE.Vector3(p[0],0.01,p[1]));
+  const rc=new THREE.CatmullRomCurve3(rp); const pts=rc.getPoints(80); const rv=[], ri=[];
+  pts.forEach((p,i)=>{ const q=pts[Math.min(i+1,pts.length-1)], o=pts[Math.max(i-1,0)]; const dx=q.x-o.x, dz=q.z-o.z, L=Math.hypot(dx,dz)||1; const nx=-dz/L*.45, nz=dx/L*.45;
+    rv.push(p.x+nx,.012,p.z+nz,p.x-nx,.012,p.z-nz); if(i<pts.length-1){ const a=i*2; ri.push(a,a+1,a+2,a+1,a+3,a+2); } });
+  const rg=new THREE.BufferGeometry(); rg.setAttribute("position",new THREE.Float32BufferAttribute(rv,3)); rg.setIndex(ri); rg.computeVertexNormals();
+  scene.add(new THREE.Mesh(rg,new THREE.MeshLambertMaterial({color:0x3d7fb3,side:THREE.DoubleSide})));
+
+  // Troy: hill, walls, towers, gate, houses
+  const city=new THREE.Group(); W.city=city; scene.add(city);
+  const hill=new THREE.Mesh(new THREE.CylinderGeometry(4.6,6.6,TOP,48),M("#a8945f")); hill.position.set(TROY.x,TOP/2,TROY.z); scene.add(hill); W.hill=hill;
+  const stone=M("#d3c19a"), stone2=M("#c2ad83");
+  const segs=24;
+  for(let k=0;k<segs;k++){
+    const a=k/segs*PI*2; if(Math.abs(a-PI)<0.01) continue;
+    const L=2*PI*WALL_R/segs+0.02; const m=new THREE.Mesh(new THREE.BoxGeometry(L,WALL_H,0.36),stone);
+    m.position.set(TROY.x+Math.cos(a)*WALL_R,TOP+WALL_H/2,TROY.z+Math.sin(a)*WALL_R); m.rotation.y=-a+PI/2; city.add(m);
+    if(k%3===1||Math.abs(a-PI)<0.3){ const tw=new THREE.Mesh(new THREE.BoxGeometry(.62,WALL_H+.45,.62),stone2); tw.position.set(TROY.x+Math.cos(a)*WALL_R,TOP+(WALL_H+.45)/2,TROY.z+Math.sin(a)*WALL_R); tw.rotation.y=-a; city.add(tw); }
+  }
+  W.leaves=[];
+  for(const s of [-1,1]){ const piv=new THREE.Group(); piv.position.set(GATE.x,TOP,s*0.55); const leaf=new THREE.Mesh(new THREE.BoxGeometry(.12,WALL_H*.9,.55),M("#6b4a2b")); leaf.position.set(0,WALL_H*.45,-s*.275); piv.add(leaf); city.add(piv); W.leaves.push({piv,s}); }
+  const houseMats=[M("#e7dcc6"),M("#d9c8a8"),M("#efe7d8")];
+  for(let i=0;i<46;i++){ const r=0.9+R(i,7)*2.6, a=R(i,8)*PI*2; const x=TROY.x+Math.cos(a)*r, z=TROY.z+Math.sin(a)*r;
+    if(x<TROY.x-2.6&&Math.abs(z)<0.9) continue;
+    const w=.35+R(i,9)*.45, h=.22+R(i,10)*.35, d=.35+R(i,11)*.45; const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),houseMats[i%3]); m.position.set(x,TOP+h/2,z); m.rotation.y=R(i,12)*PI; city.add(m); }
+  const pal=new THREE.Mesh(new THREE.BoxGeometry(1.6,.8,1.2),M("#e9dfcc")); pal.position.set(TROY.x+.3,TOP+.4,TROY.z); city.add(pal);
+  const roof=new THREE.Mesh(new THREE.BoxGeometry(1.7,.06,1.3),M("#9b4a22")); roof.position.set(TROY.x+.3,TOP+.83,TROY.z); city.add(roof);
+  city.traverse(o=>{ if(o.material){ o.material=o.material.clone(); o.material.transparent=true; } });
+
+  // archaeological layers (hidden until the last chapter)
+  W.layers=[]; const lc=["#7d5b3a","#8d6a45","#9c7a51","#7a6650","#a8865a","#b39a6e","#c4572e","#8f7b5f","#cbb68c"];
+  for(let k=0;k<9;k++){ const m=new THREE.Mesh(new THREE.CylinderGeometry(4.2-k*.06,4.25-k*.06,.3,40),new THREE.MeshLambertMaterial({color:lc[k],emissive:0x000000}));
+    m.position.set(TROY.x,TOP+.15+k*.31,TROY.z); m.visible=false; scene.add(m); W.layers.push(m); }
+
+  // Achaean camp huts
+  const hutM=M("#9c8462"), thatch=M("#cdb47c");
+  for(let i=0;i<16;i++){ const z=-11+i*1.45, x=-9.2+(i%2)*0.5; const b=new THREE.Mesh(new THREE.BoxGeometry(.6,.32,.5),hutM); b.position.set(x,.16,z); scene.add(b);
+    const r=new THREE.Mesh(new THREE.ConeGeometry(.48,.32,4),thatch); r.position.set(x,.48,z); r.rotation.y=PI/4; scene.add(r); }
+
+  // ships
+  W.ships=[]; for(let s=0;s<12;s++){ const sh=buildShip(); scene.add(sh); W.ships.push(sh); }
+
+  // museum display: warrior + chariot on a podium
+  const disp=new THREE.Group(); disp.position.set(-4.8,0,12); scene.add(disp); W.disp=disp;
+  const pod=new THREE.Mesh(new THREE.CylinderGeometry(1.25,1.35,.16,40),M("#e8e2d6")); pod.position.y=.08; disp.add(pod);
+  const war=buildWarrior({tunic:"#2c5fa6",crest:"#c0392b",scale:1.45}); war.position.set(-.35,.16,.1); disp.add(war); W.dispWarrior=war;
+  const dch=buildChariot("#b3542a","#d8d0c4"); dch.scale.setScalar(1.15); dch.position.set(1.6,0,-.6); dch.rotation.y=PI*0.62; scene.add(dch); dch.position.add(disp.position); W.dispChariot=dch;
+
+  // battle chariots
+  W.chariots=[]; for(let k=0;k<4;k++){ const a=k<2; const c=buildChariot(a?"#2c5fa6":"#b3342a",a?"#e7dfd2":"#6b4a33"); c.scale.setScalar(.72); scene.add(c); W.chariots.push(c); }
+
+  // heroes
+  W.achille=buildWarrior({tunic:"#2c5fa6",crest:"#f1c232",scale:.7}); scene.add(W.achille);
+  W.ettore=buildWarrior({tunic:"#b3342a",crest:"#f1c232",scale:.7}); scene.add(W.ettore);
+
+  // wooden horse on a wheeled platform
+  const wood=M("#8a5a32"); const horse=new THREE.Group(); const hb=buildHorse(wood); hb.scale.setScalar(3.1); hb.position.y=.18; horse.add(hb);
+  const base=new THREE.Mesh(new THREE.BoxGeometry(.9,.1,2.1),M("#6b4425")); base.position.y=.18; horse.add(base);
+  for(const [x,z] of [[-.48,.75],[.48,.75],[-.48,-.75],[.48,-.75]]){ const w=new THREE.Mesh(new THREE.CylinderGeometry(.16,.16,.08,14),M("#4d311b")); w.rotation.z=PI/2; w.position.set(x,.16,z); horse.add(w); }
+  scene.add(horse); W.horse=horse;
+
+  // soldiers: instanced parts sharing one matrix per soldier
+  const parts=[
+    [new THREE.CylinderGeometry(.045,.05,.2,6).translate(0,.1,0),"#a7834a",false],
+    [new THREE.CylinderGeometry(.07,.09,.2,8).translate(0,.3,0),null,true],
+    [new THREE.SphereGeometry(.05,8,6).translate(0,.45,0),"#cf9a6e",false],
+    [new THREE.ConeGeometry(.058,.09,8).translate(0,.51,0),null,"helm"],
+    [new THREE.SphereGeometry(.12,10,8).scale(.85,1.25,.22).translate(.02,.3,.11),null,"shield"],
+    [new THREE.CylinderGeometry(.006,.006,.8,4).rotateX(-.22).translate(.1,.42,.02),"#5a4430",false],
+  ];
+  W.parts=parts.map(([geo,col,mode])=>{
+    const im=new THREE.InstancedMesh(geo,new THREE.MeshLambertMaterial({color:col||"#ffffff"}),N);
+    if(mode){ const ca=new THREE.Color(), ct=new THREE.Color();
+      for(let i=0;i<N;i++){ const a=i<NA;
+        if(mode===true) ca.set(a?"#2c5fa6":"#b3342a");
+        else if(mode==="helm") ca.set(a?"#efe6cf":"#b98a3e");
+        else ca.set(a?"#d9c7a3":"#7d2b22");
+        im.setColorAt(i,ca); } }
+    im.instanceMatrix.setUsage(THREE.DynamicDrawUsage); scene.add(im); return im; });
+
+  // arrows (siege) and fire
+  const ag=new THREE.BufferGeometry(); ag.setAttribute("position",new THREE.BufferAttribute(new Float32Array(70*3),3));
+  W.arrows=new THREE.Points(ag,new THREE.PointsMaterial({color:0x2a1d12,size:.07})); scene.add(W.arrows);
+  const fc=document.createElement("canvas"); fc.width=fc.height=64; const fg=fc.getContext("2d"); const gr=fg.createRadialGradient(32,32,0,32,32,32);
+  gr.addColorStop(0,"rgba(255,255,255,1)"); gr.addColorStop(.4,"rgba(255,255,255,.6)"); gr.addColorStop(1,"rgba(255,255,255,0)"); fg.fillStyle=gr; fg.fillRect(0,0,64,64);
+  const NF=420, fpos=new Float32Array(NF*3), fcol=new Float32Array(NF*3);
+  for(let i=0;i<NF;i++){ const c=new THREE.Color(R(i,20)<.5?"#ff7a1a":"#ffc23a"); fcol.set([c.r,c.g,c.b],i*3); }
+  const fgeo=new THREE.BufferGeometry(); fgeo.setAttribute("position",new THREE.BufferAttribute(fpos,3)); fgeo.setAttribute("color",new THREE.BufferAttribute(fcol,3));
+  W.fire=new THREE.Points(fgeo,new THREE.PointsMaterial({size:.45,map:new THREE.CanvasTexture(fc),vertexColors:true,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));
+  W.fire.visible=false; scene.add(W.fire);
+  fireLight=new THREE.PointLight(0xff7a2a,0,16); fireLight.position.set(TROY.x,TOP+2.2,TROY.z); scene.add(fireLight);
+
+  controls=new THREE.OrbitControls(camera,renderer.domElement);
+  controls.enableDamping=true; controls.dampingFactor=.08; controls.minDistance=1.2; controls.maxDistance=60; controls.maxPolarAngle=1.42;
+  controls.addEventListener("start",()=>{ S.userCam=true; tween=null; });
+  camera.position.set(-1.4,2.2,15.8); controls.target.set(-4.8,.9,12);
+  new ResizeObserver(resize).observe(stage); resize();
+  return true;
+}
+function resize(){ const w=stage.clientWidth,h=stage.clientHeight; renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); }
+let tween=null;
+function flyTo(pos,tgt){
+  const tg=new THREE.Vector3(...tgt), p=new THREE.Vector3(...pos);
+  if(stage.clientWidth<520) p.sub(tg).multiplyScalar(1.3).add(tg);
+  tween={t:0,dur:1.8,fp:camera.position.clone(),ft:controls.target.clone(),tp:p,tt:tg};
+}
+function camFor(c,t){ let k=0; c.cams.forEach((cm,i)=>{ if(t>=cm[0]) k=i; }); return k; }
+
+/* ---------- formations ---------- */
+const campA=i=>{ const r=Math.floor(i/15), c=i%15; return {x:-8.0+r*.42, z:(c-7)*.62+(r%2)*.3}; };
+const lineA=(i,fx)=>{ const r=Math.floor(i/25), c=i%25; return {x:fx-r*.55, z:(c-12)*.55, row:r}; };
+const lineT=(j,fx)=>{ const r=Math.floor(j/24), c=j%24; return {x:fx+r*.55, z:(c-11.5)*.55, row:r}; };
+function wallT(j){ const a=PI-1.25+(j/(NT-1))*2.5; const aa=Math.abs(a-PI)<.09?a+.18:a; return {x:TROY.x+Math.cos(aa)*WALL_R, z:TROY.z+Math.sin(aa)*WALL_R, y:TOP+WALL_H, yaw:Math.atan2(Math.cos(aa),Math.sin(aa))}; }
+const BEACH=s=>({x:-11,z:(s-5.5)*1.55});
+function shipState(s,ch,t){
+  const B=BEACH(s), far={x:-34-(s%3)*1.4,z:(s-5.5)*2.2-2}, hide={x:-42.5+(s%4)*.6,z:17.5+(s%3)*.9};
+  const L=(a,b,p)=>({x:lerp(a.x,b.x,p),z:lerp(a.z,b.z,p)});
+  if(ch==="storia") return null;
+  if(ch==="sbarco"){ return L(far,B,E(seg(t,0,10))); }
+  if(ch==="cavallo"){ if(t<9) return B; if(t<21) return L(B,hide,E(seg(t,9,14))); return L(hide,B,E(seg(t,21,26))); }
+  return B;
+}
+function onShip(i,ships){ const s=i%12, k=Math.floor(i/12), sp=ships[s]; if(!sp) return null;
+  const fx=Math.sin(sp.yaw), fz=Math.cos(sp.yaw); const along=(k-6)*.14, side=((k%2)-.5)*.17;
+  return {x:sp.x+fx*along+fz*side, z:sp.z+fz*along-fx*side, y:.32+sp.bob, yaw:sp.yaw}; }
+
+function walk(o,a,b,t,t0,t1,faceYaw){
+  const p=E(seg(t,t0,t1)); o.x=lerp(a.x,b.x,p); o.z=lerp(a.z,b.z,p);
+  const moving=t>t0&&t<t1; o.moving=moving;
+  o.yaw = moving ? Math.atan2(b.x-a.x,b.z-a.z) : faceYaw;
+}
+// returns soldier pose for chapter/time
+function poseA(i,ch,t,ships,horseP){
+  const o={x:0,z:0,y:null,yaw:PI/2,tilt:0,vis:true,moving:false};
+  const camp=campA(i);
+  if(ch==="micenei"){ o.x=camp.x; o.z=camp.z; return o; }
+  if(ch==="sbarco"){
+    const st=11+(i%25)/25*4; if(t<st){ const s=onShip(i,ships); Object.assign(o,s); return o; }
+    const s0=onShip(i,ships); walk(o,s0,camp,t,st,st+3.2,PI/2); return o; }
+  if(ch==="assedio"){ const L=lineA(i,3.0); walk(o,camp,L,t,(i%25)/25*1.5,5.5+(i%25)/25*1.5,PI/2); return o; }
+  if(ch==="scontro"){
+    const L0=lineA(i,-3), L1=lineA(i,.75), L2=lineA(i,3.6);
+    if(t<10){ o.x=L0.x; o.z=L0.z; }
+    else if(t<20){ walk(o,L0,L1,t,10,14,PI/2);
+      if(L0.row<2&&t>14){ o.x+=Math.sin(t*6+i)*.1; o.moving=true; } }
+    else walk(o,L1,L2,t,20,24,PI/2);
+    if(L0.row<2&&R(i,3)<.18){ const tf=15.5+R(i,4)*4; if(t>tf){ o.tilt=-Math.min(1,(t-tf)/.4)*PI/2; o.moving=false; if(t>20){ o.x=lerp(-3,.75,1)-L0.row*.55+Math.sin(tf*6+i)*.1; o.z=L0.z; } } }
+    return o; }
+  if(ch==="cavallo"){
+    const elite=i<10;
+    if(elite){ if(t<23){ o.vis=false; return o; }
+      const from={x:horseP.x+((i%5)-2)*.25,z:horseP.z+(i<5?-.5:.5)}, to={x:GATE.x+.6,z:((i%5)-2)*.25};
+      walk(o,from,to,t,23,25,-PI/2); o.y=TOP; return o; }
+    if(t<6){ o.x=camp.x; o.z=camp.z; return o; }
+    if(t<9){ const s=onShip(i,ships); walk(o,camp,s,t,6,8.6,PI/2); if(t>=8.6){ o.y=s.y; } return o; }
+    if(t<26){ const s=onShip(i,ships); if(!s){ o.vis=false; return o; } Object.assign(o,s); return o; }
+    const s=onShip(i,shipsAt(26)); const go={x:GATE_OUT.x-(Math.floor(i/25))*.5,z:((i%25)-12)*.3};
+    const t0=26+(i%25)/25*1.5;
+    if(t<t0+3.5){ walk(o,s,go,t,t0,t0+3.5,PI/2); return o; }
+    const t1=t0+3.5+(Math.floor(i/25))*.35; if(t<t1+1.2){ walk(o,go,GATE,t,t1,t1+1.2,PI/2); return o; }
+    o.vis=false; return o; }
+  o.vis=false; return o;
+}
+function poseT(j,ch,t,horseP){
+  const o={x:0,z:0,y:null,yaw:-PI/2,tilt:0,vis:true,moving:false};
+  const w=wallT(j);
+  const onWall=()=>{ o.x=w.x; o.z=w.z; o.y=w.y; o.yaw=w.yaw; };
+  if(ch==="micenei"||ch==="sbarco"||ch==="assedio"){ onWall(); return o; }
+  if(ch==="scontro"){
+    const L1=lineT(j,4.6), L2=lineT(j,1.25); const te=4+(j/NT)*4.5;
+    if(t<te){ o.vis=false; return o; }
+    if(t<10){ walk(o,GATE,L1,t,te,te+1.6,-PI/2); return o; }
+    if(t<20){ walk(o,L1,L2,t,10,14,-PI/2); if(L1.row<2&&t>14){ o.x-=Math.sin(t*6+j)*.1; o.moving=true; }
+      if(L1.row<2&&R(j,5)<.18){ const tf=15.5+R(j,6)*4; if(t>tf){ o.tilt=-Math.min(1,(t-tf)/.4)*PI/2; o.moving=false; } }
+      return o; }
+    const fallen=L1.row<2&&R(j,5)<.18;
+    if(fallen){ o.x=L2.x; o.z=L2.z; o.tilt=-PI/2; return o; }
+    const tr=20+(j%24)/24*1.5; if(t<tr+2.5){ walk(o,L2,GATE,t,tr,tr+2.5,-PI/2); return o; }
+    o.vis=false; return o; }
+  if(ch==="cavallo"){
+    if(j<30){
+      if(t<14){ onWall(); return o; }
+      const off={x:1.7+Math.floor(j/6)*.32, z:((j%6)-2.5)*.32};
+      if(t<16.5){ walk(o,GATE,{x:-7+off.x,z:off.z},t,14,16.5,-PI/2); if(t<14.05) o.vis=false; return o; }
+      if(t<22.2){ o.x=horseP.x+off.x; o.z=horseP.z+off.z; o.yaw=PI/2; o.moving=t<22; if(horseP.x+off.x>GATE.x+.3) o.vis=false; return o; }
+      o.vis=false; return o; }
+    if(t<20.5){ onWall(); return o; } o.vis=false; return o; }
+  o.vis=false; return o;
+}
+function horsePos(t){ // cavallo chapter path
+  const P=[{x:-7,z:0},{x:GATE_OUT.x,z:0},{x:GATE.x,z:0},{x:TROY.x-1.6,z:0}];
+  if(t<16.5) return {x:-7,z:0};
+  const p=E(seg(t,16.5,22.2)); const L=[13.4,2.35,2.7], tot=L[0]+L[1]+L[2]; let d=p*tot;
+  for(let k=0;k<3;k++){ if(d<=L[k]||k===2){ const q=Math.min(1,d/L[k]); return {x:lerp(P[k].x,P[k+1].x,q),z:0}; } d-=L[k]; }
+}
+let _shipsCache={};
+function shipsAt(t){ return W.ships.map((_,s)=>{ const p=shipState(s,"cavallo",t); return p?{x:p.x,z:p.z,yaw:PI/2,bob:0}:null; }); }
+
+/* ---------- apply scene for (chapter,time) ---------- */
+const dummy=HAS3?new THREE.Object3D():null;
+function applyScene(ch,t){
+  // day/night
+  const night= ch==="cavallo" ? seg(t,18,21.5) : 0;
+  scene.background.copy(SKY_DAY).lerp(SKY_NIGHT,night); scene.fog.color.copy(scene.background);
+  hemi.intensity=lerp(.65,.16,night); sun.intensity=lerp(.8,.05,night); moon.intensity=night*.35;
+  W.sea.material.color.set(night>.5?0x15324a:0x2d6f9c);
+  // ships
+  const ships=W.ships.map((sh,s)=>{
+    const p=shipState(s,ch,t); if(!p){ sh.visible=false; return null; }
+    const p2=shipState(s,ch,t+.05)||p, p0=shipState(s,ch,Math.max(0,t-.05))||p;
+    const dx=p2.x-p0.x, dz=p2.z-p0.z, moving=Math.hypot(dx,dz)>1e-4;
+    const yaw=moving?Math.atan2(dx,dz):PI/2;
+    const bob=p.x<-11.2?Math.sin(t*1.6+s)*.03:0;
+    sh.visible=true; sh.position.set(p.x,bob,p.z); sh.rotation.y=yaw; sh.userData.sail.visible=moving;
+    return {x:p.x,z:p.z,yaw,bob}; });
+  // horse
+  const hp=horsePos(t);
+  W.horse.visible = ch==="cavallo" && t>1;
+  if(W.horse.visible){ const g=E(seg(t,1,5.5)); W.horse.scale.set(1,Math.max(.01,g),1);
+    W.horse.position.set(hp.x,hY(hp.x,hp.z),hp.z); W.horse.rotation.y=PI/2; }
+  // gate
+  let open=0;
+  if(ch==="scontro") open=Math.max(seg(t,3.5,4.5)*(1-seg(t,12,13)), seg(t,19.5,20.5)*(1-seg(t,23.5,24.5)));
+  if(ch==="cavallo") open=Math.max(seg(t,13.5,14.5)*(1-seg(t,22.3,23)), seg(t,24.6,25.6));
+  W.leaves.forEach(l=>l.piv.rotation.y=-l.s*open*1.35);
+  // soldiers
+  for(let i=0;i<N;i++){
+    const o = i<NA ? poseA(i,ch,t,ships,hp) : poseT(i-NA,ch,t,hp);
+    let y=o.y!=null?o.y:hY(o.x,o.z);
+    if(o.moving) y+=Math.abs(Math.sin(t*11+i))*.025;
+    dummy.position.set(o.x,y,o.z); dummy.rotation.set(o.tilt,o.yaw,0,"YXZ"); dummy.scale.setScalar(o.vis?1:0); dummy.updateMatrix();
+    for(const im of W.parts) im.setMatrixAt(i,dummy.matrix);
+    const c=SOLD[i]; c.x=o.x; c.y=y; c.z=o.z; c.vis=o.vis;
+  }
+  W.parts.forEach(im=>im.instanceMatrix.needsUpdate=true);
+  // display
+  const showDisp=ch==="micenei"; W.disp.visible=showDisp; W.dispChariot.visible=showDisp;
+  if(showDisp) W.dispWarrior.rotation.y=Math.sin(t*.35)*.7;
+  // chariots
+  W.chariots.forEach((c,k)=>{
+    if(ch!=="scontro"){ c.visible=false; return; }
+    const a=k<2, z=(k%2?1:-1)*(a?7.6:8.4);
+    let p0,p1,p2,tt=[9,12.5,15.5];
+    if(a){ p0={x:-6,z}; p1={x:.4,z}; p2={x:-5.5,z:z*.9}; }
+    else { p0={x:GATE_OUT.x,z:(k%2?1:-1)*.8}; p1={x:2.2,z}; p2={x:6.2,z:z*.6}; }
+    let pos, yaw, mv=false;
+    if(t<tt[0]){ pos=p0; yaw=a?PI/2:-PI/2; c.visible=a||t>8.2; }
+    else if(t<tt[1]){ const q=E(seg(t,tt[0],tt[1])); pos={x:lerp(p0.x,p1.x,q),z:lerp(p0.z,p1.z,q)}; yaw=Math.atan2(p1.x-p0.x,p1.z-p0.z); mv=true; c.visible=true; }
+    else if(t<tt[2]){ const q=E(seg(t,tt[1],tt[2])); pos={x:lerp(p1.x,p2.x,q),z:lerp(p1.z,p2.z,q)}; yaw=Math.atan2(p2.x-p1.x,p2.z-p1.z); mv=true; c.visible=true; }
+    else { pos=p2; yaw=a?PI/2:-PI/2; c.visible= a || t<20.5;
+      if(!a&&t>19){ const q=E(seg(t,19,20.5)); pos={x:lerp(p2.x,GATE.x,q),z:lerp(p2.z,0,q)}; yaw=-PI/2; mv=true; } }
+    c.position.set(pos.x,hY(pos.x,pos.z),pos.z); c.rotation.y=yaw;
+    c.userData.wheels.forEach(w=>w.rotation.x= mv? t*9 : 0);
+    c.userData.legs.forEach((l,n)=>l.rotation.x= mv? Math.sin(t*14+n*1.7)*.6 : 0);
+  });
+  // heroes: Hector waits outside the gate, Achilles chases him three times round the walls
+  const heroes = ch==="scontro" && t>=20;
+  W.achille.visible=heroes&&t>=22; W.ettore.visible=heroes;
+  if(heroes){
+    const RR=7.4, ang0=PI;
+    const circ=(a)=>({x:TROY.x+Math.cos(a)*RR,z:TROY.z+Math.sin(a)*RR});
+    let e,a, ey=-PI/2, ay=PI/2, etilt=0;
+    if(t<26){ e={x:GATE_OUT.x-.2,z:.3}; a=t<22?{x:3.6,z:0}:(()=>{ const q=E(seg(t,22,26)); return {x:lerp(3.6,5.2,q),z:lerp(0,0,q)}; })(); }
+    else if(t<34){ const p=seg(t,26,34); const th=ang0+p*PI*6;
+      e=circ(th+.38); a=circ(th); ey=Math.atan2(-Math.sin(th+.38),Math.cos(th+.38)); ay=Math.atan2(-Math.sin(th),Math.cos(th));
+      if(p<.04){ const q=p/.04; e={x:lerp(GATE_OUT.x-.2,e.x,q),z:lerp(.3,e.z,q)}; a={x:lerp(5.2,a.x,q),z:lerp(0,a.z,q)}; } }
+    else { const base=circ(ang0); e={x:base.x+.5+Math.sin(t*5)*.06,z:.35}; a={x:base.x-.15+Math.max(0,Math.sin(t*5))*.15,z:.35}; ey=-PI/2; ay=PI/2;
+      if(t>37){ etilt=-Math.min(1,(t-37)/.5)*PI/2; } }
+    W.ettore.position.set(e.x,hY(e.x,e.z),e.z); W.ettore.rotation.set(etilt,ey,0,"YXZ");
+    W.achille.position.set(a.x,hY(a.x,a.z),a.z); W.achille.rotation.set(0,ay,0,"YXZ");
+  }
+  // arrows in the siege
+  const arr=W.arrows.geometry.attributes.position.array; W.arrows.visible=ch==="assedio"&&t>4;
+  if(W.arrows.visible){ for(let k=0;k<70;k++){ const w=wallT(Math.floor(R(k,30)*NT)); const per=2.2+R(k,31); const p=((t+R(k,32)*per)%per)/per;
+      const tx=1.6+R(k,33)*1.8, tz=(R(k,34)-.5)*12; arr[k*3]=lerp(w.x,tx,p); arr[k*3+2]=lerp(w.z,tz,p); arr[k*3+1]=lerp(w.y+.3,.2,p)+Math.sin(p*PI)*2.4; }
+    W.arrows.geometry.attributes.position.needsUpdate=true; }
+  // city visibility (fade in the archaeology chapter) and layers
+  const cityOp= ch==="storia" ? 1-seg(t,8,11.5) : 1;
+  W.city.visible=cityOp>0.01; W.city.traverse(o=>{ if(o.material) o.material.opacity=cityOp; });
+  W.layers.forEach((m,k)=>{ const show=ch==="storia"; const g=show?E(seg(t,11.5+k*.6,12.1+k*.6)):0; m.visible=g>0.01; m.scale.set(1,Math.max(.01,g),1);
+    m.material.emissive.setRGB(0,0,0); if(k===6&&show&&t>18){ const p=.25+.25*Math.sin(t*4); m.material.emissive.setRGB(p,p*.25,0); } });
+  // fire
+  const fire= ch==="cavallo" ? seg(t,29,33) : 0;
+  W.fire.visible=fire>0; fireLight.intensity=fire*(3+Math.sin(t*13)*.6);
+  if(W.fire.visible){ const fp=W.fire.geometry.attributes.position.array;
+    for(let i=0;i<fp.length/3;i++){ const r=Math.sqrt(R(i,21))*3.6, a=R(i,22)*PI*2, ph=(t*.7+R(i,23))%1;
+      fp[i*3]=TROY.x+Math.cos(a)*r+Math.sin(t*2+i)*.05; fp[i*3+2]=TROY.z+Math.sin(a)*r; fp[i*3+1]=TOP+.2+ph*2.2*fire; }
+    W.fire.geometry.attributes.position.needsUpdate=true; W.fire.material.opacity=fire*.9; }
+}
+
+/* ================= Pins ================= */
+const pinEls={}, tmpV=HAS3?new THREE.Vector3():null;
+function pinPos(p,t){
+  const V=(x,y,z)=>tmpV.set(x,y,z);
+  switch(p.id){
+    case "elmo": case "armatura": case "scudo": case "lancia": W.dispWarrior.updateMatrixWorld(); return tmpV.copy(W.dispWarrior.userData.anchors[p.id]).applyMatrix4(W.dispWarrior.matrixWorld);
+    case "carro": if(S.ch==="micenei") return V(W.dispChariot.position.x,1.05,W.dispChariot.position.z); { const c=W.chariots[0]; return V(c.position.x,c.position.y+.75,c.position.z); }
+    case "navi": { const s=W.ships[6]; return V(s.position.x,1.9,s.position.z); }
+    case "troia": return V(TROY.x+.3,TOP+1.5,TROY.z);
+    case "egeo": return V(-22,0,-4);
+    case "campo": return V(-8.6,.8,-7);
+    case "mura": return V(TROY.x+Math.cos(PI-.7)*WALL_R,TOP+WALL_H+.15,Math.sin(PI-.7)*WALL_R);
+    case "achei": { const c=SOLD[12]; return V(c.x,c.y+.65,c.z); }
+    case "troiani": { const c=SOLD[NA+12]; return V(c.x,c.y+.65,c.z); }
+    case "scamandro": return V(2,.05,-10.1);
+    case "porte": return V(GATE.x,TOP+WALL_H+.25,0);
+    case "ettore": return V(W.ettore.position.x,W.ettore.position.y+(W.ettore.rotation.x<-1?.35:1.0),W.ettore.position.z);
+    case "achille": return V(W.achille.position.x,W.achille.position.y+1.0,W.achille.position.z);
+    case "cavallo": return V(W.horse.position.x,W.horse.position.y+3.1*W.horse.scale.y,W.horse.position.z);
+    case "tenedo": return V(-37,2.3,18.5);
+    case "hisarlik": return V(TROY.x-5.6,1.1,0);
+    case "l1": return V(TROY.x-4.2,W.layers[0].position.y,0);
+    case "l6": return V(TROY.x-4.2,W.layers[5].position.y,0);
+    case "l7": return V(TROY.x-4.2,W.layers[6].position.y,0);
+    case "l9": return V(TROY.x-4.0,W.layers[8].position.y,0);
+  }
+  return V(0,0,0);
+}
+function buildPins(){
+  for(const p of PINS){
+    const el=document.createElement("button"); el.type="button"; el.hidden=true;
+    el.className="pin"+(p.k==="sea"?" sea":"")+(p.side?" "+p.side:"");
+    el.innerHTML = p.k==="sea" ? p.name : `<span class="tag">${p.name}${p.sub?` <small>${p.sub}</small>`:""}</span><span class="stem"></span>`;
+    el.setAttribute("aria-label",p.name);
+    el.addEventListener("click",ev=>{ ev.stopPropagation(); onPin(p,el); });
+    labelsEl.appendChild(el); pinEls[p.id]=el;
+  }
+}
+function updatePins(){
+  const w=stage.clientWidth,h=stage.clientHeight;
+  for(const p of PINS){
+    const el=pinEls[p.id]; const show=p.ch.includes(S.ch)&&(S.picking||!p.cond||p.cond(S.t));
+    if(!show){ if(!el.hidden) el.hidden=true; continue; }
+    const v=pinPos(p,S.t).project(camera);
+    if(v.z>1||Math.abs(v.x)>1.15||Math.abs(v.y)>1.15){ el.hidden=true; continue; }
+    el.hidden=false;
+    const x=(v.x+1)/2*w, y=(1-v.y)/2*h;
+    el.style.transform=`translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,${p.k==="sea"?"-50%":"-100%"})`;
+  }
+}
+function pulse(ids){ ids.forEach(id=>{ const el=pinEls[id]; if(!el) return; el.classList.remove("pulse"); void el.offsetWidth; el.classList.add("pulse"); }); }
+function onPin(p,el){
+  if(S.picking){ answerPick(p,el); return; }
+  pause(); stopTour();
+  document.getElementById("icTitle").textContent=p.name+(p.sub?` · ${p.sub}`:"");
+  document.getElementById("icText").textContent=p.info;
+  document.getElementById("infocard").hidden=false;
+  Voice.say(p.name+". "+p.info);
+}
+document.getElementById("icClose").onclick=()=>{ document.getElementById("infocard").hidden=true; Voice.stop(); };
+document.getElementById("icSpeak").onclick=()=>Voice.say(document.getElementById("icTitle").textContent+". "+document.getElementById("icText").textContent);
+
+/* ================= Playback ================= */
+const tlRange=document.getElementById("tlRange"), tlTime=document.getElementById("tlTime"), tlPlay=document.getElementById("tlPlay");
+const ICON_PLAY='<svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg>', ICON_PAUSE='<svg viewBox="0 0 16 16"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z"/></svg>';
+const fmt=s=>`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,"0")}`;
+let sentEls=[];
+function play(){ const c=CH[S.ch]; if(S.t>=c.dur-.05){ S.t=0; S.si=-1; } S.playing=true; syncButtons(); }
+function pause(){ S.playing=false; S.speaking=false; Voice.stop(); syncButtons(); }
+function syncButtons(){
+  tlPlay.innerHTML=S.playing?ICON_PAUSE:ICON_PLAY; tlPlay.setAttribute("aria-label",S.playing?"Pausa":"Avvia");
+  document.getElementById("playBtn").innerHTML=(S.playing?ICON_PAUSE+"<span>Pausa</span>":ICON_PLAY+"<span>Guarda e ascolta</span>");
+}
+function seek(t){ const c=CH[S.ch]; S.t=clamp(t,0,c.dur); Voice.stop(); S.speaking=false;
+  S.si=-1; c.narr.forEach((n,i)=>{ if(n[0]<=S.t-0.001) S.si=i; }); highlight(S.si); }
+function highlight(i){ sentEls.forEach((e,j)=>e.classList.toggle("on",j===i)); }
+function speakSentence(i){
+  const c=CH[S.ch], n=c.narr[i]; S.speaking=true; highlight(i); pulse(n[2]||[]);
+  Voice.say(n[1],()=>{ S.speaking=false; });
+}
+function tick(dt){
+  const c=CH[S.ch];
+  if(S.playing){
+    const next=c.narr[S.si+1];
+    if(next&&S.t>=next[0]&&!S.speaking){ S.si++; speakSentence(S.si); }
+    const hold=S.speaking&&c.narr[S.si+1]&&S.t>=c.narr[S.si+1][0];
+    if(!hold) S.t=Math.min(c.dur,S.t+dt);
+    if(S.t>=c.dur&&!S.speaking&&S.si>=c.narr.length-1){ S.playing=false; syncButtons(); highlight(-1); onEnd(); }
+  }
+  if(!dragging){ tlRange.value=S.t; }
+  tlTime.textContent=`${fmt(S.t)} / ${fmt(c.dur)}`;
+  const st=c.status?c.status(S.t):""; const sEl=document.getElementById("status");
+  sEl.hidden=!st||S.picking; if(st) sEl.textContent=st;
+  const k=camFor(c,S.t); if(k!==S.camKey){ S.camKey=k; if(!S.userCam) flyTo(c.cams[k][1],c.cams[k][2]); }
+}
+function onEnd(){ if(S.tour){ const k=CHAPTERS.findIndex(x=>x.id===S.ch); if(k<CHAPTERS.length-1) setTimeout(()=>{ if(S.tour) go(CHAPTERS[k+1].id,true); },1300); else stopTour(); } }
+let dragging=false;
+tlRange.addEventListener("input",()=>{ dragging=true; pause(); stopTour(); seek(+tlRange.value); });
+tlRange.addEventListener("change",()=>{ dragging=false; });
+tlPlay.onclick=()=>{ unlockVoice(); if(S.playing){ pause(); stopTour(); } else play(); };
+document.getElementById("playBtn").onclick=tlPlay.onclick;
+document.getElementById("recenter").onclick=()=>{ S.userCam=false; const c=CH[S.ch]; const k=camFor(c,S.t); flyTo(c.cams[k][1],c.cams[k][2]); };
+
+/* ================= Panel ================= */
+const chipsEl=document.getElementById("chips");
+CHAPTERS.forEach(c=>{ const b=document.createElement("button"); b.innerHTML=`<i class="${c.kind}"></i>${c.chip}`; b.dataset.id=c.id; b.onclick=()=>{ unlockVoice(); stopTour(); go(c.id,true); }; chipsEl.appendChild(b); });
+function go(id,autoplay){
+  const c=CH[id]; S.ch=id; Voice.stop(); S.speaking=false; S.t=0; S.si=-1; S.userCam=false; S.camKey=-1; setPicking(false);
+  document.getElementById("infocard").hidden=true;
+  [...chipsEl.children].forEach(b=>{ const on=b.dataset.id===id; b.setAttribute("aria-current",on); if(on) b.scrollIntoView({block:"nearest",inline:"nearest",behavior:"smooth"}); });
+  const kindTxt=c.kind==="myth"?"Mito":"Storia";
+  for(const el of [document.getElementById("kindTag"),document.getElementById("kind2")]){ el.className="kind "+c.kind; el.textContent=kindTxt; }
+  document.getElementById("era").textContent=c.dates;
+  document.getElementById("dates").textContent=c.chip;
+  document.getElementById("chTitle").textContent=c.title;
+  const narr=document.getElementById("narr"); narr.innerHTML="";
+  sentEls=c.narr.map((n,i)=>{ const sp=document.createElement("span"); sp.textContent=n[1]+" "; sp.title="Vai a questo momento";
+    sp.onclick=()=>{ unlockVoice(); stopTour(); seek(n[0]); S.si=i-1; play(); }; narr.appendChild(sp); return sp; });
+  const dl=document.getElementById("deepList"); dl.innerHTML=""; c.deep.forEach(d=>{ const li=document.createElement("li"); li.textContent=d; dl.appendChild(li); });
+  tlRange.max=c.dur; tlRange.value=0;
+  const mk=document.getElementById("tlMarks"); mk.innerHTML=""; c.narr.forEach(n=>{ const i=document.createElement("i"); i.style.left=(n[0]/c.dur*100)+"%"; mk.appendChild(i); });
+  renderQuiz();
+  S.playing=!!autoplay; syncButtons(); highlight(-1);
+}
+document.getElementById("deepSpeak").onclick=()=>{ unlockVoice(); pause(); stopTour(); Voice.list(CH[S.ch].deep); };
+document.getElementById("voiceOn").onchange=e=>{ S.voice=e.target.checked; if(!S.voice&&Voice.ok) speechSynthesis.cancel(); };
+const tourBtn=document.getElementById("tourBtn");
+tourBtn.onclick=()=>{ unlockVoice(); if(S.tour){ stopTour(); pause(); return; } S.tour=true;
+  tourBtn.innerHTML=ICON_PAUSE+"<span>Ferma la visita</span>"; go(CHAPTERS[0].id,true); };
+function stopTour(){ S.tour=false; tourBtn.innerHTML=ICON_PLAY+"<span>Visita guidata</span>"; }
+if(!Voice.ok) showVoiceNote();
+
+/* ================= Quiz ================= */
+const quizEl=document.getElementById("quiz");
+const qs=()=>S.quiz[S.ch] ||= {i:0,score:0,answered:false,done:false};
+function renderQuiz(){
+  const c=CH[S.ch], st=qs(), Q=c.quiz;
+  PINS.forEach(p=>pinEls[p.id]&&pinEls[p.id].classList.remove("right"));
+  if(st.done){
+    const k=CHAPTERS.findIndex(x=>x.id===S.ch);
+    quizEl.innerHTML=`<div class="qhead"><h3>Domande</h3><span class="prog">${st.score}/${Q.length}</span></div>
+      <p class="q">Hai risposto bene a ${st.score} domande su ${Q.length}.</p>
+      <div class="qnav"><button class="btn soft small" id="qRestart">Ricomincia</button>${k<CHAPTERS.length-1?`<button class="btn primary small" id="qNextCh">Capitolo successivo: ${CHAPTERS[k+1].chip}</button>`:""}</div>`;
+    document.getElementById("qRestart").onclick=()=>{ S.quiz[S.ch]={i:0,score:0,answered:false,done:false}; renderQuiz(); };
+    const nb=document.getElementById("qNextCh"); if(nb) nb.onclick=()=>go(CHAPTERS[k+1].id,true);
+    setPicking(false); return;
+  }
+  const q=Q[st.i];
+  quizEl.innerHTML=`<div class="qhead"><h3>Domande</h3><span class="prog">${st.i+1} di ${Q.length}</span></div>
+    <p class="q">${q.q}</p>
+    ${q.t==="choice"?`<div class="opts">${q.o.map((o,k)=>`<button data-k="${k}">${o}</button>`).join("")}</div>`
+      :`<div class="pickhint">Rispondi toccando un'etichetta sulla scena 3D.</div>`}
+    <p class="fb" id="fb" hidden></p>
+    <div class="qnav">${q.t==="pick"?'<button class="btn soft small" id="qShow">Mostra la risposta</button>':""}<button class="btn soft small" id="qNext" hidden>${st.i<Q.length-1?"Domanda successiva":"Vedi il risultato"}</button></div>`;
+  if(q.t==="choice"){
+    setPicking(false);
+    quizEl.querySelectorAll(".opts button").forEach(b=>b.onclick=()=>{ const k=+b.dataset.k, ok=k===q.a;
+      quizEl.querySelectorAll(".opts button").forEach(x=>{ x.disabled=true; if(+x.dataset.k===q.a) x.classList.add("right"); });
+      if(!ok) b.classList.add("wrong"); feedback(ok,q.x); });
+  } else {
+    setPicking(true,q.q);
+    document.getElementById("qShow").onclick=()=>{ q.a.forEach(id=>pinEls[id]&&pinEls[id].classList.add("right")); setPicking(false); feedback(null,q.x); };
+  }
+  document.getElementById("qNext").onclick=()=>{ st.i++; st.answered=false; if(st.i>=Q.length) st.done=true; renderQuiz(); };
+}
+function feedback(ok,x){
+  const st=qs(); if(ok===true&&!st.answered) st.score++; st.answered=true;
+  const fb=document.getElementById("fb"); fb.hidden=false;
+  fb.innerHTML= ok===true?`<b class="ok">Giusto!</b> ${x}` : ok===false?`<b class="bad">Non proprio.</b> ${x}` : x;
+  document.getElementById("qNext").hidden=false; const sh=document.getElementById("qShow"); if(sh) sh.hidden=true;
+  pause(); stopTour(); Voice.say((ok===true?"Giusto! ":ok===false?"Non proprio. ":"")+x);
+}
+function setPicking(on,text){ S.picking=on; stage.classList.toggle("picking",on); const pb=document.getElementById("pickbar"); pb.hidden=!on; if(on) pb.textContent=text; }
+function answerPick(p,el){
+  const q=CH[S.ch].quiz[qs().i]; const ok=q.a.includes(p.id);
+  if(ok){ el.classList.add("right"); setPicking(false); feedback(true,q.x); }
+  else { el.classList.remove("wrong"); void el.offsetWidth; el.classList.add("wrong"); Voice.say("No, questo è: "+p.name+". Riprova."); }
+}
+
+/* ================= Loop ================= */
+let last=performance.now();
+function frame(now){
+  const dt=Math.min(.05,(now-last)/1000); last=now;
+  tick(dt);
+  if(tween){ tween.t+=dt/tween.dur; const q=Math.min(1,tween.t), e=q<.5?4*q*q*q:1-Math.pow(-2*q+2,3)/2;
+    camera.position.lerpVectors(tween.fp,tween.tp,e); controls.target.lerpVectors(tween.ft,tween.tt,e); if(q>=1) tween=null; }
+  applyScene(S.ch,S.t);
+  controls.update(); renderer.render(scene,camera); updatePins();
+  requestAnimationFrame(frame);
+}
+const has3D=HAS3&&init();
+if(has3D){ buildPins(); go("micenei",false); requestAnimationFrame(frame); }
+else { go("micenei",false); setInterval(()=>tick(.1),100); }
+</script>

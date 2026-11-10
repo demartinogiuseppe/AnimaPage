@@ -1,0 +1,159 @@
+{
+ "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q561116%7CQ3607552%7CQ3634477%7CQ3634478&props=labels%7Cclaims&languages=it%7Cen",
+ "fetchedAt": "2026-11-03T16:01:44.141Z",
+ "status": 200,
+ "body": {
+  "entities": {
+   "Q561116": {
+    "id": "Q561116",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Stefano Benni"
+     },
+     "it": {
+      "language": "it",
+      "value": "Stefano Benni"
+     }
+    },
+    "claims": {
+     "P569": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1947-08-12T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ],
+     "P570": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+2025-09-09T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q3607552": {
+    "id": "Q3607552",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Al bar dello sport"
+     },
+     "en": {
+      "language": "en",
+      "value": "Al bar dello sport"
+     }
+    },
+    "claims": {
+     "P577": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1983-01-01T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q3634477": {
+    "id": "Q3634477",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Bar Sport"
+     },
+     "en": {
+      "language": "en",
+      "value": "Bar Sport"
+     }
+    },
+    "claims": {
+     "P577": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1976-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q3634478": {
+    "id": "Q3634478",
+    "labels": {
+     "it": {
+      "language": "it",
+      "value": "Bar Sport"
+     },
+     "en": {
+      "language": "en",
+      "value": "Bar Sport"
+     }
+    },
+    "claims": {
+     "P577": [
+      {
+       "rank": "normal",
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+2011-01-01T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         },
+         "type": "time"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

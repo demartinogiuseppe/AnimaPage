@@ -1,0 +1,134 @@
+{
+  "createdAt": "2026-11-04T00:00:00Z",
+  "model": "synthetic (written by the generation agent for tests)",
+  "analysis": {
+    "readable": true,
+    "confidence": 0.9,
+    "orientation": "upright",
+    "literary": {
+      "isLiterary": false
+    },
+    "exercises": [
+      "Quale regione ha più abitanti? Quale ne ha meno tra quelle della tabella?",
+      "Quali due regioni hanno un numero di abitanti quasi uguale?"
+    ],
+    "illustrations": [
+      {
+        "kind": "table",
+        "description": "Tabella con regione e numero di abitanti per otto regioni.",
+        "labels": [
+          "Regione",
+          "Abitanti"
+        ]
+      },
+      {
+        "kind": "chart",
+        "description": "Grafico a barre orizzontali con la popolazione delle otto regioni.",
+        "labels": []
+      }
+    ],
+    "language": "it",
+    "pages": {
+      "visible": 1,
+      "numbers": [
+        36
+      ]
+    },
+    "subject": "geografia",
+    "topic": "La popolazione delle regioni italiane",
+    "gradeLevel": "scuola primaria, classe 5",
+    "contentType": "map_or_diagram",
+    "summary": "La pagina presenta una tabella con gli abitanti delle otto regioni italiane più popolose e un grafico a barre. La Lombardia è la regione con più abitanti, seguita da Lazio e Campania. Il testo invita a confrontare i dati e a riflettere sul perché alcune regioni sono più popolate.",
+    "concepts": [
+      "popolazione",
+      "regioni italiane",
+      "tabella dei dati",
+      "grafico a barre",
+      "confronto tra regioni"
+    ],
+    "entities": [
+      {
+        "name": "Lombardia",
+        "type": "place",
+        "value": "10 020 528",
+        "onPage": true
+      },
+      {
+        "name": "Lazio",
+        "type": "place",
+        "value": "5 714 745",
+        "onPage": true
+      },
+      {
+        "name": "Campania",
+        "type": "place",
+        "value": "5 590 076",
+        "onPage": true
+      },
+      {
+        "name": "Veneto",
+        "type": "place",
+        "value": "4 847 026",
+        "onPage": true
+      },
+      {
+        "name": "Sicilia",
+        "type": "place",
+        "value": "4 814 016",
+        "onPage": true
+      },
+      {
+        "name": "Emilia-Romagna",
+        "type": "place",
+        "value": "4 437 578",
+        "onPage": true
+      },
+      {
+        "name": "Piemonte",
+        "type": "place",
+        "value": "4 252 581",
+        "onPage": true
+      },
+      {
+        "name": "Puglia",
+        "type": "place",
+        "value": "3 900 852",
+        "onPage": true
+      }
+    ],
+    "claims": [
+      {
+        "text": "La Lombardia ha 10 020 528 abitanti ed è la regione più popolosa d'Italia.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Il Lazio ha 5 714 745 abitanti.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "La Campania ha 5 590 076 abitanti.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Il Veneto ha 4 847 026 abitanti e la Sicilia 4 814 016.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "L'Emilia-Romagna ha 4 437 578 abitanti, il Piemonte 4 252 581 e la Puglia 3 900 852.",
+        "kind": "fact",
+        "onPage": true
+      },
+      {
+        "text": "Le regioni più popolose hanno grandi città e molte attività economiche.",
+        "kind": "fact",
+        "onPage": true
+      }
+    ],
+    "suggestedEngine": "chart",
+    "engineReason": "La pagina è fatta di dati da confrontare: un grafico animato li rende facili da leggere."
+  }
+}

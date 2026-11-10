@@ -1,0 +1,97 @@
+{
+ "url": "https://it.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=extracts%7Cpageprops%7Cinfo&exintro=1&explaintext=1&exlimit=20&ppprop=wikibase_item%7Cdisambiguation&inprop=url&generator=search&gsrsearch=Ischia&gsrnamespace=0&gsrlimit=4",
+ "fetchedAt": "2026-11-05T02:33:02.851Z",
+ "status": 200,
+ "body": {
+  "batchcomplete": true,
+  "continue": {
+   "gsroffset": 4,
+   "continue": "gsroffset||"
+  },
+  "query": {
+   "pages": [
+    {
+     "pageid": 31599,
+     "ns": 0,
+     "title": "Ischia (comune)",
+     "index": 2,
+     "extract": "Ischia è un comune italiano di 19 400 abitanti della città metropolitana di Napoli, sito nell'omonima isola in Campania.",
+     "pageprops": {
+      "wikibase_item": "Q72134"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-31T09:23:06Z",
+     "lastrevid": 153144659,
+     "length": 16583,
+     "fullurl": "https://it.wikipedia.org/wiki/Ischia_(comune)",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ischia_(comune)&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ischia_(comune)"
+    },
+    {
+     "pageid": 53302,
+     "ns": 0,
+     "title": "Ischia",
+     "index": 3,
+     "extract": "",
+     "pageprops": {
+      "disambiguation": "",
+      "wikibase_item": "Q285385"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-26T15:13:21Z",
+     "lastrevid": 147489132,
+     "length": 1051,
+     "fullurl": "https://it.wikipedia.org/wiki/Ischia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ischia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ischia"
+    },
+    {
+     "pageid": 674312,
+     "ns": 0,
+     "title": "Ischia Calcio",
+     "index": 4,
+     "extract": "L'S.S.D. Ischia Calcio, comunemente conosciuta come Ischia Isolaverde, Ischia Calcio o Ischia, è una società calcistica italiana con sede a Ischia (NA), sull'isola omonima.\nFondata nel 2017, è erede della tradizione sportiva iniziata nel 1922 con la fondazione della polisportiva Robur e poi transitata attraverso diversi soggetti societari, ultimo dei quali la Società Sportiva Ischia Isolaverde, estromessa nel 2016 dal campionato di Serie D e attiva esclusivamente in campionati giovanili nelle stagioni 2016-17 e 2017-18.\nNel corso della sua storia, a livello nazionale, ha ottenuto una promozione in Serie C1 nel 1986-87 e una in Lega Pro nel 2013-14, ha vinto un campionato di Serie C2 nel 1990-91, un Campionato Interregionale nel 1982-83 e un campionato di Serie D nel 2012-13. Inoltre nella stagione 2012-13 si è laureata Campione d'Italia Serie D vincendo lo Scudetto di categoria. È l'unica squadra di calcio basata su un'isola minore italiana che ha preso parte a campionati nazionali professionistici. Nella stagione 2019/2020 vince il campionato di Promozione Campania. Nella stagione 2022/2023 vince il campionato di Eccellenza Campania ritornando ancora una volta in Serie D, quarto livello del campionato italiano di calcio.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q3659841"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-10-30T13:16:11Z",
+     "lastrevid": 152775149,
+     "length": 164107,
+     "fullurl": "https://it.wikipedia.org/wiki/Ischia_Calcio",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Ischia_Calcio&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Ischia_Calcio"
+    },
+    {
+     "pageid": 2525266,
+     "ns": 0,
+     "title": "Isola d'Ischia",
+     "index": 1,
+     "extract": "Ischia è un'isola dell'Italia che appartiene all'arcipelago delle isole Flegree, della città metropolitana di Napoli. Famosa per le acque termali e la cucina mediterranea, è storicamente un rinomato posto di benessere che offre nei suoi sei comuni possibilità di soggiorno in hotel esclusivi e shopping di lusso.\nPosta all'estremità settentrionale del golfo di Napoli e a poca distanza dalle isole di Procida e Vivara, nel mar Tirreno, è la maggiore delle Flegree ed importante meta del turismo internazionale. Con i suoi 61 694 abitanti e 46,5 km² è la terza isola italiana per popolazione e l'ottava per superficie.\n\n",
+     "pageprops": {
+      "wikibase_item": "Q189387"
+     },
+     "contentmodel": "wikitext",
+     "pagelanguage": "it",
+     "pagelanguagehtmlcode": "it",
+     "pagelanguagedir": "ltr",
+     "touched": "2026-11-03T10:32:16Z",
+     "lastrevid": 152777128,
+     "length": 71786,
+     "fullurl": "https://it.wikipedia.org/wiki/Isola_d%27Ischia",
+     "editurl": "https://it.wikipedia.org/w/index.php?title=Isola_d%27Ischia&action=edit",
+     "canonicalurl": "https://it.wikipedia.org/wiki/Isola_d%27Ischia"
+    }
+   ]
+  }
+ }
+}

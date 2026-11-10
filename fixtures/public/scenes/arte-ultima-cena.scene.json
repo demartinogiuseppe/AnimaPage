@@ -1,0 +1,1900 @@
+{
+ "version": "0.1",
+ "engine": "art",
+ "title": "L'Ultima Cena di Leonardo",
+ "style": "color",
+ "page": {
+  "subject": "Arte e immagine",
+  "topic": "Leonardo da Vinci, l'Ultima Cena (Cenacolo)",
+  "language": "it"
+ },
+ "kind": "history",
+ "music": {
+  "track": "music-history",
+  "volume": 0.35
+ },
+ "chapters": [
+  {
+   "id": "momento",
+   "title": "Il momento raccontato",
+   "chip": "Il momento",
+   "kind": "history",
+   "dates": "1494-1498",
+   "duration": 67,
+   "book": {
+    "heading": "Il momento raccontato",
+    "formula": "«Uno di voi mi tradirà»",
+    "lines": [
+     "Leonardo da Vinci, Ultima Cena (Cenacolo)",
+     "Milano, Santa Maria delle Grazie",
+     "Ogni apostolo reagisce a modo suo"
+    ],
+    "sourceIds": [
+     "w-cenacolo"
+    ]
+   },
+   "activity": {
+    "predict": {
+     "q": "Che cosa ha appena detto Gesù nel momento dipinto da Leonardo?",
+     "options": [
+      "«Uno di voi mi tradirà»",
+      "«Andiamo a pescare»",
+      "«Domani partiamo per Gerusalemme»"
+     ],
+     "answer": 0
+    },
+    "test": {
+     "prompt": "Segui il tour: guarda come reagisce ogni apostolo all'annuncio."
+    },
+    "prove": {
+     "text": "Leonardo dipinge il passo del Vangelo di Giovanni in cui Gesù annuncia che uno dei suoi apostoli lo tradirà: per questo ognuno reagisce in modo diverso, con i suoi «moti dell'animo».",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    "stamp": "Lettore di gesti"
+   },
+   "narration": [
+    {
+     "at": 0,
+     "text": "Siamo a Milano, nel refettorio del convento di Santa Maria delle Grazie: su questa parete Leonardo da Vinci dipinse l'Ultima Cena, tra il 1494 e il 1498.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 9,
+     "text": "Il lavoro gli fu commissionato da Ludovico il Moro, duca di Milano.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 14,
+     "text": "Leonardo racconta un momento preciso del Vangelo di Giovanni: Gesù ha appena annunciato che uno dei suoi apostoli lo tradirà.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 21,
+     "text": "Al centro c'è Cristo, isolato, con il capo reclinato e la bocca appena socchiusa, come se avesse appena finito di parlare.",
+     "highlight": [
+      "p-cristo"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 30,
+     "text": "Pietro, con il coltello in mano, si sporge verso Giovanni e gli chiede chi sia il traditore.",
+     "highlight": [
+      "p-pietro",
+      "p-giovanni"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 37,
+     "text": "Davanti a lui Giuda stringe la borsa con i soldi e si tira indietro, con aria colpevole.",
+     "highlight": [
+      "p-giuda"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 44,
+     "text": "Dall'altra parte Giacomo il Maggiore spalanca le braccia, attonito; vicino a lui Filippo porta le mani al petto.",
+     "highlight": [
+      "p-giacomo",
+      "p-filippo"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 51,
+     "text": "All'estrema destra Matteo, Giuda Taddeo e Simone esprimono con gesti concitati il loro smarrimento.",
+     "highlight": [
+      "p-gruppo-4"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 59,
+     "text": "Leonardo studiò i «moti dell'animo» degli apostoli: ogni gesto mostra un'emozione diversa.",
+     "highlight": [
+      "p-cristo"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "at": 0,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 17,
+     "azimuth": 0,
+     "elevation": 6
+    },
+    {
+     "at": 21,
+     "target": {
+      "entity": "region",
+      "part": "cristo"
+     },
+     "distance": 6.5,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 30,
+     "target": {
+      "entity": "region",
+      "part": "pietro"
+     },
+     "distance": 6,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 37,
+     "target": {
+      "entity": "region",
+      "part": "giuda"
+     },
+     "distance": 5.5,
+     "azimuth": -6,
+     "elevation": 4
+    },
+    {
+     "at": 44,
+     "target": {
+      "entity": "region",
+      "part": "giacomo-maggiore"
+     },
+     "distance": 6.5,
+     "azimuth": 6,
+     "elevation": 4
+    },
+    {
+     "at": 51,
+     "target": {
+      "entity": "region",
+      "part": "gruppo-4"
+     },
+     "distance": 7.5,
+     "azimuth": 10,
+     "elevation": 4
+    },
+    {
+     "at": 59,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 13,
+     "azimuth": -18,
+     "elevation": 8
+    }
+   ],
+   "pins": [
+    {
+     "id": "p-cristo",
+     "name": "Cristo",
+     "info": "Al centro, isolato, con le braccia distese.",
+     "kind": "person",
+     "anchor": {
+      "entity": "region",
+      "part": "cristo",
+      "offset": [
+       0,
+       0.9,
+       0
+      ]
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       21,
+       30
+      ],
+      [
+       59,
+       67
+      ]
+     ]
+    },
+    {
+     "id": "p-pietro",
+     "name": "Pietro",
+     "info": "Con il coltello in mano si sporge verso Giovanni.",
+     "kind": "person",
+     "anchor": {
+      "entity": "region",
+      "part": "pietro"
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       30,
+       37
+      ]
+     ]
+    },
+    {
+     "id": "p-giovanni",
+     "name": "Giovanni",
+     "info": "Ascolta la domanda di Pietro, separato da Gesù.",
+     "kind": "person",
+     "anchor": {
+      "entity": "region",
+      "part": "giovanni"
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       30,
+       37
+      ]
+     ]
+    },
+    {
+     "id": "p-giuda",
+     "name": "Giuda Iscariota",
+     "info": "Stringe la borsa con i soldi e indietreggia.",
+     "kind": "person",
+     "anchor": {
+      "entity": "region",
+      "part": "giuda"
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       37,
+       44
+      ]
+     ]
+    },
+    {
+     "id": "p-giacomo",
+     "name": "Giacomo il Maggiore",
+     "info": "Spalanca le braccia, attonito.",
+     "kind": "person",
+     "anchor": {
+      "entity": "region",
+      "part": "giacomo-maggiore"
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       44,
+       51
+      ]
+     ]
+    },
+    {
+     "id": "p-filippo",
+     "name": "Filippo",
+     "info": "Porta le mani al petto: protesta la sua innocenza.",
+     "kind": "person",
+     "anchor": {
+      "entity": "region",
+      "part": "filippo"
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       44,
+       51
+      ]
+     ]
+    },
+    {
+     "id": "p-gruppo-4",
+     "name": "Matteo, Taddeo, Simone",
+     "info": "Discutono con gesti concitati, increduli.",
+     "kind": "group",
+     "anchor": {
+      "entity": "region",
+      "part": "gruppo-4"
+     },
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ],
+     "visible": [
+      [
+       51,
+       58
+      ]
+     ]
+    }
+   ],
+   "deep": [
+    {
+     "text": "Sulla parete opposta del refettorio c'è la Crocifissione di Donato Montorfano: il refettorio era la sala dove i frati mangiavano.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "text": "Giuda non è da solo al di qua del tavolo, come in molte ultime cene dell'epoca: Leonardo lo mette insieme agli altri apostoli.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Chi stringe la borsa con i soldi?",
+     "options": [
+      "Pietro",
+      "Giuda Iscariota",
+      "Giovanni",
+      "Matteo"
+     ],
+     "answer": 1,
+     "explain": "È Giuda: tiene la borsa e si tira indietro con aria colpevole."
+    },
+    {
+     "type": "pick",
+     "q": "Tocca Pietro, l'apostolo con il coltello.",
+     "answerPins": [
+      "p-pietro"
+     ],
+     "explain": "Pietro impugna il coltello e si sporge verso Giovanni."
+    }
+   ],
+   "sounds": {
+    "ambience": [],
+    "cues": [
+     {
+      "at": 0.5,
+      "sound": "page-turn",
+      "volume": 0.25
+     },
+     {
+      "at": 21,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 30,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 37,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 44,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 51,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 59,
+      "sound": "chime",
+      "volume": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "prospettiva",
+   "title": "Tutte le linee portano a Cristo",
+   "chip": "Prospettiva",
+   "kind": "history",
+   "duration": 60,
+   "book": {
+    "heading": "Tutte le linee portano a Cristo",
+    "formula": "linee → punto di fuga",
+    "lines": [
+     "Il soffitto e le pareti sono una scatola prospettica",
+     "Le linee in profondità si incontrano in un punto",
+     "Il punto di fuga è sulla testa di Cristo"
+    ],
+    "sourceIds": [
+     "w-cenacolo"
+    ]
+   },
+   "activity": {
+    "predict": {
+     "q": "Dove si incontrano le linee del soffitto e delle pareti?",
+     "options": [
+      "Sulla testa di Cristo",
+      "Sulla finestra di destra",
+      "Sotto il tavolo",
+      "Non si incontrano"
+     ],
+     "answer": 0
+    },
+    "test": {
+     "prompt": "Sposta il punto blu: quando le linee blu seguono i bordi del soffitto e degli arazzi, hai trovato il punto di fuga.",
+     "params": [
+      "fuga-x",
+      "fuga-y"
+     ]
+    },
+    "prove": {
+     "text": "Le linee rosse si incontrano sulla testa di Cristo. Nel muro, proprio lì, i restauratori hanno trovato il foro del chiodo a cui Leonardo legava i fili per disegnare la prospettiva.",
+     "sourceIds": [
+      "w-cenacolo",
+      "calc-fuga"
+     ]
+    },
+    "stamp": "Cacciatore di punti di fuga"
+   },
+   "narration": [
+    {
+     "at": 0,
+     "text": "Questa stanza sembra continuare dentro il muro: è una scatola prospettica, che «sfonda» la parete del refettorio.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 8,
+     "text": "Seguiamo i bordi del soffitto a cassettoni e degli arazzi appesi alle pareti: sono linee che vanno in profondità.",
+     "highlight": [
+      "p-soffitto"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 16,
+     "text": "Prolunghiamole: si incontrano tutte in un solo punto, il punto di fuga.",
+     "highlight": [
+      "p-fuga"
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "calc-fuga"
+     ]
+    },
+    {
+     "at": 22,
+     "text": "Il punto di fuga cade proprio sulla testa di Cristo: tutto lo spazio accompagna lo sguardo verso di lui.",
+     "highlight": [
+      "p-fuga"
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "calc-fuga"
+     ]
+    },
+    {
+     "at": 30,
+     "text": "Durante l'ultimo restauro si è trovato il foro di un chiodo all'altezza della sua testa: lì Leonardo appendeva i fili per tracciare la prospettiva.",
+     "highlight": [
+      "p-fuga"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 39,
+     "text": "Cristo è anche l'asse centrale della scena: le tre finestre del fondo, le pareti e i gesti degli apostoli si dispongono attorno a lui.",
+     "highlight": [
+      "p-finestre"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 47,
+     "text": "Con le braccia distese la sua figura forma quasi una piramide, ferma e calma in mezzo all'agitazione.",
+     "highlight": [
+      "p-piramide"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "at": 0,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 17,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 9,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 14,
+     "azimuth": 0,
+     "elevation": 2
+    },
+    {
+     "at": 22,
+     "target": {
+      "entity": "vanishing-point"
+     },
+     "distance": 7,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 30,
+     "target": {
+      "entity": "vanishing-point"
+     },
+     "distance": 5,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 39,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 15,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 47,
+     "target": {
+      "entity": "region",
+      "part": "cristo"
+     },
+     "distance": 8.5,
+     "azimuth": 0,
+     "elevation": 4
+    }
+   ],
+   "pins": [
+    {
+     "id": "p-soffitto",
+     "name": "Soffitto a cassettoni",
+     "info": "Quello di oggi è un rifacimento del Settecento: dell'originale resta solo una sottile fascia a destra.",
+     "kind": "object",
+     "anchor": {
+      "entity": "region",
+      "part": "soffitto"
+     },
+     "visible": [
+      [
+       8,
+       22
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "id": "p-fuga",
+     "name": "Punto di fuga",
+     "info": "Qui si incontrano le linee della prospettiva: sulla testa di Cristo.",
+     "kind": "note",
+     "anchor": {
+      "entity": "vanishing-point",
+      "offset": [
+       0,
+       0.35,
+       0
+      ]
+     },
+     "visible": [
+      [
+       16,
+       39
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "calc-fuga"
+     ]
+    },
+    {
+     "id": "p-finestre",
+     "name": "Tre finestre",
+     "info": "Il chiarore del fondo isola Cristo e crea un effetto di controluce.",
+     "kind": "object",
+     "anchor": {
+      "entity": "region",
+      "part": "finestre"
+     },
+     "visible": [
+      [
+       39,
+       47
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "id": "p-piramide",
+     "name": "Una piramide",
+     "info": "Le braccia distese danno a Cristo una forma quasi piramidale.",
+     "kind": "note",
+     "anchor": {
+      "entity": "region",
+      "part": "cristo",
+      "offset": [
+       0,
+       -0.8,
+       0
+      ]
+     },
+     "visible": [
+      [
+       47,
+       60
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    }
+   ],
+   "deep": [
+    {
+     "text": "Il soffitto a cassettoni che vediamo oggi non è quello dipinto da Leonardo: è un rifacimento del Settecento. In origine i cassettoni erano più larghi e profondi, con sottili fasce rosse e fondo blu.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "text": "Il punto di fuga mostrato qui è calcolato come l'incrocio delle linee tracciate sui bordi del soffitto e degli arazzi.",
+     "sourceIds": [
+      "calc-fuga"
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "type": "pick",
+     "q": "Tocca il punto di fuga.",
+     "answerPins": [
+      "p-fuga"
+     ],
+     "explain": "Le linee della prospettiva si incontrano sulla testa di Cristo."
+    },
+    {
+     "type": "choice",
+     "q": "Che cosa hanno trovato i restauratori all'altezza della testa di Cristo?",
+     "options": [
+      "Il foro di un chiodo",
+      "La firma di Leonardo",
+      "Una moneta d'oro"
+     ],
+     "answer": 0,
+     "explain": "Il foro del chiodo a cui Leonardo legava i fili per disegnare la prospettiva."
+    }
+   ],
+   "sounds": {
+    "ambience": [],
+    "cues": [
+     {
+      "at": 0.5,
+      "sound": "page-turn",
+      "volume": 0.25
+     },
+     {
+      "at": 9,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 16,
+      "sound": "sparkle",
+      "volume": 0.25
+     },
+     {
+      "at": 39,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 47,
+      "sound": "chime",
+      "volume": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "gruppi",
+   "title": "Gruppi di tre",
+   "chip": "Gruppi di tre",
+   "kind": "history",
+   "duration": 68,
+   "book": {
+    "heading": "Gruppi di tre",
+    "formula": "12 = 4 × 3",
+    "lines": [
+     "Quattro gruppi di tre apostoli",
+     "Equilibrati simmetricamente attorno a Cristo",
+     "La luce viene da sinistra"
+    ],
+    "sourceIds": [
+     "w-cenacolo"
+    ]
+   },
+   "activity": {
+    "predict": {
+     "q": "Come sono disposti i dodici apostoli?",
+     "options": [
+      "In quattro gruppi di tre",
+      "In due file da sei",
+      "Sparsi a caso"
+     ],
+     "answer": 0
+    },
+    "test": {
+     "prompt": "Guarda i gruppi che si staccano dalla parete. Con il cursore alza o abbassa il gruppo di Pietro.",
+     "params": [
+      "rilievo"
+     ]
+    },
+    "prove": {
+     "text": "Gli apostoli sono in quattro gruppi di tre, diversi ma equilibrati simmetricamente attorno a Cristo. La luce viene da sinistra, come quella delle finestre vere del refettorio.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    "stamp": "Occhio d'artista"
+   },
+   "narration": [
+    {
+     "at": 0,
+     "text": "Ora contiamo gli apostoli: sono dodici, divisi in quattro gruppi di tre.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 6,
+     "text": "A sinistra Bartolomeo, Giacomo di Alfeo e Andrea.",
+     "highlight": [
+      "p-g1"
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "at": 12,
+     "text": "Poi Giuda, Pietro e Giovanni, i più vicini a Cristo.",
+     "highlight": [
+      "p-g2"
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "at": 18,
+     "text": "Dall'altra parte Tommaso, Giacomo il Maggiore e Filippo.",
+     "highlight": [
+      "p-g3"
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "at": 24,
+     "text": "E all'estremità Matteo, Giuda Taddeo e Simone.",
+     "highlight": [
+      "p-g4"
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "at": 30,
+     "text": "I gruppi sono diversi, ma si bilanciano: due a sinistra e due a destra di Cristo, come in uno specchio.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 37,
+     "text": "L'effetto è quello di onde che partono da Cristo: più forti negli apostoli vicini, più calme in quelli alle estremità.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 45,
+     "text": "Guarda la luce: arriva da sinistra, dove nel refettorio si aprivano le finestre vere.",
+     "highlight": [
+      "p-luce"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 52,
+     "text": "Il chiarore delle finestre sul fondo, invece, crea un controluce attorno alla testa di Cristo.",
+     "highlight": [
+      "p-finestre-2"
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "at": 58,
+     "text": "Ecco i colori principali del dipinto, calcolati dall'immagine: oggi sono più spenti di come li dipinse Leonardo.",
+     "highlight": [],
+     "sourceIds": [
+      "w-cenacolo",
+      "calc-colori"
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "at": 0,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 16,
+     "azimuth": -20,
+     "elevation": 10
+    },
+    {
+     "at": 6,
+     "target": {
+      "entity": "region",
+      "part": "gruppo-1"
+     },
+     "distance": 9,
+     "azimuth": -28,
+     "elevation": 8
+    },
+    {
+     "at": 12,
+     "target": {
+      "entity": "region",
+      "part": "gruppo-2"
+     },
+     "distance": 9,
+     "azimuth": -22,
+     "elevation": 8
+    },
+    {
+     "at": 18,
+     "target": {
+      "entity": "region",
+      "part": "gruppo-3"
+     },
+     "distance": 9,
+     "azimuth": 22,
+     "elevation": 8
+    },
+    {
+     "at": 24,
+     "target": {
+      "entity": "region",
+      "part": "gruppo-4"
+     },
+     "distance": 9,
+     "azimuth": 28,
+     "elevation": 8
+    },
+    {
+     "at": 30,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 15,
+     "azimuth": 0,
+     "elevation": 6
+    },
+    {
+     "at": 45,
+     "target": {
+      "entity": "region",
+      "part": "bartolomeo",
+      "offset": [
+       2,
+       1.5,
+       0
+      ]
+     },
+     "distance": 11,
+     "azimuth": -10,
+     "elevation": 6
+    },
+    {
+     "at": 52,
+     "target": {
+      "entity": "region",
+      "part": "finestre"
+     },
+     "distance": 8,
+     "azimuth": 0,
+     "elevation": 4
+    },
+    {
+     "at": 58,
+     "target": {
+      "entity": "artwork"
+     },
+     "distance": 16,
+     "azimuth": 0,
+     "elevation": 14
+    }
+   ],
+   "pins": [
+    {
+     "id": "p-g1",
+     "name": "Primo gruppo",
+     "sub": "Bartolomeo · Giacomo di Alfeo · Andrea",
+     "info": "Il gruppo all'estremità sinistra.",
+     "kind": "group",
+     "anchor": {
+      "entity": "layer",
+      "part": "l-gruppo-1"
+     },
+     "visible": [
+      [
+       6,
+       37
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "id": "p-g2",
+     "name": "Secondo gruppo",
+     "sub": "Giuda · Pietro · Giovanni",
+     "info": "Il gruppo più vicino a Cristo, a sinistra.",
+     "kind": "group",
+     "anchor": {
+      "entity": "layer",
+      "part": "l-gruppo-2"
+     },
+     "visible": [
+      [
+       12,
+       37
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "id": "p-g3",
+     "name": "Terzo gruppo",
+     "sub": "Tommaso · Giacomo il Maggiore · Filippo",
+     "info": "Il gruppo più vicino a Cristo, a destra.",
+     "kind": "group",
+     "anchor": {
+      "entity": "layer",
+      "part": "l-gruppo-3"
+     },
+     "visible": [
+      [
+       18,
+       37
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "id": "p-g4",
+     "name": "Quarto gruppo",
+     "sub": "Matteo · Giuda Taddeo · Simone",
+     "info": "Il gruppo all'estremità destra.",
+     "kind": "group",
+     "anchor": {
+      "entity": "layer",
+      "part": "l-gruppo-4"
+     },
+     "visible": [
+      [
+       24,
+       37
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo",
+      "wd-cenacolo"
+     ]
+    },
+    {
+     "id": "p-luce",
+     "name": "Luce da sinistra",
+     "info": "Corrisponde alla finestra vera del refettorio.",
+     "kind": "note",
+     "anchor": {
+      "entity": "region",
+      "part": "bartolomeo",
+      "offset": [
+       1.2,
+       2.6,
+       0
+      ]
+     },
+     "visible": [
+      [
+       45,
+       58
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "id": "p-finestre-2",
+     "name": "Controluce",
+     "info": "Il chiarore del fondo isola la testa di Cristo.",
+     "kind": "note",
+     "anchor": {
+      "entity": "region",
+      "part": "finestre"
+     },
+     "visible": [
+      [
+       52,
+       58
+      ]
+     ],
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    }
+   ],
+   "deep": [
+    {
+     "text": "Non è un vero affresco: Leonardo dipinse «a secco» su intonaco, con una tempera grassa, per poter ritoccare con calma come faceva sulle tavole di legno.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "text": "Proprio questa tecnica, con l'umidità del muro confinante con le cucine, rovinò presto il dipinto: Vasari, che lo vide nel 1566, scrisse che si scorgeva ormai solo «una macchia abbagliata».",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "text": "Nell'agosto del 1943 un bombardamento distrusse la volta del refettorio, ma il dipinto si salvò, protetto da sacchi di sabbia.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    },
+    {
+     "text": "L'ultimo grande restauro durò dal 1978 al 1999, con la restauratrice Pinin Brambilla. Dal 1980 il Cenacolo, con la chiesa e il convento, è patrimonio dell'umanità UNESCO.",
+     "sourceIds": [
+      "w-cenacolo"
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Da dove arriva la luce nel dipinto?",
+     "options": [
+      "Da sinistra",
+      "Da destra",
+      "Dal basso"
+     ],
+     "answer": 0,
+     "explain": "Da sinistra, come la luce delle finestre vere del refettorio."
+    },
+    {
+     "type": "pick",
+     "q": "Tocca il gruppo di Giuda, Pietro e Giovanni.",
+     "answerPins": [
+      "p-g2"
+     ],
+     "explain": "È il secondo gruppo, il più vicino a Cristo sul lato sinistro."
+    },
+    {
+     "type": "choice",
+     "q": "Perché il dipinto si è rovinato così presto?",
+     "options": [
+      "Leonardo dipinse a secco su un muro umido",
+      "Fu colpito da un fulmine",
+      "Fu dipinto su una tavola di legno"
+     ],
+     "answer": 0,
+     "explain": "La tecnica a secco non resisteva all'umidità della parete, vicina alle cucine."
+    }
+   ],
+   "sounds": {
+    "ambience": [],
+    "cues": [
+     {
+      "at": 0.5,
+      "sound": "page-turn",
+      "volume": 0.25
+     },
+     {
+      "at": 6,
+      "sound": "pop",
+      "volume": 0.2
+     },
+     {
+      "at": 12,
+      "sound": "pop",
+      "volume": 0.2
+     },
+     {
+      "at": 18,
+      "sound": "pop",
+      "volume": 0.2
+     },
+     {
+      "at": 24,
+      "sound": "pop",
+      "volume": 0.2
+     },
+     {
+      "at": 45,
+      "sound": "whoosh-soft",
+      "volume": 0.2
+     },
+     {
+      "at": 58,
+      "sound": "sparkle",
+      "volume": 0.25
+     }
+    ]
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "w-cenacolo",
+   "kind": "wikipedia",
+   "title": "Ultima Cena (Leonardo)",
+   "url": "https://it.wikipedia.org/wiki/Ultima_Cena_(Leonardo)",
+   "publisher": "Wikipedia, l'enciclopedia libera",
+   "accessed": "2026-11-04",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "wd-cenacolo",
+   "kind": "wikidata",
+   "title": "Ultima Cena (Q128910): autore, data, luogo, figure raffigurate e loro posizione nell'immagine",
+   "url": "https://www.wikidata.org/wiki/Q128910",
+   "publisher": "Wikidata",
+   "accessed": "2026-11-04",
+   "wikidataId": "Q128910",
+   "license": "CC0 1.0"
+  },
+  {
+   "id": "commons-cenacolo",
+   "kind": "web",
+   "title": "Leonardo da Vinci, The Last Supper (File:Leonardo da Vinci (1452-1519) - The Last Supper (1495-1498).jpg)",
+   "url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg",
+   "publisher": "Wikimedia Commons",
+   "accessed": "2026-11-04",
+   "license": "Public domain"
+  },
+  {
+   "id": "calc-fuga",
+   "kind": "computed",
+   "title": "Punto di fuga: incrocio (minimi quadrati) delle linee tracciate sui bordi del soffitto e degli arazzi"
+  },
+  {
+   "id": "calc-colori",
+   "kind": "computed",
+   "title": "Colori principali: raggruppamento (k-means) dei pixel dell'immagine"
+  }
+ ],
+ "videos": [],
+ "disclaimers": [
+  "Immagine dell'opera: file in pubblico dominio da Wikimedia Commons.",
+  "Linee della prospettiva, gruppi, frecce e colori sono tracciati o calcolati sull'immagine a scopo didattico.",
+  "Le posizioni dei personaggi nell'immagine vengono da Wikidata."
+ ],
+ "engineData": {
+  "artwork": {
+   "title": "Ultima Cena (Cenacolo)",
+   "author": "Leonardo da Vinci",
+   "date": "1494-1498",
+   "technique": "tempera e olio su intonaco",
+   "location": "Milano, refettorio del convento di Santa Maria delle Grazie",
+   "kind": "fresco",
+   "wikidataId": "Q128910",
+   "sizeCm": [
+    880,
+    460
+   ],
+   "image": {
+    "asset": "art/ultima-cena-leonardo.jpg",
+    "width": 2048,
+    "height": 1067,
+    "sourceId": "commons-cenacolo"
+   },
+   "link": "https://it.wikipedia.org/wiki/Ultima_Cena_(Leonardo)",
+   "sourceIds": [
+    "w-cenacolo",
+    "wd-cenacolo"
+   ]
+  },
+  "presentation": {
+   "mount": "wall",
+   "width": 12
+  },
+  "regions": [
+   {
+    "id": "cristo",
+    "name": "Cristo",
+    "rect": [
+     0.429375,
+     0.426207,
+     0.160253,
+     0.274268
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "bartolomeo",
+    "name": "Bartolomeo",
+    "rect": [
+     0.047744,
+     0.426207,
+     0.111956,
+     0.318607
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "giacomo-alfeo",
+    "name": "Giacomo di Alfeo",
+    "rect": [
+     0.141964,
+     0.430958,
+     0.062074,
+     0.247348
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "andrea",
+    "name": "Andrea",
+    "rect": [
+     0.166508,
+     0.437292,
+     0.090578,
+     0.253682
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "giuda",
+    "name": "Giuda Iscariota",
+    "rect": [
+     0.263895,
+     0.492716,
+     0.139667,
+     0.225178
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "pietro",
+    "name": "Pietro",
+    "rect": [
+     0.221932,
+     0.475297,
+     0.153919,
+     0.207759
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "giovanni",
+    "name": "Giovanni",
+    "rect": [
+     0.338321,
+     0.465796,
+     0.104038,
+     0.223595
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "tommaso",
+    "name": "Tommaso",
+    "rect": [
+     0.564766,
+     0.426207,
+     0.052573,
+     0.141251
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "giacomo-maggiore",
+    "name": "Giacomo il Maggiore",
+    "rect": [
+     0.544181,
+     0.434125,
+     0.146002,
+     0.234679
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "filippo",
+    "name": "Filippo",
+    "rect": [
+     0.629691,
+     0.400871,
+     0.104038,
+     0.228345
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "matteo",
+    "name": "Matteo",
+    "rect": [
+     0.664529,
+     0.411956,
+     0.180048,
+     0.282185
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "taddeo",
+    "name": "Giuda Taddeo",
+    "rect": [
+     0.833967,
+     0.421457,
+     0.071576,
+     0.229929
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "simone",
+    "name": "Simone",
+    "rect": [
+     0.847427,
+     0.426207,
+     0.152573,
+     0.28559
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "gruppo-1",
+    "name": "Bartolomeo, Giacomo di Alfeo, Andrea",
+    "rect": [
+     0.0477,
+     0.4262,
+     0.2094,
+     0.3186
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "gruppo-2",
+    "name": "Giuda, Pietro, Giovanni",
+    "rect": [
+     0.2219,
+     0.4658,
+     0.2205,
+     0.2521
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "gruppo-3",
+    "name": "Tommaso, Giacomo il Maggiore, Filippo",
+    "rect": [
+     0.5442,
+     0.4009,
+     0.1895,
+     0.2679
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "gruppo-4",
+    "name": "Matteo, Giuda Taddeo, Simone",
+    "rect": [
+     0.6645,
+     0.412,
+     0.3355,
+     0.2998
+    ],
+    "sourceIds": [
+     "wd-cenacolo"
+    ]
+   },
+   {
+    "id": "finestre",
+    "name": "Le tre finestre",
+    "rect": [
+     0.36,
+     0.36,
+     0.27,
+     0.12
+    ]
+   },
+   {
+    "id": "soffitto",
+    "name": "Soffitto a cassettoni",
+    "rect": [
+     0.29,
+     0,
+     0.42,
+     0.17
+    ]
+   }
+  ],
+  "overlays": [
+   {
+    "id": "prospettiva",
+    "kind": "perspective",
+    "lines": [
+     [
+      0.02,
+      0.022,
+      0.2,
+      0.187
+     ],
+     [
+      0.97,
+      0.025,
+      0.82,
+      0.161
+     ],
+     [
+      0.25,
+      0.01,
+      0.33,
+      0.156
+     ],
+     [
+      0.74,
+      0.01,
+      0.66,
+      0.155
+     ],
+     [
+      0.396,
+      0.01,
+      0.42,
+      0.119
+     ],
+     [
+      0.586,
+      0.01,
+      0.56,
+      0.136
+     ]
+    ]
+   },
+   {
+    "id": "ipotesi",
+    "kind": "guess",
+    "perspective": "prospettiva",
+    "start": [
+     0.3,
+     0.3
+    ]
+   },
+   {
+    "id": "asse",
+    "kind": "axis",
+    "x": 0.494
+   },
+   {
+    "id": "piramide",
+    "kind": "polygon",
+    "points": [
+     [
+      0.493,
+      0.43
+     ],
+     [
+      0.435,
+      0.68
+     ],
+     [
+      0.57,
+      0.68
+     ]
+    ],
+    "closed": true
+   },
+   {
+    "id": "luce",
+    "kind": "arrow",
+    "from": [
+     0.06,
+     0.2
+    ],
+    "to": [
+     0.3,
+     0.38
+    ],
+    "style": "light"
+   },
+   {
+    "id": "sguardo-pietro",
+    "kind": "arrow",
+    "from": [
+     0.3,
+     0.5
+    ],
+    "to": [
+     0.36,
+     0.52
+    ],
+    "style": "gaze"
+   },
+   {
+    "id": "sguardo-filippo",
+    "kind": "arrow",
+    "from": [
+     0.665,
+     0.47
+    ],
+    "to": [
+     0.54,
+     0.5
+    ],
+    "style": "gaze"
+   },
+   {
+    "id": "colori",
+    "kind": "palette",
+    "count": 6
+   }
+  ],
+  "layers": [
+   {
+    "id": "l-cristo",
+    "region": "cristo",
+    "depth": 0.5
+   },
+   {
+    "id": "l-gruppo-1",
+    "region": "gruppo-1",
+    "depth": 0.35
+   },
+   {
+    "id": "l-gruppo-2",
+    "region": "gruppo-2",
+    "depth": 0.55
+   },
+   {
+    "id": "l-gruppo-3",
+    "region": "gruppo-3",
+    "depth": 0.55
+   },
+   {
+    "id": "l-gruppo-4",
+    "region": "gruppo-4",
+    "depth": 0.35
+   }
+  ],
+  "params": [
+   {
+    "id": "fuga-x",
+    "label": "punto ↔",
+    "kind": "guess-x",
+    "target": "ipotesi",
+    "min": 0,
+    "max": 1,
+    "step": 0.005
+   },
+   {
+    "id": "fuga-y",
+    "label": "punto ↕",
+    "kind": "guess-y",
+    "target": "ipotesi",
+    "min": 0,
+    "max": 1,
+    "step": 0.005
+   },
+   {
+    "id": "rilievo",
+    "label": "rilievo",
+    "kind": "depth",
+    "target": "l-gruppo-2",
+    "min": 0,
+    "max": 1.5,
+    "step": 0.05
+   }
+  ],
+  "chapters": [
+   {
+    "chapter": "momento",
+    "actions": [
+     {
+      "do": "tour",
+      "target": "cristo",
+      "at": 21,
+      "until": 30
+     },
+     {
+      "do": "tour",
+      "target": "pietro",
+      "at": 30,
+      "until": 37
+     },
+     {
+      "do": "show",
+      "target": "sguardo-pietro",
+      "at": 31,
+      "until": 37,
+      "draw": 1.2
+     },
+     {
+      "do": "tour",
+      "target": "giuda",
+      "at": 37,
+      "until": 44
+     },
+     {
+      "do": "tour",
+      "target": "giacomo-maggiore",
+      "at": 44,
+      "until": 51
+     },
+     {
+      "do": "show",
+      "target": "sguardo-filippo",
+      "at": 46,
+      "until": 51,
+      "draw": 1.2
+     },
+     {
+      "do": "tour",
+      "target": "gruppo-4",
+      "at": 51,
+      "until": 58
+     },
+     {
+      "do": "lift",
+      "target": "l-cristo",
+      "at": 59,
+      "until": 67
+     },
+     {
+      "do": "highlight",
+      "target": "cristo",
+      "at": 59,
+      "until": 67
+     }
+    ]
+   },
+   {
+    "chapter": "prospettiva",
+    "actions": [
+     {
+      "do": "show",
+      "target": "ipotesi",
+      "at": 1,
+      "until": 16,
+      "draw": 1.5
+     },
+     {
+      "do": "highlight",
+      "target": "soffitto",
+      "at": 8,
+      "until": 16
+     },
+     {
+      "do": "show",
+      "target": "prospettiva",
+      "at": 9,
+      "until": 46,
+      "draw": 7
+     },
+     {
+      "do": "tour",
+      "target": "cristo",
+      "at": 22,
+      "until": 38
+     },
+     {
+      "do": "show",
+      "target": "asse",
+      "at": 39,
+      "until": 47,
+      "draw": 2
+     },
+     {
+      "do": "highlight",
+      "target": "finestre",
+      "at": 40,
+      "until": 47
+     },
+     {
+      "do": "show",
+      "target": "piramide",
+      "at": 47,
+      "until": 60,
+      "draw": 3
+     }
+    ]
+   },
+   {
+    "chapter": "gruppi",
+    "actions": [
+     {
+      "do": "lift",
+      "target": "l-gruppo-1",
+      "at": 6,
+      "until": 37
+     },
+     {
+      "do": "lift",
+      "target": "l-gruppo-2",
+      "at": 12,
+      "until": 37
+     },
+     {
+      "do": "lift",
+      "target": "l-gruppo-3",
+      "at": 18,
+      "until": 37
+     },
+     {
+      "do": "lift",
+      "target": "l-gruppo-4",
+      "at": 24,
+      "until": 37
+     },
+     {
+      "do": "show",
+      "target": "asse",
+      "at": 30,
+      "until": 44,
+      "draw": 2
+     },
+     {
+      "do": "show",
+      "target": "luce",
+      "at": 45,
+      "until": 58,
+      "draw": 2
+     },
+     {
+      "do": "highlight",
+      "target": "finestre",
+      "at": 52,
+      "until": 58
+     },
+     {
+      "do": "show",
+      "target": "colori",
+      "at": 58,
+      "draw": 2.5
+     }
+    ]
+   }
+  ]
+ }
+}

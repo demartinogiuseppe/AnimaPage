@@ -1,0 +1,1751 @@
+{
+  "version": "0.1",
+  "engine": "stage",
+  "title": "At the café",
+  "page": {
+    "subject": "Inglese",
+    "topic": "Dialogo al bar: ordinare e chiedere il conto (livello A1-A2)",
+    "bookPage": "52",
+    "language": "it"
+  },
+  "kind": "mixed",
+  "style": "color",
+  "music": {
+    "track": "music-calm",
+    "volume": 0.35
+  },
+  "voices": [
+    {
+      "id": "anna",
+      "name": "Anna",
+      "lang": "en-GB",
+      "prefer": "female",
+      "pitch": 1.1,
+      "rate": 0.9
+    },
+    {
+      "id": "tom",
+      "name": "Tom",
+      "lang": "en-GB",
+      "prefer": "male",
+      "rate": 0.9
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "lang": "en-GB",
+      "prefer": "male",
+      "pitch": 0.9,
+      "rate": 0.9
+    }
+  ],
+  "sources": [
+    {
+      "id": "page",
+      "kind": "page",
+      "title": "Libro di inglese, p. 52: «At the café», dialogo per ordinare e chiedere il conto"
+    },
+    {
+      "id": "wp-inglese",
+      "kind": "wikipedia",
+      "title": "Lingua inglese",
+      "url": "https://it.wikipedia.org/wiki/Lingua_inglese",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-cappuccino",
+      "kind": "wikipedia",
+      "title": "Cappuccino (bevanda)",
+      "url": "https://it.wikipedia.org/wiki/Cappuccino_(bevanda)",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wp-sterlina",
+      "kind": "wikipedia",
+      "title": "Sterlina britannica",
+      "url": "https://it.wikipedia.org/wiki/Sterlina_britannica",
+      "publisher": "Wikipedia, l'enciclopedia libera",
+      "accessed": "2026-11-04",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "videos": [],
+  "disclaimers": [
+    "Dialogo inventato per esercitarsi: i personaggi, il bar e i movimenti sul palco sono creati per l'animazione.",
+    "Le battute in inglese sono lette dalla voce sintetica del dispositivo: la pronuncia può non essere perfetta."
+  ],
+  "chapters": [
+    {
+      "id": "ordinare",
+      "title": "Al bar: ordinare",
+      "chip": "Ordinare",
+      "kind": "mixed",
+      "duration": 44,
+      "book": {
+        "heading": "At the café",
+        "formula": "What would you like?",
+        "lines": [
+          "Anna e Tom ordinano al bar.",
+          "please = per favore",
+          "thank you = grazie"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Che cosa chiederà il cameriere ad Anna e Tom?",
+          "options": [
+            "What would you like?",
+            "How old are you?",
+            "Where is the station?"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Ascolta e guarda chi parla: il riflettore segue chi dice la battuta."
+        },
+        "prove": {
+          "text": "Il cameriere chiede «What would you like?», cioè «Che cosa desiderate?». Anna risponde «A cappuccino, please».",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Cliente gentile"
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Siamo in un piccolo bar di Londra. Entrano Anna e Tom e si siedono a un tavolino.",
+          "highlight": [
+            "anna",
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 7.5,
+          "text": "Arriva subito il cameriere, Sam. Ascolta che cosa dice.",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 12.5,
+          "text": "Hello! What would you like?",
+          "speaker": "sam",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 16,
+          "text": "«What would you like?» vuol dire: che cosa desiderate?",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "A cappuccino, please.",
+          "speaker": "anna",
+          "highlight": [
+            "anna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 23,
+          "text": "Can I have a croissant, please?",
+          "speaker": "tom",
+          "highlight": [
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 26.5,
+          "text": "Of course. Anything else?",
+          "speaker": "sam",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 29.5,
+          "text": "No, thank you.",
+          "speaker": "tom",
+          "highlight": [
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 32.5,
+          "text": "«Please» vuol dire per favore, «thank you» vuol dire grazie: con queste due parole ordini in modo gentile.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 38.5,
+          "text": "Sam torna al bancone e prepara il cappuccino.",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 13.6,
+          "azimuth": 0,
+          "elevation": 12
+        },
+        {
+          "at": 9,
+          "target": {
+            "pos": [
+              0,
+              1.1,
+              0.2
+            ]
+          },
+          "distance": 13.4,
+          "azimuth": -8,
+          "elevation": 10
+        },
+        {
+          "at": 20,
+          "target": {
+            "pos": [
+              1,
+              0.9,
+              0.4
+            ]
+          },
+          "distance": 9.5,
+          "azimuth": 14,
+          "elevation": 13
+        },
+        {
+          "at": 32,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 12.4,
+          "azimuth": -6,
+          "elevation": 11
+        }
+      ],
+      "pins": [
+        {
+          "id": "anna",
+          "name": "Anna",
+          "sub": "cliente",
+          "info": "Anna ordina un cappuccino.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "anna.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              4,
+              44
+            ]
+          ],
+          "marker": "#b3342a"
+        },
+        {
+          "id": "tom",
+          "name": "Tom",
+          "sub": "amico di Anna",
+          "info": "Tom ordina un croissant e chiede il conto.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "tom.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              4,
+              44
+            ]
+          ],
+          "marker": "#2c5fa6"
+        },
+        {
+          "id": "sam",
+          "name": "Sam",
+          "sub": "il cameriere · waiter",
+          "info": "Sam lavora al bar: prende le ordinazioni e porta il conto.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "sam.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "marker": "#2e7d46"
+        }
+      ],
+      "deep": [
+        {
+          "text": "L'inglese appartiene al gruppo delle lingue germaniche occidentali ed è la lingua nativa dell'Inghilterra.",
+          "sourceIds": [
+            "wp-inglese"
+          ]
+        },
+        {
+          "text": "Oggi lo parlano circa 1,5 miliardi di persone, e 372 milioni lo hanno come madrelingua.",
+          "sourceIds": [
+            "wp-inglese"
+          ]
+        },
+        {
+          "text": "«Can I have…, please?» è un modo gentile e molto comune per chiedere qualcosa.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa vuol dire «please»?",
+          "options": [
+            "Per favore",
+            "Grazie",
+            "Ciao"
+          ],
+          "answer": 0,
+          "explain": "«Please» vuol dire «per favore»: Anna lo usa quando ordina il cappuccino."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca il cameriere (the waiter).",
+          "answerPins": [
+            "sam"
+          ],
+          "explain": "Il cameriere è Sam: in inglese si dice «waiter»."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "crowd",
+            "volume": 0.16
+          }
+        ],
+        "cues": [
+          {
+            "at": 1.2,
+            "sound": "bell",
+            "volume": 0.35
+          },
+          {
+            "at": 1.6,
+            "sound": "footsteps",
+            "volume": 0.4
+          },
+          {
+            "at": 5.3,
+            "sound": "wood-hit",
+            "volume": 0.25
+          },
+          {
+            "at": 8.2,
+            "sound": "footsteps",
+            "volume": 0.35
+          },
+          {
+            "at": 33.2,
+            "sound": "footsteps",
+            "volume": 0.3
+          },
+          {
+            "at": 40.2,
+            "sound": "beep",
+            "volume": 0.3
+          },
+          {
+            "at": 40.8,
+            "sound": "beep",
+            "volume": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "parole",
+      "title": "Le parole del bar",
+      "chip": "Parole",
+      "kind": "mixed",
+      "duration": 44,
+      "book": {
+        "heading": "Le parole del bar",
+        "formula": "cup · table · chair",
+        "lines": [
+          "waiter = cameriere",
+          "Here you are = ecco a te",
+          "You're welcome = prego"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Come si dice «tazza» in inglese?",
+          "options": [
+            "cup",
+            "chair",
+            "table"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Guarda che cosa porta Sam al tavolo e leggi il nome inglese di ogni oggetto."
+        },
+        "prove": {
+          "text": "La tazza è «cup», il tavolo «table», la sedia «chair». Quando porge la tazza, Sam dice «Here you are».",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Esperto delle parole del bar"
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ecco Sam con l'ordinazione. Impariamo le parole del bar!",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 8,
+          "text": "Here you are. A cappuccino.",
+          "speaker": "sam",
+          "highlight": [
+            "sam",
+            "cup"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 11,
+          "text": "Thank you!",
+          "speaker": "anna",
+          "highlight": [
+            "anna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 13,
+          "text": "You're welcome.",
+          "speaker": "sam",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 15.5,
+          "text": "«Here you are» si dice quando dai qualcosa a qualcuno: vuol dire «ecco a te».",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 20,
+          "text": "La tazza si dice «cup», il tavolo «table», la sedia «chair».",
+          "highlight": [
+            "cup",
+            "table",
+            "chair"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 25.5,
+          "text": "And a croissant for you.",
+          "speaker": "sam",
+          "highlight": [
+            "sam",
+            "croissant"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 28.5,
+          "text": "Thanks! It looks great.",
+          "speaker": "tom",
+          "highlight": [
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 31.5,
+          "text": "In inglese il cameriere si chiama «waiter» e la cameriera «waitress».",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 36.5,
+          "text": "E il cappuccino? Si chiama così anche in inglese: è caffè espresso con latte montato a vapore.",
+          "highlight": [
+            "cup"
+          ],
+          "sourceIds": [
+            "wp-cappuccino"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 13,
+          "azimuth": 4,
+          "elevation": 12
+        },
+        {
+          "at": 6,
+          "target": {
+            "pos": [
+              0.6,
+              1,
+              0.4
+            ]
+          },
+          "distance": 10.1,
+          "azimuth": 10,
+          "elevation": 14
+        },
+        {
+          "at": 19,
+          "target": {
+            "entity": "prop",
+            "part": "tavolo.top"
+          },
+          "distance": 8.1,
+          "azimuth": -12,
+          "elevation": 34
+        },
+        {
+          "at": 30,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 11.8,
+          "azimuth": 0,
+          "elevation": 11
+        }
+      ],
+      "pins": [
+        {
+          "id": "anna",
+          "name": "Anna",
+          "sub": "cliente",
+          "info": "Anna ordina un cappuccino.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "anna.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "marker": "#b3342a"
+        },
+        {
+          "id": "tom",
+          "name": "Tom",
+          "sub": "amico di Anna",
+          "info": "Tom ordina un croissant e chiede il conto.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "tom.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "marker": "#2c5fa6"
+        },
+        {
+          "id": "sam",
+          "name": "Sam",
+          "sub": "il cameriere · waiter",
+          "info": "Sam lavora al bar: prende le ordinazioni e porta il conto.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "sam.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "marker": "#2e7d46"
+        },
+        {
+          "id": "cup",
+          "name": "cup",
+          "sub": "la tazza",
+          "info": "Nella tazza c'è il cappuccino di Anna.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "cup.top",
+            "offset": [
+              0,
+              0.08,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              3,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "croissant",
+          "name": "croissant",
+          "sub": "il cornetto",
+          "info": "Il croissant di Tom: in inglese si usa la parola francese.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "croissant.top",
+            "offset": [
+              0,
+              0.06,
+              0
+            ]
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              2,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "table",
+          "name": "table",
+          "sub": "il tavolo",
+          "info": "Il tavolino dove sono seduti Anna e Tom.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "tavolo.front"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              18,
+              44
+            ]
+          ]
+        },
+        {
+          "id": "chair",
+          "name": "chair",
+          "sub": "la sedia",
+          "info": "Anna e Tom sono seduti su due sedie.",
+          "kind": "object",
+          "anchor": {
+            "entity": "prop",
+            "part": "sedia-r.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              18,
+              44
+            ]
+          ]
+        }
+      ],
+      "deep": [
+        {
+          "text": "Il cappuccino è fatto con caffè preparato con il metodo espresso e latte montato a vapore: è conosciuto in tutto il mondo.",
+          "sourceIds": [
+            "wp-cappuccino"
+          ]
+        },
+        {
+          "text": "Il nome viene dalla somiglianza con il colore marrone del saio dei frati cappuccini.",
+          "sourceIds": [
+            "wp-cappuccino"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Che cosa rispondi a «Thank you!»?",
+          "options": [
+            "You're welcome.",
+            "Here you are.",
+            "Anything else?"
+          ],
+          "answer": 0,
+          "explain": "«You're welcome» vuol dire «prego»: è la risposta di Sam al «Thank you» di Anna."
+        },
+        {
+          "type": "pick",
+          "q": "Tocca la «cup».",
+          "answerPins": [
+            "cup"
+          ],
+          "explain": "«Cup» è la tazza: dentro c'è il cappuccino di Anna."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "crowd",
+            "volume": 0.16
+          }
+        ],
+        "cues": [
+          {
+            "at": 1,
+            "sound": "pop",
+            "volume": 0.25
+          },
+          {
+            "at": 4.1,
+            "sound": "footsteps",
+            "volume": 0.35
+          },
+          {
+            "at": 8.6,
+            "sound": "wood-hit",
+            "volume": 0.2
+          },
+          {
+            "at": 19.2,
+            "sound": "footsteps",
+            "volume": 0.3
+          },
+          {
+            "at": 20.2,
+            "sound": "chime",
+            "volume": 0.3
+          },
+          {
+            "at": 26.2,
+            "sound": "wood-hit",
+            "volume": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "conto",
+      "title": "Il conto, per favore",
+      "chip": "Il conto",
+      "kind": "mixed",
+      "duration": 44,
+      "book": {
+        "heading": "Il conto, per favore",
+        "formula": "Can we have the bill, please?",
+        "lines": [
+          "bill = conto",
+          "Have a nice day! = buona giornata!",
+          "£ = sterlina"
+        ],
+        "sourceIds": [
+          "page"
+        ]
+      },
+      "activity": {
+        "predict": {
+          "q": "Che cosa risponderà il cameriere quando Tom chiede il conto?",
+          "options": [
+            "Sure. That's five pounds fifty, please.",
+            "I'm fine, thank you.",
+            "Nice to meet you!"
+          ],
+          "answer": 0
+        },
+        "test": {
+          "prompt": "Fai la parte di Tom: quando il riflettore è su di lui, ripeti la sua battuta. Abbassa le luci di sala per seguire solo il riflettore.",
+          "params": [
+            "luci"
+          ]
+        },
+        "prove": {
+          "text": "Sam risponde «Sure. That's five pounds fifty, please.»: dice il prezzo e aggiunge please, per gentilezza.",
+          "sourceIds": [
+            "page"
+          ]
+        },
+        "stamp": "Attore in inglese"
+      },
+      "narration": [
+        {
+          "at": 0,
+          "text": "Ora tocca a te: fai la parte di Tom. Quando la luce è su di lui, ripeti la sua battuta.",
+          "highlight": [
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 6,
+          "text": "Excuse me! Can we have the bill, please?",
+          "speaker": "tom",
+          "highlight": [
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 10,
+          "text": "Sure!",
+          "speaker": "sam",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 14.5,
+          "text": "That's five pounds fifty, please.",
+          "speaker": "sam",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 18,
+          "text": "Here you are.",
+          "speaker": "anna",
+          "highlight": [
+            "anna"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 21,
+          "text": "Thank you. Have a nice day!",
+          "speaker": "sam",
+          "highlight": [
+            "sam"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 24.5,
+          "text": "You too. Goodbye!",
+          "speaker": "tom",
+          "highlight": [
+            "tom"
+          ],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 27.5,
+          "text": "«The bill» è il conto. In Gran Bretagna si paga in sterline, e una sterlina vale cento pence.",
+          "highlight": [],
+          "sourceIds": [
+            "page",
+            "wp-sterlina"
+          ]
+        },
+        {
+          "at": 34,
+          "text": "Bravo! Ora sai ordinare al bar e chiedere il conto in inglese.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        },
+        {
+          "at": 38.5,
+          "text": "Rifai la scena con un compagno: uno fa il cameriere, l'altro il cliente.",
+          "highlight": [],
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "camera": [
+        {
+          "at": 0,
+          "target": {
+            "pos": [
+              1,
+              0.9,
+              0.4
+            ]
+          },
+          "distance": 11.6,
+          "azimuth": 10,
+          "elevation": 13
+        },
+        {
+          "at": 9.5,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 11.1,
+          "azimuth": -4,
+          "elevation": 11
+        },
+        {
+          "at": 15,
+          "target": {
+            "pos": [
+              1.4,
+              1,
+              0.3
+            ]
+          },
+          "distance": 9.2,
+          "azimuth": -2,
+          "elevation": 12
+        },
+        {
+          "at": 30,
+          "target": {
+            "entity": "set",
+            "part": "center"
+          },
+          "distance": 13.6,
+          "azimuth": 0,
+          "elevation": 12
+        }
+      ],
+      "pins": [
+        {
+          "id": "anna",
+          "name": "Anna",
+          "sub": "cliente",
+          "info": "Anna ordina un cappuccino.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "anna.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              0,
+              34
+            ]
+          ],
+          "marker": "#b3342a"
+        },
+        {
+          "id": "tom",
+          "name": "Tom",
+          "sub": "amico di Anna",
+          "info": "Tom ordina un croissant e chiede il conto.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "tom.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "visible": [
+            [
+              0,
+              34
+            ]
+          ],
+          "marker": "#2c5fa6"
+        },
+        {
+          "id": "sam",
+          "name": "Sam",
+          "sub": "il cameriere · waiter",
+          "info": "Sam lavora al bar: prende le ordinazioni e porta il conto.",
+          "kind": "person",
+          "anchor": {
+            "entity": "character",
+            "part": "sam.top"
+          },
+          "sourceIds": [
+            "page"
+          ],
+          "marker": "#2e7d46"
+        }
+      ],
+      "deep": [
+        {
+          "text": "Dal 15 febbraio 1971, il «Decimal Day», una sterlina vale 100 pence. Il simbolo della sterlina è £.",
+          "sourceIds": [
+            "wp-sterlina"
+          ]
+        },
+        {
+          "text": "«Excuse me!» serve per chiamare qualcuno con gentilezza, per esempio il cameriere.",
+          "sourceIds": [
+            "page"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Come chiedi il conto in modo gentile?",
+          "options": [
+            "Can we have the bill, please?",
+            "Give me the bill!",
+            "Where is the bill?"
+          ],
+          "answer": 0,
+          "explain": "«Can we have the bill, please?» è una domanda gentile: usa «can» e «please»."
+        },
+        {
+          "type": "pick",
+          "q": "Chi chiede il conto? Toccalo.",
+          "answerPins": [
+            "tom"
+          ],
+          "explain": "È Tom: «Excuse me! Can we have the bill, please?»."
+        }
+      ],
+      "sounds": {
+        "ambience": [
+          {
+            "sound": "crowd",
+            "volume": 0.16
+          }
+        ],
+        "cues": [
+          {
+            "at": 10.6,
+            "sound": "footsteps",
+            "volume": 0.35
+          },
+          {
+            "at": 18.4,
+            "sound": "coins",
+            "volume": 0.45
+          },
+          {
+            "at": 31.6,
+            "sound": "wood-hit",
+            "volume": 0.2
+          },
+          {
+            "at": 32.2,
+            "sound": "footsteps",
+            "volume": 0.4
+          },
+          {
+            "at": 33.6,
+            "sound": "bell",
+            "volume": 0.3
+          },
+          {
+            "at": 39.5,
+            "sound": "applause",
+            "volume": 0.45
+          }
+        ]
+      }
+    }
+  ],
+  "engineData": {
+    "set": {
+      "backdrop": "piazza",
+      "size": [
+        7,
+        4.5
+      ]
+    },
+    "characters": [
+      {
+        "id": "anna",
+        "model": "woman-f",
+        "pos": [
+          0.15,
+          0.95
+        ]
+      },
+      {
+        "id": "tom",
+        "model": "man-e",
+        "pos": [
+          1.85,
+          0.95
+        ]
+      },
+      {
+        "id": "sam",
+        "model": "man-d",
+        "pos": [
+          -2.3,
+          -1.4
+        ]
+      }
+    ],
+    "props": [
+      {
+        "id": "bancone",
+        "model": "bar-counter",
+        "pos": [
+          -2.3,
+          0,
+          -0.9
+        ],
+        "scale": 1.4
+      },
+      {
+        "id": "macchina-caffe",
+        "model": "coffee-machine",
+        "pos": [
+          -2.75,
+          1.54,
+          -0.95
+        ]
+      },
+      {
+        "id": "insegna",
+        "model": {
+          "shape": "text",
+          "text": "CAFÉ",
+          "color": "#b3342a",
+          "height": 0.38,
+          "plate": "#f6f1e6"
+        },
+        "pos": [
+          -2.3,
+          2.45,
+          -1.55
+        ]
+      },
+      {
+        "id": "tavolo",
+        "model": "table-round",
+        "pos": [
+          1,
+          0,
+          0.1
+        ],
+        "scale": 0.85
+      },
+      {
+        "id": "sedia-l",
+        "model": "chair",
+        "pos": [
+          0.15,
+          0,
+          0.35
+        ],
+        "rot": 65,
+        "scale": 1.15
+      },
+      {
+        "id": "sedia-r",
+        "model": "chair",
+        "pos": [
+          1.85,
+          0,
+          0.35
+        ],
+        "rot": -65,
+        "scale": 1.15
+      },
+      {
+        "id": "cup",
+        "model": "coffee-cup",
+        "pos": [
+          -1.95,
+          1.54,
+          -0.8
+        ],
+        "scale": 2,
+        "hidden": true
+      },
+      {
+        "id": "croissant",
+        "model": "croissant",
+        "pos": [
+          -2.4,
+          1.54,
+          -0.75
+        ],
+        "scale": 2.4,
+        "hidden": true
+      },
+      {
+        "id": "pianta",
+        "model": "plant-pot",
+        "pos": [
+          3,
+          0,
+          -1.2
+        ]
+      },
+      {
+        "id": "pianta-2",
+        "model": "plant-pot",
+        "pos": [
+          -0.9,
+          0,
+          -1.5
+        ]
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "ordinare",
+        "blocking": [
+          {
+            "do": "enter",
+            "who": "anna",
+            "at": 1.5,
+            "side": "right",
+            "to": [
+              0.15,
+              0.95
+            ],
+            "dur": 3.5
+          },
+          {
+            "do": "enter",
+            "who": "tom",
+            "at": 1.9,
+            "side": "right",
+            "to": [
+              1.85,
+              0.95
+            ],
+            "dur": 2.8
+          },
+          {
+            "do": "sit",
+            "who": "tom",
+            "at": 5,
+            "on": "sedia-r"
+          },
+          {
+            "do": "sit",
+            "who": "anna",
+            "at": 5.3,
+            "on": "sedia-l"
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 8,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 9,
+            "to": [
+              2.2,
+              -1.1
+            ],
+            "dur": 2.4
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 11.4,
+            "to": [
+              2.75,
+              0.3
+            ],
+            "dur": 1
+          },
+          {
+            "do": "gesture",
+            "who": "sam",
+            "at": 12.6,
+            "clip": "interact-right",
+            "dur": 1.4
+          },
+          {
+            "do": "gesture",
+            "who": "anna",
+            "at": 20.2,
+            "clip": "emote-yes",
+            "dur": 1.3
+          },
+          {
+            "do": "gesture",
+            "who": "tom",
+            "at": 29.6,
+            "clip": "emote-no",
+            "dur": 1.3
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 33,
+            "to": [
+              2.2,
+              -1.1
+            ],
+            "dur": 1.2
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 34.2,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 2.4
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 36.7,
+            "to": [
+              -2.3,
+              -1.4
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "face",
+            "who": "sam",
+            "at": 38.2,
+            "toward": "macchina-caffe"
+          },
+          {
+            "do": "gesture",
+            "who": "sam",
+            "at": 39.6,
+            "clip": "interact-right",
+            "dur": 1.6
+          },
+          {
+            "do": "face",
+            "who": "sam",
+            "at": 42,
+            "toward": "audience"
+          }
+        ]
+      },
+      {
+        "chapter": "parole",
+        "blocking": [
+          {
+            "do": "sit",
+            "who": "tom",
+            "at": 0,
+            "on": "sedia-r"
+          },
+          {
+            "do": "sit",
+            "who": "anna",
+            "at": 0,
+            "on": "sedia-l"
+          },
+          {
+            "do": "show",
+            "prop": "cup",
+            "at": 1
+          },
+          {
+            "do": "show",
+            "prop": "croissant",
+            "at": 1.2
+          },
+          {
+            "do": "take",
+            "who": "sam",
+            "at": 3.4,
+            "prop": "cup"
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 4,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 5,
+            "to": [
+              -0.55,
+              -0.45
+            ],
+            "dur": 1.2
+          },
+          {
+            "do": "put",
+            "who": "sam",
+            "at": 8.6,
+            "prop": "cup",
+            "on": [
+              0.72,
+              0.64,
+              0.25
+            ]
+          },
+          {
+            "do": "gesture",
+            "who": "anna",
+            "at": 11.1,
+            "clip": "emote-yes",
+            "dur": 1.3
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 18.6,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 1.6
+          },
+          {
+            "do": "face",
+            "who": "sam",
+            "at": 21,
+            "toward": "croissant"
+          },
+          {
+            "do": "take",
+            "who": "sam",
+            "at": 21.6,
+            "prop": "croissant"
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 22.2,
+            "to": [
+              2.2,
+              -1.1
+            ],
+            "dur": 2.2
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 24.4,
+            "to": [
+              2.75,
+              0.3
+            ],
+            "dur": 1.1
+          },
+          {
+            "do": "put",
+            "who": "sam",
+            "at": 26.1,
+            "prop": "croissant",
+            "on": [
+              1.28,
+              0.64,
+              0.25
+            ]
+          },
+          {
+            "do": "gesture",
+            "who": "tom",
+            "at": 28.6,
+            "clip": "emote-yes",
+            "dur": 1.3
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 33,
+            "to": [
+              2.2,
+              -1.1
+            ],
+            "dur": 1.2
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 34.2,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 2.4
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 36.7,
+            "to": [
+              -2.3,
+              -1.4
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "face",
+            "who": "sam",
+            "at": 37.8,
+            "toward": "audience"
+          }
+        ]
+      },
+      {
+        "chapter": "conto",
+        "params": [
+          {
+            "id": "luci",
+            "kind": "lights",
+            "label": "Luci di sala",
+            "min": 0.15,
+            "max": 1,
+            "step": 0.05,
+            "value": 1
+          }
+        ],
+        "blocking": [
+          {
+            "do": "sit",
+            "who": "tom",
+            "at": 0,
+            "on": "sedia-r"
+          },
+          {
+            "do": "sit",
+            "who": "anna",
+            "at": 0,
+            "on": "sedia-l"
+          },
+          {
+            "do": "gesture",
+            "who": "tom",
+            "at": 6.1,
+            "clip": "interact-right",
+            "dur": 1.5
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 10.5,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 11.5,
+            "to": [
+              2.2,
+              -1.1
+            ],
+            "dur": 2.3
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 13.8,
+            "to": [
+              2.75,
+              0.3
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "gesture",
+            "who": "anna",
+            "at": 18.1,
+            "clip": "interact-right",
+            "dur": 1.5
+          },
+          {
+            "do": "gesture",
+            "who": "sam",
+            "at": 21.2,
+            "clip": "emote-yes",
+            "dur": 1.3
+          },
+          {
+            "do": "stand",
+            "who": "anna",
+            "at": 31
+          },
+          {
+            "do": "stand",
+            "who": "tom",
+            "at": 31.2
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 31.5,
+            "to": [
+              2.2,
+              -1.1
+            ],
+            "dur": 1.2
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 32.7,
+            "to": [
+              -1.4,
+              -1.15
+            ],
+            "dur": 2.4
+          },
+          {
+            "do": "exit",
+            "who": "anna",
+            "at": 32,
+            "side": "right",
+            "dur": 3.4
+          },
+          {
+            "do": "exit",
+            "who": "tom",
+            "at": 32.3,
+            "side": "right",
+            "dur": 2.6
+          },
+          {
+            "do": "walk",
+            "who": "sam",
+            "at": 35.2,
+            "to": [
+              -2.3,
+              -1.4
+            ],
+            "dur": 0.9
+          },
+          {
+            "do": "face",
+            "who": "sam",
+            "at": 36.3,
+            "toward": "audience"
+          },
+          {
+            "do": "gesture",
+            "who": "sam",
+            "at": 39.4,
+            "clip": "emote-yes",
+            "dur": 1.5
+          }
+        ]
+      }
+    ]
+  }
+}
