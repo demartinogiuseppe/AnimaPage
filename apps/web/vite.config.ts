@@ -49,7 +49,9 @@ const SCENES_DIR = fileURLToPath(new URL("../../fixtures/public/scenes", import.
 const ALL_EXAMPLES = process.env.PAGINAVIVA_ALL_EXAMPLES === "1";
 const sceneIndex: Plugin = {
   name: "pv-scene-index",
-  buildStart() {
+  // `config` runs before the dev server lists the public files: the generated file must exist by then
+  // (on a fresh clone it does not, and Vite would answer scenes/index.json with the app shell).
+  config() {
     writeSceneIndex(SCENES_DIR, { all: ALL_EXAMPLES });
   },
   configureServer(server) {
@@ -69,7 +71,8 @@ const WEB_DIR = fileURLToPath(new URL(".", import.meta.url));
 let exportRuntimeBuilt = false;
 const exportRuntime: Plugin = {
   name: "pv-export-runtime",
-  buildStart() {
+  // `config`, not `buildStart`: on a fresh clone the runtime must exist before the dev server lists the public files.
+  config() {
     if (exportRuntimeBuilt) return; // once per run, not once per environment
     exportRuntimeBuilt = true;
     execFileSync(process.execPath, ["--import", "tsx", "scripts/build-export-runtime.ts"], { cwd: WEB_DIR, stdio: "inherit" });
