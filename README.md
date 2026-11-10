@@ -103,7 +103,7 @@ pnpm dev:server                      # API at http://127.0.0.1:8787
   what the test suite uses. The public repository does not include the page photos, nor the recordings
   made from protected book pages, so turning your own photo into a lesson needs live mode. Mock mode runs
   the demo scenes and the remaining recordings.
-- Phone (HTTPS, camera, WebXR, PWA): `pnpm dev:phone`, see [docs/dev-setup.md](docs/dev-setup.md).
+- Phone (HTTPS, camera, WebXR, PWA): `pnpm dev:phone`. Step-by-step guide: [Using AnimaPage on a phone](docs/usage.md#using-animapage-on-a-phone) (italiano: [Usare AnimaPage sul telefono](docs/guida.md#usare-animapage-sul-telefono)); developer notes in [docs/dev-setup.md](docs/dev-setup.md).
 - Lesson export: [docs/export.md](docs/export.md).
 
 Repository layout (pnpm monorepo): `apps/web` (Vite app and PWA), `server` (Node/Fastify pipeline),
@@ -226,7 +226,7 @@ lezioni di riferimento usate durante lo sviluppo venivano da pagine di libri e n
 È in fase iniziale e provato su poche pagine reali. È stato costruito orchestrando agenti Claude Code: le
 decisioni sono del proprietario, il codice è scritto dagli agenti, un compito alla volta con revisione.
 Cerchiamo riscontri da insegnanti, studenti ed editori. Avvio rapido: `pnpm install`, `pnpm dev:web`;
-per le foto proprie vedi `server/.env.example`. Licenza MIT.
+per le foto proprie vedi `server/.env.example`; per il telefono vedi [Usare AnimaPage sul telefono](docs/guida.md#usare-animapage-sul-telefono). Licenza MIT.
 
 **Sicurezza.** È uno strumento locale, senza account: `pnpm dev:web` e `pnpm dev:server` ascoltano solo sul
 PC; `pnpm dev:phone` apre l'app alla rete Wi-Fi con un codice di accesso nuovo a ogni avvio (apri una volta sul

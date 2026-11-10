@@ -143,7 +143,7 @@ All formats end up side by side in one "Esporta" menu in the lesson. Each part g
    - a quiz answer and a Predict → Try → Prove step work;
    - no console errors.
 3. The `.wgt` is a valid zip with `config.xml` and `index.html`, and its `index.html` passes the same checks.
-4. **A manual check in a real OpenBoard install on this PC, done with the user.** Installing OpenBoard needs the user's OK first. Record the results, and any SMART or ActivInspire findings, in `docs/dev-setup.md` or a new `docs/export.md`.
+4. **A manual check in a real OpenBoard install on the development PC, done with the user.** Installing OpenBoard needs the user's OK first. Record the results, and any SMART or ActivInspire findings, in `docs/dev-setup.md` or a new `docs/export.md`.
 5. `pnpm test` stays green (today: 811 passed, 5 skipped).
 
 ### Left to the builder

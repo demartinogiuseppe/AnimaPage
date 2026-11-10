@@ -168,12 +168,109 @@ Una lezione creata da una pagina di un libro protetto ne riassume il contenuto: 
 passarla fuori dalla tua classe senza il permesso dell'editore. Vedi [Privacy](#privacy) e il README,
 [Note legali e privacy](../README.md#in-breve-italiano).
 
-## Su telefono o tablet
+## Usare AnimaPage sul telefono
 
-Il telefono apre l'app dal computer su cui è installato AnimaPage, sulla stessa rete Wi-Fi. Serve una
-configurazione da sviluppatore su quel computer (`pnpm dev:phone`, che serve l'app in HTTPS così
-fotocamera e realtà aumentata funzionano): vedi [dev-setup.md](dev-setup.md#phone-m5). Quando è avviata,
-apri sul telefono l'indirizzo che viene mostrato e usa **Scatta una foto**.
+Il telefono non ha AnimaPage dentro: apre l'app dal computer su cui l'hai installata, tramite il Wi-Fi di casa o
+della scuola. Serve la prima volta un po' di preparazione (circa dieci minuti); poi ogni volta bastano due
+comandi sul computer e un link sul telefono.
+
+### 1. Cosa serve
+
+- Il computer (Windows) con AnimaPage installato, acceso, con il server avviato.
+- Il telefono e il computer sulla **stessa rete Wi-Fi**. In Windows quella rete deve essere impostata come
+  **Privata** (Impostazioni → Rete e Internet → Wi-Fi o Ethernet → la tua rete → Tipo di profilo di rete →
+  Privata).
+- Consigliato: un telefono **Android con Chrome**. Fotocamera e realtà aumentata sono stati provati su Android;
+  la realtà aumentata richiede Chrome e «Google Play Services per AR». Su iPhone (Safari) non è stato provato:
+  non possiamo promettere che funzioni.
+- OpenSSL: di solito arriva con Git for Windows e serve a creare il certificato (passo 3). Se manca, `pnpm dev:phone` lo dice; in alternativa usa il cavo USB (passo 5).
+
+### 2. Sul computer
+
+Apri due terminali nella cartella di AnimaPage e scrivi:
+
+```sh
+pnpm dev:server      # primo terminale: il server che legge le foto
+pnpm dev:phone       # secondo terminale: prepara l'app per il telefono
+```
+
+`pnpm dev:phone` compila l'app (qualche secondo) e poi mostra un riquadro con:
+
+- **un link di accesso**, che somiglia a `https://192.168.1.20:5443/api/lan?t=…` (il tuo indirizzo sarà diverso)
+  e contiene un codice di questa sessione;
+- eventuali **altri indirizzi del computer**, da provare se il primo non funziona;
+- l'indirizzo del **certificato da installare** (`https://…:5443/pagina-viva-ca.crt`), solo la prima volta;
+- lo stato dell'API: se dice «NON raggiungibile», avvia `pnpm dev:server`.
+
+Lascia aperti i due terminali finché usi il telefono. Per fermare tutto premi `Ctrl+C`.
+
+### 3. Solo la prima volta: installa il certificato sul telefono
+
+Fotocamera e realtà aumentata funzionano solo su pagine `https://`. AnimaPage crea per questo un piccolo
+«certificato» tutto suo; se non lo installi il telefono mostra un avviso di sicurezza e, soprattutto, l'app non
+può funzionare offline né essere aggiunta alla schermata Home.
+
+1. Sul telefono apri Chrome e digita l'indirizzo del certificato mostrato dal computer
+   (`https://…:5443/pagina-viva-ca.crt`). Può comparire un avviso di sicurezza: è normale prima di installare il
+   certificato; scegli **Avanzate** e poi **Procedi** solo per questo download.
+2. Il file `pagina-viva-ca.crt` viene scaricato. Se Android propone di installarlo subito, accetta; altrimenti:
+3. Apri **Impostazioni → Sicurezza → Crittografia e credenziali → Installa un certificato → Certificato CA**
+   (i nomi cambiano da telefono a telefono: cerca «certificato» nella ricerca delle impostazioni).
+4. Android avverte che un certificato CA può essere rischioso: conferma con **Installa comunque**, inserisci il
+   PIN o lo sblocco dello schermo (Android lo richiede) e scegli il file `pagina-viva-ca.crt` scaricato.
+
+Cosa fa questo certificato: serve solo ad AnimaPage. È **limitato agli indirizzi locali** (`localhost` e le reti
+di casa `192.168.x.x`, `10.x.x.x`, `172.16-31.x.x`), quindi non può essere usato per falsificare siti veri come
+la banca. La chiave segreta resta nella cartella `apps/web/.cert/` del computer: non condividere quella cartella.
+
+Per **toglierlo** quando non ti serve più: Impostazioni → Sicurezza → Crittografia e credenziali →
+**Credenziali utente** → tocca il certificato di AnimaPage → **Rimuovi**.
+
+### 4. Ogni volta che avvii
+
+1. Con `pnpm dev:server` e `pnpm dev:phone` in funzione, sul telefono apri **una volta** il **link di accesso**
+   (quello con `/api/lan?t=…`). Puoi copiarlo sul telefono con un messaggio a te stesso, o scriverlo.
+2. L'app si apre. Usa **Scatta una foto**.
+3. Il codice nel link cambia **a ogni riavvio** di `pnpm dev:phone`: dopo un riavvio apri il link nuovo.
+   Il computer stesso non ha bisogno del codice (`https://localhost:5443/`).
+
+Se vedi il messaggio **«Questo dispositivo non è autorizzato: apri il link di accesso mostrato sul PC
+(pnpm dev:phone), poi riprova.»** significa che il telefono non ha ancora aperto il link di accesso di questa
+sessione (o l'hai aperto prima di un riavvio): apri il link nuovo. Il codice impedisce ad altri dispositivi sulla
+stessa rete di usare il tuo AnimaPage e i tuoi crediti AI.
+
+### 5. Facoltativo
+
+- **Aggiungere l'app alla schermata Home.** AnimaPage è una PWA: con il certificato installato, in Chrome tocca
+  il menu (tre puntini) e scegli **Aggiungi a schermata Home** o **Installa app**. (La voce esatta dipende dalla
+  versione di Chrome; questo passaggio non è stato provato su un telefono vero.)
+- **Con il cavo USB.** Alternativa senza Wi-Fi né certificato: sul telefono attiva «Debug USB» (Opzioni
+  sviluppatore), collegalo al computer con `adb` installato (Android platform-tools) e scrivi
+  `pnpm dev:phone --usb`. Sul telefono apri `http://localhost:5443/`. Non serve il link di accesso.
+
+### 6. Se qualcosa non va
+
+- **Il telefono non si collega (pagina che non carica).** Controlla che sia sulla stessa Wi-Fi del computer (non
+  sui dati mobili, non su una rete «ospiti») e che `pnpm dev:phone` sia ancora in funzione. Prova gli altri
+  indirizzi mostrati. Se ancora non va, di solito è il firewall di Windows: la rete deve essere **Privata** e
+  Node.js deve poter ricevere connessioni su reti private. *Opzione avanzata*, in PowerShell **come
+  amministratore** (sostituisci `Ethernet` con il nome della tua rete, che vedi con `Get-NetConnectionProfile`):
+
+  ```powershell
+  Set-NetConnectionProfile -InterfaceAlias "Ethernet" -NetworkCategory Private
+  New-NetFirewallRule -DisplayName "AnimaPage telefono 5443" -Direction Inbound -Protocol TCP -LocalPort 5443 -Action Allow -Profile Private
+  ```
+
+- **Avviso di certificato** («La connessione non è privata»). Il certificato non è installato, oppure è
+  cambiato: ripeti il passo 3. Se il computer ha un indirizzo nuovo, il server emette da solo un certificato
+  nuovo; il certificato CA sul telefono resta valido. Dopo aver cancellato `apps/web/.cert/` va reinstallato.
+- **«Questo dispositivo non è autorizzato…».** Apri il link di accesso aggiornato (passo 4).
+- **La fotocamera non si apre.** Serve una pagina `https://` senza avvisi (passo 3) e il permesso della
+  fotocamera per Chrome (Impostazioni di Android → App → Chrome → Autorizzazioni). **Scatta una foto** apre
+  l'app fotocamera del telefono.
+- **«Non riesco a contattare il server».** Il server non è avviato: lancia `pnpm dev:server` sul computer.
+
+Dettagli per sviluppatori: [dev-setup.md](dev-setup.md#phone-m5); sicurezza: [security.md](security.md).
 
 ## Privacy
 

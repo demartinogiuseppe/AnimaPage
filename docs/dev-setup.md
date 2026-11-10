@@ -118,7 +118,7 @@ pnpm icons:web           # regenerate the PWA icons (apps/web/icons/icon.svg -> 
 ranks adapters (Hyper-V/WSL/VPN names hidden, VirtualBox `192.168.56.x` last). It serves a **production build**
 through `vite preview` (same `/api` + `/cache` proxy as dev): the phone loads a few bundled files instead of
 hundreds of dev modules, and the service worker exists only in a build. No HMR: rerun after code changes.
-Build takes ~13 s on this PC.
+A build takes a few seconds to ~15 s.
 
 LAN access token (docs/security.md): each start makes a new random token and prints the phone URL as an access
 link, `https://<ip>:5443/api/lan?t=<token>`. Open it once on the phone: it sets an HttpOnly cookie and opens the
@@ -137,7 +137,7 @@ TLS" or "requested through localhost"; without TLS it suggests USB port forwardi
 | --- | --- | --- | --- |
 | **Local CA (default)**: `dev:phone` makes `apps/web/.cert/ca.crt` + a server cert for the LAN IPs; the CA is installed once on the phone as a user CA | yes | yes | one-time CA install (Android asks for a screen lock) |
 | Same HTTPS server, CA **not** installed: "Avanzate → Procedi" on the warning | expected yes (page is https); check `?debug=1` (`sicuro sì`, `XR immersive-ar OK`) | **no**: Chrome refuses to register a service worker when the certificate has an error ("An SSL certificate error occurred when fetching the script"), so no offline mode | none |
-| `--usb`: `adb reverse` (adb 1.0.41, `adb --help`: `reverse [--no-rebind] REMOTE LOCAL`; on this PC via scrcpy) | yes (localhost) | yes | USB cable + USB debugging |
+| `--usb`: `adb reverse` (`adb --help`: `reverse [--no-rebind] REMOTE LOCAL`) | yes (localhost) | yes | USB cable + USB debugging |
 | `chrome://flags/#unsafely-treat-insecure-origin-as-secure` with `http://<ip>:5173` | reported to work (Chromium security-dev threads), unofficial | unclear | changes the browser's flags; not recommended |
 
 Chrome on Android trusts CAs in the **user** certificate store (apps since Android 7 must opt in, Chrome does: the
@@ -158,9 +158,9 @@ phone). Vite reads `PAGINAVIVA_HTTPS_KEY` / `PAGINAVIVA_HTTPS_CERT` (`server.htt
 
 ### Windows firewall
 
-Observed on this PC (read-only: `Get-NetConnectionProfile`, `netsh advfirewall firewall show rule name=all dir=in`):
-the home network (`Ethernet`, `iliadbox-…`) is **Private**; the inbound rules for `C:\program files\nodejs\node.exe`
-**allow** TCP/UDP on Private and **block** on Public. The phone can connect while the network stays Private. If the
+Windows normally adds inbound rules for `node.exe` (typically `C:\Program Files\nodejs\node.exe`) that **allow** TCP/UDP
+on Private networks and **block** on Public ones (list them with `netsh advfirewall firewall show rule name=all dir=in`;
+show the network type with `Get-NetConnectionProfile`). The phone can connect while the network is Private. If the
 phone times out, in an **administrator** PowerShell (parameters checked with `Get-Command New-NetFirewallRule` /
 `Get-Command Set-NetConnectionProfile`):
 
@@ -238,22 +238,22 @@ Di default ogni fase usa Claude (abbonamento, Claude Code CLI). Nell'app, **Impo
 
 ### Gemini (Gemini CLI, account Google)
 
-1. Installazione (su questo PC c'è già la 0.63.0): `npm install -g @google/gemini-cli`. Per aggiornarla: `npm install -g @google/gemini-cli@latest`.
+1. Installazione (provata con la 0.63.0): `npm install -g @google/gemini-cli`. Per aggiornarla: `npm install -g @google/gemini-cli@latest`.
 2. Accesso: in un terminale scrivi `gemini`, scegli **Login with Google** e completa l'accesso nel browser; poi esci con `/quit`.
 3. Prova: `gemini -p "rispondi ok" -o json --skip-trust` deve stampare un JSON con `"response"`.
 
-Attenzione: il 5/11/2026 il tuo account personale è stato **rifiutato** dalla CLI 0.63.0 (`IneligibleTierError: This client is no longer supported for Gemini Code Assist for individuals`, con l'invito a passare ad Antigravity). Prova ad aggiornare la CLI e a rifare l'accesso; se l'errore resta, con questo account Gemini via CLI non funziona. Alternativa: una chiave API di Google AI Studio nella voce `gemini-api` (commentata) di `llm_providers.yaml`, con `GEMINI_API_KEY=` in `server/.env`; controlla prima limiti e termini del piano gratuito.
+Attenzione: il 5/11/2026 un account Google personale è stato **rifiutato** dalla CLI 0.63.0 (`IneligibleTierError: This client is no longer supported for Gemini Code Assist for individuals`, con l'invito a passare ad Antigravity). Prova ad aggiornare la CLI e a rifare l'accesso; se l'errore resta, con questo account Gemini via CLI non funziona. Alternativa: una chiave API di Google AI Studio nella voce `gemini-api` (commentata) di `llm_providers.yaml`, con `GEMINI_API_KEY=` in `server/.env`; controlla prima limiti e termini del piano gratuito.
 
 ### Modelli sul PC: Ollama o LM Studio
 
-Con 8 GB di VRAM girano solo modelli piccoli (3–4 miliardi di parametri, quantizzati). Vanno discretamente per leggere la foto e per il controllo visivo; per **Creazione della scena** (uno schema JSON da 15–30 mila caratteri) la qualità sarà probabilmente bassa e spesso uscirà la scheda di riserva al posto della scena 3D. Consiglio: modello locale per *Lettura della foto* o *Controllo visivo*, Claude per *Creazione della scena*.
+Con 8 GB di VRAM (scheda video di fascia media) girano solo modelli piccoli (3–4 miliardi di parametri, quantizzati). Vanno discretamente per leggere la foto e per il controllo visivo; per **Creazione della scena** (uno schema JSON da 15–30 mila caratteri) la qualità sarà probabilmente bassa e spesso uscirà la scheda di riserva al posto della scena 3D. Consiglio: modello locale per *Lettura della foto* o *Controllo visivo*, Claude per *Creazione della scena*.
 
 **Ollama**
 1. Installa da https://ollama.com/download (Windows). Parte da solo in background su http://localhost:11434.
 2. Scarica un modello che vede le immagini: `ollama pull gemma3:4b` (3,4 GB) oppure `ollama pull qwen2.5vl:3b` (3,2 GB).
 3. In Impostazioni il modello diventa disponibile entro 15 secondi.
 
-**LM Studio** (già installato su questo PC)
+**LM Studio** (da installare a parte)
 1. Cerca e scarica `google/gemma-3-4b` (supporta le immagini).
 2. Avvia il server locale dalla scheda per sviluppatori di LM Studio (porta 1234) e carica il modello.
 3. Se il nome del modello che LM Studio mostra è diverso, correggilo in `server/config/llm_providers.yaml` (voce `lmstudio`).

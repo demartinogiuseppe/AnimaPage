@@ -52,7 +52,7 @@ Typical size: 3–3.6 MB. The largest reference scene is about 7 MB.
 
 | Check | Where | Result |
 |---|---|---|
-| `pnpm test` | this PC | 853 passed, 5 skipped |
+| `pnpm test` | development PC (Windows) | 853 passed, 5 skipped |
 | `pnpm export:e2e`, all reference scenes | headless Chrome, network blocked | 36 passed |
 | Export through the real menu: `scienze-sensi` (pop-up book, with an activity) and `matematica-parabola` (maths with formulas) as `.html` + `.wgt` | running app, 2026-11-09 | 3.0–3.1 MB each |
 | Offline layout at 1280×800 and 1024×720 | Chrome, `file://` | ready, no scrollbars, 0 network requests, 0 page errors |
