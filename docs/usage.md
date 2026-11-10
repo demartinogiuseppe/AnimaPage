@@ -2,7 +2,7 @@
 
 A guide for teachers, students and parents. Italian version: [guida.md](guida.md).
 
-AnimaPage turns a photo of a page of a study book into an animated 3D lesson. The lesson has a voice
+AnimaPage turns a photo of a page of a study book or of notes into an animated 3D lesson. The lesson has a voice
 that reads it, labels on the scene, questions, a small activity and the list of its sources. You can keep
 the lesson and share it as a file that works without the internet.
 
@@ -11,8 +11,10 @@ if it is set to another language, the names change with it.
 
 ## Which pages work best
 
-- **A page of a study book**: any subject (history, geography, science, maths, grammar, art, music,
-  languages...), any language.
+- **A page of a study book or of notes**: any subject (history, geography, science, maths, grammar, art,
+  music, languages...), any language.
+- **Legible handwriting, if it is a page of notes**: clear, well-lit notes in block letters are more
+  likely to work. Handwritten notes have not been tried yet, so no result is promised.
 - **The whole page in the photo**, all four corners inside.
 - **The book flat**, the phone parallel to the page, not at an angle.
 - **Good light**: near a window or under a lamp, with no shadows (watch out for the phone's own shadow)
@@ -20,8 +22,9 @@ if it is set to another language, the names change with it.
 - **A sharp photo**: tap the page on the screen to focus and keep the phone still. Small print must be
   readable.
 
-AnimaPage is meant for study-book pages. It is not a general tool for any photo of any text. It is in an
-early stage and has been tried on few real pages: some pages will not work well.
+AnimaPage is meant for pages of study books or of notes. It is not a general tool for any photo of any
+text. It is in an early stage and has been tried on few real pages: some pages will not work well. It has
+not yet been tried on handwritten notes; feedback is welcome.
 
 Do not photograph pages with personal data (pupils' names, grades, faces). See [Privacy](#privacy).
 
@@ -284,7 +287,8 @@ contain mistakes: a teacher or another adult should look a lesson over before us
   Check that **Voice** is on and the volume is up.
 - **"I can't read the page well."** Take the photo again with more light, holding the phone still and
   framing the whole page. Very dark, blurred or slanted photos fail; so do photos that are not of a book
-  page.
+  or notes page. Handwritten notes have not been tried yet: if they fail, retry with better light and clearer
+  letters, and tell us.
 - **"In test mode I only recognise the example pages."** The server is running in test mode: whoever
   installed AnimaPage has to switch it to live mode (see the README, Quick start).
 - **It is slow.** A lesson takes a few minutes; the first chapter opens after about a minute and a half.

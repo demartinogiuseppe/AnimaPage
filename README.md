@@ -1,6 +1,6 @@
 # AnimaPage
 
-**A photo of a page of a study book becomes an animated, interactive 3D lesson in a few minutes.**
+**A photo of a page of a study book or of notes becomes an animated, interactive 3D lesson in a few minutes.**
 
 **Try it online:** [ten example lessons](https://demartinogiuseppe.github.io/AnimaPage/) · **Prova online:** [dieci lezioni di esempio](https://demartinogiuseppe.github.io/AnimaPage/)
 
@@ -8,7 +8,7 @@
 
 <!-- DEMO GIF: docs/media/demo.gif (to be recorded by the owner) -->
 
-You photograph a page of a study book: any subject, any language. The AI does **not** generate images
+You photograph a page of a study book or of notes: any subject, any language. The AI does **not** generate images
 or video. It reads the page and writes a *declarative scene* (a `SceneSpec`: chapters, narration,
 labels, quizzes, camera, data). Hand-built three.js "theatres" then stage that scene on your device,
 with facts and numbers checked against sources.
@@ -123,8 +123,10 @@ the local CI.
 
 - Early stage. It has been tested on only about seven real book pages, mostly Italian school material.
   Do not expect it to work on every page.
-- It is meant for **a page of a study book**, any subject, any language. It is not a general tool for
-  any photo of any text.
+- It is meant for **a page of a study book or of notes**, any subject, any language. It is not a general
+  tool for any photo of any text.
+- Not yet tried on handwritten notes. Clear, well-lit notes written in block letters are more likely to
+  work. Feedback is welcome.
 - The adult/university ("Academic") style has not been tried on a real university page.
 - On a phone, the Predict card covers a large part of the scene.
 - Theatre labels have complete tables only for Italian and English; right-to-left scripts are only
@@ -207,8 +209,8 @@ AnimaPage is an early-stage tool, shared as is. This is a plain summary, not leg
 
 ## In breve (italiano)
 
-**AnimaPage** trasforma la foto di una pagina di un libro di studio (qualsiasi materia, qualsiasi
-lingua) in una lezione 3D animata e interattiva in pochi minuti. L'AI non genera immagini né video: legge
+**AnimaPage** trasforma la foto di una pagina di un libro di studio o di appunti (di qualsiasi
+materia e lingua) in una lezione 3D animata e interattiva in pochi minuti. L'AI non genera immagini né video: legge
 la pagina e scrive una sceneggiatura dichiarativa (SceneSpec); 17 "teatri" three.js fatti a mano la
 mettono in scena sul dispositivo. Fatti e numeri sono verificati su Wikipedia e Wikidata; un controllo
 visivo rigenera la lezione solo per gli errori bloccanti. Ogni lezione ha voce narrante, etichette, quiz,
@@ -223,7 +225,7 @@ teatri mappa, diorama, processo e concetti (non matematica) sono lezioni di esem
 il progetto (i grandi fiumi d'Europa, un breve racconto inventato, il ciclo dell'acqua, il nome): le
 lezioni di riferimento usate durante lo sviluppo venivano da pagine di libri e non sono pubblicate.
 
-È in fase iniziale e provato su poche pagine reali. È stato costruito orchestrando agenti Claude Code: le
+È in fase iniziale e provato su poche pagine reali. Non ancora provato su appunti scritti a mano: quelli chiari, ben illuminati e in stampatello hanno più probabilità di riuscire; i riscontri sono benvenuti. È stato costruito orchestrando agenti Claude Code: le
 decisioni sono del proprietario, il codice è scritto dagli agenti, un compito alla volta con revisione.
 Cerchiamo riscontri da insegnanti, studenti ed editori. Avvio rapido: `pnpm install`, `pnpm dev:web`;
 per le foto proprie vedi `server/.env.example`; per il telefono vedi [Usare AnimaPage sul telefono](docs/guida.md#usare-animapage-sul-telefono). Licenza MIT.

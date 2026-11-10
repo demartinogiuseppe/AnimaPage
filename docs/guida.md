@@ -2,7 +2,7 @@
 
 Guida per insegnanti, studenti e genitori. English version: [usage.md](usage.md).
 
-AnimaPage trasforma la foto di una pagina di un libro di studio in una lezione 3D animata. La lezione ha
+AnimaPage trasforma la foto di una pagina di un libro di studio o di appunti in una lezione 3D animata. La lezione ha
 una voce che la legge, etichette sulla scena, domande, una piccola attività e l'elenco delle sue fonti.
 Puoi conservarla e condividerla come file che funziona anche senza internet.
 
@@ -11,8 +11,11 @@ se è impostata su un'altra lingua, i nomi cambiano con lei.
 
 ## Quali pagine funzionano meglio
 
-- **Una pagina di un libro di studio**: qualsiasi materia (storia, geografia, scienze, matematica,
-  grammatica, arte, musica, lingue...), qualsiasi lingua.
+- **Una pagina di un libro di studio o di appunti**: qualsiasi materia (storia, geografia, scienze,
+  matematica, grammatica, arte, musica, lingue...), qualsiasi lingua.
+- **Scrittura leggibile, se sono appunti**: quelli chiari, ben illuminati e in stampatello hanno più
+  probabilità di riuscire. Gli appunti scritti a mano non sono ancora stati provati, quindi nessun risultato
+  è garantito.
 - **Tutta la pagina nella foto**, con i quattro angoli dentro.
 - **Il libro piatto**, il telefono parallelo alla pagina, non di sbieco.
 - **Buona luce**: vicino a una finestra o sotto una lampada, senza ombre (attento a quella del telefono)
@@ -20,8 +23,9 @@ se è impostata su un'altra lingua, i nomi cambiano con lei.
 - **Una foto nitida**: tocca lo schermo sulla pagina per mettere a fuoco e tieni fermo il telefono. Le
   scritte piccole devono leggersi.
 
-AnimaPage è pensato per le pagine dei libri di studio, non per qualsiasi foto di qualsiasi testo. È in
-una fase iniziale ed è stato provato su poche pagine reali: alcune pagine non verranno bene.
+AnimaPage è pensato per le pagine di libri di studio o di appunti, non per qualsiasi foto di qualsiasi
+testo. È in una fase iniziale ed è stato provato su poche pagine reali: alcune pagine non verranno bene.
+Non ancora provato su appunti scritti a mano: i riscontri sono benvenuti.
 
 Non fotografare pagine con dati personali (nomi, voti, volti degli alunni). Vedi [Privacy](#privacy).
 
@@ -293,7 +297,8 @@ dovrebbe rivederle prima di usarle in classe.
   Controlla che **Voce** sia accesa e il volume alto.
 - **«Non riesco a leggere bene la pagina.»** Rifai la foto con più luce, tenendo fermo il telefono e
   inquadrando tutta la pagina. Le foto molto scure, mosse o storte non funzionano; neanche quelle che non
-  sono pagine di un libro.
+  sono pagine di un libro o di appunti. Gli appunti scritti a mano non sono ancora stati provati: se non
+  vanno, riprova con più luce e lettere più chiare, e facci sapere.
 - **«In modalità di prova riconosco solo le pagine di esempio.»** Il server è in modalità di prova: chi ha
   installato AnimaPage deve passarlo in modalità live (vedi il README, Quick start).
 - **È lento.** Una lezione richiede qualche minuto; il primo capitolo si apre dopo circa un minuto e
