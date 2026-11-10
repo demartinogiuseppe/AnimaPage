@@ -2,6 +2,8 @@
 
 **A photo of a page of a study book becomes an animated, interactive 3D lesson in a few minutes.**
 
+**Try it online:** [ten example lessons](https://demartinogiuseppe.github.io/AnimaPage/) · **Prova online:** [dieci lezioni di esempio](https://demartinogiuseppe.github.io/AnimaPage/)
+
 **Using AnimaPage:** [user guide](docs/usage.md) · **Come si usa:** [guida in italiano](docs/guida.md)
 
 <!-- DEMO GIF: docs/media/demo.gif (to be recorded by the owner) -->
