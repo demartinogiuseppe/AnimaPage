@@ -109,7 +109,7 @@ export default defineConfig({
       manifest: {
         name: "AnimaPage",
         short_name: "AnimaPage",
-        description: "Fotografa una pagina di un libro: diventa una lezione animata in 3D, con voce, fonti e domande.",
+        description: "Fotografa una pagina: diventa una lezione animata in 3D, con voce, fonti e domande.",
         lang: "it",
         start_url: "./",
         scope: "./",

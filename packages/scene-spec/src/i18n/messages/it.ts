@@ -3,7 +3,7 @@
 // fallback); "server." are the progress and error messages of the photo pipeline.
 export const it = {
   // Home (apps/web/src/main.ts)
-  "home.lead": "Fotografa una pagina di un libro: la trasformo in una lezione animata, con voce, fonti e domande. Puoi anche incollare una foto con Ctrl+V.",
+  "home.lead": "Fotografa una pagina: la trasformo in una lezione animata, con voce, fonti e domande. Puoi anche incollare una foto con Ctrl+V.",
   "home.shoot": "Scatta una foto",
   "home.upload": "Carica una foto",
   "home.paste": "Incolla una foto",
@@ -22,8 +22,8 @@ export const it = {
   "tips.title": "Per una buona foto",
   "tips.1.head": "Tutta la pagina",
   "tips.1.text": "Inquadra la pagina intera: i quattro angoli devono stare dentro la foto.",
-  "tips.2.head": "Libro piatto",
-  "tips.2.text": "Apri bene il libro e tieni il telefono parallelo alla pagina, non di sbieco.",
+  "tips.2.head": "Pagina piatta",
+  "tips.2.text": "Tieni la pagina ben distesa e il telefono parallelo, non di sbieco.",
   "tips.3.head": "Buona luce",
   "tips.3.text": "Vicino a una finestra o sotto una lampada. Niente ombre (attento a quella del telefono) e niente riflessi.",
   "tips.4.head": "Foto nitida",
@@ -323,18 +323,18 @@ export const it = {
   "ar.group": "Realtà aumentata",
 
   // Texts the server writes into a lesson (server/src/generate/checks.ts, fallback.ts)
-  "lesson.aiDisclaimer": "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro.",
+  "lesson.aiDisclaimer": "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sulla pagina originale.",
   "lesson.reconstruction": "Ricostruzione animata e semplificata: luoghi, personaggi, proporzioni e movimenti servono a spiegare e non sono in scala.",
-  "lesson.literary": "Il testo è raccontato con parole nostre{by}. Per gustarlo davvero, leggilo sul libro!",
+  "lesson.literary": "Il testo è raccontato con parole nostre{by}. Per gustarlo davvero, leggilo nel testo originale!",
   "lesson.literaryBy": ": l'originale è di {author}",
   "lesson.literaryWork": " ({work})",
   "lesson.exaggeration": "Altezze esagerate {n} volte rispetto alla realtà.",
   "lesson.fallbackDisclaimer": "Scheda semplice preparata dall'analisi della pagina: la scena animata non è stata generata.",
-  "lesson.discrepancy": "{claim}: il libro indica {book}, {according} è {value}{note}.",
+  "lesson.discrepancy": "{claim}: la pagina indica {book}, {according} è {value}{note}.",
   "lesson.according": "secondo {source}",
   "lesson.accordingSources": "secondo le fonti",
-  "lesson.cardDiscrepancy": "{claim}: il libro indica {book}, le fonti {value}{note}.",
-  "lesson.pageSource": "Pagina del libro{pages}: {topic}",
+  "lesson.cardDiscrepancy": "{claim}: la pagina indica {book}, le fonti {value}{note}.",
+  "lesson.pageSource": "Pagina fotografata{pages}: {topic}",
   "lesson.pageSourcePages": ", p. {pages}",
   "lesson.calcSource": "Calcoli svolti nella lezione a partire dalle formule dei grafici",
   "lesson.cardIntroChip": "Di che parla",

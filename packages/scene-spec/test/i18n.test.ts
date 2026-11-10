@@ -92,7 +92,7 @@ describe("message catalogs", () => {
   it("keeps the original Italian texts", () => {
     expect(t("home.shoot")).toBe("Scatta una foto");
     expect(textIn(undefined, "lesson.aiDisclaimer")).toBe(
-      "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sul libro.",
+      "Lezione generata automaticamente con l'intelligenza artificiale a partire dalla pagina fotografata: può contenere errori, controlla sempre sulla pagina originale.",
     );
     setUiLanguage("en-US");
     expect(t("photo.uploading", { pct: 5, sent: "1 MB", total: "2 MB" })).toBe("Sending the photo… 5% (1 MB of 2 MB)");

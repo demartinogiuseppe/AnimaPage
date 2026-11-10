@@ -2,7 +2,7 @@ import { ANALYSIS_ENGINES, checkScene, EngineId, SceneSpec, type PageAnalysis } 
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { AI_DISCLAIMER, checkLessonParts, checkMathActivity, checkNumberProvenance, numberIndex, numberSpellings, postprocess } from "../src/generate/checks.ts";
+import { checkLessonParts, lessonText, checkMathActivity, checkNumberProvenance, numberIndex, numberSpellings, postprocess } from "../src/generate/checks.ts";
 import { pageFormulaNumbers, solidMathNumbers } from "../src/generate/enginemath.ts";
 import { REFERENCE_SCENES_DIR, engineExample, exampleRef } from "../src/generate/example.ts";
 import { cardFromAnalysis, chooseEngine, dropUnknownSliders, earlyChapter, GENERATE_FIXTURES_DIR, generateScene, generationRequest } from "../src/generate/index.ts";
@@ -206,7 +206,7 @@ describe("post-processing and content checks", () => {
     expect(scene.page).toEqual({ subject: "storia", topic: "La fine dell'impero romano", bookPage: "116", language: "it" });
     expect(scene.videos).toEqual(enrich.videos);
     expect(scene.sources.map((s) => s.id)).toEqual(["page", "wp-odoacre"]);
-    expect(scene.disclaimers).toContain(AI_DISCLAIMER);
+    expect(scene.disclaimers).toContain(lessonText("it", "lesson.aiDisclaimer"));
     const first = scene.chapters[0]!.narration[0]!;
     expect(first.sourceIds).toEqual(["page"]);
     expect(first.speech).toContain("dopo Cristo");
