@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AnimaPage · Esempi</title>
+<meta name="description" content="Dieci lezioni 3D interattive create con AnimaPage dalla foto di una pagina di un libro di studio. Ten interactive 3D lessons made with AnimaPage.">
+<style>
+:root{
+  --paper:#f4f1e8; --card:#fffdf8; --ink:#1f1a17; --muted:#5f574f; --line:#e2dccd;
+  --green:#17805a; --green-ink:#ffffff; --chip:#e6f2ec; --chip-ink:#11603f; --shadow:0 1px 2px rgba(31,26,23,.06),0 6px 18px rgba(31,26,23,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --paper:#16130f; --card:#211c17; --ink:#f1ece2; --muted:#b8ad9f; --line:#3a332b;
+    --green:#3fb488; --green-ink:#0d1a14; --chip:#1f3a2e; --chip-ink:#9fe0c3; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 22px rgba(0,0,0,.35); }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--green)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+header{padding:48px 0 28px}
+.brand{font:700 15px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
+h1{font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif;font-weight:700;font-size:clamp(30px,5vw,48px);line-height:1.12;margin:14px 0 12px;max-width:20ch}
+.lead{font-size:18px;color:var(--muted);max-width:62ch;margin:0}
+.lead-en{font-size:15px;color:var(--muted);max-width:66ch;margin:10px 0 0;font-style:italic}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0 0;padding:0;list-style:none}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.steps b{display:block;font-size:15px;margin-bottom:2px}
+.steps span{color:var(--muted);font-size:14px}
+.note{margin:18px 0 0;padding:12px 14px;border-left:3px solid var(--green);background:var(--card);border-radius:0 10px 10px 0;font-size:14.5px;color:var(--muted);max-width:80ch}
+h2{font-family:Georgia,"Iowan Old Style",serif;font-size:24px;margin:34px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:0 0 40px;padding:0;list-style:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .15s ease,box-shadow .15s ease}
+.card:hover{transform:translateY(-2px)}
+.card a.cover{display:block;aspect-ratio:560/378;background:#cfc8b8;overflow:hidden}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:600 11.5px/1 ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;background:var(--chip);color:var(--chip-ink);padding:5px 8px;border-radius:999px}
+.chip.theatre{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.card h3{margin:2px 0 0;font-family:Georgia,"Iowan Old Style",serif;font-size:19px;line-height:1.25}
+.topic{margin:0;color:var(--muted);font-size:14px}
+.meta{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:8px;padding-top:6px;font-size:13px;color:var(--muted)}
+.open{display:inline-flex;align-items:center;gap:6px;background:var(--green);color:var(--green-ink);text-decoration:none;font-weight:600;font-size:14px;padding:8px 13px;border-radius:999px;min-height:40px}
+.open:focus-visible,.cover:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:13.5px}
+footer p{margin:6px 0;max-width:90ch}
+@media (max-width:720px){ .steps{grid-template-columns:1fr} header{padding-top:32px} }
+@media (prefers-reduced-motion: reduce){ .card{transition:none} .card:hover{transform:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">AnimaPage · Esempi</div>
+  <h1>La pagina del libro diventa una lezione 3D</h1>
+  <p class="lead">Dieci lezioni create con AnimaPage: si guardano e si usano direttamente nel browser, con voce narrante, etichette, quiz e attività. Girale con il dito o con il mouse, ascolta, prova.</p>
+  <p class="lead-en">Ten lessons made with AnimaPage, ready to explore in your browser (in Italian): 3D scenes with narration, labels, quizzes and activities.</p>
+  <ol class="steps">
+    <li><b>1 · Fotografi la pagina</b><span>di un libro di studio, qualsiasi materia e lingua</span></li>
+    <li><b>2 · L'AI scrive la lezione</b><span>capitoli, voce, etichette, domande; fatti e numeri verificati</span></li>
+    <li><b>3 · Un teatro 3D la mette in scena</b><span>sul tuo dispositivo, in pochi minuti</span></li>
+  </ol>
+  <p class="note">Queste lezioni sono già pronte. Per creare lezioni dalle tue foto installa AnimaPage dal <a href="https://github.com/demartinogiuseppe/AnimaPage">repository su GitHub</a> (gratuito, licenza MIT). Ogni file pesa circa 3–4 MB e funziona anche senza internet: dalla lezione puoi scaricarlo con «Esporta». La voce usa le voci del tuo browser.</p>
+</header>
+
+<main>
+<h2>Le lezioni</h2>
+<ul class="grid">
+  <li class="card"><a class="cover" href="troia.html" aria-label="Apri la lezione: I Micenei"><img src="thumbs/troia.jpg" alt="Accampamento acheo sulla spiaggia, con navi, guerrieri e un carro" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Storia</span><span class="chip theatre">Battaglie</span></div>
+    <h3>I Micenei</h3><p class="topic">Le civiltà dell'Egeo: i Micenei e la guerra di Troia</p>
+    <div class="meta"><span>6 capitoli</span><a class="open" href="troia.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="matematica-parabola.html" aria-label="Apri la lezione: Studio di funzione"><img src="thumbs/matematica-parabola.jpg" alt="Piano cartesiano su una lavagna" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Matematica</span><span class="chip theatre">Concetti</span></div>
+    <h3>Studio di funzione: un esempio svolto</h3><p class="topic">Dominio e simmetria, passo per passo</p>
+    <div class="meta"><span>6 capitoli</span><a class="open" href="matematica-parabola.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="laboratorio-energia.html" aria-label="Apri la lezione: L'energia si trasforma"><img src="thumbs/laboratorio-energia.jpg" alt="Banco di laboratorio con un esperimento sull'energia" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Scienze</span><span class="chip theatre">Laboratorio</span></div>
+    <h3>L'energia si trasforma</h3><p class="topic">Energia potenziale, energia cinetica e calore</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="laboratorio-energia.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="arte-ultima-cena.html" aria-label="Apri la lezione: L'Ultima Cena di Leonardo"><img src="thumbs/arte-ultima-cena.jpg" alt="L'Ultima Cena di Leonardo nella sala del Cenacolo" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Arte e immagine</span><span class="chip theatre">Arte</span></div>
+    <h3>L'Ultima Cena di Leonardo</h3><p class="topic">Leonardo da Vinci, il Cenacolo</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="arte-ultima-cena.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="cielo-stagioni.html" aria-label="Apri la lezione: Le stagioni e le fasi della Luna"><img src="thumbs/cielo-stagioni.jpg" alt="La Terra nello spazio con il suo asse e l'orbita" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Scienze</span><span class="chip theatre">Cielo</span></div>
+    <h3>Le stagioni e le fasi della Luna</h3><p class="topic">Rotazione, rivoluzione, stagioni e fasi lunari</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="cielo-stagioni.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="geometria-solidi.html" aria-label="Apri la lezione: Geometria solida"><img src="thumbs/geometria-solidi.jpg" alt="Solidi geometrici sulla pagina del libro" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Matematica</span><span class="chip theatre">Solidi</span></div>
+    <h3>Geometria solida</h3><p class="topic">Sviluppo, solidi di rotazione, volumi e similitudine</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="geometria-solidi.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="terra-sezione.html" aria-label="Apri la lezione: La Terra in sezione"><img src="thumbs/terra-sezione.jpg" alt="La Terra tagliata a metà con i suoi strati interni" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Scienze della Terra</span><span class="chip theatre">Terra</span></div>
+    <h3>La Terra in sezione</h3><p class="topic">Struttura interna, placche e terremoti</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="terra-sezione.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="musica-pentagramma.html" aria-label="Apri la lezione: Note, ritmo e timbro"><img src="thumbs/musica-pentagramma.jpg" alt="Pentagramma con le note" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Musica</span><span class="chip theatre">Musica</span></div>
+    <h3>Note, ritmo e timbro</h3><p class="topic">Il pentagramma, i valori delle note e il timbro</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="musica-pentagramma.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="officina-mulino.html" aria-label="Apri la lezione: Il mulino ad acqua"><img src="thumbs/officina-mulino.jpg" alt="Mulino ad acqua con ruota, ingranaggi e macina" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Tecnologia</span><span class="chip theatre">Officina</span></div>
+    <h3>Il mulino ad acqua</h3><p class="topic">Dall'acqua alla farina</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="officina-mulino.html">Apri la lezione</a></div></div></li>
+
+  <li class="card"><a class="cover" href="facciata-tempio-chiesa.html" aria-label="Apri la lezione: Dal tempio greco alla cupola del Pantheon"><img src="thumbs/facciata-tempio-chiesa.jpg" alt="Facciata di un tempio greco disegnata a linee" loading="lazy" width="560" height="378"></a>
+    <div class="body"><div class="chips"><span class="chip">Arte e immagine</span><span class="chip theatre">Facciate</span></div>
+    <h3>Dal tempio greco alla cupola del Pantheon</h3><p class="topic">Il tempio di Paestum, San Miniato al Monte e il Pantheon</p>
+    <div class="meta"><span>3 capitoli</span><a class="open" href="facciata-tempio-chiesa.html">Apri la lezione</a></div></div></li>
+</ul>
+</main>
+
+<footer>
+  <p><b>AnimaPage</b> · progetto open source, licenza MIT, © 2026 G. De Martino · <a href="https://github.com/demartinogiuseppe/AnimaPage">codice sorgente</a> · <a href="https://github.com/demartinogiuseppe/AnimaPage/blob/main/NOTICE.md">crediti e licenze di terzi</a></p>
+  <p>Le lezioni sono scritte da un modello AI e i numeri sono verificati, ma possono contenere errori: un insegnante dovrebbe rivederle prima di usarle in classe. Fonti e attribuzioni sono indicate dentro ogni lezione («Fonti»). Questa pagina non raccoglie dati e non usa cookie.</p>
+  <p>Hai provato una lezione? Scrivici cosa funziona e cosa no: <a href="https://github.com/demartinogiuseppe/AnimaPage/issues">apri una segnalazione</a>.</p>
+</footer>
+</div>
+</body>
+</html>
